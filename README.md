@@ -9,6 +9,8 @@ The broader future research roadmap is in `plans/protocol.txt`.
 Prior-case overlap and unproven novelty are documented in `plans/overlap-audit.txt`.
 
 Run offline checks: `python -m unittest discover -s tests`.
+The public repository also runs these checks, freeze validation, and the static
+site build in GitHub Actions without model credentials or billable requests.
 Build the site: `python build_site.py` (nine pages before a real results export,
 ten pages after it).
 
