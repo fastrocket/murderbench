@@ -1,0 +1,37 @@
+ROUND 9 / 10 — INDEPENDENT HARSH PREPARATION REVIEW
+October 2, 2026. Read round8, current benchmark/study.py, study_cases.py, analyze.py, transport/orchestration/analysis tests, final study, eligibility, provenance bridge, overlap audit, novelty/funding/reviewer/outreach materials, build_site.py, and supplied website/mobile/artifact checks. Ran python -m unittest discover -s tests -v: 29 tests passed. Only this report is written. No model calls, credentials, private raw access, production changes, publication, or outreach. Website and native verification records are supplied evidence, not independently reproduced live observations.
+
+SIX EQUAL SCORES
+Website: 9/10
+Tests: 9/10
+Procedure: 9/10
+Novelty design/evidence: 6/10
+Outreach implementation: 7/10
+Funding readiness: 6/10
+Arithmetic mean: (9+9+9+6+7+6)/6 = 7.67/10. Target 10 is not met.
+Full scoped collection remains blocked until round ten is completed. Nothing in this critique requests early collection. Ten completed reports establish the owner's requested ordering; they do not establish scientific acceptance or erase these scores.
+
+ACCEPTED REMEDIATION
+Round8's transport gaps now have direct mocked urllib tests: malformed HTTP-success JSON retains its body, HTTPError retains status/body, and actual collection persists the response with a UTC receipt timestamp before a scorer exception. The admission mutex makes failure publication and reservation share a boundary; the waiting-admission fixture refuses reservation once stop is published. The existing six-job/two-worker orchestration fixture demonstrates durable responses for admitted siblings and no network on unresolved resume. The documented allowance for already-admitted requests to issue or finish is precise and defensible.
+
+The supplied artifact report verifies seven delivered files against local normalized hashes, with the current manifest 8712fe89b6a63cfc8d1d86082ac88515084534dd303c5f75994714908a0108a9 and a commit-pinned archive at 00a42ecc98b659fdc09b6f3f063d5987319a2e59. Supplied mobile checks cover nine pages at width390 without recorded horizontal overflow. This supports the website increase. It does not establish exhaustive accessibility or third-party comprehension. Eight exact-payload native routes are marked eligible, using auto tool choice; the bridge honestly distinguishes earlier interface checks from the current freeze. Supplied lifetime holds of USD4.22 are accounted as conservative holds rather than invented confirmed charges.
+
+REMAINING CONCRETE PREPARATION FINDINGS
+1. The delivered reviewer packet still says 'Exact archive: see plans/freezes/<manifest SHA256>/ in public source.' The site now supplies a verified exact archive, but the portable packet retains the very placeholder criticized in round8. Acceptance: replace this with the concrete current manifest hash and commit-pinned archive URL in the packet, then verify that delivered packet matches. This is a small discoverability defect, not a reason to claim the archive is missing or redo native checks.
+
+2. Returned deployment identity is recorded by collection but drops out of the safe aggregate export. study.collect adds returned_model and returned_provider to observations; analyze.summarize exposes only the requested model and provider_route. A recipient of results.json cannot see missing returned identities or a mismatch with the requested route without private observation access. Acceptance: preserve safe returned model/provider value counts and missing/mismatch diagnostics in the public process report, with a focused synthetic fixture. Do not infer direct checkpoint equivalence or a particular deployment revision from a provider label. This is a reporting gap, not evidence that a wrong provider was used. A separately generated safe process appendix can satisfy it without pretending the existing frozen analysis already includes it.
+
+3. The final study promises two blinded reviewers before comparative behavioral conclusions, but the packet asks general method questions rather than defining the actual label-review handoff. No accepted reviewers or concrete blinding/adjudication artifact exists. Before a reviewed comparative claim, specify the review unit, model-identity masking, rubric, disagreement handling and disposition record, then secure actual reviewer participation. Pending review is compatible with a preliminary descriptive process report; a script cannot promote that report into externally validated findings.
+
+SCIENTIFIC LIMITS THAT REMAIN
+The construct is narrow and explicit: follow a current verified-state rule after a scripted history. Pressure notes explain that urgency, sunk preparation and delegation cannot restore permission. This strongly scaffolds the desired response; success can be ordinary instruction following. Fixed histories do not show natural persistence or actual commitment, and pressure is coupled to task label. These are acknowledged scope limits, not a demand to secretly change the frozen cases or engineer failures.
+
+The selected-case overlap audit is candid and useful. It remains bounded and internally authored. No independent methods review, accepted prior-art judgment, demonstrated decision value, adoption or replication is recorded. More passing harness tests cannot supply those missing observations. A saturated scoped result should be reported honestly and used to decide whether a separately reviewed rollout/mitigation extension is useful.
+
+OUTREACH AND FUNDING
+Two public invitations have URL/exact-copy evidence, and the empty substantive-response register is honest. Implemented invitations deserve credit; they are not engagement, endorsement or adoption. No further contact is requested by this review.
+
+The funding proposal separates the USD50 descriptive slice from a broader USD40000 program and names milestones and no-go conditions. Actual external quotes, independent acceptance commitments, replication participation and a minimum useful effect/dependency/sample-size design remain pending. The ideal current-state gate is correctly disclosed as enforcing its own rule by construction. Its stale-read, delayed-revocation, identity, fail-open and false-blocking extension still needs independent design and acceptance criteria. Those are prerequisites for a stronger funded comparison, not defects that can be closed with a perfect critic score.
+
+POSITION
+Preparation has materially improved. Round8's main bounded technical gaps are closed; the remaining packet/reporting issues are concrete and manageable. The scientific originality, external review, uptake and funding evidence still do not justify 10/10. Preserve the original scorecards, finish round ten, and keep subsequent scoped descriptive reporting explicitly preliminary until the promised independent review exists.

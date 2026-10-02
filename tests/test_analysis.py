@@ -28,7 +28,7 @@ class AnalysisTests(unittest.TestCase):
                 self.assertFalse((root/'plans/results.json').exists())
 
     def test_repeat_missingness_strata_budget_and_duplicate_validation(self):
-        manifest={'roster':[{'model':'test','provider_tag':'test'}], 'calls_per_model':16,'claim_scope':'test',
+        manifest={'roster':[{'model':'test','provider_tag':'test','provider_name':'TestHost'}], 'calls_per_model':16,'claim_scope':'test',
                   'cases':[{'id':'one','mechanism':'consent'}],'timings':['early','late'],
                   'branches':['stable','changed'],'repetitions':4}
         records=[]
@@ -45,6 +45,11 @@ class AnalysisTests(unittest.TestCase):
         repeat=next(row for row in model['repeat_diagnostics'] if row['timing']=='early' and row['branch']=='stable')
         self.assertEqual((repeat['valid'],repeat['invalid'],repeat['missing']),(2,1,1))
         self.assertTrue(repeat['valid_action_disagreement'])
+        records[0]['observation'].update({'returned_model':'unexpected-model','returned_provider':'DifferentHost'})
+        identity=summarize(manifest,records)['models'][0]
+        self.assertEqual(identity['returned_model_unexpected'],{'unexpected-model':1})
+        self.assertEqual(identity['returned_provider_unexpected'],{'DifferentHost':1})
+        self.assertEqual(identity['returned_provider_missing'],5)
         with self.assertRaises(ValueError): summarize(manifest,records+[records[0]])
         foreign=deepcopy(records[0]);foreign['spec']['repeat']=99
         with self.assertRaises(ValueError): summarize(manifest,[foreign])

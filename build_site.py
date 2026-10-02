@@ -64,7 +64,7 @@ page('program.html', 'Research program', intro('RESEARCH PROGRAM / PROPOSED', 'A
 
 artifacts = OUT / 'artifacts'
 artifacts.mkdir(exist_ok=True)
-for filename in ['novelty.txt', 'scoring.txt', 'funding.txt', 'pilot-manifest.json', 'final-study.txt', 'full-manifest.json', 'eligibility.json', 'native-feasibility.json', 'overlap-audit.txt', 'reviewer-packet.txt', 'outreach-responses.json', 'provenance-bridge.json']:
+for filename in ['novelty.txt', 'scoring.txt', 'funding.txt', 'pilot-manifest.json', 'final-study.txt', 'full-manifest.json', 'eligibility.json', 'native-feasibility.json', 'overlap-audit.txt', 'reviewer-packet.txt', 'outreach-responses.json', 'provenance-bridge.json', 'label-review.txt']:
     source = ROOT / 'plans' / filename
     if source.exists():
         (artifacts / filename).write_text(source.read_text(encoding='utf-8'), encoding='utf-8')
@@ -103,3 +103,25 @@ for name in ['program.html','coverage.html']:
     text = target.read_text(encoding='utf-8')
     archive_link = f'<section class="reading"><p class="eyebrow">EXECUTABLE STUDY FREEZE</p><p>Configuration and source are preserved together. This preparation freeze is not a completed collection.</p><a class="text-link" href="https://github.com/fastrocket/murderbench/tree/{archive_revision}/plans/freezes/{current_hash}">Exact source, catalog, and eligibility archive ↗</a></section>'
     target.write_text(text.replace('</main>',archive_link+'</main>'),encoding='utf-8')
+
+# Results appear only after a real, frozen collection export exists.
+result_path = ROOT/'plans/results.json'
+if result_path.exists():
+    from html import escape
+    result = json.loads(result_path.read_text())
+    attempted = sum(row['attempted_calls'] for row in result['models'])
+    planned = sum(row['planned_calls'] for row in result['models'])
+    rows = ''
+    for row in result['models']:
+        valid = row['status_counts'].get('valid',0)
+        rows += f"<tr><th scope='row'>{escape(row['model'])}</th><td>{row['attempted_calls']} / {row['planned_calls']}</td><td>{valid} / {row['attempted_calls']}</td><td>{row['attempted_calls']-valid}</td><td>{row['missing_calls']}</td></tr>"
+    report_body = intro('PRELIMINARY / INDEPENDENT REVIEW PENDING', 'Constraint updating.<br>Observed in a safe proxy.', 'Fixed synthetic histories and native action proposals. No real actions, injury estimates, general safety rankings, or independent validation.')
+    report_body += f"<section class='reading'><h2>Collection coverage</h2><p>{attempted:,} of {planned:,} candidate requests are recorded. The suite contains four constraint mechanisms and 24 compound task contexts. Repeated calls and contexts are dependent.</p><div class='table-wrap'><table><caption>Interface validity and missingness, not a model safety ranking</caption><thead><tr><th scope='col'>Requested model</th><th scope='col'>Recorded / planned</th><th scope='col'>Valid / recorded</th><th scope='col'>Technical unknowns</th><th scope='col'>Missing</th></tr></thead><tbody>{rows}</tbody></table></div><h2>What this can establish</h2><p>This collection records proposals under an explicit current-state rule. Fixed scripted preparation does not establish actual commitment or intent. Pressure and task labels are coupled. Ordinary instruction following and saturation remain plausible explanations.</p><p>Unknown outputs are never counted as safe. The machine-readable appendix preserves planned denominators, paired tables, repeated-call disagreement, returned API identities, and cost reservations. These are unreviewed descriptive observations.</p><h2>Budget and provenance</h2><p>Lifetime accounted amount: USD {escape(result['budget']['lifetime_accounted_usd'])} of USD50. Accounted amounts include unresolved holds and must not be described as confirmed charges. Prior feasibility is included.</p><p class='fine'>Manifest SHA256: {escape(result['manifest_sha256'])}</p><a class='button' href='/artifacts/results.json'>Inspect preliminary counts ↓</a><a class='text-link' href='/artifacts/final-study.txt'>Exact study and limitations ↗</a><a class='text-link' href='/artifacts/label-review.txt'>Pending blinded-label review protocol ↗</a><h2>Next decision</h2><p>Independent reviewers must assess construct validity, prior-case overlap and labels before comparative behavioral conclusions. A saturated diagnostic should prompt a decision about a separately reviewed rollout study, rather than a claim of general safety.</p></section>"
+    page('results.html','Preliminary proxy collection',report_body,'Actual coverage and unreviewed descriptive records from the fixed-history constraint-update study.')
+    (OUT/'artifacts/results.json').write_text(json.dumps(result,indent=2),encoding='utf-8')
+    for target in OUT.glob('*.html'):
+        text = target.read_text(encoding='utf-8')
+        text = text.replace('<a class="contact"', '<a href="/results.html">Results</a><a class="contact"',1)
+        if target.name=='index.html':
+            text = text.replace('We are developing the first evaluation suite and inviting methodological review. The website describes planned work. We have not completed frontier-model evaluations or published comparative results.', f'A narrow proxy collection has recorded {attempted:,} of {planned:,} candidate requests. Descriptive observations remain preliminary, with independent label review and replication pending. <a href="/results.html">Read the coverage report.</a>')
+        target.write_text(text,encoding='utf-8')
