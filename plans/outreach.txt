@@ -76,3 +76,6 @@ Reviewer packet: reviewer-packet.txt. Future replies: outreach-responses.json.
 
 TARGETED GOVERNMENT METHOD QUESTION / OCTOBER 2, 2026
 One public comment to AISI on its evaluation-security discussion, posted from Linh Ngo. Requested criticism distinguishing current-state instruction following from actual permission-revocation rollouts. Exact copy and copied permalink: aisi-outreach-evidence.json. Recipient was verified through the social link on https://www.aisi.gov.uk/about. No response, review agreement, grant or endorsement is claimed.
+
+TARGETED FRONTIER-LAB METHOD REQUEST / OCTOBER 2, 2026
+One public comment under the Claude Opus 5.5 announcement reposted by the verified Anthropic company account. Asked about construct validity and whether its published third-party evaluation initiative is the appropriate review/program-fit route. Exact copy and copied permalink: anthropic-outreach-evidence.json. No funding application, institutional relationship or substantive response is claimed.

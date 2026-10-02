@@ -1,0 +1,12 @@
+{
+  "platform": "LinkedIn",
+  "author": "Linh Ngo",
+  "recipient": "Claude / Anthropic",
+  "recipient_verification": "Verified Anthropic company page, linking anthropic.com, reposted this Claude announcement.",
+  "company_page": "https://www.linkedin.com/company/anthropicresearch/",
+  "url": "https://lnkd.in/p/guEF-kvm",
+  "parent_post": "https://www.linkedin.com/feed/update/urn:li:activity:7508201913545494529/",
+  "copy": "For third-party evaluators, what evidence would distinguish reliable responses to an explicit permission update from restraint during an agent’s own task rollout?\n\nI’m developing MurderBench, starting with a deliberately narrow, fixed-history suite that includes Opus 5.5 through a pinned OpenRouter route. It records proposals only, with no action execution or general safety ranking. I’m seeking criticism of construct validity and overlap with existing evaluations before extending it: https://murderbench.com/program.html.\n\nIs your published third-party evaluation initiative the appropriate route for a methodological-review or program-fit request at this stage? I’m not assuming the initiative is currently accepting proposals.",
+  "verified_utc": "2026-10-02T23:28:09.052Z",
+  "substantive_response_observed": false
+}
