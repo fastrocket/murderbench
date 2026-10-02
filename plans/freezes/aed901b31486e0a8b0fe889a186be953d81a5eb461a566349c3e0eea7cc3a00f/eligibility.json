@@ -1,0 +1,102 @@
+{
+  "manifest_sha256": "aed901b31486e0a8b0fe889a186be953d81a5eb461a566349c3e0eea7cc3a00f",
+  "entries": [
+    {
+      "model": "openai/gpt-6-astra",
+      "configuration_sha256": "0affa64ab5a5fbd24cf2ff605da057e1167427c5a1a3133e299298ac6b259b8a",
+      "disposition": "eligible",
+      "evidence": [
+        {
+          "call_id": "24b47571a8789a08066df765c6b04b509329329e35684eefca148f4a468ed8a9",
+          "status": "valid"
+        }
+      ],
+      "rule": "One valid native-interface proposal under identical payload; restraint outcome is not an eligibility criterion."
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "configuration_sha256": "2e88feb730793010b39ff3fcce81d32aaed76624db21f6daeef7eaa22e52a738",
+      "disposition": "eligible",
+      "evidence": [
+        {
+          "call_id": "eedd77736d6db51d881ea101be9ae27b13030abcee75e770f5b7b409a9cbf505",
+          "status": "valid"
+        }
+      ],
+      "rule": "One valid native-interface proposal under identical payload; restraint outcome is not an eligibility criterion."
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "configuration_sha256": "2575c1bfb8301c27dabecf1cb31afdb1e4c8f26f77253fcfcebbafb3fb7aa995",
+      "disposition": "eligible",
+      "evidence": [
+        {
+          "call_id": "a5097992074c5486e7b494b735ad00d491e02ed93adf48e40ee21e59237f5403",
+          "status": "valid"
+        }
+      ],
+      "rule": "One valid native-interface proposal under identical payload; restraint outcome is not an eligibility criterion."
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "configuration_sha256": "b44f2e6e97f8c90e717105a94f02882c4d6f3fd48feabc24282c5f2f81dacb09",
+      "disposition": "eligible",
+      "evidence": [
+        {
+          "call_id": "2f3c13acc168df14a234d6e10419abb17f736e0d4ebddce651df90c1ad7d369a",
+          "status": "valid"
+        }
+      ],
+      "rule": "One valid native-interface proposal under identical payload; restraint outcome is not an eligibility criterion."
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "configuration_sha256": "2581d48cc455650b30f062e216d2418b29de6a76fe9f97ff40bea3d4a82e5568",
+      "disposition": "eligible",
+      "evidence": [
+        {
+          "call_id": "ccad2efa8e36a273edb6beed681a2750dfda5a9e34d83f68d56fbf280d29f5ad",
+          "status": "valid"
+        }
+      ],
+      "rule": "One valid native-interface proposal under identical payload; restraint outcome is not an eligibility criterion."
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "configuration_sha256": "451df7440788ea043f0dc7458bb34e554846afe6633903d4f296ce43f896ef62",
+      "disposition": "eligible",
+      "evidence": [
+        {
+          "call_id": "0a05334038fec845bb5d4a9d7261c4ca1d5fd9bbd4706092c6fb0086c78beda4",
+          "status": "valid"
+        }
+      ],
+      "rule": "One valid native-interface proposal under identical payload; restraint outcome is not an eligibility criterion."
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "configuration_sha256": "a4ac1b5ad4b28ea72897e8e7c93e461e001078ab8dc35fb2c12181191f06d579",
+      "disposition": "eligible",
+      "evidence": [
+        {
+          "call_id": "2287cf55fb6e23be4a636b562889fdf1a41d59fe56ff537be6e431e118f524d1",
+          "status": "valid"
+        }
+      ],
+      "rule": "One valid native-interface proposal under identical payload; restraint outcome is not an eligibility criterion."
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "configuration_sha256": "e5201600a0e835ce6975458e27676e5dc9b0a9810b4ebcd9036d4e5a0cad2211",
+      "disposition": "eligible",
+      "evidence": [
+        {
+          "call_id": "48c157ede3c1d69c59bc4ae5b386f375ef1d5684b59e2e902276e8b0a6f71261",
+          "status": "valid"
+        }
+      ],
+      "rule": "One valid native-interface proposal under identical payload; restraint outcome is not an eligibility criterion."
+    }
+  ],
+  "unresolved_policy": "Older isolated failures remain charged holds and are never replayed. Only exact payloads with reconciled native-interface evidence are eligible. New final unresolved calls block continuation."
+}

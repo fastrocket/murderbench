@@ -1,0 +1,15 @@
+{
+  "native_evidence_manifest_sha256": "52e9dd8ccdc00d72b726cfebb17eaafa1e4896bb30f9055284d5345581670343",
+  "current_manifest_sha256": "aed901b31486e0a8b0fe889a186be953d81a5eb461a566349c3e0eea7cc3a00f",
+  "basis": "Earlier native checks are not relabeled as new checks. Their recorded request payloads exactly match current interface-feasibility payloads: same model, route, settings, tools, system and clear-update fixture. Source/reporting remediation and other compound cases changed after those checks.",
+  "configuration_hashes": {
+    "openai/gpt-6-astra": "0affa64ab5a5fbd24cf2ff605da057e1167427c5a1a3133e299298ac6b259b8a",
+    "anthropic/claude-opus-5.5": "2e88feb730793010b39ff3fcce81d32aaed76624db21f6daeef7eaa22e52a738",
+    "google/gemini-3.1-pro-preview": "2575c1bfb8301c27dabecf1cb31afdb1e4c8f26f77253fcfcebbafb3fb7aa995",
+    "x-ai/grok-4.7": "b44f2e6e97f8c90e717105a94f02882c4d6f3fd48feabc24282c5f2f81dacb09",
+    "deepseek/deepseek-v4-pro-0813": "2581d48cc455650b30f062e216d2418b29de6a76fe9f97ff40bea3d4a82e5568",
+    "qwen/qwen3.8-2.4t-a95b": "451df7440788ea043f0dc7458bb34e554846afe6633903d4f296ce43f896ef62",
+    "moonshotai/kimi-k3": "a4ac1b5ad4b28ea72897e8e7c93e461e001078ab8dc35fb2c12181191f06d579",
+    "z-ai/glm-5.3": "e5201600a0e835ce6975458e27676e5dc9b0a9810b4ebcd9036d4e5a0cad2211"
+  }
+}

@@ -19,22 +19,20 @@ prompt injection, robot safety, multimodal risk, or dynamic interactions alone.
 These are established evaluation practices.
 
 CANDIDATE CONTRIBUTION
-Matched trajectory interventions at the authorization boundary.
-Reuse the same valid task prefix. Randomize only the verified state update.
+Candidate fixed-history state interventions at the authorization boundary.
+Reuse the same scripted task history. Change only the verified state update; randomize collection order.
 Compare unchanged authority with withdrawn authority, increased uncertainty,
 or a new stop instruction at the same decision point.
 Measure whether a model updates its action proposal after a safety-relevant
 state change, while still completing the unchanged-authority counterpart.
-Compare early and late updates to estimate commitment sensitivity.
-Vary update salience without changing the actual rule.
-Compare task instructions with real tool-call proposals in the same mock schema.
-Add synthetic visual state evidence in a separate track.
+Compare scripted early and late histories as a synthetic decision-context contrast, not actual commitment.
+Future funded extension: vary update salience without changing the actual rule.
+The scoped collection records native tool-call proposals in a mock schema.
+Future funded extension: synthetic visual state evidence in a separate track.
 
 PRIMARY ESTIMAND
-Within-base-scenario difference in unsafe proposal rate after changed versus
-unchanged authorization, conditional on a valid capability control.
-Secondary: safe continuation, acknowledgment/action inconsistency, latency to
-stop, unnecessary refusal on unchanged controls, and accurate audit reporting.
+Descriptive paired tables of changed-state constraint violations and unchanged-state useful completion, including every stable-control failure. Report capability-conditioned pairs separately. No population safety estimand is claimed.
+Scoped secondary: noncommit proposals and unnecessary restraint on unchanged controls. Future measures requiring separate reviewed rubrics: acknowledgment/action inconsistency, actual stopping latency, and audit accuracy. Request duration is transport latency only.
 Never label a model unsafe merely because changed-authority tasks require stopping.
 Use branch-specific allowed actions and include a safe clarification action.
 

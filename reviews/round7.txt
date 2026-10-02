@@ -1,0 +1,35 @@
+ROUND 7 / 10 — INDEPENDENT HARSH PREPARATION REVIEW
+October 2, 2026. Read round6 and current study runner, cases, analysis, tests, site builder, study/eligibility/overlap/funding/reviewer packet and public feasibility/outreach evidence. Ran python -m unittest discover -s tests -v: 23 tests passed. This report is the only file written. No model calls, credentials, private raw records, production changes or publication. Supplied browser/DNS/TLS evidence is accepted as supplied evidence, not a fresh independent browser audit.
+
+SIX EQUAL SCORES
+Website: 8/10
+Tests: 8/10
+Procedure: 8/10
+Novelty design/evidence: 6/10
+Outreach implementation: 7/10
+Funding readiness: 6/10
+Arithmetic mean: (8+8+8+6+7+6)/6 = 7.17/10. Target 10 is not met.
+Full scoped collection must wait until all ten rounds finish. Missing final comparative results are not a preparation defect or permission to run early.
+
+ACCEPTED REMEDIATION
+Round6's main implementation defects are materially addressed: analysis uses validated_manifest(), exports prior/final/lifetime conservative costs and final holds, and adds mechanism_timing paired strata. The scorer admits only tool_calls and explicitly rejects unknown finishes. The new actual-entry-point tests preserve an HTTP failure and concurrently started valid sibling, prevent network requests at a lifetime prior hold of USD49.6, and preserve timeout reservations. Compound-case coupling and synthetic timing are clearly acknowledged. The funding proposal explicitly recognizes a perfect-current-state gate as a construction baseline. The reviewer packet now has concrete questions and a deadline; the empty response register is honest. LinkedIn and X invitations represent implemented outreach without endorsement claims. Supplied nine-page mobile and DNS/TLS/renewal checks remove any basis for repeating earlier overflow or certificate allegations.
+
+REMAINING IMPLEMENTATION / ACCEPTANCE FINDINGS
+1. Repeat disagreement is promised but not exported. analyze.py pools the three repetitions into groups and paired tables without a per-case/timing/branch action-disagreement diagnostic. The final-study text says to report repeat disagreement; dependent temperature-zero repeats can otherwise look like additional evidence. Add an explicit diagnostic with attempted/valid/invalid/missing repeat counts and observed action sets, preferably paired-repeat consistency too. Acceptance: a fixture with complete/pause/invalid and a missing repeated condition exposes disagreement and incomplete coverage without inflating independence or silently discarding invalids. This requires no billable collection.
+
+2. The analysis fixes have almost no direct regression coverage. test_analysis.py still contains one small failed-control fixture. No test checks nonzero prior cost plus a received hold, mechanism-by-timing aggregation, or the actual export entry point refusing changed analysis/catalog before writing. The present implementation appears correct, but the public acceptance evidence is weaker than the claims. Add focused offline fixtures for these three meaningful invariants. Acceptance: lifetime accounting reconciles exactly; every stratum totals to its planned denominator; tampered source/catalog writes no results artifact. Do not substitute a test of the helper alone for the export boundary.
+
+3. The concurrent test has exactly two jobs and two workers. It proves both started payloads persist, but cannot prove later jobs stop after failure because there are no later jobs. The timeout test likewise does not invoke resume. Strengthen with more queued jobs than workers, a controlled failure ordering, a resumed entry point, explicit no-network assertion, and lock cleanup. Also cover smoke catalog rejection directly. These are bounded coverage gaps, not evidence that the current runner replays calls or loses responses.
+
+4. Public provenance is still unnecessarily difficult to follow. native-feasibility.json declares an older manifest hash while eligibility.json declares the current freeze. Exact-payload eligibility reuse can legitimately survive source-only revisions, but the reader must reconstruct that argument. Add a short explicit provenance bridge listing native evidence manifest, current manifest, payload/configuration hashes and unchanged-interface basis. Do not relabel old checks as newly executed checks. The website still links a changing repository root beside the frozen manifest; provide a direct exact archive/source link. Publish or link the reviewer packet and response register so an invited reviewer can discover the precise requested review without repository searching.
+
+5. Analysis trusts record membership and uniqueness. A duplicate logical condition would increment attempted counts twice while overwriting its paired branch; a foreign case can fail obscurely. Store primary keys reduce accidental duplicates in normal collection, but the exported counts should reject duplicated or out-of-grid (model, case, timing, branch, repeat) records explicitly. Acceptance: duplicate/out-of-grid fixture fails before exporting inconsistent denominators. This is defensive report validation, not a claim that current stored records are corrupt.
+
+DESIGN / NOVELTY
+The scoped diagnostic is coherent and transparently bounded. Pressure notes explicitly tell the model which pressure cannot override approval, and the system prompt states the authority rule. Saturation and ordinary instruction following remain plausible. No honest local patch can establish decision value or originality. The bounded selected-case overlap audit and July2026 validity context improve framing; they do not establish exhaustive prior-art coverage, independent construct review, or a new capability measurement. Preserve the no-first/no-general-safety claim. A funded extension needs reviewed counterbalancing and useful decision criteria, including what a saturated result would change. Do not mutate this scoped suite merely to obtain dramatic failures.
+
+OUTREACH / FUNDING
+Prepared requests plus two verified posts justify the implementation improvement. There are still no substantive responses, accepted review roles, replication commitment or adoption evidence. Repeated posting cannot manufacture those outcomes. Funding readiness remains limited by pending actual quotes, sample-size rationale, independent acceptance and gate boundary cases/thresholds. The state-gate limitations are now candid; the specified stale-state/identity/fail-open/false-block cases must become independently accepted designs before funded mitigation claims. These are later milestone prerequisites and honest evidence gaps, not reasons to demand early full collection or contact people without authorization.
+
+ACCEPTANCE POSITION
+Continue rounds eight through ten with bounded offline remediation and public provenance cleanup. Preserve the collection gate. The harness is improving faster than external scientific and funding evidence; the score must reflect that distinction. Do not award a perfect preparation score simply because unresolved requirements have been restated as future work.

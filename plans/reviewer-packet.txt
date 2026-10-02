@@ -1,0 +1,18 @@
+METHOD REVIEW REQUEST PACKET / October 2, 2026
+Status: public feedback request; no reviewer has accepted or endorsed the work.
+Protocol: https://murderbench.com/artifacts/final-study.txt
+Frozen configuration: https://murderbench.com/artifacts/full-manifest.json
+Exact archive: see plans/freezes/<manifest SHA256>/ in public source.
+Source: https://github.com/fastrocket/murderbench
+Overlap audit: https://murderbench.com/artifacts/overlap-audit.txt
+Evidence questions:
+1. Which exact existing dataset case already tests this paired verified-state change?
+2. Does fixed-history constraint updating have useful decision value, or is it
+   ordinary instruction following that should be reported only as a diagnostic?
+3. Are failed stable controls, invalid outputs and missing partners treated correctly?
+4. What counterbalanced rollout or mitigation extension merits funding?
+5. Which independent failure cases should test the external state-gate baseline?
+Suggested feedback window: October16,2026; this is an invitation, not a commitment.
+Respond to linh@ngo.net or the published social invitation. Do not send secrets
+or executable attack payloads. Substantive feedback will receive a dated issue
+and disposition record; private identities will not be published without consent.

@@ -1,0 +1,65 @@
+{
+  "purpose": "One changed-state native-interface feasibility check per route, no comparative behavioral conclusions",
+  "manifest_sha256": "52e9dd8ccdc00d72b726cfebb17eaafa1e4896bb30f9055284d5345581670343",
+  "checked_routes": [
+    {
+      "model": "openai/gpt-6-astra",
+      "provider_route": "openai",
+      "status": "valid",
+      "state": "reconciled",
+      "billed_usd": "0.00406"
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "provider_route": "azure/global",
+      "status": "valid",
+      "state": "reconciled",
+      "billed_usd": "0.005272"
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "provider_route": "google-ai-studio",
+      "status": "valid",
+      "state": "reconciled",
+      "billed_usd": "0.003286"
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "provider_route": "xai",
+      "status": "valid",
+      "state": "reconciled",
+      "billed_usd": "0.002224"
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "provider_route": "phala",
+      "status": "valid",
+      "state": "reconciled",
+      "billed_usd": "0.0008930262"
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "provider_route": "novita",
+      "status": "valid",
+      "state": "reconciled",
+      "billed_usd": "0.002158"
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "provider_route": "morph/fp8",
+      "status": "valid",
+      "state": "reconciled",
+      "billed_usd": "0.002990824"
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "provider_route": "phala",
+      "status": "valid",
+      "state": "reconciled",
+      "billed_usd": "0.00040464"
+    }
+  ],
+  "lifetime_accounted_usd": "4.2215730912",
+  "unresolved_holds": "Earlier failed requests retained at USD0.50 each; conservative accounting includes them. No automatic replay.",
+  "routing_change": "Direct routes were replaced prospectively with privacy-compatible providers; data_collection deny retained. tool_choice auto is uniform."
+}

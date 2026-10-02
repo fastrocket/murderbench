@@ -60,3 +60,38 @@ REQUESTS
 Method reviewer: review controls and estimands; return a written issue list.
 Replication partner: rerun one frozen slice; return environment and trace hashes.
 Funder: support the scoped milestone package with scoring independence preserved.
+
+MILESTONE ACCEPTANCE ARTIFACTS / PROPOSED, ROLES UNSECURED
+Week3: pinned prior-case overlap matrix, construct map, exclusion decisions,
+and a written method review. Independent acceptance role: agent-evaluation
+researcher unaffiliated with the implementation. Name and quote pending.
+Week6: frozen source/catalog/eligibility/analysis, offline failure tests,
+complete case oracle, safe reproduction instructions. Acceptance role:
+independent research engineer; name and commitment pending.
+Week9: complete coverage and cost report, blinded label disagreement record,
+and a specified mitigation comparison. Candidate mitigation: external state-gate
+that refuses commit if the current authorization record is invalid; compare
+ungated proposals against gated simulated commits while preserving valid-state
+completion. This tests a wrapper policy, not improved model internal intent.
+Week12: independently reproduced subset with documented configuration differences,
+negative findings, corrected report, and release decision. Acceptance role:
+replication partner; no commitment currently secured.
+
+POWER AND QUOTES
+The USD50 initial slice is descriptive, not powered for rare events or population
+comparisons. Before funded comparative collection, an independent method reviewer
+must define a minimum useful mitigation effect, dependency unit, baseline variance,
+missingness assumptions, and required sample size. If no defensible design fits
+the funding ceiling, revise scope before accepting a funded milestone.
+Obtain actual engineering/review/replication quotes and model-price snapshots
+before submitting a binding budget. Current figures are planning estimates.
+The current fixed-history slice cannot substantiate behavior during natural
+agent rollouts; genuine rollout validation is a separately reviewed extension.
+
+STATE-GATE BASELINE LIMITS
+The perfect-current-state gate enforces its rule by construction. It is an
+implementation baseline, not a discovery of model improvement. A funded
+mitigation study must independently specify stale-state reads, delayed revocation,
+incorrect identity resolution, fail-open behavior and false blocking costs.
+Do not execute real actions; compare simulated outcomes and availability only.
+These boundary fixtures and acceptance thresholds require external review.

@@ -1,0 +1,43 @@
+ROUND 3 / 10 — INDEPENDENT HARSH PREPARATION REVIEW
+Date: 2026-10-02. Scope: repository artifacts, not production or private traces.
+No billable calls or full collection performed. Final collection remains gated until after round ten. The supplied passing offline checks and HTTPS/renewal evidence are acknowledged; neither is independent scientific validation.
+
+SCORES (six equal dimensions, integer scale 1–10)
+Website: 7/10
+Tests: 6/10
+Procedure: 6/10
+Novelty design/evidence: 5/10
+Outreach implementation: 3/10
+Funding readiness: 5/10
+Aggregate: 32/60 = 5.33/10. Preparation does not pass the requested perfect-score threshold.
+
+HIGH-PRIORITY FIXES BEFORE FINAL COLLECTION
+1. Shared budget is not actually a single lifetime ledger. study.Store snapshots pilot spent() as prior_cost and stores final spend only in full.sqlite. pilot.py subsequently consults only cost-ledger.jsonl. The shared runner.lock prevents simultaneous runs but cannot prevent a later pilot run from ignoring final spend. Conversely, any legitimate later pilot spend changes prior_cost and blocks final resumption. Make all authorized billable entry points account for both stores under the same lock, or disallow pilot collection once final-run state exists. Add an offline sequential-entry-point regression with near-exhausted budget. Do not rely on operator memory for the USD 50 ceiling.
+
+2. Reservation bound omits input outside messages. study.collect computes input ceiling from payload['messages'] only, while the native TOOL schema and provider-added tool serialization also consume tokens. The plan says input byte bounds guarantee a reservation envelope; that is stronger than this implementation demonstrates. Bound the full model input including tool schema with explicit serialization overhead, verify reasoning/output accounting and price-cap semantics from provider documentation, and store the bound used for each request. A received over-reservation bill cannot be undone by rejecting its cost afterward.
+
+3. Scoring is not total over malformed responses, and the raw response can be lost. score() dereferences calls[0].get and function.get without checking those objects are dictionaries; the action membership check can raise TypeError for list/dict actions. collect() calls score before Store.response, so malformed but billable successful responses can become only an error class and retained reservation, with raw response discarded. Persist raw response immediately, then score safely and atomically append the observation. Add null tool-call, list function, nonhashable action, non-dict usage/response and scorer-exception tests. Acceptance: every received payload survives and malformed output is a reported invalid trial rather than disappearing evidence.
+
+4. Executed harness freeze is incomplete. study.py imports API, ROOT, load_key and spent from pilot.py, but only study.py/study_cases.py are source-hashed. Changes to imported cost/transport logic can alter frozen execution without rejection. Include relevant dependency hashes, exact request payload and per-call UTC start/end times, run/git revision and environment metadata. Current records contain spec plus duration, but no call timestamp, and endpoint/catalog hashes are never revalidated against stored snapshots at collection. Make provenance reconstructible without inferring dates from one manifest creation time.
+
+5. Native-interface feasibility remains an unresolved gate. The final manifest still includes Anthropic although the supplied pilot exclusion concerns filtered output and missing usage. JSON-prefix pilot feasibility does not establish compatibility of forced native-tool plus reasoning settings for every frozen endpoint. Resolve through a bounded authorized isolated test and/or mark unavailable prospectively with a declared exclusion rule. Do not silently change the frozen roster after seeing behavior. No demand here for full behavioral results before round ten.
+
+DESIGN AND CLAIMS
+The matched branch wording and fixed scripted histories are sensible improvements. The narrowed final-study document correctly treats this as synthetic constraint updating and avoids general safety rankings. However, six noun substitutions per mechanism are context variants, not six independent safety mechanisms; three repetitions under temperature zero where available do not create three independent scenarios. Native defaults differ across endpoints. Report these dependencies and conditions prominently.
+
+novelty.txt still says early/late estimates commitment sensitivity and uses a capability-conditioned primary estimand, while final-study.txt calls the contrast a synthetic decision-context effect and requests descriptive rates without an explicit conditioning rule. The implemented late history asserts preparation rather than eliciting it. Align all public contribution/estimand language with the actual fixed-history construct and predefine how failed stable controls enter paired tables. The supplied prior-art list is a starting bibliography, not a scenario-level overlap audit. External method review and replication remain prerequisites to validated novelty, not prerequisites to collecting a clearly preliminary safe proxy study.
+
+WEBSITE
+Clear safe-simulation limits, no-results notice, contact and funding disclosures are positives. build_site.py still publishes the older four-case/96-call pilot on program.html and roadmap methodology, without final-study.txt or full-manifest.json in its artifact allowlist. It describes the pilot interface accurately but does not expose the separate current final-study plan. Add a visibly dated current-study section and links to frozen scope, roster, analysis and exclusions. Make roadmap versus feasibility versus final scoped study obvious. Supplied live HTTPS evidence supports availability; it does not establish comprehensive mobile/accessibility QA. Website score does not assume production changes were reviewed here.
+
+TESTS
+Durable missing-cost storage, manifest mismatch, negative/nonfinite costs and in-flight reservation checks are valuable. The current tests exercise Store directly rather than collect orchestration. Missing high-value cases include malformed received payload preservation, cross-entry-point budget lifetime, pre-round-ten refusal before any network call, source dependency mismatch, transport timeout/ambiguous outcome, and concurrent stop behavior. Add only bounded offline tests; do not broaden into unrequested billable collection.
+
+OUTREACH
+plans/outreach.txt has accurate drafts, narrow requests and evidence requirements. No post URL, final posted text, date/account capture or substantive reviewer response is present in the examined public artifacts. Therefore implementation is unverified and cannot receive a high score. An accurate founder invitation is useful evidence of outreach implementation; it does not establish institutional adoption. Capture verified authorized submissions and responses separately from drafts. This review authorizes no messaging.
+
+FUNDING
+The USD 40,000 arithmetic is transparent and the no-go gates are credible. Engineering owner is named; independent reviewer and replication commitments, quotes, a secured replication scope and an externally reviewed power/mitigation specification remain absent. Treat this as a proposal ready for feedback, not a ready institutional evidence package. Narrow the question wording about agents after a task has begun to scripted histories unless the funded future rollout is clearly distinguished. Obtain independent assessment of novelty and decision value before presenting funding readiness as complete.
+
+FINAL ACCEPTANCE
+Proceed with isolated remediation and checks during rounds. Freeze a consistent and auditable scoped study after changes. Collect only after round ten and within the lifetime budget. Public comparative conclusions require declared missingness, complete denominators, reviewer validation and preliminary labels until independent replication. No score can honestly be inflated to 10 simply because full collection is scheduled later.

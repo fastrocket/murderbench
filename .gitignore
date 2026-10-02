@@ -3,3 +3,5 @@ __pycache__/
 private/
 *.lock
 *.pyc
+
+reviews/*publication.png

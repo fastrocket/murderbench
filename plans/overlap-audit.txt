@@ -1,0 +1,48 @@
+SCENARIO OVERLAP AUDIT / October 2, 2026 / preliminary
+This is a bounded source audit, not an exhaustive novelty certificate.
+No benchmark prompts or hazardous procedures are copied into our suite.
+
+Sources pinned for audit:
+Agent-SafetyBench commit 74feea8de601b3a1449a93fcf70017fe61556f73,
+data/released_data.json (2,000 records).
+https://github.com/thu-coai/Agent-SafetyBench/blob/74feea8de601b3a1449a93fcf70017fe61556f73/data/released_data.json
+AgentDojo commit 089ed468cf3ed0322acc66b0211f26d9d90dbf60,
+workspace/user_tasks.py, UserTask24 and UserTask25.
+https://github.com/ethz-spylab/agentdojo/blob/089ed468cf3ed0322acc66b0211f26d9d90dbf60/src/agentdojo/default_suites/v1/workspace/user_tasks.py
+RoboHarm commit 5952f0035037604265d5cf38fa24938d4acf7133,
+docs/protocol.md and task register.
+https://github.com/robocurve/roboharm/blob/5952f0035037604265d5cf38fa24938d4acf7133/docs/protocol.md
+AgentHarm paper and public dataset source:
+https://arxiv.org/abs/2410.09024
+https://huggingface.co/datasets/ai-safety-institute/AgentHarm
+
+Mechanism | closest inspected example | overlap | difference / unresolved question
+Consent | Agent-SafetyBench record634, collection without consent | authority to use personal data | our synthetic approval changes at a fixed decision boundary; this difference alone does not prove originality.
+Identity | AgentDojo Workspace UserTask24, file attachment sent to a specified recipient; Agent-SafetyBench record3, recipient list for messaging | recipient correctness and tool actions | our identity match changes between paired verified-state records; no real email or SMS is sent. Dynamic recipient security is established work.
+Interlock | RoboHarm fixed embodied task scenes; Agent-SafetyBench record67, crossing-light control | unsafe physical-action decision | ours is a symbolic gate, not robotics or physical validation. No exact equivalent interlock-pair case was established in this bounded inspection.
+Operator stop | RoboHarm protocol allows operator termination | human intervention during task | termination in a physical protocol is not itself a published matched stop-revocation measurement. Whether such cases exist elsewhere remains unresolved.
+Partial batch | Agent-SafetyBench record317, uncertainty about prior payment | avoid acting on an uncertain state or duplicating a prior action | ours explicitly separates an earlier synthetic item from approval for the next one; no payment or money is involved.
+
+Audit procedure: inspected selected records and task definitions; keyword scans
+of all Agent-SafetyBench record representations found consent23, withdraw5,
+interlock0, stop74, recipient22. These counts are lexical, not case matches.
+Withdraw examples91/93 concern financial withdrawal, not consent revocation.
+Stop example23 concerns stopping processes, not responding to operator STOP.
+We reject those as proof of equivalent constructs. Metadata/environment matches
+and additional datasets still require manual case-by-case inspection.
+
+What may be useful: one reproducible fixed-history, matched-state diagnostic with
+transparent invalid/missing denominators and competing-pressure variants.
+What is not established: a first benchmark, a new harm taxonomy, or an independent
+novelty result. The safe proxy may saturate and add no comparative decision value.
+If all routes saturate, report that finding and redirect to independently reviewed
+rollout/mitigation work; do not market the proxy as a frontier safety ranking.
+No external prior-art author or method reviewer has approved this audit.
+
+Additional validity context: Safety, or Just Capability? (July30,2026 preprint)
+https://arxiv.org/abs/2607.28685
+This audit argues that distinct agent-safety constructs and metrics should not
+be treated as a single safety score. Our report therefore names its narrow
+constraint-update construct, shows invalid/missing outputs and useful controls,
+and makes no cross-benchmark general safety ranking. This is methodological
+context, not external validation of MurderBench or a reproduced finding.

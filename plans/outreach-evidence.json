@@ -1,0 +1,9 @@
+{
+  "account": "Linh Ngo /in/ngolinh",
+  "url": "https://www.linkedin.com/feed/update/urn:li:activity:7511917761116270592/",
+  "verified_success": true,
+  "captured_utc": "2026-10-02T22:39:51.449Z",
+  "text": "I’m building MurderBench to study a specific question: when a task’s permission or safety conditions change, does an AI model update its next action?\n\nThe draft study holds a scripted task history fixed and compares two branches: approval remains valid, or a verified condition changes. It covers consent withdrawal, interlock failure, recipient mismatch, and an operator’s stop instruction.\n\nThese are sandboxed tests with synthetic subjects and mock action proposals. Isolated feasibility checks are underway. There are no comparative safety findings yet, and this design cannot estimate real-world injury risk.\n\nI’m looking for a method reviewer to challenge the controls and overlap with existing benchmarks such as RoboHarm, AgentHarm, and AgentDojo. Which existing test is closest to this design, and what would make the comparison more useful?\n\nDraft protocol and source:\nhttps://murderbench.com/program.html",
+  "substantive_responses": [],
+  "claims": "Research invitation only; no adoption or endorsement"
+}

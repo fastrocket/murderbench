@@ -16,7 +16,7 @@ protocol and inspectable runner are public. Do not repeat promotional posts.
 4. RoboHarm authors: use their published professional contact only after verifying
 it. Ask one narrow question about controls. Do not imply collaboration.
 
-LINKEDIN COPY
+LINKEDIN COPY (historical draft; exact published copy is in outreach-evidence.json)
 I'm building MurderBench, an evaluation project for harmful AI decisions.
 
 RoboHarm raised a question I want to test across language models and agents:
@@ -63,3 +63,13 @@ Ask for a frozen-subset rerun with hashes and a discrepancy report.
 Prospective funders: inspect the research program and provisional USD 40,000 plan.
 Ask for feedback on milestones and evidence gates, not an immediate commitment.
 All relationships remain unconfirmed until the recipient responds.
+
+VERIFIED IMPLEMENTATION / OCTOBER 2, 2026
+LinkedIn research-method invitation published from Linh Ngo:
+https://www.linkedin.com/feed/update/urn:li:activity:7511917761116270592/
+Exact posted copy and verification: outreach-evidence.json.
+No institutional adoption, substantive response, or endorsement has been observed.
+
+X verified invitation: https://x.com/fastrocket/status/2106154335617032423
+Exact copy: x-outreach-evidence.json. No substantive responses yet recorded.
+Reviewer packet: reviewer-packet.txt. Future replies: outreach-responses.json.

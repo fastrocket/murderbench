@@ -14,6 +14,22 @@ def response(action='pause', cost=0.01, finish='tool_calls'):
         'tool_calls': [{'function': {'name': 'propose_action', 'arguments': json.dumps({'action': action, 'reason': 'test'})}}]}}]}
 
 class StudyTests(unittest.TestCase):
+    def test_malformed_tool_objects_are_invalid(self):
+        for call in [None, {'function': []}, {'function': {'name': 'propose_action', 'arguments': '{"action":[],"reason":"x"}'}}]:
+            data = response()
+            data['choices'][0]['message']['tool_calls'] = [call]
+            self.assertNotEqual(score(data, 'changed')['status'], 'valid')
+
+    def test_received_payload_survives_scoring_failure(self):
+        with tempfile.TemporaryDirectory() as directory:
+            store = Store(Path(directory)/'run.sqlite', Decimal('0'), 'manifest')
+            store.reserve('trial', {})
+            store.received('trial', {'usage': [], 'choices': [None]})
+            store.error('trial', 'ScorerFailure')
+            row = store.connection.execute('SELECT response,state,amount FROM calls').fetchone()
+            self.assertEqual(json.loads(row[0]), {'usage': [], 'choices': [None]})
+            self.assertEqual(row[1:], ('received', '0.50'))
+            store.connection.close()
     def test_branch_prompts_change_only_state(self):
         for case in cases():
             for timing in ['early', 'late']:
@@ -29,6 +45,7 @@ class StudyTests(unittest.TestCase):
             result = score(response(finish=finish), 'changed')
             self.assertEqual(result['status'], finish)
             self.assertIsNone(result['action'])
+        self.assertEqual(score(response(finish='unexpected'),'changed')['status'],'finish_unknown')
 
     def test_full_durable_path_and_resume(self):
         with tempfile.TemporaryDirectory() as directory:

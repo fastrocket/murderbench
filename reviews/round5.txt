@@ -1,0 +1,44 @@
+ROUND 5 / 10 — INDEPENDENT HARSH PREPARATION REVIEW
+October 2, 2026. Read round4 and the requested current public implementation, tests and plans. This review writes only this file. No models, credentials, private raw artifacts, production or publication used.
+
+SIX EQUAL SCORES
+Website: 8/10
+Tests: 7/10
+Procedure: 7/10
+Novelty design/evidence: 6/10
+Outreach implementation: 5/10
+Funding readiness: 5/10
+Arithmetic mean: (8+7+7+6+5+5)/6 = 6.33/10. Target 10 is not met.
+Scores assess preparation. Completing all ten critiques before full behavioral collection is correct; no premature full results are demanded.
+
+PROGRESS ACCEPTED
+Both collection paths now validate source and catalog hashes. The actual mocked collect entry point preserves a received response if scoring raises. All ten reports are required before full collection. Older isolated holds remain charged; exact-payload eligibility is prospective and does not select restraint outcomes. Eight routes now have valid native-interface feasibility evidence, including GLM. Analysis now preserves failed controls, missing partners and unseen pairs. The six decision contexts introduce obsolete evidence and competing incentives rather than mere noun substitutions. Future stopping latency and inconsistency measures are correctly separated. The supplied 19 passing offline checks, HTTPS/DNS/renewal evidence and desktop/mobile screenshots are real improvements. No external review, novelty proof, funding commitments or model safety findings are inferred from them.
+
+ACTIONABLE IMPLEMENTATION FINDINGS
+1. The analysis does not implement the planned stratified paired tables. summarize() keys pairs by case, timing and repetition, but collapses all of those keys into one per-model Counter. Its groups provide mechanism/timing/branch marginal counts, which cannot recover the stable-versus-changed joint distribution. final-study.txt promises early/late paired cross-tabs by context and mechanism. Add paired tables by timing, mechanism and context, retaining missing partners in each stratum. Acceptance: fixtures where early and late have opposing paired patterns must expose those patterns separately even if pooled margins are identical.
+
+2. Missingness disappears from the group tables. groups is initialized only from existing records and stores attempted, valid and invalid counts without planned or missing counts. A fully unattempted mechanism/timing/branch is absent. A budget stop can therefore make an apparently comprehensive group table silently omit whole conditions. Construct the planned grid from manifest cases/timings/branches/repetitions first, then fill counts. Acceptance: zero-record and partial-run fixtures return every planned group with planned/attempted/missing counts whose totals reconcile with the overall denominator. The current analysis test covers only one failed control and missing pair, not valid pairs, technical failures or stratified coverage.
+
+3. Eligibility enforcement is weaker than the advertised exact-payload contract. collect() checks the register manifest hash and eligible model-name set, but never checks each configuration_sha256, duplicates, native evidence or required rule fields. The orchestration fixture even proves that an entry containing only model and disposition is accepted. prepare_eligibility() currently produces appropriate fields; the execution gate should validate the fields it relies on. Recompute the expected feasibility payload hash for every roster entry, require exactly one entry per candidate and at least one valid evidence reference, and reject malformed/stale registers before key/network access. Add offline gate tests for changed configuration hash, duplicated candidates and absent evidence. This is a provenance/accidental-edit defense, not a claim that an adversary can be excluded by local hashes.
+
+4. Make financial and behavioral state separately visible in exports. status_counts uses observation.status whenever an observation exists, so a valid proposal with missing or invalid cost is shown as valid with no explicit received/unresolved count. Raw responses survive, but the safe summary hides the collection state that caused the stop. Report collection-state counts and unresolved reservations independently of behavioral status; retain conservative accounted amounts. Include prior feasibility/hold cost separately if presenting lifetime budget progress. Test a received valid observation with missing cost and a received response with no observation. Neither should be reported as a reconciled request.
+
+5. The high-risk orchestration claims still have narrow tests. The new tests cover the ten-round gate, changed source, scoring exception and legacy blocking. Add mocked entry-point checks for changed catalog, rejected eligibility, HTTP error/missing-cost stop, prior isolated holds at the cap, and multiple-worker in-flight reconciliation. Component-level reservation tests do not establish shared-lifetime entry-point accounting or that already-started requests survive a sibling failure. These are offline preparation tests; no billable calls are necessary.
+
+PROCEDURE AND PROVENANCE
+The archived freeze preserves source and manifest but not the catalog snapshot or eligibility register. Preserve these public inputs together under the manifest archive, or document a deterministic archive completion step after prospective eligibility. Validation currently relies on mutable top-level files. Also reconcile native-feasibility.json, whose manifest hash differs from eligibility.json: exact-payload reuse across source-only freezes may be legitimate, but explicitly name the earlier feasibility freeze and current eligible freeze so readers do not mistake different hashes for contradictory evidence. No raw private responses need publication.
+
+NOVELTY / DESIGN
+The new pressure variants are useful diagnostic extensions. Their instructions also explicitly announce the answer: urgency does not change approval, cache is older, delegation cannot restore permission, fictional cost is not permission. A ceiling-prone instruction-following interpretation remains strong. This is acceptable for the stated descriptive slice; do not rename it demonstrated agent persistence or infer psychology. The scenario-level overlap audit is still missing in the reviewed contribution register. Finish an evidence-backed exact-case matrix against closest prior tasks and appendices before strengthening novelty claims. External method review and replication remain unmet evidence, not reasons to break the ten-round collection gate.
+
+WEBSITE
+Accept the supplied mobile layout evidence; do not repeat an unverified overflow concern. The methodology page still introduces the broad roadmap before the current-study panel and contains broader execution, review and uncertainty procedures. Place a short current-versus-roadmap boundary above those sections. Coverage still points exact model IDs at the earlier pilot manifest, while current routes/configurations live in the full manifest. Link the current manifest and dated feasibility/eligibility register beside the current candidates. A competent public site should let a visitor identify the currently executable study without reconciling several documents.
+
+OUTREACH
+The verified LinkedIn invitation is real implemented outreach and carefully scoped. No substantive responses or completed review are evidenced, so implementation cannot be scored as demonstrated engagement or adoption. Prepare a local response register with reviewer role, substantive issue, disposition and evidence link for future replies. Do not fabricate replies or send new messages under this review. Repeatedly increasing scores merely for the same post would not be honest.
+
+FUNDING
+The USD40,000 arithmetic and staged no-go gates are credible scaffolding. The funded question about agents after work begins still needs an explicit distinction from the current scripted-history slice. Convert each milestone into an inspectable acceptance artifact and identify the independent acceptance role, with names left pending until secured. The budget lacks quotes/commitments and the program lacks a specified mitigation comparison or power rationale. Those are preparation/evidence gaps; they cannot be repaired by optimistic wording or by running the full collection early.
+
+ACCEPTANCE POSITION
+Continue bounded remediation through the remaining five rounds. Freeze analysis outputs and exact eligibility with the harness, complete the overlap audit, then collect only after round ten within the shared USD50 cap. Publish actual coverage and unresolved state honestly if collection stops. Perfect scores would require stronger implementation completeness and external evidence than currently exists.
