@@ -5,3 +5,5 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 
 .table-wrap{overflow-x:auto;margin:30px 0}table{width:100%;border-collapse:collapse;font-size:14px;text-align:left}caption{text-align:left;font-size:12px;color:var(--muted);padding-bottom:14px}th,td{padding:14px 12px;border-bottom:1px solid var(--line);vertical-align:top}thead{background:#e5e8de}th{font-weight:600}table th:first-child{min-width:180px}
+
+.fine{overflow-wrap:anywhere}

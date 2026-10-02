@@ -1,0 +1,40 @@
+ROUND 10 / 10 — INDEPENDENT HARSH FINAL PREPARATION REVIEW
+October 2, 2026. Reviewed round9, current study.py, study_cases.py, analyze.py, tests, final-study, eligibility, provenance bridge, overlap audit, label-review handoff, reviewer packet, funding, both outreach evidence registers, build_site.py, and artifact-checks.json. Independently ran python -m unittest discover -s tests -v: 29 tests passed. Only this review report is written. No model requests, private raw data, secrets, outreach, production changes or publication. Live website/native evidence is supplied evidence rather than independently repeated observation.
+
+SIX EQUAL DIMENSIONS
+Website: 9/10
+Tests: 9/10
+Procedure: 9/10
+Novelty design/evidence: 6/10
+Outreach implementation: 7/10
+Funding readiness: 6/10
+Arithmetic mean: (9+9+9+6+7+6)/6 = 7.67/10.
+Original target: an honest per-round arithmetic mean of 10/10 across these six equally weighted dimensions. Target remains unmet. Ten reports are neither ten perfect scores nor scientific acceptance. Preserve original scorecards and unresolved findings.
+
+ROUND NINE REMEDIATION ACCEPTED
+The portable reviewer packet now names concrete manifest 1c59cefc12edd2878eada536857831a0824b846cd5238b3b0c2449a95f132773 and commit 0d74488ecb08823b191873fb80aa2d18f4c7d0a6 in its exact archive URL. Supplied delivery checks report eight matching local artifacts, a matching archive manifest, and identical concrete packet/archive references. This closes the placeholder finding without relabeling earlier interface checks as new trials.
+
+Safe aggregate analysis now retains returned model/provider value counts, missing labels and unexpected-label counts. The focused fixture exercises unexpected identities and missing provider counts. The API-identity caveat correctly prevents a label from becoming checkpoint verification. A mismatch remains a matter for review; it is not proof that a different model was used.
+
+The proposed blinded handoff is now concrete: full input/output units; identity masking and a private reversible map; two independent label tables; a proxy-behavior rubric; explicit technical unknowns; unblinding flags; independent adjudication; preserved original labels; agreement and disposition counts. It explicitly says reviewers and adjudicator are unsecured. This closes the specification gap. It does not close the actual independent-review gap.
+
+TECHNICAL READINESS AND ORDERING DECISION
+The frozen scoped preliminary collection is technically ready to begin AFTER this round-ten report is completed and returned to the owner/manager. This report does not start collection. The owner-requested ordering gate is satisfied by completion of this final preparation review, not by attainment of the original 10/10 target.
+
+Readiness means the manager may run the existing bounded collector under its exact freeze, eight eligible native routes, proprietary-first ordering, four-worker ceiling, privacy-deny configuration, no provider fallback and shared USD50 lifetime cap. The planned full scope is 2,304 candidate requests, not the future funded roadmap. Supplied USD4.22 prior accounted amount is conservative spending-plus-holds, not confirmed charges. Completion within the remaining budget is not guaranteed; missing conditions must stay visible if the cap or an unresolved request stops the run.
+
+The real offline orchestration tests substantiate the useful boundaries: round order/source/catalog/eligibility checks before requests; lifetime holds; timeout no-replay; durable receipt before scoring; admitted-sibling reconciliation; and refusing later admission after stop publication. Strict scorer and analysis fixtures preserve invalid and missing outcomes, paired controls, dependent repeat diagnostics and complete denominators. No unresolved blocking technical defect was established by this review. Passing mocked tests cannot certify every live provider response or guarantee operational reliability. Collection must stop according to the existing rules, retain holds and raw evidence privately, and report actual coverage honestly.
+
+REMAINING ISSUES AND SCORE LIMITS
+1. Novelty remains a bounded internally authored overlap audit, not an independent originality finding. Explicit current-state rules, fictional preparation and pressure notes scaffold the expected response. Ordinary instruction following or saturation may explain results. Pressure is coupled to context; fixed history does not establish real commitment, persistence, psychology or natural agent behavior. Do not alter frozen cases after outcomes to manufacture a result. External construct/prior-case review and a decision-value demonstration remain missing.
+
+2. Independent reviewers, adjudicator and replication partner remain unsecured. Preliminary process reporting may describe coverage/interface validity and unreviewed proxy observations, but reviewed comparative behavioral conclusions wait for actual handoff completion and documented dispositions. No script, invitation or critic score supplies the missing people or evidence.
+
+3. Two implemented public invitations have exact-copy/link evidence. Both substantive-response registers are empty. Outreach implementation earns credit; substantive engagement, endorsement, adoption and partnerships remain unobserved. The review requests no additional messages.
+
+4. The USD40000 funding proposal has explicit estimates, milestones, acceptance roles and no-go conditions. It still lacks actual quotes, independent acceptance commitments, replication participation and a reviewed minimum useful effect/dependency/sample-size design. The ideal current-state gate enforces its rule by construction. Its stale-read, delayed-revocation, identity, fail-open and false-blocking comparison needs independently accepted design before stronger funding claims. These limitations explain the unchanged funding score.
+
+5. Website evidence supports a professional deployed presentation, nine mobile pages and concrete reproducibility links; exhaustive accessibility and independent comprehension are not demonstrated. Minor post-collection implementation issue: build_site.py computes sitemap.xml before creating results.html. On a clean first results build that new report can be omitted from the sitemap. Move/recompute sitemap generation after optional results creation when preparing that release. This does not block private collection and does not warrant redoing the study freeze.
+
+FINAL POSITION
+Round ten preparation review is complete. The original 10/10 target remains unmet at 7.67/10. Technical readiness permits the owner's post-round-ten full scoped preliminary collection, with budget/failure-driven missingness honestly disclosed. Scientific novelty, actual independent labeling, external engagement and binding funding readiness remain pending. A preliminary report template is an implementation aid; publication and stronger interpretation must be grounded in a real frozen export and the promised review evidence.

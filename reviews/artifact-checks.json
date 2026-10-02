@@ -1,0 +1,59 @@
+{
+  "checked_utc": "2026-10-02T23:02:52.012743+00:00",
+  "artifacts": [
+    {
+      "artifact": "full-manifest.json",
+      "status": 200,
+      "normalized_sha256": "4126c56c6ef91b6187425db205b6e95d42b3766d534dd4be5a4a043ac12fdb2c",
+      "matches_local": true
+    },
+    {
+      "artifact": "eligibility.json",
+      "status": 200,
+      "normalized_sha256": "c760f192c042bfd27313e69daf5b972d31e3ec88cec4ed267d998c75fc734d82",
+      "matches_local": true
+    },
+    {
+      "artifact": "provenance-bridge.json",
+      "status": 200,
+      "normalized_sha256": "b16173758bc1d7a89c27113e70cbc5c16a59c12fd66446957b819515ab275bde",
+      "matches_local": true
+    },
+    {
+      "artifact": "reviewer-packet.txt",
+      "status": 200,
+      "normalized_sha256": "e1a726c14fb803d977db5dfc093a97223ed86216d2f8594918fff3ee232ac14f",
+      "matches_local": true
+    },
+    {
+      "artifact": "outreach-responses.json",
+      "status": 200,
+      "normalized_sha256": "96de3c4eff52561704874f4dc91a89f4d089f46fa6e780078afd639af80c0d90",
+      "matches_local": true
+    },
+    {
+      "artifact": "overlap-audit.txt",
+      "status": 200,
+      "normalized_sha256": "722a43eb2bfd2a29650abb46d7e5619b023febeb198b7581ab5307bf05efc2d8",
+      "matches_local": true
+    },
+    {
+      "artifact": "final-study.txt",
+      "status": 200,
+      "normalized_sha256": "c6627ed323eb0bda65db032025dee98e93d3ac9b25591ffb27127c8f41454297",
+      "matches_local": true
+    },
+    {
+      "artifact": "label-review.txt",
+      "status": 200,
+      "normalized_sha256": "94dac0fb4e519c51efcb10384db9ec96eee21aace1c1293b1f563862a12fe167",
+      "matches_local": true
+    }
+  ],
+  "rendered_archive": "https://github.com/fastrocket/murderbench/tree/0d74488ecb08823b191873fb80aa2d18f4c7d0a6/plans/freezes/1c59cefc12edd2878eada536857831a0824b846cd5238b3b0c2449a95f132773",
+  "expected_manifest_sha256": "1c59cefc12edd2878eada536857831a0824b846cd5238b3b0c2449a95f132773",
+  "archive_manifest_matches": true,
+  "commit_pinned": true,
+  "packet_has_exact_hash": true,
+  "packet_has_exact_archive": true
+}

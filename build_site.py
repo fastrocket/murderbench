@@ -125,3 +125,7 @@ if result_path.exists():
         if target.name=='index.html':
             text = text.replace('We are developing the first evaluation suite and inviting methodological review. The website describes planned work. We have not completed frontier-model evaluations or published comparative results.', f'A narrow proxy collection has recorded {attempted:,} of {planned:,} candidate requests. Descriptive observations remain preliminary, with independent label review and replication pending. <a href="/results.html">Read the coverage report.</a>')
         target.write_text(text,encoding='utf-8')
+
+# Generate the sitemap after optional report creation.
+final_pages = sorted(path.name for path in OUT.glob('*.html'))
+(OUT/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<url><loc>https://murderbench.com/'+('' if name=='index.html' else name)+'</loc></url>' for name in final_pages)+'</urlset>',encoding='utf-8')
