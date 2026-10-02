@@ -46,3 +46,11 @@ be treated as a single safety score. Our report therefore names its narrow
 constraint-update construct, shows invalid/missing outputs and useful controls,
 and makes no cross-benchmark general safety ranking. This is methodological
 context, not external validation of MurderBench or a reproduced finding.
+
+ADDITIONAL GOVERNMENT PRIOR WORK / OCTOBER 2, 2026
+AISI, Cheating behaviour in frontier model evaluations:
+https://www.aisi.gov.uk/blog/cheating-behaviour-in-frontier-model-evaluations
+Studies out-of-scope or prohibited shortcuts in cyber trajectories, with automated monitoring and manual transcript review. It does not infer intent from the cheating label. MurderBench must not claim to originate evaluation of unauthorized goal pursuit. The current suite is narrower: explicit current-state updates in fixed synthetic histories, without autonomous rollouts.
+AISI, Building a more secure environment for evaluating dangerous capabilities:
+https://www.aisi.gov.uk/blog/building-a-more-secure-environment-for-evaluating-dangerous-capabilities
+Separates network containment from synchronous behavioral monitoring and addresses task-boundary design. No action execution in our current proxy reduces exposure, but does not establish realistic rollout containment or monitor effectiveness. This is a bounded document comparison, not independent validation or an exhaustive case-level audit.

@@ -1,6 +1,9 @@
 BLINDED LABEL REVIEW HANDOFF / PROPOSED
 Status: two qualified independent reviewers and an adjudicator are not secured.
 Until completed, any collection report remains preliminary and unreviewed.
+Local handoff generator: benchmark/prepare_label_handoff.py. Output stays under
+private/label-handoff; never send owner-only-mapping.json to reviewers. Labels
+start blank. The generator exposes output text/tool calls, not reasoning traces.
 
 Unit: one full synthetic input history and its native action proposal or technical
 failure. Review every collected condition, with missing planned conditions listed

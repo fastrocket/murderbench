@@ -64,7 +64,7 @@ page('program.html', 'Research program', intro('RESEARCH PROGRAM / PROPOSED', 'A
 
 artifacts = OUT / 'artifacts'
 artifacts.mkdir(exist_ok=True)
-for filename in ['novelty.txt', 'scoring.txt', 'funding.txt', 'pilot-manifest.json', 'final-study.txt', 'full-manifest.json', 'eligibility.json', 'native-feasibility.json', 'overlap-audit.txt', 'reviewer-packet.txt', 'outreach-responses.json', 'provenance-bridge.json', 'label-review.txt']:
+for filename in ['novelty.txt', 'scoring.txt', 'funding.txt', 'pilot-manifest.json', 'final-study.txt', 'full-manifest.json', 'eligibility.json', 'native-feasibility.json', 'overlap-audit.txt', 'reviewer-packet.txt', 'outreach-responses.json', 'provenance-bridge.json', 'label-review.txt', 'collection-amendment.json']:
     source = ROOT / 'plans' / filename
     if source.exists():
         (artifacts / filename).write_text(source.read_text(encoding='utf-8'), encoding='utf-8')
@@ -116,6 +116,11 @@ if result_path.exists():
         valid = row['status_counts'].get('valid',0)
         rows += f"<tr><th scope='row'>{escape(row['model'])}</th><td>{row['attempted_calls']} / {row['planned_calls']}</td><td>{valid} / {row['attempted_calls']}</td><td>{row['attempted_calls']-valid}</td><td>{row['missing_calls']}</td></tr>"
     report_body = intro('PRELIMINARY / INDEPENDENT REVIEW PENDING', 'Constraint updating.<br>Observed in a safe proxy.', 'Fixed synthetic histories and native action proposals. No real actions, injury estimates, general safety rankings, or independent validation.')
+    action_rows = ''
+    for branch,label in [('stable','Permission remains valid'),('changed','Permission becomes invalid')]:
+        totals = {key:sum(group[key] for model in result['models'] for name,group in model['groups'].items() if name.endswith('/'+branch)) for key in ['planned','attempted','valid','complete','pause','clarify','invalid','missing']}
+        action_rows += f"<tr><th scope='row'>{label}</th><td>{totals['attempted']} / {totals['planned']}</td><td>{totals['complete']}</td><td>{totals['pause']}</td><td>{totals['clarify']}</td><td>{totals['invalid']}</td><td>{totals['missing']}</td></tr>"
+    report_body += f"<section class='reading'><h2>Recorded proposals</h2><p>These pooled counts describe this fixed suite only. A complete proposal in the changed branch violates its explicit current-state rule. No proposal is executed. Filters and other invalid outputs remain unknown. Pooling does not support a ranking or a deployment risk estimate.</p><div class='table-wrap'><table><caption>Unreviewed action counts across all requested routes</caption><thead><tr><th scope='col'>Verified state</th><th scope='col'>Recorded / planned</th><th scope='col'>Complete</th><th scope='col'>Pause</th><th scope='col'>Clarify</th><th scope='col'>Unknown</th><th scope='col'>Missing</th></tr></thead><tbody>{action_rows}</tbody></table></div></section>"
     amendment_path = ROOT/'plans/collection-amendment.json'
     if amendment_path.exists():
         amendment = json.loads(amendment_path.read_text())

@@ -9,7 +9,8 @@ The broader future research roadmap is in `plans/protocol.txt`.
 Prior-case overlap and unproven novelty are documented in `plans/overlap-audit.txt`.
 
 Run offline checks: `python -m unittest discover -s tests`.
-Build the nine-page site: `python build_site.py`.
+Build the site: `python build_site.py` (nine pages before a real results export,
+ten pages after it).
 
 Frozen candidate configuration: `plans/full-manifest.json`.
 Public catalog: `plans/full-catalog.json`. Prospective native-interface eligibility:
@@ -29,6 +30,16 @@ confirmed charge. Legacy pilot collection is disabled after native/final state.
 `python benchmark/analyze.py` exports preliminary counts, full missing denominators,
 paired tables and lifetime accounted budget. It validates frozen source/catalog.
 Private raw responses and SQLite collection state are excluded from Git.
+
+Post-outcome operational continuation is disclosed in
+`plans/collection-amendment.json` and independently reviewed in
+`reviews/collection-amendment-review.txt` and
+`reviews/collection-amendment-limit-review.txt`. Its separate entry point is
+`python benchmark/continue_collection.py`. It never replays filtered receipts;
+received states and full holds remain visible to the unchanged analysis.
+After collection, `python benchmark/prepare_label_handoff.py` prepares local
+randomly ordered annotation records with blank human labels and a separate
+owner-only mapping. Independent reviewers are not yet secured.
 
 Hosting uses Apache and an isolated FastAPI service in the existing UNCEN runtime,
 on loopback port8014. The website has no evaluation API or model credentials.

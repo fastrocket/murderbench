@@ -1,0 +1,11 @@
+{
+  "platform": "LinkedIn",
+  "author": "Linh Ngo",
+  "recipient": "AI Security Institute (AISI)",
+  "recipient_verification_source": "https://www.aisi.gov.uk/about",
+  "url": "https://lnkd.in/p/gCW_EFw9",
+  "parent_post": "https://www.linkedin.com/feed/update/urn:li:activity:7511440525544058881/",
+  "copy": "How would you distinguish current-state instruction following from failures across an actual permission-revocation boundary?\n\nI’m building MurderBench around that question. The first suite uses fixed synthetic histories and proposal-only tools: it cannot establish live rollout behavior or intent. Before expanding it, I’d welcome criticism of the controls and overlap with existing tasks. The protocol and prior-work audit are at https://murderbench.com/program.html.\n\nYour separation of containment from behavioral monitoring is relevant here. Neither a compliant proposal nor an API filter should be treated as evidence that an agent is safe in deployment.",
+  "verified_utc": "2026-10-02T23:16:57.887Z",
+  "substantive_response_observed": false
+}
