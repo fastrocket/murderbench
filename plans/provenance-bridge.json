@@ -1,6 +1,6 @@
 {
   "native_evidence_manifest_sha256": "52e9dd8ccdc00d72b726cfebb17eaafa1e4896bb30f9055284d5345581670343",
-  "current_manifest_sha256": "aed901b31486e0a8b0fe889a186be953d81a5eb461a566349c3e0eea7cc3a00f",
+  "current_manifest_sha256": "8712fe89b6a63cfc8d1d86082ac88515084534dd303c5f75994714908a0108a9",
   "basis": "Earlier native checks are not relabeled as new checks. Their recorded request payloads exactly match current interface-feasibility payloads: same model, route, settings, tools, system and clear-update fixture. Source/reporting remediation and other compound cases changed after those checks.",
   "configuration_hashes": {
     "openai/gpt-6-astra": "0affa64ab5a5fbd24cf2ff605da057e1167427c5a1a3133e299298ac6b259b8a",

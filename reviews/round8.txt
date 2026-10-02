@@ -1,0 +1,34 @@
+ROUND 8 / 10 — INDEPENDENT HARSH PREPARATION REVIEW
+October 2, 2026. Read round7, current collection/scoring/analysis code, analysis and orchestration fixtures, study/eligibility/provenance/overlap/funding/reviewer/outreach materials, and build_site.py. Ran python -m unittest discover -s tests -v: all 26 tests passed. Wrote this report only. No model calls, private raw access, credentials, production changes, publication, or outreach. Supplied DNS/TLS/mobile and native evidence are accepted as supplied evidence, not freshly independently reproduced.
+
+SIX EQUAL SCORES
+Website: 8/10
+Tests: 9/10
+Procedure: 8/10
+Novelty design/evidence: 6/10
+Outreach implementation: 7/10
+Funding readiness: 6/10
+Arithmetic mean: (8+9+8+6+7+6)/6 = 7.33/10. Target 10 is not met.
+Full scoped collection must wait until rounds nine and ten finish. Absence of final comparative results at this point is correct and is not a reason to collect early.
+
+ACCEPTED REMEDIATION
+Round7's five main bounded defects are substantially remedied. Repeat diagnostics expose planned, attempted, valid, invalid, missing, action sets and disagreement while explicitly rejecting an independent-trial interpretation. Logical record uniqueness and grid membership are checked. Lifetime prior holds and mechanism-by-timing tables have focused analysis fixtures. Actual export rejects changed source/catalog before writing. Six queued jobs with two workers now prove only the two started requests reach the network under controlled failure ordering; both payloads persist; unresolved resume reaches no network and cleans the lock. Smoke rejects a changed catalog. The public provenance bridge distinguishes earlier evidence from the current freeze and exact-payload reuse; the site builder links the archive, review questions and empty response register. Native tool finish admission remains strict. These improvements warrant the test-score increase, not a blanket perfect score.
+
+REMAINING BOUNDED ACCEPTANCE FINDINGS
+1. Transport-specific preservation has implementation but no direct regression fixture. The suite mocks fetch for HTTP errors; it does not exercise fetch's urllib HTTPError branch or its malformed-JSON HTTP200 branch. Store.received tests similarly do not assert the new durable response_received_utc field. Acceptance: mocked urllib responses prove malformed JSON retains response_parse_error and body, HTTPError retains status and body, and actual orchestration persists the payload and receipt timestamp before scorer failure. No live network or private production record is necessary. This is a coverage gap, not an observed loss of raw data.
+
+2. The advertised stop semantics need a precise concurrency boundary. run checks stop once before building/reserving a request; a sibling can pass that check before another thread sets stop, then issue its request afterward. The new controlled test demonstrates queued work after the failure stops, but cannot establish that no request ever starts after failure publication under every interleaving. Up to four admitted/in-flight requests is a defensible policy; define that boundary explicitly. If the intended claim is stricter, guard stop/admission together and add an event-controlled fixture holding a sibling immediately before admission while a failure sets stop. Acceptance: documentation and test agree on which already-admitted requests may finish, their reservations and durable responses. The USD50 cap remains enforced by Store.reserve regardless of this boundary.
+
+3. Public artifact discoverability is improved in source, but source changes alone do not prove delivered links. The archive URL uses the master branch and a hash directory, while the packet still instructs readers to locate a placeholder path in source. Before a later authorized release, verify the rendered current-freeze link, manifest/catalog/eligibility source archive, reviewer packet, response register and bridge all resolve and match the same manifest hash. Prefer a commit-pinned archive URL once that commit exists. Acceptance: one dated safe public-link/hash report; preserve the distinction between a prepared builder change and a deployed artifact. This review does not authorize publication or require another live model call.
+
+PROCEDURAL LIMITS
+The ten-round gate currently checks report existence and length, not an independently recorded acceptance decision. That enforces completion ordering, not the target mean of 10 or remediation of findings. Do not describe ten report files as unanimous scientific acceptance. At round ten, explicitly reconcile the owner's actual acceptance criterion against the scorecards and unresolved issues before interpreting the gate as permission for collection. Reports can remain honestly nonperfect without being falsified to unlock the run.
+
+DESIGN AND NOVELTY
+The study is a coherent narrow diagnostic, and its disclaimers are better than many broad safety claims. Explicit authority instructions and pressure notes tell the model the correct rule; fixed histories do not validate commitment, natural persistence or latent harm recognition. Task labels and pressures are coupled. Those are acknowledged construct limits rather than new coding bugs. The bounded selected-case overlap audit is useful but cannot establish comprehensive novelty or decision value. Independent methods review remains absent. Acceptance for stronger research claims requires documented external review of the construct, prior-case overlap and a useful saturated-result decision; keep the present scope descriptive and do not alter it to manufacture failures.
+
+OUTREACH AND FUNDING
+Two verified public invitations plus concrete review questions are implemented outreach. No substantive responses, accepted review role, replication contract or adoption evidence are recorded. Waiting for replies is not a harness defect, and unsolicited further contact is not authorized by this review. Funding still lacks actual quotes, accepted independent roles and an independently specified effect/dependency/sample-size rationale. The state-gate baseline is candidly correct by construction; delayed revocation, identity resolution, fail-open and false-blocking boundary designs remain future prerequisites. A proposal can be well prepared while remaining six out of ten on fundability. Acceptance requires the actual commitments/design evidence, not additional prose claiming them.
+
+POSITION
+Continue the last two rounds with bounded offline transport/admission checks and precise public-artifact status. Keep full collection gated. Local harness quality has improved materially; scientific originality, uptake and funding evidence have not improved merely because the code passes 26 tests. A mean of 10 cannot honestly be awarded to the present preparation state.

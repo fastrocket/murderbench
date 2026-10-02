@@ -151,6 +151,9 @@ class OrchestrationTests(unittest.TestCase):
             self.assertEqual(state,'received')
             self.assertEqual(json.loads(raw),response())
             self.assertEqual(amount,'0.50')
+            with closing(sqlite3.connect(root/'private/full.sqlite')) as connection:
+                spec=json.loads(connection.execute('SELECT spec FROM calls').fetchone()[0])
+            self.assertTrue(spec['response_received_utc'].endswith('+00:00'))
             self.assertFalse((root/'private/runner.lock').exists())
 
     def test_legacy_collection_blocked_after_final_state(self):

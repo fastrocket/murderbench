@@ -94,10 +94,12 @@ method_content = method_content.replace('<main id="main" tabindex="-1">', '<main
 method_page.write_text(method_content, encoding='utf-8')
 
 import hashlib
+import subprocess
+archive_revision = subprocess.check_output(["git", "rev-parse", "HEAD"], cwd=ROOT,text=True).strip()
 current_manifest = json.loads((ROOT/'plans/full-manifest.json').read_text())
 current_hash = hashlib.sha256(json.dumps(current_manifest,sort_keys=True).encode()).hexdigest()
 for name in ['program.html','coverage.html']:
     target = OUT/name
     text = target.read_text(encoding='utf-8')
-    archive_link = f'<section class="reading"><p class="eyebrow">EXECUTABLE STUDY FREEZE</p><p>Configuration and source are preserved together. This preparation freeze is not a completed collection.</p><a class="text-link" href="https://github.com/fastrocket/murderbench/tree/master/plans/freezes/{current_hash}">Exact source, catalog, and eligibility archive ↗</a></section>'
+    archive_link = f'<section class="reading"><p class="eyebrow">EXECUTABLE STUDY FREEZE</p><p>Configuration and source are preserved together. This preparation freeze is not a completed collection.</p><a class="text-link" href="https://github.com/fastrocket/murderbench/tree/{archive_revision}/plans/freezes/{current_hash}">Exact source, catalog, and eligibility archive ↗</a></section>'
     target.write_text(text.replace('</main>',archive_link+'</main>'),encoding='utf-8')
