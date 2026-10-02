@@ -1,0 +1,19 @@
+COLLECTION SUMMARY — 2 OCTOBER 2026
+
+Status: preliminary, machine-scored observations; independent labels and replication pending.
+
+The full frozen suite ran after the tenth preparation critique. All 2,304 planned conditions were recorded across eight requested model routes, with 288 conditions per route. There were 2,223 valid native proposals and 81 technical unknowns: 51 content-filter responses from the Anthropic route, 27 responses without the required native tool-call finish from the Grok route, and three length-limited responses from the DeepSeek route. No planned conditions are missing.
+
+For the 1,152 stable-permission conditions, the valid proposals comprised 1,093 complete, 11 pause and 21 clarify; 27 outputs were unknown. For the 1,152 changed-permission conditions, valid proposals comprised zero complete, 1,078 pause and 20 clarify; 54 outputs were unknown. These are dependent descriptive counts, not independent samples or a model safety ranking. No action was executed.
+
+The explicit state rule appears to saturate the valid changed-state responses. Ordinary instruction following remains a plausible explanation. Fixed synthetic preparation histories do not establish an agent's own commitment, deceptive intent, real-world stopping behavior or injury risk. Novelty is not established by this result. A future rollout study requires a separate reviewed design and budget rather than an undisclosed alteration of this suite.
+
+Lifetime accounted amount is USD36.4007675376 of the USD50 task limit, including prior feasibility and unresolved reservations. The full-study reconciled amount is USD6.6791944464; its unresolved holds total USD25.50. These holds are retained conservatively because the filtered responses omitted cost information. Accounted reservations are not confirmed charges. The post-outcome continuation amendment preserved these unknown outputs and holds without replaying them or changing requests and scoring; inspect collection-amendment.json.
+
+The local blinded handoff contains 2,304 records and two blank reviewer copies. Reviewer identities, independent labels and adjudication are not yet available. The owner-only mapping stays separate and private.
+
+Ten automated preparation critiques are preserved. The tenth round scored 7.67/10 across the six dimensions; the requested passing target was not achieved. These AI critiques are not independent scientific validation. The subsequent reporting review does not replace their historical scores.
+
+Four social outreach actions were published and verified: the owner's LinkedIn post, the owner's X post, and methodological comments directed to official AISI and Anthropic social posts. No substantive external response, reviewer agreement, funding commitment or endorsement is established. The originating RoboHarm email was not located; the inspiration and prior-work comparison use identified public sources.
+
+Release verification: 34 offline tests passed; ten published pages and 31 local resources matched the release bytes; DNS delegation, HTTPS certificate validation, security headers and canonical redirects passed. All ten pages passed the 390-pixel mobile overflow and semantic landmark checks. See reviews for dated evidence.

@@ -28,9 +28,39 @@
     "46317e218dc61b45409f401124cf5537e5e992776176abf9854ab166b324e11f",
     "89dad8b313b295530fdfb12048f442333994a25a37e47009e912c370b6285a65",
     "c9eb4a396105dff48fefa365fd8f97aea59745ca0880ed1c9e390bf9ea4ecd49",
-    "70b1b9dacfc3500bd13fc4cc0d9dc5c7349bb0959d0e1f195fcd8374ffa1ab2f"
+    "70b1b9dacfc3500bd13fc4cc0d9dc5c7349bb0959d0e1f195fcd8374ffa1ab2f",
+    "94cc311c6ef4aed2cee817d3095e92e814475e3c345a5fe88b4a9781791fe2bc",
+    "2ffedc630a5c4caa780d97659f64ae9eb7af5e82fd89a28b7508ec45207f74f1",
+    "5f9b123059d11db33b69cabec50923f451813fab5974cb83716d40e76a9d3852",
+    "5fcfe57a9dee85241f608d718cc0a41cce42b7093dff2a45e90eda96796ce520",
+    "fe1b4f8ba3d4562480499a4f8c409387c866fb9f7e5ec2ac77477bec7747da94",
+    "7ce318136f3d252c3d4c1cefe50757160f093d814216e8835340a494ce774e69",
+    "bdd318bb89bc07b73b4e08c062c00cefdfe84b4143814eb6c801a307fa1dfb24",
+    "93eaee8be077a96bd47a217af086e392fce1d422cd60e2068fa08c8acf7f0d17",
+    "b7f6767ef75682ec0df10d17225e87c84d0ae33df6188116c57aafaf677d2369",
+    "fc6d552177b7d80b19dc031daa4bf7e72a30d8501a5afc1323bbeb2db32d3f70",
+    "12584b4edc4c8a71c71fad6a48d38cfc9b4ece1983ab214520aa40e6b48a2c1a",
+    "90374692052264e7d8ea09d466006a76533cdb0a70a4d62d869de6cfc0f0b0f7",
+    "5751e5ba19aec8791aae4834650fe067a167da94cfbe87b8087e5586016f6fa5",
+    "d622bcff0483f464414ebd5ff5d9cd852a39eb7d28750d48d7c0d7b737aa91a4",
+    "58f4b733dae5eeee77abfa06608bab1d14527880f38ca59a15fae994d05dd1ed",
+    "91bb290586b9930c2502608951d75d70fd7433253d4e4b66ca3e56311b675788",
+    "7b2e51ecd9f4978f36e9e11ae3f6681245b6a152f40f66684972d8aa87b6980a",
+    "ac4b6b42e1c400c15b525ad143a7c4173ba1b5a26179692d7bdfe4ff59c16ce0",
+    "505dbf03a47ea6205ccc71400b671908886c0b076abecea19c89d6712faca7a0",
+    "a24603bfdd8bc6b164601d22b6f607e638e468a6472b8e82db3d6fa94b6db26f",
+    "7e03d3150c1995b08c5975128dcc6847e48fa8fab3576f89e8cf99a87d8f3ed7",
+    "ecfd6c0641c13c445c30812af2f54f78034831f0873ff88706438f850dc38b19",
+    "66e3b79da23e82fcfe8c6c09373ccc80c30bd0d070ea23321b44289da72e12a6",
+    "261ed4f6f39e41a9bc30fd41924fd7bcd6b42955b05bc776db7ebf52475fc7b2",
+    "db7b998d0f0b732420273e1fdd945456e121e56ca88c972d18b71a79ee353b81",
+    "603a3589104b22774cd9af8a5f1e33a842addc31856f88d6b9d4381046bbe680"
   ],
-  "independent_review": "Pending; original ten critique scores are unchanged.",
-  "updated_utc": "2026-10-02T23:13:43.537855+00:00",
-  "limit_extension": "After original16-bound process exited, independent limit review approved max64 excluded IDs and65 iterations, unchangedUSD50 cap. See reviews/collection-amendment-limit-review.txt. This additional post-outcome extension preserves all prior IDs and unknowns."
+  "independent_review": "Operational implementation and limit reviews completed by a separate AI critic; independent scientific and label review pending. Original ten scores unchanged.",
+  "updated_utc": "2026-10-02T23:15:23.291239+00:00",
+  "limit_extension": "After original16-bound process exited, independent limit review approved max64 excluded IDs and65 iterations, unchangedUSD50 cap. See reviews/collection-amendment-limit-review.txt. This additional post-outcome extension preserves all prior IDs and unknowns.",
+  "operational_review_artifacts": [
+    "reviews/collection-amendment-review.txt",
+    "reviews/collection-amendment-limit-review.txt"
+  ]
 }

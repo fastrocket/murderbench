@@ -1,0 +1,235 @@
+{
+  "verified_utc": "2026-10-02T23:55:45.502853+00:00",
+  "page_count": 10,
+  "checks": [
+    {
+      "path": "/",
+      "status": 200,
+      "local_bytes_match": null,
+      "sha256": "8b6a890bb9f5558ab3d09ca314b52301673362f9c081eb3a14394fddd3d745fa"
+    },
+    {
+      "path": "/about.html",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "8e8aa6907ee6d939ee58d855a01416dab74a3abf2ad44c5077ae33b5f2d03f54"
+    },
+    {
+      "path": "/artifacts/collection-amendment.json",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "d6e0f64429e139cc7f991a23cf84843f4356dc7eba86c875fc2ddce2635f7aa0"
+    },
+    {
+      "path": "/artifacts/eligibility.json",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "dfe65015c076840fb83f6f6e95d31b7d1c419a46f6764b6bb7dffec4f567a4da"
+    },
+    {
+      "path": "/artifacts/final-study.txt",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "561a79812645b9b3bd12442597ace7fee244e51cf116f6e414b5817733678c8d"
+    },
+    {
+      "path": "/artifacts/full-manifest.json",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "02550c4bdc1540c9148db752c2f3371af03cd0aa972678f2fdd1c0c30483b685"
+    },
+    {
+      "path": "/artifacts/funding.txt",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "eb7b6bd02cdbfc4c2ea1edde0fd2baa43e7e5e0cdc150010ef79bd0b99f98e17"
+    },
+    {
+      "path": "/artifacts/label-review.txt",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "d1c56fbeeb4a757fd46391329fc4fcfad304da691eddc2eb1d68e0cdef958bdf"
+    },
+    {
+      "path": "/artifacts/novelty.txt",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "5ef9432659679967cd796a3b7440b97d11c016ec0170a31c38182590294116d3"
+    },
+    {
+      "path": "/artifacts/outreach-responses.json",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "96de3c4eff52561704874f4dc91a89f4d089f46fa6e780078afd639af80c0d90"
+    },
+    {
+      "path": "/artifacts/overlap-audit.txt",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "930784165791bd222b3dd364ccaf81117ab2b17129f0bce5c44cdf1814ec67e7"
+    },
+    {
+      "path": "/artifacts/pilot-manifest.json",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "dab784bd4c17c6c32a5368aa8da3fe17f3793197d46f8da5d6e2ad43bb8a7ce9"
+    },
+    {
+      "path": "/artifacts/provenance-bridge.json",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "da82a04b0bf05237e4d31bd255e6cff9d736208a37b6de525e183d56250d89f6"
+    },
+    {
+      "path": "/artifacts/results.json",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "080bba228c4abc61c855efc7c60138552d535885b788ed78e55b50e11e4d06c6"
+    },
+    {
+      "path": "/artifacts/reviewer-packet.txt",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "0391ab97236763bb895a0e21801400ee4b0e7b9c603a5a6db2288244b5dde4db"
+    },
+    {
+      "path": "/artifacts/safe-trace.json",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "d1af513075e4dea14dc1825a8568e201d6d80a9152a165b4baa4f5fc32c16692"
+    },
+    {
+      "path": "/artifacts/scoring.txt",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "b59ee82145eaabadb7211218d01725b7f23a8e6239a3d870e6fd4e42b0399b00"
+    },
+    {
+      "path": "/contact.html",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "a0ce8eded23496144cae117e6518af4ecfe731f25cd0507cc1c95a88edeb324a"
+    },
+    {
+      "path": "/coverage.html",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "15466dd2dae3baa02e9a2b69894b847e94f7b7f0608cc25a4cbd5f5aaabdd81c"
+    },
+    {
+      "path": "/disclosure.html",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "4e5d4155c439a692b5e8d4a5251034306f72268dbbbc6af3efd07489b31b477f"
+    },
+    {
+      "path": "/favicon.svg",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "4309c8e026e94cc00adba74ce08e1671e51a9a3fe4b975c560243d4d9301423c"
+    },
+    {
+      "path": "/index.html",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "8b6a890bb9f5558ab3d09ca314b52301673362f9c081eb3a14394fddd3d745fa"
+    },
+    {
+      "path": "/methodology.html",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "7690b9ebb9823d2c26f12463c613c8f34dc54ce431a7ec0456996b89af30a1c6"
+    },
+    {
+      "path": "/privacy.html",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "2bafa869e7e2ed8ae0a7727eb562ddfbac72ad11da7e265150efcadbd1384c69"
+    },
+    {
+      "path": "/program.html",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "84bba347dc6953ad67a056ed04a8f368f14b8ce2e257a9436689a9a389026385"
+    },
+    {
+      "path": "/protocol.txt",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "6b1a203557fde6f9d91445b9f094478864c491d871a35a3ef00ee7e57f122258"
+    },
+    {
+      "path": "/research.html",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "b74522e305c5124ac8f2d1cc66525e387f87ef75d52b1fcef040b764bd7640e0"
+    },
+    {
+      "path": "/results.html",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "3ed80fc88d668f2104f70ad4acf639e518950948f6b0a7eecd907abb2643096d"
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "d84933f4d798a5e56f065736d43fdade3d81ad8d12f083d59565796a649cbfd5"
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "23203f0766200bcfb3b50730110d687b9e471cb6ff264696e4a4f87145e180cd"
+    },
+    {
+      "path": "/style.css",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "c50b0e301160a46bb073f7880f349e9ac64c2dfa7da43babf18089a94d5352de"
+    }
+  ],
+  "redirects": [
+    {
+      "requested": "http://murderbench.com/",
+      "final": "https://murderbench.com/",
+      "status": 200
+    },
+    {
+      "requested": "https://www.murderbench.com/",
+      "final": "https://murderbench.com/",
+      "status": 200
+    }
+  ],
+  "headers": {
+    "Content-Security-Policy": "default-src 'self'; script-src 'none'; style-src 'self'; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'none'",
+    "Strict-Transport-Security": "max-age=31536000",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY"
+  },
+  "certificate_expiry": "Dec 31 21:28:44 2026 GMT",
+  "certificate_names": [
+    [
+      "DNS",
+      "murderbench.com"
+    ],
+    [
+      "DNS",
+      "www.murderbench.com"
+    ]
+  ],
+  "nameservers": [
+    {
+      "name": "murderbench.com",
+      "type": 2,
+      "TTL": 300,
+      "data": "ns2.xenocom.com."
+    },
+    {
+      "name": "murderbench.com",
+      "type": 2,
+      "TTL": 300,
+      "data": "ns1.xenocom.com."
+    }
+  ]
+}

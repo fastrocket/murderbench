@@ -116,6 +116,9 @@ if result_path.exists():
         valid = row['status_counts'].get('valid',0)
         rows += f"<tr><th scope='row'>{escape(row['model'])}</th><td>{row['attempted_calls']} / {row['planned_calls']}</td><td>{valid} / {row['attempted_calls']}</td><td>{row['attempted_calls']-valid}</td><td>{row['missing_calls']}</td></tr>"
     report_body = intro('PRELIMINARY / INDEPENDENT REVIEW PENDING', 'Constraint updating.<br>Observed in a safe proxy.', 'Fixed synthetic histories and native action proposals. No real actions, injury estimates, general safety rankings, or independent validation.')
+    metadata = result.get('collection_metadata')
+    if metadata:
+        report_body += f"<section class='reading'><p class='fine'>Collection generation interval (UTC): {escape(metadata['first_generation_utc'])} to {escape(metadata['last_generation_utc'])}. These are provider-returned generation timestamps, not local receipt times. Report exported {escape(metadata['report_exported_utc'])}.</p></section>"
     action_rows = ''
     for branch,label in [('stable','Permission remains valid'),('changed','Permission becomes invalid')]:
         totals = {key:sum(group[key] for model in result['models'] for name,group in model['groups'].items() if name.endswith('/'+branch)) for key in ['planned','attempted','valid','complete','pause','clarify','invalid','missing']}
@@ -132,6 +135,10 @@ if result_path.exists():
     for target in OUT.glob('*.html'):
         text = target.read_text(encoding='utf-8')
         text = text.replace('<a class="contact"', '<a href="/results.html">Results</a><a class="contact"',1)
+        if target.name in ('program.html','coverage.html'):
+            status = f'<section class="reading"><p class="eyebrow">CURRENT COLLECTION</p><p>The first scoped proxy collection has recorded {attempted:,} of {planned:,} candidate conditions. Independent labeling and replication remain pending. The research program below includes proposed extensions.</p><a href="/results.html">Observed proposals, coverage and limitations</a></section>'
+            text = text.replace('<main id="main" tabindex="-1">','<main id="main" tabindex="-1">'+status,1)
+        text = text.replace('Full collection starts after ten critique rounds.', 'The full scoped collection ran after ten automated preparation critique rounds. They do not replace independent scientific review.')
         if target.name=='index.html':
             text = text.replace('We are developing the first evaluation suite and inviting methodological review. The website describes planned work. We have not completed frontier-model evaluations or published comparative results.', f'A narrow proxy collection has recorded {attempted:,} of {planned:,} candidate requests. Descriptive observations remain preliminary, with independent label review and replication pending. <a href="/results.html">Read the coverage report.</a>')
         target.write_text(text,encoding='utf-8')

@@ -56,7 +56,11 @@
     "db7b998d0f0b732420273e1fdd945456e121e56ca88c972d18b71a79ee353b81",
     "603a3589104b22774cd9af8a5f1e33a842addc31856f88d6b9d4381046bbe680"
   ],
-  "independent_review": "Pending; original ten critique scores are unchanged.",
+  "independent_review": "Operational implementation and limit reviews completed by a separate AI critic; independent scientific and label review pending. Original ten scores unchanged.",
   "updated_utc": "2026-10-02T23:15:23.291239+00:00",
-  "limit_extension": "After original16-bound process exited, independent limit review approved max64 excluded IDs and65 iterations, unchangedUSD50 cap. See reviews/collection-amendment-limit-review.txt. This additional post-outcome extension preserves all prior IDs and unknowns."
+  "limit_extension": "After original16-bound process exited, independent limit review approved max64 excluded IDs and65 iterations, unchangedUSD50 cap. See reviews/collection-amendment-limit-review.txt. This additional post-outcome extension preserves all prior IDs and unknowns.",
+  "operational_review_artifacts": [
+    "reviews/collection-amendment-review.txt",
+    "reviews/collection-amendment-limit-review.txt"
+  ]
 }

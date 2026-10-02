@@ -87,3 +87,5 @@ Returned model/provider value counts and missing/unexpected labels accompany pro
 
 POST-OUTCOME OPERATIONAL AMENDMENT
 The first full-collection Azure content_filter receipt lacked usage. The original collector stopped; a read-only generation billing lookup returned 404. See plans/collection-amendment.json and benchmark/continue_collection.py for the dated, reviewed continuation. Saved filtered receipts are never replayed or counted safe; their full USD0.50 holds remain in the shared USD50 cap. Raw received states are preserved. Remaining original requests and the frozen scorer are unchanged. Original critique scores are unchanged. This amendment must accompany all reporting.
+
+The preparation critics are independent AI agents reviewing code, design and content. Their subjective scores do not constitute external scientific validation. The final preparation mean was 7.67/10, below the requested passing target. Original reports remain preserved; qualified human labels, external novelty review and replication are pending.

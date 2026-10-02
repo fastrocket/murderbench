@@ -1,0 +1,58 @@
+POST-COLLECTION PUBLIC REPORTING ACCEPTANCE REVIEW
+October 2, 2026. This is a separate post-collection review, not round eleven or a replacement for the original ten preparation critiques. Historical round-ten mean remains 7.67/10 and its findings/scores are not rewritten. Original target of 10/10 remains unmet.
+
+Scope: read build_site.py, public site output/styles, plans/results.json, amendment, final-study, label-review, funding, outreach plan/evidence/response registers and final-public-checks.json. Independently aggregated the allowed results JSON with PowerShell, inspected the rendered results HTML and supplied delivery checks. No private files, secrets, model requests, network, production changes or posts. The 34 offline tests and generated 2,304 blank reviewer records are manager-supplied facts, not independently rerun or inspected in this allowed scope.
+
+CURRENT SIX EQUAL SCORES
+Website: 9/10
+Tests: 9/10
+Procedure: 9/10
+Novelty design/evidence: 6/10
+Outreach implementation: 8/10
+Funding readiness: 6/10
+Arithmetic mean: (9+9+9+6+8+6)/6 = 7.83/10.
+Collection completion and additional implemented targeted outreach justify progress, not a perfect score. Tests and procedure remain strong within the narrow proxy; novelty, external validation and funding evidence remain materially incomplete.
+
+ACCEPTANCE DECISION
+Accept the current publication as a preliminary descriptive coverage/proposal report with the two concrete reporting corrections below. No blocking denominator or invented safety-ranking defect was established. This acceptance does not certify independent scientific conclusions, model safety, direct checkpoint identity or a binding funded proposal.
+
+INDEPENDENT ARITHMETIC CHECKS
+Eight models each have 288 planned and 288 recorded conditions: 2,304/2,304, zero missing. Valid status counts sum to 2,223. Unknowns sum to 81: 51 Anthropic-route content_filter, 27 Grok finish_unknown and three DeepSeek length. The Anthropic route is returned as Azure; this is hosted API evidence, not proof of direct-model deployment behavior.
+
+Stable branch: 1,152 attempted/planned = 1,093 complete + 11 pause + 21 clarify + 27 unknown; 1,125 valid. Changed branch: 1,152 attempted/planned = zero complete + 1,078 pause + 20 clarify + 54 unknown; 1,098 valid. These values match the rendered pooled table. 1,125+1,098=2,223 and 27+54=81. Pooling mutually exclusive group strata counts each condition once in its branch. Zero complete among 1,098 valid changed observations must not be rewritten as 1,152 safe trials: the remaining 54 are unknown. Stable valid behavior also includes 32 non-completion proposals, so useful completion is not universal. Fixed histories/repeated contexts do not create 2,304 independent scientific observations.
+
+Budget arithmetic: final reconciled amount USD6.6791944464 + unresolved full-study holds USD25.50 = final accounted USD32.1791944464. Add prior accounted USD4.2215730912 = lifetime USD36.4007675376; remaining to USD50 is USD13.5992324624. Fifty-one exclusions at USD0.50 explain the USD25.50 holds. Coverage completion coexists with 51 unreconciled costs; it does not imply fully settled billing. The website correctly calls this accounted amount and disclaims confirmed-charge interpretation.
+
+CLAIMS AND AMENDMENT
+The report names preliminary unreviewed observations, unknown filters, absent execution, dependent contexts/repeats, ordinary instruction following, saturation and no deployment risk/ranking. Its model table is interface coverage, not a behavioral league table. Returned labels in the appendix are self-reported identities, not checkpoint verification. The observed changed-state saturation strengthens the need to demonstrate decision value before extending the contribution claim.
+
+Amendment disclosure is prominent and linked. The JSON retains IDs, full holds, initial post-filter origin and the subsequent 16-to-64 limit extension; final-study likewise discloses post-outcome continuation. Remaining requests/scorer are described as unchanged. These are honest amendments, not an original prospective collection rule. No filtered receipt is promoted to safe behavior or erased from denominator arithmetic.
+
+ACTIONABLE REPORTING CORRECTIONS
+1. Collection date is absent from results.json and the results HTML. final-study explicitly promises collection date with the manifest hash. Other preparation dates and deployment-check time do not identify the data-collection interval. Add actual first/last collection receipt timestamps or a clearly sourced collection date and export timestamp to the safe appendix and report. Do not infer precise receipt times from this review or a site deployment timestamp.
+
+2. The delivered amendment register still says independent_review='Pending; original ten critique scores are unchanged.' Earlier amendment and limit reviews were completed. Clarify that operational implementation review is complete, name/link those review artifacts, and separately preserve that independent scientific/label review is pending. This field currently conflates two distinct kinds of review and is stale. Do not replace it with a general claim of independent scientific acceptance.
+
+Website wording on program.html still uses prospective 'Full collection starts...' amid a current-collection panel. Update that sentence to the completed historical sequence for clarity. It is a minor tense defect rather than evidence of early collection. The original preparation archive can remain identified as a preparation freeze.
+
+DELIVERY / PRESENTATION EVIDENCE
+Supplied final-public-checks records 31 status-200 resources and ten pages; 30 non-root resources have exact local-byte matches, while root local_bytes_match is null. Root's SHA256 equals index.html's, supporting equivalence without inventing a root byte-match assertion. Supplied checks record HTTP/www redirects, DNS nameservers, named TLS certificate expiry and restrictive security headers. No live requests were repeated here. Table-wrap horizontal overflow containment and wrapping manifest text mitigate mobile risk, but the new results page has not been independently visually rendered by this reviewer. Full accessibility, screen-reader comprehension and third-party usability remain unestablished.
+
+OUTREACH AND FUNDING BOUNDARIES
+Four dated public publication/comment evidence records exist: founder LinkedIn, X, AISI discussion and Anthropic/Claude announcement. Exact copies and links support implemented targeted method requests. All substantive-response registers remain empty/false. Official-recipient targeting is not an accepted reviewer, institutional engagement, grant eligibility, endorsement, adoption or partnership. The evidence does not establish that recipients read or answered the requests.
+
+Funding remains an estimated USD40000, 12-week program with sensible go/no-go milestones. Quotes, independently accepted design, qualified reviewer/adjudicator roles, replication commitment and funded minimum-useful-effect/sample-size plan remain unsecured. Historical Anthropic program routing is explicitly not current intake confirmation; AISI routes are recorded as closed, not marketed as an open call. Those current-route statements are sourced planning records supplied here, not freshly verified web facts. Collected proxy data alone does not close the funding design gap. The ideal current-state wrapper baseline still enforces its own rule by construction and requires reviewed stale-read, revocation, identity, fail-open and false-blocking tests before a useful mitigation comparison.
+
+FINAL LIMIT
+Full scoped coverage was completed after the ten preparation reviews as manager-reported and evidenced by the safe aggregate. Preparation success, complete coverage and blank blinded packets are not completed independent labels, external novelty acceptance or replication. Preserve negative/saturated observations, unknowns, billing holds, original critic reports and amendment chronology. The remaining external work is substantive scientific validation and demonstrated decision value, not another self-generated perfect score.
+
+REPORTING CORRECTION ACCEPTANCE ADDENDUM / October 2, 2026
+Read the allowed standalone add_release_metadata.py, build_site.py, results collection_metadata, amendment review fields, results/program HTML and refreshed final-public-checks.json. No helper execution, private database, provider calls, secrets or production access. Existing review findings and six scores remain intact: current mean 7.83/10, historical round-ten 7.67/10.
+
+Accepted the concrete reporting corrections. Literal results.json metadata records 2,304 responses_with_created and 2,304 recorded_conditions, first generation 2026-10-02T23:04:02+00:00, last generation 2026-10-02T23:49:01+00:00 and report export 2026-10-02T23:54:25.046186+00:00. The rendered results page matches those literal UTC values. Source and page explicitly identify provider-returned self-reported generation times, not local receipt times. This supplies a honestly sourced collection interval without claiming unavailable receipt timing. The standalone helper changes reporting metadata rather than scorer/counts; its actual database inputs were not inspected under this scope.
+
+The amendment now states that operational implementation/limit reviews were completed by a separate AI critic while independent scientific and label review remain pending, and lists reviews/collection-amendment-review.txt and reviews/collection-amendment-limit-review.txt. This closes the stale Pending conflation without upgrading AI operational review to human scientific validation. Program wording now says the full scoped collection ran after ten automated preparation critique rounds and explicitly says they do not replace independent scientific review.
+
+Refreshed supplied delivery checks timestamp 2026-10-02T23:54:48.955242+00:00 reports ten pages and 31 status-200 resources, with 30 explicit local-byte matches and the root match field still null. The previously described root/index hash equivalence interpretation remains appropriate. These are supplied redeployment checks; no live TLS/DNS/public-resource requests were repeated by this reviewer.
+
+FINAL REPORTING ACCEPTANCE: the named corrections are closed. No established blocking reporting defect remains in the reviewed artifacts. Independent label review, novelty/decision-value acceptance, replication, institutional engagement and funding commitments remain pending; none receives a perfect score from these metadata corrections.

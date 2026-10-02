@@ -95,3 +95,13 @@ mitigation study must independently specify stale-state reads, delayed revocatio
 incorrect identity resolution, fail-open behavior and false blocking costs.
 Do not execute real actions; compare simulated outcomes and availability only.
 These boundary fixtures and acceptance thresholds require external review.
+
+DATED PUBLIC FUNDING ROUTES / OCTOBER 2, 2026
+Anthropic third-party evaluation initiative (published July 1, 2024):
+https://www.anthropic.com/news/a-new-initiative-for-developing-third-party-model-evaluations
+Public proposal form and eval-initiative@anthropic.com are published routes. The article emphasizes difficult evaluations, expert baselines, domain expertise and reproducibility. Current intake availability is not confirmed by this historical announcement; request program-fit guidance before a funding application. No contact, proposal submission or commitment is claimed.
+AISI Alignment Project:
+https://alignmentproject.aisi.gov.uk/
+Official page currently says applications are closed and a similar 2026 program is unlikely. Do not submit against a stale call or describe it as an open opportunity. Check the official grants page when preparing a future application: https://www.aisi.gov.uk/grants. Current AISI social outreach asks for methods criticism, not an assumed grant relationship.
+
+The official AISI grants overview was also checked on October 2, 2026 and says its programmes are not currently accepting applications. Eligibility and future calls must be checked before proposing a submission.
