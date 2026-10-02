@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://murderbench.com/sitemap.xml

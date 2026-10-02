@@ -1,0 +1,55 @@
+MURDERBENCH OUTREACH PLAN
+Owner: Linh Ngo. Date: October 2, 2026.
+Purpose: recruit methodological review for the draft protocol.
+Do not promote uncollected results or suggest provider endorsement.
+
+CHANNELS
+1. LinkedIn: verified profile https://www.linkedin.com/in/ngolinh/
+Publish one founder announcement with a live HTTPS protocol link.
+Audience: AI platform engineers, evaluation researchers, deployment owners.
+Ask: which control would distinguish safety from inability to act?
+2. X: verify the existing @fastrocket session before posting.
+Publish one brief research invitation with no comparative model claims.
+3. Research communities: inspect community rules before submissions.
+MachineLearning requires a substantive research artifact. Defer until a frozen
+protocol and inspectable runner are public. Do not repeat promotional posts.
+4. RoboHarm authors: use their published professional contact only after verifying
+it. Ask one narrow question about controls. Do not imply collaboration.
+
+LINKEDIN COPY
+I'm building MurderBench, an evaluation project for harmful AI decisions.
+
+RoboHarm raised a question I want to test across language models and agents:
+does a safe answer carry through to the next action?
+
+The draft protocol separates harmful requests from ordinary tasks with latent
+hazards. It pairs each test with a benign control and records unsafe proposals,
+refusals, capability failures, and recovery separately.
+
+The first pilot uses synthetic text and visual cases in a sandbox. No real
+people or physical devices are involved. We have no comparative results yet.
+
+I'm looking for reviewers who work on evaluation design or agent safety.
+Which control would you add before collecting results?
+
+https://murderbench.com/methodology.html
+
+X COPY
+I'm building MurderBench to evaluate unsafe AI decisions in sandboxed text
+and visual tasks. Draft protocol, paired benign controls, separate action
+and refusal scoring. No comparative results yet. Seeking methodological review:
+https://murderbench.com/methodology.html
+
+IMPLEMENTATION GATES
+Check public DNS, valid HTTPS, mobile readability, and download links first.
+Publish only after the three critique rounds approve copy and site readiness.
+Capture post URL, date, account, final text, and screenshot after submission.
+Never record a draft or button click as a successful post.
+Do not send mass messages, scrape contact data, or use unrelated conversations.
+Do not claim reach, responses, or conversions without visible evidence.
+
+FOLLOW-UP
+Respond to substantive feedback with a concrete protocol change or explanation.
+Track qualified review offers, actionable issues, and completed reviews.
+Do not optimize for impressions at the expense of accuracy.
+No scheduled posting or recurring follow-up has been requested.

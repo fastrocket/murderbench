@@ -1,0 +1,19 @@
+[Unit]
+Description=MurderBench FastAPI website
+After=network.target
+
+[Service]
+User=www-data
+Group=www-data
+WorkingDirectory=/var/webapps/uncen-ai
+Environment=MURDERBENCH_SITE_ROOT=/var/www/murderbench
+ExecStart=/var/webapps/uncen-ai/venv/bin/uvicorn apps.murderbench.web:app --host 127.0.0.1 --port 8014 --proxy-headers --forwarded-allow-ips 127.0.0.1
+Restart=on-failure
+RestartSec=3
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+
+[Install]
+WantedBy=multi-user.target

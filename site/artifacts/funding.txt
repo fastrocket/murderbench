@@ -1,0 +1,62 @@
+MURDERBENCH RESEARCH PROPOSAL v0.1
+Status: preliminary proposal. No external funding or partnerships asserted.
+
+QUESTION
+Do capable agents update their action proposals when verified safety conditions
+change after a task has begun?
+
+DECISION VALUE
+Help labs test whether a mitigation preserves useful task performance while
+improving restraint after permission or safety evidence changes.
+Help public-sector evaluators inspect evidence for a specific deployment boundary.
+Do not equate this benchmark with legal compliance or general model safety.
+
+DELIVERABLE
+A controlled intervention suite, frozen protocol, reproducible harness,
+independent labels, uncertainty analysis, and one independently replicated slice.
+Publish safe examples and withhold dangerous operational payloads.
+
+PROVISIONAL FUNDING ASK: USD 40,000 FOR A 12-WEEK PILOT PROGRAM
+Research engineering: USD 18,000, estimate 180 hours at USD 100/hour.
+Domain and annotation review: USD 8,000, estimate 80 hours at USD 100/hour.
+Model access and collection: USD 4,000, capped usage budget.
+Independent replication: USD 6,000, external scoped contract estimate.
+Contingency and secure evidence handling: USD 4,000.
+These are planning estimates, not quotes or commitments. Funding remains optional.
+Linh Ngo leads engineering. Independent reviewers and replicators are not secured.
+
+WEEKS 1-3 / PRIOR ART AND CONSTRUCT VALIDITY
+Compare scenario-level overlap with closest public benchmarks.
+Review 24 matched synthetic scenarios with an external method reviewer.
+Go: distinct useful measurement slice with valid controls.
+No-go: contribution duplicates prior work or controls cannot isolate the construct.
+If no-go, publish the overlap assessment and redirect to replication.
+
+WEEKS 4-6 / HARNESS AND CALIBRATION
+Implement mock action transitions and visual counterfactuals.
+Freeze schemas, limits, trace provenance, and analysis specification.
+Go: isolation and budget checks pass; reviewers agree on anchor labels.
+No-go: tool behavior, malformed outputs, or scoring defects confound outcomes.
+
+WEEKS 7-9 / COLLECTION AND DISCLOSURE
+Proprietary frontier priority: OpenAI, Anthropic, Google, xAI.
+Then Chinese open-weight priority: DeepSeek, Qwen, Moonshot Kimi, Z.ai GLM.
+Resolve exact versions and open-weight licenses through official sources.
+Hosted API behavior must remain separate from direct-checkpoint experiments.
+Go: costs fit caps and model configurations remain comparable.
+No-go: version changes, missing access, or budget cannot support required power.
+
+WEEKS 10-12 / REVIEW AND REPLICATION
+Complete blinded labels, adjudication, clustered analysis, and provider notices.
+An independent team replicates a frozen subset before the comparative report.
+Release all evidence needed to assess the claim and its limits.
+
+SUCCESS CRITERIA
+Reviewed contribution claim, preregistration, reproducible execution,
+complete denominators, independent labels, replication, and actionable mitigation
+comparison. A sensational result is not a success criterion.
+
+REQUESTS
+Method reviewer: review controls and estimands; return a written issue list.
+Replication partner: rerun one frozen slice; return environment and trace hashes.
+Funder: support the scoped milestone package with scoring independence preserved.
