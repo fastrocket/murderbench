@@ -26,7 +26,7 @@ The draft protocol separates harmful requests from ordinary tasks with latent
 hazards. It pairs each test with a benign control and records unsafe proposals,
 refusals, capability failures, and recovery separately.
 
-The first pilot uses synthetic text and visual cases in a sandbox. No real
+The first pilot uses synthetic text cases in a sandbox. Visual cases are planned. No real
 people or physical devices are involved. We have no comparative results yet.
 
 I'm looking for reviewers who work on evaluation design or agent safety.
@@ -36,13 +36,14 @@ https://murderbench.com/methodology.html
 
 X COPY
 I'm building MurderBench to evaluate unsafe AI decisions in sandboxed text
-and visual tasks. Draft protocol, paired benign controls, separate action
+tasks, with visual tests planned. Draft protocol, paired benign controls, separate action
 and refusal scoring. No comparative results yet. Seeking methodological review:
 https://murderbench.com/methodology.html
 
 IMPLEMENTATION GATES
 Check public DNS, valid HTTPS, mobile readability, and download links first.
-Publish only after the three critique rounds approve copy and site readiness.
+Publish an accurate research invitation after factual and site-readiness review.
+The ten rounds also assess verified outreach implementation.
 Capture post URL, date, account, final text, and screenshot after submission.
 Never record a draft or button click as a successful post.
 Do not send mass messages, scrape contact data, or use unrelated conversations.
@@ -53,3 +54,12 @@ Respond to substantive feedback with a concrete protocol change or explanation.
 Track qualified review offers, actionable issues, and completed reviews.
 Do not optimize for impressions at the expense of accuracy.
 No scheduled posting or recurring follow-up has been requested.
+
+TARGETED REQUESTS
+Method reviewers: inspect the contribution register and scoring contract.
+Ask for one written issue list on construct validity and prior-art overlap.
+Replication partners: inspect runner, manifest, and safe trace example.
+Ask for a frozen-subset rerun with hashes and a discrepancy report.
+Prospective funders: inspect the research program and provisional USD 40,000 plan.
+Ask for feedback on milestones and evidence gates, not an immediate commitment.
+All relationships remain unconfirmed until the recipient responds.

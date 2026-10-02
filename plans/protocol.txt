@@ -71,8 +71,10 @@ Review counterfactual pairs for comparable difficulty and cue leakage.
 
 6. COLLECTION AND BUDGET
 Pilot budget authorized by owner: maximum USD 50 through OpenRouter credits.
-Use USD 35 for collection, USD 10 for repeatability, and USD 5 contingency.
-Pilot: eight families x two counterparts x three repeats = 48 calls per model.
+The USD 50 ceiling covers isolated tests and the final benchmark together.
+Feasibility slice: four cases x three calls x eight candidates = 96 calls.
+Final collection occurs only after ten independent critique rounds.
+The expanded 2,880-trial design is a future funded roadmap, not this collection.
 Prioritize proprietary frontier models, then Chinese near-frontier open weights.
 The pilot tests harness behavior and feasibility, not rare-event prevalence.
 Snapshot the official OpenRouter catalog, pricing, and supported modalities.
@@ -143,8 +145,8 @@ Publish aggregate findings and safe reproductions with uncertainty.
 Preserve original reports and issue dated corrections on counter-evidence.
 
 12. ACCEPTANCE AND CRITIQUE
-Three independent harsh review rounds evaluate protocol thoroughness, website
-professionalism, and outreach plan plus implementation. Passing threshold: 9.5/10.
+Ten independent harsh review rounds evaluate protocol thoroughness, website
+professionalism, and outreach plan plus implementation. Passing threshold: 10/10. Each round averages its scored dimensions.
 Reviewers must identify blocking evidence gaps, score dimensions separately,
 and cannot be instructed to pass. Store reports and each remediation record.
 A score is a reviewer opinion, not scientific validation.

@@ -1,0 +1,66 @@
+FINAL DECISION-BOUNDARY STUDY v1
+Collection gate: only after critique round ten, as requested by the owner.
+Full means the frozen scoped suite below, not the future funded harm roadmap.
+
+SCOPE
+24 task contexts across four constraint mechanisms. Six contexts per mechanism.
+Two synthetic timing conditions: task read versus preparation complete.
+Two state branches: unchanged valid state versus changed invalid state.
+Three stochastic repetitions per condition. Eight requested model candidates.
+24 x 2 x 2 x 3 = 288 calls per model; 2,304 calls in the complete candidate run.
+The same scripted assistant history is shared by both branches.
+It is not a natural agent rollout and does not establish actual commitment.
+No text-to-image, robotics, human subjects, or live tool execution occurs.
+
+INTERFACE
+Native propose_action function schema. The model can propose complete, pause,
+or clarify. The pure simulator records commitment and constraint violation.
+It never invokes a callable selected by model output.
+Both branches receive identical imperative form and state-source convention.
+Only the current status value changes within each pair.
+Temporal conditions have different scripted histories; interpret as a synthetic
+decision-context effect, not proof of sunk-cost psychology or internal intent.
+
+CONSTRUCT
+Measure compliance with changed verified constraints at a decision boundary.
+Candidate original contribution: a controlled slice with fixed histories,
+paired state interventions, timing, and native proposal scoring.
+Simple instruction following remains a plausible alternative explanation.
+The suite cannot establish general human-harm capability or rare-event risk.
+These safe proxy tasks are a first research slice, not the whole company remit.
+
+FROZEN CONFIGURATION
+plans/full-manifest.json stores exact model IDs, canonical slugs, provider tags,
+quantization, complete requested generation settings, schemas, and source hashes.
+plans/full-catalog.json stores the official catalog and endpoint snapshots.
+Native sampling defaults remain visible for routes that do not expose temperature.
+Provider reasoning effort is low and maximum output is 2,048 tokens.
+Provider fallback is disabled. The selected route is exclusive.
+Hosted Chinese open-weight observations do not establish direct-checkpoint results.
+Provider deployment revisions may be opaque; record the returned model and route.
+
+BUDGET AND RESUMPTION
+All tests plus final collection share the maximum USD 50 budget.
+Prior feasibility spend and unresolved reservations count against it.
+Reserve USD 0.50 before each call; reconcile actual usage afterward.
+Price caps and input byte bounds keep requests within the reservation envelope.
+At most four requests run concurrently. Proprietary models run first.
+SQLite commits response and observation together before cost reconciliation.
+Unresolved calls block replay and continuation. No automatic billable retry.
+Catalogs are immutable per freeze. Source mismatch blocks collection.
+
+ANALYSIS
+Report n/N for valid outputs and n/all attempted conditions, including invalids.
+Show safe changed-state restraint with stable-state useful completion.
+Show early/late paired cross-tabs by scenario and mechanism.
+Use descriptive rates, no significance tests or population safety rankings.
+Repeated calls and context variants share mechanisms and are not independent.
+Report full-case coverage, missing providers, truncation, content filters, and costs.
+Two blinded reviewers inspect labels before comparative behavioral conclusions.
+Without human expert review or independent replication, mark reports preliminary.
+
+RELEASE
+Publish safe manifests, method, aggregate process metrics, and safe proxy traces.
+Redact transport metadata and keep credentials absent from every artifact.
+Record the final manifest hash and collection date in the report.
+Preserve pilot defects as limitations rather than rewriting their provenance.
