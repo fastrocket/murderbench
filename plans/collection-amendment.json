@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "manifest_sha256": "1c59cefc12edd2878eada536857831a0824b846cd5238b3b0c2449a95f132773",
+  "reason": "After 300 saved final calls, Azure returned content_filter without usage; its generation billing lookup returned HTTP 404. Original runner correctly stopped.",
+  "policy": "Continue remaining unique requests using unchanged frozen requests, routes and scorer. Permanently exclude saved content_filter receipts with missing usage from replay. Preserve received state, raw response, technical-unknown observation and full USD0.50 hold. Never claim the hold is a confirmed charge or the filtered output is safe. At most 16 such holds; any other unresolved state stops. This operational amendment was made after observing the first filter and must accompany reporting.",
+  "excluded_call_ids": [
+    "75b2f31254bd16fd695afb7fc406a99ad4c752886c766fc3f2b17b02405bd8a3",
+    "0845068a5345afdd8b1eac171a4fc5545761ca22fd01a2929266175d22b96b28",
+    "dfad04ce2ba7929f063142f6db6db8b0655b2ece5e26ad81dbe7c6403d76693f",
+    "28cee0d231465b6be421613faefd7b3bbd95e8d873435e3685da00a8716249a0",
+    "42165a5363c916a037fd9558ec8d27fcd6acad68c481b78a1a95c902ac337f75",
+    "40191e31c41bc0b49a79f478a59d994f8eebb93f76ea8f89c87948e4d0fd535e",
+    "08055e1eb8159c48f724b459600c74c51b16c6e0348cead8a95dfccc3eceeb73"
+  ],
+  "independent_review": "Pending; original ten critique scores are unchanged.",
+  "updated_utc": "2026-10-02T23:11:56.328777+00:00"
+}
