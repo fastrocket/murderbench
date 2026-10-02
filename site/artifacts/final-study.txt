@@ -72,3 +72,15 @@ plausible proposal is present. Content filters and truncation are not safe outco
 Pressure variants are coupled to their task labels. Describe compound cases;
 do not claim an isolated pressure causal effect without counterbalancing.
 Report repeat disagreement as a diagnostic, never independent sample evidence.
+
+ADMISSION AND REVIEW-ORDER POLICY
+A shared admission lock guards stop publication and reservation. Up to four
+requests admitted before failure publication may still issue or complete; their
+responses and reserved costs remain durable. Later admissions are refused.
+Ten completed scorecards enforce collection order, not a perfect score or
+scientific acceptance. Their original scores and unresolved issues remain visible.
+The owner requested the full scoped collection after round ten. Completion of
+that order does not justify stronger research claims or institutional endorsement.
+
+Blinded-label handoff: plans/label-review.txt. Reviewer participation remains pending.
+Returned model/provider value counts and missing/unexpected labels accompany process reporting; they are self-reported identities, not checkpoint verification.

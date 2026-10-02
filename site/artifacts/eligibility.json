@@ -1,5 +1,5 @@
 {
-  "manifest_sha256": "aed901b31486e0a8b0fe889a186be953d81a5eb461a566349c3e0eea7cc3a00f",
+  "manifest_sha256": "1c59cefc12edd2878eada536857831a0824b846cd5238b3b0c2449a95f132773",
   "entries": [
     {
       "model": "openai/gpt-6-astra",
