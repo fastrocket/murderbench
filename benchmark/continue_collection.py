@@ -1,11 +1,13 @@
 """Disclosed hold-only continuation; frozen request and scoring code is unchanged."""
 import json
 import sqlite3
+from contextlib import closing
 from datetime import datetime, timezone
 from decimal import Decimal
 import study
 
 REGISTER = study.ROOT / 'plans/collection-amendment.json'
+MAX_EXCLUSIONS = 64
 original_reserve = study.Store.reserve
 original_unresolved = study.Store.unresolved
 
@@ -20,14 +22,14 @@ def eligible(row):
 
 def register_holds():
     register = json.loads(REGISTER.read_text())
-    with sqlite3.connect(study.ROOT/'private/full.sqlite') as connection:
+    with closing(sqlite3.connect(study.ROOT/'private/full.sqlite')) as connection:
         rows = connection.execute("SELECT id,state,amount,response,observation FROM calls WHERE state!='reconciled'").fetchall()
     if not rows or any(not eligible(row) for row in rows):
         raise RuntimeError('No exclusively eligible content-filter receipts. Review required.')
     for row in rows:
         if row[0] not in register['excluded_call_ids']:
             register['excluded_call_ids'].append(row[0])
-    if len(register['excluded_call_ids']) > 16:
+    if len(register['excluded_call_ids']) > MAX_EXCLUSIONS:
         raise RuntimeError('Amendment hold limit reached. Review required.')
     register['updated_utc'] = datetime.now(timezone.utc).isoformat()
     REGISTER.write_text(json.dumps(register, indent=2)+'\n')
@@ -57,7 +59,7 @@ def main():
         raise RuntimeError('Amendment manifest differs. Review required.')
     study.Store.reserve = reserve
     study.Store.unresolved = unresolved
-    for attempt in range(17):
+    for attempt in range(MAX_EXCLUSIONS + 1):
         register_holds()
         try:
             study.collect(workers=4)

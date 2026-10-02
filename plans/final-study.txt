@@ -84,3 +84,6 @@ that order does not justify stronger research claims or institutional endorsemen
 
 Blinded-label handoff: plans/label-review.txt. Reviewer participation remains pending.
 Returned model/provider value counts and missing/unexpected labels accompany process reporting; they are self-reported identities, not checkpoint verification.
+
+POST-OUTCOME OPERATIONAL AMENDMENT
+The first full-collection Azure content_filter receipt lacked usage. The original collector stopped; a read-only generation billing lookup returned 404. See plans/collection-amendment.json and benchmark/continue_collection.py for the dated, reviewed continuation. Saved filtered receipts are never replayed or counted safe; their full USD0.50 holds remain in the shared USD50 cap. Raw received states are preserved. Remaining original requests and the frozen scorer are unchanged. Original critique scores are unchanged. This amendment must accompany all reporting.

@@ -2,7 +2,7 @@
   "version": 1,
   "manifest_sha256": "1c59cefc12edd2878eada536857831a0824b846cd5238b3b0c2449a95f132773",
   "reason": "After 300 saved final calls, Azure returned content_filter without usage; its generation billing lookup returned HTTP 404. Original runner correctly stopped.",
-  "policy": "Continue remaining unique requests using unchanged frozen requests, routes and scorer. Permanently exclude saved content_filter receipts with missing usage from replay. Preserve received state, raw response, technical-unknown observation and full USD0.50 hold. Never claim the hold is a confirmed charge or the filtered output is safe. At most 16 such holds; any other unresolved state stops. This operational amendment was made after observing the first filter and must accompany reporting.",
+  "policy": "Continue remaining unique requests using unchanged frozen requests, routes and scorer. Permanently exclude saved content_filter receipts with missing usage from replay. Preserve received state, raw response, technical-unknown observation and full USD0.50 hold. Never claim the hold is a confirmed charge or the filtered output is safe. At most 64 excluded holds (admitted siblings can leave additional held receipts); any other unresolved state stops. This operational amendment was made after observing the first filter and must accompany reporting.",
   "excluded_call_ids": [
     "75b2f31254bd16fd695afb7fc406a99ad4c752886c766fc3f2b17b02405bd8a3",
     "0845068a5345afdd8b1eac171a4fc5545761ca22fd01a2929266175d22b96b28",
@@ -10,8 +10,27 @@
     "28cee0d231465b6be421613faefd7b3bbd95e8d873435e3685da00a8716249a0",
     "42165a5363c916a037fd9558ec8d27fcd6acad68c481b78a1a95c902ac337f75",
     "40191e31c41bc0b49a79f478a59d994f8eebb93f76ea8f89c87948e4d0fd535e",
-    "08055e1eb8159c48f724b459600c74c51b16c6e0348cead8a95dfccc3eceeb73"
+    "08055e1eb8159c48f724b459600c74c51b16c6e0348cead8a95dfccc3eceeb73",
+    "efae919d40a46d03d6bc84ec6967d886b81729e715780f7b53c29f70fb4d3c8d",
+    "f5ff45aa923fea57ed9f6b744f09ebae31e15551edc5cb3a95fe85eac77b85ae",
+    "86d4b5bf7c3fd5a0097ebf48d7c6fd75449add7a92f98ef97c154215ec2a1d29",
+    "063835ae667f5afe308d99af49a9a0d59245cae1674547660ae3a53b9ca3fe38",
+    "47ec378562b287fce73e7ca6158d0036550c6545ccf351846b1167089512be32",
+    "4888e4cc18d2c7931014a5e6a4b66ed75b041b629a6ebac7209e27a5c5562b63",
+    "1a79572771cef591bb9de65e128d47ee1b71d3a48a4721233f7640c24d3f00b9",
+    "e4a159c34c71d2edb464767a6c0efebce35581ed064db55df6f58cfff8da9ee6",
+    "a7344a5ba4cd762d98c3175039d0c6c0edbc455e7fae1e0d5177663c982b97e3",
+    "0866af2c1dccaa0ca9e6051475381b82c8afa22770bc70f3e8d01664c6146fc7",
+    "45ab27638927adbd344dda106a31251184f07f1f7c78458cc045b31d890890c1",
+    "7f497ce141178d16ea21ba4de18fa7451db2064542a9f1eb28c930b30e350d83",
+    "5775de44f5a6ac59c519e75489b160cdc4d3e4796d2f521a48ef236f6362a41d",
+    "5fb5f545d892949c0524b56234ad46a374e0cde62e0d87856f94f6a1a74fd07b",
+    "46317e218dc61b45409f401124cf5537e5e992776176abf9854ab166b324e11f",
+    "89dad8b313b295530fdfb12048f442333994a25a37e47009e912c370b6285a65",
+    "c9eb4a396105dff48fefa365fd8f97aea59745ca0880ed1c9e390bf9ea4ecd49",
+    "70b1b9dacfc3500bd13fc4cc0d9dc5c7349bb0959d0e1f195fcd8374ffa1ab2f"
   ],
   "independent_review": "Pending; original ten critique scores are unchanged.",
-  "updated_utc": "2026-10-02T23:11:56.328777+00:00"
+  "updated_utc": "2026-10-02T23:13:43.537855+00:00",
+  "limit_extension": "After original16-bound process exited, independent limit review approved max64 excluded IDs and65 iterations, unchangedUSD50 cap. See reviews/collection-amendment-limit-review.txt. This additional post-outcome extension preserves all prior IDs and unknowns."
 }
