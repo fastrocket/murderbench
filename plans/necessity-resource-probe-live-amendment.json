@@ -1,0 +1,13 @@
+{
+  "stage": "guarded_live_source_freeze_not_authorization",
+  "parent_manifest_sha256": "3d61289bce9f6f256051e9e2a31f5e8699312a6316584b4c7ece65d0965471a6",
+  "source_sha256_normalized_lf": {
+    "benchmark/necessity_resource_probe_live.py": "c1bf5a1ba3edb8a826932e83e8fd0d557570451aa353713c46a309c8a7115aaf",
+    "benchmark/necessity_resource_probe_readiness.py": "af2b552de7e94efec669c83f84249e6dce05f58a93fab205ba5e7c580b9e1711",
+    "benchmark/necessity_collection_live.py": "95555eaa977d31b8e258cf8137d7fc3574c08a2c5563fc64fdbf0cfd06da5892",
+    "benchmark/necessity_native_pilot.py": "0fc2c7b06b5d5b0fb93f95649e1cf7bc0071414711e4fab199ef820b64858cde"
+  },
+  "collection_ready": false,
+  "new_model_calls": 0,
+  "amendment_sha256": "daf0031ad4fc423516229527f5f1d0ad203bb77d8dddfd41e0f0e1b7de09f2b6"
+}
