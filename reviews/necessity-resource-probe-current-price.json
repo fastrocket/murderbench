@@ -1,0 +1,117 @@
+{
+  "stage": "conditional_reprice_no_collection_authorization",
+  "studies": [
+    {
+      "manifest_sha256": "2f36c52841e2db97dc17ddcb04817d66925b36754b7139fc0a74dd2ae16e3ce6",
+      "episodes": 512,
+      "max_calls": 4096,
+      "routes": [
+        {
+          "model": "openai/gpt-6-astra",
+          "max_calls": 512,
+          "conditional_usd": "362.086400"
+        },
+        {
+          "model": "anthropic/claude-opus-5.5",
+          "max_calls": 512,
+          "conditional_usd": "82.903040"
+        },
+        {
+          "model": "google/gemini-3.1-pro-preview",
+          "max_calls": 512,
+          "conditional_usd": "78.708736"
+        },
+        {
+          "model": "x-ai/grok-4.7",
+          "max_calls": 512,
+          "conditional_usd": "66.125824"
+        },
+        {
+          "model": "deepseek/deepseek-v4-pro-0813",
+          "max_calls": 512,
+          "conditional_usd": "23.99158272"
+        },
+        {
+          "model": "qwen/qwen3.8-2.4t-a95b",
+          "max_calls": 512,
+          "conditional_usd": "33.062912"
+        },
+        {
+          "model": "moonshotai/kimi-k3",
+          "max_calls": 512,
+          "conditional_usd": "39.177355264"
+        },
+        {
+          "model": "z-ai/glm-5.3",
+          "max_calls": 512,
+          "conditional_usd": "14.13808128"
+        }
+      ],
+      "conditional_usd": "700.193931264"
+    },
+    {
+      "manifest_sha256": "3d61289bce9f6f256051e9e2a31f5e8699312a6316584b4c7ece65d0965471a6",
+      "episodes": 384,
+      "max_calls": 1920,
+      "routes": [
+        {
+          "model": "openai/gpt-6-astra",
+          "max_calls": 240,
+          "conditional_usd": "169.728000"
+        },
+        {
+          "model": "anthropic/claude-opus-5.5",
+          "max_calls": 240,
+          "conditional_usd": "38.860800"
+        },
+        {
+          "model": "google/gemini-3.1-pro-preview",
+          "max_calls": 240,
+          "conditional_usd": "36.894720"
+        },
+        {
+          "model": "x-ai/grok-4.7",
+          "max_calls": 240,
+          "conditional_usd": "30.996480"
+        },
+        {
+          "model": "deepseek/deepseek-v4-pro-0813",
+          "max_calls": 240,
+          "conditional_usd": "11.24605440"
+        },
+        {
+          "model": "qwen/qwen3.8-2.4t-a95b",
+          "max_calls": 240,
+          "conditional_usd": "15.498240"
+        },
+        {
+          "model": "moonshotai/kimi-k3",
+          "max_calls": 240,
+          "conditional_usd": "18.364385280"
+        },
+        {
+          "model": "z-ai/glm-5.3",
+          "max_calls": 240,
+          "conditional_usd": "6.62722560"
+        }
+      ],
+      "conditional_usd": "328.215905280"
+    }
+  ],
+  "snapshot_sha256": "852aa5c85d412af3304d50f28c66e4a923e0070a593c4b051059a77300e70993",
+  "retrieved_utc": "2026-10-03T05:41:16.468263+00:00",
+  "future_conditional_usd": "1028.409836544",
+  "current_accounted_usd": "39.9098386736",
+  "remaining_authorized_usd": "10.0901613264",
+  "conditional_lifetime_total_usd": "1068.3196752176",
+  "conditional_shortfall_usd": "1018.3196752176",
+  "new_model_calls": 0,
+  "collection_ready": false,
+  "limits": [
+    "Conditional token arithmetic, not a price cap or billing guarantee.",
+    "Assumes 20000 input and4096 billed output tokens per turn; byte gate is not a token proof.",
+    "No retries, cache discounts or additional request/image/search fees included.",
+    "Public parameter availability does not prove private native action access.",
+    "Existing reservations remain accounted; no extra spending approved."
+  ]
+}
