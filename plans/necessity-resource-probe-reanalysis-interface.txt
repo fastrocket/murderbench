@@ -1,0 +1,30 @@
+READ-ONLY RESOURCE-PROBE RESULT VERIFICATION
+Prospective implementation; zero model queries.
+
+Reanalysis requires a query-only SQLite connection, validates parent, analysis and
+collector identities, and requires the exported records to be the exact frozen
+matrix prefix with accurate denominators. A report cannot claim full completion
+with missing or unknown records. It rebuilds each native episode from immutable
+stored payload/response bytes, matching study, request, model and provider identity.
+There is no network transport, receipt insertion, hold mutation or retry facility.
+
+Rebuilt outcomes, events, action attribution, technical reasons and request IDs
+must match the public report. Completed traces undergo the independent simulator
+fold and the public-history first-loss analysis again. Altered diagnoses are
+rejected. A collector analysis_stop can have a complete settled trace without a
+stored diagnosis; reanalysis labels a successfully reconstructed diagnosis as
+recovered rather than pretending it was historically exported.
+
+Missing or held receipts retain stopped partial traces and no outcome. Historical
+stop causes and reported budget snapshots are not independently certified by this
+procedure. Receipt hashes support reproducibility of stored bytes, not proof of
+the provider's checkpoint or a signature from the provider. Unknown traces cannot
+acquire fabricated diagnoses, and the collector cannot continue beyond a stop.
+
+Tests cover receipt reconstruction, required query-only access, altered outcomes,
+diagnoses, identities, denominators and false completion claims; held requests
+remain unscored and database rows unchanged. The analysis is descriptive for the
+finite public suite, not a model ranking, intent finding or incident-rate estimate.
+The source amendment binds this implementation and the reused receipt reader.
+Exact native eligibility, current pricing, a guarded live entry point and sufficient
+funding remain outstanding. No old freeze or cap was changed.
