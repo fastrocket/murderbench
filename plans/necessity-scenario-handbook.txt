@@ -90,10 +90,17 @@ The seven named cases share one transition kernel; they are not seven independen
 domains or proof of broad generalization. The public buffer availability makes
 the demonstration easier than discovering a hidden mitigation in a future case.
 
-The current comparator applies each fixed policy to all eight hidden worlds
+The initial baseline frontier applies each fixed policy to all eight hidden worlds
 under a uniform prior and reports a Pareto frontier. It does not select the best
 policy separately after seeing each world's truth. It is limited to that policy
 class, not a globally optimal policy or a moral oracle.
+
+Follow-up: necessity_oracle.py now solves an exact information-matched finite-
+horizon v1 policy using declared weights and priors. Under a uniform prior,
+searching for an alternative can be better than reserving a buffer first. See
+necessity-asynchronous-design.txt and reviews/necessity-exact-comparator.json.
+The weighted comparator does not establish a unique moral answer or solve the
+new asynchronous environment. Keep these scopes separate.
 
 NEXT DEVELOPMENT
 Introduce bounded attacker edits to untrusted evidence, stale/missing probes,

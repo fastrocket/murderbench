@@ -1,0 +1,35 @@
+{
+  "repository": "fabio-rovai/open-ontologies",
+  "commit": "9b2dfc24ebebe32e1127ba44e5047503729de40f",
+  "accessed": "2026-10-02",
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "paths": [
+    "README.md",
+    "src/civex.rs",
+    "src/civex_pywhy.rs",
+    "tests/civex_test.rs"
+  ],
+  "executed_external_code": false,
+  "total_repository_files": 2836,
+  "path_inventory_scope": "selected CIVeX implementation and tests, not full tree",
+  "inspected_files": [
+    {
+      "path": "src/civex.rs",
+      "url": "https://raw.githubusercontent.com/fabio-rovai/open-ontologies/9b2dfc24ebebe32e1127ba44e5047503729de40f/src/civex.rs",
+      "sha256": "2711c669a050e87e74229210686c5b9422d4e9253eafd1793617182b3e02e7bf",
+      "bytes": 29397
+    },
+    {
+      "path": "tests/civex_test.rs",
+      "url": "https://raw.githubusercontent.com/fabio-rovai/open-ontologies/9b2dfc24ebebe32e1127ba44e5047503729de40f/tests/civex_test.rs",
+      "sha256": "58ee31abf08c934b9531a1144148eeaaea5b27cf81fd520da350350f55edac39",
+      "bytes": 10583
+    }
+  ]
+}

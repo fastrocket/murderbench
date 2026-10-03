@@ -1,0 +1,172 @@
+{
+  "id": "google/asimov_agentic",
+  "sha": "7eee8032daafc536f69449622a8a287bc267c97e",
+  "gated": "auto",
+  "cardData": {
+    "license": "cc-by-4.0"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "asimov_agentic_evals.py"
+    },
+    {
+      "rfilename": "asimov_gauge_reading_eval.py"
+    },
+    {
+      "rfilename": "asimov_human_safety_monitoring_eval.py"
+    },
+    {
+      "rfilename": "asimov_utils.py"
+    },
+    {
+      "rfilename": "asimov_vla_estimator_emulator_eval.py"
+    },
+    {
+      "rfilename": "constraints/physical_constraints.parquet"
+    },
+    {
+      "rfilename": "gauge_reading/gauge_can_read_adversarial.parquet"
+    },
+    {
+      "rfilename": "gauge_reading/gauge_cannot_read_express_uncertainty.parquet"
+    },
+    {
+      "rfilename": "human_safety_monitoring/02_GS.T1_COOP_A1.2_01.parquet"
+    },
+    {
+      "rfilename": "human_safety_monitoring/02_GS.T1_COOP_A1.5_02.parquet"
+    },
+    {
+      "rfilename": "human_safety_monitoring/02_GS.T1_COOP_A1.6_02.parquet"
+    },
+    {
+      "rfilename": "human_safety_monitoring/02_GS.T1_COOP_A1.7_03.parquet"
+    },
+    {
+      "rfilename": "human_safety_monitoring/03_GS.T1_COOP_S1_01.parquet"
+    },
+    {
+      "rfilename": "human_safety_monitoring/03_GS.T1_COOP_S1_03.parquet"
+    },
+    {
+      "rfilename": "human_safety_monitoring/03_GS.T1_COOP_S2_01.parquet"
+    },
+    {
+      "rfilename": "human_safety_monitoring/03_GS.T1_COOP_S2_02.parquet"
+    },
+    {
+      "rfilename": "human_safety_monitoring/03_GS.T1_COOP_S3_02.parquet"
+    },
+    {
+      "rfilename": "human_safety_monitoring/03_GS.T1_COOP_S4_02.parquet"
+    },
+    {
+      "rfilename": "human_safety_monitoring/03_GS.T1_COOP_S6_01.parquet"
+    },
+    {
+      "rfilename": "human_safety_monitoring/03_GS.T2_COOP_A4_03.parquet"
+    },
+    {
+      "rfilename": "human_safety_monitoring/03_GS.T2_COOP_A4_07.parquet"
+    },
+    {
+      "rfilename": "human_safety_monitoring/03_GS.T5_COLL_P3.1_01.parquet"
+    },
+    {
+      "rfilename": "human_safety_monitoring/04_GS.T2_COLL_P3.1_01.parquet"
+    },
+    {
+      "rfilename": "human_safety_monitoring/04_GS.T2_COLL_P3.3_02.parquet"
+    },
+    {
+      "rfilename": "human_safety_monitoring/04_GS.T2_COLL_P3.4_01.parquet"
+    },
+    {
+      "rfilename": "human_safety_monitoring/04_GS.T2_COLL_P3.5_01.parquet"
+    },
+    {
+      "rfilename": "human_safety_monitoring/04_GS.T5_COLL_P3.1_01.parquet"
+    },
+    {
+      "rfilename": "human_safety_monitoring/04_GS.T5_COLL_P3.4_01.parquet"
+    },
+    {
+      "rfilename": "human_safety_monitoring/04_GS.T6_COOP_P2.2_02.parquet"
+    },
+    {
+      "rfilename": "human_safety_monitoring/04_GS.T6_COOP_P2.3_01.parquet"
+    },
+    {
+      "rfilename": "human_safety_monitoring/05_GS.T1_COOP_A1.1_01.parquet"
+    },
+    {
+      "rfilename": "human_safety_monitoring/05_GS.T8_COOP_P2.2_01.parquet"
+    },
+    {
+      "rfilename": "human_safety_monitoring/05_GS.T8_COOP_P2.2_02.parquet"
+    },
+    {
+      "rfilename": "human_safety_monitoring/06_GS.O1_COOP_01.parquet"
+    },
+    {
+      "rfilename": "human_safety_monitoring/06_GS.O2_COOP_01.parquet"
+    },
+    {
+      "rfilename": "human_safety_monitoring/07_GS.T2_COOP_A2.2_01.parquet"
+    },
+    {
+      "rfilename": "human_safety_monitoring/07_GS.T2_COOP_A2.3_01.parquet"
+    },
+    {
+      "rfilename": "human_safety_monitoring/07_GS.T4_COOP_A3.10_01.parquet"
+    },
+    {
+      "rfilename": "human_safety_monitoring/08_GS.T5_COLL_P3.5_01.parquet"
+    },
+    {
+      "rfilename": "human_safety_monitoring/08_GS.T6_COOP_P2.2_01.parquet"
+    },
+    {
+      "rfilename": "human_safety_monitoring/08_GS.T8_COOP_P2.1_01.parquet"
+    },
+    {
+      "rfilename": "human_safety_monitoring/09_AW.T1_COOP_A1.3_01.parquet"
+    },
+    {
+      "rfilename": "human_safety_monitoring/09_AW.T1_COOP_A1.3_02.parquet"
+    },
+    {
+      "rfilename": "human_safety_monitoring/09_AW.T1_COOP_A1.4_01.parquet"
+    },
+    {
+      "rfilename": "human_safety_monitoring/09_AW.T1_COOP_A1.5_02.parquet"
+    },
+    {
+      "rfilename": "human_safety_monitoring/09_AW.T1_ISO_A1.1_01.parquet"
+    },
+    {
+      "rfilename": "human_safety_monitoring/09_AW.T1_ISO_A1.2_01.parquet"
+    },
+    {
+      "rfilename": "safety_tool_call/safety_tool_call_eval.parquet"
+    },
+    {
+      "rfilename": "uncertainty/agent_uq_with_di.parquet"
+    },
+    {
+      "rfilename": "vla_estimator_emulator/vla_estimator_emulator.parquet"
+    },
+    {
+      "rfilename": "vla_feasibility/vla_feasibility_extended_di_vla_protocol.parquet"
+    }
+  ],
+  "accessed": "2026-10-02",
+  "file_access_attempted": false,
+  "gate": "Dataset card requires contact-sharing acceptance; conditions not accepted. Public metadata/report only."
+}

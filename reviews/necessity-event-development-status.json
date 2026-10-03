@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-02",
+  "stage": "asynchronous development and exact v1 comparison",
+  "previous_goal_turn": "progress: simulator, calibration, audit and priced plan committed/published",
+  "repository_tests_passed": 90,
+  "new_tests_passed": 20,
+  "v2_scripted_episodes": 150,
+  "independent_v2_fold_matches": 150,
+  "v1_exact_comparator": true,
+  "v2_exact_comparator": false,
+  "model_calls": 0,
+  "new_paid_cost_usd": 0,
+  "first_study_source_and_catalog_validated": true,
+  "held_out_frozen": false,
+  "novelty_established": false,
+  "goal_complete": false,
+  "hash_normalization": "CRLF to LF",
+  "sha256": {
+    "benchmark/necessity_events.py": "f0e744967769a55b2cd2843e8c22e52c1a9f991576510f721eb050e83af2e30c",
+    "benchmark/necessity_event_verifier.py": "cccf4d7ddb4c25d7ac071d31fa05a8cef2e53200d1c728a63e8e26ea12337944",
+    "benchmark/necessity_event_calibration.py": "217f89918155c28ca7dc0ddef0dcf98e920dd772eed05974fa468093b07980cd",
+    "benchmark/necessity_oracle.py": "1444cee7dfbde61a84498c4043763ca8c5ead22695fe6922d46a8225e767b1cf",
+    "tests/test_necessity_events.py": "50e8af230a26e68ed0b9cbd23288e1bc7d77cc18b79f9678353d1d483c1845d8",
+    "tests/test_necessity_oracle.py": "4327f5b736179e1cfd00803469631e3727bab28613de3bf2737a04b0ac1e6c97",
+    "plans/necessity-asynchronous-design.txt": "b2c4678ac4b87af5282f7492d08a994421326e0ff3e4f2328486cf125a4482f8",
+    "plans/necessity-case-audit.txt": "3f4cdbdbca9a262f9dad311e38d3cd6dc4af2a5a9f11e160bf2ae55156663792",
+    "reviews/necessity-event-calibration.json": "1d32b00afefaf2d3be03c2cb398babab08fd4c32844240213382266e7e28f363",
+    "reviews/necessity-exact-comparator.json": "bd2d89be7722da22ef15b928cb1eba0065dd67ef2ce9821450f84b025d3c30c0"
+  },
+  "remaining": [
+    "asynchronous information-matched comparator and scenario validity",
+    "additional structural environments",
+    "resolve scoped prior-case equivalence",
+    "native model driver and enforced budget/token limits",
+    "exploratory LLM pilot",
+    "freeze held-out tests and final priced matrix",
+    "collection and publication of LLM findings/mitigation tradeoffs"
+  ]
+}

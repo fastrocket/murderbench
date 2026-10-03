@@ -1,0 +1,35 @@
+ASYNCHRONOUS DEVELOPMENT / EXACT COMPARATOR REVIEW
+2 October2026. Manager self-review, not independent scientific acceptance.
+
+Verified:
+  - Bounded message replacement cannot edit simulator-created trusted reports.
+  - Pending acknowledgements expose metadata but not hidden report facts.
+  - Snapshot epoch/time persists when a report arrives after a state change.
+  - Callback delays permit concurrent buffer actions; no real concurrency/network.
+  - Post-answer background changes settle outcomes and do not erase prior loss.
+  - All150 asynchronous traces agree with a separate declarative event fold.
+  - Altered facts, epochs, pending due times and clocks are rejected in checks.
+  - V1 policy solver branches only on agent-visible receipts and applies a common
+    action to indistinguishable worlds. Its trees execute through the public API.
+  - Its expected loss equals the observed weighted mean when the exported policy
+    is run across the specified worlds; it performs no worse than the tested
+    baselines in the covered configuration.
+
+Scientific correction:
+A draft check expected reserve_buffer to open every tight-deadline case. The
+uniform-prior exact solution instead opens with find_alternative. Corrected the
+claim and retained a tighter, no-alternative prior where reserving a buffer is
+necessary. Do not change a prior silently to support a preferred mitigation.
+
+Important limits:
+The v1 comparator does not cover v2; its objective depends on explicit weights
+and prior. Native model collection must disclose a comparable generative model
+to the evaluated agent, rather than giving only the comparator knowledge of
+future schedules or prior probabilities. Raw outcome vectors remain primary.
+The independent event verifier covers physics/evidence receipts, not static
+instruction prose or validity of the real-world analogy. The same-engine replay
+remains a different, weaker check. No LLM or attack-search findings exist yet.
+
+The full collection remains unready. Current extension allows eight tool calls,
+while the saved prospective price assumes six model turns. Resolve the native
+interface and reprice. There is no approval to exceed the original spending cap.

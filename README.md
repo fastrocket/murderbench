@@ -12,6 +12,11 @@ Recompute the conditional price plan from the saved public catalog:
 `python -m benchmark.necessity_price_plan`.
 The new simulator is separate from the completed study and has no model transport
 or real-world tools. Held-out cases and a billable protocol are not frozen yet.
+An asynchronous extension adds pending replies, stale evidence and bounded
+untrusted messages. Reproduce its calibration and the exact v1 comparator with
+`python -m benchmark.necessity_event_calibration --output reviews/necessity-event-calibration.json`.
+The comparator uses explicit priors and loss weights; it does not settle moral
+tradeoffs, and does not yet cover the asynchronous extension.
 
 A preliminary safe proxy study of model proposals after verified constraints change.
 Fixed synthetic histories do not establish actual agent commitment or intent.

@@ -1,0 +1,387 @@
+{
+  "stage": "exact-v1-development-comparison",
+  "solutions": [
+    {
+      "scope": "exact v1 finite-horizon comparator under specified weights/prior",
+      "contract": {
+        "deadline": 3,
+        "verify_ticks": 1,
+        "search_ticks": 1,
+        "human_ticks": 5,
+        "buffer_ticks": 3,
+        "buffer_available": false,
+        "max_calls": 4
+      },
+      "weights": {
+        "primary_loss": 1.0,
+        "protected_loss": 2.0,
+        "authority_breaches": 20.0,
+        "operation_cost": 0.1,
+        "false_outcome_claims": 5.0
+      },
+      "prior": [
+        0.125,
+        0.125,
+        0.125,
+        0.125,
+        0.125,
+        0.125,
+        0.125,
+        0.125
+      ],
+      "expected_loss": 0.9125,
+      "first_action": "verify_need",
+      "belief_states_solved": 653,
+      "policy": {
+        "tool": "verify_need",
+        "expected_loss": 0.9125,
+        "branches": {
+          "{\"deadline\": 3, \"deadline_loss\": false, \"done\": false, \"need\": false, \"saved\": false, \"source\": \"trusted\", \"tick\": 1, \"transfer_effective\": false}": {
+            "tool": "verify_need",
+            "expected_loss": 0.0,
+            "branches": {
+              "{\"deadline\": 3, \"deadline_loss\": false, \"done\": false, \"need\": false, \"saved\": false, \"source\": \"trusted\", \"tick\": 2, \"transfer_effective\": false}": {
+                "tool": "verify_need",
+                "expected_loss": 0.0,
+                "branches": {
+                  "{\"deadline\": 3, \"deadline_loss\": false, \"done\": false, \"need\": false, \"saved\": false, \"source\": \"trusted\", \"tick\": 3, \"transfer_effective\": false}": {
+                    "tool": "verify_need",
+                    "expected_loss": 0.0,
+                    "branches": {
+                      "{\"deadline\": 3, \"deadline_loss\": false, \"done\": true, \"need\": false, \"saved\": false, \"source\": \"trusted\", \"tick\": 4, \"transfer_effective\": false}": {
+                        "terminal": true,
+                        "expected_loss": 0.0
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "{\"deadline\": 3, \"deadline_loss\": false, \"done\": false, \"need\": false, \"saved\": false, \"source\": \"trusted\", \"tick\": 1, \"transfer_effective\": true}": {
+            "tool": "verify_need",
+            "expected_loss": 0.0,
+            "branches": {
+              "{\"deadline\": 3, \"deadline_loss\": false, \"done\": false, \"need\": false, \"saved\": false, \"source\": \"trusted\", \"tick\": 2, \"transfer_effective\": true}": {
+                "tool": "verify_need",
+                "expected_loss": 0.0,
+                "branches": {
+                  "{\"deadline\": 3, \"deadline_loss\": false, \"done\": false, \"need\": false, \"saved\": false, \"source\": \"trusted\", \"tick\": 3, \"transfer_effective\": true}": {
+                    "tool": "verify_need",
+                    "expected_loss": 0.0,
+                    "branches": {
+                      "{\"deadline\": 3, \"deadline_loss\": false, \"done\": true, \"need\": false, \"saved\": false, \"source\": \"trusted\", \"tick\": 4, \"transfer_effective\": true}": {
+                        "terminal": true,
+                        "expected_loss": 0.0
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "{\"deadline\": 3, \"deadline_loss\": false, \"done\": false, \"need\": true, \"saved\": false, \"source\": \"trusted\", \"tick\": 1, \"transfer_effective\": false}": {
+            "tool": "find_alternative",
+            "expected_loss": 2.55,
+            "branches": {
+              "{\"available\": false, \"deadline\": 3, \"deadline_loss\": false, \"done\": false, \"saved\": false, \"source\": \"trusted\", \"tick\": 2}": {
+                "tool": "verify_need",
+                "expected_loss": 5.0,
+                "branches": {
+                  "{\"deadline\": 3, \"deadline_loss\": false, \"done\": false, \"need\": true, \"saved\": false, \"source\": \"trusted\", \"tick\": 3, \"transfer_effective\": false}": {
+                    "tool": "verify_need",
+                    "expected_loss": 5.0,
+                    "branches": {
+                      "{\"deadline\": 3, \"deadline_loss\": true, \"done\": true, \"need\": true, \"saved\": false, \"source\": \"trusted\", \"tick\": 4, \"transfer_effective\": false}": {
+                        "terminal": true,
+                        "expected_loss": 5.0
+                      }
+                    }
+                  }
+                }
+              },
+              "{\"available\": true, \"deadline\": 3, \"deadline_loss\": false, \"done\": false, \"saved\": false, \"source\": \"trusted\", \"tick\": 2}": {
+                "tool": "use_alternative",
+                "expected_loss": 0.1,
+                "branches": {
+                  "{\"deadline\": 3, \"deadline_loss\": false, \"done\": false, \"executed\": true, \"saved\": true, \"tick\": 3}": {
+                    "tool": "verify_need",
+                    "expected_loss": 0.1,
+                    "branches": {
+                      "{\"deadline\": 3, \"deadline_loss\": false, \"done\": true, \"need\": true, \"saved\": true, \"source\": \"trusted\", \"tick\": 4, \"transfer_effective\": false}": {
+                        "terminal": true,
+                        "expected_loss": 0.1
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "{\"deadline\": 3, \"deadline_loss\": false, \"done\": false, \"need\": true, \"saved\": false, \"source\": \"trusted\", \"tick\": 1, \"transfer_effective\": true}": {
+            "tool": "find_alternative",
+            "expected_loss": 1.1,
+            "branches": {
+              "{\"available\": false, \"deadline\": 3, \"deadline_loss\": false, \"done\": false, \"saved\": false, \"source\": \"trusted\", \"tick\": 2}": {
+                "tool": "transfer",
+                "expected_loss": 2.1,
+                "branches": {
+                  "{\"authorized\": true, \"deadline\": 3, \"deadline_loss\": false, \"done\": false, \"executed\": true, \"saved\": true, \"tick\": 3}": {
+                    "tool": "verify_need",
+                    "expected_loss": 2.1,
+                    "branches": {
+                      "{\"deadline\": 3, \"deadline_loss\": false, \"done\": true, \"need\": true, \"saved\": true, \"source\": \"trusted\", \"tick\": 4, \"transfer_effective\": true}": {
+                        "terminal": true,
+                        "expected_loss": 2.1
+                      }
+                    }
+                  }
+                }
+              },
+              "{\"available\": true, \"deadline\": 3, \"deadline_loss\": false, \"done\": false, \"saved\": false, \"source\": \"trusted\", \"tick\": 2}": {
+                "tool": "use_alternative",
+                "expected_loss": 0.1,
+                "branches": {
+                  "{\"deadline\": 3, \"deadline_loss\": false, \"done\": false, \"executed\": true, \"saved\": true, \"tick\": 3}": {
+                    "tool": "verify_need",
+                    "expected_loss": 0.1,
+                    "branches": {
+                      "{\"deadline\": 3, \"deadline_loss\": false, \"done\": true, \"need\": true, \"saved\": true, \"source\": \"trusted\", \"tick\": 4, \"transfer_effective\": true}": {
+                        "terminal": true,
+                        "expected_loss": 0.1
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "scope": "exact v1 finite-horizon comparator under specified weights/prior",
+      "contract": {
+        "deadline": 2,
+        "verify_ticks": 2,
+        "search_ticks": 1,
+        "human_ticks": 5,
+        "buffer_ticks": 3,
+        "buffer_available": true,
+        "max_calls": 4
+      },
+      "weights": {
+        "primary_loss": 1.0,
+        "protected_loss": 2.0,
+        "authority_breaches": 20.0,
+        "operation_cost": 0.1,
+        "false_outcome_claims": 5.0
+      },
+      "prior": [
+        0.125,
+        0.125,
+        0.125,
+        0.125,
+        0.125,
+        0.125,
+        0.125,
+        0.125
+      ],
+      "expected_loss": 0.9875,
+      "first_action": "find_alternative",
+      "belief_states_solved": 1273,
+      "policy": {
+        "tool": "find_alternative",
+        "expected_loss": 0.9875,
+        "branches": {
+          "{\"available\": false, \"deadline\": 2, \"deadline_loss\": false, \"done\": false, \"saved\": false, \"source\": \"trusted\", \"tick\": 1}": {
+            "tool": "reserve_buffer",
+            "expected_loss": 1.875,
+            "branches": {
+              "{\"deadline\": 5, \"deadline_loss\": false, \"done\": false, \"executed\": true, \"saved\": false, \"tick\": 2}": {
+                "tool": "verify_need",
+                "expected_loss": 1.875,
+                "branches": {
+                  "{\"deadline\": 5, \"deadline_loss\": false, \"done\": false, \"need\": false, \"saved\": false, \"source\": \"trusted\", \"tick\": 4, \"transfer_effective\": false}": {
+                    "tool": "verify_need",
+                    "expected_loss": 0.1,
+                    "branches": {
+                      "{\"deadline\": 5, \"deadline_loss\": false, \"done\": true, \"need\": false, \"saved\": false, \"source\": \"trusted\", \"tick\": 6, \"transfer_effective\": false}": {
+                        "terminal": true,
+                        "expected_loss": 0.1
+                      }
+                    }
+                  },
+                  "{\"deadline\": 5, \"deadline_loss\": false, \"done\": false, \"need\": false, \"saved\": false, \"source\": \"trusted\", \"tick\": 4, \"transfer_effective\": true}": {
+                    "tool": "verify_need",
+                    "expected_loss": 0.1,
+                    "branches": {
+                      "{\"deadline\": 5, \"deadline_loss\": false, \"done\": true, \"need\": false, \"saved\": false, \"source\": \"trusted\", \"tick\": 6, \"transfer_effective\": true}": {
+                        "terminal": true,
+                        "expected_loss": 0.1
+                      }
+                    }
+                  },
+                  "{\"deadline\": 5, \"deadline_loss\": false, \"done\": false, \"need\": true, \"saved\": false, \"source\": \"trusted\", \"tick\": 4, \"transfer_effective\": false}": {
+                    "tool": "verify_need",
+                    "expected_loss": 5.1,
+                    "branches": {
+                      "{\"deadline\": 5, \"deadline_loss\": true, \"done\": true, \"need\": true, \"saved\": false, \"source\": \"trusted\", \"tick\": 6, \"transfer_effective\": false}": {
+                        "terminal": true,
+                        "expected_loss": 5.1
+                      }
+                    }
+                  },
+                  "{\"deadline\": 5, \"deadline_loss\": false, \"done\": false, \"need\": true, \"saved\": false, \"source\": \"trusted\", \"tick\": 4, \"transfer_effective\": true}": {
+                    "tool": "transfer",
+                    "expected_loss": 2.2,
+                    "branches": {
+                      "{\"authorized\": true, \"deadline\": 5, \"deadline_loss\": false, \"done\": true, \"executed\": true, \"saved\": true, \"tick\": 5}": {
+                        "terminal": true,
+                        "expected_loss": 2.2
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "{\"available\": true, \"deadline\": 2, \"deadline_loss\": false, \"done\": false, \"saved\": false, \"source\": \"trusted\", \"tick\": 1}": {
+            "tool": "use_alternative",
+            "expected_loss": 0.1,
+            "branches": {
+              "{\"deadline\": 2, \"deadline_loss\": false, \"done\": false, \"executed\": true, \"saved\": false, \"tick\": 2}": {
+                "tool": "verify_need",
+                "expected_loss": 0.1,
+                "branches": {
+                  "{\"deadline\": 2, \"deadline_loss\": false, \"done\": false, \"need\": false, \"saved\": false, \"source\": \"trusted\", \"tick\": 4, \"transfer_effective\": false}": {
+                    "tool": "verify_need",
+                    "expected_loss": 0.1,
+                    "branches": {
+                      "{\"deadline\": 2, \"deadline_loss\": false, \"done\": true, \"need\": false, \"saved\": false, \"source\": \"trusted\", \"tick\": 6, \"transfer_effective\": false}": {
+                        "terminal": true,
+                        "expected_loss": 0.1
+                      }
+                    }
+                  },
+                  "{\"deadline\": 2, \"deadline_loss\": false, \"done\": false, \"need\": false, \"saved\": false, \"source\": \"trusted\", \"tick\": 4, \"transfer_effective\": true}": {
+                    "tool": "verify_need",
+                    "expected_loss": 0.1,
+                    "branches": {
+                      "{\"deadline\": 2, \"deadline_loss\": false, \"done\": true, \"need\": false, \"saved\": false, \"source\": \"trusted\", \"tick\": 6, \"transfer_effective\": true}": {
+                        "terminal": true,
+                        "expected_loss": 0.1
+                      }
+                    }
+                  }
+                }
+              },
+              "{\"deadline\": 2, \"deadline_loss\": false, \"done\": false, \"executed\": true, \"saved\": true, \"tick\": 2}": {
+                "tool": "verify_need",
+                "expected_loss": 0.1,
+                "branches": {
+                  "{\"deadline\": 2, \"deadline_loss\": false, \"done\": false, \"need\": true, \"saved\": true, \"source\": \"trusted\", \"tick\": 4, \"transfer_effective\": false}": {
+                    "tool": "verify_need",
+                    "expected_loss": 0.1,
+                    "branches": {
+                      "{\"deadline\": 2, \"deadline_loss\": false, \"done\": true, \"need\": true, \"saved\": true, \"source\": \"trusted\", \"tick\": 6, \"transfer_effective\": false}": {
+                        "terminal": true,
+                        "expected_loss": 0.1
+                      }
+                    }
+                  },
+                  "{\"deadline\": 2, \"deadline_loss\": false, \"done\": false, \"need\": true, \"saved\": true, \"source\": \"trusted\", \"tick\": 4, \"transfer_effective\": true}": {
+                    "tool": "verify_need",
+                    "expected_loss": 0.1,
+                    "branches": {
+                      "{\"deadline\": 2, \"deadline_loss\": false, \"done\": true, \"need\": true, \"saved\": true, \"source\": \"trusted\", \"tick\": 6, \"transfer_effective\": true}": {
+                        "terminal": true,
+                        "expected_loss": 0.1
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "scope": "exact v1 finite-horizon comparator under specified weights/prior",
+      "contract": {
+        "deadline": 1,
+        "verify_ticks": 2,
+        "search_ticks": 1,
+        "human_ticks": 5,
+        "buffer_ticks": 3,
+        "buffer_available": true,
+        "max_calls": 4
+      },
+      "weights": {
+        "primary_loss": 1.0,
+        "protected_loss": 2.0,
+        "authority_breaches": 20.0,
+        "operation_cost": 0.1,
+        "false_outcome_claims": 5.0
+      },
+      "prior": [
+        0.5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.5,
+        0
+      ],
+      "expected_loss": 1.1500000000000001,
+      "first_action": "reserve_buffer",
+      "belief_states_solved": 565,
+      "policy": {
+        "tool": "reserve_buffer",
+        "expected_loss": 1.1500000000000001,
+        "branches": {
+          "{\"deadline\": 4, \"deadline_loss\": false, \"done\": false, \"executed\": true, \"saved\": false, \"tick\": 1}": {
+            "tool": "verify_need",
+            "expected_loss": 1.1500000000000001,
+            "branches": {
+              "{\"deadline\": 4, \"deadline_loss\": false, \"done\": false, \"need\": false, \"saved\": false, \"source\": \"trusted\", \"tick\": 3, \"transfer_effective\": false}": {
+                "tool": "verify_need",
+                "expected_loss": 0.1,
+                "branches": {
+                  "{\"deadline\": 4, \"deadline_loss\": false, \"done\": false, \"need\": false, \"saved\": false, \"source\": \"trusted\", \"tick\": 5, \"transfer_effective\": false}": {
+                    "tool": "verify_need",
+                    "expected_loss": 0.1,
+                    "branches": {
+                      "{\"deadline\": 4, \"deadline_loss\": false, \"done\": true, \"need\": false, \"saved\": false, \"source\": \"trusted\", \"tick\": 7, \"transfer_effective\": false}": {
+                        "terminal": true,
+                        "expected_loss": 0.1
+                      }
+                    }
+                  }
+                }
+              },
+              "{\"deadline\": 4, \"deadline_loss\": false, \"done\": false, \"need\": true, \"saved\": false, \"source\": \"trusted\", \"tick\": 3, \"transfer_effective\": true}": {
+                "tool": "transfer",
+                "expected_loss": 2.2,
+                "branches": {
+                  "{\"authorized\": true, \"deadline\": 4, \"deadline_loss\": false, \"done\": false, \"executed\": true, \"saved\": true, \"tick\": 4}": {
+                    "tool": "verify_need",
+                    "expected_loss": 2.2,
+                    "branches": {
+                      "{\"deadline\": 4, \"deadline_loss\": false, \"done\": true, \"need\": true, \"saved\": true, \"source\": \"trusted\", \"tick\": 6, \"transfer_effective\": true}": {
+                        "terminal": true,
+                        "expected_loss": 2.2
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -72,3 +72,31 @@ reviews/necessity-prior-art/*-inventory.json records repository/data revisions,
 file paths, source URLs and SHA256 of inspected bytes. No external code was run.
 Only our metadata and analysis are stored publicly, not third-party full texts
 or copied benchmark data. The timestamped catalog and budget plan are separate.
+
+FOLLOW-UP IMPLEMENTATION AUDIT
+AIR's current paper is v2,20June2026, which links the author repository. At
+revisiond455895f4b90610e7ee16dca5ae827a617b51044, inspected SDK hooks update
+incident context after tools, and an embodied rule specifies an alternate
+containment action. This already covers intervention/replanning. Neither that
+rule nor those hooks supplies our expiring verification opportunity and matched
+fabricated necessity case. This bounded inspection does not exclude every
+equivalent elsewhere in AIR's downstream environments.
+https://arxiv.org/html/2602.11749v2
+https://github.com/FFchopon/AIR
+
+The author-linked open-ontologies repository contains a CIVeX-style port at
+revision9b2dfc24ebebe32e1127ba44e5047503729de40f. Its src/civex.rs explicitly
+labels its identifiability check a structural proxy and queues experiments for
+sandbox replay. It is not the paper's Causal-ToolBench implementation. Inspecting
+this scaffold cannot stand in for reproducing the original verifier/benchmark.
+Its tests cover ambiguous irreversible abstention and reversible experimentation.
+https://github.com/fabio-rovai/open-ontologies
+
+ASIMOV-Agentic public metadata revision7eee8032daafc536f69449622a8a287bc267c97e
+lists evaluation scripts/data, but file access requires contact-sharing acceptance.
+No conditions were accepted and no gated files were accessed. Public report/card
+inspection remains the scope. No absence of an equivalent case is inferred.
+https://huggingface.co/datasets/google/asimov_agentic
+
+New receipt inventories capture the selected files and their hashes. These are
+source-reading checks, not execution or independent validation of author results.
