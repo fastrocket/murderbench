@@ -37,5 +37,18 @@
     "LLM procedure arms and model eligibility for all eight routes",
     "held-out freeze and exact capped price plan",
     "full collection and final mitigation report"
-  ]
+  ],
+  "public_release_verified": true,
+  "public_scenario_url": "https://murderbench.com/artifacts/necessity-structural-scenarios.txt",
+  "public_checks": {
+    "pages": 11,
+    "local_resources": 42,
+    "tls_redirects_headers_and_ns_verified": true,
+    "evidence": "reviews/final-public-checks.json"
+  },
+  "ci": {
+    "commit": "a8b6a17680260c5ae239345b7fc7d6884a08b682",
+    "conclusion": "success",
+    "url": "https://github.com/fastrocket/murderbench/actions/runs/37095624063"
+  }
 }

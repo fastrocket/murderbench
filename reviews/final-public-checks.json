@@ -1,5 +1,5 @@
 {
-  "verified_utc": "2026-10-03T03:55:51.130308+00:00",
+  "verified_utc": "2026-10-03T04:10:03.170703+00:00",
   "page_count": 11,
   "checks": [
     {
@@ -60,7 +60,7 @@
       "path": "/artifacts/necessity-case-audit.txt",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "3f4cdbdbca9a262f9dad311e38d3cd6dc4af2a5a9f11e160bf2ae55156663792"
+      "sha256": "2b4fddd76506e5ffd8c83057341837dd58049bc7452c746e0434ead8603dd20c"
     },
     {
       "path": "/artifacts/necessity-native-development-analysis.json",
@@ -91,6 +91,18 @@
       "status": 200,
       "local_bytes_match": true,
       "sha256": "68ee091d9f6b60f9e15a32ea45c581e4a0c72069632e090f5dc83b66ff204ad7"
+    },
+    {
+      "path": "/artifacts/necessity-structural-calibration.json",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "7b6cbf9275e829051a42b3876e983e4868af17c7fb46311eabddb485dfd6a3c4"
+    },
+    {
+      "path": "/artifacts/necessity-structural-scenarios.txt",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "8653ae8c4bce4d6c052bba175d4b3f18b08d982b325ebae66d49ac1a5668cd7c"
     },
     {
       "path": "/artifacts/novelty.txt",
@@ -162,7 +174,7 @@
       "path": "/coverage.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "7ae64fd3bcc18b633c08768432a41bec5965f136071485a5fb63373dff2cefa0"
+      "sha256": "75b056604d7e5d53bedb746d61f9ef990c731d23a03ed2308d760f2be7f92814"
     },
     {
       "path": "/disclosure.html",
@@ -192,7 +204,7 @@
       "path": "/necessity.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "ad9d9a7d381ee46086df8096e4ea32bb679da849d35ff0515014a40b0f328071"
+      "sha256": "87f9b60aa830d95bf3c76599207bd5b33543172637786c35b08ebbd4e2baf585"
     },
     {
       "path": "/privacy.html",
@@ -204,7 +216,7 @@
       "path": "/program.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "26b48d273407d5625a0e7e76f747541f7efc622f6b3697a395004dcb377e87ca"
+      "sha256": "1bd41ce0473f26823aac9964061a244da4392cce2462113e59a56b3e2c0858f5"
     },
     {
       "path": "/protocol.txt",
@@ -277,13 +289,13 @@
       "name": "murderbench.com",
       "type": 2,
       "TTL": 300,
-      "data": "ns2.xenocom.com."
+      "data": "ns1.xenocom.com."
     },
     {
       "name": "murderbench.com",
       "type": 2,
       "TTL": 300,
-      "data": "ns1.xenocom.com."
+      "data": "ns2.xenocom.com."
     }
   ]
 }
