@@ -1,0 +1,19 @@
+{
+  "stage": "live collection wiring source amendment validated offline",
+  "previous_goal_turn": "progress: public weight provenance and authenticated read-only credential acceptance checked",
+  "repository_tests_passed": 169,
+  "live_wiring_tests_passed": 5,
+  "live_amendment_sha256": "98d2ec548724392d38b19fd833f204dcd4f822a9bd620ddda0dfffd3f36a7f07",
+  "new_paid_model_calls": 0,
+  "additional_budget_approved_usd": "0",
+  "lifetime_cap_usd": "50",
+  "authenticated_native_interface_routes": 0,
+  "full_collection_ready": false,
+  "goal_complete": false,
+  "remaining": [
+    "bounded native-interface probes and receipt verification",
+    "final concrete case-equivalence audit",
+    "compatible spending authorization",
+    "full collection and reproducible findings"
+  ]
+}

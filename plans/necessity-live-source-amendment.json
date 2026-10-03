@@ -1,0 +1,13 @@
+{
+  "stage": "live-wiring-source-amendment-not-spending-authorization",
+  "parent_manifest_sha256": "2f36c52841e2db97dc17ddcb04817d66925b36754b7139fc0a74dd2ae16e3ce6",
+  "collector_amendment_sha256": "0279df74dc59d6b86dff20cab29d03ed4fc8226c2584368c505ec8f87312b0e2",
+  "source_sha256": {
+    "benchmark/necessity_collection_live.py": "95555eaa977d31b8e258cf8137d7fc3574c08a2c5563fc64fdbf0cfd06da5892",
+    "benchmark/necessity_native_pilot.py": "0fc2c7b06b5d5b0fb93f95649e1cf7bc0071414711e4fab199ef820b64858cde"
+  },
+  "matrix_unchanged": true,
+  "lifetime_cap_usd": "50",
+  "collection_ready": false,
+  "amendment_sha256": "98d2ec548724392d38b19fd833f204dcd4f822a9bd620ddda0dfffd3f36a7f07"
+}
