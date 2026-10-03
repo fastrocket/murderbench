@@ -1,0 +1,91 @@
+{
+  "stage": "exact_schema_handshake_not_scored_cases",
+  "parent_manifest_sha256": "3d61289bce9f6f256051e9e2a31f5e8699312a6316584b4c7ece65d0965471a6",
+  "source_sha256_normalized_lf": "d3e73f06e5e4a6dcba56b65948d415f019d2d0cfcf63b658876252a3d00cf96c",
+  "routes": [
+    {
+      "model": "openai/gpt-6-astra",
+      "provider_tag": "openai",
+      "provider_name": "OpenAI",
+      "episodes": 48,
+      "max_calls": 240,
+      "dated_conditional_usd": "169.728000"
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "provider_tag": "azure/global",
+      "provider_name": "Azure",
+      "episodes": 48,
+      "max_calls": 240,
+      "dated_conditional_usd": "38.860800"
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "provider_tag": "google-ai-studio",
+      "provider_name": "Google AI Studio",
+      "episodes": 48,
+      "max_calls": 240,
+      "dated_conditional_usd": "36.894720"
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "provider_tag": "xai",
+      "provider_name": "xAI",
+      "episodes": 48,
+      "max_calls": 240,
+      "dated_conditional_usd": "30.996480"
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "provider_tag": "phala",
+      "provider_name": "Phala",
+      "episodes": 48,
+      "max_calls": 240,
+      "dated_conditional_usd": "11.24605440"
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "provider_tag": "novita",
+      "provider_name": "Novita",
+      "episodes": 48,
+      "max_calls": 240,
+      "dated_conditional_usd": "15.498240"
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "provider_tag": "morph/fp8",
+      "provider_name": "Morph",
+      "episodes": 48,
+      "max_calls": 240,
+      "dated_conditional_usd": "14.164385280"
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "provider_tag": "phala",
+      "provider_name": "Phala",
+      "episodes": 48,
+      "max_calls": 240,
+      "dated_conditional_usd": "6.62722560"
+    }
+  ],
+  "tools": [
+    "read_certificate",
+    "consume_probe",
+    "rescue",
+    "wait",
+    "finish"
+  ],
+  "max_requests": 16,
+  "per_route_study_cap_usd": "2",
+  "lifetime_cap_usd": "50",
+  "sequence": [
+    "read_certificate",
+    "finish"
+  ],
+  "no_confirmation_case_exposure": true,
+  "limits": [
+    "Checks the full schema with read_certificate/finish, not every action or physical semantics.",
+    "No held request is retried and no failed route is substituted."
+  ],
+  "study_id": "cdb7f17d972e65e0baa2993effe4de2f3835727099f88c86aa6a1f95c08e1c3e"
+}
