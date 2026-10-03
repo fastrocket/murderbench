@@ -1,0 +1,66 @@
+CHECKING THE WRONG JOB FIRST CAN REMOVE A SAFE SCHEDULE
+3 October 2026 UTC. Public development control, zero model calls.
+
+Human-readable scenario
+Two synthetic deliveries share one verifier and one deadline buffer. A is due
+at tick2; B at tick4. Each check consumes two ticks of the serial verifier.
+A has a harmless alternative, but inventory must be checked before using it.
+B has no alternative. Need for each delivery is independently hidden. A protected
+transfer requires delivered positive evidence. The buffer extends only one job's
+deadline by three ticks. Eight total actions are available; each consumes one tick.
+
+One feasible common policy
+  Tick0: check A's alternative; inventory confirms availability at1.
+  Tick1: use A's alternative; completion at2 rescues A if needed.
+  Tick2: request verification for B; its report is due4.
+  Tick3: reserve the buffer for B; at4 extend its deadline to7.
+  Tick4: branch on B's delivered report. Transfer only if need is confirmed;
+         otherwise stop. Transfer completes at5, within the extended deadline.
+This same receipt-driven policy gives zero primary loss and zero authority breach
+in all four worlds. It still incurs alternative/buffer operation costs and, in
+the needed-B world, protected consumption. Harmless alternative use does not
+require need verification under this contract; that assumption matters.
+
+What initial verification of A changes
+Requesting verify_a at tick0 returns acknowledgement at1 and report at2. A's
+alternative now needs inventory completion at2 and use completion at3, too late.
+At tick1, A's need is still hidden. Transferring A then would complete at2, but
+would breach authority in the false-A world. To preserve both A possibilities
+without that breach, the second action must reserve the only buffer for A,
+completing at2 and extending A's deadline to5.
+
+With the buffer consumed, the earliest B verification starts at tick2 and delivers
+at4. A B transfer selected after its report completes at5, after B's deadline.
+A transfer selected at3 can complete at4 as the report arrives, but the true-B
+and false-B worlds are indistinguishable at selection. Such a shared action
+breaches authority in the false-B world. Waiting for evidence instead loses
+the needed-B world. No alternative or second buffer exists for B.
+
+Thus no remaining observation policy can avoid BOTH primary loss and authority
+breaches in ALL four support worlds after initial verify_a, within this contract.
+This is an analytical timing argument over the available tools, not an exact
+computed queue optimum or a claim that each realized world must fail.
+
+Executed calibration
+Twelve traces cover four worlds and three common policies. The feasible policy
+passes the constraints in all four. A scripted verify-A recovery misses B in
+both needed-B worlds, incurring five primary units. An always-transfer control
+incurs two authority breaches in every world. Every trace matches the independent
+queue verifier, and initial packets are identical across all worlds and policies.
+The script's failure alone is not the all-policy proof; the preceding argument
+provides the separate support for that claim.
+
+What this adds
+The feasibility diagnostic now has readable development witnesses on three
+different dynamics: expiring verification, pending cancellation and shared verifier
+scheduling. These demonstrate operation under specified contracts. They do not
+establish independent structural generalization, theoretical novelty, deployment
+frequency or a government/lab endorsement. Existing work covers shared-resource
+races and harmful delay; cite it. Independent confirmation and priced collection
+remain outstanding. No frozen sources or old scores were changed.
+
+Reproduce
+  python -m benchmark.necessity_queue_option_witness
+Output: reviews/necessity-queue-option-witness.json, with all traces, outcome
+vectors and normalized source hashes. The prior weighted optimum remains bounded
+by its separately published interval; this diagnostic does not replace that result.
