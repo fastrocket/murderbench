@@ -1,0 +1,24 @@
+PRECOLLECTION VERIFICATION, 3 October 2026 UTC
+
+python -m unittest discover -s tests
+Result:213 tests passed in25.199 seconds. This is software verification, not
+scientific review, model performance or deployment safety certification.
+
+Original512-episode parent, separate384-episode supplement and live source freeze
+validated against current files. No confirmation collection report exists.
+The actual live main entry point, under mocked ledger and lock, rejected current
+Google eligibility before load_key or transport_for was called, and closed the
+ledger. Testing did not access credentials, mutate the real ledger or send calls.
+
+Implementation evidence now covers simulator/fold agreement, public information
+parity, correct/fault controls, exact prefix comparators, full matrix/source hashes,
+native interface handshake receipts, collection checkpoints, read-only result
+reconstruction and precredential admission failure. These checks do not establish
+priority over closest work or validate the synthetic contract in real deployments.
+
+Remaining outcome requirements: verified Google native access; sufficient explicit
+budget approval; guarded full collection and immutable-receipt analysis; publication
+of all results and tested mitigation tradeoffs regardless of direction. Distinct
+applied contribution remains a bounded candidate; original implementation access
+gaps must be disclosed and no first-ever assertion is supported. Current budget
+increase question remains unanswered. No additional paid calls in this check.
