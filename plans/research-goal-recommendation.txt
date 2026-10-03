@@ -1,0 +1,104 @@
+RESEARCH DECISION: SAFETY PROCEDURES THAT CONSUME THE LAST SAFE OPTION
+3 October 2026 UTC. Recommendation, not a newly activated goal.
+
+Read alongside option-preservation-research.txt (12-source synthesis),
+necessity-transition-equivalence-audit.txt (implementation comparisons), and
+necessity-resource-probe-comparator-findings.txt (offline diagnostic).
+
+Recommendation
+Study the first irreversible loss of an information-feasible, authorized rescue
+policy, caused by verification, escalation, cancellation or resource allocation.
+The deliverable should explain which operational repair restores that policy.
+Do not advertise a first-ever harmful-refusal benchmark: that territory is occupied.
+Our original absence of major failures is not proof of alignment. Nor should we
+design a benchmark whose success condition requires models to fail.
+
+Additional primary-source check in this review
+The Verifier Tax (2603.19328v1), sections 3–5, studies verifier mediation in
+tau-bench Airline/Retail with GPT-OSS-20B and GLM-4-9B. It separates safe success,
+unsafe success and failure and measures intervention, recovery, horizon and
+token overhead. This directly precedes claims that checks can reduce useful task
+completion. Its reported study does not establish our resource-consuming probe
+and first-loss/repair diagnostic as already evaluated, but a paper-level reading
+cannot rule out equivalent fixtures. Its models/domains do not establish frontier
+generalization. Conference text marked TBD does not establish acceptance.
+https://arxiv.org/html/2603.19328v1
+
+Strategic Verification for Long-Running LLM Agents is a versioned preprint,
+not independent validation of our proposal. It frames discretionary verification
+as a sequential value/cost decision while retaining mandatory checks. Therefore
+selective verification and verification budgeting are also not new claims.
+Our recommendation concerns executable loss of future feasible actions, with
+matched authority constraints; it does not authorize skipping mandatory checks.
+https://www.preprints.org/manuscript/202608.2057
+
+CIVeX section 6.4 describes its supplied paired experimental dataset as idealized
+and distinguishes it from a realistic exploration-cost model. This motivates a
+scoped comparison with state-changing verification; it does not establish priority.
+https://arxiv.org/html/2605.09168v1
+
+Rechecked RoboHarm's author report: five fixed scenes, three robot policies,
+300 trials, executed effects and human video/transcript labels. These differ
+from our earlier proposal endpoint. Its results are evidence about those robot
+interfaces and trials, not general harmful intent or text-model alignment.
+https://robocurve.org/roboharm/
+
+Concrete distinguishing candidate
+In a disclosed synthetic environment, a diagnostic consumes one reserve unit
+before delivering reliable evidence. A read-only certificate is available.
+With one unit total, probing destroys rescue feasibility even with extra time;
+with two units, late evidence can still destroy authorized rescue feasibility.
+These are different obstructions and require different repairs. Both genuine
+and fabricated emergencies begin with identical observations. Always rescuing
+is not a valid solution because it breaches authority in the no-need world.
+
+Local calibration currently contains 96 scripted traces and 32 selected comparator
+traces, independently replayed. All eight initial contracts admit a common safe
+policy; five cease to do so after the consuming probe. Those are exhaustive
+finite-model facts, not LLM failure rates. The perfect trusted certificate makes
+the control intentionally easy; it restricts realism and difficulty. No models
+have been queried on this family. No new theoretical principle is claimed.
+
+Research questions and falsification
+1. Can agents recognize that a seemingly cautious check destroys future safety?
+2. Do generic safety procedures increase that loss compared with a matched baseline?
+3. Can a bounded procedural or infrastructure repair reduce both omission and
+   unauthorized action, rather than trading one for the other invisibly?
+4. Does the diagnostic explain a decision that closest published metrics miss?
+If existing evaluated fixtures already provide the same diagnosis and repair,
+frame the work as replication/extension or pivot. If models pass, publish the
+operating envelope and negative finding. If all failures disappear under clear
+mechanics, report instruction/interface sensitivity, not hidden dangerous intent.
+
+Proposed goal to set
+Establish and validate an executable benchmark of safety procedures that destroy
+the last feasible, justified intervention. Compare the closest released fixtures;
+measure the first lost option and smallest tested repair across evidence delay,
+pending cancellation and resource-consuming verification. Use information-matched
+controls, genuine and fabricated emergencies, available alternatives and impossible
+cases. Freeze new structural confirmation cases and a priced analysis protocol
+before model queries. Evaluate proprietary frontier models first, then Chinese
+frontier or near-frontier open weights. Publish all attempted cells, technical
+unknowns, negative findings, reproducible traces and mitigation tradeoffs. Claim
+novelty only for a demonstrated measurement contribution, never search absence.
+
+Acceptance and impact
+A reviewer should be able to replay the first-loss witness, verify the comparator
+has no hidden information, and see the procedure/infrastructure decision changed
+by the repair. Show this across at least three mechanisms, not paraphrases.
+Keep outcome vectors and prior/weight sensitivity; do not score contested human
+tradeoffs as one universally correct moral choice. Confirmation cases must be
+independent of pilot-informed tuning; public cases are not secret holdouts.
+An externally reviewed partner case would strengthen deployment relevance, but
+is not permission needed to conduct the isolated study.
+
+Potential users: labs designing tool harnesses; evaluators assessing complete
+agent systems; infrastructure teams choosing escalation latency, evidence channels
+and reserve capacity. A funding pitch should offer actionable repair evidence,
+not a sensational leaderboard. Government endorsement and funding are aspirations,
+not outcomes this simulator proves. Real-world validity needs domain partners.
+
+Next concrete gate: transition-level comparison of the consuming-probe diagnostic
+against released CIVeX/verification fixtures, then a prospective native interface
+and confirmation freeze. Preserve all existing results and manifests. This memo
+authorizes neither added spending nor outreach and does not activate another goal.
