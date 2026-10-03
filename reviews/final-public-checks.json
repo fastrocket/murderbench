@@ -1,5 +1,5 @@
 {
-  "verified_utc": "2026-10-03T05:00:04.566546+00:00",
+  "verified_utc": "2026-10-03T05:04:13.121278+00:00",
   "page_count": 11,
   "checks": [
     {
@@ -85,6 +85,12 @@
       "status": 200,
       "local_bytes_match": true,
       "sha256": "11d2760eb655b37c078fa97285a302a6d18d47e15486a187c1c86f22c9932017"
+    },
+    {
+      "path": "/artifacts/necessity-google-diagnostic-review.txt",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "4b6f15a4d95fadec7840e185dad5a618be8f20805bba22bc3aa4b3a0bd31ba0a"
     },
     {
       "path": "/artifacts/necessity-model-provenance.txt",
@@ -175,6 +181,18 @@
       "status": 200,
       "local_bytes_match": true,
       "sha256": "046ff057d51931ee36b7a10ad0bcef654640cf6aa06db97e8fda4245d6bd4eed"
+    },
+    {
+      "path": "/artifacts/necessity-remaining-probe-findings.txt",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "70cdc43ba088fc2f3f27bb9f428b4a04ac0a4a7891eb258105b8fce7468fb2ef"
+    },
+    {
+      "path": "/artifacts/necessity-remaining-probe-verification.json",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "7e96e4a0f55d2a9221803379bc2103f8195ec3f014f03679003edf3488c0fc7d"
     },
     {
       "path": "/artifacts/necessity-structural-calibration.json",
@@ -276,7 +294,7 @@
       "path": "/coverage.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "a62e50bc067c170ffad67c8e5ca6f7ee0089da086838d797f63c75cbdf9975be"
+      "sha256": "6634a1124e9371c7ce0e223c638c753cb4d43943a7b288bc26d4e39d04a4f8cb"
     },
     {
       "path": "/disclosure.html",
@@ -306,7 +324,7 @@
       "path": "/necessity.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "30006624ca398d0bec1767d30fbe103fe367a2e7b8588bf782f62899fdeb2a06"
+      "sha256": "ac116b8c6a595ce525f2aa9e3fc7992973bfc5f4a6a5a7b7960ff6c97ad77470"
     },
     {
       "path": "/privacy.html",
@@ -318,7 +336,7 @@
       "path": "/program.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "b7223d064958674398106fadf95d24e3f6d8902b48ca625898f3dd19fd393d39"
+      "sha256": "b8f1adcc650f1b23f8fbf952cd7fe0b0c561cf9053cf641084ab9dfeb56d3c19"
     },
     {
       "path": "/protocol.txt",
