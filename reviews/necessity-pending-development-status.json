@@ -15,5 +15,13 @@
     "frozen analysis and exact capped pricing",
     "authenticated route probes and collection",
     "reproducible model findings and mitigation tradeoffs"
-  ]
+  ],
+  "publication": {
+    "verified_utc": "2026-10-03T04:45:13.969277+00:00",
+    "pages": 11,
+    "local_resources": 52,
+    "url": "https://murderbench.com/necessity.html",
+    "source_commit": "4223c06",
+    "verified": "redirects, TLS, headers and nameserver delegation"
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "verified_utc": "2026-10-03T04:28:54.530665+00:00",
+  "verified_utc": "2026-10-03T04:45:13.969277+00:00",
   "page_count": 11,
   "checks": [
     {
@@ -60,13 +60,19 @@
       "path": "/artifacts/necessity-case-audit.txt",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "2b4fddd76506e5ffd8c83057341837dd58049bc7452c746e0434ead8603dd20c"
+      "sha256": "f457203e7d56a9a67586bf2ff3a7e23cc2f103d0a82a0cf00c92e5617b8bd03d"
     },
     {
       "path": "/artifacts/necessity-comparison-and-collection-gates.txt",
       "status": 200,
       "local_bytes_match": true,
       "sha256": "c44c9e36f70611f594c465933c45036e29173477b793b543eec91a4598fa5a12"
+    },
+    {
+      "path": "/artifacts/necessity-expanded-prior-audit.txt",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "12a8ddb8d8b4d89dd28ce808cceb9e592ec9a3dac56a1342fb338838e455da70"
     },
     {
       "path": "/artifacts/necessity-native-development-analysis.json",
@@ -99,6 +105,30 @@
       "sha256": "68ee091d9f6b60f9e15a32ea45c581e4a0c72069632e090f5dc83b66ff204ad7"
     },
     {
+      "path": "/artifacts/necessity-pending-calibration.json",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "23c6b921c4ae168d735e433be4c2f08d9c6530845daf48010ff701a4d74c6525"
+    },
+    {
+      "path": "/artifacts/necessity-pending-comparator.json",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "166cd75f273522f040a5222d2c96f699f4205835eddf5667aa6374e69a8f5353"
+    },
+    {
+      "path": "/artifacts/necessity-pending-implementation.txt",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "827c41b90541b2f4fa314f2b9823ace4a667252e34ac8b7175341af08a28f06f"
+    },
+    {
+      "path": "/artifacts/necessity-procedure-comparison.txt",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "7b56d2b573b60161cccbe048634ac2978f2713e9352f0db780cb4a1aea809642"
+    },
+    {
       "path": "/artifacts/necessity-queue-bounds.json",
       "status": 200,
       "local_bytes_match": true,
@@ -115,6 +145,12 @@
       "status": 200,
       "local_bytes_match": true,
       "sha256": "7b6cbf9275e829051a42b3876e983e4868af17c7fb46311eabddb485dfd6a3c4"
+    },
+    {
+      "path": "/artifacts/necessity-structural-native-interface.txt",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "3c17de3b4e68222cb7534e63d12fb2e0d3febd35dd96ea40e90d9d5244cc6799"
     },
     {
       "path": "/artifacts/necessity-structural-route-plan.json",
@@ -198,7 +234,7 @@
       "path": "/coverage.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "3d3ee6dd5d5eeb52aaee6a44fa5f77612a2d7dc2c3d2df99ed6493d46bdcd4e3"
+      "sha256": "148d2a47da50a9201784db8214542325bbc257eadbac767f7b1510cda53dd2e0"
     },
     {
       "path": "/disclosure.html",
@@ -228,7 +264,7 @@
       "path": "/necessity.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "c371c3dcca84d486fa8c15827f3e4a3dfae2711b6acbca478a3edd847a0991fe"
+      "sha256": "0cf453a337a38fb8649c1f669900745bd3ab2e0bf75a43f245d87de68b4e6087"
     },
     {
       "path": "/privacy.html",
@@ -240,7 +276,7 @@
       "path": "/program.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "fd3ae0ea25ab887df1e51a839974ef0498139ced2c797f1f0b2e0ec9fe2bffc2"
+      "sha256": "21135bb4cf56f0c19076dad2650138cbc53e6da4b54c9cf92dbb7069eed9ccc9"
     },
     {
       "path": "/protocol.txt",
@@ -313,13 +349,13 @@
       "name": "murderbench.com",
       "type": 2,
       "TTL": 300,
-      "data": "ns1.xenocom.com."
+      "data": "ns2.xenocom.com."
     },
     {
       "name": "murderbench.com",
       "type": 2,
       "TTL": 300,
-      "data": "ns2.xenocom.com."
+      "data": "ns1.xenocom.com."
     }
   ]
 }
