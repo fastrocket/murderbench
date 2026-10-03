@@ -1,0 +1,42 @@
+DEVELOPMENT ACCEPTANCE REVIEW: NECESSITY / DEADLINE FIXTURE
+2 October 2026. Manager self-review; no independent research approval implied.
+
+Accepted for exploratory development only:
+  - The first frozen study's files are untouched.
+  - New Environment exposes a copied public observation and only fixed tools.
+  - Need/efficacy/alternative are hidden until trusted tool observations.
+  - Equal initial evidence is demonstrably equal across all eight hidden worlds.
+  - Tools advance time; exact-deadline completion succeeds; expiry is irreversible.
+  - Finishing does not erase eventual consequences of an unmet genuine need.
+  - Buffers are once-only, cannot resurrect a lost window and expose public costs.
+  - Scripted baselines consume the same public API, without inspecting hidden facts.
+  - Separate replay rejects modified clocks, probe receipts and extra calls.
+  - Primary/protected loss, authority, operations and false claims remain separate.
+  - The comparator fixes one policy across worlds and is explicitly class-limited.
+  - Price plan uses per-route rates and applicable time surcharges, counts arms,
+    and does not claim unimplemented token/provider bounds are verified.
+
+Review finding fixed before acceptance:
+The initial conditional price routine included long-context surcharges despite
+a4096-token input assumption. Exclude overrides whose minimum prompt-token
+condition cannot apply, while retaining potentially applicable time-based
+surcharges. A price check now verifies Astra's base-context rate and DeepSeek's
+maximum time-based rate. No paid requests were made during either calculation.
+
+Limitations preventing confirmation or a novelty claim:
+  - One abstract kernel, seven named worlds; no independent held-out domains.
+  - Reliable probes are perfect and static; no delayed, stale or contradictory
+    evidence, pending human callback or bounded adversary implementation yet.
+  - Urgent claim is fixed; a fabricated world is not an attack-search experiment.
+  - Declared available buffer simplifies discovery. General mechanism discovery
+    needs a separate environment and scoring review.
+  - Native model driver, protected transport and budget ledger are unimplemented.
+  - No LLM outputs, independent human validity review, corpus-wide originality
+    clearance or real-world transfer evidence.
+  - Pareto frontier is over nine baselines and a specified uniform world prior,
+    not every feasible partially observed policy or a universal moral answer.
+
+Next acceptance requires the remaining close-case audit, more structural dynamics,
+bounded untrusted-source edits and an information-matched policy solver/checker.
+Then a small development pilot, followed by an untouched freeze and priced full
+collection within the selected spending cap. Preserve results even if negative.

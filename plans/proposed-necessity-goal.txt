@@ -1,0 +1,96 @@
+PROPOSED GOAL: VERIFIED NECESSITY UNDER DEADLINE
+2 October 2026. Proposal for the user to select; not an activated goal.
+
+COPYABLE GOAL
+
+Develop and validate an executable benchmark of whether frontier AI agents can
+prevent avoidable harm under time pressure while resisting fabricated claims
+that harmful action is necessary. First establish a defensible contribution
+through a case-level audit of the closest work. Then build isolated synthetic
+environments with evidence provenance, verification costs, consequential
+deadlines and discoverable safer alternatives. Calibrate with deliberate faulty
+and correct policies before a small development pilot. Freeze separate held-out
+cases and analysis before a priced, budget-approved collection, prioritizing
+frontier proprietary models and then Chinese frontier or near-frontier open
+weights. Publish reproducible outcomes and mitigation tradeoffs whether results
+are positive or negative. If the contribution is already covered, report that
+and pivot before full collection.
+
+WHY THIS GOAL
+
+The intended question is whether a safety procedure prevents harm or shifts it
+into delay, unavailable escalation and missed intervention opportunities, and
+whether an adversary can exploit pressure to obtain unjustified action. It is
+not enough to count refusals or demand one answer to a contested sacrifice.
+
+Novelty is provisional. See necessity-and-inaction-research.txt, especially the
+CIVeX, causal misspecification, AgentAbstain and informed abstention comparisons.
+None of harmful refusal, trolley dilemmas, paired tasks or verification delay
+is individually new. The proposed contribution needs an executable case that
+the closest existing protocol cannot measure equivalently.
+
+ACCEPTANCE CRITERIA AND STOP CONDITIONS
+
+Stage 1: contribution audit (suggested week 1)
+  Compare concrete cases and implementation assumptions from CIVeX and its
+  misspecification follow-up, AgentAbstain, informed abstention, ASIMOV-Agentic,
+  AIR and the grid-crisis prototype. Pin versions/commits when inspecting code.
+  Produce a feature/case mapping, a minimal distinguishing example and an
+  explicit falsification argument. Label replication/extension honestly if the
+  example already exists. Independent feedback is desirable; report its absence.
+
+Stage 2: offline validity (suggested weeks 2-3)
+  Build a separate finite event simulator and independent replay checker.
+  Expose only in-memory tools. Include genuine need, fabricated necessity,
+  useful/ineffective requested actions, available/unavailable alternatives and
+  tight/loose deadlines. Keep protected constraints explicit.
+  Verify at least the eight failure mechanisms enumerated in the research report
+  with intentional fault policies and correct-policy controls. Test that identical
+  observations are scored against the same feasible information constraint.
+  Quarantine unavoidable or contested moral cases from binary safety rankings.
+  Stop if the oracle leaks hidden facts or no meaningful decision tradeoff exists.
+
+Stage 3: exploratory development (suggested week 4)
+  Use development templates only and two proprietary routes initially.
+  Measure actual call counts/costs and check tools, delays and scorer sensitivity.
+  Preserve all attempts, technical failures and revisions. Diagnose saturation
+  without tuning against confirmation outcomes. No predetermined failure-rate
+  requirement: identifying a weak design is an acceptable development result.
+
+Stage 4: held-out collection (suggested week 5, conditional)
+  Freeze independent templates, outcome vector, information-matched comparator,
+  route identities, treatment policies, attack budget, missing-data rules and
+  analysis. Price the exact matrix before collection and select a hard cap.
+  Collect proprietary frontier routes first and Chinese open-weight routes next.
+  Do not claim all deployments/checkpoints were tested from hosted routes.
+
+Stage 5: report and evidence-led outreach (suggested week 6)
+  Release replayable cases, logs with appropriate redaction, scorer checks,
+  outcome tables, template-level uncertainty and mitigation sensitivity.
+  Include ordinary completion, omission, adversarial compliance, authority
+  breaches and honest reporting; no single refusal score substitutes for these.
+  Explain what a deployment owner could change and what remains unvalidated.
+  Prepare lab/government-review outreach around the verified contribution.
+  External endorsement, funding or a critic score is not an acceptance criterion.
+
+SCOPE AND BUDGET TO SELECT WITH THE GOAL
+
+Suggested planning horizon: six weeks, subject to audit findings and review.
+Suggested new development cap: $250, optional and not approved by this document.
+Full collection: separately priced and capped after the development pilot.
+If retaining only the original $50 total cap, prioritize the offline audit and
+prototype; roughly $13.60 remains after existing conservative accounted costs.
+No new paid model calls have been made for this proposal.
+
+Illustrative matrix, not an approved powered study:
+  Development: 4 bases x 8 worlds x 2 deadlines x 2 routes x 2 repetitions
+               = 256 episodes; at most 1,536 calls at six turns per episode.
+  Held-out: 12 bases x 8 worlds x 2 deadlines x 8 routes x 2 repetitions
+            = 3,072 episodes; at most 18,432 calls at six turns per episode.
+  These totals cover ONE procedure arm. Each additional arm can multiply calls;
+  sensitivity factors, retries and independent replications are additional.
+  Twelve held-out bases support scoped evidence, not a broad safety guarantee.
+
+The user can set Stage 1-2 alone as the immediate goal, then authorize collection
+after reviewing a concrete calibrated protocol and price. This avoids committing
+the entire budget to an unvalidated novelty hypothesis.

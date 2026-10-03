@@ -1,5 +1,18 @@
 # MurderBench
 
+The next study is in development: **justified intervention under deadlines**.
+Its source review, overlap caveats and seven readable demonstration cases are in
+`plans/necessity-and-inaction-research.txt`, `plans/necessity-case-audit.txt` and
+`plans/necessity-scenario-handbook.txt`. These demonstrations use scripted policies;
+they are not LLM results or an established originality claim.
+
+Reproduce the offline development episodes:
+`python -m benchmark.necessity_calibration --output reviews/necessity-calibration.json`.
+Recompute the conditional price plan from the saved public catalog:
+`python -m benchmark.necessity_price_plan`.
+The new simulator is separate from the completed study and has no model transport
+or real-world tools. Held-out cases and a billable protocol are not frozen yet.
+
 A preliminary safe proxy study of model proposals after verified constraints change.
 Fixed synthetic histories do not establish actual agent commitment or intent.
 No real action is executed. No general safety ranking or injury risk is claimed.

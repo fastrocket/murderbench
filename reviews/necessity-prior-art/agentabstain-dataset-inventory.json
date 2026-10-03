@@ -1,0 +1,4849 @@
+{
+  "id": "antiquality/agentabstain",
+  "sha": "842228426c2a703347396501af61c7890972c7ee",
+  "lastModified": "2026-07-17T20:32:36.000Z",
+  "gated": false,
+  "cardData": {
+    "license": "cc-by-4.0",
+    "language": [
+      "en"
+    ],
+    "pretty_name": "AgentAbstain",
+    "size_categories": [
+      "n<1K"
+    ],
+    "tags": [
+      "llm-agents",
+      "agents",
+      "abstention",
+      "tool-use",
+      "ai-safety",
+      "benchmark"
+    ],
+    "task_categories": [
+      "text-generation"
+    ],
+    "configs": [
+      {
+        "config_name": "default",
+        "data_files": [
+          {
+            "split": "test",
+            "path": "tasks.jsonl"
+          }
+        ]
+      }
+    ]
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "assets/logo.png"
+    },
+    {
+      "rfilename": "environments/__init__.py"
+    },
+    {
+      "rfilename": "environments/agriculture_and_yield/__init__.py"
+    },
+    {
+      "rfilename": "environments/agriculture_and_yield/environment.py"
+    },
+    {
+      "rfilename": "environments/agriculture_and_yield/schema.py"
+    },
+    {
+      "rfilename": "environments/astrology_charting/__init__.py"
+    },
+    {
+      "rfilename": "environments/astrology_charting/environment.py"
+    },
+    {
+      "rfilename": "environments/astrology_charting/schema.py"
+    },
+    {
+      "rfilename": "environments/autonomous_delivery_and_routing/__init__.py"
+    },
+    {
+      "rfilename": "environments/autonomous_delivery_and_routing/environment.py"
+    },
+    {
+      "rfilename": "environments/autonomous_delivery_and_routing/schema.py"
+    },
+    {
+      "rfilename": "environments/calendar/__init__.py"
+    },
+    {
+      "rfilename": "environments/calendar/environment.py"
+    },
+    {
+      "rfilename": "environments/calendar/schema.py"
+    },
+    {
+      "rfilename": "environments/chat_and_group_management/__init__.py"
+    },
+    {
+      "rfilename": "environments/chat_and_group_management/environment.py"
+    },
+    {
+      "rfilename": "environments/chat_and_group_management/schema.py"
+    },
+    {
+      "rfilename": "environments/clinical_records_and_claims/__init__.py"
+    },
+    {
+      "rfilename": "environments/clinical_records_and_claims/environment.py"
+    },
+    {
+      "rfilename": "environments/clinical_records_and_claims/schema.py"
+    },
+    {
+      "rfilename": "environments/compliance_and_contracts/__init__.py"
+    },
+    {
+      "rfilename": "environments/compliance_and_contracts/environment.py"
+    },
+    {
+      "rfilename": "environments/compliance_and_contracts/schema.py"
+    },
+    {
+      "rfilename": "environments/consumer_banking/__init__.py"
+    },
+    {
+      "rfilename": "environments/consumer_banking/environment.py"
+    },
+    {
+      "rfilename": "environments/consumer_banking/schema.py"
+    },
+    {
+      "rfilename": "environments/consumer_health_portal/__init__.py"
+    },
+    {
+      "rfilename": "environments/consumer_health_portal/environment.py"
+    },
+    {
+      "rfilename": "environments/consumer_health_portal/schema.py"
+    },
+    {
+      "rfilename": "environments/crm_and_company_lookup/__init__.py"
+    },
+    {
+      "rfilename": "environments/crm_and_company_lookup/environment.py"
+    },
+    {
+      "rfilename": "environments/crm_and_company_lookup/schema.py"
+    },
+    {
+      "rfilename": "environments/device_privacy_and_focus/__init__.py"
+    },
+    {
+      "rfilename": "environments/device_privacy_and_focus/environment.py"
+    },
+    {
+      "rfilename": "environments/device_privacy_and_focus/schema.py"
+    },
+    {
+      "rfilename": "environments/disaster_relief_operations/__init__.py"
+    },
+    {
+      "rfilename": "environments/disaster_relief_operations/environment.py"
+    },
+    {
+      "rfilename": "environments/disaster_relief_operations/schema.py"
+    },
+    {
+      "rfilename": "environments/document_authoring_and_publication/__init__.py"
+    },
+    {
+      "rfilename": "environments/document_authoring_and_publication/environment.py"
+    },
+    {
+      "rfilename": "environments/document_authoring_and_publication/schema.py"
+    },
+    {
+      "rfilename": "environments/documents_and_analysis/__init__.py"
+    },
+    {
+      "rfilename": "environments/documents_and_analysis/environment.py"
+    },
+    {
+      "rfilename": "environments/documents_and_analysis/schema.py"
+    },
+    {
+      "rfilename": "environments/education_and_campus_portals/__init__.py"
+    },
+    {
+      "rfilename": "environments/education_and_campus_portals/environment.py"
+    },
+    {
+      "rfilename": "environments/education_and_campus_portals/schema.py"
+    },
+    {
+      "rfilename": "environments/filesystem/__init__.py"
+    },
+    {
+      "rfilename": "environments/filesystem/environment.py"
+    },
+    {
+      "rfilename": "environments/filesystem/schema.py"
+    },
+    {
+      "rfilename": "environments/fitness_and_wellness_logs/__init__.py"
+    },
+    {
+      "rfilename": "environments/fitness_and_wellness_logs/environment.py"
+    },
+    {
+      "rfilename": "environments/fitness_and_wellness_logs/schema.py"
+    },
+    {
+      "rfilename": "environments/flight_and_travel_management/__init__.py"
+    },
+    {
+      "rfilename": "environments/flight_and_travel_management/environment.py"
+    },
+    {
+      "rfilename": "environments/flight_and_travel_management/schema.py"
+    },
+    {
+      "rfilename": "environments/gmail_and_email_records/__init__.py"
+    },
+    {
+      "rfilename": "environments/gmail_and_email_records/environment.py"
+    },
+    {
+      "rfilename": "environments/gmail_and_email_records/schema.py"
+    },
+    {
+      "rfilename": "environments/home_medication_inventory/__init__.py"
+    },
+    {
+      "rfilename": "environments/home_medication_inventory/environment.py"
+    },
+    {
+      "rfilename": "environments/home_medication_inventory/schema.py"
+    },
+    {
+      "rfilename": "environments/identity_credit_and_collections/__init__.py"
+    },
+    {
+      "rfilename": "environments/identity_credit_and_collections/environment.py"
+    },
+    {
+      "rfilename": "environments/identity_credit_and_collections/schema.py"
+    },
+    {
+      "rfilename": "environments/industrial_and_infrastructure_control/__init__.py"
+    },
+    {
+      "rfilename": "environments/industrial_and_infrastructure_control/environment.py"
+    },
+    {
+      "rfilename": "environments/industrial_and_infrastructure_control/schema.py"
+    },
+    {
+      "rfilename": "environments/maps_and_navigation/__init__.py"
+    },
+    {
+      "rfilename": "environments/maps_and_navigation/environment.py"
+    },
+    {
+      "rfilename": "environments/maps_and_navigation/schema.py"
+    },
+    {
+      "rfilename": "environments/metrics_and_spreadsheet_analysis/__init__.py"
+    },
+    {
+      "rfilename": "environments/metrics_and_spreadsheet_analysis/environment.py"
+    },
+    {
+      "rfilename": "environments/metrics_and_spreadsheet_analysis/schema.py"
+    },
+    {
+      "rfilename": "environments/notes_and_reference/__init__.py"
+    },
+    {
+      "rfilename": "environments/notes_and_reference/environment.py"
+    },
+    {
+      "rfilename": "environments/notes_and_reference/schema.py"
+    },
+    {
+      "rfilename": "environments/personal_profile_and_contacts/__init__.py"
+    },
+    {
+      "rfilename": "environments/personal_profile_and_contacts/environment.py"
+    },
+    {
+      "rfilename": "environments/personal_profile_and_contacts/schema.py"
+    },
+    {
+      "rfilename": "environments/phone_and_messages/__init__.py"
+    },
+    {
+      "rfilename": "environments/phone_and_messages/environment.py"
+    },
+    {
+      "rfilename": "environments/phone_and_messages/schema.py"
+    },
+    {
+      "rfilename": "environments/project_logs/__init__.py"
+    },
+    {
+      "rfilename": "environments/project_logs/environment.py"
+    },
+    {
+      "rfilename": "environments/project_logs/schema.py"
+    },
+    {
+      "rfilename": "environments/retail_orders/__init__.py"
+    },
+    {
+      "rfilename": "environments/retail_orders/environment.py"
+    },
+    {
+      "rfilename": "environments/retail_orders/schema.py"
+    },
+    {
+      "rfilename": "environments/science_and_environment_data/__init__.py"
+    },
+    {
+      "rfilename": "environments/science_and_environment_data/environment.py"
+    },
+    {
+      "rfilename": "environments/science_and_environment_data/schema.py"
+    },
+    {
+      "rfilename": "environments/security_and_privacy_admin/__init__.py"
+    },
+    {
+      "rfilename": "environments/security_and_privacy_admin/environment.py"
+    },
+    {
+      "rfilename": "environments/security_and_privacy_admin/schema.py"
+    },
+    {
+      "rfilename": "environments/smart_home/__init__.py"
+    },
+    {
+      "rfilename": "environments/smart_home/environment.py"
+    },
+    {
+      "rfilename": "environments/smart_home/schema.py"
+    },
+    {
+      "rfilename": "environments/social_media_dataset_analysis/__init__.py"
+    },
+    {
+      "rfilename": "environments/social_media_dataset_analysis/environment.py"
+    },
+    {
+      "rfilename": "environments/social_media_dataset_analysis/schema.py"
+    },
+    {
+      "rfilename": "environments/spotify/__init__.py"
+    },
+    {
+      "rfilename": "environments/spotify/environment.py"
+    },
+    {
+      "rfilename": "environments/spotify/schema.py"
+    },
+    {
+      "rfilename": "environments/store_procurement_and_inventory/__init__.py"
+    },
+    {
+      "rfilename": "environments/store_procurement_and_inventory/environment.py"
+    },
+    {
+      "rfilename": "environments/store_procurement_and_inventory/schema.py"
+    },
+    {
+      "rfilename": "environments/system_operations/__init__.py"
+    },
+    {
+      "rfilename": "environments/system_operations/environment.py"
+    },
+    {
+      "rfilename": "environments/system_operations/schema.py"
+    },
+    {
+      "rfilename": "environments/trading_and_portfolio/__init__.py"
+    },
+    {
+      "rfilename": "environments/trading_and_portfolio/environment.py"
+    },
+    {
+      "rfilename": "environments/trading_and_portfolio/schema.py"
+    },
+    {
+      "rfilename": "environments/vehicle_status_and_control/__init__.py"
+    },
+    {
+      "rfilename": "environments/vehicle_status_and_control/environment.py"
+    },
+    {
+      "rfilename": "environments/vehicle_status_and_control/schema.py"
+    },
+    {
+      "rfilename": "environments/venmo_and_shared_expenses/__init__.py"
+    },
+    {
+      "rfilename": "environments/venmo_and_shared_expenses/environment.py"
+    },
+    {
+      "rfilename": "environments/venmo_and_shared_expenses/schema.py"
+    },
+    {
+      "rfilename": "environments/weather_and_alerts/__init__.py"
+    },
+    {
+      "rfilename": "environments/weather_and_alerts/environment.py"
+    },
+    {
+      "rfilename": "environments/weather_and_alerts/schema.py"
+    },
+    {
+      "rfilename": "environments/web_and_cms/__init__.py"
+    },
+    {
+      "rfilename": "environments/web_and_cms/environment.py"
+    },
+    {
+      "rfilename": "environments/web_and_cms/schema.py"
+    },
+    {
+      "rfilename": "environments/workforce_and_hr/__init__.py"
+    },
+    {
+      "rfilename": "environments/workforce_and_hr/environment.py"
+    },
+    {
+      "rfilename": "environments/workforce_and_hr/schema.py"
+    },
+    {
+      "rfilename": "tasks.jsonl"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_001/abstain/initial_states/device_privacy_and_focus.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_001/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_001/act/initial_states/device_privacy_and_focus.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_001/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_001/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_002/abstain/initial_states/gmail_and_email_records.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_002/abstain/initial_states/spotify.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_002/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_002/act/initial_states/gmail_and_email_records.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_002/act/initial_states/spotify.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_002/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_002/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_003/abstain/initial_states/gmail_and_email_records.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_003/abstain/initial_states/spotify.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_003/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_003/act/initial_states/gmail_and_email_records.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_003/act/initial_states/spotify.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_003/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_003/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_004/abstain/initial_states/flight_and_travel_management.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_004/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_004/act/initial_states/flight_and_travel_management.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_004/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_004/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_005/abstain/initial_states/consumer_health_portal.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_005/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_005/act/initial_states/consumer_health_portal.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_005/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_005/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_006/abstain/initial_states/device_privacy_and_focus.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_006/abstain/initial_states/fitness_and_wellness_logs.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_006/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_006/act/initial_states/device_privacy_and_focus.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_006/act/initial_states/fitness_and_wellness_logs.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_006/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_006/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_007/abstain/initial_states/device_privacy_and_focus.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_007/abstain/initial_states/industrial_and_infrastructure_control.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_007/abstain/initial_states/web_and_cms.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_007/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_007/act/initial_states/device_privacy_and_focus.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_007/act/initial_states/industrial_and_infrastructure_control.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_007/act/initial_states/web_and_cms.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_007/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_007/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_008/abstain/initial_states/consumer_health_portal.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_008/abstain/initial_states/fitness_and_wellness_logs.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_008/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_008/act/initial_states/consumer_health_portal.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_008/act/initial_states/fitness_and_wellness_logs.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_008/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_008/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_009/abstain/initial_states/web_and_cms.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_009/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_009/act/initial_states/web_and_cms.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_009/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_009/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_010/abstain/initial_states/science_and_environment_data.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_010/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_010/act/initial_states/science_and_environment_data.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_010/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_010/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_011/abstain/initial_states/education_and_campus_portals.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_011/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_011/act/initial_states/education_and_campus_portals.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_011/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_011/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_012/abstain/initial_states/trading_and_portfolio.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_012/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_012/act/initial_states/trading_and_portfolio.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_012/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_012/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_013/abstain/initial_states/education_and_campus_portals.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_013/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_013/act/initial_states/education_and_campus_portals.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_013/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_013/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_014/abstain/initial_states/flight_and_travel_management.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_014/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_014/act/initial_states/flight_and_travel_management.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_014/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_014/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_015/abstain/initial_states/filesystem.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_015/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_015/act/initial_states/filesystem.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_015/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_015/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_016/abstain/initial_states/store_procurement_and_inventory.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_016/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_016/act/initial_states/store_procurement_and_inventory.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_016/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_016/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_017/abstain/initial_states/venmo_and_shared_expenses.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_017/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_017/act/initial_states/venmo_and_shared_expenses.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_017/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_017/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_018/abstain/initial_states/retail_orders.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_018/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_018/act/initial_states/retail_orders.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_018/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_018/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_019/abstain/initial_states/filesystem.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_019/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_019/act/initial_states/filesystem.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_019/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_019/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_020/abstain/initial_states/calendar.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_020/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_020/act/initial_states/calendar.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_020/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_020/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_021/abstain/initial_states/web_and_cms.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_021/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_021/act/initial_states/web_and_cms.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_021/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_021/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_022/abstain/initial_states/document_authoring_and_publication.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_022/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_022/act/initial_states/document_authoring_and_publication.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_022/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_022/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_023/abstain/initial_states/vehicle_status_and_control.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_023/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_023/act/initial_states/vehicle_status_and_control.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_023/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_023/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_024/abstain/initial_states/filesystem.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_024/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_024/act/initial_states/filesystem.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_024/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_024/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_025/abstain/initial_states/calendar.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_025/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_025/act/initial_states/calendar.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_025/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_025/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_026/abstain/initial_states/document_authoring_and_publication.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_026/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_026/act/initial_states/document_authoring_and_publication.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_026/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_026/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_027/abstain/initial_states/chat_and_group_management.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_027/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_027/act/initial_states/chat_and_group_management.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_027/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_027/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_028/abstain/initial_states/filesystem.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_028/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_028/act/initial_states/filesystem.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_028/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_028/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_029/abstain/initial_states/calendar.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_029/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_029/act/initial_states/calendar.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_029/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_029/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_030/abstain/initial_states/filesystem.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_030/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_030/act/initial_states/filesystem.json"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_030/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/ambiguous_action_specification/preview_030/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_001/abstain/initial_states/flight_and_travel_management.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_001/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_001/act/initial_states/flight_and_travel_management.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_001/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_001/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_002/abstain/initial_states/spotify.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_002/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_002/act/initial_states/spotify.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_002/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_002/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_003/abstain/initial_states/maps_and_navigation.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_003/abstain/initial_states/vehicle_status_and_control.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_003/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_003/act/initial_states/maps_and_navigation.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_003/act/initial_states/vehicle_status_and_control.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_003/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_003/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_004/abstain/initial_states/gmail_and_email_records.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_004/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_004/act/initial_states/gmail_and_email_records.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_004/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_004/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_005/abstain/initial_states/consumer_banking.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_005/abstain/initial_states/flight_and_travel_management.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_005/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_005/act/initial_states/consumer_banking.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_005/act/initial_states/flight_and_travel_management.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_005/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_005/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_006/abstain/initial_states/flight_and_travel_management.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_006/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_006/act/initial_states/flight_and_travel_management.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_006/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_006/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_007/abstain/initial_states/system_operations.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_007/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_007/act/initial_states/system_operations.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_007/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_007/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_008/abstain/initial_states/maps_and_navigation.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_008/abstain/initial_states/vehicle_status_and_control.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_008/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_008/act/initial_states/maps_and_navigation.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_008/act/initial_states/vehicle_status_and_control.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_008/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_008/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_009/abstain/initial_states/retail_orders.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_009/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_009/act/initial_states/retail_orders.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_009/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_009/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_010/abstain/initial_states/flight_and_travel_management.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_010/abstain/initial_states/trading_and_portfolio.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_010/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_010/act/initial_states/flight_and_travel_management.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_010/act/initial_states/trading_and_portfolio.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_010/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_010/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_011/abstain/initial_states/maps_and_navigation.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_011/abstain/initial_states/metrics_and_spreadsheet_analysis.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_011/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_011/act/initial_states/maps_and_navigation.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_011/act/initial_states/metrics_and_spreadsheet_analysis.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_011/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_011/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_012/abstain/initial_states/industrial_and_infrastructure_control.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_012/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_012/act/initial_states/industrial_and_infrastructure_control.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_012/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_012/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_013/abstain/initial_states/flight_and_travel_management.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_013/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_013/act/initial_states/flight_and_travel_management.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_013/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_013/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_014/abstain/initial_states/workforce_and_hr.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_014/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_014/act/initial_states/workforce_and_hr.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_014/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_014/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_015/abstain/initial_states/retail_orders.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_015/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_015/act/initial_states/retail_orders.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_015/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_015/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_016/abstain/initial_states/gmail_and_email_records.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_016/abstain/initial_states/retail_orders.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_016/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_016/act/initial_states/gmail_and_email_records.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_016/act/initial_states/retail_orders.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_016/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_016/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_017/abstain/initial_states/vehicle_status_and_control.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_017/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_017/act/initial_states/vehicle_status_and_control.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_017/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_017/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_018/abstain/initial_states/trading_and_portfolio.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_018/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_018/act/initial_states/trading_and_portfolio.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_018/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_018/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_019/abstain/initial_states/vehicle_status_and_control.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_019/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_019/act/initial_states/vehicle_status_and_control.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_019/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_019/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_020/abstain/initial_states/retail_orders.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_020/abstain/initial_states/workforce_and_hr.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_020/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_020/act/initial_states/retail_orders.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_020/act/initial_states/workforce_and_hr.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_020/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_020/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_021/abstain/initial_states/chat_and_group_management.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_021/abstain/initial_states/document_authoring_and_publication.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_021/abstain/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_021/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_021/act/initial_states/chat_and_group_management.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_021/act/initial_states/document_authoring_and_publication.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_021/act/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_021/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_021/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_022/abstain/initial_states/flight_and_travel_management.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_022/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_022/act/initial_states/flight_and_travel_management.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_022/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_022/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_023/abstain/initial_states/flight_and_travel_management.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_023/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_023/act/initial_states/flight_and_travel_management.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_023/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_023/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_024/abstain/initial_states/retail_orders.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_024/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_024/act/initial_states/retail_orders.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_024/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_024/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_025/abstain/initial_states/social_media_dataset_analysis.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_025/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_025/act/initial_states/social_media_dataset_analysis.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_025/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_025/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_026/abstain/initial_states/smart_home.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_026/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_026/act/initial_states/smart_home.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_026/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_026/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_027/abstain/initial_states/astrology_charting.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_027/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_027/act/initial_states/astrology_charting.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_027/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_027/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_028/abstain/initial_states/agriculture_and_yield.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_028/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_028/act/initial_states/agriculture_and_yield.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_028/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_028/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_029/abstain/initial_states/education_and_campus_portals.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_029/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_029/act/initial_states/education_and_campus_portals.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_029/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_029/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_030/abstain/initial_states/project_logs.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_030/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_030/act/initial_states/project_logs.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_030/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_030/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_031/abstain/initial_states/home_medication_inventory.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_031/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_031/act/initial_states/home_medication_inventory.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_031/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_031/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_032/abstain/initial_states/crm_and_company_lookup.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_032/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_032/act/initial_states/crm_and_company_lookup.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_032/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_constraints/preview_032/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_001/abstain/initial_states/fitness_and_wellness_logs.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_001/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_001/act/initial_states/fitness_and_wellness_logs.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_001/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_001/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_002/abstain/initial_states/clinical_records_and_claims.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_002/abstain/initial_states/consumer_health_portal.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_002/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_002/act/initial_states/clinical_records_and_claims.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_002/act/initial_states/consumer_health_portal.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_002/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_002/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_003/abstain/initial_states/security_and_privacy_admin.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_003/abstain/initial_states/web_and_cms.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_003/abstain/initial_states/workforce_and_hr.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_003/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_003/act/initial_states/security_and_privacy_admin.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_003/act/initial_states/web_and_cms.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_003/act/initial_states/workforce_and_hr.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_003/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_003/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_004/abstain/initial_states/flight_and_travel_management.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_004/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_004/act/initial_states/flight_and_travel_management.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_004/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_004/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_005/abstain/initial_states/retail_orders.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_005/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_005/act/initial_states/retail_orders.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_005/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_005/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_006/abstain/initial_states/crm_and_company_lookup.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_006/abstain/initial_states/notes_and_reference.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_006/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_006/act/initial_states/crm_and_company_lookup.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_006/act/initial_states/notes_and_reference.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_006/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_006/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_007/abstain/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_007/abstain/initial_states/system_operations.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_007/abstain/initial_states/web_and_cms.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_007/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_007/act/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_007/act/initial_states/system_operations.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_007/act/initial_states/web_and_cms.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_007/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_007/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_008/abstain/initial_states/filesystem.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_008/abstain/initial_states/industrial_and_infrastructure_control.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_008/abstain/initial_states/phone_and_messages.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_008/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_008/act/initial_states/filesystem.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_008/act/initial_states/industrial_and_infrastructure_control.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_008/act/initial_states/phone_and_messages.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_008/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_008/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_009/abstain/initial_states/retail_orders.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_009/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_009/act/initial_states/retail_orders.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_009/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_009/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_010/abstain/initial_states/retail_orders.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_010/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_010/act/initial_states/retail_orders.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_010/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_010/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_011/abstain/initial_states/document_authoring_and_publication.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_011/abstain/initial_states/filesystem.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_011/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_011/act/initial_states/document_authoring_and_publication.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_011/act/initial_states/filesystem.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_011/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_011/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_012/abstain/initial_states/flight_and_travel_management.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_012/abstain/initial_states/retail_orders.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_012/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_012/act/initial_states/flight_and_travel_management.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_012/act/initial_states/retail_orders.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_012/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_012/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_013/abstain/initial_states/flight_and_travel_management.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_013/abstain/initial_states/retail_orders.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_013/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_013/act/initial_states/flight_and_travel_management.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_013/act/initial_states/retail_orders.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_013/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_013/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_014/abstain/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_014/abstain/initial_states/workforce_and_hr.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_014/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_014/act/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_014/act/initial_states/workforce_and_hr.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_014/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_014/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_015/abstain/initial_states/disaster_relief_operations.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_015/abstain/initial_states/document_authoring_and_publication.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_015/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_015/act/initial_states/disaster_relief_operations.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_015/act/initial_states/document_authoring_and_publication.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_015/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_015/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_016/abstain/initial_states/document_authoring_and_publication.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_016/abstain/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_016/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_016/act/initial_states/document_authoring_and_publication.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_016/act/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_016/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_016/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_017/abstain/initial_states/flight_and_travel_management.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_017/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_017/act/initial_states/flight_and_travel_management.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_017/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_017/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_018/abstain/initial_states/document_authoring_and_publication.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_018/abstain/initial_states/science_and_environment_data.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_018/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_018/act/initial_states/document_authoring_and_publication.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_018/act/initial_states/science_and_environment_data.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_018/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_018/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_019/abstain/initial_states/calendar.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_019/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_019/act/initial_states/calendar.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_019/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_019/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_020/abstain/initial_states/document_authoring_and_publication.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_020/abstain/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_020/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_020/act/initial_states/document_authoring_and_publication.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_020/act/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_020/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_020/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_021/abstain/initial_states/spotify.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_021/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_021/act/initial_states/spotify.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_021/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_021/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_022/abstain/initial_states/gmail_and_email_records.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_022/abstain/initial_states/venmo_and_shared_expenses.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_022/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_022/act/initial_states/gmail_and_email_records.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_022/act/initial_states/venmo_and_shared_expenses.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_022/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_022/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_023/abstain/initial_states/gmail_and_email_records.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_023/abstain/initial_states/venmo_and_shared_expenses.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_023/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_023/act/initial_states/gmail_and_email_records.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_023/act/initial_states/venmo_and_shared_expenses.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_023/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_023/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_024/abstain/initial_states/retail_orders.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_024/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_024/act/initial_states/retail_orders.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_024/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_024/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_025/abstain/initial_states/education_and_campus_portals.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_025/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_025/act/initial_states/education_and_campus_portals.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_025/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_025/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_026/abstain/initial_states/notes_and_reference.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_026/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_026/act/initial_states/notes_and_reference.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_026/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_026/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_027/abstain/initial_states/home_medication_inventory.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_027/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_027/act/initial_states/home_medication_inventory.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_027/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_027/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_028/abstain/initial_states/astrology_charting.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_028/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_028/act/initial_states/astrology_charting.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_028/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_028/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_029/abstain/initial_states/autonomous_delivery_and_routing.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_029/abstain/initial_states/filesystem.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_029/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_029/act/initial_states/autonomous_delivery_and_routing.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_029/act/initial_states/filesystem.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_029/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_029/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_030/abstain/initial_states/calendar.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_030/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_030/act/initial_states/calendar.json"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_030/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/conflicting_evidence/preview_030/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_001/abstain/initial_states/security_and_privacy_admin.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_001/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_001/act/initial_states/security_and_privacy_admin.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_001/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_001/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_002/abstain/initial_states/flight_and_travel_management.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_002/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_002/act/initial_states/flight_and_travel_management.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_002/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_002/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_003/abstain/initial_states/science_and_environment_data.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_003/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_003/act/initial_states/science_and_environment_data.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_003/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_003/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_004/abstain/initial_states/trading_and_portfolio.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_004/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_004/act/initial_states/trading_and_portfolio.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_004/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_004/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_005/abstain/initial_states/venmo_and_shared_expenses.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_005/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_005/act/initial_states/venmo_and_shared_expenses.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_005/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_005/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_006/abstain/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_006/abstain/initial_states/phone_and_messages.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_006/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_006/act/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_006/act/initial_states/phone_and_messages.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_006/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_006/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_007/abstain/initial_states/vehicle_status_and_control.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_007/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_007/act/initial_states/vehicle_status_and_control.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_007/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_007/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_008/abstain/initial_states/security_and_privacy_admin.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_008/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_008/act/initial_states/security_and_privacy_admin.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_008/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_008/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_009/abstain/initial_states/security_and_privacy_admin.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_009/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_009/act/initial_states/security_and_privacy_admin.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_009/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_009/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_010/abstain/initial_states/retail_orders.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_010/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_010/act/initial_states/retail_orders.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_010/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_010/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_011/abstain/initial_states/metrics_and_spreadsheet_analysis.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_011/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_011/act/initial_states/metrics_and_spreadsheet_analysis.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_011/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_011/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_012/abstain/initial_states/education_and_campus_portals.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_012/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_012/act/initial_states/education_and_campus_portals.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_012/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_012/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_013/abstain/initial_states/weather_and_alerts.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_013/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_013/act/initial_states/weather_and_alerts.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_013/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_013/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_014/abstain/initial_states/social_media_dataset_analysis.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_014/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_014/act/initial_states/social_media_dataset_analysis.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_014/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_014/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_015/abstain/initial_states/clinical_records_and_claims.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_015/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_015/act/initial_states/clinical_records_and_claims.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_015/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_015/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_016/abstain/initial_states/autonomous_delivery_and_routing.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_016/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_016/act/initial_states/autonomous_delivery_and_routing.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_016/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_016/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_017/abstain/initial_states/identity_credit_and_collections.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_017/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_017/act/initial_states/identity_credit_and_collections.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_017/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_017/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_018/abstain/initial_states/disaster_relief_operations.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_018/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_018/act/initial_states/disaster_relief_operations.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_018/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_018/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_019/abstain/initial_states/web_and_cms.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_019/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_019/act/initial_states/web_and_cms.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_019/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_019/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_020/abstain/initial_states/device_privacy_and_focus.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_020/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_020/act/initial_states/device_privacy_and_focus.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_020/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_020/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_021/abstain/initial_states/science_and_environment_data.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_021/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_021/act/initial_states/science_and_environment_data.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_021/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_021/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_022/abstain/initial_states/weather_and_alerts.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_022/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_022/act/initial_states/weather_and_alerts.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_022/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_022/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_023/abstain/initial_states/system_operations.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_023/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_023/act/initial_states/system_operations.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_023/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_023/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_024/abstain/initial_states/fitness_and_wellness_logs.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_024/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_024/act/initial_states/fitness_and_wellness_logs.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_024/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_024/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_025/abstain/initial_states/vehicle_status_and_control.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_025/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_025/act/initial_states/vehicle_status_and_control.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_025/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_025/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_026/abstain/initial_states/metrics_and_spreadsheet_analysis.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_026/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_026/act/initial_states/metrics_and_spreadsheet_analysis.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_026/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_026/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_027/abstain/initial_states/compliance_and_contracts.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_027/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_027/act/initial_states/compliance_and_contracts.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_027/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_027/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_028/abstain/initial_states/disaster_relief_operations.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_028/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_028/act/initial_states/disaster_relief_operations.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_028/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_028/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_029/abstain/initial_states/industrial_and_infrastructure_control.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_029/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_029/act/initial_states/industrial_and_infrastructure_control.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_029/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_029/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_030/abstain/initial_states/identity_credit_and_collections.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_030/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_030/act/initial_states/identity_credit_and_collections.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_030/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_030/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_031/abstain/initial_states/metrics_and_spreadsheet_analysis.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_031/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_031/act/initial_states/metrics_and_spreadsheet_analysis.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_031/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_031/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_032/abstain/initial_states/consumer_banking.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_032/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_032/act/initial_states/consumer_banking.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_032/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_032/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_033/abstain/initial_states/trading_and_portfolio.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_033/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_033/act/initial_states/trading_and_portfolio.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_033/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_033/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_034/abstain/initial_states/store_procurement_and_inventory.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_034/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_034/act/initial_states/store_procurement_and_inventory.json"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_034/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/critical_tool_failure/preview_034/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_001/abstain/initial_states/clinical_records_and_claims.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_001/abstain/initial_states/consumer_banking.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_001/abstain/initial_states/identity_credit_and_collections.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_001/abstain/initial_states/security_and_privacy_admin.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_001/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_001/act/initial_states/clinical_records_and_claims.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_001/act/initial_states/consumer_banking.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_001/act/initial_states/identity_credit_and_collections.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_001/act/initial_states/security_and_privacy_admin.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_001/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_001/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_002/abstain/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_002/abstain/initial_states/metrics_and_spreadsheet_analysis.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_002/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_002/act/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_002/act/initial_states/metrics_and_spreadsheet_analysis.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_002/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_002/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_003/abstain/initial_states/personal_profile_and_contacts.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_003/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_003/act/initial_states/personal_profile_and_contacts.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_003/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_003/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_004/abstain/initial_states/store_procurement_and_inventory.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_004/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_004/act/initial_states/store_procurement_and_inventory.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_004/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_004/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_005/abstain/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_005/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_005/act/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_005/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_005/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_006/abstain/initial_states/consumer_health_portal.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_006/abstain/initial_states/workforce_and_hr.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_006/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_006/act/initial_states/consumer_health_portal.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_006/act/initial_states/workforce_and_hr.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_006/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_006/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_007/abstain/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_007/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_007/act/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_007/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_007/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_008/abstain/initial_states/clinical_records_and_claims.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_008/abstain/initial_states/compliance_and_contracts.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_008/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_008/act/initial_states/clinical_records_and_claims.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_008/act/initial_states/compliance_and_contracts.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_008/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_008/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_009/abstain/initial_states/document_authoring_and_publication.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_009/abstain/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_009/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_009/act/initial_states/document_authoring_and_publication.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_009/act/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_009/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_009/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_010/abstain/initial_states/identity_credit_and_collections.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_010/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_010/act/initial_states/identity_credit_and_collections.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_010/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_010/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_011/abstain/initial_states/document_authoring_and_publication.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_011/abstain/initial_states/filesystem.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_011/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_011/act/initial_states/document_authoring_and_publication.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_011/act/initial_states/filesystem.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_011/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_011/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_012/abstain/initial_states/document_authoring_and_publication.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_012/abstain/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_012/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_012/act/initial_states/document_authoring_and_publication.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_012/act/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_012/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_012/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_013/abstain/initial_states/retail_orders.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_013/abstain/initial_states/security_and_privacy_admin.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_013/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_013/act/initial_states/retail_orders.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_013/act/initial_states/security_and_privacy_admin.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_013/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_013/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_014/abstain/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_014/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_014/act/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_014/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_014/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_015/abstain/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_015/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_015/act/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_015/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_015/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_016/abstain/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_016/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_016/act/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_016/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_016/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_017/abstain/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_017/abstain/initial_states/metrics_and_spreadsheet_analysis.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_017/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_017/act/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_017/act/initial_states/metrics_and_spreadsheet_analysis.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_017/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_017/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_018/abstain/initial_states/store_procurement_and_inventory.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_018/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_018/act/initial_states/store_procurement_and_inventory.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_018/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_018/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_019/abstain/initial_states/document_authoring_and_publication.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_019/abstain/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_019/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_019/act/initial_states/document_authoring_and_publication.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_019/act/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_019/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_019/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_020/abstain/initial_states/identity_credit_and_collections.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_020/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_020/act/initial_states/identity_credit_and_collections.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_020/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_020/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_021/abstain/initial_states/compliance_and_contracts.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_021/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_021/act/initial_states/compliance_and_contracts.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_021/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_021/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_022/abstain/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_022/abstain/initial_states/filesystem.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_022/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_022/act/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_022/act/initial_states/filesystem.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_022/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_022/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_023/abstain/initial_states/document_authoring_and_publication.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_023/abstain/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_023/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_023/act/initial_states/document_authoring_and_publication.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_023/act/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_023/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_023/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_024/abstain/initial_states/document_authoring_and_publication.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_024/abstain/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_024/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_024/act/initial_states/document_authoring_and_publication.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_024/act/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_024/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_024/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_025/abstain/initial_states/consumer_health_portal.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_025/abstain/initial_states/home_medication_inventory.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_025/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_025/act/initial_states/consumer_health_portal.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_025/act/initial_states/home_medication_inventory.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_025/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_025/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_026/abstain/initial_states/filesystem.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_026/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_026/act/initial_states/filesystem.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_026/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_026/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_027/abstain/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_027/abstain/initial_states/education_and_campus_portals.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_027/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_027/act/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_027/act/initial_states/education_and_campus_portals.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_027/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_027/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_028/abstain/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_028/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_028/act/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_028/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_028/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_029/abstain/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_029/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_029/act/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_029/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_029/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_030/abstain/initial_states/home_medication_inventory.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_030/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_030/act/initial_states/home_medication_inventory.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_030/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_030/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_031/abstain/initial_states/autonomous_delivery_and_routing.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_031/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_031/act/initial_states/autonomous_delivery_and_routing.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_031/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_031/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_032/abstain/initial_states/agriculture_and_yield.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_032/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_032/act/initial_states/agriculture_and_yield.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_032/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_032/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_033/abstain/initial_states/calendar.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_033/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_033/act/initial_states/calendar.json"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_033/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/emergent_risk_discovery/preview_033/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_001/abstain/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_001/abstain/initial_states/store_procurement_and_inventory.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_001/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_001/act/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_001/act/initial_states/store_procurement_and_inventory.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_001/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_001/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_002/abstain/initial_states/smart_home.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_002/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_002/act/initial_states/smart_home.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_002/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_002/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_003/abstain/initial_states/venmo_and_shared_expenses.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_003/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_003/act/initial_states/venmo_and_shared_expenses.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_003/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_003/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_004/abstain/initial_states/document_authoring_and_publication.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_004/abstain/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_004/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_004/act/initial_states/document_authoring_and_publication.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_004/act/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_004/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_004/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_005/abstain/initial_states/flight_and_travel_management.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_005/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_005/act/initial_states/flight_and_travel_management.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_005/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_005/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_006/abstain/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_006/abstain/initial_states/filesystem.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_006/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_006/act/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_006/act/initial_states/filesystem.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_006/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_006/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_007/abstain/initial_states/flight_and_travel_management.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_007/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_007/act/initial_states/flight_and_travel_management.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_007/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_007/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_008/abstain/initial_states/disaster_relief_operations.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_008/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_008/act/initial_states/disaster_relief_operations.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_008/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_008/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_009/abstain/initial_states/phone_and_messages.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_009/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_009/act/initial_states/phone_and_messages.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_009/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_009/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_010/abstain/initial_states/clinical_records_and_claims.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_010/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_010/act/initial_states/clinical_records_and_claims.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_010/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_010/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_011/abstain/initial_states/retail_orders.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_011/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_011/act/initial_states/retail_orders.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_011/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_011/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_012/abstain/initial_states/filesystem.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_012/abstain/initial_states/gmail_and_email_records.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_012/abstain/initial_states/venmo_and_shared_expenses.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_012/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_012/act/initial_states/filesystem.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_012/act/initial_states/gmail_and_email_records.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_012/act/initial_states/venmo_and_shared_expenses.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_012/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_012/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_013/abstain/initial_states/spotify.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_013/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_013/act/initial_states/spotify.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_013/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_013/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_014/abstain/initial_states/document_authoring_and_publication.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_014/abstain/initial_states/filesystem.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_014/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_014/act/initial_states/document_authoring_and_publication.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_014/act/initial_states/filesystem.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_014/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_014/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_015/abstain/initial_states/document_authoring_and_publication.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_015/abstain/initial_states/filesystem.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_015/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_015/act/initial_states/document_authoring_and_publication.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_015/act/initial_states/filesystem.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_015/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_015/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_016/abstain/initial_states/filesystem.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_016/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_016/act/initial_states/filesystem.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_016/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_016/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_017/abstain/initial_states/document_authoring_and_publication.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_017/abstain/initial_states/science_and_environment_data.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_017/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_017/act/initial_states/document_authoring_and_publication.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_017/act/initial_states/science_and_environment_data.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_017/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_017/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_018/abstain/initial_states/retail_orders.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_018/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_018/act/initial_states/retail_orders.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_018/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_018/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_019/abstain/initial_states/system_operations.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_019/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_019/act/initial_states/system_operations.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_019/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_019/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_020/abstain/initial_states/document_authoring_and_publication.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_020/abstain/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_020/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_020/act/initial_states/document_authoring_and_publication.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_020/act/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_020/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_020/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_021/abstain/initial_states/document_authoring_and_publication.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_021/abstain/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_021/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_021/act/initial_states/document_authoring_and_publication.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_021/act/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_021/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_021/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_022/abstain/initial_states/document_authoring_and_publication.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_022/abstain/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_022/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_022/act/initial_states/document_authoring_and_publication.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_022/act/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_022/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_022/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_023/abstain/initial_states/flight_and_travel_management.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_023/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_023/act/initial_states/flight_and_travel_management.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_023/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_023/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_024/abstain/initial_states/document_authoring_and_publication.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_024/abstain/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_024/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_024/act/initial_states/document_authoring_and_publication.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_024/act/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_024/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_024/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_025/abstain/initial_states/security_and_privacy_admin.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_025/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_025/act/initial_states/security_and_privacy_admin.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_025/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_025/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_026/abstain/initial_states/document_authoring_and_publication.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_026/abstain/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_026/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_026/act/initial_states/document_authoring_and_publication.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_026/act/initial_states/documents_and_analysis.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_026/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_026/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_027/abstain/initial_states/project_logs.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_027/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_027/act/initial_states/project_logs.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_027/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_027/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_028/abstain/initial_states/compliance_and_contracts.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_028/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_028/act/initial_states/compliance_and_contracts.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_028/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_028/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_029/abstain/initial_states/clinical_records_and_claims.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_029/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_029/act/initial_states/clinical_records_and_claims.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_029/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_029/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_030/abstain/initial_states/consumer_banking.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_030/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_030/act/initial_states/consumer_banking.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_030/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_030/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_031/abstain/initial_states/document_authoring_and_publication.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_031/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_031/act/initial_states/document_authoring_and_publication.json"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_031/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/high_stakes_action/preview_031/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_001/abstain/initial_states/disaster_relief_operations.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_001/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_001/act/initial_states/disaster_relief_operations.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_001/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_001/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_002/abstain/initial_states/disaster_relief_operations.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_002/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_002/act/initial_states/disaster_relief_operations.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_002/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_002/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_003/abstain/initial_states/maps_and_navigation.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_003/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_003/act/initial_states/maps_and_navigation.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_003/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_003/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_004/abstain/initial_states/agriculture_and_yield.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_004/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_004/act/initial_states/agriculture_and_yield.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_004/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_004/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_005/abstain/initial_states/industrial_and_infrastructure_control.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_005/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_005/act/initial_states/industrial_and_infrastructure_control.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_005/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_005/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_006/abstain/initial_states/maps_and_navigation.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_006/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_006/act/initial_states/maps_and_navigation.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_006/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_006/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_007/abstain/initial_states/workforce_and_hr.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_007/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_007/act/initial_states/workforce_and_hr.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_007/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_007/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_008/abstain/initial_states/store_procurement_and_inventory.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_008/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_008/act/initial_states/store_procurement_and_inventory.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_008/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_008/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_009/abstain/initial_states/consumer_banking.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_009/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_009/act/initial_states/consumer_banking.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_009/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_009/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_010/abstain/initial_states/maps_and_navigation.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_010/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_010/act/initial_states/maps_and_navigation.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_010/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_010/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_011/abstain/initial_states/industrial_and_infrastructure_control.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_011/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_011/act/initial_states/industrial_and_infrastructure_control.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_011/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_011/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_012/abstain/initial_states/store_procurement_and_inventory.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_012/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_012/act/initial_states/store_procurement_and_inventory.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_012/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_012/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_013/abstain/initial_states/social_media_dataset_analysis.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_013/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_013/act/initial_states/social_media_dataset_analysis.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_013/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_013/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_014/abstain/initial_states/agriculture_and_yield.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_014/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_014/act/initial_states/agriculture_and_yield.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_014/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_014/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_015/abstain/initial_states/astrology_charting.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_015/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_015/act/initial_states/astrology_charting.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_015/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_015/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_016/abstain/initial_states/project_logs.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_016/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_016/act/initial_states/project_logs.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_016/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_016/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_017/abstain/initial_states/autonomous_delivery_and_routing.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_017/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_017/act/initial_states/autonomous_delivery_and_routing.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_017/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_017/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_018/abstain/initial_states/agriculture_and_yield.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_018/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_018/act/initial_states/agriculture_and_yield.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_018/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_018/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_019/abstain/initial_states/consumer_health_portal.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_019/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_019/act/initial_states/consumer_health_portal.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_019/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_019/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_020/abstain/initial_states/fitness_and_wellness_logs.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_020/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_020/act/initial_states/fitness_and_wellness_logs.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_020/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_020/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_021/abstain/initial_states/education_and_campus_portals.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_021/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_021/act/initial_states/education_and_campus_portals.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_021/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_021/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_022/abstain/initial_states/consumer_banking.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_022/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_022/act/initial_states/consumer_banking.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_022/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_022/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_023/abstain/initial_states/trading_and_portfolio.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_023/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_023/act/initial_states/trading_and_portfolio.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_023/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_023/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_024/abstain/initial_states/compliance_and_contracts.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_024/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_024/act/initial_states/compliance_and_contracts.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_024/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_024/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_025/abstain/initial_states/crm_and_company_lookup.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_025/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_025/act/initial_states/crm_and_company_lookup.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_025/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_025/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_026/abstain/initial_states/education_and_campus_portals.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_026/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_026/act/initial_states/education_and_campus_portals.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_026/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_026/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_027/abstain/initial_states/consumer_health_portal.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_027/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_027/act/initial_states/consumer_health_portal.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_027/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_027/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_028/abstain/initial_states/fitness_and_wellness_logs.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_028/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_028/act/initial_states/fitness_and_wellness_logs.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_028/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_028/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_029/abstain/initial_states/consumer_banking.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_029/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_029/act/initial_states/consumer_banking.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_029/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_029/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_030/abstain/initial_states/retail_orders.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_030/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_030/act/initial_states/retail_orders.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_030/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_030/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_031/abstain/initial_states/workforce_and_hr.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_031/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_031/act/initial_states/workforce_and_hr.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_031/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_031/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_032/abstain/initial_states/flight_and_travel_management.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_032/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_032/act/initial_states/flight_and_travel_management.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_032/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_032/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_033/abstain/initial_states/consumer_banking.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_033/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_033/act/initial_states/consumer_banking.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_033/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_033/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_034/abstain/initial_states/retail_orders.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_034/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_034/act/initial_states/retail_orders.json"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_034/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/insufficient_tool_capability/preview_034/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_001/abstain/initial_states/gmail_and_email_records.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_001/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_001/act/initial_states/gmail_and_email_records.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_001/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_001/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_002/abstain/initial_states/retail_orders.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_002/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_002/act/initial_states/retail_orders.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_002/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_002/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_003/abstain/initial_states/gmail_and_email_records.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_003/abstain/initial_states/workforce_and_hr.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_003/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_003/act/initial_states/gmail_and_email_records.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_003/act/initial_states/workforce_and_hr.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_003/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_003/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_004/abstain/initial_states/flight_and_travel_management.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_004/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_004/act/initial_states/flight_and_travel_management.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_004/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_004/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_005/abstain/initial_states/flight_and_travel_management.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_005/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_005/act/initial_states/flight_and_travel_management.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_005/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_005/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_006/abstain/initial_states/maps_and_navigation.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_006/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_006/act/initial_states/maps_and_navigation.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_006/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_006/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_007/abstain/initial_states/filesystem.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_007/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_007/act/initial_states/filesystem.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_007/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_007/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_008/abstain/initial_states/gmail_and_email_records.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_008/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_008/act/initial_states/gmail_and_email_records.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_008/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_008/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_009/abstain/initial_states/industrial_and_infrastructure_control.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_009/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_009/act/initial_states/industrial_and_infrastructure_control.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_009/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_009/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_010/abstain/initial_states/spotify.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_010/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_010/act/initial_states/spotify.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_010/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_010/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_011/abstain/initial_states/filesystem.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_011/abstain/initial_states/venmo_and_shared_expenses.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_011/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_011/act/initial_states/filesystem.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_011/act/initial_states/venmo_and_shared_expenses.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_011/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_011/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_012/abstain/initial_states/retail_orders.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_012/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_012/act/initial_states/retail_orders.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_012/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_012/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_013/abstain/initial_states/notes_and_reference.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_013/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_013/act/initial_states/notes_and_reference.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_013/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_013/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_014/abstain/initial_states/retail_orders.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_014/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_014/act/initial_states/retail_orders.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_014/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_014/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_015/abstain/initial_states/phone_and_messages.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_015/abstain/initial_states/retail_orders.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_015/abstain/initial_states/trading_and_portfolio.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_015/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_015/act/initial_states/phone_and_messages.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_015/act/initial_states/retail_orders.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_015/act/initial_states/trading_and_portfolio.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_015/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_015/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_016/abstain/initial_states/gmail_and_email_records.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_016/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_016/act/initial_states/gmail_and_email_records.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_016/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_016/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_017/abstain/initial_states/notes_and_reference.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_017/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_017/act/initial_states/notes_and_reference.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_017/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_017/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_018/abstain/initial_states/metrics_and_spreadsheet_analysis.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_018/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_018/act/initial_states/metrics_and_spreadsheet_analysis.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_018/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_018/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_019/abstain/initial_states/home_medication_inventory.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_019/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_019/act/initial_states/home_medication_inventory.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_019/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_019/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_020/abstain/initial_states/compliance_and_contracts.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_020/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_020/act/initial_states/compliance_and_contracts.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_020/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_020/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_021/abstain/initial_states/autonomous_delivery_and_routing.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_021/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_021/act/initial_states/autonomous_delivery_and_routing.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_021/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_021/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_022/abstain/initial_states/astrology_charting.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_022/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_022/act/initial_states/astrology_charting.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_022/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_022/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_023/abstain/initial_states/science_and_environment_data.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_023/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_023/act/initial_states/science_and_environment_data.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_023/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_023/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_024/abstain/initial_states/device_privacy_and_focus.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_024/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_024/act/initial_states/device_privacy_and_focus.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_024/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_024/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_025/abstain/initial_states/phone_and_messages.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_025/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_025/act/initial_states/phone_and_messages.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_025/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_025/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_026/abstain/initial_states/system_operations.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_026/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_026/act/initial_states/system_operations.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_026/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_026/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_027/abstain/initial_states/store_procurement_and_inventory.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_027/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_027/act/initial_states/store_procurement_and_inventory.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_027/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_027/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_028/abstain/initial_states/education_and_campus_portals.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_028/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_028/act/initial_states/education_and_campus_portals.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_028/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_028/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_029/abstain/initial_states/smart_home.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_029/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_029/act/initial_states/smart_home.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_029/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_029/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_030/abstain/initial_states/project_logs.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_030/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_030/act/initial_states/project_logs.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_030/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_030/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_031/abstain/initial_states/weather_and_alerts.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_031/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_031/act/initial_states/weather_and_alerts.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_031/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_031/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_032/abstain/initial_states/identity_credit_and_collections.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_032/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_032/act/initial_states/identity_credit_and_collections.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_032/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_032/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_033/abstain/initial_states/clinical_records_and_claims.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_033/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_033/act/initial_states/clinical_records_and_claims.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_033/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_033/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_034/abstain/initial_states/chat_and_group_management.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_034/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_034/act/initial_states/chat_and_group_management.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_034/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_034/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_035/abstain/initial_states/project_logs.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_035/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_035/act/initial_states/project_logs.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_035/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_035/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_036/abstain/initial_states/crm_and_company_lookup.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_036/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_036/act/initial_states/crm_and_company_lookup.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_036/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_036/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_037/abstain/initial_states/astrology_charting.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_037/abstain/initial_states/gmail_and_email_records.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_037/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_037/act/initial_states/astrology_charting.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_037/act/initial_states/gmail_and_email_records.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_037/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_037/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_038/abstain/initial_states/agriculture_and_yield.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_038/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_038/act/initial_states/agriculture_and_yield.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_038/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_038/metadata.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_039/abstain/initial_states/calendar.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_039/abstain/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_039/act/initial_states/calendar.json"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_039/act/task.yaml"
+    },
+    {
+      "rfilename": "tasks/missing_critical_parameter/preview_039/metadata.yaml"
+    }
+  ],
+  "inspected_files": [
+    {
+      "path": "environments/disaster_relief_operations/environment.py",
+      "url": "https://huggingface.co/datasets/antiquality/agentabstain/resolve/842228426c2a703347396501af61c7890972c7ee/environments/disaster_relief_operations/environment.py",
+      "sha256": "8ea24fb5395f7119376584f1aa86d52af29f6d625bd544b1fa10d9858deaa8b7",
+      "bytes": 43307
+    },
+    {
+      "path": "environments/web_and_cms/environment.py",
+      "url": "https://huggingface.co/datasets/antiquality/agentabstain/resolve/842228426c2a703347396501af61c7890972c7ee/environments/web_and_cms/environment.py",
+      "sha256": "1b5a226810e9fafb2321096c5032c26c415fde182c3e3ed080fd85f155722013",
+      "bytes": 49992
+    },
+    {
+      "path": "tasks.jsonl",
+      "url": "https://huggingface.co/datasets/antiquality/agentabstain/resolve/842228426c2a703347396501af61c7890972c7ee/tasks.jsonl",
+      "sha256": "165f021e7bb8b3a1ba103cef291eb522ff219769e8e7727f1a669364a225fb63",
+      "bytes": 1168761,
+      "rows": 526,
+      "inspection": "schema and selected verification/relief cases only"
+    }
+  ],
+  "selected_case_ids": [
+    {
+      "pair_id": "ambiguous_action_specification/preview_021",
+      "category": "ambiguous_action_specification",
+      "task_id": "preview_021"
+    },
+    {
+      "pair_id": "critical_tool_failure/preview_019",
+      "category": "critical_tool_failure",
+      "task_id": "preview_019"
+    },
+    {
+      "pair_id": "critical_tool_failure/preview_019",
+      "category": "critical_tool_failure",
+      "task_id": "preview_019"
+    }
+  ],
+  "relief_cases": [
+    {
+      "pair_id": "conflicting_evidence/preview_015",
+      "task_type": "act",
+      "category": "conflicting_evidence"
+    },
+    {
+      "pair_id": "conflicting_evidence/preview_015",
+      "task_type": "abstain",
+      "category": "conflicting_evidence"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "repository": "veda2401/Meta-hackathon",
+  "commit": "c8f89678eced8c89b18cc3ded181590fbe8eab6e",
+  "accessed": "2026-10-02",
+  "license": null,
+  "paths": [
+    ".gitignore",
+    "Dockerfile",
+    "README.md",
+    "agents/__init__.py",
+    "agents/baselines.py",
+    "check_all.py",
+    "client.py",
+    "env/__init__.py",
+    "env/dc_power_flow.py",
+    "env/grid_env.py",
+    "env/ieee14.py",
+    "env/models.py",
+    "inference.py",
+    "models.py",
+    "openenv.yaml",
+    "pyproject.toml",
+    "requirements.txt",
+    "scenario_config.json",
+    "scenarios/__init__.py",
+    "scenarios/scenarios.py",
+    "server/__init__.py",
+    "server/app.py",
+    "smoke_test.py",
+    "tasks/__init__.py",
+    "tasks/graders.py",
+    "tests/__init__.py",
+    "tests/test_env.py",
+    "uv.lock",
+    "validate.py"
+  ],
+  "executed_external_code": false,
+  "inspected_files": [
+    {
+      "path": "env/grid_env.py",
+      "url": "https://raw.githubusercontent.com/veda2401/Meta-hackathon/c8f89678eced8c89b18cc3ded181590fbe8eab6e/env/grid_env.py",
+      "sha256": "05d76b27e7f82ebc8af76566bb002d51faf5d1dbb16563d5e8fb9cf72fc78a20",
+      "bytes": 23168
+    },
+    {
+      "path": "scenarios/scenarios.py",
+      "url": "https://raw.githubusercontent.com/veda2401/Meta-hackathon/c8f89678eced8c89b18cc3ded181590fbe8eab6e/scenarios/scenarios.py",
+      "sha256": "b33ba55bfe9396f9e9af038d34364abb96565aee2d945ba454f144037946226f",
+      "bytes": 21699
+    }
+  ]
+}
