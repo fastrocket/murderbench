@@ -1,0 +1,27 @@
+{
+  "stage": "structural native interface development",
+  "previous_goal_turn": "progress: published comparison bounds and prospective route pricing",
+  "repository_tests_passed": 139,
+  "new_interface_tests_passed": 8,
+  "prior_native_receipts_revalidated": 36,
+  "original_frozen_study_validated": true,
+  "new_paid_model_calls": 0,
+  "new_paid_cost_usd": 0,
+  "authenticated_new_adapter_routes_verified": 0,
+  "held_out_frozen": false,
+  "novelty_established": false,
+  "goal_complete": false,
+  "normal_text_termination": "disclosed one-tick finish(unknown); prose claims unmeasured",
+  "remaining": [
+    "audited case packet builders and indistinguishability tests",
+    "procedure arms and structural held-out templates",
+    "exact frozen matrix and capped pricing",
+    "authenticated route probes and collection",
+    "reproducible findings and mitigation tradeoffs"
+  ],
+  "sha256_normalized_lf": {
+    "benchmark/necessity_structural_native.py": "d9cc03d858ce0eae7a77d56cc44c5b138b558edad66bc4d78c3368691a46481e",
+    "tests/test_necessity_structural_native.py": "a4b50d7264e2f47aa483909c9506f0366e2ac0f8d7a6b4e70929e28367545393",
+    "plans/necessity-structural-native-interface.txt": "3c17de3b4e68222cb7534e63d12fb2e0d3febd35dd96ea40e90d9d5244cc6799"
+  }
+}

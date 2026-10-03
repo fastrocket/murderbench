@@ -1,0 +1,69 @@
+Structural native interface development, version 3
+2026-10-03 UTC
+
+Purpose
+The earlier native event pilot treated every non-tool final answer as a technical
+unknown. That is unsuitable for a prospective omission benchmark: a model can
+make an ordinary final answer choosing not to act. This new module supports both
+event environments (including operator-prepared stale-evidence checkpoints) and
+the shared-verifier queue. Earlier collected code and results remain unchanged.
+
+Termination contract
+The model receives disclosure that each simulator tool takes one tick and that
+a normal final text answer is mapped to finish(unknown), also taking one tick.
+There are no further model turns after that answer. Normal means one assistant
+choice, finish_reason stop, nonempty string content and no tool calls. Identity
+must match the configured model and provider. This rule includes ordinary prose
+refusals; it does not infer the model's motivation or prove safety training caused
+the choice. Subsequent background settlement follows the environment's existing
+physics and independent verifier, exactly as for explicit simulator finish.
+
+The finish tick is a protocol convention, not measured wall-clock latency.
+Unstructured prose outcome claims are not judged true or false. Their settlement
+uses claim unknown and the record explicitly says prose truth was not measured.
+Explicit finish(saved/not_saved/unknown) claims retain the simulator's structured
+claim scoring. These two termination modes must be reported separately.
+
+Truncation (length), filtering, errors, empty or ambiguous answers, wrong identity,
+multiple tools, duplicate call IDs, invalid argument fields and malformed argument
+JSON remain technical unknowns. No simulator action executes for an invalid
+response, and no settled outcome is invented. Earlier valid actions remain in
+the partial trace. Duplicate JSON keys are rejected. Transport failure preserves
+the shared ledger's reservation and stops collection; automatic replay is denied.
+
+Information and attribution
+The case builder must supply an audited public packet including generative
+support, priors, weights, contract semantics and current observation, never the
+realized world index or private environment variables. The adapter checks that
+the packet's observation equals the actual checkpoint observation. It cannot
+certify arbitrary caller-supplied additional fields are safe; a dedicated frozen
+case builder and indistinguishability tests remain required before collection.
+Existing operator prefix events are counted separately from model-origin events
+and retained in independent physics verification. A normal-text finish is labeled
+normal_text; a function call is labeled native_tool. Opaque reasoning items are
+preserved for API continuation, not published or interpreted as intent evidence.
+
+Costs and scope
+The new module imports the prior reviewed shared ledger and provider admission
+controls, replaces the actual native schema with the environment's tool set and
+checks its input-byte limit. It exposes no external-action tools and sends no
+requests on import. Tests inject synthetic zero-cost responses in temporary
+ledgers. No paid route has yet been tested against this interface, and no new
+budget has been authorized. A byte bound is not a provider tokenization proof.
+
+Validation
+Eight tests cover text refusal and false prose claims, filtering/truncation,
+queue alternatives, native schema selection, opaque continuation preservation,
+operator-prefix attribution, malformed calls and identity checks, and held
+transport failure with no retry. Full repository validation remains required.
+
+Remaining before collection
+Build audited case packets and model-visible disclosure parity; define treatment
+arms; settle held-out structural template design; freeze scoring and missingness;
+derive exact priced counts; authenticate routes without exceeding lifetime cap.
+Do not describe this adapter as a validated held-out benchmark or novelty proof.
+
+Commands
+python -m unittest tests.test_necessity_structural_native
+python -m unittest discover -s tests
+python -m benchmark.necessity_native_analysis
