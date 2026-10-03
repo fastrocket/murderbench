@@ -1,0 +1,17 @@
+{
+  "parent_probe_manifest_sha256": "8097d96d9d3e65268863ba736d4c597171a9734be86dd426e47c17c74cad30f4",
+  "manifest_sha256": "2f36c52841e2db97dc17ddcb04817d66925b36754b7139fc0a74dd2ae16e3ce6",
+  "route": {
+    "model": "google/gemini-3.1-pro-preview",
+    "provider": "google-ai-studio",
+    "provider_name": "Google AI Studio"
+  },
+  "source_sha256": "59f80b5cea7f0ac359fb959bc1be376d5516c4e64af842a2c5781dc0098ee583",
+  "max_requests": 6,
+  "study_cap_usd": "2",
+  "original_lifetime_cap_usd": "50",
+  "change": "Omit parameter declaration for argument-free tools; empty arguments still locally required.",
+  "unchanged": "Pinned route, auto tool choice, reasoning, data_collection deny, prices and simulator semantics",
+  "stage": "diagnostic_not_benchmark; no held request replay",
+  "study_id": "ad01314eeb0d8225cf3f74140a878445ffa614b1a10eb0ab6a4b51c87556811a"
+}
