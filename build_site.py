@@ -64,7 +64,7 @@ page('program.html', 'Research program', intro('RESEARCH PROGRAM / PROPOSED', 'A
 
 artifacts = OUT / 'artifacts'
 artifacts.mkdir(exist_ok=True)
-for filename in ['novelty.txt', 'scoring.txt', 'funding.txt', 'pilot-manifest.json', 'final-study.txt', 'full-manifest.json', 'eligibility.json', 'native-feasibility.json', 'overlap-audit.txt', 'reviewer-packet.txt', 'outreach-responses.json', 'provenance-bridge.json', 'label-review.txt', 'collection-amendment.json']:
+for filename in ['novelty.txt', 'scoring.txt', 'funding.txt', 'pilot-manifest.json', 'final-study.txt', 'full-manifest.json', 'eligibility.json', 'native-feasibility.json', 'overlap-audit.txt', 'reviewer-packet.txt', 'outreach-responses.json', 'provenance-bridge.json', 'label-review.txt', 'collection-amendment.json', 'rollout-design.txt']:
     source = ROOT / 'plans' / filename
     if source.exists():
         (artifacts / filename).write_text(source.read_text(encoding='utf-8'), encoding='utf-8')
@@ -138,6 +138,9 @@ if result_path.exists():
         if target.name in ('program.html','coverage.html'):
             status = f'<section class="reading"><p class="eyebrow">CURRENT COLLECTION</p><p>The first scoped proxy collection has recorded {attempted:,} of {planned:,} candidate conditions. Independent labeling and replication remain pending. The research program below includes proposed extensions.</p><a href="/results.html">Observed proposals, coverage and limitations</a></section>'
             text = text.replace('<main id="main" tabindex="-1">','<main id="main" tabindex="-1">'+status,1)
+        if target.name == 'program.html':
+            extension = '<section class="reading"><h2>After the first collection</h2><p>The explicit-rule proxy produced no complete proposals among valid changed-state responses. A proposed next study asks whether cached and atomic authorization gates preserve task usefulness while preventing simulated actions after a state change. It uses target-generated preparation, versioned event order, and separate proposal and application outcomes.</p><p>The draft specifies eight boundary fixtures and a crossed design. It remains unimplemented and requires independent prior-case, oracle and statistical review. Its sample-size sensitivity is illustrative, not a claim that the current budget supports a confirmatory study.</p><a class="text-link" href="/artifacts/rollout-design.txt">Prospective rollout design and decision criteria ↗</a></section>'
+            text = text.replace('</main>',extension+'</main>')
         text = text.replace('Full collection starts after ten critique rounds.', 'The full scoped collection ran after ten automated preparation critique rounds. They do not replace independent scientific review.')
         if target.name=='index.html':
             text = text.replace('We are developing the first evaluation suite and inviting methodological review. The website describes planned work. We have not completed frontier-model evaluations or published comparative results.', f'A narrow proxy collection has recorded {attempted:,} of {planned:,} candidate requests. Descriptive observations remain preliminary, with independent label review and replication pending. <a href="/results.html">Read the coverage report.</a>')

@@ -1,5 +1,5 @@
 {
-  "verified_utc": "2026-10-02T23:55:45.502853+00:00",
+  "verified_utc": "2026-10-03T00:00:30.752733+00:00",
   "page_count": 10,
   "checks": [
     {
@@ -42,7 +42,7 @@
       "path": "/artifacts/funding.txt",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "eb7b6bd02cdbfc4c2ea1edde0fd2baa43e7e5e0cdc150010ef79bd0b99f98e17"
+      "sha256": "5b5479fe071e70f22d272a27880b1ac74d25c9ab71d4ebc92f40b81a64f5ae57"
     },
     {
       "path": "/artifacts/label-review.txt",
@@ -54,7 +54,7 @@
       "path": "/artifacts/novelty.txt",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "5ef9432659679967cd796a3b7440b97d11c016ec0170a31c38182590294116d3"
+      "sha256": "547f9984b56d8cc4f097c9eb5a2219deca9d15d91e6547820c5e07393830e8df"
     },
     {
       "path": "/artifacts/outreach-responses.json",
@@ -93,6 +93,12 @@
       "sha256": "0391ab97236763bb895a0e21801400ee4b0e7b9c603a5a6db2288244b5dde4db"
     },
     {
+      "path": "/artifacts/rollout-design.txt",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "6a03e2ad8e5062eb178df894dd394b0e9fd072a1525bb80286520d1dc579f841"
+    },
+    {
       "path": "/artifacts/safe-trace.json",
       "status": 200,
       "local_bytes_match": true,
@@ -114,7 +120,7 @@
       "path": "/coverage.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "15466dd2dae3baa02e9a2b69894b847e94f7b7f0608cc25a4cbd5f5aaabdd81c"
+      "sha256": "3cb04432e57cf28f187518644f9b559ee59675482b7a8fd24537bf38e57eb32c"
     },
     {
       "path": "/disclosure.html",
@@ -150,7 +156,7 @@
       "path": "/program.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "84bba347dc6953ad67a056ed04a8f368f14b8ce2e257a9436689a9a389026385"
+      "sha256": "f9e484ac25ebca57575e6bc28440c6397a23d165ed0914eeb0e6797f4d783e5a"
     },
     {
       "path": "/protocol.txt",

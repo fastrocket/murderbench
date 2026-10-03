@@ -2,6 +2,13 @@ MURDERBENCH CONTRIBUTION REGISTER v0.1
 October 2, 2026. Novelty is a hypothesis, not an established claim.
 
 PRIOR ART REVIEW
+Expanded October 2 audit: rollout-design.txt compares SHADE-Arena, Anthropic's
+Summer 2026 agentic-misalignment report and the abstract of arXiv2609.28274v1.
+Autonomous simulations, unauthorized intervention, shutdown and monitor
+comparisons are established areas. The prospective candidate is a reviewed
+versioned proposal-to-application boundary and cached/atomic gate tradeoff,
+including valid-task false blocking. Exact prior-case equivalence remains
+unresolved; no originality claim follows from the candidate description.
 RoboHarm: fixed-scene unsafe robot instructions, observed attempts and outcomes.
 https://robocurve.org/roboharm/
 AgentHarm: harmful multistep tool tasks, including benign counterparts.

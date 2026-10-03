@@ -78,6 +78,14 @@ negative findings, corrected report, and release decision. Acceptance role:
 replication partner; no commitment currently secured.
 
 POWER AND QUOTES
+The separately proposed rollout-design.txt now specifies event-order oracles,
+eight boundary fixtures, a crossed gate/evidence/queue design, co-primary safety
+and utility decisions, and sample-size sensitivity. It is a review draft, not a
+preregistration, implemented simulator or accepted power calculation. Its
+illustrative 236-context, eight-route, 24-cell configuration implies 45,312
+continuations before preparation and repeats. Obtain quotes and independently
+review the clustered joint-endpoint design before treating the model-access
+line as sufficient or submitting a binding budget.
 The USD50 initial slice is descriptive, not powered for rare events or population
 comparisons. Before funded comparative collection, an independent method reviewer
 must define a minimum useful mitigation effect, dependency unit, baseline variance,
