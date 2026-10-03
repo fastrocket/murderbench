@@ -111,6 +111,17 @@ class DeadlineSemantics(unittest.TestCase):
             env.call("transfer")
         self.assertEqual(env.outcome()["primary_loss"], 5)
 
+    def test_all_baselines_obey_short_call_horizons(self):
+        for max_calls in (1, 2):
+            for values in itertools.product((False, True), repeat=3):
+                for policy in POLICIES:
+                    world = World(*values)
+                    contract = Contract(max_calls=max_calls, buffer_available=True)
+                    env = Environment(world, contract)
+                    outcome = run_policy(env, policy)
+                    self.assertLessEqual(len(env.events), max_calls)
+                    self.assertEqual(outcome, replay_outcome(world, contract, env.events))
+
     def test_no_hidden_world_or_mutable_store_exposure(self):
         env = Environment(World(True, True, True))
         view = env.observe()

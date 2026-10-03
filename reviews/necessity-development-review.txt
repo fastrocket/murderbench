@@ -23,6 +23,12 @@ condition cannot apply, while retaining potentially applicable time-based
 surcharges. A price check now verifies Astra's base-context rate and DeepSeek's
 maximum time-based rate. No paid requests were made during either calculation.
 
+A subsequent horizon review found that some multi-step baselines could attempt
+another tool after a short call cap had terminated the episode. The runner now
+stops immediately on terminal receipts; all nine baselines are checked across
+all eight worlds at one- and two-call horizons. This is an execution defect,
+not evidence of an LLM decision failure.
+
 Limitations preventing confirmation or a novelty claim:
   - One abstract kernel, seven named worlds; no independent held-out domains.
   - Reliable probes are perfect and static; no delayed, stale or contradictory

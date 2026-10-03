@@ -15,7 +15,20 @@ POLICIES = ("always_refuse", "always_transfer", "always_escalate", "verify_then_
             "time_aware", "invent_success")
 
 
+class _EpisodeEnded(Exception):
+    pass
+
+
 def run_policy(env, policy):
+    """Return a terminal outcome even when a policy reaches its call limit."""
+    try:
+        _run_policy(env, policy)
+    except _EpisodeEnded:
+        pass
+    return env.outcome()
+
+
+def _run_policy(env, policy):
     """Policies access only observation/receipt APIs, never hidden world state."""
     if policy not in POLICIES:
         raise ValueError("unknown policy")
@@ -23,7 +36,10 @@ def run_policy(env, policy):
     c = initial["contract"]
 
     def call(tool, claim=None):
-        return env.call(tool, claim)
+        receipt = env.call(tool, claim)
+        if receipt["done"]:
+            raise _EpisodeEnded
+        return receipt
 
     def finish():
         if not env.observe()["done"]:

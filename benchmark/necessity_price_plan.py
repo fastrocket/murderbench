@@ -6,6 +6,10 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
+COLLECTION_ORDER = ["openai/gpt-6-astra", "anthropic/claude-opus-5.5",
+                    "google/gemini-3.1-pro-preview", "x-ai/grok-4.7",
+                    "deepseek/deepseek-v4-pro-0813", "qwen/qwen3.8-2.4t-a95b",
+                    "moonshotai/kimi-k3", "z-ai/glm-5.3"]
 
 
 def estimate():
@@ -30,6 +34,7 @@ def estimate():
     pilot_routes = {"openai/gpt-6-astra", "anthropic/claude-opus-5.5"}
     pilot = sum(Decimal(r["estimated_six_turn_episode_usd"])*14 for r in rows if r["route"] in pilot_routes)
     return {"status": "conditional-price-plan-not-collection-authorization",
+            "collection_order": COLLECTION_ORDER,
             "snapshot_sha256": hashlib.sha256(raw).hexdigest(),
             "snapshot_date": snapshot["retrieved"], "source": snapshot["source"],
             "assumptions": {"input_tokens_per_turn": 4096, "all_billed_output_tokens_per_turn": 1024,

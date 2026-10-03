@@ -5,8 +5,8 @@
   "paid_cost_usd": 0,
   "scripted_episodes": 63,
   "independent_replay_matches": 63,
-  "repository_tests_passed": 69,
-  "new_tests_passed": 21,
+  "repository_tests_passed": 70,
+  "new_tests_passed": 22,
   "first_study_source_and_catalog_validated": true,
   "static_site_build_pages": 10,
   "held_out_frozen": false,
@@ -15,12 +15,12 @@
   "hash_normalization": "CRLF to LF",
   "sha256": {
     "benchmark/necessity_simulator.py": "eeb0f4e33488e45f3be6498059451c9208b2f9da91fdd8d8babaadc7997a6a6b",
-    "benchmark/necessity_calibration.py": "3afe05a55bd0e7d409444afe6ff5bb3454828a3e922f83de41097066e4fe81ef",
-    "benchmark/necessity_price_plan.py": "88d53c1b30dd39caa9b8335f1645f11618d3c1dcfe13c243a18699d02aad81c7",
-    "tests/test_necessity_simulator.py": "38145658cbb7e5d75d5e91a7fd29d9f0a1baa2c19a32b1e634e252b799dd4e4e",
+    "benchmark/necessity_calibration.py": "1e834dc797ebf7dcd90edcaa90970638f1b4e998cb268c0011a18647b152ae52",
+    "benchmark/necessity_price_plan.py": "395f84a7d3263f31b752269bce770cabe2cd8d09086e67490a0fd701fe7cfa55",
+    "tests/test_necessity_simulator.py": "ab4cec369ed2ba13325420ce3d605c0a4bfe65bbf0a7e67469497e6bb5dd2080",
     "plans/necessity-case-audit.txt": "7e6d899644883eceb4098f3c3c3da73af4ed042f9063238a2f538a8a6a88a334",
     "plans/necessity-scenario-handbook.txt": "85a4e1ddaa09235443eff408f95ac11b0ba17563e41e0bb8a21b224f5cd5e938",
-    "plans/necessity-priced-collection.json": "71ee2a41cee7a68e7244b94b40715fdd0a3d4776b78b4b8d76a725b507c24043",
+    "plans/necessity-priced-collection.json": "0c3e2bbda5efd9b734f29fe96f11c34d747fda5af0d7db1e62849a07b1b0c655",
     "plans/necessity-pricing-snapshot.json": "01e19d9684e398f95a7057993cd808edfbc99128b60132e81a5771ad630aeeac",
     "reviews/necessity-calibration.json": "3b64cc668c4da2912a73797baa249fdb9272574f100858194c98154758a07361"
   },
@@ -33,5 +33,12 @@
     "exploratory LLM pilot",
     "held-out freeze and collection",
     "public report and mitigation evidence"
-  ]
+  ],
+  "prior_commit_ci": {
+    "commit": "0c07a6cce63ab7cb567884cd46ffc64c2639c0cc",
+    "url": "https://github.com/fastrocket/murderbench/actions/runs/37093054099",
+    "conclusion": "success",
+    "tests": 69,
+    "scope": "before short-horizon baseline fix; latest code verified locally with70 tests"
+  }
 }
