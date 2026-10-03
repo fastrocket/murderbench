@@ -1,0 +1,15 @@
+{
+  "study_id": "5c78a6237b59b83827dbf31ee1f9bfde691c3c66360588ba6f74d3fadd127979",
+  "status": "stopped",
+  "schemas": [],
+  "budget": {
+    "legacy_accounted_usd": "36.4007675376",
+    "necessity_accounted_usd": "3.509071136",
+    "necessity_unresolved_holds_usd": "3.00",
+    "necessity_reconciled_cost_usd": "0.509071136",
+    "lifetime_accounted_usd": "39.9098386736",
+    "remaining_accounted_usd": "10.0901613264"
+  },
+  "failed_schema": "event",
+  "exception_type": "ValueError"
+}

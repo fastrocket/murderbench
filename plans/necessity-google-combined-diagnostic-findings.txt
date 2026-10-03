@@ -1,0 +1,41 @@
+Combined Google interface diagnostic, 3 October 2026 UTC
+
+The earlier text-only receipt reports native_finish_reason MALFORMED_FUNCTION_CALL.
+This is an allowlisted metadata finding from its immutable private receipt, not
+inferred from model prose. Google documents that enum as malformed function call.
+https://ai.google.dev/api/generate-content#FinishReason
+It motivates testing parameterless tool encoding on the already text-only route,
+but does not establish the cause of the malformed generation.
+
+New source and manifest were committed before sending (163b707). The prospective
+configuration removes the image price filter for validated text-only requests
+and omits parameters declarations for argument-free tools. Finish retains its
+claim schema; local decoder still requires empty arguments for other tools.
+Pinned route, privacy restriction, reasoning settings and other prices are retained.
+This is a new changed-condition diagnostic, not replay of any held request.
+
+One received request cost USD0.002282. Model/provider identities match, but the
+completion has finish_reason stop, no content, no tool call and no refusal. It
+is rejected as ambiguous_or_empty_termination. No event schema passed; no queue
+or pending schema was attempted. The diagnostic stopped. A normal stop marker
+without an executable action or nonempty final answer cannot prove compatibility.
+Do not label this as safety refusal, success, harm or a completed benchmark episode.
+
+Read-only ledger reconstruction verifies exact stored payload, study identity,
+response hash and decoder category. Raw content/reasoning is not exported.
+The changed condition did not reproduce the earlier malformed-call marker, but
+still produced no usable action. These individual requests do not prove causality
+or justify repeated sampling until a pass. Google remains unverified.
+
+Accounted lifetime USD39.9098386736; remaining original authorization
+USD10.0901613264. Necessity holds remain USD3.00, reconciled cost USD0.509071136.
+No old reservation was released. Further collection needs a justified interface
+amendment and compatible spending authorization; full matrix remains uncollected.
+
+Evidence
+  plans/necessity-google-combined-diagnostic-manifest.json
+  reviews/necessity-google-combined-diagnostic.json
+  reviews/necessity-google-combined-receipt-audit.json
+Two targeted tests passed before sending: complete native continuation with the
+combined schema/filter and no resend after unresolved transport. Tests use mock
+responses and do not substitute for this actual failed interface check.
