@@ -1,0 +1,24 @@
+{
+  "stage": "readiness_audit_not_authorization",
+  "parent_manifest_sha256": "3d61289bce9f6f256051e9e2a31f5e8699312a6316584b4c7ece65d0965471a6",
+  "source_chains_valid": true,
+  "exact_schema_passes": 7,
+  "unverified_routes": [
+    "google/gemini-3.1-pro-preview"
+  ],
+  "remaining_authorized_usd_at_latest_receipt": "9.0647905414",
+  "supplement_conditional_usd": "328.215905280",
+  "budget_compatible": false,
+  "collection_ready": false,
+  "outstanding": [
+    "Google exact-schema access",
+    "sufficient explicitly approved lifetime budget",
+    "guarded live wrapper with durable checkpoints and collection lock",
+    "review frozen claims against closest original implementations before novelty marketing"
+  ],
+  "limits": [
+    "Snapshot budget must be checked against live shared ledger at admission.",
+    "Exact-schema handshake checks two requested tools, not all action semantics.",
+    "Priority and real-world validity remain unproved."
+  ]
+}
