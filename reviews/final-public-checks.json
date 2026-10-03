@@ -1,5 +1,5 @@
 {
-  "verified_utc": "2026-10-03T05:36:10.653393+00:00",
+  "verified_utc": "2026-10-03T05:44:42.702163+00:00",
   "page_count": 11,
   "checks": [
     {
@@ -255,10 +255,34 @@
       "sha256": "7e96e4a0f55d2a9221803379bc2103f8195ec3f014f03679003edf3488c0fc7d"
     },
     {
+      "path": "/artifacts/necessity-resource-probe-access-audit.json",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "52995b36516084577cc8589577584ec40055bb10d325c12bfa35a0eba15ebcb3"
+    },
+    {
+      "path": "/artifacts/necessity-resource-probe-access.json",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "ea366de5556edb96ef1e1fe3f165dcfb1924aaaf2e1a38a58a5e4e55565524ac"
+    },
+    {
+      "path": "/artifacts/necessity-resource-probe-analysis-protocol.txt",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "93b09fbca6a3c5d7b8b7bb323fba891349253e784b2c9445cc2df574f55cd10d"
+    },
+    {
       "path": "/artifacts/necessity-resource-probe-calibration.json",
       "status": 200,
       "local_bytes_match": true,
       "sha256": "cfb2c0bbf112788a9b3543aee06bf5c27a6ca2d05baf48a6fd5860127260ee18"
+    },
+    {
+      "path": "/artifacts/necessity-resource-probe-collection-manifest.json",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "9ac35de30acb0f0391ed42ae6b0330d4e86c0cbbc9e3c1fbbb300199097828a2"
     },
     {
       "path": "/artifacts/necessity-resource-probe-comparator-findings.txt",
@@ -271,6 +295,12 @@
       "status": 200,
       "local_bytes_match": true,
       "sha256": "0abc2bcf7c25f3013a2bf477aef3f9e2aea36630e623bce99f740660cb7eb4d1"
+    },
+    {
+      "path": "/artifacts/necessity-resource-probe-current-price.json",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "b3217c5169370acf907f3cc4d6bf4ad4889b31eb2da694b05c0425b30b9f4040"
     },
     {
       "path": "/artifacts/necessity-resource-probe-equivalence-audit.txt",
@@ -295,6 +325,12 @@
       "status": 200,
       "local_bytes_match": true,
       "sha256": "80ae5adc636dc4f0a9d8c5b324e028c91b848b6c6fe90f1ebb7c6408262bb925"
+    },
+    {
+      "path": "/artifacts/necessity-resource-probe-reanalysis-interface.txt",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "e0b1942d6b0f7bbc1c4852e33988a184ed5ed73bc222d750ea99fa710a91d517"
     },
     {
       "path": "/artifacts/necessity-resource-probe-registration.json",
@@ -450,7 +486,7 @@
       "path": "/coverage.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "5c5d3095027789521ef667f25a3b5fc88c44451695fe33a2e639dc114e1c9882"
+      "sha256": "7d0969275143accdaa98e479bccf37958a0af102108b21562f29771ab8f63a7a"
     },
     {
       "path": "/disclosure.html",
@@ -480,7 +516,7 @@
       "path": "/necessity.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "f0a1f1efd5013a1e3c759b65875bb0a09941209a83757fc68a705115077802b7"
+      "sha256": "dd6e882c9466c753c9d6535fdc97324233a8245e2a282a735fdf6433eecd36e0"
     },
     {
       "path": "/privacy.html",
@@ -492,7 +528,7 @@
       "path": "/program.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "617375d183643e566e6349f958df2b824686c049f368d50c1eb24a15943a611a"
+      "sha256": "f967915cd65ad764d6add6ab33c6d8be25f83e04f95cd92d5b6f4d4627e274ba"
     },
     {
       "path": "/protocol.txt",
@@ -565,13 +601,13 @@
       "name": "murderbench.com",
       "type": 2,
       "TTL": 300,
-      "data": "ns1.xenocom.com."
+      "data": "ns2.xenocom.com."
     },
     {
       "name": "murderbench.com",
       "type": 2,
       "TTL": 300,
-      "data": "ns2.xenocom.com."
+      "data": "ns1.xenocom.com."
     }
   ]
 }

@@ -1,0 +1,12 @@
+{
+  "stage": "prospective_read_only_reanalysis_amendment",
+  "collector_amendment_sha256": "13f2ee4a4f34e5cb9efebe6cc62b56bdba53ee9c0c20cfe32f21f3126e7bb130",
+  "source_sha256_normalized_lf": {
+    "benchmark/necessity_resource_probe_reanalysis.py": "5cc9c72b3b62e6b879e8c63865dbaeacfc3b90ab6bba174ffc3e41e16074bd17",
+    "benchmark/necessity_collection_analysis.py": "8b01548555e5ef9e75078b33714d3e8ed872704e14d30eb5f89ff09fffe1fa89",
+    "plans/necessity-resource-probe-reanalysis-interface.txt": "e0b1942d6b0f7bbc1c4852e33988a184ed5ed73bc222d750ea99fa710a91d517"
+  },
+  "new_model_calls": 0,
+  "collection_ready": false,
+  "amendment_sha256": "4b9459cabe95fc5bd94600d911dc126600fc828ca23358df236f4a551a6b20c0"
+}

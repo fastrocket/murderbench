@@ -1,0 +1,10 @@
+{
+  "stage": "prospective_prefix_analysis_amendment_no_model_calls",
+  "parent_manifest_sha256": "3d61289bce9f6f256051e9e2a31f5e8699312a6316584b4c7ece65d0965471a6",
+  "source_sha256_normalized_lf": {
+    "benchmark/necessity_resource_probe_analysis.py": "6862c40a7039abb9a6dcc95c48195a1968baee4c30a5d9984b7e201119f9d818",
+    "plans/necessity-resource-probe-prefix-analysis.txt": "8a26e22e69728add1bc0fe18733e27e07ead156b904a32e82765ecbe9a5aca9f"
+  },
+  "collection_ready": false,
+  "amendment_sha256": "61f77603a9ba891669126538fddc7011239ce9aee9b9db84aa812087d6083917"
+}

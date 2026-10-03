@@ -1,0 +1,8 @@
+{
+  "stage": "prospective_collector_amendment_no_authorization",
+  "parent_manifest_sha256": "3d61289bce9f6f256051e9e2a31f5e8699312a6316584b4c7ece65d0965471a6",
+  "analysis_amendment_sha256": "61f77603a9ba891669126538fddc7011239ce9aee9b9db84aa812087d6083917",
+  "collector_source_sha256_normalized_lf": "8327bad142d8ad6022b03c5df0e0913ac2e315cff0d2fa453c7803b384686823",
+  "collection_ready": false,
+  "amendment_sha256": "13f2ee4a4f34e5cb9efebe6cc62b56bdba53ee9c0c20cfe32f21f3126e7bb130"
+}
