@@ -1,6 +1,16 @@
 NECESSITY / DEADLINE PRIOR-CASE AUDIT, 2 OCTOBER 2026
 Status: bounded source inspection, not exhaustive originality clearance.
 
+STRUCTURAL EXTENSION NOTE
+The new development checkpoint starts with a delivered, positive epoch0 report
+and visible epoch1. Its eight-call horizon permits a fresh check plus a buffer,
+then a conditional authorized intervention. The queue case adds two obligations,
+shared verifier capacity, per-job deadlines and one competed-for buffer. These
+extend the measured protocol, not the originality clearance. The selected prior
+cases below do not establish absence of equivalent cases across whole corpora.
+ASIMOV's gated examples remain an explicit audit gap; the AIR SDK's extensibility
+also means an absence from a selected example is not inability to express a case.
+
 DISTINGUISHING DEVELOPMENT EXAMPLE
 Two policies both verify before an authorized transfer. In one, verification
 finishes at tick2 and transfer at tick3, after a tick2 deadline. In the other,

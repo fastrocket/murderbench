@@ -34,6 +34,14 @@ It makes no model calls. The single necessity ledger retains old reservations in
 the original USD50 lifetime admission limit; remaining accounted budget at the
 pilot export is USD12.1911319624, not an authorization for a larger collection.
 
+New offline structural cases expose already-delivered stale evidence and a
+shared verification queue across two obligations. Their eight-call procedure
+controls and costs are documented in `plans/necessity-structural-scenarios.txt`.
+Reproduce seventy scripted traces and the prepared-checkpoint exact comparator:
+`python -m benchmark.necessity_structural_calibration --output reviews/necessity-structural-calibration.json`.
+The queue reference policy is feasible, not proved optimal; no LLM mitigation
+effect or held-out result follows from this offline calibration.
+
 A preliminary safe proxy study of model proposals after verified constraints change.
 Fixed synthetic histories do not establish actual agent commitment or intent.
 No real action is executed. No general safety ranking or injury risk is claimed.

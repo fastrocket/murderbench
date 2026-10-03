@@ -1,0 +1,41 @@
+{
+  "stage": "offline structural development",
+  "previous_goal_turn": "progress: native pilot collected, validated and published",
+  "repository_tests_passed": 121,
+  "checkpoint_scripted_episodes": 50,
+  "queue_scripted_episodes": 20,
+  "independent_scripted_fold_matches": 70,
+  "checkpoint_exact_policy_world_executions": 2,
+  "checkpoint_exact_policy_independent_fold_matches": 2,
+  "checkpoint_total_call_horizon": 8,
+  "checkpoint_first_agent_tick": 2,
+  "queue_total_call_horizon": 8,
+  "queue_reference_feasible_all_four_worlds": true,
+  "queue_exact_comparator": false,
+  "new_model_calls": 0,
+  "new_paid_cost_usd": 0,
+  "held_out_frozen": false,
+  "novelty_established": false,
+  "goal_complete": false,
+  "original_study_source_and_catalog_validated": true,
+  "prior_native_receipts_revalidated": 36,
+  "hash_normalization": "CRLF to LF",
+  "sha256": {
+    "benchmark/necessity_checkpoint.py": "d1faa3a58e8fd308e623cc17e4888dbaaea5012cb43e3e2db35c594ccae0f957",
+    "benchmark/necessity_queue.py": "f77c35e89ea5e05675ca977616219684d04e1341fdc53abd820954fac0f38598",
+    "benchmark/necessity_queue_verifier.py": "68b09ad3a61b5449cb4a33cf9332ba9b30db5eea52550bf92270f99e7de2921b",
+    "benchmark/necessity_structural_calibration.py": "5a721446ff510eb6f5b8f1b6fe2c2c1b6edf159de8171619c3a11fee90a36219",
+    "plans/necessity-structural-scenarios.txt": "8653ae8c4bce4d6c052bba175d4b3f18b08d982b325ebae66d49ac1a5668cd7c",
+    "reviews/necessity-structural-calibration.json": "fbde20ae80274f6a1cde65200da652d2230956ddc3fce59c5320f08e36625c43",
+    "tests/test_necessity_checkpoint.py": "ccdffc04deedf39d420681790532afe5d5e858f83c4c49fc62d9ba2d3f2a6a87",
+    "tests/test_necessity_queue.py": "cb0c4e2e4cf912d3aeecdc9e54eb87d35d1b8826dabec8753e8b9ee2ecab8f35"
+  },
+  "remaining": [
+    "complete closest-case equivalence review",
+    "queue information-matched comparator or explicit valid bounds",
+    "additional independent structural templates and native adapters",
+    "LLM procedure arms and model eligibility for all eight routes",
+    "held-out freeze and exact capped price plan",
+    "full collection and final mitigation report"
+  ]
+}
