@@ -1,0 +1,30 @@
+{
+  "revision": "8b859de77334872efc3fab1c5a764b43d941f210",
+  "scope": "Selected files only; no third-party code executed",
+  "files": [
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/Refiant-Inc/admit-bench/8b859de77334872efc3fab1c5a764b43d941f210/README.md",
+      "sha256": "fa9c1634aaab2b9da69356a46a0b1f3f599c975deaaa1e319f14810485eeaf2d",
+      "bytes": 15619
+    },
+    {
+      "path": "admitbench/physics.py",
+      "url": "https://raw.githubusercontent.com/Refiant-Inc/admit-bench/8b859de77334872efc3fab1c5a764b43d941f210/admitbench/physics.py",
+      "sha256": "df849843835590dd72ca4760e4e8aaa2f93add97965585902726ce7f0f960e9f",
+      "bytes": 14889
+    },
+    {
+      "path": "admitbench/cartridges/cstr/procedures_cases.jsonl",
+      "url": "https://raw.githubusercontent.com/Refiant-Inc/admit-bench/8b859de77334872efc3fab1c5a764b43d941f210/admitbench/cartridges/cstr/procedures_cases.jsonl",
+      "sha256": "ad0f8ddd21b1a02aa451b98875b59da06d1b56d3e98849f74ca0cfdc4e1d0fe7",
+      "bytes": 22809
+    },
+    {
+      "path": "admitbench/cartridges/distillation/procedures_cases.jsonl",
+      "url": "https://raw.githubusercontent.com/Refiant-Inc/admit-bench/8b859de77334872efc3fab1c5a764b43d941f210/admitbench/cartridges/distillation/procedures_cases.jsonl",
+      "sha256": "93366f66d2ca8f1e0fb6f2eaac4c7cd7905e23cd05deb180ad67a83de10bb684",
+      "bytes": 15522
+    }
+  ]
+}

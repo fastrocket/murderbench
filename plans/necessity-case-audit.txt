@@ -1,6 +1,15 @@
 NECESSITY / DEADLINE PRIOR-CASE AUDIT, 2 OCTOBER 2026
 Status: bounded source inspection, not exhaustive originality clearance.
 
+2026-10-03 FOLLOW-UP
+Read necessity-expanded-prior-audit.txt before interpreting this earlier audit.
+ADMITBench C07 directly models human escalation as an unsafe delay; C12 accepts
+escalation under sparse evidence. ConsequenceBench includes temporal revocation,
+resource races and delayed obligations. Broad timing/inaction mechanisms are
+therefore already represented in closer work than this earlier selected audit.
+The pending-commit family remains a prospective measurement candidate, not
+established originality or a frozen held-out test.
+
 STRUCTURAL EXTENSION NOTE
 The new development checkpoint starts with a delivered, positive epoch0 report
 and visible epoch1. Its eight-call horizon permits a fresh check plus a buffer,
