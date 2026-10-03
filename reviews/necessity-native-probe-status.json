@@ -1,0 +1,23 @@
+{
+  "stage": "bounded native API probes executed and published",
+  "previous_goal_turn": "progress: live collection wiring source frozen",
+  "repository_tests_passed_before_requests": 173,
+  "actual_verified_native_routes": 2,
+  "verified_native_receipts": 12,
+  "probe_process_state": "terminal_stopped",
+  "new_reconciled_cost_usd": "0.053548",
+  "new_unresolved_reservation_usd": "1.00",
+  "remaining_accounted_usd": "11.1375839624",
+  "additional_budget_approved_usd": "0",
+  "full_collection_ready": false,
+  "goal_complete": false,
+  "public_verified_pages": 11,
+  "public_verified_resources": 59,
+  "remaining": [
+    "Google HTTP diagnosis under new preserved identity; no held-call replay",
+    "remaining-route native probes",
+    "final concrete prior-case equivalence audit",
+    "compatible spending authorization",
+    "collection and findings"
+  ]
+}

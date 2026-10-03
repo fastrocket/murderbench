@@ -1,5 +1,5 @@
 {
-  "verified_utc": "2026-10-03T04:48:53.640500+00:00",
+  "verified_utc": "2026-10-03T05:00:04.566546+00:00",
   "page_count": 11,
   "checks": [
     {
@@ -87,6 +87,12 @@
       "sha256": "11d2760eb655b37c078fa97285a302a6d18d47e15486a187c1c86f22c9932017"
     },
     {
+      "path": "/artifacts/necessity-model-provenance.txt",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "601a3c69fdf0734f5a185c7ec52a6b2223c8c884ee7f1e1d7694a840d6e20f6e"
+    },
+    {
       "path": "/artifacts/necessity-native-development-analysis.json",
       "status": 200,
       "local_bytes_match": true,
@@ -115,6 +121,24 @@
       "status": 200,
       "local_bytes_match": true,
       "sha256": "68ee091d9f6b60f9e15a32ea45c581e4a0c72069632e090f5dc83b66ff204ad7"
+    },
+    {
+      "path": "/artifacts/necessity-native-probe-findings.txt",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "a8373c6fecf4684ba7479ac85b1d566f53c18462ba4de0e2dd9fda139232ee34"
+    },
+    {
+      "path": "/artifacts/necessity-native-probe-verification.json",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "a5e2cb3c0e42cf018e329f593d9f0939c0e6ce71bf6a95ad80dd748be5e43d48"
+    },
+    {
+      "path": "/artifacts/necessity-native-probes.json",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "bbfd27a1d6d17977247d0cc96743ee9927989081f158a2559d980877b91d9bb2"
     },
     {
       "path": "/artifacts/necessity-pending-calibration.json",
@@ -252,7 +276,7 @@
       "path": "/coverage.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "a9989023a2872867c458d5a3f065f14dce82f96502df61d57e1262b0e259d39f"
+      "sha256": "a62e50bc067c170ffad67c8e5ca6f7ee0089da086838d797f63c75cbdf9975be"
     },
     {
       "path": "/disclosure.html",
@@ -282,7 +306,7 @@
       "path": "/necessity.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "622553c28c666b4e61fa4ec86a664ca0c107f2fa87a562f4e4026dbd16a036f2"
+      "sha256": "30006624ca398d0bec1767d30fbe103fe367a2e7b8588bf782f62899fdeb2a06"
     },
     {
       "path": "/privacy.html",
@@ -294,7 +318,7 @@
       "path": "/program.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "8cf4066587616a48ab62c0b402b40c0066fcaaa4ae6e418731308b641ac38b21"
+      "sha256": "b7223d064958674398106fadf95d24e3f6d8902b48ca625898f3dd19fd393d39"
     },
     {
       "path": "/protocol.txt",
@@ -367,13 +391,13 @@
       "name": "murderbench.com",
       "type": 2,
       "TTL": 300,
-      "data": "ns2.xenocom.com."
+      "data": "ns1.xenocom.com."
     },
     {
       "name": "murderbench.com",
       "type": 2,
       "TTL": 300,
-      "data": "ns1.xenocom.com."
+      "data": "ns2.xenocom.com."
     }
   ]
 }
