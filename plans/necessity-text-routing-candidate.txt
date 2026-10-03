@@ -1,0 +1,45 @@
+Text-only routing candidate, 2026-10-03 UTC
+Offline candidate; no paid diagnostic or collector amendment applied
+
+Finding
+OpenRouter's provider-selection documentation describes max_price as a provider
+price filter and image as the accepted price per image. Our frozen payload sets
+image to0. All six current Google/Gemini3.1-Pro endpoint variants advertise positive
+image prices. The advertised standard route remains google-ai-studio, with image
+rate0.000002. This is a concrete conflict between the configured threshold and
+advertised rate under the documented filter interpretation. The service's exact
+handling of this field on a text-only request is not independently tested, so
+this does not establish the prior HTTP error's cause.
+https://openrouter.ai/docs/guides/routing/provider-selection
+https://openrouter.ai/api/v1/models/google/gemini-3.1-pro-preview/endpoints
+
+Candidate
+benchmark/necessity_text_routing.py verifies all request messages have text content
+(or a null assistant content accompanying native tool calls), then omits only
+the image price filter. It preserves tools, strict local action parsing, model,
+pinned provider, no fallback, data_collection deny, reasoning, prompt/completion
+price ceilings, request-fee ceiling and byte bound. Structured image/audio content
+is rejected before a request. The candidate makes no request on import and is
+not used by any existing frozen collector or collected study.
+
+Validation
+Two tests confirm the sole payload change is removal of the image price field
+and reject non-text content, including image blocks. This establishes candidate
+encoding invariants, not actual provider eligibility or zero-cost image behavior.
+Current schemas and seven successful native-route probe records remain unchanged.
+
+Next controlled diagnostic
+Freeze a new identity using original tool schemas plus this text-only routing
+candidate. Change only the image filter, show no scored scenario, retain HTTP
+status and categorical error indicators, and stop on failure. A successful result
+would support the filter hypothesis for that configuration without retroactively
+rescoring either held request. If collection adopts the candidate, preserve a
+prospective source/routing amendment and validate receipt replay and all affected
+route configurations. Do not silently switch the existing frozen matrix.
+
+Accounting and limits
+No generation request, reservation release or new hold occurred during this audit.
+Remaining original authorized headroom stays USD10.0924433264; the larger budget
+question is unanswered. Full collection and concrete prior-case equivalence review
+remain unfinished. Documentation and advertised prices can change; the dated
+endpoint receipt is reviews/necessity-google-filter-audit.json.

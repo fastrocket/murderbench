@@ -1,0 +1,39 @@
+{
+  "retrieved_utc": "2026-10-03T05:06:26.424198+00:00",
+  "source": "https://openrouter.ai/api/v1/models/google/gemini-3.1-pro-preview/endpoints",
+  "frozen_image_max_price": 0,
+  "endpoints": [
+    {
+      "tag": "google-vertex/global/flex",
+      "provider_name": "Google",
+      "advertised_image_rate": "0.000001"
+    },
+    {
+      "tag": "google-ai-studio/flex",
+      "provider_name": "Google AI Studio",
+      "advertised_image_rate": "0.000001"
+    },
+    {
+      "tag": "google-vertex/global",
+      "provider_name": "Google",
+      "advertised_image_rate": "0.000002"
+    },
+    {
+      "tag": "google-ai-studio",
+      "provider_name": "Google AI Studio",
+      "advertised_image_rate": "0.000002"
+    },
+    {
+      "tag": "google-vertex/global/priority",
+      "provider_name": "Google",
+      "advertised_image_rate": "0.0000036"
+    },
+    {
+      "tag": "google-ai-studio/priority",
+      "provider_name": "Google AI Studio",
+      "advertised_image_rate": "0.0000036"
+    }
+  ],
+  "scope": "Public rate conflict; actual routing effect not yet tested",
+  "new_paid_model_calls": 0
+}
