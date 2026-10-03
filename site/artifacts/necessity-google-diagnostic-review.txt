@@ -1,0 +1,54 @@
+Google native-interface failure: public-source diagnostic review
+2026-10-03 UTC. Hypotheses, not a confirmed root cause.
+
+Observed evidence
+The original Google AI Studio request raised HTTPError before a usable completion
+receipt was stored. That transport version did not retain HTTP status/body. Its
+USD1 reservation remains held; neither absence of a completion ID nor an HTTP
+failure proves zero charge. Do not replay that request or release its reservation.
+All other seven routes have now passed three schema/continuation sequences.
+
+Hypothesis1: provider data-policy eligibility
+Our frozen payload requires data_collection deny and pins google-ai-studio with
+fallback disabled. OpenRouter documents this as a provider filter. Its provider
+directory reports Google AI Studio as not training on submitted data but retaining
+data for55 days. Retention and training are separate attributes. These public
+facts do not establish that the provider is excluded by our filter or caused
+this particular HTTP error. Do not silently relax privacy controls or switch
+providers to obtain a pass; any changed policy requires a prospective amendment.
+https://openrouter.ai/docs/guides/routing/provider-selection
+https://openrouter.ai/providers
+
+Hypothesis2: argument-free function schema
+Our argument-free functions advertise object parameters with empty properties
+and an empty required list. Google's developer forum contains historical reports
+of empty object schemas being rejected by Gemini API versions. Those reports
+are primary user observations from earlier versions, not proof of current
+Gemini3.1 or OpenRouter behavior. Google's current function-calling documentation
+also describes structured function declarations and preservation of native
+thinking signatures. Our continuation already preserves opaque reasoning fields,
+but failure occurred before a first usable tool response, not during continuation.
+https://discuss.ai.google.dev/t/gemini-doesnt-accept-parameterless-functions/56501
+https://ai.google.dev/gemini-api/docs/function-calling
+
+Prospective diagnostic acceptance criteria
+Create a new preserved identity with changed diagnostic conditions, not a resend
+of the held request. Show no scored world, loss or deadline. Retain categorical
+HTTP status and narrowly allowlisted API error code if returned, without raw
+exception text or credentials. Test one factor at a time. A compatible schema
+encoding may omit parameter declarations for argument-free tools while retaining
+strict local validation of empty arguments; test that prospectively before any
+collector amendment. Do not add an unnecessary model argument that changes
+reasoning burden without disclosing it. Continue to reject unknown tools and
+extra arguments before executing effects.
+
+Any successful changed-schema diagnostic establishes only that configuration's
+interface behavior. It does not retroactively validate the original schema or
+justify mixing its results into the unchanged final collection. Reprice and
+amend affected collection sources before scored requests. A continued failure
+should remain missing interface access, not be scored as model refusal or safety.
+
+Current accounting
+Latest remaining original authorization is USD11.0924433264, including all holds.
+The unanswered larger-budget question grants no new authorization. No paid
+request or reservation was made for this public-source review.

@@ -1,0 +1,34 @@
+Remaining-route native probes, 2026-10-03 UTC
+
+A separate prospective identity tested only the five previously unattempted routes.
+The original Google HTTP-error request and USD1 hold were preserved, not replayed.
+The tool schemas, native continuation policy and routing parameters were unchanged.
+The new study cap was USD2 inside the original USD50 lifetime authorization.
+
+xAI/grok-4.7, DeepSeek/V4-Pro-0813, Qwen3.8-2.4T-A95B, Kimi-K3 and GLM-5.3
+each passed event, queue and pending schemas with wait then finish(unknown).
+Thirty receipts were reconstructed from stored private requests/responses and
+matched public identities, actions, usage and hashes. No scored world or deadline
+was exposed. This is API compatibility evidence, not safety or task competence.
+Together with the earlier OpenAI/Anthropic checks, seven of eight routes passed.
+Google remains unverified; hosted checkpoint equivalence also remains unverified.
+
+New reconciled cost: USD0.045140636. No new unresolved reservation was added.
+Lifetime accounted total including prior holds: USD38.9075566736. Remaining
+original headroom: USD11.0924433264. Necessity holds remain USD2.00. No budget
+increase is inferred. The process finished; there is no live collection left running.
+
+All175 repository tests passed. Tests cover remaining-route selection, successful
+replay, categorical HTTP status retention and preservation of reservations on error.
+The initial probe module and its source identity remain unchanged. New HTTP failures
+would retain their numeric status without copying credential-bearing exception text.
+
+Evidence
+plans/necessity-remaining-probe-manifest.json
+reviews/necessity-remaining-probes.json
+reviews/necessity-remaining-probe-verification.json
+python -m benchmark.necessity_remaining_probes verify (read-only replay)
+
+Next: diagnose Google with a preserved new protocol, complete concrete case-equivalence
+review, and obtain compatible spending authorization before full collection. No
+readiness certificate or completed benchmark claim is issued from these probes.
