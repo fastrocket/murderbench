@@ -1,0 +1,23 @@
+{
+  "stage": "exact matrix and analysis preregistration published",
+  "previous_goal_turn": "progress: calibrated and published pending effect family",
+  "repository_tests_passed": 158,
+  "episode_count": 512,
+  "max_model_calls": 4096,
+  "conditional_collection_usd": "691.233931264",
+  "new_paid_model_calls": 0,
+  "remaining_accounted_usd": "12.1911319624",
+  "additional_budget_approved_usd": "0",
+  "manifest_sha256": "2f36c52841e2db97dc17ddcb04817d66925b36754b7139fc0a74dd2ae16e3ce6",
+  "public_verified_pages": 11,
+  "public_verified_resources": 55,
+  "full_collection_ready": false,
+  "goal_complete": false,
+  "remaining": [
+    "authenticated route and checkpoint/license checks",
+    "collector and reanalysis source freeze/amendment",
+    "final concrete prior-case equivalence audit",
+    "compatible spending authorization",
+    "collection and findings"
+  ]
+}

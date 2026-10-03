@@ -1,5 +1,5 @@
 {
-  "verified_utc": "2026-10-03T04:45:13.969277+00:00",
+  "verified_utc": "2026-10-03T04:48:53.640500+00:00",
   "page_count": 11,
   "checks": [
     {
@@ -75,6 +75,18 @@
       "sha256": "12a8ddb8d8b4d89dd28ce808cceb9e592ec9a3dac56a1342fb338838e455da70"
     },
     {
+      "path": "/artifacts/necessity-final-analysis-protocol.txt",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "02f11a5fcf879092dde1b38db6c12f4701ba67dbc36b1ae2fce8bd6f91f1905a"
+    },
+    {
+      "path": "/artifacts/necessity-final-collection-price.txt",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "11d2760eb655b37c078fa97285a302a6d18d47e15486a187c1c86f22c9932017"
+    },
+    {
       "path": "/artifacts/necessity-native-development-analysis.json",
       "status": 200,
       "local_bytes_match": true,
@@ -147,6 +159,12 @@
       "sha256": "7b6cbf9275e829051a42b3876e983e4868af17c7fb46311eabddb485dfd6a3c4"
     },
     {
+      "path": "/artifacts/necessity-structural-collection-manifest.json",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "b652c0252b57fcb50223d6924c903549989f144c2c38a7f9f45182bca167736b"
+    },
+    {
       "path": "/artifacts/necessity-structural-native-interface.txt",
       "status": 200,
       "local_bytes_match": true,
@@ -156,7 +174,7 @@
       "path": "/artifacts/necessity-structural-route-plan.json",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "46a0ca2e5c23e4b32bfa802039d90df5476aa3641a0acbe8b1ddee269af02cfc"
+      "sha256": "35bcd158b9878b43257326d4fce36ab1a550f9acceb1dba50540df7be4296680"
     },
     {
       "path": "/artifacts/necessity-structural-scenarios.txt",
@@ -234,7 +252,7 @@
       "path": "/coverage.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "148d2a47da50a9201784db8214542325bbc257eadbac767f7b1510cda53dd2e0"
+      "sha256": "a9989023a2872867c458d5a3f065f14dce82f96502df61d57e1262b0e259d39f"
     },
     {
       "path": "/disclosure.html",
@@ -264,7 +282,7 @@
       "path": "/necessity.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "0cf453a337a38fb8649c1f669900745bd3ab2e0bf75a43f245d87de68b4e6087"
+      "sha256": "622553c28c666b4e61fa4ec86a664ca0c107f2fa87a562f4e4026dbd16a036f2"
     },
     {
       "path": "/privacy.html",
@@ -276,7 +294,7 @@
       "path": "/program.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "21135bb4cf56f0c19076dad2650138cbc53e6da4b54c9cf92dbb7069eed9ccc9"
+      "sha256": "8cf4066587616a48ab62c0b402b40c0066fcaaa4ae6e418731308b641ac38b21"
     },
     {
       "path": "/protocol.txt",
