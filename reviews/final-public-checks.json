@@ -1,12 +1,12 @@
 {
-  "verified_utc": "2026-10-03T00:04:47.751658+00:00",
-  "page_count": 10,
+  "verified_utc": "2026-10-03T03:55:51.130308+00:00",
+  "page_count": 11,
   "checks": [
     {
       "path": "/",
       "status": 200,
       "local_bytes_match": null,
-      "sha256": "8b6a890bb9f5558ab3d09ca314b52301673362f9c081eb3a14394fddd3d745fa"
+      "sha256": "1e74334b89a1a49fa4fd056350005ee820ffe96df1ff77fc74090dc8adb8e79f"
     },
     {
       "path": "/about.html",
@@ -49,6 +49,48 @@
       "status": 200,
       "local_bytes_match": true,
       "sha256": "d1c56fbeeb4a757fd46391329fc4fcfad304da691eddc2eb1d68e0cdef958bdf"
+    },
+    {
+      "path": "/artifacts/necessity-and-inaction-research.txt",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "e629c58496c8c72428ac43ac4f1af035836806ac111c884797af96e99f891891"
+    },
+    {
+      "path": "/artifacts/necessity-case-audit.txt",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "3f4cdbdbca9a262f9dad311e38d3cd6dc4af2a5a9f11e160bf2ae55156663792"
+    },
+    {
+      "path": "/artifacts/necessity-native-development-analysis.json",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "fa66ba0ef3ac66a66f3e4e0308ded3cbd4050db5341c0ba68cef221e59b05f87"
+    },
+    {
+      "path": "/artifacts/necessity-native-development-report.txt",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "a689bfb5a44df3dfc5a32019bd3688d489fb9b54780bd4fa2ff6200d58e1effd"
+    },
+    {
+      "path": "/artifacts/necessity-native-development-results.json",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "d4fab5f7d9cc7ba2be79a3e3e1966b2bc927df7e1303e92c1c99a7c369848872"
+    },
+    {
+      "path": "/artifacts/necessity-native-development.json",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "b4e559499f86e28b7d9267038c0620933149b3c0366548301bcd687ca50d8dc8"
+    },
+    {
+      "path": "/artifacts/necessity-native-interface-amendment.txt",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "68ee091d9f6b60f9e15a32ea45c581e4a0c72069632e090f5dc83b66ff204ad7"
     },
     {
       "path": "/artifacts/novelty.txt",
@@ -120,7 +162,7 @@
       "path": "/coverage.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "702eda3ae52d11157f2483773081c25b2bc0b60963eb8bd2c23074c4a44eebb1"
+      "sha256": "7ae64fd3bcc18b633c08768432a41bec5965f136071485a5fb63373dff2cefa0"
     },
     {
       "path": "/disclosure.html",
@@ -138,13 +180,19 @@
       "path": "/index.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "8b6a890bb9f5558ab3d09ca314b52301673362f9c081eb3a14394fddd3d745fa"
+      "sha256": "1e74334b89a1a49fa4fd056350005ee820ffe96df1ff77fc74090dc8adb8e79f"
     },
     {
       "path": "/methodology.html",
       "status": 200,
       "local_bytes_match": true,
       "sha256": "7690b9ebb9823d2c26f12463c613c8f34dc54ce431a7ec0456996b89af30a1c6"
+    },
+    {
+      "path": "/necessity.html",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "ad9d9a7d381ee46086df8096e4ea32bb679da849d35ff0515014a40b0f328071"
     },
     {
       "path": "/privacy.html",
@@ -156,7 +204,7 @@
       "path": "/program.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "336187eeaa5928aa038d5fad1bb2ae726c1cdb61516972076e2ae540999e7acc"
+      "sha256": "26b48d273407d5625a0e7e76f747541f7efc622f6b3697a395004dcb377e87ca"
     },
     {
       "path": "/protocol.txt",
@@ -174,7 +222,7 @@
       "path": "/results.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "3ed80fc88d668f2104f70ad4acf639e518950948f6b0a7eecd907abb2643096d"
+      "sha256": "fa0acdcf3d5f9290fbc2678ce333232f598ad2bf7c49ff4b6836502ba9a93668"
     },
     {
       "path": "/robots.txt",
@@ -186,7 +234,7 @@
       "path": "/sitemap.xml",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "23203f0766200bcfb3b50730110d687b9e471cb6ff264696e4a4f87145e180cd"
+      "sha256": "a37924bd2280eac1f57ef843e210e28265336b53f869d9434df60e2ae958c88a"
     },
     {
       "path": "/style.css",

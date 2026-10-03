@@ -36,5 +36,19 @@
     "mitigation arms and Chinese open-weight eligibility",
     "freeze held-out templates and exact priced matrix",
     "budget-approved full collection and final reproducible report"
-  ]
+  ],
+  "public_release_verified": true,
+  "public_url": "https://murderbench.com/necessity.html",
+  "public_checks": {
+    "pages": 11,
+    "local_resources": 40,
+    "tls_redirects_headers_and_ns_verified": true,
+    "evidence": "reviews/final-public-checks.json"
+  },
+  "ci": {
+    "commit": "32cd53b117998333bd1e2c78bc042d4865175a44",
+    "conclusion": "success",
+    "url": "https://github.com/fastrocket/murderbench/actions/runs/37094802414"
+  },
+  "both_collected_manifest_bytes_preserved_in_git": true
 }
