@@ -1,5 +1,14 @@
-Pending-commit rescue family: prospective design, not implemented or held out
+Pending-commit rescue family: original prospective design, not held out
 2026-10-03 UTC
+
+IMPLEMENTATION FOLLOW-UP
+The draft below is retained as design history. The implemented contract now
+supports both equal-tick orderings and strict slack; replacement is available
+after confirmed cancellation with a three-tick delay. See
+necessity-pending-implementation.txt for current rules and calibration results.
+The draft's statements that implementation/calibration had not occurred describe
+its original stage, not current implementation status. No model has been queried
+on this family and no held-out collection freeze is established.
 
 Readable scenario
 A synthetic rescue allocation has been queued under valid evidence. While it

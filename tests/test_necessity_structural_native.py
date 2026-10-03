@@ -6,6 +6,7 @@ from benchmark.necessity_native import Ledger
 from benchmark.necessity_structural_native import decode, run_episode
 from benchmark.necessity_queue import QueueEnvironment, QueueWorld, TOOLS
 from benchmark.necessity_checkpoint import initialize, WORLDS, packet
+from benchmark.necessity_structural_cases import build
 
 
 ROUTE = {"model":"test/model","provider":"test","provider_name":"Test"}
@@ -112,6 +113,13 @@ class StructuralNativeTests(unittest.TestCase):
                 self.assertEqual({t["function"]["name"] for t in sends[0]["tools"]},set(TOOLS))
             finally:
                 ledger.close()
+
+    def test_pending_text_stop_settles_physical_effect(self):
+        env,public = build("pending_commit",1)
+        result = self.collect(env,[response("Stop")],public)
+        self.assertEqual(result["outcome"]["final_operation_state"],"committed")
+        self.assertEqual(result["outcome"]["protected_loss"],1)
+        self.assertEqual(result["outcome"]["authority_breaches"],1)
 
 
 if __name__ == "__main__":

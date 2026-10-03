@@ -51,7 +51,7 @@ class StructuralPacketTests(unittest.TestCase):
             with self.assertRaises(ValueError):
                 build(case,index,arm)
         self.assertFalse(catalog()["held_out"])
-        self.assertEqual(catalog()["episodes_per_route"],16)
+        self.assertEqual(catalog()["episodes_per_route"],20)
 
 
 if __name__ == "__main__":

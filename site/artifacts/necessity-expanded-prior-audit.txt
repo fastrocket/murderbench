@@ -1,0 +1,87 @@
+Expanded temporal-intervention prior-work audit
+2026-10-03 UTC. Selected primary-source inspection, not exhaustive clearance.
+
+Decision changed by this audit
+Do not claim novelty for harmful escalation delay, consequential inaction,
+temporal revocation, resource races, cancellation, or settlement after stopping.
+Newly inspected work directly covers these concepts. Existing MurderBench
+simulators remain useful calibration controls, but their mechanisms alone are
+insufficient to establish a distinct research contribution.
+
+ADMITBench: a concrete counterexample to a broad novelty claim
+Repository revision8b859de77334872efc3fab1c5a764b43d941f210. In
+admitbench/cartridges/cstr/procedures_cases.jsonl, C07 has a222-second hazard
+window, escalation_ok false, and a human response longer than that window.
+Its accepted interventions include shutdown and increased cooling. C12 instead
+accepts escalation or sensor verification with sparse evidence. Thus appropriate
+action versus appropriate escalation and dangerous referral delay already have
+explicit executable-case precedents. Its physics.py implements process dynamics;
+the paper describes eligibility gates before utility ranking. We read selected
+files without running the authors' code. This does not establish that every
+tool-driven timing feature in our environment is equivalent to their implementation.
+https://github.com/Refiant-Inc/admit-bench/tree/8b859de77334872efc3fab1c5a764b43d941f210
+https://arxiv.org/html/2608.03866v1
+
+ConsequenceBench: revocation, shared resources and delayed duties
+Repository revision469a4effe7de953bab56c9fc43853131541af901. The selected
+control_planes.py names temporal_revocation, shared_resource_race and
+partial_effect_recovery, plus normal/race/crash/delayed_duty variants. That file
+describes itself as a specification layer, not an executor. We also read the
+pressure_episode.py executor: it exposes latency ticks, current_tick, evidence
+inspection, effect readback, compensation and obligation tools, and checks
+whether live records were inspected after a dynamic tick. Do not infer that
+all documented structural families are fully executed in that one environment,
+or that an absent identifier proves absent behavior elsewhere. This is a close
+case-design precedent, not merely a keyword match in a related-work paragraph.
+https://github.com/yuvin-labs/consequencebench/tree/469a4effe7de953bab56c9fc43853131541af901
+
+Outcome finality and cross-unit separation
+Casheekar, arXiv2608.14940v1. Its controlled replay fixes tool actions and varies
+endpoint scoring, reconciliation, verified cancellation and shared state. A
+delayed write can settle after the agent stops or affect another run. Cancellation
+must be confirmed terminal. This directly precedes our distinction between model
+termination and background settlement. It studies evaluation boundaries rather
+than establishing an LLM policy for rescuing uncertain obligations. Our simulator
+should retain fresh per-episode state and explicit eventual settlement, while
+citing this precedent rather than calling those practices original.
+https://arxiv.org/html/2608.14940v1
+
+Cordon: staged effects and rollback already exist
+arXiv2606.17573v1 specifies staging of external effects before commit, recovery
+records and rollback for mediated local state. Its experiments compare approval
+policies and containment/recovery baselines, with practical runtime costs. It
+distinguishes reversible local mutations from already committed external effects.
+An abstract prepare/commit/abort simulator is therefore not by itself new. We
+inspected the paper, not its full repository or every experimental fixture.
+https://arxiv.org/html/2606.17573v1
+
+SteerBench-Work: bidirectional action-boundary errors
+The author paper page describes a pre-commit proceed/hold protocol with paired
+evidence-reversed scenarios and controls. It reports over-holding authorized
+actions as well as unsafe approvals. Our results cannot claim that measuring
+both error directions or harmful over-caution is original. The inspected page
+does not establish a simulation of a delayed cancel request competing with a
+rescue deadline; that bounded observation is not a corpus-wide absence claim.
+https://steerbench.com/work/paper/
+
+Candidate contribution that remains worth testing
+A controlled decision frontier linking evidence delay, action settlement delay,
+cancellation latency and a closing rescue opportunity under identical public
+information. A protective cancellation can be either correct or harmful in paired
+worlds, just as continuing can be either correct or harmful. The contribution
+would be the jointly specified measurement and comparisons, not invention of
+these ingredients. This audit has not established priority for that joint design.
+
+Outstanding equivalence checks
+Compare the exact proposed timing graph and scoring contract with the closest
+released fixtures, including delayed-duty/recovery executors, Cordon's actual
+staging interface, AIR downstream scenarios and gated ASIMOV examples. Retain
+access gaps explicitly. No gated terms were accepted and no author contacted.
+Any equivalent fixture found should become a cited replication/control, not be
+hidden by renaming its domain. Independent expert review remains unsecured.
+
+Evidence
+reviews/necessity-prior-art/admit-bench-inventory.json and
+reviews/necessity-prior-art/consequencebench-inventory.json store revisions,
+selected paths, URLs, byte counts and SHA256, without copying third-party corpora.
+No external code or billable model was executed for this audit.

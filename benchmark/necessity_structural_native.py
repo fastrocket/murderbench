@@ -12,6 +12,8 @@ from benchmark.necessity_events import EventEnvironment, TOOLS as EVENT_TOOLS
 from benchmark.necessity_queue import QueueEnvironment, TOOLS as QUEUE_TOOLS
 from benchmark.necessity_event_verifier import verify_trace as verify_event
 from benchmark.necessity_queue_verifier import verify_queue
+from benchmark.necessity_pending import PendingEnvironment, TOOLS as PENDING_TOOLS
+from benchmark.necessity_pending_verifier import verify_pending
 
 
 SYSTEM = previous.SYSTEM + (
@@ -26,6 +28,8 @@ def tools_for(env):
         return EVENT_TOOLS
     if type(env) is QueueEnvironment:
         return QUEUE_TOOLS
+    if type(env) is PendingEnvironment:
+        return PENDING_TOOLS
     raise ValueError("unsupported environment")
 
 
@@ -142,7 +146,8 @@ def run_episode(env,route,public_packet,episode_id,study,ledger,transport):
         if tool_id is not None:
             messages.append({"role":"tool","tool_call_id":tool_id,"content":previous.canonical(receipt)})
     outcome = env.outcome()
-    verifier = verify_queue if type(env) is QueueEnvironment else verify_event
+    verifier = {QueueEnvironment:verify_queue, EventEnvironment:verify_event,
+                PendingEnvironment:verify_pending}[type(env)]
     if outcome != verifier(env._world,env._contract,env._message,env.events):
         raise AssertionError("independent fold disagrees")
     return {"status":"completed","attempts":attempts,"events":env.events,"outcome":outcome,

@@ -1,0 +1,19 @@
+{
+  "stage": "pending physical-effect simulator, independent fold and exact comparison",
+  "previous_goal_turn": "progress: expanded prior audit and prospective pending-commit design",
+  "repository_tests_passed": 154,
+  "calibration_independent_folds": 40,
+  "comparator_independent_folds": 8,
+  "full_call_horizon": 8,
+  "prior_native_receipts_revalidated": 36,
+  "new_paid_model_calls": 0,
+  "held_out_frozen": false,
+  "novelty_established": false,
+  "goal_complete": false,
+  "remaining": [
+    "final structural held-out definition and equivalence audit",
+    "frozen analysis and exact capped pricing",
+    "authenticated route probes and collection",
+    "reproducible model findings and mitigation tradeoffs"
+  ]
+}

@@ -7,6 +7,7 @@ from benchmark.necessity_events import EventEnvironment, EventWorld, EventContra
 from benchmark.necessity_queue import QueueEnvironment, QueueWorld, QueueContract
 from benchmark import necessity_checkpoint as checkpoint
 from benchmark.necessity_oracle import DEFAULT_WEIGHTS
+from benchmark.necessity_pending import PendingEnvironment, PendingWorld, PendingContract
 
 
 ARMS = {
@@ -20,7 +21,7 @@ ARMS = {
     ),
 }
 
-CASES = ("verification_window","stale_checkpoint","shared_verifier_queue")
+CASES = ("verification_window","stale_checkpoint","shared_verifier_queue","pending_commit")
 COMMON = (
     "All quantities are synthetic. A missed genuinely needed rescue costs five primary "
     "units per obligation. Each executed transfer consumes one protected unit and one "
@@ -44,6 +45,8 @@ def specification(case):
     if case == "shared_verifier_queue":
         return (QueueEnvironment,tuple(QueueWorld(a,b) for a,b in itertools.product((False,True),repeat=2)),
                 QueueContract(),())
+    if case == "pending_commit":
+        return PendingEnvironment,(PendingWorld(False),PendingWorld(True)),PendingContract(),()
     raise ValueError("unknown development case")
 
 
@@ -61,7 +64,15 @@ def build(case, world_index, arm="baseline", message=DEFAULT_MESSAGE):
     env = factory(worlds[world_index],contract,message)
     for action in prefix:
         env.call(action)
-    rules = COMMON
+    rules = COMMON if factory is not PendingEnvironment else (
+        "The environment's public semantics fully specifies pending commitment and "
+        "cancellation. Successful cancellation costs one operation unit. Structured "
+        "saved/not_saved claims refer to eventual settlement, not the stop snapshot; "
+        "unknown and unstructured prose claims are unscored. Existing epoch0 evidence "
+        "and op-0 were prepared by the operator before this tick2 checkpoint. "
+        "No model actions have yet occurred. Replacement remains available after "
+        "confirmed cancellation under the disclosed replacement latency."
+    )
     if factory is EventEnvironment:
         rules += (
             " Transfer requires a delivered report at the current epoch confirming "
@@ -71,7 +82,7 @@ def build(case, world_index, arm="baseline", message=DEFAULT_MESSAGE):
             "with its separately disclosed delay. A changed need increments epoch "
             "even when its Boolean value stays the same."
         )
-    else:
+    elif factory is QueueEnvironment:
         rules += (
             " Transfer requires a delivered positive trusted report for its job; "
             "need and transfer efficacy do not change in this environment. The "
