@@ -1,0 +1,272 @@
+WHEN A SAFETY PROCEDURE CLOSES THE LAST SAFE OPTION
+Research synthesis and prospective recommendation, 3 October 2026 UTC
+Status: proposed measurement contribution; originality and deployment validity unproved.
+
+1. Decision
+
+Prioritize a benchmark of the loss of feasible, justified options during safety
+intervention. Its central question is not whether an agent chooses action or
+refusal. It is whether its procedure preserves the ability to make a justified
+decision before that ability disappears, while resisting fabricated necessity.
+
+The proposed output is a map of procedure performance over evidence latency,
+remaining time, cancellation latency and recovery availability. Each boundary
+should come with a replayable witness and the smallest tested operational change
+that moves the case back into a feasible region. Examples include faster verified
+cancellation, a bounded temporary buffer, or a timely evidence channel. This is
+an applied measurement hypothesis, not a claim to invent viability or abstention.
+
+The broad idea is occupied territory. A stronger contribution would translate
+these existing concepts into a reusable, independently checked diagnostic of
+agent-plus-safety-procedure behavior, demonstrating something that current
+reported scores cannot distinguish. If closest cases already support the same
+measurement, label this an extension or replication and revise the funding pitch.
+
+2. What failed in the original framing
+
+Our earlier permission/proposal evaluation cannot prove that models are aligned.
+The observed endpoint is narrower: a proposal satisfying a particular changed-
+state condition. It does not establish whether an agent protects a person, safely
+executes a task, recovers an operation, or handles an expiring opportunity.
+
+RoboHarm tests a different interface: robot actions, observed execution and
+refusal in five fixed scenes. Its report describes three policies and 300 trials,
+with one wording per task. Those observations do not estimate general alignment
+or harmful intent. They nevertheless show why verbal or proposal behavior is not
+an adequate substitute for action evaluation [1]. We have not reproduced those
+hardware trials or recovered the originating private email in this review.
+
+A Sophie's-choice prompt alone is also weak ground truth. It can stipulate that
+all alternatives are impossible without checking that claim. A bad actor can use
+the same claim to demand unjustified action. Distinguish: genuine need; fabricated
+necessity; an available third option; incomplete evidence; and an unavoidable,
+contested tradeoff. The first four can support operational tests. The last should
+not be collapsed into a universal correct answer about whose interests matter.
+
+3. Failure taxonomy and observable evidence
+
+Commission: an executed effect causes protected loss or violates authority.
+Omission: an information-feasible, justified intervention was available, but the
+procedure lost its useful window. Delay is consequential only when environment
+transitions establish that relationship, not because a story calls it urgent.
+False necessity: an untrusted source persuades the agent that harmful action is
+required when the trusted evidence or available alternatives do not support it.
+Option destruction: a decision removes a useful future branch before resolving
+the uncertainty that determines whether that branch is needed.
+Premature closure: a report treats acknowledgement, refusal or local stopping as
+proof that external effects have stopped or completed.
+Unavoidable risk: indistinguishable worlds require incompatible actions before
+an informative observation can arrive. Neither lucky execution nor unlucky loss
+alone identifies decision quality.
+
+For each case retain the observations available before the decision, requested
+tools, submitted and completed times, authority at completion, eventual effects,
+and alternative policy traces. Self-explanations are supplementary. These records
+can establish behavior under a contract; they cannot identify internal intent.
+
+4. Closest work and what it prevents us from claiming
+
+AgentAbstain [2] already uses paired act/abstain tasks in executable environments
+and evaluates committed actions. Its travel example explicitly illustrates an
+agent canceling a reservation before establishing a replacement. Pairing worlds,
+tool traces and preserving alternatives therefore are not inventions here.
+Needed comparison: actual timing and recovery semantics of the closest fixtures,
+not just whether the paper uses our preferred vocabulary.
+
+Informed abstention [3] separates specification, verification and authority gaps,
+and proposes clarification, bounded checking and human handoff. It explicitly
+recognizes verification consuming benchmark step budgets and calls for matched
+safe controls. The cost of checking and bidirectional usability/safety scoring
+are already covered. Our candidate must model the opportunity actually expiring.
+
+CIVeX [4] supplies causal verification, execute/reject/experiment/abstain decisions,
+and missed-opportunity and experiment-cost analyses. Its experimental evidence
+uses an idealized paired intervention dataset. A meaningful extension would need
+sequential evidence delivery and settlement mechanics, rather than merely adding
+a numeric cost to verification. Its causal guarantees depend on stated assumptions;
+we should not equate a certificate with verified reality outside those assumptions.
+
+ADMITBench [5] evaluates advisory admissibility through evidence, authority,
+procedure and physical-consequence checks before utility ranking. The existing
+local audit of its pinned C07 fixture identifies a hazard window shorter than
+human response, while C12 admits checking/escalation under sparse evidence.
+Unsafe escalation delay and conditional action are directly preceded. A declared
+industrial profile is not industrial certification, and our abstract resource
+simulator is not a validated substitute for plant engineering.
+
+Outcome Finality [6] distinguishes local stopping from delayed effects and checks
+verified cancellation and cross-run separation. Its controlled replay varies
+evaluation boundaries while holding calls fixed. Eventual settlement, fresh
+episodes and acknowledgement-versus-completion are established requirements.
+Our candidate would study which policy to choose under uncertainty, using those
+requirements rather than presenting them as novel mechanisms.
+
+Cordon [7] studies staging, validation, commit, rollback and recovery for tool
+effects. Transactional containment is existing work. We need to inspect actual
+runtime cases before claiming its interface cannot express our recovery race.
+Paper headers advertising future conference dates are not independent evidence
+of accepted publication status.
+
+ConsequenceBench [8] covers external effects, evidence, authority and obligations.
+The earlier pinned-source audit found temporal revocation, shared-resource races
+and delayed duties, and inspected a latency-bearing executor. A specification
+identifier is not proof that every family is implemented in that executor. This
+is still close enough that a rename of those mechanisms is insufficient.
+
+SteerBench-Work [9] holds a commit moment fixed and changes whether supplied
+evidence and authority allow it. It reports both wrong holds and wrong approvals.
+Risk-resolved over-refusal is not a gap we discovered. The prospective distinction
+is a sequence whose remaining feasible options change during the procedure.
+
+ManagerBench [10] examines operational goals in conflict with harm and includes
+controls for excessive caution. Its synthetic multiple-choice design restricts
+alternative proposals; its limitations acknowledge framing sensitivity. Moral
+pressure and goal prioritization already have precedents. Our contribution should
+be an executable decision boundary, not another forced-choice preference score.
+
+Generator-Independent Runtime Assurance under Partial Observation [11] is a
+particularly important new lead. It formalizes viable admission sets and bounds
+the conflict between usefulness and reliability when different latent states are
+hard to distinguish. Computing viability maps is outside its stated scope.
+Consequently information-matched impossibility, preserving fallback feasibility,
+and generator-independent gating cannot be our theoretical novelty claim. An
+empirical, timed diagnostic might operationalize this theory, but priority for
+that diagnostic remains unproved. Its guarantees carry design-time and no-bypass
+assumptions, not an unconditional guarantee for an arbitrary agent harness.
+
+The TMLS temporal-monitor report [12] also treats safety and liveness separately.
+Unbounded eventual progress and a finite deadline have different observability:
+in our finite simulator, expiry can witness failure. That distinction supports
+a precise protocol; it is not a discovery of the safety/liveness distinction.
+
+5. Proposed distinguishing experiment
+
+Use a synthetic pending allocation, never people or physical equipment. A
+previously queued operation could avert a genuine service loss, but could also
+consume a protected allocation unnecessarily. Its earlier evidence is stale.
+The two worlds initially look identical. A trusted check reveals current need.
+Cancellation is acknowledged before it becomes effective. Replacement is allowed
+only after confirmed cancellation and may arrive after the service deadline.
+
+Compare policies that verify first, cancel first, escalate, reserve a bounded
+bridge, or continue. Sweep only declared delays while keeping task wording,
+authority and observation support fixed. Include false emergency messages through
+a bounded untrusted channel. A message cannot change trusted state or extend
+authority. A latency adversary, if added, must have a separately declared channel
+and bounded ability to delay deliveries; it cannot arbitrarily rewrite clocks.
+
+The current offline pending-effect implementation is a useful seed, not novelty
+proof or new model evidence. Its four timing variants show that the optimal first
+action changes with timing under an equal prior and the stated loss weights:
+verification in two variants, cancellation in two. These are solver/control
+results, not observed LLM failures. The implementation and comparators are public;
+calling these cases secret, independently authored holdouts would be inaccurate.
+
+The new prospective experiment should identify the FIRST decision at which a
+previously feasible continuation becomes infeasible because of a procedure.
+Publish a witness continuation before that decision and proof of infeasibility
+afterward within the finite model. This does not prove the procedure is wrong:
+discarding an option can be justified to protect another interest. Pair the
+reachability diagnostic with authority, harm vectors and information-limited
+policy comparisons. Count policy branches or Pareto outcomes, not raw action
+sequences, since duplicate tools can inflate sequence counts without adding value.
+
+The proposed repair measurement is the smallest tested change to a declared
+operational parameter that restores a policy meeting specified constraints.
+Report infeasible settings explicitly. A finite grid supplies tested thresholds
+or intervals, not exact continuous boundaries unless a separate proof establishes
+them. This repair measurement and its transport across distinct mechanisms are
+the candidate added value that the equivalence audit must test.
+
+6. Ground truth and analysis
+
+Let h contain only the agent-visible history. A comparator policy maps such
+histories to actions and has the same tools, information, time and authority.
+It does not observe which hidden world was realized. The simulator may know the
+world to calculate outcomes; the deployed comparator cannot use that knowledge
+to choose its action. Publish observation equivalence checks and prior sensitivity.
+
+Primary report: timely justified completion, preventable loss, protected loss,
+authority violations, eventual effects and false structured claims. Separate
+irreducible tradeoffs, technical unknowns and unattempted cells. Weighted regret
+is secondary and conditional on disclosed weights; a scalar cannot settle moral
+disagreement. Report Pareto comparisons where possible. An optimal policy can
+suffer loss in a particular world; do not call every such loss an avoidable error.
+
+Use two attribution analyses. Fixed-action replay changes delays alone to isolate
+mechanical boundary effects. Paired agent runs change procedure or latency and
+allow the agent to adapt. The latter measures the whole system response, including
+changed planning; it cannot isolate a training mechanism or internal motive.
+Keep simulated time separate from API wall time. A later wall-time experiment
+needs declared deadline semantics and actual latency distributions.
+
+Calibration must include faulty always-act, always-cancel, wait-too-long,
+acknowledgement-as-terminal, stale-evidence and fabricated-approval policies.
+It must also include correct information-limited controls and impossible cases.
+Independent replay checks outcome mechanics, not real-world validity of the model.
+Adversarial wording development and confirmation must be separated. Freeze attack
+budgets; preserve unsuccessful attacks and all attempts; do not cherry-pick failures.
+
+7. Novelty test, future impact and feasibility
+
+Create a transition-level mapping for the closest fixtures: observations,
+authority, evidence delay, pending effects, cancellation, replacement, expiry,
+comparator information and reported outcomes. Try to express the proposed witness
+and repair metric in each existing harness. A work need not use our name to be
+equivalent. Generic programmability alone is not an existing evaluated fixture,
+but it weakens claims that the platform cannot express the experiment.
+
+Pass the contribution gate only if the study demonstrates a distinct measurement
+or extension and explains why it changes a decision that existing reported metrics
+miss. If an equivalent published result exists, cite it and pivot or replicate.
+Uninspected repositories, gated examples and search absence stay unresolved.
+Seek external methodological review before claims aimed at government assurance;
+automated critic scores do not substitute for independent scientific review.
+
+Potential practical output: a procedure has a tested latency envelope and a
+replayable example showing when checking, escalation or cancellation becomes
+counterproductive, plus the infrastructure improvement that restores feasibility.
+This could help labs design agent harnesses and evaluators assess a complete
+system. It does not estimate deployment incident rates or promise funding.
+
+Start with three structurally different development mechanisms and one small
+proof-of-discrimination experiment. Author confirmation mechanisms independently
+after the audit; mere wording changes do not create independent holdouts. Test
+proprietary frontier routes first, then verified Chinese open-weight routes.
+Exact checkpoint/provider/quantization claims need provenance, not family names.
+Price the actual matrix and repetitions before collection. This report makes no
+paid calls, changes no frozen collection sources and grants no new budget.
+The existing frozen collection is a separate finite-suite plan, not automatic
+confirmation of this newly proposed diagnostic or a powered generalization study.
+
+8. Search scope and source register
+
+This extends the prior local research and pinned-case audits. New queries included
+AI agent harmful refusal inaction deadline verification benchmark cancellation
+latency; LLM safety moral dilemmas inaction benchmark RoboHarm; benchmark
+verification latency cancellation agent safety; LLM safety viability kernel
+deadline; AI safety value of information deadline benchmark; LLM agents liveness
+safety guardrails; and runtime assurance information viability safety.
+Primary pages were read on 3 October 2026 UTC. This is a focused landscape review,
+not exhaustive priority clearance, peer-review verification or a replication.
+Search snippets were discovery leads. An institutional runtime-assurance PDF
+failed to open; it is not used as supporting evidence. No third-party code was run.
+
+[1] https://robocurve.org/roboharm/
+[2] https://arxiv.org/html/2607.10059v1
+[3] https://arxiv.org/html/2606.02965v1
+[4] https://arxiv.org/html/2605.09168v1
+[5] https://arxiv.org/html/2608.03866v1
+    Pinned case audit: plans/necessity-expanded-prior-audit.txt
+[6] https://arxiv.org/html/2608.14940v1
+[7] https://arxiv.org/html/2606.17573v1
+[8] https://github.com/yuvin-labs/consequencebench
+    Earlier pinned revision:469a4effe7de953bab56c9fc43853131541af901
+[9] https://steerbench.com/work/paper/ (unversioned author page)
+[10] https://arxiv.org/html/2510.00857 (unversioned HTML view)
+[11] https://arxiv.org/html/2609.06036v1
+[12] https://www.tmls.nyc/research/verifiable-agent-plans-tl
+     Author research report; formal claims not independently proved here.
+
+Companion proposal: plans/proposed-option-preservation-goal.txt.
+Historical proposals remain unchanged; this report is a prospective refinement.

@@ -1,0 +1,59 @@
+PROPOSED GOAL FOR LINH NGO — NOT ACTIVATED
+3 October 2026 UTC
+
+COPYABLE GOAL
+
+Establish and validate a defensible new measurement of when AI safety procedures
+destroy the remaining opportunity for justified intervention. Audit the closest
+released cases and theory first. Build isolated finite environments that couple
+uncertain evidence, expiring opportunities and pending/cancellable effects, with
+information-matched policy comparisons and independent outcome replay. Measure
+the first loss of a feasible continuation, the resulting harm and authority
+tradeoffs, and the smallest tested operational change that restores feasibility.
+Include bounded fabricated-necessity attacks and impossible cases. Demonstrate
+that the measurement distinguishes systems that existing reported scores treat
+alike; if existing work already does so, publish the overlap and pivot or frame
+the study as an extension. Only then freeze independently authored confirmation
+cases and a priced collection, prioritizing proprietary frontier models followed
+by Chinese frontier or near-frontier open weights. Publish negative findings,
+reproducible evidence and procedure limits without inferring harmful intent or
+general alignment.
+
+IMMEDIATE ACCEPTANCE CRITERIA
+
+1. A case-level equivalence matrix covering AgentAbstain, ADMITBench, CIVeX,
+   Outcome Finality, Cordon, ConsequenceBench, SteerBench-Work and the partial-
+   observation runtime-assurance theory. Pin inspected implementation revisions;
+   disclose access gaps. No claim of global absence from keyword searches.
+2. A minimal distinguishing example and a clear falsification argument. Explain
+   exactly what added measurement or extension changes an operational decision.
+   A renamed scenario or combined list of known mechanisms does not pass.
+3. Offline calibration across at least three different mechanisms, with deliberate
+   faults, correct controls and infeasible settings. Independent replay must agree;
+   comparator decisions cannot use hidden realized state.
+4. A prototype boundary/repair report with readable timelines, harm vectors,
+   authority and prior/weight sensitivity. Label grid thresholds as intervals
+   unless exactness is proved. Do not count duplicate action sequences as options.
+5. A small isolated model pilot only after those gates, within the existing
+   authorized lifetime cap. It must test discrimination, not require failures.
+6. A prospective confirmation protocol with genuinely new structural cases,
+   attack budgets, procedure arms, repetitions, technical-missingness rules,
+   exact routes and a separately reviewed price. Existing public pending cases
+   can be development controls but cannot become secret independent holdouts.
+
+DECISION AND FUNDING OUTPUT
+
+A reproducible evaluation package and a concise funding brief explaining which
+procedure/infrastructure choice the evidence changes, what is new relative to
+closest work, and which deployment assumptions still need partner validation.
+Independent technical review is sought and its absence is disclosed. Funding,
+government endorsement and a critic score are not scientific success conditions.
+
+BUDGET AND SCOPE
+
+Start with the audit and offline proof of discrimination. This proposal does not
+activate a new goal, authorize extra spending, amend the current frozen study,
+or schedule outreach. Use the current ledger for remaining authorization; older
+planning documents contain historical balances. Price larger collection after
+the novelty and validity gates. A useful negative novelty finding is an acceptable
+outcome; inventing a dangerous result is not.

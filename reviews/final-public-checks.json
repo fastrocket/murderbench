@@ -1,5 +1,5 @@
 {
-  "verified_utc": "2026-10-03T05:04:13.121278+00:00",
+  "verified_utc": "2026-10-03T05:13:30.832805+00:00",
   "page_count": 11,
   "checks": [
     {
@@ -85,6 +85,12 @@
       "status": 200,
       "local_bytes_match": true,
       "sha256": "11d2760eb655b37c078fa97285a302a6d18d47e15486a187c1c86f22c9932017"
+    },
+    {
+      "path": "/artifacts/necessity-google-diagnostic-findings.txt",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "a126e2cab50c78fc3db5d3af09c2bb6ba544d99623b8ecb6e8a010a6ac788c64"
     },
     {
       "path": "/artifacts/necessity-google-diagnostic-review.txt",
@@ -225,10 +231,28 @@
       "sha256": "8653ae8c4bce4d6c052bba175d4b3f18b08d982b325ebae66d49ac1a5668cd7c"
     },
     {
+      "path": "/artifacts/necessity-timing-boundary-findings.txt",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "f0ffa2e760819b3e12355ea68b3a1146650c9b16c9131c3a08875fe81721e1fc"
+    },
+    {
+      "path": "/artifacts/necessity-timing-boundary.json",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "d38c1a69f565b93253074a43b8a545d5156272ea0ee46457af5a3b72d780a8d2"
+    },
+    {
       "path": "/artifacts/novelty.txt",
       "status": 200,
       "local_bytes_match": true,
       "sha256": "547f9984b56d8cc4f097c9eb5a2219deca9d15d91e6547820c5e07393830e8df"
+    },
+    {
+      "path": "/artifacts/option-preservation-research.txt",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "af954833bf9beafe9923594b2ee38267f8a19965f8170c0ea7e4da1e30ba14ee"
     },
     {
       "path": "/artifacts/outreach-responses.json",
@@ -247,6 +271,12 @@
       "status": 200,
       "local_bytes_match": true,
       "sha256": "dab784bd4c17c6c32a5368aa8da3fe17f3793197d46f8da5d6e2ad43bb8a7ce9"
+    },
+    {
+      "path": "/artifacts/proposed-option-preservation-goal.txt",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "48be0b6e1dac7a6b733fe386cb006c8154d4af57fad3f887b82f43f9060533f5"
     },
     {
       "path": "/artifacts/provenance-bridge.json",
@@ -294,7 +324,7 @@
       "path": "/coverage.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "6634a1124e9371c7ce0e223c638c753cb4d43943a7b288bc26d4e39d04a4f8cb"
+      "sha256": "60c66c7f47eb7260d2e859178d0dc00c3862c3f2905260bcdf5f097c4451a6e1"
     },
     {
       "path": "/disclosure.html",
@@ -324,7 +354,7 @@
       "path": "/necessity.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "ac116b8c6a595ce525f2aa9e3fc7992973bfc5f4a6a5a7b7960ff6c97ad77470"
+      "sha256": "d6c5d7299bc8b2965ba077fc60b80cffccb022bb90cf36a30187cb3a2c76398d"
     },
     {
       "path": "/privacy.html",
@@ -336,7 +366,7 @@
       "path": "/program.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "b8f1adcc650f1b23f8fbf952cd7fe0b0c561cf9053cf641084ab9dfeb56d3c19"
+      "sha256": "a4ea5d9f45b70d06cf0c0b6a9ddaec44efa7b9fdbed16b159dfec69623353cda"
     },
     {
       "path": "/protocol.txt",
