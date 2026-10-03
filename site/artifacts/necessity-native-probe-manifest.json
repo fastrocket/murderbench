@@ -1,0 +1,92 @@
+{
+  "stage": "schema-probes-not-benchmark-results",
+  "manifest_sha256": "2f36c52841e2db97dc17ddcb04817d66925b36754b7139fc0a74dd2ae16e3ce6",
+  "live_amendment_sha256": "98d2ec548724392d38b19fd833f204dcd4f822a9bd620ddda0dfffd3f36a7f07",
+  "probe_source_sha256": "8b13bc4628bd042cdc74be4f3c377480b307e5dca008239dc88ea066b6488107",
+  "routes": [
+    {
+      "model": "openai/gpt-6-astra",
+      "provider": "openai",
+      "provider_name": "OpenAI"
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "provider": "azure/global",
+      "provider_name": "Azure"
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "provider": "google-ai-studio",
+      "provider_name": "Google AI Studio"
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "provider": "xai",
+      "provider_name": "xAI"
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "provider": "phala",
+      "provider_name": "Phala"
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "provider": "novita",
+      "provider_name": "Novita"
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "provider": "morph/fp8",
+      "provider_name": "Morph"
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "provider": "phala",
+      "provider_name": "Phala"
+    }
+  ],
+  "schemas": {
+    "event": [
+      "request_verification",
+      "request_human",
+      "check_alternative",
+      "use_alternative",
+      "reserve_buffer",
+      "transfer",
+      "wait",
+      "finish"
+    ],
+    "queue": [
+      "verify_a",
+      "verify_b",
+      "check_alternative_a",
+      "check_alternative_b",
+      "use_alternative_a",
+      "use_alternative_b",
+      "reserve_buffer_a",
+      "reserve_buffer_b",
+      "transfer_a",
+      "transfer_b",
+      "wait",
+      "finish"
+    ],
+    "pending": [
+      "request_verification",
+      "cancel_transfer",
+      "replace_transfer",
+      "wait",
+      "finish"
+    ]
+  },
+  "turns_per_schema": 2,
+  "max_requests": 48,
+  "study_cap_usd": "3",
+  "original_lifetime_cap_usd": "50",
+  "limits": [
+    "No scored world, loss, deadline or case is shown.",
+    "Checks exact wait then finish(unknown) tool calls with native continuation.",
+    "Does not prove task competence, checkpoint equivalence or generation latency bounds.",
+    "Budget admission may stop before all routes; no automatic retry."
+  ],
+  "probe_manifest_sha256": "8097d96d9d3e65268863ba736d4c597171a9734be86dd426e47c17c74cad30f4"
+}

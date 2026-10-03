@@ -1,0 +1,56 @@
+Native schema/continuation probes, 2026-10-03 UTC
+Engineering access findings; no scored benchmark scenarios were exposed
+
+Protocol frozen before requests: necessity-native-probe-manifest.json. Planned
+eight routes, three distinct tool schemas and two calls per schema, at most48
+requests. The checkpoint uses the event schema, so it is not counted as another
+distinct API schema. Tools are supplied with auto selection. The only requested
+sequence is wait({}), then finish({claim:unknown}) after a synthetic acknowledgement.
+No hidden world, benchmark deadline, loss or correct rescue policy is provided.
+Opaque native continuation fields are retained between the two turns.
+
+Observed access results
+OpenAI gpt-6-astra via openai passed event, queue and pending schemas and their
+continuations. Anthropic claude-opus-5.5 via azure/global passed the same checks.
+Twelve native receipts were independently reconstructed from private stored
+payloads/responses. They match the public call IDs, actions, usage and response
+hashes. This verifies these bounded interface sequences, not general tool
+competence, safety, task performance or cryptographic checkpoint identity.
+
+The first request to google/gemini-3.1-pro-preview via google-ai-studio raised
+HTTPError before a usable completion receipt was stored. The run stopped at that
+point. No scored simulator action occurred. HTTP status/body were not retained
+by this version's transport, so the cause cannot be attributed to parameter
+support, authorization, endpoint availability or model behavior from the saved
+evidence. Do not classify this as refusal, unsafe inaction or successful safety.
+The call remains transport_unknown with USD1 reserved. No automatic retry or
+release of that reservation occurred. The remaining five routes were not attempted.
+
+Accounting
+New reconciled probe costs: USD0.053548. New unresolved reservation: USD1.00.
+Combined newly accounted amount: USD1.053548. Lifetime accounted amount including
+all prior work and holds: USD38.8624160376; remaining original USD50 headroom:
+USD11.1375839624. Total necessity reconciled cost is USD0.4616485 and necessity
+unresolved holds USD2.00 (including the earlier interrupted pilot). These are
+ledger accounting figures, not a claim that every held amount was charged.
+The requested budget increase remains unanswered and is not authorized.
+
+Validation and next action
+All173 repository tests passed before requests. The running process is now terminal.
+Read-only reanalysis verified two routes and12 completed receipts. The failed
+schema's completion/billing remain unverified. A diagnostic or remaining-route
+probe requires a new preserved prospective identity; never replay the held call.
+Any new diagnostic must retain categorical HTTP metadata without exposing
+credentials or raw sensitive exception text. All eight native routes are not
+verified, so no full-collection readiness report can be issued.
+
+Evidence and reproduce without new requests
+reviews/necessity-native-probes.json
+reviews/necessity-native-probe-verification.json
+python -m benchmark.necessity_native_probes verify
+python -m unittest tests.test_necessity_native_probes
+
+Report these access limits alongside eventual benchmark results. The probe stop
+does not establish that Google cannot execute the full protocol. Hosted Chinese
+models remain unqueried by this probe; their public weight provenance is a
+separate source review rather than authenticated native execution evidence.

@@ -1,0 +1,445 @@
+{
+  "manifest_sha256": "2f36c52841e2db97dc17ddcb04817d66925b36754b7139fc0a74dd2ae16e3ce6",
+  "probe_manifest_sha256": "8097d96d9d3e65268863ba736d4c597171a9734be86dd426e47c17c74cad30f4",
+  "stage": "schema-probes-not-benchmark-results",
+  "routes": [
+    {
+      "model": "openai/gpt-6-astra",
+      "provider_tag": "openai",
+      "schemas": [
+        {
+          "schema": "event",
+          "status": "verified_native_schema_continuation",
+          "receipts": [
+            {
+              "call_id": "00b16859549d79ab0a99a27cd56df21afcd8adb37c033e4ba3a7bac9a009df11",
+              "model": "openai/gpt-6-astra",
+              "provider": "OpenAI",
+              "action": "wait",
+              "claim": null,
+              "usage": {
+                "prompt_tokens": 261,
+                "completion_tokens": 13,
+                "total_tokens": 274,
+                "cost": 0.00326,
+                "is_byok": false,
+                "prompt_tokens_details": {
+                  "cached_tokens": 0,
+                  "cache_write_tokens": 0,
+                  "audio_tokens": 0,
+                  "video_tokens": 0
+                },
+                "cost_details": {
+                  "upstream_inference_cost": 0.00326,
+                  "upstream_inference_prompt_cost": 0.00261,
+                  "upstream_inference_completions_cost": 0.00065
+                },
+                "completion_tokens_details": {
+                  "reasoning_tokens": 0,
+                  "image_tokens": 0,
+                  "audio_tokens": 0
+                }
+              },
+              "raw_response_sha256": "cbb7c0a1d140a78519d9c76b2dc9414162b638e644fbedbbef7d7ef684cb5832"
+            },
+            {
+              "call_id": "b7bcc204fa48bd5168158a0f51c32759b29ed81cfca061f542dc3b42f79c6240",
+              "model": "openai/gpt-6-astra",
+              "provider": "OpenAI",
+              "action": "finish",
+              "claim": "unknown",
+              "usage": {
+                "prompt_tokens": 297,
+                "completion_tokens": 17,
+                "total_tokens": 314,
+                "cost": 0.00382,
+                "is_byok": false,
+                "prompt_tokens_details": {
+                  "cached_tokens": 0,
+                  "cache_write_tokens": 0,
+                  "audio_tokens": 0,
+                  "video_tokens": 0
+                },
+                "cost_details": {
+                  "upstream_inference_cost": 0.00382,
+                  "upstream_inference_prompt_cost": 0.00297,
+                  "upstream_inference_completions_cost": 0.00085
+                },
+                "completion_tokens_details": {
+                  "reasoning_tokens": 0,
+                  "image_tokens": 0,
+                  "audio_tokens": 0
+                }
+              },
+              "raw_response_sha256": "1447610c8858255958648a893caec35b03b7de73da5e1cd90a1a933cd2057c07"
+            }
+          ]
+        },
+        {
+          "schema": "queue",
+          "status": "verified_native_schema_continuation",
+          "receipts": [
+            {
+              "call_id": "18ef0fda5ab55cfa2e7021d6fcea92e27409a730a3df14e0b9b4ef3663ebe0a0",
+              "model": "openai/gpt-6-astra",
+              "provider": "OpenAI",
+              "action": "wait",
+              "claim": null,
+              "usage": {
+                "prompt_tokens": 351,
+                "completion_tokens": 13,
+                "total_tokens": 364,
+                "cost": 0.00416,
+                "is_byok": false,
+                "prompt_tokens_details": {
+                  "cached_tokens": 0,
+                  "cache_write_tokens": 0,
+                  "audio_tokens": 0,
+                  "video_tokens": 0
+                },
+                "cost_details": {
+                  "upstream_inference_cost": 0.00416,
+                  "upstream_inference_prompt_cost": 0.00351,
+                  "upstream_inference_completions_cost": 0.00065
+                },
+                "completion_tokens_details": {
+                  "reasoning_tokens": 0,
+                  "image_tokens": 0,
+                  "audio_tokens": 0
+                }
+              },
+              "raw_response_sha256": "6da5ffc549c89542715592307d6fb8cc8c729a767815f90a2f4f97c6f4f5694c"
+            },
+            {
+              "call_id": "d1e18a1cc95821f9d4becf70502a99b0a7173d62bd117b89decdf9bdc9f92ec6",
+              "model": "openai/gpt-6-astra",
+              "provider": "OpenAI",
+              "action": "finish",
+              "claim": "unknown",
+              "usage": {
+                "prompt_tokens": 387,
+                "completion_tokens": 17,
+                "total_tokens": 404,
+                "cost": 0.00472,
+                "is_byok": false,
+                "prompt_tokens_details": {
+                  "cached_tokens": 0,
+                  "cache_write_tokens": 0,
+                  "audio_tokens": 0,
+                  "video_tokens": 0
+                },
+                "cost_details": {
+                  "upstream_inference_cost": 0.00472,
+                  "upstream_inference_prompt_cost": 0.00387,
+                  "upstream_inference_completions_cost": 0.00085
+                },
+                "completion_tokens_details": {
+                  "reasoning_tokens": 0,
+                  "image_tokens": 0,
+                  "audio_tokens": 0
+                }
+              },
+              "raw_response_sha256": "39d9a646abf6ab41d7ad637ca4f1819845cf1280ea4f660f62a2dea54bcebce0"
+            }
+          ]
+        },
+        {
+          "schema": "pending",
+          "status": "verified_native_schema_continuation",
+          "receipts": [
+            {
+              "call_id": "cda2c3d147a74868a82246fcd76f0cbb2c1bc6a61f8cb4cf727b7868af8374b5",
+              "model": "openai/gpt-6-astra",
+              "provider": "OpenAI",
+              "action": "wait",
+              "claim": null,
+              "usage": {
+                "prompt_tokens": 200,
+                "completion_tokens": 13,
+                "total_tokens": 213,
+                "cost": 0.00265,
+                "is_byok": false,
+                "prompt_tokens_details": {
+                  "cached_tokens": 0,
+                  "cache_write_tokens": 0,
+                  "audio_tokens": 0,
+                  "video_tokens": 0
+                },
+                "cost_details": {
+                  "upstream_inference_cost": 0.00265,
+                  "upstream_inference_prompt_cost": 0.002,
+                  "upstream_inference_completions_cost": 0.00065
+                },
+                "completion_tokens_details": {
+                  "reasoning_tokens": 0,
+                  "image_tokens": 0,
+                  "audio_tokens": 0
+                }
+              },
+              "raw_response_sha256": "dc897161b0ab79b4cb2f5ae2bc18a802404642b51e67b0687b90da04de98643f"
+            },
+            {
+              "call_id": "1febe26c8d808c7e53aced9f9aacd871f0272fb2bb7c961a2ef05af96a04df6a",
+              "model": "openai/gpt-6-astra",
+              "provider": "OpenAI",
+              "action": "finish",
+              "claim": "unknown",
+              "usage": {
+                "prompt_tokens": 236,
+                "completion_tokens": 17,
+                "total_tokens": 253,
+                "cost": 0.00321,
+                "is_byok": false,
+                "prompt_tokens_details": {
+                  "cached_tokens": 0,
+                  "cache_write_tokens": 0,
+                  "audio_tokens": 0,
+                  "video_tokens": 0
+                },
+                "cost_details": {
+                  "upstream_inference_cost": 0.00321,
+                  "upstream_inference_prompt_cost": 0.00236,
+                  "upstream_inference_completions_cost": 0.00085
+                },
+                "completion_tokens_details": {
+                  "reasoning_tokens": 0,
+                  "image_tokens": 0,
+                  "audio_tokens": 0
+                }
+              },
+              "raw_response_sha256": "79d9795822d30024db4d62ef27738d7d1bcff66d97ce92ea6e5021c4575d914f"
+            }
+          ]
+        }
+      ],
+      "status": "verified_native_interface"
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "provider_tag": "azure/global",
+      "schemas": [
+        {
+          "schema": "event",
+          "status": "verified_native_schema_continuation",
+          "receipts": [
+            {
+              "call_id": "f4f78d6a2b9518ec1d7af1bf2a55e5ae5cf36b553b982d7028840479c39d035c",
+              "model": "anthropic/claude-opus-5.5",
+              "provider": "Azure",
+              "action": "wait",
+              "claim": null,
+              "usage": {
+                "prompt_tokens": 1070,
+                "completion_tokens": 25,
+                "total_tokens": 1095,
+                "cost": 0.00478,
+                "is_byok": false,
+                "prompt_tokens_details": {
+                  "cached_tokens": 0,
+                  "cache_write_tokens": 0,
+                  "audio_tokens": 0,
+                  "video_tokens": 0
+                },
+                "cost_details": {
+                  "upstream_inference_cost": 0.00478,
+                  "upstream_inference_prompt_cost": 0.00428,
+                  "upstream_inference_completions_cost": 0.0005
+                },
+                "completion_tokens_details": {
+                  "reasoning_tokens": 0,
+                  "image_tokens": 0,
+                  "audio_tokens": 0
+                }
+              },
+              "raw_response_sha256": "f8512f82552711bf1cffb72f6ebabbb457a4d9c68d39bcf33e87bc346c0a1a03"
+            },
+            {
+              "call_id": "b076a34944d0fd3c7ecb3817abb07fec63ecaebc50887bc1d3ec7837cdbeb9d4",
+              "model": "anthropic/claude-opus-5.5",
+              "provider": "Azure",
+              "action": "finish",
+              "claim": "unknown",
+              "usage": {
+                "prompt_tokens": 1120,
+                "completion_tokens": 49,
+                "total_tokens": 1169,
+                "cost": 0.00546,
+                "is_byok": false,
+                "prompt_tokens_details": {
+                  "cached_tokens": 0,
+                  "cache_write_tokens": 0,
+                  "audio_tokens": 0,
+                  "video_tokens": 0
+                },
+                "cost_details": {
+                  "upstream_inference_cost": 0.00546,
+                  "upstream_inference_prompt_cost": 0.00448,
+                  "upstream_inference_completions_cost": 0.00098
+                },
+                "completion_tokens_details": {
+                  "reasoning_tokens": 0,
+                  "image_tokens": 0,
+                  "audio_tokens": 0
+                }
+              },
+              "raw_response_sha256": "39f5c3a034c33cecb65ee1b3618357a5cec8610a6b90dc9d144ac13b122f6ace"
+            }
+          ]
+        },
+        {
+          "schema": "queue",
+          "status": "verified_native_schema_continuation",
+          "receipts": [
+            {
+              "call_id": "a2b7cecbfb9811e8f2fb440eadcba0d73aaf673e33b0e55fff302c0e324b4953",
+              "model": "anthropic/claude-opus-5.5",
+              "provider": "Azure",
+              "action": "wait",
+              "claim": null,
+              "usage": {
+                "prompt_tokens": 1432,
+                "completion_tokens": 25,
+                "total_tokens": 1457,
+                "cost": 0.006228,
+                "is_byok": false,
+                "prompt_tokens_details": {
+                  "cached_tokens": 0,
+                  "cache_write_tokens": 0,
+                  "audio_tokens": 0,
+                  "video_tokens": 0
+                },
+                "cost_details": {
+                  "upstream_inference_cost": 0.006228,
+                  "upstream_inference_prompt_cost": 0.005728,
+                  "upstream_inference_completions_cost": 0.0005
+                },
+                "completion_tokens_details": {
+                  "reasoning_tokens": 0,
+                  "image_tokens": 0,
+                  "audio_tokens": 0
+                }
+              },
+              "raw_response_sha256": "abd7ce03d1b3fe0c2c5db3ade1041f0fb02dac6e2b7934c5e4fae8c82c00a53e"
+            },
+            {
+              "call_id": "3035dea7a1098cc39c9d588a91163ae17569570188918be6f76b9399ff3fe5a1",
+              "model": "anthropic/claude-opus-5.5",
+              "provider": "Azure",
+              "action": "finish",
+              "claim": "unknown",
+              "usage": {
+                "prompt_tokens": 1482,
+                "completion_tokens": 49,
+                "total_tokens": 1531,
+                "cost": 0.006908,
+                "is_byok": false,
+                "prompt_tokens_details": {
+                  "cached_tokens": 0,
+                  "cache_write_tokens": 0,
+                  "audio_tokens": 0,
+                  "video_tokens": 0
+                },
+                "cost_details": {
+                  "upstream_inference_cost": 0.006908,
+                  "upstream_inference_prompt_cost": 0.005928,
+                  "upstream_inference_completions_cost": 0.00098
+                },
+                "completion_tokens_details": {
+                  "reasoning_tokens": 0,
+                  "image_tokens": 0,
+                  "audio_tokens": 0
+                }
+              },
+              "raw_response_sha256": "f17e2e5593320c09ef9e613a41063bd028f7f8b2eee57aeb8064c9e848f20fa1"
+            }
+          ]
+        },
+        {
+          "schema": "pending",
+          "status": "verified_native_schema_continuation",
+          "receipts": [
+            {
+              "call_id": "c28ec32999aa1165266c1191b070274b4feab26ea15dfedfdf4adb9d48296e39",
+              "model": "anthropic/claude-opus-5.5",
+              "provider": "Azure",
+              "action": "wait",
+              "claim": null,
+              "usage": {
+                "prompt_tokens": 834,
+                "completion_tokens": 25,
+                "total_tokens": 859,
+                "cost": 0.003836,
+                "is_byok": false,
+                "prompt_tokens_details": {
+                  "cached_tokens": 0,
+                  "cache_write_tokens": 0,
+                  "audio_tokens": 0,
+                  "video_tokens": 0
+                },
+                "cost_details": {
+                  "upstream_inference_cost": 0.003836,
+                  "upstream_inference_prompt_cost": 0.003336,
+                  "upstream_inference_completions_cost": 0.0005
+                },
+                "completion_tokens_details": {
+                  "reasoning_tokens": 0,
+                  "image_tokens": 0,
+                  "audio_tokens": 0
+                }
+              },
+              "raw_response_sha256": "5df8af1fb14b4ffbd0671acd539b6f88515395e2d4f5ec771750368e24a0db7c"
+            },
+            {
+              "call_id": "bb4fd40f9de518e99a777d29860b7ba6be589d5d987381d68ecd6a2b1ba4c299",
+              "model": "anthropic/claude-opus-5.5",
+              "provider": "Azure",
+              "action": "finish",
+              "claim": "unknown",
+              "usage": {
+                "prompt_tokens": 884,
+                "completion_tokens": 49,
+                "total_tokens": 933,
+                "cost": 0.004516,
+                "is_byok": false,
+                "prompt_tokens_details": {
+                  "cached_tokens": 0,
+                  "cache_write_tokens": 0,
+                  "audio_tokens": 0,
+                  "video_tokens": 0
+                },
+                "cost_details": {
+                  "upstream_inference_cost": 0.004516,
+                  "upstream_inference_prompt_cost": 0.003536,
+                  "upstream_inference_completions_cost": 0.00098
+                },
+                "completion_tokens_details": {
+                  "reasoning_tokens": 0,
+                  "image_tokens": 0,
+                  "audio_tokens": 0
+                }
+              },
+              "raw_response_sha256": "2064dd0d4ba43767ecb782881ca4de75d91c84f13f764e2d42c8d48d993797fe"
+            }
+          ]
+        }
+      ],
+      "status": "verified_native_interface"
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "provider_tag": "google-ai-studio",
+      "schemas": [],
+      "status": "probe_stopped",
+      "exception_type": "HTTPError"
+    }
+  ],
+  "collection_state": "stopped",
+  "budget": {
+    "legacy_accounted_usd": "36.4007675376",
+    "necessity_accounted_usd": "2.4616485",
+    "necessity_unresolved_holds_usd": "2.00",
+    "necessity_reconciled_cost_usd": "0.4616485",
+    "lifetime_accounted_usd": "38.8624160376",
+    "remaining_accounted_usd": "11.1375839624"
+  }
+}

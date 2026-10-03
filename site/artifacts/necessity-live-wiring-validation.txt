@@ -1,0 +1,55 @@
+Live structural collection wiring, 2026-10-03 UTC
+Source frozen; actual native-interface route probes remain incomplete
+
+The entry point is benchmark/necessity_collection_live.py. Its prepare command
+creates a preserved source amendment binding the live entry point and credential
+loader to the existing matrix and collector amendments. The original sources,
+matrix and USD50 ledger cap remain unchanged. No generation occurs on prepare,
+import or analyze. An existing amendment cannot be overwritten by prepare.
+
+The collect command requires an explicit readiness report with matching parent,
+collector and live hashes, all eight native routes verified, prior-case review
+completed and hosted provenance limits disclosed. A native-probe report path is
+restricted to the reviews directory and its hash, route set and parent identity
+are checked. This is local evidence binding, not independent certification or
+cryptographic provider attestation. A final probe verifier must produce and verify
+the referenced native evidence before a readiness report is issued.
+
+The conditional full-matrix price must fit remaining accounted authorization.
+With USD12.1911319624 remaining and the conservative USD691.233931264 reference
+price, that gate currently fails. Merely setting readiness flags cannot override
+the budget gate or the shared ledger cap. No USD800 authorization has been inferred.
+Any approved budget change requires a prospective preserved accounting/source
+amendment; this entry point deliberately still enforces USD50.
+
+After readiness validation, collect loads the credential, sends to the fixed
+OpenRouter completion endpoint, and delegates admission, receipt retention and
+tool validation to the frozen shared collector. There are no automatic retries.
+An exclusive process-ID lock prevents overlapping runs of this entry point. A
+crashed process can leave a lock; inspect the actual process before removing it.
+Older collectors do not share this lock and must remain stopped during live use.
+
+Reports are written to same-directory temporary files, flushed and fsynced, then
+atomically replaced. Serialization failure preserves the last complete report.
+Structured progress is saved after each episode or stop. Reanalysis uses a read-only
+SQLite connection and regenerates outcomes from stored requests/responses. Existing
+reports from another study are preserved. A rerun uses identical call IDs, so held
+requests cannot be resent automatically. This does not prove cross-provider
+billing bounds; byte, price and reservation caveats remain in the preregistration.
+
+Five new offline tests cover amendment/cap tampering, preservation on failed save,
+exclusive lock/release, incomplete readiness, and a native-report flag failing to
+override remaining budget. Full repository suite:169 tests passed. No paid model
+call occurred. The saved live source amendment validates against current sources.
+
+Next actions
+Build and independently validate bounded native-interface probes using development
+fixtures, with their own source identity and original-budget admission. Complete
+the final concrete case-equivalence audit and issue evidence-backed readiness only
+after probes and authorization permit it. Full collection and model mitigation
+findings remain unfinished; offline simulation success is not a model result.
+
+Offline commands
+python -m unittest tests.test_necessity_collection_live
+python -m unittest discover -s tests
+python -c "from benchmark.necessity_collection_live import read_inputs,validate_live; validate_live(*read_inputs()); print('Live source amendment validated')"

@@ -1,0 +1,6 @@
+{
+  "verified_routes": 2,
+  "verified_native_receipts": 12,
+  "collection_state": "stopped",
+  "limits": "Only completed schema checks replayed; interrupted/failed schema receipts remain private and unverified."
+}
