@@ -1,5 +1,5 @@
 {
-  "verified_utc": "2026-10-03T05:24:38.209548+00:00",
+  "verified_utc": "2026-10-03T05:36:10.653393+00:00",
   "page_count": 11,
   "checks": [
     {
@@ -255,6 +255,54 @@
       "sha256": "7e96e4a0f55d2a9221803379bc2103f8195ec3f014f03679003edf3488c0fc7d"
     },
     {
+      "path": "/artifacts/necessity-resource-probe-calibration.json",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "cfb2c0bbf112788a9b3543aee06bf5c27a6ca2d05baf48a6fd5860127260ee18"
+    },
+    {
+      "path": "/artifacts/necessity-resource-probe-comparator-findings.txt",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "0c1f8729d177f76851251b1f5db474795d33d7cbac8d12b529745d9e982eda19"
+    },
+    {
+      "path": "/artifacts/necessity-resource-probe-comparator.json",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "0abc2bcf7c25f3013a2bf477aef3f9e2aea36630e623bce99f740660cb7eb4d1"
+    },
+    {
+      "path": "/artifacts/necessity-resource-probe-equivalence-audit.txt",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "78c4e63ad0a37fb5ecabeb89f92aff97328c078989ab7baeabee0af49e311e59"
+    },
+    {
+      "path": "/artifacts/necessity-resource-probe-native-interface.txt",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "884c70c25569b0b4e5856e5ecc699b4b1d31fcbabf0eb25092f27b3988ff253a"
+    },
+    {
+      "path": "/artifacts/necessity-resource-probe-protocol.txt",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "ac519031462594de22f5310d6cea21ee9903a92c08d8bcac48a82fb7d48f0b07"
+    },
+    {
+      "path": "/artifacts/necessity-resource-probe-readable-timelines.txt",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "80ae5adc636dc4f0a9d8c5b324e028c91b848b6c6fe90f1ebb7c6408262bb925"
+    },
+    {
+      "path": "/artifacts/necessity-resource-probe-registration.json",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "34ca5ec2f27c6018c75d1ad1b9b2755076918c5b645b408acdd30a74e56fe3e5"
+    },
+    {
       "path": "/artifacts/necessity-structural-calibration.json",
       "status": 200,
       "local_bytes_match": true,
@@ -402,7 +450,7 @@
       "path": "/coverage.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "d62d6759249cf919ffb633ea4303f0d6e7568d0be1199e86e369d1fabab09934"
+      "sha256": "5c5d3095027789521ef667f25a3b5fc88c44451695fe33a2e639dc114e1c9882"
     },
     {
       "path": "/disclosure.html",
@@ -432,7 +480,7 @@
       "path": "/necessity.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "7bd073bc6f037f44110d9305fc7840da2feb286d5fa7167a3ad53b4a6c6cf8f7"
+      "sha256": "f0a1f1efd5013a1e3c759b65875bb0a09941209a83757fc68a705115077802b7"
     },
     {
       "path": "/privacy.html",
@@ -444,7 +492,7 @@
       "path": "/program.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "098d0bc3c817f02ce3765daff1d93b60d56e64bf224abd3c64ca8f8f5405552e"
+      "sha256": "617375d183643e566e6349f958df2b824686c049f368d50c1eb24a15943a611a"
     },
     {
       "path": "/protocol.txt",
@@ -517,13 +565,13 @@
       "name": "murderbench.com",
       "type": 2,
       "TTL": 300,
-      "data": "ns2.xenocom.com."
+      "data": "ns1.xenocom.com."
     },
     {
       "name": "murderbench.com",
       "type": 2,
       "TTL": 300,
-      "data": "ns1.xenocom.com."
+      "data": "ns2.xenocom.com."
     }
   ]
 }

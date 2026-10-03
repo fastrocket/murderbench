@@ -1,0 +1,76 @@
+RESOURCE-CONSUMING PROBE: SCOPED EQUIVALENCE AUDIT
+3 October 2026 UTC. Paper-level comparison; implementation gaps remain explicit.
+
+Measurement object
+Given an agent-visible history and declared support worlds, determine whether
+one observation-dependent policy can complete genuine rescue without unsupported
+execution in every world. Locate the first transition that changes this from
+feasible to infeasible. Identify a tested repair without changing authority.
+This is a finite applied diagnostic of established viability ideas, not a theorem.
+
+CIVeX 2605.09168v1, sections 5.2, 5.5, 5.6 and 6.4
+Inputs: action frame, observational data and graph set, shared across methods.
+Experiment: when available, a second invocation receives a resolved graph and
+supplied paired randomized dataset. Scoring includes experiment cost, execution
+cost and missed opportunity. This precedes verification value/cost and causal
+action evaluation. The inspected protocol does not describe an experiment
+consuming the action's last reserve, successive delayed report delivery, or
+first-loss/repair measurement. A scalar experiment penalty cannot alone reproduce
+that state transition: it changes ranking but does not remove a future action.
+However, causal models and an extended executor could express resource depletion.
+The author's original Causal-ToolBench release has not been pinned and inspected
+here. The previously inspected open-ontologies Rust port is a proxy, not equivalent
+implementation evidence. No claim of corpus-wide absence or platform inability.
+https://arxiv.org/html/2605.09168v1
+
+The Verifier Tax 2603.19328v1, sections 3–5
+Inputs/environment: tau-bench transactional Airline/Retail tasks and procedural
+authentication, authorization and integrity rules. A rejected proposal prompts
+revision. Evaluation records safe/unsafe completion, recovery, interaction horizon
+and token overhead. This precedes claims about verification reducing completion.
+The paper's reported measurements do not identify a first loss of a feasible
+rescue policy or a reserve-versus-deadline repair comparison. A turn cap could
+produce an analogous time obstruction. That analogy must be acknowledged rather
+than declaring deadline harm new. No full task corpus or runtime release inspected
+in this follow-up; equivalent resource cases remain unresolved.
+https://arxiv.org/html/2603.19328v1
+
+Existing pinned-case audits
+ADMITBench C07 directly precedes unsafe human escalation delay. ConsequenceBench
+includes shared-resource races, authority and delayed obligations. AgentAbstain
+precedes destructive cancellation before establishing a replacement. Those audits
+are preserved in necessity-transition-equivalence-audit.txt and necessity-case-
+audit.txt. The new family cannot claim resource competition, harmful checking or
+preserving alternatives as first-ever concepts. Its bounded addition is the
+specific consuming-probe transition and the information-matched diagnostic.
+
+Minimal discrimination, already independently replayed locally
+Hold capacity=2 and probe delay=2 fixed. Starting at tick0, both deadline2 and
+deadline3 admit read_certificate then conditional rescue, with zero primary loss
+and zero authority breaches. After consume_probe at tick1, one reserve remains
+and the report has not arrived. Deadline3 admits wait, then conditional rescue.
+Deadline2 does not: waiting makes rescue late; anticipatory rescue breaches in
+the indistinguishable false-need world. The exact feasibility objective minimum
+is0.5 there under equal prior and declared weights; it is not universal moral loss.
+
+Hold deadline=3 and delay=2 fixed instead. Capacity1 becomes infeasible after the
+probe because reserve is exhausted. Capacity2 remains feasible. Extending time
+does not repair capacity1; adding reserve does. Neither example relaxes authority.
+Primary/authority outcome aggregates alone omit this causal obstruction unless
+paired with prefix comparisons and operational repairs. Existing metrics can
+be extended to report it; that is a contribution candidate, not proof of priority.
+
+Decision
+Proceed with an explicitly labeled applied extension and prospective confirmation
+preparation. Do not market confirmed novelty. A global absence proof is neither
+available nor required for preparing the experiment. Before any priority claim,
+pin and inspect the closest original verifier fixtures or state the access gap
+in the release. If they already evaluate this same diagnostic and repair, use
+replication/extension language and explain the remaining practical added value.
+
+Evidence and limits
+reviews/necessity-resource-probe-comparator.json contains 16 comparisons and32
+selected independent folds; the calibration artifact contains96 scripted folds.
+These are finite-model controls, not model results. Model difficulty, real-world
+validity, native compatibility and confirmation collection remain unverified.
+No source, registration or old manifest was changed by this audit.

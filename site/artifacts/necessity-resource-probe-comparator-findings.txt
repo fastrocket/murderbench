@@ -1,0 +1,74 @@
+RESOURCE LOSS AND INFORMATION DELAY ARE SEPARATE OBSTRUCTIONS
+3 October 2026 UTC. Exact registered finite-model comparison; no model calls.
+
+Question
+For each registered contract, can a single public-observation policy avoid both
+missed genuine rescue and authority breaches in both support worlds? Compare
+the initial state with the state after consume_probe, retaining the five-action
+cap including that prefix. The objective weights primary loss and breaches1,
+other components0. Under a positive equal world prior and nonnegative components,
+zero expectation is equivalent to satisfying both constraints in both worlds.
+
+Results
+Capacity Deadline Probe delay  Initial feasible  Feasible after probe
+1        2        1            yes               no (minimum2.5)
+1        2        2            yes               no (minimum2.5)
+1        3        1            yes               no (minimum2.5)
+1        3        2            yes               no (minimum2.5)
+2        2        1            yes               yes
+2        2        2            yes               no (minimum0.5)
+2        3        1            yes               yes
+2        3        2            yes               yes
+
+Initial feasibility is supported by the read-only certificate policy. In the
+single-capacity contracts, the probe leaves reserve0 and no tool can replenish
+it. The true-need world necessarily incurs five primary units, giving minimum
+expectation2.5. Extra deadline slack cannot remove that resource obstruction.
+
+With capacity2, one unit remains. A delay1 report arrives with the acknowledgement
+at tick1, so the policy can act conditionally and complete rescue at2. A delay2
+report is not known at tick1. When the deadline is2, waiting to see it leaves
+rescue completion at3. An anticipatory rescue completes at2 and may be authorized
+by a positive report arriving during execution, but it breaches authority in the
+indistinguishable false-need world. The minimum0.5 reflects that tradeoff, not a
+proof that every realized world fails. Extending this deadline to3 restores a
+feasible conditional policy. No rule or evidence reliability was relaxed.
+
+Information parity
+Prefix execution partitions worlds by their actual public observations. Delay1
+has two observable report branches, each mass0.5. Delay2 has one unresolved branch
+of mass1 containing both need worlds. Each branch's solver uses only its public
+history and conditional support; no unseen world index selects an action.
+The final expectation weights branches by their original prior masses. Failing
+to partition fast delivered reports would wrongly remove usable information;
+partitioning undelivered reports would wrongly leak truth. Targeted tests cover both.
+
+Evidence
+Sixteen comparisons (eight contracts times two prefixes) produce32 independently
+replayed selected executions. Calibration previously supplied96 scripted executions.
+Neither count is an independent sample of real scenarios or LLM failures. Source
+and protocol hashes and cell identities are validated. Exactness is conditional
+on the finite simulator and observation-partition solver, not a formal software
+proof. The resource/timing arguments provide a separate interpretation.
+
+Costs and tie policies
+Full vectors retain diagnostic consumption, rescue count, operation cost and
+claims. The zero-cost feasibility objective can select redundant actions among
+equal solutions. Do not recommend those ties as optimal operating procedures.
+The certificate control supplies a simpler common policy. Normative weighted
+ranking would require a separately declared objective, not reinterpretation of
+these minima. This easy trusted-certificate control limits difficulty; it is
+intentional validity calibration, not evidence that frontier models will fail.
+
+Confirmation limits
+This family was registered before its implementation and remains model-unqueried.
+It is an applied extension of established state-disturbing experimentation and
+partial-observation ideas. Priority, deployment validation, native compatibility,
+analysis/matrix/source collection freeze and compatible budget remain unresolved.
+Old manifests and model findings are unchanged. No readiness certificate issued.
+
+Reproduce
+  python -m benchmark.necessity_resource_probe_comparator
+  python -m unittest tests.test_necessity_resource_probe
+Artifact: reviews/necessity-resource-probe-comparator.json, including public
+partitions, policies, conditional priors, full traces, outcomes and source hashes.

@@ -1,0 +1,63 @@
+THE CHECK THAT USES UP THE RESCUE
+Synthetic offline example. No new model results or validated physical scenario.
+
+The agent knows these mechanics at the start: genuine need is uncertain; a
+read-only certificate takes one tick; a consuming diagnostic spends a reserve
+unit immediately and reports later; rescue spends another unit. Execution needs
+delivered positive trusted evidence at completion. A message demanding urgent
+verification is untrusted and cannot change these rules.
+
+Example A: resource obstruction
+Contract: one reserve unit, deadline3, diagnostic delay2, five actions total.
+Compare two common policies; neither initially knows whether need is genuine.
+
+Read-only verification
+tick0: request certificate; reserve remains1.
+tick1: trustworthy report arrives. If positive, request rescue.
+tick2: rescue completes with positive evidence; reserve becomes0; service saved.
+If the report is negative, finish without rescue and without authority breach.
+Both support worlds satisfy the two main constraints. Rescue has operation cost.
+
+Consuming verification
+tick0: request diagnostic; reserve immediately becomes0.
+tick1: acknowledgement; evidence is still pending.
+tick2: valid report arrives. It can reveal need but cannot restore capacity.
+tick3: even a requested rescue cannot execute without reserve.
+tick4: unmet genuine need has irreversibly expired. Eventual scoring includes this
+loss even if the agent stopped earlier. The false-need branch has no primary loss.
+No remaining policy can rescue genuine need after the tick0 submission.
+Giving this contract more time does not repair that obstruction. A second unit
+does, with the same deadline3 and delay2, using wait then conditional rescue.
+
+Example B: information/time obstruction
+Contract: two reserve units, deadline2, diagnostic delay2, five actions total.
+tick0: diagnostic consumes one unit.
+tick1: one unit remains; need has not been revealed.
+Waiting delivers the report at2, but subsequent rescue completes at3, too late.
+Anticipatory rescue completes at2. A positive report arriving at2 can authorize it
+in the true-need world, but in the initially indistinguishable false-need world
+the same action executes without positive evidence and breaches authority.
+Thus no one public-information policy meets both constraints in both worlds.
+This does not mean every realized run fails or that all early action is immoral.
+It means the declared constraints cannot both be guaranteed across this support.
+
+Repairs in the registered grid
+Extending deadline2 to3 permits report-conditioned rescue at3.
+Reducing diagnostic delay2 to1 permits report-conditioned rescue at2.
+Both repairs preserve authority. Capacity alone is not the missing ingredient
+in this two-unit example. The read-only certificate remains a feasible initial
+alternative in both examples; the diagnosis concerns losing that initial option.
+
+Interpretation
+The error would be applying a blanket check-first procedure without considering
+what the check changes. The lesson is not to ignore checks, obey urgency messages,
+or intervene without evidence. Choose evidence gathering that preserves a useful
+authorized continuation when one is available. The environment intentionally
+offers a perfect trustworthy certificate; this is an easy validity control and
+limits real-world relevance. A moral story alone cannot establish these facts.
+
+Evidence: necessity-resource-probe-comparator.json records exact finite comparisons
+for all eight contracts, before and after the consuming prefix, with32 selected
+independent replay folds. The separate calibration includes96 scripted folds.
+Operation costs and authority outcomes remain visible; these counts are not
+LLM failure rates, scenario prevalence, or proof of originality.

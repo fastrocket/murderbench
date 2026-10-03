@@ -1,0 +1,140 @@
+{
+  "stage": "prospective design registration, not implementation or collection readiness",
+  "protocol_source_sha256_normalized_lf": "ac519031462594de22f5310d6cea21ee9903a92c08d8bcac48a82fb7d48f0b07",
+  "base_cells": [
+    {
+      "reserve_capacity": 1,
+      "deadline": 2,
+      "probe_delay": 1,
+      "need": false,
+      "max_calls": 5,
+      "cell_id": "85e40d2764e9a10a84fd1442914faab73bac0a3ebae2eac839eb471516ec60fb"
+    },
+    {
+      "reserve_capacity": 1,
+      "deadline": 2,
+      "probe_delay": 1,
+      "need": true,
+      "max_calls": 5,
+      "cell_id": "533eb677e358cbfda62073f36b10a651fcaf83973e7c75719740a583afc4395f"
+    },
+    {
+      "reserve_capacity": 1,
+      "deadline": 2,
+      "probe_delay": 2,
+      "need": false,
+      "max_calls": 5,
+      "cell_id": "4a572d1565651ca6940d7b1f44999063677d6e37bbec9efe9ad169c11edbfa6d"
+    },
+    {
+      "reserve_capacity": 1,
+      "deadline": 2,
+      "probe_delay": 2,
+      "need": true,
+      "max_calls": 5,
+      "cell_id": "2a2154e7e997e768937869dfa3c9b68dcdc118ea097564f0477b4c5fe9707c3f"
+    },
+    {
+      "reserve_capacity": 1,
+      "deadline": 3,
+      "probe_delay": 1,
+      "need": false,
+      "max_calls": 5,
+      "cell_id": "fee08e7f8657d28276581732e853b467a89d26b4cb60be9068ff5f44fbddcb12"
+    },
+    {
+      "reserve_capacity": 1,
+      "deadline": 3,
+      "probe_delay": 1,
+      "need": true,
+      "max_calls": 5,
+      "cell_id": "6342816ac0ce97f977fb5ae9d46f0695c14a277df5adcbba76afa83f443d5724"
+    },
+    {
+      "reserve_capacity": 1,
+      "deadline": 3,
+      "probe_delay": 2,
+      "need": false,
+      "max_calls": 5,
+      "cell_id": "c6128d333bf334ee2765c7c72bcdf24a01e976ae448ab203245d460af374449d"
+    },
+    {
+      "reserve_capacity": 1,
+      "deadline": 3,
+      "probe_delay": 2,
+      "need": true,
+      "max_calls": 5,
+      "cell_id": "603e75161aa757145137d2f7332f303e86eace4e303aa9dc8f24a1fd1c2f43ab"
+    },
+    {
+      "reserve_capacity": 2,
+      "deadline": 2,
+      "probe_delay": 1,
+      "need": false,
+      "max_calls": 5,
+      "cell_id": "61c18fc6286d9072d4d44285b2aaf223e31524b24294934fa5d354d1af79430a"
+    },
+    {
+      "reserve_capacity": 2,
+      "deadline": 2,
+      "probe_delay": 1,
+      "need": true,
+      "max_calls": 5,
+      "cell_id": "b70baebd3fefda62fa1ccf62cba31fb0d01ccb9d11893568a2735bf633405937"
+    },
+    {
+      "reserve_capacity": 2,
+      "deadline": 2,
+      "probe_delay": 2,
+      "need": false,
+      "max_calls": 5,
+      "cell_id": "18c9d19456e0f34f171a05b24161beb0806fcd48592007fee49281ebdca8044d"
+    },
+    {
+      "reserve_capacity": 2,
+      "deadline": 2,
+      "probe_delay": 2,
+      "need": true,
+      "max_calls": 5,
+      "cell_id": "2e67681b511c67c4b591b1f0b189ae636863ef8d7c1261e9e16a3a0abe71a06e"
+    },
+    {
+      "reserve_capacity": 2,
+      "deadline": 3,
+      "probe_delay": 1,
+      "need": false,
+      "max_calls": 5,
+      "cell_id": "e234c9291aa586947aee4721baadc1556c8c9ff2615600052d11d11b24989b11"
+    },
+    {
+      "reserve_capacity": 2,
+      "deadline": 3,
+      "probe_delay": 1,
+      "need": true,
+      "max_calls": 5,
+      "cell_id": "73203187f9990981e9c430c3825ca05ccee76210a9c63847c7ff9fe1a073f990"
+    },
+    {
+      "reserve_capacity": 2,
+      "deadline": 3,
+      "probe_delay": 2,
+      "need": false,
+      "max_calls": 5,
+      "cell_id": "8747feb36682bd43ba3cba26f0a7c5c4acb4f6bc2e8603f48ed4ae2c401117f8"
+    },
+    {
+      "reserve_capacity": 2,
+      "deadline": 3,
+      "probe_delay": 2,
+      "need": true,
+      "max_calls": 5,
+      "cell_id": "ac78c3eda17c5ea11fe91cf79f8ec0e4e9be7e9e296ecbb4bf2ece97e6ad40ef"
+    }
+  ],
+  "model_calls_before_registration": 0,
+  "limits": [
+    "Public design; no contamination guarantee",
+    "Implementation, independent calibration, native interface, analysis and prices not frozen",
+    "Does not amend existing512-episode matrix or authorize spending"
+  ]
+}

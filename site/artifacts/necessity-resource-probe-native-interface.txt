@@ -1,0 +1,37 @@
+PROSPECTIVE RESOURCE-PROBE NATIVE INTERFACE
+3 October 2026 UTC. Offline implementation; no paid calls or readiness assertion.
+
+benchmark/necessity_resource_probe_native.py builds a canonical public packet
+from the simulator observation, complete mechanics and explicit operator-prefix
+count. It includes no hidden realized-world field or cell identity. Initial
+packets are equal across true/false need for every registered contract. The
+interface rejects any altered packet before reserving a request.
+
+Disclosed mechanics include consumption at submission, delayed reliable reports,
+reserve requirements, completion-time authority, deadline ordering, irreversible
+expiry, terminal settlement, absence of repair/replenishment, and outcome scoring.
+The certificate's synthetic perfect reliability remains explicit. The system
+instruction requests justified service protection, without supplying the correct
+sequence. No new procedure arm or attacker capability is introduced.
+
+The prospective adapter reuses the reviewed native payload controls and strict
+response decoder without editing their frozen sources. Exactly one legal native
+tool executes per response. Provider/model mismatches, malformed calls, empty
+completion and truncation are technical unknowns without scored outcomes.
+Normal nonempty text termination consumes a disclosed finish(unknown) tick;
+unstructured prose truth is not measured. Opaque reasoning metadata is preserved
+in subsequent messages. Completed outcomes must match the independent probe fold.
+
+The existing shared ledger reserves before transport, persists receipts before
+decoding, holds uncertain transport charges, and prevents automatic replay of a
+held call. Offline tests use temporary ledgers and injected synthetic responses.
+They make no provider requests and do not establish native provider compatibility.
+The seven previously passing routes have not been probed against this exact
+five-tool interface; Google native access remains unverified. No routing or price
+filter was changed, and no old source/collection freeze was amended.
+
+Checks: tests/test_necessity_resource_probe_native.py covers all eight initial
+contract pairs, valid conditional rescue with metadata continuity, unknown-versus-
+inaction separation, text-stop settlement, disclosure tampering, and hold/no-retry.
+The simulator's separate tests retain capacity/timing and observation partition
+checks. A source/analysis/matrix/price freeze is still required before collection.
