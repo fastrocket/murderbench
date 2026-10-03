@@ -1,0 +1,32 @@
+RESOURCE-PROBE COLLECTOR: PROSPECTIVE IMPLEMENTATION
+No live entry point, credentials, requests or spending authorization.
+
+The injected collector validates the parent matrix/source freeze, prefix-analysis
+amendment and its own source amendment before accessing transport or the ledger.
+It follows all384 frozen episode identities in route order, constructs the exact
+hashed public packet, and derives stable request identities from parent/amendment
+and episode. The reviewed shared ledger remains the budget authority.
+
+Checkpoints contain completed outcomes and first-loss diagnoses, technical unknowns
+without scored outcomes, or stopped partial traces without fabricated settlement.
+Unattempted episodes remain explicit. Every checkpoint is a deep copy; later
+mutation cannot alter earlier saved records. The caller must provide atomic durable
+saving for live execution; an in-memory callback is only an offline test facility.
+
+Uncertain transport holds its reservation and stops the run. Exported exception
+information contains only the exception class, never its potentially sensitive
+message. Request IDs and ledger states preserve billing/replay auditability.
+Already received receipts can be reused under identical identities; held requests
+cannot be resent by the native adapter. No retry policy or route fallback is added.
+
+This library requires caller-established live readiness and grants none itself.
+A live wrapper must validate exact-interface probe receipts, current price/budget,
+single-process collection and durable checkpoint storage before network access.
+A separate immutable-receipt reanalysis should verify public results before their
+release; a mutable report alone is insufficient evidence. These remain outstanding.
+
+Tests check fixed-prefix limits and diagnosis, initial/final checkpoint isolation,
+technical-stop missingness, transport hold persistence without private text leakage,
+and freeze tampering rejected before ledger access. All tests inject zero-cost
+synthetic responses in temporary databases. They do not count as model collection.
+The original512-episode study and every older freeze remain unchanged.
