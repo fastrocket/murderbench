@@ -1,0 +1,85 @@
+Chinese hosted model provenance review, 2026-10-03 UTC
+Public release evidence plus authenticated read-only credential check
+
+Scope
+Read official-organization Hugging Face repository metadata, LICENSE, config.json
+and README.md at pinned revisions. No weights were downloaded, remote model code
+executed, licenses accepted, or generation requests sent. Inventories retain the
+file URLs, byte counts and hashes. Repository metadata reports each as ungated.
+These are publicly released weight candidates, not proven bit-identical hosted
+checkpoints. Hosted inference configuration remains part of the tested system.
+
+DeepSeek V4 Pro0813
+Official repository deepseek-ai/DeepSeek-V4-Pro-0813, revision
+72e1d3230f6c080a530b0a1d46f8eb4602340597. The repository lists66 safetensors
+files and an MIT license. Its configuration specifies FP8. This is a separate
+release identity from the unsuffixed DeepSeek-V4-Pro preview; do not substitute
+that preview's revision. Frozen hosted route deepseek/deepseek-v4-pro-0813 via
+Phala advertises the0813 identity but lists quantization as unknown. No served
+weight hash or revision attestation has been obtained.
+https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813/tree/72e1d3230f6c080a530b0a1d46f8eb4602340597
+
+Qwen3.8 2.4T A95B
+Official repository Qwen/Qwen3.8-2.4T-A95B, revision
+207bd685a7e3696cfaff12ded7c6a7ea0f88c996. Metadata lists213 safetensors
+files. The license is the custom Qwen3.8-Max license, not Apache or MIT. It
+contains additional commercial-provider conditions; the exact pinned text is
+linked in the inventory rather than treated as an unrestricted open-source
+license. The model card distinguishes these released text-model artifacts from
+the official managed Qwen3.8-Max service. Frozen Novita route names the A95B
+release and reports quantization as unknown. Hosted checkpoint equivalence is
+unverified; do not attribute managed Max features to this text-only experiment.
+https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B/tree/207bd685a7e3696cfaff12ded7c6a7ea0f88c996
+
+Kimi K3
+Official repository moonshotai/Kimi-K3, revision
+f831ab66814297da540d832a5235f8e904f29d06. Metadata lists96 safetensors
+files and the custom Kimi K3 license. Its model card describes quantization-aware
+training with MXFP4 weights and MXFP8 activations. Frozen hosted route
+moonshotai/kimi-k3 via morph/fp8 explicitly reports FP8. That label does not
+establish which transformation or inference configuration the provider uses.
+Retain the existing route identity in the preregistration, but label eventual
+results as this hosted configuration, not an exact native-release reproduction.
+No bitwise equivalence or provider revision attestation has been obtained.
+https://huggingface.co/moonshotai/Kimi-K3/tree/f831ab66814297da540d832a5235f8e904f29d06
+
+GLM5.3
+Official repository zai-org/GLM-5.3, revision
+aca966e4e02791568aa6a4ced368624b3d897f42. Metadata lists141 safetensors
+files and a custom GLM-5.3 license, not the earlier GLM family's license by
+assumption. Its terms include a large-provider security-review condition. Read
+the exact pinned LICENSE for any separate hosting/distribution use; this review
+does not adjudicate a provider's compliance. Frozen z-ai/glm-5.3 via Phala
+advertises the release name and reports quantization as unknown. The served
+weight revision and inference transformations are unverified.
+https://huggingface.co/zai-org/GLM-5.3/tree/aca966e4e02791568aa6a4ced368624b3d897f42
+
+Authenticated read-only check
+An authenticated GET to OpenRouter's key-status endpoint returned HTTP200 with
+the expected data structure. The credential was not displayed or written into
+public artifacts. This establishes credential acceptance for that read endpoint,
+not generation access, provider availability, native tool support, actual cost or
+checkpoint identity. No billable model probe or full-collection approval follows.
+Actual native-interface authenticated routes remain0.
+
+Reporting consequence
+The Chinese group can be described as hosted inference routes associated with
+publicly released weight models. Avoid the stronger phrase exact open-weight
+checkpoint evaluation unless providers supply matching revision/weight evidence.
+Keep provider tag, model name, endpoint metadata, reported quantization, public
+release revision and response identity together in eventual reports. A route
+substitution, such as replacing Kimi's FP8 route, needs a prospective amendment
+and price review; no silent substitution is made here.
+
+Remaining
+Native generation probes must pass with the actual structural tool schemas and
+continuation handling, while retaining the original cap unless explicitly raised.
+Full collection additionally needs the live entry-point amendment, final concrete
+case-equivalence review and compatible spending authorization. Independent
+checkpoint attestation may remain unavailable; disclose that limitation rather
+than imply self-reported identity proves exact weights.
+
+Evidence files
+reviews/necessity-chinese-weight-provenance.json
+reviews/necessity-readonly-authentication.json
+plans/necessity-structural-route-plan.json (dated frozen public provider snapshot)

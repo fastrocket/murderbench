@@ -1,0 +1,11 @@
+{
+  "checked_utc": "2026-10-03T04:53:27.205338+00:00",
+  "key_endpoint_http_status": 200,
+  "credential_accepted": true,
+  "scope": "Authenticated read-only key status; no generation request or native-interface execution",
+  "new_model_calls": 0,
+  "new_paid_cost_usd": 0,
+  "actual_model_generation_access_verified": false,
+  "authenticated_native_routes_verified": 0,
+  "returned_checkpoint_identity_verified": false
+}

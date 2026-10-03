@@ -1,0 +1,21 @@
+{
+  "stage": "Chinese public weight provenance and read-only credential acceptance verified",
+  "previous_goal_turn": "progress: receipt collector and reanalysis implemented and frozen by amendment",
+  "public_weight_repositories_inspected": 4,
+  "hosted_checkpoint_hashes_verified": 0,
+  "authenticated_native_interface_routes": 0,
+  "readonly_credential_accepted": true,
+  "kimi_quantization_equivalence": "official card MXFP4 weights/MXFP8 activations; selected route advertises FP8; equivalence unverified",
+  "new_paid_model_calls": 0,
+  "additional_budget_approved_usd": "0",
+  "matrix_and_collector_amendment_validated": true,
+  "full_collection_ready": false,
+  "goal_complete": false,
+  "remaining": [
+    "native generation probes",
+    "live entry-point amendment",
+    "final concrete case-equivalence review",
+    "compatible spending authorization",
+    "collection and findings"
+  ]
+}
