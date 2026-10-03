@@ -1,0 +1,22 @@
+{
+  "study_id": "ad01314eeb0d8225cf3f74140a878445ffa614b1a10eb0ab6a4b51c87556811a",
+  "status": "stopped",
+  "schemas": [],
+  "budget": {
+    "legacy_accounted_usd": "36.4007675376",
+    "necessity_accounted_usd": "3.506789136",
+    "necessity_unresolved_holds_usd": "3.00",
+    "necessity_reconciled_cost_usd": "0.506789136",
+    "lifetime_accounted_usd": "39.9075566736",
+    "remaining_accounted_usd": "10.0924433264"
+  },
+  "failed_schema": "event",
+  "exception_type": "HTTPError",
+  "http_status": 404,
+  "error_indicators": {
+    "empty_object_schema": false,
+    "routing_no_endpoint": true,
+    "reasoning_parameter": false,
+    "data_policy": false
+  }
+}

@@ -1,0 +1,38 @@
+Prospective Google schema diagnostic, 2026-10-03 UTC
+
+Changed only the declaration of argument-free tools: omit their parameters field.
+Strict local empty-argument validation and all routing/privacy/reasoning/price
+controls remained intact. The new source and request identity were committed before
+the request; the original held request was not replayed. No scored world was shown.
+
+The first event-schema request returned HTTP404. An allowlisted indicator matched
+the phrase no endpoints in the API error. No empty-object, reasoning or data-policy
+indicator matched. The run stopped before any usable completion receipt or tool
+action. This supports routing/parameter eligibility failure in the diagnostic
+configuration, not a refusal or dangerous model behavior. It neither confirms
+which routing filter excluded the endpoint nor proves the original error's cause.
+Raw error text and credentials were not exported. No further request was made.
+
+Changing the parameterless schema did not by itself produce an eligible route.
+Before another paid diagnostic, inspect the complete provider filters, including
+only, require_parameters, data_collection and every max_price component against
+the endpoint metadata. In particular, the frozen text-only payload sets image
+max_price to0 while Google's public endpoint advertises a positive image rate.
+Whether this excludes a text request is a hypothesis requiring documentation or
+a prospective controlled check, not an established cause. Do not relax privacy
+or silently change the final frozen protocol to obtain a pass.
+
+One new USD1 reservation remains unresolved. Reconciled necessity cost is unchanged
+at USD0.506789136. Necessity holds total USD3.00. Lifetime accounted amount is
+USD39.9075566736; remaining original authorization USD10.0924433264. HTTP404 does
+not establish zero billing. No reservation was released or request retried.
+
+Google remains unverified; seven other routes passed their unchanged interface
+checks. Full collection remains gated by native access, concrete prior-case
+equivalence review and compatible spending authorization. The budget increase
+question remains unanswered and grants no additional funds.
+
+Evidence
+plans/necessity-google-diagnostic-manifest.json
+reviews/necessity-google-diagnostic.json
+This is an access diagnostic, not additional safety or task-performance data.
