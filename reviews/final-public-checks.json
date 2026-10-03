@@ -1,5 +1,5 @@
 {
-  "verified_utc": "2026-10-03T05:13:30.832805+00:00",
+  "verified_utc": "2026-10-03T05:18:03.250337+00:00",
   "page_count": 11,
   "checks": [
     {
@@ -69,6 +69,12 @@
       "sha256": "c44c9e36f70611f594c465933c45036e29173477b793b543eec91a4598fa5a12"
     },
     {
+      "path": "/artifacts/necessity-contribution-decision.txt",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "55682559e274067ac5ff4d1e3f4d8fbd7ae952a0d169085315c862d77e49789c"
+    },
+    {
       "path": "/artifacts/necessity-expanded-prior-audit.txt",
       "status": 200,
       "local_bytes_match": true,
@@ -97,6 +103,18 @@
       "status": 200,
       "local_bytes_match": true,
       "sha256": "4b6f15a4d95fadec7840e185dad5a618be8f20805bba22bc3aa4b3a0bd31ba0a"
+    },
+    {
+      "path": "/artifacts/necessity-google-text-diagnostic-findings.txt",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "3f1fd1e2b0ae4472dec6a69e9b1eb47384279e6504f9803fc757bb5916098b2b"
+    },
+    {
+      "path": "/artifacts/necessity-google-text-receipt-audit.json",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "633c10710b6d9b9dcac05a332260b0112d528a2ab1a8a1409a13f3ad15f90f3e"
     },
     {
       "path": "/artifacts/necessity-model-provenance.txt",
@@ -151,6 +169,18 @@
       "status": 200,
       "local_bytes_match": true,
       "sha256": "bbfd27a1d6d17977247d0cc96743ee9927989081f158a2559d980877b91d9bb2"
+    },
+    {
+      "path": "/artifacts/necessity-option-witness-findings.txt",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "5d5ab8192a57487aac8e3be8228c4831e503c26a12e9cf3814f4dc78ece2edf8"
+    },
+    {
+      "path": "/artifacts/necessity-option-witness.json",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "ca40b51768a687e830947c6b6c2afe02809d21fc8fc940bf565e4c0d2b6d94b1"
     },
     {
       "path": "/artifacts/necessity-pending-calibration.json",
@@ -243,6 +273,12 @@
       "sha256": "d38c1a69f565b93253074a43b8a545d5156272ea0ee46457af5a3b72d780a8d2"
     },
     {
+      "path": "/artifacts/necessity-transition-equivalence-audit.txt",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "fb2cb5431ff887dd0c93b7dd38631fd34a3ad5f551c7c0fe5c6df57605706705"
+    },
+    {
       "path": "/artifacts/novelty.txt",
       "status": 200,
       "local_bytes_match": true,
@@ -324,7 +360,7 @@
       "path": "/coverage.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "60c66c7f47eb7260d2e859178d0dc00c3862c3f2905260bcdf5f097c4451a6e1"
+      "sha256": "b5912d9e6a9ca679cc99b69fdd2a160981ca7303bf3c430d9a798e828de429cf"
     },
     {
       "path": "/disclosure.html",
@@ -354,7 +390,7 @@
       "path": "/necessity.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "d6c5d7299bc8b2965ba077fc60b80cffccb022bb90cf36a30187cb3a2c76398d"
+      "sha256": "6d54ce51b352e280694ca6c0ab706dfb21c18a05e4385c4fcfc33db063198b65"
     },
     {
       "path": "/privacy.html",
@@ -366,7 +402,7 @@
       "path": "/program.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "a4ea5d9f45b70d06cf0c0b6a9ddaec44efa7b9fdbed16b159dfec69623353cda"
+      "sha256": "51ed4fec478fa14ccdcd6ff8ac42e7359bee6bd10c148489cf807808faba5aa3"
     },
     {
       "path": "/protocol.txt",
@@ -439,13 +475,13 @@
       "name": "murderbench.com",
       "type": 2,
       "TTL": 300,
-      "data": "ns1.xenocom.com."
+      "data": "ns2.xenocom.com."
     },
     {
       "name": "murderbench.com",
       "type": 2,
       "TTL": 300,
-      "data": "ns2.xenocom.com."
+      "data": "ns1.xenocom.com."
     }
   ]
 }

@@ -1,0 +1,80 @@
+TRANSITION-LEVEL EQUIVALENCE AUDIT: TWO CLOSE IMPLEMENTATIONS
+3 October 2026 UTC. Partial audit; does not clear the full novelty gate.
+
+Question
+Can a released fixture distinguish the paired pending-operation case in which
+current verification takes time, cancellation becomes effective after its
+acknowledgement, replacement can miss a rescue deadline, and stopping leaves
+background commitment active? Compare transitions and endpoints, not labels.
+
+Local reference
+benchmark/necessity_pending.py implements submission before tick advancement,
+delivery before physical events, configurable cancellation/commit tie order,
+irreversible expiry, delayed replacement, and settlement after stopping.
+reviews/necessity-timing-boundary.json records48 verified fixed-policy traces.
+These are public development controls. They do not establish a new metric,
+an all-policy feasibility frontier or independently authored confirmation cases.
+
+ADMITBench
+Pinned revision8b859de77334872efc3fab1c5a764b43d941f210. Re-fetched selected
+physics and procedure files; byte hashes match the earlier inventory.
+CSTR C07 accepts protective action and rejects escalation when human response
+exceeds its hazard window. C12 accepts escalation or verification under sparse
+evidence. The physics implementation projects consequences of an advisory action.
+This directly precedes harmful procedural delay. These two fixtures do not supply
+our paired pending-cancellation timeline; that observation is bounded to them,
+not a claim that the full framework cannot implement it. Our timely-intervention
+family should be presented as an extension/control, not a first demonstration.
+Evidence: reviews/necessity-prior-art/admit-bench-inventory.json, C07/C12 records,
+physics.py World.project lines114-148 and recovery lines150-173.
+
+ConsequenceBench
+Pinned revision469a4effe7de953bab56c9fc43853131541af901. Re-fetched selected
+pressure_episode.py and control_planes.py; byte hashes match the inventory.
+The pressure executor advances the clock per tool, materializes dynamic records,
+and stores proposed effects, readbacks and compensation state. Evaluation combines
+required inspection, evidence binding, disposition and obligations. In the inspected
+perform/evaluate methods, no pending-cancel queue or expiring rescue is advanced;
+compensation sets a flag. The proposed cancellation witness requires additional
+transitions there, rather than different wording. The specification layer separately
+names races and delayed duties; do not generalize this executor finding to all
+released families. It already measures wrong blocking and unsafe effects.
+Evidence: reviews/necessity-prior-art/consequencebench-inventory.json,
+pressure_episode.py agent_view838-895, perform897-976, evaluate978-1028,
+reference_execute1030-1070. No external code executed.
+
+Case mapping
+Feature                         ADMIT C07/C12          Pressure executor
+Consequential time              Hazard window          Clock/dynamic evidence
+Evidence-dependent permission   Yes                    Yes
+Harmful non-action              C07 unsafe escalation  False blocking
+Pending delayed cancellation    Not in these fixtures  Not in inspected methods
+Replacement after cancellation  Not in these fixtures  Not in inspected methods
+Post-stop physical settlement   Not established here   Not in inspected methods
+Information-matched optimum     Not established here   Reference uses oracle IDs
+Repair-boundary metric          Not established here   Not established here
+
+Not established means no verified evidence in this bounded inspection; it is not
+a negative corpus-wide finding. Oracle reference execution may validly calibrate
+an evaluator, but is not automatically a deployable observation-limited policy.
+
+Decision
+These selected implementations do not invalidate the specific pending-race
+fixture, but do invalidate broad novelty claims about time, evidence or harmful
+inaction. A mechanism difference alone does not establish a research contribution.
+The stronger claim still needs a working option-preservation/repair diagnostic
+and comparison against Cordon, Outcome Finality, AgentAbstain and the partial-
+observation assurance theory. A programmable framework may support an extension
+without having reported the same experiment. Separate representability from
+published fixture and measured result. Independent review remains unsecured.
+
+Access and reproducibility
+Primary files were fetched by their exact URLs in the existing inventories and
+checked with SHA256 before reading selected ranges. A browser request initially
+used an incorrect pressure path and returned404; the inventory's correct pinned
+URL succeeded. No404 was treated as absence of implementation. A GitHub browser
+tree view was restricted; direct pinned public files succeeded. No author was
+contacted and no access terms were accepted.
+
+This audit changes no frozen simulator, collector, analysis or manifest. Full
+collection remains conditional on remaining contribution, access and budget gates.

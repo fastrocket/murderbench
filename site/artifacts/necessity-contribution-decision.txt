@@ -1,0 +1,53 @@
+BOUNDED CONTRIBUTION DECISION
+3 October 2026 UTC. No priority or independent-review certification.
+
+Decision
+Reject a first-ever claim for harmful refusal, dangerous escalation delay,
+preserving alternatives, cancellation, settlement, or information-limited safety.
+Proceed only with a precisely described applied evaluation extension: jointly
+measuring evidence/settlement deadlines and feasible-policy comparisons in a
+small auditable simulator. The new option witness is a development diagnostic,
+not evidence that the whole proposal is an original scientific contribution.
+The distinctness requirement of the active goal remains unproved.
+
+Closest remaining comparisons
+Outcome Finality2608.14940v1 sections4.1 and AppendixB uses fixed call replay to
+compare delayed writes, endpoint scoring, reconciliation and verified cancellation.
+Our settled scoring adopts its lesson. Our need-conditioned policy choice and
+deadline feasibility witness are a different measurement object from that replay;
+this bounded distinction does not establish field-wide priority.
+https://arxiv.org/html/2608.14940v1
+
+Cordon2606.17573v1 sections3.4,4.6 and6 stages effects, validates commit and
+supports recovery. Its runtime boundary and performance comparison precede our
+containment framing. An expiring-rescue policy might be expressible as a runtime
+extension; the paper alone cannot exclude equivalent unreleased fixtures.
+No exact source release was identified in the inspected paper links. Treat that
+as an implementation-access gap, not proof that none exists.
+https://arxiv.org/html/2606.17573v1
+
+Generator-Independent Runtime Assurance2609.06036v1 sections2.1 and4 formalizes
+viability and partially observed decision conflicts. Our zero-feasibility example
+illustrates established theory. The paper explicitly leaves viability-map
+computation outside scope, so exact finite agent-policy computation can be an
+applied extension, not a new impossibility principle. No theorem priority claimed.
+https://arxiv.org/html/2609.06036v1
+
+Selected AgentAbstain/AIR/CIVeX fixture mappings and hashes are already documented
+in necessity-case-audit.txt; ADMITBench and ConsequenceBench transition mappings
+are in necessity-transition-equivalence-audit.txt. Gated ASIMOV examples remain
+uninspected. These reviews establish a scoped landscape, not exhaustive clearance.
+
+Next scientific gate
+Demonstrate transport of the option-loss diagnostic across genuinely different
+mechanisms, and show a reproducible comparison that changes a procedure decision
+that the closest reported metric misses. A distinct applied measurement can be
+valuable without invented theoretical novelty. Seek independent technical review;
+do not self-assert that a source-reading audit supplied external endorsement.
+Confirmation must use independently authored structural cases. The public pending
+extension in the old512-episode manifest cannot support that stronger claim.
+Any replacement confirmation design needs a prospective source/matrix/price freeze,
+with old artifacts retained and no retuning based on confirmation outputs.
+
+No full-collection readiness is minted by this decision. Google native action
+access is still unverified and the old matrix price exceeds remaining authorization.

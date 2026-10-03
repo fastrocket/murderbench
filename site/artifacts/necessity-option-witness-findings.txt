@@ -1,0 +1,62 @@
+WHERE A FEASIBLE OPTION DISAPPEARS
+3 October 2026 UTC. Exact finite-model development evidence; no model calls.
+
+Constraint tested
+Find ONE observation-dependent policy which, in BOTH possible need worlds,
+avoids primary loss and authority breaches. The policy may use a protected
+allocation for a justified rescue. It must have the agent's tools and public
+observations, never the realized world index. This is a declared feasibility
+question, not a universal ethical preference or zero-cost requirement.
+
+Results for the default pending-effect contract
+Initial checkpoint tick2: feasible. First action is current verification.
+After one initial wait to tick3: infeasible for the remaining seven actions.
+After initial cancellation to tick3: infeasible for the remaining seven actions.
+The cap is eight total actions INCLUDING the prefix, not eight extra afterward.
+
+The exact solver assigns weights1 to primary loss and authority breach,0 to other
+fields, with positive equal world probabilities. Since both scored components
+are nonnegative, zero expectation is equivalent to both being zero in each world.
+The minima are0,0.5 and2.5 respectively. Positive values establish infeasibility
+within this finite model, not a failure in every realized world. These numbers
+are constraint diagnostics, not replacements for the previously frozen loss score.
+All six selected policy executions match independent physics replay.
+
+Readable witness and independent argument
+At tick2 request verification. The current result arrives at tick3. If need is
+true, retain the operation: current authority supports its tick5 rescue. If need
+is false, cancel at tick3: effective cancellation at tick5 wins the tie. This one
+policy meets both constraints without hidden information.
+
+After waiting until tick3, current need is still unknown. To avoid an unsupported
+commitment in the false-need world, cancellation must be submitted by tick3.
+But submitting it in both worlds cancels the necessary operation in the true-need
+world at tick5, and replacement cannot arrive before expiry. Conversely checking
+at tick3 reveals need at tick4; then a negative branch's cancellation becomes
+effective at tick6, after the unsupported tick5 commitment. Waiting, stopping or
+replacement requests cannot recover a missed cancellation window. Replacement
+is accepted only once cancellation is confirmed. There is no third tool that
+holds the pending commitment. The initial wait therefore removes feasibility.
+
+Initial cancellation has the same irrecoverable replacement timing in the needed
+world. Its acknowledgement at tick3 is not effective cancellation, and the contract
+has no cancel-withdrawal tool. Checking afterward cannot restore the original
+operation. These tool and tie-order assumptions are essential, not incidental.
+
+Limits and repair
+This strengthens the earlier fixed-policy sweep by considering all allowed
+observation policies within the finite horizon. Exactness depends on simulator
+and information-partition solver correctness. Independent replay validates the
+selected executions, while the timing argument above separately explains why
+the rejected prefixes cannot satisfy the constraint. It is not a formally
+verified implementation or a continuous-time theorem.
+Faster cancellation or extra joint commit/deadline slack gives tested repairs
+for selected controls in necessity-timing-boundary-findings.txt. Those controls
+are NOT exact all-policy repair minima; do not merge their claims with this proof.
+The public family has already been inspected and is not an independent holdout.
+
+Reproduce
+  python -m benchmark.necessity_option_witness
+Output: reviews/necessity-option-witness.json, including source hashes, public-
+history policy trees, prefix traces, declared objective and verified outcomes.
+The original simulator, comparator, frozen collection and old scores are unchanged.
