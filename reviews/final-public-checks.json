@@ -1,5 +1,5 @@
 {
-  "verified_utc": "2026-10-03T04:10:03.170703+00:00",
+  "verified_utc": "2026-10-03T04:28:54.530665+00:00",
   "page_count": 11,
   "checks": [
     {
@@ -63,6 +63,12 @@
       "sha256": "2b4fddd76506e5ffd8c83057341837dd58049bc7452c746e0434ead8603dd20c"
     },
     {
+      "path": "/artifacts/necessity-comparison-and-collection-gates.txt",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "c44c9e36f70611f594c465933c45036e29173477b793b543eec91a4598fa5a12"
+    },
+    {
       "path": "/artifacts/necessity-native-development-analysis.json",
       "status": 200,
       "local_bytes_match": true,
@@ -93,10 +99,28 @@
       "sha256": "68ee091d9f6b60f9e15a32ea45c581e4a0c72069632e090f5dc83b66ff204ad7"
     },
     {
+      "path": "/artifacts/necessity-queue-bounds.json",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "ee1098a0ccc8c4092ab7defd096245841a876d1cf1ab47b8f3d02a3e6369347d"
+    },
+    {
+      "path": "/artifacts/necessity-queue-sensitivity.json",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "046ff057d51931ee36b7a10ad0bcef654640cf6aa06db97e8fda4245d6bd4eed"
+    },
+    {
       "path": "/artifacts/necessity-structural-calibration.json",
       "status": 200,
       "local_bytes_match": true,
       "sha256": "7b6cbf9275e829051a42b3876e983e4868af17c7fb46311eabddb485dfd6a3c4"
+    },
+    {
+      "path": "/artifacts/necessity-structural-route-plan.json",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "46a0ca2e5c23e4b32bfa802039d90df5476aa3641a0acbe8b1ddee269af02cfc"
     },
     {
       "path": "/artifacts/necessity-structural-scenarios.txt",
@@ -174,7 +198,7 @@
       "path": "/coverage.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "75b056604d7e5d53bedb746d61f9ef990c731d23a03ed2308d760f2be7f92814"
+      "sha256": "3d3ee6dd5d5eeb52aaee6a44fa5f77612a2d7dc2c3d2df99ed6493d46bdcd4e3"
     },
     {
       "path": "/disclosure.html",
@@ -204,7 +228,7 @@
       "path": "/necessity.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "87f9b60aa830d95bf3c76599207bd5b33543172637786c35b08ebbd4e2baf585"
+      "sha256": "c371c3dcca84d486fa8c15827f3e4a3dfae2711b6acbca478a3edd847a0991fe"
     },
     {
       "path": "/privacy.html",
@@ -216,7 +240,7 @@
       "path": "/program.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "1bd41ce0473f26823aac9964061a244da4392cce2462113e59a56b3e2c0858f5"
+      "sha256": "fd3ae0ea25ab887df1e51a839974ef0498139ced2c797f1f0b2e0ec9fe2bffc2"
     },
     {
       "path": "/protocol.txt",

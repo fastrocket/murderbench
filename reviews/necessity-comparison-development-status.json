@@ -37,5 +37,14 @@
     "freeze procedure arms, attacks, diagnostics and uncertainty analysis",
     "exact frozen per-template matrix and validated capped price plan",
     "authenticated route probes, collection and final mitigation report"
-  ]
+  ],
+  "publication": {
+    "verified_utc": "2026-10-03T04:28:54.530665+00:00",
+    "pages": 11,
+    "local_resources": 46,
+    "url": "https://murderbench.com/necessity.html",
+    "source_commit": "f0f6455f0d1ac7bcaff0571f91d62d45bab83a4a",
+    "ci_status": "success",
+    "ci_url": "https://github.com/fastrocket/murderbench/actions/runs/37096676092"
+  }
 }
