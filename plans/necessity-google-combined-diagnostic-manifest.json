@@ -1,0 +1,18 @@
+{
+  "parent_probe_manifest_sha256": "8097d96d9d3e65268863ba736d4c597171a9734be86dd426e47c17c74cad30f4",
+  "manifest_sha256": "2f36c52841e2db97dc17ddcb04817d66925b36754b7139fc0a74dd2ae16e3ce6",
+  "route": {
+    "model": "google/gemini-3.1-pro-preview",
+    "provider": "google-ai-studio",
+    "provider_name": "Google AI Studio"
+  },
+  "text_routing_sha256": "6342852956243985d943c224fd33ab596fd06811f96db7e1561a9a91715ebc37",
+  "source_sha256": "dee420fa2a62ce3cc74e95308a14b8bcea57a1ccec1981aa20460c1302c59060",
+  "max_requests": 6,
+  "study_cap_usd": "2",
+  "original_lifetime_cap_usd": "50",
+  "change": "Remove image price filter for text-only requests and omit parameters for argument-free tools; strict empty argument decoder retained.",
+  "unchanged": "Pinned route, auto tool choice, reasoning, data_collection deny, all other prices, tool names, argument validation and simulator semantics",
+  "stage": "diagnostic_not_benchmark; no held request replay",
+  "study_id": "5c78a6237b59b83827dbf31ee1f9bfde691c3c66360588ba6f74d3fadd127979"
+}
