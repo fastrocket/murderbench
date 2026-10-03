@@ -1,5 +1,5 @@
 {
-  "verified_utc": "2026-10-03T05:20:03.630552+00:00",
+  "verified_utc": "2026-10-03T05:24:38.209548+00:00",
   "page_count": 11,
   "checks": [
     {
@@ -91,6 +91,18 @@
       "status": 200,
       "local_bytes_match": true,
       "sha256": "11d2760eb655b37c078fa97285a302a6d18d47e15486a187c1c86f22c9932017"
+    },
+    {
+      "path": "/artifacts/necessity-google-combined-diagnostic-findings.txt",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "0e0afcb8b85dade528280ba0970431c6f9fedad7907f35470d4b921f4c0fd8df"
+    },
+    {
+      "path": "/artifacts/necessity-google-combined-receipt-audit.json",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "783f80c7fbeb301aa85ef6aca368e33021baa155c9275af05a51c5783ea88793"
     },
     {
       "path": "/artifacts/necessity-google-diagnostic-findings.txt",
@@ -213,6 +225,18 @@
       "sha256": "ee1098a0ccc8c4092ab7defd096245841a876d1cf1ab47b8f3d02a3e6369347d"
     },
     {
+      "path": "/artifacts/necessity-queue-option-findings.txt",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "05753598a41666b95db584af12f3a9cfcb60ee06aeba5e2e87ecca2873e5fa2e"
+    },
+    {
+      "path": "/artifacts/necessity-queue-option-witness.json",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "486d25763810b25373c13cf45b14661a14da94776534c1d12288e55cf5579cc5"
+    },
+    {
       "path": "/artifacts/necessity-queue-sensitivity.json",
       "status": 200,
       "local_bytes_match": true,
@@ -259,6 +283,12 @@
       "status": 200,
       "local_bytes_match": true,
       "sha256": "8653ae8c4bce4d6c052bba175d4b3f18b08d982b325ebae66d49ac1a5668cd7c"
+    },
+    {
+      "path": "/artifacts/necessity-three-scenario-synthesis.txt",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "03a8f5a20caacda5187b9f2a08b7cd8b62c43c582b7fe00909f7773f80ec5a36"
     },
     {
       "path": "/artifacts/necessity-timing-boundary-findings.txt",
@@ -372,7 +402,7 @@
       "path": "/coverage.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "b752379df1aaeddebd424459b240f1662ef2650cb73136b6d8ae9b7259b51843"
+      "sha256": "d62d6759249cf919ffb633ea4303f0d6e7568d0be1199e86e369d1fabab09934"
     },
     {
       "path": "/disclosure.html",
@@ -402,7 +432,7 @@
       "path": "/necessity.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "972578f691109a35bb22317be678c6b3a94ae5c4d9e432a041f503751757799a"
+      "sha256": "7bd073bc6f037f44110d9305fc7840da2feb286d5fa7167a3ad53b4a6c6cf8f7"
     },
     {
       "path": "/privacy.html",
@@ -414,7 +444,7 @@
       "path": "/program.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "fd8deb9da46f0d945b74d841f2db2241b47e0994015fa29d17896fee29a443d8"
+      "sha256": "098d0bc3c817f02ce3765daff1d93b60d56e64bf224abd3c64ca8f8f5405552e"
     },
     {
       "path": "/protocol.txt",
