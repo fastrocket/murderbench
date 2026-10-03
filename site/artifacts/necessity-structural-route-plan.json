@@ -1,6 +1,6 @@
 {
   "stage": "prospective-routing-and-price-review",
-  "retrieved_utc": "2026-10-03T04:16:20.120042+00:00",
+  "retrieved_utc": "2026-10-03T04:47:24.741205+00:00",
   "new_model_calls": 0,
   "new_paid_cost_usd": 0,
   "collection_order": [
@@ -66,9 +66,9 @@
           "function": true
         },
         "status": 0,
-        "uptime_last_30m": 99.98858838297386,
+        "uptime_last_30m": 99.98700876908086,
         "uptime_last_5m": 100,
-        "uptime_last_1d": 99.98158172465047,
+        "uptime_last_1d": 99.98168649104011,
         "supports_implicit_caching": false,
         "native_tools": {
           "openrouter:web_search": {
@@ -138,9 +138,9 @@
           "function": false
         },
         "status": 0,
-        "uptime_last_30m": 100,
+        "uptime_last_30m": 99.89764585465711,
         "uptime_last_5m": 100,
-        "uptime_last_1d": 99.96607427124925,
+        "uptime_last_1d": 99.96432484774354,
         "supports_implicit_caching": false,
         "native_tools": {
           "openrouter:bash": {
@@ -219,9 +219,9 @@
           "function": true
         },
         "status": 0,
-        "uptime_last_30m": 99.27007299270073,
+        "uptime_last_30m": 99.55357142857143,
         "uptime_last_5m": 100,
-        "uptime_last_1d": 99.49359806522668,
+        "uptime_last_1d": 99.49214494744952,
         "supports_implicit_caching": false,
         "native_tools": {
           "openrouter:web_search": {
@@ -295,9 +295,9 @@
           "function": true
         },
         "status": 0,
-        "uptime_last_30m": 99.16467780429595,
-        "uptime_last_5m": 100,
-        "uptime_last_1d": 99.5469291080069,
+        "uptime_last_30m": 99.13880445795338,
+        "uptime_last_5m": 99.43396226415095,
+        "uptime_last_1d": 99.53897683218756,
         "supports_implicit_caching": false,
         "native_tools": {
           "openrouter:web_search": {
@@ -368,7 +368,7 @@
         "status": 0,
         "uptime_last_30m": null,
         "uptime_last_5m": null,
-        "uptime_last_1d": 99.7612652939421,
+        "uptime_last_1d": 99.76331360946745,
         "supports_implicit_caching": false,
         "native_tools": {},
         "supports_voice_cloning": false,
@@ -436,7 +436,7 @@
         "status": 0,
         "uptime_last_30m": 100,
         "uptime_last_5m": null,
-        "uptime_last_1d": 99.91547807712625,
+        "uptime_last_1d": 99.91174848317705,
         "supports_implicit_caching": false,
         "native_tools": {},
         "supports_voice_cloning": false,
@@ -504,9 +504,9 @@
           "function": true
         },
         "status": 0,
-        "uptime_last_30m": 100,
+        "uptime_last_30m": 99.96557362940011,
         "uptime_last_5m": 100,
-        "uptime_last_1d": 98.81480524328438,
+        "uptime_last_1d": 98.91162095029513,
         "supports_implicit_caching": false,
         "native_tools": {},
         "supports_voice_cloning": false,
@@ -571,9 +571,9 @@
           "function": true
         },
         "status": 0,
-        "uptime_last_30m": 100,
+        "uptime_last_30m": 99.86876640419948,
         "uptime_last_5m": 100,
-        "uptime_last_1d": 99.8893291921031,
+        "uptime_last_1d": 99.88618334827896,
         "supports_implicit_caching": false,
         "native_tools": {},
         "supports_voice_cloning": false,

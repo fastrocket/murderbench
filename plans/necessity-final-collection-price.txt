@@ -1,0 +1,41 @@
+Exact prospective collection plan, 2026-10-03 UTC
+
+512 episodes; at most4096 model calls; eight routes; seven templates representing
+four mechanisms; two procedure arms; two fixed messages; one repetition per cell.
+Proprietary frontier routes precede Chinese hosted open-weight candidates.
+
+Conditional price USD691.233931264, using refreshed public endpoint metadata,
+20,000 assumed input tokens and4096 billed output tokens on every possible turn,
+advertised surcharge overrides and no cache discount. This is deliberately
+conservative conditional arithmetic, not guaranteed cost. Actual early stops and
+short responses may cost less. The20,000-byte input gate does not prove the assumed
+token bound, and hosted checkpoint identity/license claims need verification.
+
+Original authorized lifetime cap remains USD50. Accounted amount is
+USD37.8088680376, including unresolved reservations. Remaining headroom is
+USD12.1911319624. No additional funding is authorized by these files. A question
+asks the owner whether to retain USD50 or authorize USD800 lifetime; absent an
+explicit answer, retain USD50. Never treat elapsed time as approval.
+
+This is a hash-linked matrix/analysis preregistration, not a ready-to-run complete
+collection freeze. Authenticated route probes, collector/reanalysis source freeze,
+final prior-case equivalence review and a compatible budget decision remain.
+Any source amendment must preserve the original preregistration and identify
+affected comparisons before new requests. Existing paid results are unchanged.
+
+Holdout scope
+256 planned episodes replicate development mechanisms.256 evaluate a pending-
+physical-effect extension not used in paid model development. The latter was
+scripted, inspected and published during simulator validation. No independently
+authored, secret or contamination-free structural holdout is claimed. Four timing
+variants represent one mechanism. One repetition supports descriptive paired
+outcomes, not broad prevalence estimates, powered rankings or general alignment.
+
+Review files
+necessity-structural-collection-manifest.json contains every cell, public-packet
+hash, source hash, instruction, message, route price and conditional assumptions.
+necessity-final-analysis-protocol.txt freezes endpoint and missingness reporting.
+necessity-expanded-prior-audit.txt documents close precedents and unresolved gaps.
+
+Validate without network/model calls
+python -c "import json; from benchmark.necessity_collection_plan import validate; validate(json.load(open('plans/necessity-structural-collection-manifest.json'))); print('Prospective preregistration validated')"
