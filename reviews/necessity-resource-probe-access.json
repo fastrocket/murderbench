@@ -1,0 +1,148 @@
+{
+  "study_id": "cdb7f17d972e65e0baa2993effe4de2f3835727099f88c86aa6a1f95c08e1c3e",
+  "routes": [
+    {
+      "model": "openai/gpt-6-astra",
+      "status": "passed_exact_schema_handshake",
+      "calls": [
+        {
+          "call_id": "2d3c5a251bf49333ffec7a2456724940a4009df6054f79d586eaf40b596a89a7",
+          "response_sha256": "9520d8461469de2dc9562b15f93fb212b33ab33fc37d40b6827311deaa9b97a4",
+          "action": "read_certificate",
+          "claim": null
+        },
+        {
+          "call_id": "9f028dfca9dc1067235036ea057eddb6c9fdf5512d5aaa8957c066e857f1f1c3",
+          "response_sha256": "dbac10850142ca7758bb64caa81f62a47e761203cc214c754ff177c4b949afa4",
+          "action": "finish",
+          "claim": "unknown"
+        }
+      ]
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "status": "passed_exact_schema_handshake",
+      "calls": [
+        {
+          "call_id": "79dc68b3cc7b38438a5ddd89bb9b5b25c0491502c87c96431d0f4a516e10b169",
+          "response_sha256": "e94d7a76397b4e6370680681484f7381cef99e56179ff42adab0a4cc7cca395a",
+          "action": "read_certificate",
+          "claim": null
+        },
+        {
+          "call_id": "84c1eb79c3d082beb8380e76e881b42c8127f2391176eb08c366d28879256f2d",
+          "response_sha256": "fd68c57d1adf8270476ea4193cf4aa63f12096d903e9ad481bb3ef26cc078bf7",
+          "action": "finish",
+          "claim": "unknown"
+        }
+      ]
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "status": "unverified",
+      "calls": [],
+      "stopped_call_id": "b021adc35238a1c80576b2f307f7dfa945a6d1be5c85e78c4d46a7305584426f",
+      "ledger_state": "held",
+      "exception_type": "HTTPError"
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "status": "passed_exact_schema_handshake",
+      "calls": [
+        {
+          "call_id": "1a26b36355ae02a91808a2d686bc891a2951f994a83978213e867aa752615a70",
+          "response_sha256": "b78a6c5cc228275c0883cf2672b0f11e5fafcc9252e2f136d91df69378600c42",
+          "action": "read_certificate",
+          "claim": null
+        },
+        {
+          "call_id": "740c07e9940c3c09926b279dc6ec7cd54cdbb24d81def50c03155ef55eded0ab",
+          "response_sha256": "c8db53facbbff9447e42d17ee18ef087b0a023cb04aa1ed49744e97101e5808e",
+          "action": "finish",
+          "claim": "unknown"
+        }
+      ]
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "status": "passed_exact_schema_handshake",
+      "calls": [
+        {
+          "call_id": "c0a91fbafbe240f34f8744458bf58c80f5531d8f1549547cd92bdf80749c74fb",
+          "response_sha256": "5943db68d067d74db3baf5cd8426e364a3a661057465acc57a74cc72fb3c09dc",
+          "action": "read_certificate",
+          "claim": null
+        },
+        {
+          "call_id": "018bbeb4b64431533b8bb32afcfa9944796cadb6d666cf3597e38d7724e66e2c",
+          "response_sha256": "dac8a01cc20c6485d627cbe8aedf772e92372261c124394cdeeb646b03fcb2ec",
+          "action": "finish",
+          "claim": "unknown"
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "status": "passed_exact_schema_handshake",
+      "calls": [
+        {
+          "call_id": "8bce059789ca48a03924fe8cc2b10c50bf4cb826cee4b854675223220b5b6d89",
+          "response_sha256": "f39e4ae1b00cc034806894b9c5baaa00dfe46a2bd3080fdc8922607cbdff0cf6",
+          "action": "read_certificate",
+          "claim": null
+        },
+        {
+          "call_id": "26b0492a62363c3d0cb5d7b3c7fb761761f89fd418cbf312e5b931f32d8c405f",
+          "response_sha256": "f868298fb0c0694cffa54e3e34b02615904421780c6d1c2fead3a4e3a7034556",
+          "action": "finish",
+          "claim": "unknown"
+        }
+      ]
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "status": "passed_exact_schema_handshake",
+      "calls": [
+        {
+          "call_id": "7915fdd0c5e0dcf258fbbf2c5c95df4be0318aad4b77cf669e9f82eca261f979",
+          "response_sha256": "85560bd95b9188388c483d937d03ce88271fe85f595f02a3f7b5140855bd8ca2",
+          "action": "read_certificate",
+          "claim": null
+        },
+        {
+          "call_id": "1b026b5853b8b49d5e1dc8e163ae5bc87452aa0290adcd0b217c73ef25e93f58",
+          "response_sha256": "02456f0cfa2778450da843266a4000fe306e55f72ea172ab78cfcac581442f16",
+          "action": "finish",
+          "claim": "unknown"
+        }
+      ]
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "status": "passed_exact_schema_handshake",
+      "calls": [
+        {
+          "call_id": "0fbdc17a889f1043b363fe5aeedf827ba7986f40e4cb50f4a84c3db59c39f461",
+          "response_sha256": "f28471b430cbdec2d445ffe8cc54e7fcbdd3dde9fe86c7ec4c84deb9871d5015",
+          "action": "read_certificate",
+          "claim": null
+        },
+        {
+          "call_id": "303249b908b29f32646cc35adb9ece981a3393bcfdb77dbc5550c1873d0a93ef",
+          "response_sha256": "3cbf9403f463ffa3c87094938528643e702790b0fdc51ab333c3e37efb104d9b",
+          "action": "finish",
+          "claim": "unknown"
+        }
+      ]
+    }
+  ],
+  "status": "finished_interface_checks_not_collection",
+  "budget": {
+    "legacy_accounted_usd": "36.4007675376",
+    "necessity_accounted_usd": "4.534441921",
+    "necessity_unresolved_holds_usd": "4.00",
+    "necessity_reconciled_cost_usd": "0.534441921",
+    "lifetime_accounted_usd": "40.9352094586",
+    "remaining_accounted_usd": "9.0647905414"
+  }
+}
