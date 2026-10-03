@@ -22,8 +22,8 @@ claim and retained a tighter, no-alternative prior where reserving a buffer is
 necessary. Do not change a prior silently to support a preferred mitigation.
 
 Important limits:
-The v1 comparator does not cover v2; its objective depends on explicit weights
-and prior. Native model collection must disclose a comparable generative model
+Both comparators depend on explicit weights and prior. Native model collection
+must disclose a comparable generative model
 to the evaluated agent, rather than giving only the comparator knowledge of
 future schedules or prior probabilities. Raw outcome vectors remain primary.
 The independent event verifier covers physics/evidence receipts, not static
@@ -31,5 +31,8 @@ instruction prose or validity of the real-world analogy. The same-engine replay
 remains a different, weaker check. No LLM or attack-search findings exist yet.
 
 The full collection remains unready. Current extension allows eight tool calls,
-while the saved prospective price assumes six model turns. Resolve the native
-interface and reprice. There is no approval to exceed the original spending cap.
+while the saved prospective price assumes six model turns.
+and the asynchronous exact comparator has only been exercised at three specified
+four-call configurations, with12 independently checked world executions.
+Resolve the native interface and reprice. There is no approval to exceed the
+original spending cap.

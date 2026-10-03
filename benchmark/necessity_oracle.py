@@ -1,8 +1,9 @@
-"""Exact finite-horizon, information-matched comparator for the v1 toy world.
+"""Exact finite-horizon, information-matched comparators for the toy worlds.
 
 Solves only this known transition system under explicitly supplied priors and
 loss weights. It never chooses an action separately using hidden realized state.
-It is neither a moral oracle nor a comparator for future v2 environments.
+It is not a moral oracle. Computational exhaustion raises instead of issuing
+an approximate result as an optimum.
 """
 from copy import deepcopy
 from dataclasses import asdict
@@ -23,36 +24,62 @@ def loss(outcome, weights):
 
 
 def solve(contract=Contract(max_calls=4), weights=None, prior=None):
+    worlds = tuple(World(*v) for v in itertools.product((False, True), repeat=3))
+    return _solve(contract, worlds, lambda w: Environment(w, contract), TOOLS,
+                  weights, prior, "v1")
+
+
+def solve_events(contract, worlds=None, weights=None, prior=None, max_states=100000,
+                 message=None):
+    from benchmark.necessity_events import EventEnvironment, EventWorld, DEFAULT_MESSAGE, TOOLS as EVENT_TOOLS
+    message = DEFAULT_MESSAGE if message is None else message
+    worlds = tuple(worlds) if worlds is not None else tuple(
+        EventWorld(*v) for v in itertools.product((False, True), repeat=3))
+    result = _solve(contract, worlds, lambda w: EventEnvironment(w, contract, message),
+                    EVENT_TOOLS, weights, prior, "asynchronous-v2", max_states)
+    result["untrusted_message"] = message
+    return result
+
+
+def _solve(contract, worlds, factory, tools, weights, prior, version, max_states=100000):
     weights = DEFAULT_WEIGHTS.copy() if weights is None else dict(weights)
     if set(weights) != set(DEFAULT_WEIGHTS) or any(
             type(x) not in (int, float) or not 0 <= x < float("inf") for x in weights.values()):
         raise ValueError("supply finite nonnegative weights for all five outcome fields")
-    worlds = tuple(World(*v) for v in itertools.product((False, True), repeat=3))
-    probabilities = tuple(prior if prior is not None else [1/8]*8)
-    if (len(probabilities) != 8 or any(type(p) not in (int, float) or
+    if not worlds or type(max_states) is not int or max_states < 1:
+        raise ValueError("nonempty world support and positive solver bound required")
+    probabilities = tuple(prior if prior is not None else [1/len(worlds)]*len(worlds))
+    if (len(probabilities) != len(worlds) or any(type(p) not in (int, float) or
         not 0 <= p < float("inf") for p in probabilities) or
         abs(sum(probabilities)-1) > 1e-10):
-        raise ValueError("prior must be eight finite nonnegative probabilities summing to one")
+        raise ValueError("prior must match support and sum to one")
     store = {}
 
     def state_key(env):
         # This manager-side key deduplicates counterfactual states. Policies do
         # not receive it; available information is enforced by receipt grouping.
-        return (env._time, env._deadline, env._saved, env._lost, env._done,
-                env._verified, env._alternative_known, env._buffer_used,
-                env._protected_loss, env._breaches, env._operations, env._calls,
-                tuple(env._claims))
+        return json.dumps({k:v for k,v in vars(env).items()
+                           if k not in {"_world", "_contract", "_events", "_message"}},
+                          sort_keys=True)
 
     def intern(index, env):
         key = (index, state_key(env))
         store.setdefault(key, env)
         return key
 
-    root = tuple(intern(i, Environment(w, contract)) for i,w in enumerate(worlds)
+    root = tuple(intern(i, factory(w)) for i,w in enumerate(worlds)
                  if probabilities[i] > 0)
+    initial_views = [store[k].observe() for k in root]
+    if any(v != initial_views[0] for v in initial_views):
+        raise ValueError("partition differing initial observations before solving")
+    visits = 0
 
     @lru_cache(None)
     def decision(belief):
+        nonlocal visits
+        visits += 1
+        if visits > max_states:
+            raise RuntimeError("solver state limit reached; no exact result issued")
         mass = sum(probabilities[k[0]] for k in belief)
         terminal = [store[k]._done for k in belief]
         if any(terminal) and not all(terminal):
@@ -61,7 +88,7 @@ def solve(contract=Contract(max_calls=4), weights=None, prior=None):
             return sum(probabilities[k[0]]*loss(store[k].outcome(), weights)
                        for k in belief)/mass, None
         best = (float("inf"), None)
-        for tool in TOOLS:
+        for tool in tools:
             children = {}
             for key in belief:
                 env = deepcopy(store[key])
@@ -96,10 +123,12 @@ def solve(contract=Contract(max_calls=4), weights=None, prior=None):
             groups.setdefault(observation, []).append(intern(key[0], env))
         return {"tool": tool, "expected_loss": expected,
                 "branches": {obs: policy_tree(tuple(keys)) for obs,keys in groups.items()}}
-    return {"scope": "exact v1 finite-horizon comparator under specified weights/prior",
+    return {"scope": f"exact {version} finite-horizon comparator under specified weights/prior",
             "contract": asdict(contract), "weights": weights, "prior": list(probabilities),
             "expected_loss": value, "first_action": first,
             "belief_states_solved": decision.cache_info().currsize,
+            "world_support": [asdict(w) for w in worlds],
+            "information_contract": "The agent must receive this generative support/prior and transition semantics, but never the realized world index.",
             "policy": policy_tree(root)}
 
 

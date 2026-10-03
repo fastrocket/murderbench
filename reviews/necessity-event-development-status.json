@@ -1,13 +1,13 @@
 {
   "date": "2026-10-02",
-  "stage": "asynchronous development and exact v1 comparison",
+  "stage": "asynchronous development and exact bounded asynchronous comparison",
   "previous_goal_turn": "progress: simulator, calibration, audit and priced plan committed/published",
-  "repository_tests_passed": 90,
-  "new_tests_passed": 20,
+  "repository_tests_passed": 94,
+  "new_tests_passed": 24,
   "v2_scripted_episodes": 150,
   "independent_v2_fold_matches": 150,
   "v1_exact_comparator": true,
-  "v2_exact_comparator": false,
+  "v2_exact_comparator": true,
   "model_calls": 0,
   "new_paid_cost_usd": 0,
   "first_study_source_and_catalog_validated": true,
@@ -19,21 +19,26 @@
     "benchmark/necessity_events.py": "f0e744967769a55b2cd2843e8c22e52c1a9f991576510f721eb050e83af2e30c",
     "benchmark/necessity_event_verifier.py": "cccf4d7ddb4c25d7ac071d31fa05a8cef2e53200d1c728a63e8e26ea12337944",
     "benchmark/necessity_event_calibration.py": "217f89918155c28ca7dc0ddef0dcf98e920dd772eed05974fa468093b07980cd",
-    "benchmark/necessity_oracle.py": "1444cee7dfbde61a84498c4043763ca8c5ead22695fe6922d46a8225e767b1cf",
+    "benchmark/necessity_oracle.py": "6d8596a8c25949652dc0ed02e4d8729ec80f5a71f55887b15670471f4d7cc0e8",
     "tests/test_necessity_events.py": "50e8af230a26e68ed0b9cbd23288e1bc7d77cc18b79f9678353d1d483c1845d8",
-    "tests/test_necessity_oracle.py": "4327f5b736179e1cfd00803469631e3727bab28613de3bf2737a04b0ac1e6c97",
-    "plans/necessity-asynchronous-design.txt": "b2c4678ac4b87af5282f7492d08a994421326e0ff3e4f2328486cf125a4482f8",
+    "tests/test_necessity_oracle.py": "30fcc4515c5764ace1099092448f47297e826360d30035cf4719dd1677dff769",
+    "plans/necessity-asynchronous-design.txt": "7161aa9d6ac5a0ae357d5ff59f88be5b6f0f49101589b7076cd26d32980cb51c",
     "plans/necessity-case-audit.txt": "3f4cdbdbca9a262f9dad311e38d3cd6dc4af2a5a9f11e160bf2ae55156663792",
     "reviews/necessity-event-calibration.json": "1d32b00afefaf2d3be03c2cb398babab08fd4c32844240213382266e7e28f363",
-    "reviews/necessity-exact-comparator.json": "bd2d89be7722da22ef15b928cb1eba0065dd67ef2ce9821450f84b025d3c30c0"
+    "reviews/necessity-exact-comparator.json": "bd2d89be7722da22ef15b928cb1eba0065dd67ef2ce9821450f84b025d3c30c0",
+    "benchmark/necessity_event_comparator.py": "a2612cd20d38ea4747a80e58dff59b3786cc4d3ef3f0c819744c08219a69fe07",
+    "reviews/necessity-asynchronous-comparator.json": "da5e165049f8c0a908749a78488925a953f850604516ff5554f45aae72d1ce5b",
+    "reviews/necessity-event-review.txt": "67ea2a0dabfadb1a18ac9a066a051755e5200e02ce0d1639d3225f9aa8c6ba47"
   },
   "remaining": [
-    "asynchronous information-matched comparator and scenario validity",
+    "final-horizon comparator coverage and scenario validity",
     "additional structural environments",
     "resolve scoped prior-case equivalence",
     "native model driver and enforced budget/token limits",
     "exploratory LLM pilot",
     "freeze held-out tests and final priced matrix",
     "collection and publication of LLM findings/mitigation tradeoffs"
-  ]
+  ],
+  "v2_exact_comparator_scope": "Three specified four-call configurations; not the final eight-call protocol",
+  "v2_exact_comparator_world_executions": 12
 }

@@ -16,7 +16,11 @@ An asynchronous extension adds pending replies, stale evidence and bounded
 untrusted messages. Reproduce its calibration and the exact v1 comparator with
 `python -m benchmark.necessity_event_calibration --output reviews/necessity-event-calibration.json`.
 The comparator uses explicit priors and loss weights; it does not settle moral
-tradeoffs, and does not yet cover the asynchronous extension.
+tradeoffs. Reproduce the asynchronous exact comparator's three specified
+four-call configurations with
+`python -m benchmark.necessity_event_comparator --output reviews/necessity-asynchronous-comparator.json`.
+This is an offline development check; native collection and the broader
+eight-call protocol remain unvalidated.
 
 A preliminary safe proxy study of model proposals after verified constraints change.
 Fixed synthetic histories do not establish actual agent commitment or intent.

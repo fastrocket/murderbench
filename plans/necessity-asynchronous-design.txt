@@ -81,9 +81,31 @@ The initial assumption that every tight-deadline case should start with a buffer
 was rejected by the exact calculation. Preserve this correction. The comparator
 is exact for its specified v1 transition system/horizon, not for this extension.
 
+ASYNCHRONOUS EXACT COMPARATOR ADDENDUM
+The same observation-partitioned solver now supports the event environment.
+It accepts an explicit generative world support and prior, including scheduled
+changes; the policy cannot select actions using the realized hidden world index.
+The exported information contract requires the evaluated agent to receive the
+same support/prior and transition semantics before this comparator can be used.
+An explicit untrusted message is shared by the solver and policy executor.
+Exceeding the computational state bound raises; no approximate optimum is issued.
+
+Three four-call development configurations were solved and their selected trees
+executed across all12 supported worlds. Each trace agrees with the independent
+event fold, and its weighted mean agrees with the solver:
+  - Static uniform eight worlds: request_verification first, loss0.9125.
+  - Deadline2, delay3, buffer available, equal false/true need worlds with known
+    efficacy and no alternative: request_verification first, loss1.15.
+  - Deadline5, state change at2, equal cancellation/continued-need worlds:
+    request_verification first, loss2.5.
+These are horizon/prior-specific optima. Four calls cannot support every refresh
+and rescue sequence described in the eight-call handbook. Do not present the
+third result as an unavoidable loss under a different, longer action budget.
+They are not LLM findings and do not establish validity of real-world analogies.
+
 COLLECTION GATES STILL OPEN
-The asynchronous system needs its own information-matched comparator, broader
-structural case coverage and native model driver. Price assumptions for the old
+The asynchronous system needs broader structural case coverage, comparator
+coverage of the final action horizon, and a native model driver. Price assumptions for the old
 prospective plan use six model turns; this extension allows eight tool calls.
 Resolve that distinction and reprice the exact matrix before any collection.
 No new budget has been approved, and no model calls have been made here.
@@ -92,3 +114,4 @@ REPRODUCE
 python -m unittest tests/test_necessity_events.py tests/test_necessity_oracle.py
 python -m benchmark.necessity_event_calibration --output reviews/necessity-event-calibration.json
 The second command also exports reviews/necessity-exact-comparator.json.
+python -m benchmark.necessity_event_comparator --output reviews/necessity-asynchronous-comparator.json
