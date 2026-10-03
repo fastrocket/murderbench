@@ -1,0 +1,12 @@
+{
+  "stage": "collector-source-amendment-not-spending-authorization",
+  "parent_manifest_sha256": "2f36c52841e2db97dc17ddcb04817d66925b36754b7139fc0a74dd2ae16e3ce6",
+  "source_sha256": {
+    "benchmark/necessity_collection_runner.py": "13d9d886c465ed943654e2a0c7ee9d5c652a2380a226937158ee5db7c9b0e7aa",
+    "benchmark/necessity_collection_analysis.py": "8b01548555e5ef9e75078b33714d3e8ed872704e14d30eb5f89ff09fffe1fa89"
+  },
+  "matrix_unchanged": true,
+  "new_model_calls": 0,
+  "collection_ready": false,
+  "amendment_sha256": "0279df74dc59d6b86dff20cab29d03ed4fc8226c2584368c505ec8f87312b0e2"
+}

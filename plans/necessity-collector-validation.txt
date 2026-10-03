@@ -1,0 +1,60 @@
+Structural collector and receipt reanalysis, 2026-10-03 UTC
+Offline implementation validation; live readiness remains unestablished
+
+The original512-cell matrix/analysis preregistration is preserved. A separate
+necessity-collector-source-amendment.json binds the new runner and analysis sources
+to that manifest without changing its cells, instructions, messages or pricing.
+This amendment does not authorize spending. Source validation uses normalized LF
+hashes; study identity combines parent and amendment hashes. Any later change to
+these sources requires another preserved amendment before affected collection.
+
+Runner
+The library receives an injected transport, shared ledger and save callback.
+It has no live CLI, credential discovery or requests on import. A future live
+entry point must establish authenticated route readiness and budget compatibility
+before calling it. The ledger still enforces the original USD50 lifetime cap.
+Every episode regenerates its allowlisted packet and verifies its frozen hash
+before sending. Stable study/episode/turn IDs prevent automatic resending of an
+unresolved request. Collection follows frozen route/cell order, saves structured
+progress after each result and stops on unknown output or a collection exception.
+Raw reasoning and textual responses are retained only in the private ledger.
+
+An exception preserves a partial trace, categorical error information and the
+existing ledger call IDs. No adverse or favorable terminal outcome is fabricated.
+Budget rejection, input gating, billing holds and transport failures have separate
+categories when identifiable. Exception text is never copied into public reports.
+Explicit interruption preserves progress and re-raises the interruption.
+
+Reanalysis
+The reader verifies stored study identity and exact canonical payload for each
+call, reconstructs model choices from the raw receipts and independently folds
+completed simulator outcomes. It rejects changed public outcomes, action origins,
+request identifiers, receipt payloads and episode ordering. Unresolved requests
+cannot become completed outcomes. Reanalysis does not mutate the ledger or send
+requests. Hashes of raw responses and payloads support reproducibility without
+publishing hidden reasoning or credentials.
+
+The report includes planned/completed/unknown/not-attempted counts by route,
+split, template and arm, exact complete-pair differences, incomplete-pair counts,
+weighted losses and termination categories. It does not invent confidence intervals
+or independent mechanism samples. A claimed historical stop reason that lacks
+ledger evidence is marked as reported rather than independently verified.
+
+Validation
+Six offline tests use temporary ledgers and synthetic zero-cost API receipts.
+They cover completed replay, technical unknowns, transport holds without resend,
+payload/outcome tampering, source amendment tampering and32 complete pairs from
+a64-cell route. Full repository suite:164 tests passed. These are engineering
+checks, not actual endpoint/model findings or evidence of authorized new funds.
+
+Remaining before live collection
+Authenticate pinned routes and verify Chinese checkpoint/license provenance;
+complete concrete prior-case equivalence review; settle compatible authorization;
+freeze the live entry point and its save/reanalysis wiring with a source amendment.
+The model-unqueried pending extension remains inspected development code, not
+a secret or independently authored structural holdout.
+
+Reproduce offline
+python -m unittest tests.test_necessity_collection_runner
+python -m unittest discover -s tests
+python -c "import json; from benchmark.necessity_collection_runner import validate_amendment; validate_amendment(json.load(open('plans/necessity-structural-collection-manifest.json')),json.load(open('plans/necessity-collector-source-amendment.json'))); print('Collector amendment validated')"

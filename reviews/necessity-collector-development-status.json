@@ -1,0 +1,20 @@
+{
+  "stage": "offline collector and private receipt reanalysis validated",
+  "previous_goal_turn": "progress: exact matrix and analysis preregistration published",
+  "repository_tests_passed": 164,
+  "collector_tests_passed": 6,
+  "amendment_sha256": "0279df74dc59d6b86dff20cab29d03ed4fc8226c2584368c505ec8f87312b0e2",
+  "parent_manifest_sha256": "2f36c52841e2db97dc17ddcb04817d66925b36754b7139fc0a74dd2ae16e3ce6",
+  "new_paid_model_calls": 0,
+  "additional_budget_approved_usd": "0",
+  "authenticated_new_adapter_routes": 0,
+  "full_collection_ready": false,
+  "goal_complete": false,
+  "remaining": [
+    "authenticated routes and checkpoint/license checks",
+    "live entry point and save wiring source freeze",
+    "final prior-case equivalence review",
+    "compatible spending authorization",
+    "collection and reproducible model findings"
+  ]
+}
