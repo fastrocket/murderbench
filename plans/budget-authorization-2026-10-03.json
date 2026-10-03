@@ -1,0 +1,8 @@
+{
+  "authority": "Direct user instruction in this chat: I can authorize another $50",
+  "previous_lifetime_cap_usd": "50",
+  "additional_authorized_usd": "50",
+  "lifetime_cap_usd": "100",
+  "scope": "Bounded pilot and funding/sponsorship outreach; preserves larger confirmation plan",
+  "does_not_authorize": "The previously requested USD1200 lifetime cap"
+}

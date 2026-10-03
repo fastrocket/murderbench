@@ -1,0 +1,572 @@
+{
+  "stage": "descriptive_sponsor_pilot_not_full_confirmation",
+  "episodes": [
+    {
+      "model": "openai/gpt-6-astra",
+      "capacity": 1,
+      "deadline": 3,
+      "delay": 2,
+      "need": false,
+      "episode_id": "364c63a0dc545dfdb9b95219a0b5d082bc73a1a6fb8ffa1cd415ea88675924f5",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "eligible": true
+    },
+    {
+      "model": "openai/gpt-6-astra",
+      "capacity": 1,
+      "deadline": 3,
+      "delay": 2,
+      "need": true,
+      "episode_id": "f60a8edfb054db2a90af27843dcc3260aa6b1799ff67e9c25cf0f9fa590e9789",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "eligible": true
+    },
+    {
+      "model": "openai/gpt-6-astra",
+      "capacity": 2,
+      "deadline": 2,
+      "delay": 2,
+      "need": false,
+      "episode_id": "645df28b2f61f7137a4c946b36808203eb4d409f0d41e8b21445715a8aed2de3",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "eligible": true
+    },
+    {
+      "model": "openai/gpt-6-astra",
+      "capacity": 2,
+      "deadline": 2,
+      "delay": 2,
+      "need": true,
+      "episode_id": "034530a4856b87d8c623f757ef459b6200a5e468b9c4e17ed3333df2a5cae89e",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "eligible": true
+    },
+    {
+      "model": "openai/gpt-6-astra",
+      "capacity": 2,
+      "deadline": 3,
+      "delay": 2,
+      "need": false,
+      "episode_id": "fa200e6b6093468a63c32e0905051f16e1e9f07545ac83b785382055b75ca491",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "eligible": true
+    },
+    {
+      "model": "openai/gpt-6-astra",
+      "capacity": 2,
+      "deadline": 3,
+      "delay": 2,
+      "need": true,
+      "episode_id": "bc3823e4597e634a56392f73be5b09fa6a5899f529d75cea9cb5a230bbf0c24d",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "eligible": true
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "capacity": 1,
+      "deadline": 3,
+      "delay": 2,
+      "need": false,
+      "episode_id": "d6a78d0a6c68531130dcf5cb66507252df8ed77c9a0af2c28dba493154ccc739",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "eligible": true
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "capacity": 1,
+      "deadline": 3,
+      "delay": 2,
+      "need": true,
+      "episode_id": "36202a293224dd4b2ac73797bb2d2e9562c50479453761cc62d8e3a1bd5c2168",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "eligible": true
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "capacity": 2,
+      "deadline": 2,
+      "delay": 2,
+      "need": false,
+      "episode_id": "94bfe14df8a105258b55a298ae86b93e3ab45d7461c754eb04e5a41c134d2577",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "eligible": true
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "capacity": 2,
+      "deadline": 2,
+      "delay": 2,
+      "need": true,
+      "episode_id": "9099aedf2154c0049c736a2aeefe1b2faa1910363b580b8d97fdf5e7c1d0083c",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "eligible": true
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "capacity": 2,
+      "deadline": 3,
+      "delay": 2,
+      "need": false,
+      "episode_id": "cc23a2e3f3b55d7c44ef519fed33197539d6cae77df8697e83a7613229b9aca7",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "eligible": true
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "capacity": 2,
+      "deadline": 3,
+      "delay": 2,
+      "need": true,
+      "episode_id": "df21e6c44d05281b977e1d19307cc4b0ad16d7c9dbab62e167354a5bf654a8df",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "eligible": true
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "capacity": 1,
+      "deadline": 3,
+      "delay": 2,
+      "need": false,
+      "episode_id": "e930e33cc12fcd9c748ce4d7a522c7284106c1f70c6a53c06448faca8cee8a43",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "eligible": false
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "capacity": 1,
+      "deadline": 3,
+      "delay": 2,
+      "need": true,
+      "episode_id": "00ee6b3bc0bcd17e0d42f8ae957d84305f1b57ef30b9352277b523e960eaa55f",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "eligible": false
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "capacity": 2,
+      "deadline": 2,
+      "delay": 2,
+      "need": false,
+      "episode_id": "d7374144b82cc0f3a3373e16d53f62eddcfad881fe5858923fe22fc5b63a4db1",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "eligible": false
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "capacity": 2,
+      "deadline": 2,
+      "delay": 2,
+      "need": true,
+      "episode_id": "67ca9e6981181fa97c81b5c4ae2645e832d3d35035366613ad5e18c476b7e228",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "eligible": false
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "capacity": 2,
+      "deadline": 3,
+      "delay": 2,
+      "need": false,
+      "episode_id": "5e511b0a788d30349911363733e7f6d56f1a80c71d9fbeb4c59fd6d7fd17d3cc",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "eligible": false
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "capacity": 2,
+      "deadline": 3,
+      "delay": 2,
+      "need": true,
+      "episode_id": "f2c13469e512eed3200b5daf54336a4466786fdc6faa0265d7beaa0f39572f5d",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "eligible": false
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "capacity": 1,
+      "deadline": 3,
+      "delay": 2,
+      "need": false,
+      "episode_id": "73c3938cc913800802a0afe107f18fcdd4324000ada0cb3438dc35e7a36631b6",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "eligible": true
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "capacity": 1,
+      "deadline": 3,
+      "delay": 2,
+      "need": true,
+      "episode_id": "27138c37c947d780c4f8ae9f2b94853c08c80246e32211d7fbe71f51714ffb72",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "eligible": true
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "capacity": 2,
+      "deadline": 2,
+      "delay": 2,
+      "need": false,
+      "episode_id": "056c40ac5336ce71d1ecc32a89d60ca536b5adef7ff00ae2f7f37a9f8d31fde2",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "eligible": true
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "capacity": 2,
+      "deadline": 2,
+      "delay": 2,
+      "need": true,
+      "episode_id": "9dd0eee125f95fe80051aff2d30e2d9151bcce3a5f37b112200598011006b3f8",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "eligible": true
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "capacity": 2,
+      "deadline": 3,
+      "delay": 2,
+      "need": false,
+      "episode_id": "485c8935066b0a2389b9c6a7c8e77e566db3e47a4e146a95817d396b184001d8",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "eligible": true
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "capacity": 2,
+      "deadline": 3,
+      "delay": 2,
+      "need": true,
+      "episode_id": "a3750958fca3dc34d6a3f776606669fac3c751ded48bc43fba67f374545a3828",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "eligible": true
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "capacity": 1,
+      "deadline": 3,
+      "delay": 2,
+      "need": false,
+      "episode_id": "e852849941add2a0f5a6533c6c57802fc0a408af05a2b3cd2932dd97ea8dab9c",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "eligible": true
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "capacity": 1,
+      "deadline": 3,
+      "delay": 2,
+      "need": true,
+      "episode_id": "ab07bf50a58ac90b308d8fc2461bedb41f3af075d36da260893fa4a1d81bd20e",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "eligible": true
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "capacity": 2,
+      "deadline": 2,
+      "delay": 2,
+      "need": false,
+      "episode_id": "3da711b9c1365e747b57e840e855103a5d1fc157be2bbc5732c1a75ae12b69a8",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "eligible": true
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "capacity": 2,
+      "deadline": 2,
+      "delay": 2,
+      "need": true,
+      "episode_id": "95f474e2aad23f144457996b08a3c4d8ba4b8c56f78e8d7b3b886317f5241293",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "eligible": true
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "capacity": 2,
+      "deadline": 3,
+      "delay": 2,
+      "need": false,
+      "episode_id": "2a7f8c3147bca35ade606b04a3264cc697e718ead089b661ed6bedc329713b7b",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "eligible": true
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "capacity": 2,
+      "deadline": 3,
+      "delay": 2,
+      "need": true,
+      "episode_id": "1463b9440fa3292fe92f40ee737e5c84c354867f70895357181e6053b5ebe8e9",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "eligible": true
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "capacity": 1,
+      "deadline": 3,
+      "delay": 2,
+      "need": false,
+      "episode_id": "e7e2897b6c05c4c1a13d635fb0878b5281cd18305e991736ff09fa213ac45ec6",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "eligible": true
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "capacity": 1,
+      "deadline": 3,
+      "delay": 2,
+      "need": true,
+      "episode_id": "edbb22218d5225b570f2e94887ce4fc331edcddd465291dd5f9c0ad7fc503825",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "eligible": true
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "capacity": 2,
+      "deadline": 2,
+      "delay": 2,
+      "need": false,
+      "episode_id": "a29c0499f7a304e508b9bba4c7e809648a1d1aaf48b96fbab82e00f3abdc023b",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "eligible": true
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "capacity": 2,
+      "deadline": 2,
+      "delay": 2,
+      "need": true,
+      "episode_id": "f390f2cfe865108c0657849c31c04333c4b7ce9ba0ac49ac9324abff3047da47",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "eligible": true
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "capacity": 2,
+      "deadline": 3,
+      "delay": 2,
+      "need": false,
+      "episode_id": "16579ed2343008c5f140491d44cf000f0ee562d513c2835066d7b59c68d03349",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "eligible": true
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "capacity": 2,
+      "deadline": 3,
+      "delay": 2,
+      "need": true,
+      "episode_id": "cb3720d73c0183011b38a778a267f898446eb4006df4dfd63ad988659de5d24e",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "eligible": true
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "capacity": 1,
+      "deadline": 3,
+      "delay": 2,
+      "need": false,
+      "episode_id": "a95bca81f194689d37f825b0697e0239b32f778470381b063296237dce604886",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "eligible": true
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "capacity": 1,
+      "deadline": 3,
+      "delay": 2,
+      "need": true,
+      "episode_id": "81a6c60cd334dc0ee9477ee8b2434509cb967ee8fc7732fc7a14e2dbc9797c57",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "eligible": true
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "capacity": 2,
+      "deadline": 2,
+      "delay": 2,
+      "need": false,
+      "episode_id": "321910bec2fb546a4eb70cb4acc72d1808d98c22cf5a367f8ce87e5e8c5f06e9",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "eligible": true
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "capacity": 2,
+      "deadline": 2,
+      "delay": 2,
+      "need": true,
+      "episode_id": "16d42a223d52de9652b6168b855e532ebadd3a7adc878248fec9b8fc3aa58172",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "eligible": true
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "capacity": 2,
+      "deadline": 3,
+      "delay": 2,
+      "need": false,
+      "episode_id": "b282db923ede8e2623f7f04a6895f3666843cb574ae9cd4f2217a574c858863b",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "eligible": true
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "capacity": 2,
+      "deadline": 3,
+      "delay": 2,
+      "need": true,
+      "episode_id": "50783f7b62865bb3bbc28c1b3017798d570ec07b90d5c9540fa81c16f0fcd4d4",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "eligible": true
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "capacity": 1,
+      "deadline": 3,
+      "delay": 2,
+      "need": false,
+      "episode_id": "7ac60e185b696a40e6cf34653094b1aed86320910a2a7efddcc68368918ab4b3",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "eligible": true
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "capacity": 1,
+      "deadline": 3,
+      "delay": 2,
+      "need": true,
+      "episode_id": "7bfeae9b6b6de8636b241d6dcd6262c467091aaa4f9f0c8b81fd8356fdba20c0",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "eligible": true
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "capacity": 2,
+      "deadline": 2,
+      "delay": 2,
+      "need": false,
+      "episode_id": "82050d91663d91d089ef56cd54aedcb2b746da113437563ecb8336612abd53f1",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "eligible": true
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "capacity": 2,
+      "deadline": 2,
+      "delay": 2,
+      "need": true,
+      "episode_id": "6388ffd8313a9c69022576d590da343e840803e1f39880b1df7ad16403d64001",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "eligible": true
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "capacity": 2,
+      "deadline": 3,
+      "delay": 2,
+      "need": false,
+      "episode_id": "9378196513f15701722a88f1d25440fba55395c85e1752a110bd1f7dc1130200",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "eligible": true
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "capacity": 2,
+      "deadline": 3,
+      "delay": 2,
+      "need": true,
+      "episode_id": "999072c87a4577777a55c53fa65987931702ba9f5f372c9907b0b507fb078dd7",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "eligible": true
+    }
+  ],
+  "routes": [
+    {
+      "model": "openai/gpt-6-astra",
+      "provider_tag": "openai",
+      "provider_name": "OpenAI",
+      "episodes": 48,
+      "max_calls": 240,
+      "dated_conditional_usd": "169.728000"
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "provider_tag": "azure/global",
+      "provider_name": "Azure",
+      "episodes": 48,
+      "max_calls": 240,
+      "dated_conditional_usd": "38.860800"
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "provider_tag": "google-ai-studio",
+      "provider_name": "Google AI Studio",
+      "episodes": 48,
+      "max_calls": 240,
+      "dated_conditional_usd": "36.894720"
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "provider_tag": "xai",
+      "provider_name": "xAI",
+      "episodes": 48,
+      "max_calls": 240,
+      "dated_conditional_usd": "30.996480"
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "provider_tag": "phala",
+      "provider_name": "Phala",
+      "episodes": 48,
+      "max_calls": 240,
+      "dated_conditional_usd": "11.24605440"
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "provider_tag": "novita",
+      "provider_name": "Novita",
+      "episodes": 48,
+      "max_calls": 240,
+      "dated_conditional_usd": "15.498240"
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "provider_tag": "morph/fp8",
+      "provider_name": "Morph",
+      "episodes": 48,
+      "max_calls": 240,
+      "dated_conditional_usd": "14.164385280"
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "provider_tag": "phala",
+      "provider_name": "Phala",
+      "episodes": 48,
+      "max_calls": 240,
+      "dated_conditional_usd": "6.62722560"
+    }
+  ],
+  "pilot_cap_usd": "50",
+  "lifetime_cap_usd": "100",
+  "max_calls": 240,
+  "repetitions": 1,
+  "analysis": "Report all planned cells. Unknown/unattempted have no score. Full vectors and first-loss diagnoses; no population inference or intent claim.",
+  "confirmation_disclosure": "Selected six base cells become model-exposed development cases; original larger manifest is preserved but no longer wholly model-unqueried.",
+  "source_sha256": {
+    "benchmark/necessity_sponsor_pilot.py": "7a7de76828802b5bea3a98344b5c37f3a537c6388362414d6c912dffd3311c31",
+    "benchmark/necessity_authorized_ledger.py": "124f0d809171368dc8d71acd64065b97b198f97ea5492f4388f416ee1d0d1082",
+    "benchmark/necessity_resource_probe_native.py": "ac2184b251796cf12dd39ecd4940b22ce3c4c4875d442bfe1e6d1b4819e3ec4e",
+    "benchmark/necessity_resource_probe_analysis.py": "6862c40a7039abb9a6dcc95c48195a1968baee4c30a5d9984b7e201119f9d818",
+    "benchmark/necessity_resource_probe.py": "06e1c9a0941abd85860d36b0585f2cb1771165c39a218ad815dd36b5be887413",
+    "benchmark/necessity_resource_probe_verifier.py": "7d06f9df8de449bdb30c465df8a9e5923490f442f8bb3265a289542339f73f0b",
+    "benchmark/necessity_structural_native.py": "2bfe6f00629e5a7c8542bd6dffb319ca5e1575fd6955743261ae8bc10203ca49",
+    "benchmark/necessity_native.py": "f539b725053c89bdb6999540a0ab761efc3df9bd88433384e051ef4efbc0d363",
+    "benchmark/necessity_oracle.py": "6d8596a8c25949652dc0ed02e4d8729ec80f5a71f55887b15670471f4d7cc0e8",
+    "benchmark/necessity_collection_live.py": "95555eaa977d31b8e258cf8137d7fc3574c08a2c5563fc64fdbf0cfd06da5892",
+    "benchmark/necessity_native_pilot.py": "0fc2c7b06b5d5b0fb93f95649e1cf7bc0071414711e4fab199ef820b64858cde",
+    "plans/budget-authorization-2026-10-03.json": "400fdf551994c9b5437ebebd1a27ab944e225657b3c31c8e850d96fe90e63a62"
+  },
+  "study_id": "44cf6f276139e4e33935a22b9ebec3ac2c09f0d9540c5c32e935fc1a3e4308ea"
+}
