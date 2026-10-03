@@ -1,0 +1,39 @@
+Controlled text-only Google routing diagnostic, 3 October 2026 UTC
+
+Source and manifest were committed before the request (b0058db). This new study
+removed only the image max-price filter from validated text-only requests. It
+retained the original empty-object tool parameters, pinned Google AI Studio route,
+reasoning configuration, privacy restriction and every other price filter.
+Original requests were not replayed and unresolved reservations were retained.
+
+One request was received and reconciled with usage cost0. The model and provider
+identities matched the pinned route, but finish_reason was error, with no native
+tool call. The strict decoder rejected it as non_executable_answer. The diagnostic
+stopped before any schema passed. This is a service error completion, not model
+refusal, intentional harm or benchmark task performance.
+
+A read-only private-ledger audit reconstructed the exact request and checked its
+identity/payload against the immutable received row. It confirmed the response
+hash, route identities and decoder category. Raw response text and reasoning are
+not exported. The public audit is reviews/necessity-google-text-receipt-audit.json.
+
+The earlier parameterless diagnostic returned HTTP404 with a no-endpoints indicator.
+This changed configuration instead returned an identity-matching error completion.
+That observation is consistent with a different routing outcome but does not prove
+which upstream filter caused the old404 or why this completion failed. There is
+still no usable native action evidence for Google. Further paid calls must have
+a justified prospective change; repeated retries of this condition are unwarranted.
+
+Accounted lifetime remains USD39.9075566736, including USD3 necessity holds and
+legacy accounted amounts. Original USD50 remaining headroom is USD10.0924433264.
+The new response reconciled to zero; no old reservation was refunded on that basis.
+Full collection remains gated by Google interface access, prior-case equivalence
+and sufficient authorization for its priced matrix. No additional funds inferred.
+
+Evidence
+  plans/necessity-google-text-diagnostic-manifest.json
+  reviews/necessity-google-text-diagnostic.json
+  reviews/necessity-google-text-receipt-audit.json
+  benchmark/necessity_google_text_probe.py
+Four targeted tests passed before the request: changed-filter isolation, non-text
+rejection, metadata-preserving native continuation and no resend after a hold.

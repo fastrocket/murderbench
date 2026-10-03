@@ -1,0 +1,12 @@
+{
+  "study_id": "3a48a3492a7dff0fab285434e63ee439591083bb5071ead1669a465418494e2a",
+  "verified_received_requests": 1,
+  "verified_tool_schemas": 0,
+  "model_identity_matches": true,
+  "provider_identity_matches": true,
+  "finish_reason": "error",
+  "decoder_category": "non_executable_answer",
+  "response_sha256": "fccb7d67f6d0e2f3bc094aa422e242f2747b3d683763ef513b49cb7d8299f868",
+  "usage_cost": 0,
+  "limits": "Received API error completion, no valid action. Does not prove routing root cause or model behavior."
+}
