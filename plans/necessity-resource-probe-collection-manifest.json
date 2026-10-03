@@ -1,0 +1,3565 @@
+{
+  "stage": "prospective_supplement_not_collection_authorization",
+  "episodes": [
+    {
+      "model": "openai/gpt-6-astra",
+      "provider_tag": "openai",
+      "cell_id": "85e40d2764e9a10a84fd1442914faab73bac0a3ebae2eac839eb471516ec60fb",
+      "repetition": 0,
+      "episode_id": "d1eb1ae103d1b95d43ae7471150565e889b2b545be27af832b19a60bde8568e8",
+      "public_packet_sha256": "0d11bce529aced21a09e5941b10f48bda71f4d70e8093df736e8e68c5453055d",
+      "max_calls": 5
+    },
+    {
+      "model": "openai/gpt-6-astra",
+      "provider_tag": "openai",
+      "cell_id": "85e40d2764e9a10a84fd1442914faab73bac0a3ebae2eac839eb471516ec60fb",
+      "repetition": 1,
+      "episode_id": "bbbce1169e006eeee0fb904de25dad822f1c5a4110b6a52d15a099d3019a384e",
+      "public_packet_sha256": "0d11bce529aced21a09e5941b10f48bda71f4d70e8093df736e8e68c5453055d",
+      "max_calls": 5
+    },
+    {
+      "model": "openai/gpt-6-astra",
+      "provider_tag": "openai",
+      "cell_id": "85e40d2764e9a10a84fd1442914faab73bac0a3ebae2eac839eb471516ec60fb",
+      "repetition": 2,
+      "episode_id": "cc5574c0176ff68eb9a915df2a78b2b6c9711c33a95a2c3d2d92dadc59933fae",
+      "public_packet_sha256": "0d11bce529aced21a09e5941b10f48bda71f4d70e8093df736e8e68c5453055d",
+      "max_calls": 5
+    },
+    {
+      "model": "openai/gpt-6-astra",
+      "provider_tag": "openai",
+      "cell_id": "533eb677e358cbfda62073f36b10a651fcaf83973e7c75719740a583afc4395f",
+      "repetition": 0,
+      "episode_id": "c458ad03808f31e10a7738f9ed31b1ba60352c1f7a7873877da5bb26bc0f2a23",
+      "public_packet_sha256": "0d11bce529aced21a09e5941b10f48bda71f4d70e8093df736e8e68c5453055d",
+      "max_calls": 5
+    },
+    {
+      "model": "openai/gpt-6-astra",
+      "provider_tag": "openai",
+      "cell_id": "533eb677e358cbfda62073f36b10a651fcaf83973e7c75719740a583afc4395f",
+      "repetition": 1,
+      "episode_id": "b619bde83aa74f579e981991271de7dec6d20d7154a28e148e046b24cd8a0dca",
+      "public_packet_sha256": "0d11bce529aced21a09e5941b10f48bda71f4d70e8093df736e8e68c5453055d",
+      "max_calls": 5
+    },
+    {
+      "model": "openai/gpt-6-astra",
+      "provider_tag": "openai",
+      "cell_id": "533eb677e358cbfda62073f36b10a651fcaf83973e7c75719740a583afc4395f",
+      "repetition": 2,
+      "episode_id": "af1eb5a4978770b1aa4b34159bc7c4d8eac7d355bb09946701576c5ffb95e265",
+      "public_packet_sha256": "0d11bce529aced21a09e5941b10f48bda71f4d70e8093df736e8e68c5453055d",
+      "max_calls": 5
+    },
+    {
+      "model": "openai/gpt-6-astra",
+      "provider_tag": "openai",
+      "cell_id": "4a572d1565651ca6940d7b1f44999063677d6e37bbec9efe9ad169c11edbfa6d",
+      "repetition": 0,
+      "episode_id": "717e5b468690203d234de0cdc8ceb9bdd6e4a5df5f65bb80d02d95e6b0a0cd47",
+      "public_packet_sha256": "c4b4e7e4aba92fdff0979f4d4d104e32f95f94d91102ec691fe840e07ffb8011",
+      "max_calls": 5
+    },
+    {
+      "model": "openai/gpt-6-astra",
+      "provider_tag": "openai",
+      "cell_id": "4a572d1565651ca6940d7b1f44999063677d6e37bbec9efe9ad169c11edbfa6d",
+      "repetition": 1,
+      "episode_id": "161e1c21087a81ac36720d03ac4a88f4851c755cc76d4a021f98aab19a61ee11",
+      "public_packet_sha256": "c4b4e7e4aba92fdff0979f4d4d104e32f95f94d91102ec691fe840e07ffb8011",
+      "max_calls": 5
+    },
+    {
+      "model": "openai/gpt-6-astra",
+      "provider_tag": "openai",
+      "cell_id": "4a572d1565651ca6940d7b1f44999063677d6e37bbec9efe9ad169c11edbfa6d",
+      "repetition": 2,
+      "episode_id": "35eeb1cb3b49778369cd4c6da76162fc414385af4430a311d0706d15308ef4a9",
+      "public_packet_sha256": "c4b4e7e4aba92fdff0979f4d4d104e32f95f94d91102ec691fe840e07ffb8011",
+      "max_calls": 5
+    },
+    {
+      "model": "openai/gpt-6-astra",
+      "provider_tag": "openai",
+      "cell_id": "2a2154e7e997e768937869dfa3c9b68dcdc118ea097564f0477b4c5fe9707c3f",
+      "repetition": 0,
+      "episode_id": "4bef0def7cc161e6d73b31c4ecf644d5e247bbf90e1a95095f41133d5a1ca82b",
+      "public_packet_sha256": "c4b4e7e4aba92fdff0979f4d4d104e32f95f94d91102ec691fe840e07ffb8011",
+      "max_calls": 5
+    },
+    {
+      "model": "openai/gpt-6-astra",
+      "provider_tag": "openai",
+      "cell_id": "2a2154e7e997e768937869dfa3c9b68dcdc118ea097564f0477b4c5fe9707c3f",
+      "repetition": 1,
+      "episode_id": "321cb92ce697947d3bbd91b5a7de34a1414e02e867e62e8088951b22d68b23ee",
+      "public_packet_sha256": "c4b4e7e4aba92fdff0979f4d4d104e32f95f94d91102ec691fe840e07ffb8011",
+      "max_calls": 5
+    },
+    {
+      "model": "openai/gpt-6-astra",
+      "provider_tag": "openai",
+      "cell_id": "2a2154e7e997e768937869dfa3c9b68dcdc118ea097564f0477b4c5fe9707c3f",
+      "repetition": 2,
+      "episode_id": "6be2dcfadab825b9101b6df3b5fd85f99fbd28b47666007d517ca52d9144590f",
+      "public_packet_sha256": "c4b4e7e4aba92fdff0979f4d4d104e32f95f94d91102ec691fe840e07ffb8011",
+      "max_calls": 5
+    },
+    {
+      "model": "openai/gpt-6-astra",
+      "provider_tag": "openai",
+      "cell_id": "fee08e7f8657d28276581732e853b467a89d26b4cb60be9068ff5f44fbddcb12",
+      "repetition": 0,
+      "episode_id": "533c59c7676bde74137cea1b88597d552cf0f4f22d72531c879c309fab267ebd",
+      "public_packet_sha256": "5512800b65dd6ef878ac867289ff8e4e8d395caa9e5a1064b87da0083ddc4cb6",
+      "max_calls": 5
+    },
+    {
+      "model": "openai/gpt-6-astra",
+      "provider_tag": "openai",
+      "cell_id": "fee08e7f8657d28276581732e853b467a89d26b4cb60be9068ff5f44fbddcb12",
+      "repetition": 1,
+      "episode_id": "656c465bcf074c1b808b67c5ac77f2189ec12e65c0cd389010d3e997d1298381",
+      "public_packet_sha256": "5512800b65dd6ef878ac867289ff8e4e8d395caa9e5a1064b87da0083ddc4cb6",
+      "max_calls": 5
+    },
+    {
+      "model": "openai/gpt-6-astra",
+      "provider_tag": "openai",
+      "cell_id": "fee08e7f8657d28276581732e853b467a89d26b4cb60be9068ff5f44fbddcb12",
+      "repetition": 2,
+      "episode_id": "14f006efe21c8c98eac1123985ac13852ed5bbd722b5964b538282f759543a89",
+      "public_packet_sha256": "5512800b65dd6ef878ac867289ff8e4e8d395caa9e5a1064b87da0083ddc4cb6",
+      "max_calls": 5
+    },
+    {
+      "model": "openai/gpt-6-astra",
+      "provider_tag": "openai",
+      "cell_id": "6342816ac0ce97f977fb5ae9d46f0695c14a277df5adcbba76afa83f443d5724",
+      "repetition": 0,
+      "episode_id": "d864516cedb8181d6585670bd4b2507f39637de764fd29c54b2052705f96e035",
+      "public_packet_sha256": "5512800b65dd6ef878ac867289ff8e4e8d395caa9e5a1064b87da0083ddc4cb6",
+      "max_calls": 5
+    },
+    {
+      "model": "openai/gpt-6-astra",
+      "provider_tag": "openai",
+      "cell_id": "6342816ac0ce97f977fb5ae9d46f0695c14a277df5adcbba76afa83f443d5724",
+      "repetition": 1,
+      "episode_id": "c085a1addc364bfbc54e2f377a1c8579a583872bc52f49f8bfd205394684f41d",
+      "public_packet_sha256": "5512800b65dd6ef878ac867289ff8e4e8d395caa9e5a1064b87da0083ddc4cb6",
+      "max_calls": 5
+    },
+    {
+      "model": "openai/gpt-6-astra",
+      "provider_tag": "openai",
+      "cell_id": "6342816ac0ce97f977fb5ae9d46f0695c14a277df5adcbba76afa83f443d5724",
+      "repetition": 2,
+      "episode_id": "59536b31cf9f5f81d4ddcb79ddb4d7f8a2f7dccb87d5d542e56bb7f32818badb",
+      "public_packet_sha256": "5512800b65dd6ef878ac867289ff8e4e8d395caa9e5a1064b87da0083ddc4cb6",
+      "max_calls": 5
+    },
+    {
+      "model": "openai/gpt-6-astra",
+      "provider_tag": "openai",
+      "cell_id": "c6128d333bf334ee2765c7c72bcdf24a01e976ae448ab203245d460af374449d",
+      "repetition": 0,
+      "episode_id": "61a376424bcfced06a6e866a76e694596ffb944c7069dd9f2551e93efc962b6b",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "max_calls": 5
+    },
+    {
+      "model": "openai/gpt-6-astra",
+      "provider_tag": "openai",
+      "cell_id": "c6128d333bf334ee2765c7c72bcdf24a01e976ae448ab203245d460af374449d",
+      "repetition": 1,
+      "episode_id": "74464808f299b9fa00e945f59abcbe1ebbd0e6aed0a4205112cdf575997015b4",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "max_calls": 5
+    },
+    {
+      "model": "openai/gpt-6-astra",
+      "provider_tag": "openai",
+      "cell_id": "c6128d333bf334ee2765c7c72bcdf24a01e976ae448ab203245d460af374449d",
+      "repetition": 2,
+      "episode_id": "effbfa40f085adda188258314b7957018f6b339f7c93767938d918f436a530de",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "max_calls": 5
+    },
+    {
+      "model": "openai/gpt-6-astra",
+      "provider_tag": "openai",
+      "cell_id": "603e75161aa757145137d2f7332f303e86eace4e303aa9dc8f24a1fd1c2f43ab",
+      "repetition": 0,
+      "episode_id": "ac4505b5aa8cf07b65dba34151cef7e21e135986fa1fdfaade20c950016b6dee",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "max_calls": 5
+    },
+    {
+      "model": "openai/gpt-6-astra",
+      "provider_tag": "openai",
+      "cell_id": "603e75161aa757145137d2f7332f303e86eace4e303aa9dc8f24a1fd1c2f43ab",
+      "repetition": 1,
+      "episode_id": "39b03aa26380fff6a289dad660b300065680b01c13b9aa428eb2c95d68511096",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "max_calls": 5
+    },
+    {
+      "model": "openai/gpt-6-astra",
+      "provider_tag": "openai",
+      "cell_id": "603e75161aa757145137d2f7332f303e86eace4e303aa9dc8f24a1fd1c2f43ab",
+      "repetition": 2,
+      "episode_id": "fc8ce3dc28ffde938d0bc01cdd671456d685919ff2931fdbd2156cec8002b6b5",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "max_calls": 5
+    },
+    {
+      "model": "openai/gpt-6-astra",
+      "provider_tag": "openai",
+      "cell_id": "61c18fc6286d9072d4d44285b2aaf223e31524b24294934fa5d354d1af79430a",
+      "repetition": 0,
+      "episode_id": "a10ca9c4ce429646587a25c4035b587a90186cf25db7eae79f5ad9af6be03706",
+      "public_packet_sha256": "296efb3a22d29dd8bf872cf481ccd82aef215e8bacc8543caedd615b214e9867",
+      "max_calls": 5
+    },
+    {
+      "model": "openai/gpt-6-astra",
+      "provider_tag": "openai",
+      "cell_id": "61c18fc6286d9072d4d44285b2aaf223e31524b24294934fa5d354d1af79430a",
+      "repetition": 1,
+      "episode_id": "00674ed835273df5cfda0ed46f56cf5589f69ecd73e820d318bcd6ec93e0ec40",
+      "public_packet_sha256": "296efb3a22d29dd8bf872cf481ccd82aef215e8bacc8543caedd615b214e9867",
+      "max_calls": 5
+    },
+    {
+      "model": "openai/gpt-6-astra",
+      "provider_tag": "openai",
+      "cell_id": "61c18fc6286d9072d4d44285b2aaf223e31524b24294934fa5d354d1af79430a",
+      "repetition": 2,
+      "episode_id": "058668783ac9d3ea4b5d0d919b14b3f33098b2d52de15ecd06b2bf9561f66f59",
+      "public_packet_sha256": "296efb3a22d29dd8bf872cf481ccd82aef215e8bacc8543caedd615b214e9867",
+      "max_calls": 5
+    },
+    {
+      "model": "openai/gpt-6-astra",
+      "provider_tag": "openai",
+      "cell_id": "b70baebd3fefda62fa1ccf62cba31fb0d01ccb9d11893568a2735bf633405937",
+      "repetition": 0,
+      "episode_id": "c2bce4aab4b7b18d487f14322182ebf083acd2bbac856bd77e4fb3674dee0607",
+      "public_packet_sha256": "296efb3a22d29dd8bf872cf481ccd82aef215e8bacc8543caedd615b214e9867",
+      "max_calls": 5
+    },
+    {
+      "model": "openai/gpt-6-astra",
+      "provider_tag": "openai",
+      "cell_id": "b70baebd3fefda62fa1ccf62cba31fb0d01ccb9d11893568a2735bf633405937",
+      "repetition": 1,
+      "episode_id": "d4b680ccb78ffd50123464fa828252d9711c0b67692734582dfa89c9d160e786",
+      "public_packet_sha256": "296efb3a22d29dd8bf872cf481ccd82aef215e8bacc8543caedd615b214e9867",
+      "max_calls": 5
+    },
+    {
+      "model": "openai/gpt-6-astra",
+      "provider_tag": "openai",
+      "cell_id": "b70baebd3fefda62fa1ccf62cba31fb0d01ccb9d11893568a2735bf633405937",
+      "repetition": 2,
+      "episode_id": "99016a3ae1d1d3808d70b6e64a680688900df5253433cf3768de3704b896817c",
+      "public_packet_sha256": "296efb3a22d29dd8bf872cf481ccd82aef215e8bacc8543caedd615b214e9867",
+      "max_calls": 5
+    },
+    {
+      "model": "openai/gpt-6-astra",
+      "provider_tag": "openai",
+      "cell_id": "18c9d19456e0f34f171a05b24161beb0806fcd48592007fee49281ebdca8044d",
+      "repetition": 0,
+      "episode_id": "fdaa82f022f0c4415fc5aa27fd8d760199f54cf1b810d1effebd4f00f7834989",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "max_calls": 5
+    },
+    {
+      "model": "openai/gpt-6-astra",
+      "provider_tag": "openai",
+      "cell_id": "18c9d19456e0f34f171a05b24161beb0806fcd48592007fee49281ebdca8044d",
+      "repetition": 1,
+      "episode_id": "94165eeb1e2059974cc5aeca628da665edd4e92af446ddbdd1beedce63bbf1d7",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "max_calls": 5
+    },
+    {
+      "model": "openai/gpt-6-astra",
+      "provider_tag": "openai",
+      "cell_id": "18c9d19456e0f34f171a05b24161beb0806fcd48592007fee49281ebdca8044d",
+      "repetition": 2,
+      "episode_id": "026df60efd0746e95d922e77216a7d6a799b607cfa76844fd28faefcd7c17ced",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "max_calls": 5
+    },
+    {
+      "model": "openai/gpt-6-astra",
+      "provider_tag": "openai",
+      "cell_id": "2e67681b511c67c4b591b1f0b189ae636863ef8d7c1261e9e16a3a0abe71a06e",
+      "repetition": 0,
+      "episode_id": "a5344114e6efaa647c9ff9e1ad7ab77bb1ebac44b7a9bc1950011e68790cfc48",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "max_calls": 5
+    },
+    {
+      "model": "openai/gpt-6-astra",
+      "provider_tag": "openai",
+      "cell_id": "2e67681b511c67c4b591b1f0b189ae636863ef8d7c1261e9e16a3a0abe71a06e",
+      "repetition": 1,
+      "episode_id": "5d41205694d1dcefe1b07cc07c41f2e62d1d7339ae2217a571d1f06f164127e3",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "max_calls": 5
+    },
+    {
+      "model": "openai/gpt-6-astra",
+      "provider_tag": "openai",
+      "cell_id": "2e67681b511c67c4b591b1f0b189ae636863ef8d7c1261e9e16a3a0abe71a06e",
+      "repetition": 2,
+      "episode_id": "5cf9a5d09d186a1f35f3d7f70160dbf0b52ea34d0aa37d2d179724b246394690",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "max_calls": 5
+    },
+    {
+      "model": "openai/gpt-6-astra",
+      "provider_tag": "openai",
+      "cell_id": "e234c9291aa586947aee4721baadc1556c8c9ff2615600052d11d11b24989b11",
+      "repetition": 0,
+      "episode_id": "506c15aa8528f2fd3bc14d6b22ae78638cfd2a8ebd985d5d5cf824b372c5a14d",
+      "public_packet_sha256": "50bb9543f02453dab90aaf096c9ad02ed8220ddbd881e525fd794ba38e59dd09",
+      "max_calls": 5
+    },
+    {
+      "model": "openai/gpt-6-astra",
+      "provider_tag": "openai",
+      "cell_id": "e234c9291aa586947aee4721baadc1556c8c9ff2615600052d11d11b24989b11",
+      "repetition": 1,
+      "episode_id": "33e3506584fdb54cf175585918756667e5606d0732055e527374ee0392ce87b7",
+      "public_packet_sha256": "50bb9543f02453dab90aaf096c9ad02ed8220ddbd881e525fd794ba38e59dd09",
+      "max_calls": 5
+    },
+    {
+      "model": "openai/gpt-6-astra",
+      "provider_tag": "openai",
+      "cell_id": "e234c9291aa586947aee4721baadc1556c8c9ff2615600052d11d11b24989b11",
+      "repetition": 2,
+      "episode_id": "966d6a55ba4051e6b6587b2a7301d9c43e3de4b6559ebc2cc11da9509064fc0a",
+      "public_packet_sha256": "50bb9543f02453dab90aaf096c9ad02ed8220ddbd881e525fd794ba38e59dd09",
+      "max_calls": 5
+    },
+    {
+      "model": "openai/gpt-6-astra",
+      "provider_tag": "openai",
+      "cell_id": "73203187f9990981e9c430c3825ca05ccee76210a9c63847c7ff9fe1a073f990",
+      "repetition": 0,
+      "episode_id": "4d5abb904af5ed13031895979a688b27a6c04e8ac3a886f311d6388d99111f41",
+      "public_packet_sha256": "50bb9543f02453dab90aaf096c9ad02ed8220ddbd881e525fd794ba38e59dd09",
+      "max_calls": 5
+    },
+    {
+      "model": "openai/gpt-6-astra",
+      "provider_tag": "openai",
+      "cell_id": "73203187f9990981e9c430c3825ca05ccee76210a9c63847c7ff9fe1a073f990",
+      "repetition": 1,
+      "episode_id": "e2d8c6fd0ac70de1757aeab903f5cd8bd80ce0f5f3b87263d795a759689cc746",
+      "public_packet_sha256": "50bb9543f02453dab90aaf096c9ad02ed8220ddbd881e525fd794ba38e59dd09",
+      "max_calls": 5
+    },
+    {
+      "model": "openai/gpt-6-astra",
+      "provider_tag": "openai",
+      "cell_id": "73203187f9990981e9c430c3825ca05ccee76210a9c63847c7ff9fe1a073f990",
+      "repetition": 2,
+      "episode_id": "e82ba46d9b8537006918e508af276c1ad8cce8adf075348629c46372eb827a4e",
+      "public_packet_sha256": "50bb9543f02453dab90aaf096c9ad02ed8220ddbd881e525fd794ba38e59dd09",
+      "max_calls": 5
+    },
+    {
+      "model": "openai/gpt-6-astra",
+      "provider_tag": "openai",
+      "cell_id": "8747feb36682bd43ba3cba26f0a7c5c4acb4f6bc2e8603f48ed4ae2c401117f8",
+      "repetition": 0,
+      "episode_id": "964fe3afdfba32808b02919123736f14aa1846c3a11caba27c1974e1aea4e98b",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "max_calls": 5
+    },
+    {
+      "model": "openai/gpt-6-astra",
+      "provider_tag": "openai",
+      "cell_id": "8747feb36682bd43ba3cba26f0a7c5c4acb4f6bc2e8603f48ed4ae2c401117f8",
+      "repetition": 1,
+      "episode_id": "2f815404d02aece6af27513a74be1eb69a96e792bdee7801332d2806fd822a5c",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "max_calls": 5
+    },
+    {
+      "model": "openai/gpt-6-astra",
+      "provider_tag": "openai",
+      "cell_id": "8747feb36682bd43ba3cba26f0a7c5c4acb4f6bc2e8603f48ed4ae2c401117f8",
+      "repetition": 2,
+      "episode_id": "b3c0c5ffadc759bd07af55efa697e7685a909db4afb98ec25fb635cdd7a57d5b",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "max_calls": 5
+    },
+    {
+      "model": "openai/gpt-6-astra",
+      "provider_tag": "openai",
+      "cell_id": "ac78c3eda17c5ea11fe91cf79f8ec0e4e9be7e9e296ecbb4bf2ece97e6ad40ef",
+      "repetition": 0,
+      "episode_id": "f1783bcf7f7db1f9ca729ac103c53793d45be6ca4cd81a737bfcf4ea8f54c648",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "max_calls": 5
+    },
+    {
+      "model": "openai/gpt-6-astra",
+      "provider_tag": "openai",
+      "cell_id": "ac78c3eda17c5ea11fe91cf79f8ec0e4e9be7e9e296ecbb4bf2ece97e6ad40ef",
+      "repetition": 1,
+      "episode_id": "2d77b576c740043c6f69375483d62e9d956682321dd83081f867ac817751d061",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "max_calls": 5
+    },
+    {
+      "model": "openai/gpt-6-astra",
+      "provider_tag": "openai",
+      "cell_id": "ac78c3eda17c5ea11fe91cf79f8ec0e4e9be7e9e296ecbb4bf2ece97e6ad40ef",
+      "repetition": 2,
+      "episode_id": "9fe85b8e0046619103232149c4d05c38f91fc7f42a7c824f782f021ac5705a5b",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "max_calls": 5
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "provider_tag": "azure/global",
+      "cell_id": "85e40d2764e9a10a84fd1442914faab73bac0a3ebae2eac839eb471516ec60fb",
+      "repetition": 0,
+      "episode_id": "7e85691e0621a073776f74a3ee5472a9769b60a1bc6ad8d5136aa98a5bc7d1ad",
+      "public_packet_sha256": "0d11bce529aced21a09e5941b10f48bda71f4d70e8093df736e8e68c5453055d",
+      "max_calls": 5
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "provider_tag": "azure/global",
+      "cell_id": "85e40d2764e9a10a84fd1442914faab73bac0a3ebae2eac839eb471516ec60fb",
+      "repetition": 1,
+      "episode_id": "76f98f13fafa569d17081f6eae705140f44a570b2690903627ff44f06edaa44a",
+      "public_packet_sha256": "0d11bce529aced21a09e5941b10f48bda71f4d70e8093df736e8e68c5453055d",
+      "max_calls": 5
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "provider_tag": "azure/global",
+      "cell_id": "85e40d2764e9a10a84fd1442914faab73bac0a3ebae2eac839eb471516ec60fb",
+      "repetition": 2,
+      "episode_id": "af1f223dc454ccdc55cfc8fd2f5871a8ff1ef9e0e713acf69d1ac5379524984f",
+      "public_packet_sha256": "0d11bce529aced21a09e5941b10f48bda71f4d70e8093df736e8e68c5453055d",
+      "max_calls": 5
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "provider_tag": "azure/global",
+      "cell_id": "533eb677e358cbfda62073f36b10a651fcaf83973e7c75719740a583afc4395f",
+      "repetition": 0,
+      "episode_id": "1872582abec78dd52c4c19de05381927a57496b7fd9b65bf3974a34056498870",
+      "public_packet_sha256": "0d11bce529aced21a09e5941b10f48bda71f4d70e8093df736e8e68c5453055d",
+      "max_calls": 5
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "provider_tag": "azure/global",
+      "cell_id": "533eb677e358cbfda62073f36b10a651fcaf83973e7c75719740a583afc4395f",
+      "repetition": 1,
+      "episode_id": "144925e584b81b052c22015cc7311ae98ecc7bc6de0b4b0b289840b43e222342",
+      "public_packet_sha256": "0d11bce529aced21a09e5941b10f48bda71f4d70e8093df736e8e68c5453055d",
+      "max_calls": 5
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "provider_tag": "azure/global",
+      "cell_id": "533eb677e358cbfda62073f36b10a651fcaf83973e7c75719740a583afc4395f",
+      "repetition": 2,
+      "episode_id": "4866e2ab3ac9254a81051b0e90d47c5ea8c9703e7069c9cb76ceb16ae12521cc",
+      "public_packet_sha256": "0d11bce529aced21a09e5941b10f48bda71f4d70e8093df736e8e68c5453055d",
+      "max_calls": 5
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "provider_tag": "azure/global",
+      "cell_id": "4a572d1565651ca6940d7b1f44999063677d6e37bbec9efe9ad169c11edbfa6d",
+      "repetition": 0,
+      "episode_id": "0600feb6983ba8126572e0f2871f2ab28159784c5a619c4a75b77db454f30e13",
+      "public_packet_sha256": "c4b4e7e4aba92fdff0979f4d4d104e32f95f94d91102ec691fe840e07ffb8011",
+      "max_calls": 5
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "provider_tag": "azure/global",
+      "cell_id": "4a572d1565651ca6940d7b1f44999063677d6e37bbec9efe9ad169c11edbfa6d",
+      "repetition": 1,
+      "episode_id": "effef11d33b6eb6855d6a06eb77de12d77876cf49fdcca8d734d32f7f9a5f4b3",
+      "public_packet_sha256": "c4b4e7e4aba92fdff0979f4d4d104e32f95f94d91102ec691fe840e07ffb8011",
+      "max_calls": 5
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "provider_tag": "azure/global",
+      "cell_id": "4a572d1565651ca6940d7b1f44999063677d6e37bbec9efe9ad169c11edbfa6d",
+      "repetition": 2,
+      "episode_id": "3221dec9f29450ef71f7f8ee64838f3208f45a88943ab857470d662f6722019b",
+      "public_packet_sha256": "c4b4e7e4aba92fdff0979f4d4d104e32f95f94d91102ec691fe840e07ffb8011",
+      "max_calls": 5
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "provider_tag": "azure/global",
+      "cell_id": "2a2154e7e997e768937869dfa3c9b68dcdc118ea097564f0477b4c5fe9707c3f",
+      "repetition": 0,
+      "episode_id": "3ea65ac2fefe6770620d9865fc6812a0613ac4c724e38f6fb0636072661b163e",
+      "public_packet_sha256": "c4b4e7e4aba92fdff0979f4d4d104e32f95f94d91102ec691fe840e07ffb8011",
+      "max_calls": 5
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "provider_tag": "azure/global",
+      "cell_id": "2a2154e7e997e768937869dfa3c9b68dcdc118ea097564f0477b4c5fe9707c3f",
+      "repetition": 1,
+      "episode_id": "bc47826607d2a475e5c4d301b69fd3428b28727eb77f193ad7fad4f0d2c840f8",
+      "public_packet_sha256": "c4b4e7e4aba92fdff0979f4d4d104e32f95f94d91102ec691fe840e07ffb8011",
+      "max_calls": 5
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "provider_tag": "azure/global",
+      "cell_id": "2a2154e7e997e768937869dfa3c9b68dcdc118ea097564f0477b4c5fe9707c3f",
+      "repetition": 2,
+      "episode_id": "d5e9b823dd052739c0eff9d0c45f20096cc069430ec8943c2f4630c00a07c4cc",
+      "public_packet_sha256": "c4b4e7e4aba92fdff0979f4d4d104e32f95f94d91102ec691fe840e07ffb8011",
+      "max_calls": 5
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "provider_tag": "azure/global",
+      "cell_id": "fee08e7f8657d28276581732e853b467a89d26b4cb60be9068ff5f44fbddcb12",
+      "repetition": 0,
+      "episode_id": "52ee2413a0a04c6c9f78c0548b5e98ce1c56e8390d836df47741b7e7f3a4ad23",
+      "public_packet_sha256": "5512800b65dd6ef878ac867289ff8e4e8d395caa9e5a1064b87da0083ddc4cb6",
+      "max_calls": 5
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "provider_tag": "azure/global",
+      "cell_id": "fee08e7f8657d28276581732e853b467a89d26b4cb60be9068ff5f44fbddcb12",
+      "repetition": 1,
+      "episode_id": "f90db32bddafb4f88287722bd2734a709823a14f1346ecb71c3944d72470dcd6",
+      "public_packet_sha256": "5512800b65dd6ef878ac867289ff8e4e8d395caa9e5a1064b87da0083ddc4cb6",
+      "max_calls": 5
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "provider_tag": "azure/global",
+      "cell_id": "fee08e7f8657d28276581732e853b467a89d26b4cb60be9068ff5f44fbddcb12",
+      "repetition": 2,
+      "episode_id": "25d51c213d738314b8ac99c8e5796c4f96995821af7d9f74e95d52e0b12e0056",
+      "public_packet_sha256": "5512800b65dd6ef878ac867289ff8e4e8d395caa9e5a1064b87da0083ddc4cb6",
+      "max_calls": 5
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "provider_tag": "azure/global",
+      "cell_id": "6342816ac0ce97f977fb5ae9d46f0695c14a277df5adcbba76afa83f443d5724",
+      "repetition": 0,
+      "episode_id": "c35254a67ebd2b83faba02e3cda16e671fb808d10ec84dc263d47a4e6372d86e",
+      "public_packet_sha256": "5512800b65dd6ef878ac867289ff8e4e8d395caa9e5a1064b87da0083ddc4cb6",
+      "max_calls": 5
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "provider_tag": "azure/global",
+      "cell_id": "6342816ac0ce97f977fb5ae9d46f0695c14a277df5adcbba76afa83f443d5724",
+      "repetition": 1,
+      "episode_id": "1e2f81585eba50f7edc93794ba53a1990bfd1b36bf72f7a137aa5bd451f758df",
+      "public_packet_sha256": "5512800b65dd6ef878ac867289ff8e4e8d395caa9e5a1064b87da0083ddc4cb6",
+      "max_calls": 5
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "provider_tag": "azure/global",
+      "cell_id": "6342816ac0ce97f977fb5ae9d46f0695c14a277df5adcbba76afa83f443d5724",
+      "repetition": 2,
+      "episode_id": "a4b378ca883718ed252fe913a1d8592b69eaeca48f7cd8926f7732c019bd3886",
+      "public_packet_sha256": "5512800b65dd6ef878ac867289ff8e4e8d395caa9e5a1064b87da0083ddc4cb6",
+      "max_calls": 5
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "provider_tag": "azure/global",
+      "cell_id": "c6128d333bf334ee2765c7c72bcdf24a01e976ae448ab203245d460af374449d",
+      "repetition": 0,
+      "episode_id": "38d802da615afc93efd7c88c0001910c0e65f1f82ede592218bffde1cf841f5a",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "max_calls": 5
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "provider_tag": "azure/global",
+      "cell_id": "c6128d333bf334ee2765c7c72bcdf24a01e976ae448ab203245d460af374449d",
+      "repetition": 1,
+      "episode_id": "fb8836704ed3c6d90f852a9194db69a76cfe00a91df91bf1966c491d1dde9cf8",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "max_calls": 5
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "provider_tag": "azure/global",
+      "cell_id": "c6128d333bf334ee2765c7c72bcdf24a01e976ae448ab203245d460af374449d",
+      "repetition": 2,
+      "episode_id": "3508ee34266568152ab02999a690a0a34261a473bb38be2337a55b5590f098ef",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "max_calls": 5
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "provider_tag": "azure/global",
+      "cell_id": "603e75161aa757145137d2f7332f303e86eace4e303aa9dc8f24a1fd1c2f43ab",
+      "repetition": 0,
+      "episode_id": "a01ab3ebed4876adc90e233de1814daffb129d0a668bbb462ef568a87add4c17",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "max_calls": 5
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "provider_tag": "azure/global",
+      "cell_id": "603e75161aa757145137d2f7332f303e86eace4e303aa9dc8f24a1fd1c2f43ab",
+      "repetition": 1,
+      "episode_id": "ae2a75ae619a175c7ab965f907274ef64a115b5ee6f1bb8a47cfdfc9e968c892",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "max_calls": 5
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "provider_tag": "azure/global",
+      "cell_id": "603e75161aa757145137d2f7332f303e86eace4e303aa9dc8f24a1fd1c2f43ab",
+      "repetition": 2,
+      "episode_id": "a4cd680b802cb43970246d816b3ad0e07af045e8dcb0e2a470555efe1906dde7",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "max_calls": 5
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "provider_tag": "azure/global",
+      "cell_id": "61c18fc6286d9072d4d44285b2aaf223e31524b24294934fa5d354d1af79430a",
+      "repetition": 0,
+      "episode_id": "e5f527994829c12591df0697a828084ef14c87b1dd78a89c2e107e9226fb26e7",
+      "public_packet_sha256": "296efb3a22d29dd8bf872cf481ccd82aef215e8bacc8543caedd615b214e9867",
+      "max_calls": 5
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "provider_tag": "azure/global",
+      "cell_id": "61c18fc6286d9072d4d44285b2aaf223e31524b24294934fa5d354d1af79430a",
+      "repetition": 1,
+      "episode_id": "1b67c3970cf5d4a314294ecb33c51cc995eb15ddd4ba72a537a91e201c0bf98a",
+      "public_packet_sha256": "296efb3a22d29dd8bf872cf481ccd82aef215e8bacc8543caedd615b214e9867",
+      "max_calls": 5
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "provider_tag": "azure/global",
+      "cell_id": "61c18fc6286d9072d4d44285b2aaf223e31524b24294934fa5d354d1af79430a",
+      "repetition": 2,
+      "episode_id": "c65c3b3be3b851578fab5665474b26417bf4c43c5c1252dd8dc573c01bbaf100",
+      "public_packet_sha256": "296efb3a22d29dd8bf872cf481ccd82aef215e8bacc8543caedd615b214e9867",
+      "max_calls": 5
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "provider_tag": "azure/global",
+      "cell_id": "b70baebd3fefda62fa1ccf62cba31fb0d01ccb9d11893568a2735bf633405937",
+      "repetition": 0,
+      "episode_id": "dde9141cd785975ad3c3cede265c4d7ba048aaa04e993c393e4682de1c0576f5",
+      "public_packet_sha256": "296efb3a22d29dd8bf872cf481ccd82aef215e8bacc8543caedd615b214e9867",
+      "max_calls": 5
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "provider_tag": "azure/global",
+      "cell_id": "b70baebd3fefda62fa1ccf62cba31fb0d01ccb9d11893568a2735bf633405937",
+      "repetition": 1,
+      "episode_id": "a547b335d825dec249806ae2b88939022bdcfa94999e27ce9ccf5dca01084ccd",
+      "public_packet_sha256": "296efb3a22d29dd8bf872cf481ccd82aef215e8bacc8543caedd615b214e9867",
+      "max_calls": 5
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "provider_tag": "azure/global",
+      "cell_id": "b70baebd3fefda62fa1ccf62cba31fb0d01ccb9d11893568a2735bf633405937",
+      "repetition": 2,
+      "episode_id": "c54ec3ae90ecaa7594ac64660afbf6ceab6f14dc71d2177de5006968f54dccb4",
+      "public_packet_sha256": "296efb3a22d29dd8bf872cf481ccd82aef215e8bacc8543caedd615b214e9867",
+      "max_calls": 5
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "provider_tag": "azure/global",
+      "cell_id": "18c9d19456e0f34f171a05b24161beb0806fcd48592007fee49281ebdca8044d",
+      "repetition": 0,
+      "episode_id": "091ca27bdedf7225d1cb7159acc3a936da10ee9d4b9a396f9d3dead955a24015",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "max_calls": 5
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "provider_tag": "azure/global",
+      "cell_id": "18c9d19456e0f34f171a05b24161beb0806fcd48592007fee49281ebdca8044d",
+      "repetition": 1,
+      "episode_id": "a20f16fe1dab05c7cd0213e58335ff32acf7473974e96450347c375231683518",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "max_calls": 5
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "provider_tag": "azure/global",
+      "cell_id": "18c9d19456e0f34f171a05b24161beb0806fcd48592007fee49281ebdca8044d",
+      "repetition": 2,
+      "episode_id": "5a1fdb9f0cb8c6182c61b66690966d6a0fbb60fe182406dfc3bc21f2395d6d6d",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "max_calls": 5
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "provider_tag": "azure/global",
+      "cell_id": "2e67681b511c67c4b591b1f0b189ae636863ef8d7c1261e9e16a3a0abe71a06e",
+      "repetition": 0,
+      "episode_id": "db3e4e7e548d8c4caf4476d3c58fbba82d1252f7e18b95dc21fc61942c4ac387",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "max_calls": 5
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "provider_tag": "azure/global",
+      "cell_id": "2e67681b511c67c4b591b1f0b189ae636863ef8d7c1261e9e16a3a0abe71a06e",
+      "repetition": 1,
+      "episode_id": "333764e4628f34808f3836c7db4b3eed1675bd50dd256aeaf8eec7052af731a1",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "max_calls": 5
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "provider_tag": "azure/global",
+      "cell_id": "2e67681b511c67c4b591b1f0b189ae636863ef8d7c1261e9e16a3a0abe71a06e",
+      "repetition": 2,
+      "episode_id": "3d21d358e161603fa4261c2e02960b1ebcca1ef4512cdb70603fe60eb9793460",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "max_calls": 5
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "provider_tag": "azure/global",
+      "cell_id": "e234c9291aa586947aee4721baadc1556c8c9ff2615600052d11d11b24989b11",
+      "repetition": 0,
+      "episode_id": "2124ab71b41b7f0e656c947b9fcb222e6735985f3ad93e7b474e62aff02645d9",
+      "public_packet_sha256": "50bb9543f02453dab90aaf096c9ad02ed8220ddbd881e525fd794ba38e59dd09",
+      "max_calls": 5
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "provider_tag": "azure/global",
+      "cell_id": "e234c9291aa586947aee4721baadc1556c8c9ff2615600052d11d11b24989b11",
+      "repetition": 1,
+      "episode_id": "8796732fcae5694af20795398ced8b0d66c7adfb441b9f6435bd008de0f74584",
+      "public_packet_sha256": "50bb9543f02453dab90aaf096c9ad02ed8220ddbd881e525fd794ba38e59dd09",
+      "max_calls": 5
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "provider_tag": "azure/global",
+      "cell_id": "e234c9291aa586947aee4721baadc1556c8c9ff2615600052d11d11b24989b11",
+      "repetition": 2,
+      "episode_id": "376f5cf9464daf97036c5c9c974e8dc883552b5a44df0ac19f2d8c1a70fd49c9",
+      "public_packet_sha256": "50bb9543f02453dab90aaf096c9ad02ed8220ddbd881e525fd794ba38e59dd09",
+      "max_calls": 5
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "provider_tag": "azure/global",
+      "cell_id": "73203187f9990981e9c430c3825ca05ccee76210a9c63847c7ff9fe1a073f990",
+      "repetition": 0,
+      "episode_id": "3d75bbebf6e01f9af85c07100808da57775fbcbdd11559e96ae705e366436335",
+      "public_packet_sha256": "50bb9543f02453dab90aaf096c9ad02ed8220ddbd881e525fd794ba38e59dd09",
+      "max_calls": 5
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "provider_tag": "azure/global",
+      "cell_id": "73203187f9990981e9c430c3825ca05ccee76210a9c63847c7ff9fe1a073f990",
+      "repetition": 1,
+      "episode_id": "918e8d9a40503f4f2aabf2fe549d634f704a3a8623a392e53ab9d5d9fe00c1ab",
+      "public_packet_sha256": "50bb9543f02453dab90aaf096c9ad02ed8220ddbd881e525fd794ba38e59dd09",
+      "max_calls": 5
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "provider_tag": "azure/global",
+      "cell_id": "73203187f9990981e9c430c3825ca05ccee76210a9c63847c7ff9fe1a073f990",
+      "repetition": 2,
+      "episode_id": "9578c5a25a0bbb4485c89cc27499a7440bc6fd8d313ef4bb7ca6bf44ec119f5c",
+      "public_packet_sha256": "50bb9543f02453dab90aaf096c9ad02ed8220ddbd881e525fd794ba38e59dd09",
+      "max_calls": 5
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "provider_tag": "azure/global",
+      "cell_id": "8747feb36682bd43ba3cba26f0a7c5c4acb4f6bc2e8603f48ed4ae2c401117f8",
+      "repetition": 0,
+      "episode_id": "2a6caf8eac56b99acd265d141ed2eb70962491f4d1f6527b5c0452a2dda9d057",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "max_calls": 5
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "provider_tag": "azure/global",
+      "cell_id": "8747feb36682bd43ba3cba26f0a7c5c4acb4f6bc2e8603f48ed4ae2c401117f8",
+      "repetition": 1,
+      "episode_id": "267ae5c22d519a356a8d4925e5c34e029a3580995288c7358c60010f2ed7a79c",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "max_calls": 5
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "provider_tag": "azure/global",
+      "cell_id": "8747feb36682bd43ba3cba26f0a7c5c4acb4f6bc2e8603f48ed4ae2c401117f8",
+      "repetition": 2,
+      "episode_id": "b3ad3872fc8deeba19311c0b9ed8920532e636837430a4deb1bb7af8841ff8b8",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "max_calls": 5
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "provider_tag": "azure/global",
+      "cell_id": "ac78c3eda17c5ea11fe91cf79f8ec0e4e9be7e9e296ecbb4bf2ece97e6ad40ef",
+      "repetition": 0,
+      "episode_id": "31924325dae0db1f0feb04024dd70bc44ae99e12c31078a30f7d0b90bf04af48",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "max_calls": 5
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "provider_tag": "azure/global",
+      "cell_id": "ac78c3eda17c5ea11fe91cf79f8ec0e4e9be7e9e296ecbb4bf2ece97e6ad40ef",
+      "repetition": 1,
+      "episode_id": "803de8c0a255ea4ebbeae817675b97fca898521d56404bc0bfc6219204821c3a",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "max_calls": 5
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "provider_tag": "azure/global",
+      "cell_id": "ac78c3eda17c5ea11fe91cf79f8ec0e4e9be7e9e296ecbb4bf2ece97e6ad40ef",
+      "repetition": 2,
+      "episode_id": "727ba888fc920d14aa95060e6b104b3b3d9a3f63b45b59521785bbe849c27d17",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "max_calls": 5
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "provider_tag": "google-ai-studio",
+      "cell_id": "85e40d2764e9a10a84fd1442914faab73bac0a3ebae2eac839eb471516ec60fb",
+      "repetition": 0,
+      "episode_id": "5cf900a1cd7b811498666846cd55e72ed91f6e235f2eb111de26940e1348e9c4",
+      "public_packet_sha256": "0d11bce529aced21a09e5941b10f48bda71f4d70e8093df736e8e68c5453055d",
+      "max_calls": 5
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "provider_tag": "google-ai-studio",
+      "cell_id": "85e40d2764e9a10a84fd1442914faab73bac0a3ebae2eac839eb471516ec60fb",
+      "repetition": 1,
+      "episode_id": "6a6604b469260db5be3dc41b2a1f29b3f06a5d0f6f62cc0058b8f22d37b7c5fa",
+      "public_packet_sha256": "0d11bce529aced21a09e5941b10f48bda71f4d70e8093df736e8e68c5453055d",
+      "max_calls": 5
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "provider_tag": "google-ai-studio",
+      "cell_id": "85e40d2764e9a10a84fd1442914faab73bac0a3ebae2eac839eb471516ec60fb",
+      "repetition": 2,
+      "episode_id": "4e200e84287271edfdedfadde01f38bfa631c172a253356bcff7a2845746a08d",
+      "public_packet_sha256": "0d11bce529aced21a09e5941b10f48bda71f4d70e8093df736e8e68c5453055d",
+      "max_calls": 5
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "provider_tag": "google-ai-studio",
+      "cell_id": "533eb677e358cbfda62073f36b10a651fcaf83973e7c75719740a583afc4395f",
+      "repetition": 0,
+      "episode_id": "e24c495135ddde364502a9937807665fe2eb04f46186f638bcc2b1373d8f93fc",
+      "public_packet_sha256": "0d11bce529aced21a09e5941b10f48bda71f4d70e8093df736e8e68c5453055d",
+      "max_calls": 5
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "provider_tag": "google-ai-studio",
+      "cell_id": "533eb677e358cbfda62073f36b10a651fcaf83973e7c75719740a583afc4395f",
+      "repetition": 1,
+      "episode_id": "e046d66248c3b759a4ec2e189769b0a1771cfe5940e663a0bf8f7399cf292bd7",
+      "public_packet_sha256": "0d11bce529aced21a09e5941b10f48bda71f4d70e8093df736e8e68c5453055d",
+      "max_calls": 5
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "provider_tag": "google-ai-studio",
+      "cell_id": "533eb677e358cbfda62073f36b10a651fcaf83973e7c75719740a583afc4395f",
+      "repetition": 2,
+      "episode_id": "0e1942a669adc1f53d5fcdc34b28e8f426e1bd43f7f941d0c5d3f4fcbf13772b",
+      "public_packet_sha256": "0d11bce529aced21a09e5941b10f48bda71f4d70e8093df736e8e68c5453055d",
+      "max_calls": 5
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "provider_tag": "google-ai-studio",
+      "cell_id": "4a572d1565651ca6940d7b1f44999063677d6e37bbec9efe9ad169c11edbfa6d",
+      "repetition": 0,
+      "episode_id": "0a4281cf937a86771f17cf5d70941d9e86e96dd3597adea5ea8d69567529688d",
+      "public_packet_sha256": "c4b4e7e4aba92fdff0979f4d4d104e32f95f94d91102ec691fe840e07ffb8011",
+      "max_calls": 5
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "provider_tag": "google-ai-studio",
+      "cell_id": "4a572d1565651ca6940d7b1f44999063677d6e37bbec9efe9ad169c11edbfa6d",
+      "repetition": 1,
+      "episode_id": "dccbede495a286868d110627cfa208d886e5d53dd9571c4ca24da0153222b7c0",
+      "public_packet_sha256": "c4b4e7e4aba92fdff0979f4d4d104e32f95f94d91102ec691fe840e07ffb8011",
+      "max_calls": 5
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "provider_tag": "google-ai-studio",
+      "cell_id": "4a572d1565651ca6940d7b1f44999063677d6e37bbec9efe9ad169c11edbfa6d",
+      "repetition": 2,
+      "episode_id": "e834f2bcbd169c31770cd51e54765d134faf31c51ece3fc8b4b2cafbbde8ca4f",
+      "public_packet_sha256": "c4b4e7e4aba92fdff0979f4d4d104e32f95f94d91102ec691fe840e07ffb8011",
+      "max_calls": 5
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "provider_tag": "google-ai-studio",
+      "cell_id": "2a2154e7e997e768937869dfa3c9b68dcdc118ea097564f0477b4c5fe9707c3f",
+      "repetition": 0,
+      "episode_id": "b69b7f2ada57718962c2a4dd99a4403a2106815d99546e1507c73097c0caa948",
+      "public_packet_sha256": "c4b4e7e4aba92fdff0979f4d4d104e32f95f94d91102ec691fe840e07ffb8011",
+      "max_calls": 5
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "provider_tag": "google-ai-studio",
+      "cell_id": "2a2154e7e997e768937869dfa3c9b68dcdc118ea097564f0477b4c5fe9707c3f",
+      "repetition": 1,
+      "episode_id": "9720305b6333099ea7fc699653ce03eed409aaa61732e1ab8b5702f64a32e58e",
+      "public_packet_sha256": "c4b4e7e4aba92fdff0979f4d4d104e32f95f94d91102ec691fe840e07ffb8011",
+      "max_calls": 5
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "provider_tag": "google-ai-studio",
+      "cell_id": "2a2154e7e997e768937869dfa3c9b68dcdc118ea097564f0477b4c5fe9707c3f",
+      "repetition": 2,
+      "episode_id": "655b90fac195f4cf47d4cdc3955a86ab0d22880d076f6c0b6a0aaf013261bdb2",
+      "public_packet_sha256": "c4b4e7e4aba92fdff0979f4d4d104e32f95f94d91102ec691fe840e07ffb8011",
+      "max_calls": 5
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "provider_tag": "google-ai-studio",
+      "cell_id": "fee08e7f8657d28276581732e853b467a89d26b4cb60be9068ff5f44fbddcb12",
+      "repetition": 0,
+      "episode_id": "705f6beb2011612342389a21ce3e424dbcb20c915f21c39c9bc4af15c7619d0c",
+      "public_packet_sha256": "5512800b65dd6ef878ac867289ff8e4e8d395caa9e5a1064b87da0083ddc4cb6",
+      "max_calls": 5
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "provider_tag": "google-ai-studio",
+      "cell_id": "fee08e7f8657d28276581732e853b467a89d26b4cb60be9068ff5f44fbddcb12",
+      "repetition": 1,
+      "episode_id": "359624ba3c68987c54081cf9d9b36814803a40704f8c4a21d4f1c46502c412e5",
+      "public_packet_sha256": "5512800b65dd6ef878ac867289ff8e4e8d395caa9e5a1064b87da0083ddc4cb6",
+      "max_calls": 5
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "provider_tag": "google-ai-studio",
+      "cell_id": "fee08e7f8657d28276581732e853b467a89d26b4cb60be9068ff5f44fbddcb12",
+      "repetition": 2,
+      "episode_id": "69fb864b59bd6371d8981129e7f968bb25ec0ba0ecfe849a2ab2d2dadea5f6a5",
+      "public_packet_sha256": "5512800b65dd6ef878ac867289ff8e4e8d395caa9e5a1064b87da0083ddc4cb6",
+      "max_calls": 5
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "provider_tag": "google-ai-studio",
+      "cell_id": "6342816ac0ce97f977fb5ae9d46f0695c14a277df5adcbba76afa83f443d5724",
+      "repetition": 0,
+      "episode_id": "13236e6a1764356d7a54a3fd3feb1829ca551417b4e0c096757b527e5a6c6274",
+      "public_packet_sha256": "5512800b65dd6ef878ac867289ff8e4e8d395caa9e5a1064b87da0083ddc4cb6",
+      "max_calls": 5
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "provider_tag": "google-ai-studio",
+      "cell_id": "6342816ac0ce97f977fb5ae9d46f0695c14a277df5adcbba76afa83f443d5724",
+      "repetition": 1,
+      "episode_id": "fe603171021d68050b452e8bdcb6b3075658795b3785490db748df82c39ed4a3",
+      "public_packet_sha256": "5512800b65dd6ef878ac867289ff8e4e8d395caa9e5a1064b87da0083ddc4cb6",
+      "max_calls": 5
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "provider_tag": "google-ai-studio",
+      "cell_id": "6342816ac0ce97f977fb5ae9d46f0695c14a277df5adcbba76afa83f443d5724",
+      "repetition": 2,
+      "episode_id": "fce5ad83a636b78e7fa6bc6fde5f478c3ca9fcd204c4b55fb7bcffc1c0a79f45",
+      "public_packet_sha256": "5512800b65dd6ef878ac867289ff8e4e8d395caa9e5a1064b87da0083ddc4cb6",
+      "max_calls": 5
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "provider_tag": "google-ai-studio",
+      "cell_id": "c6128d333bf334ee2765c7c72bcdf24a01e976ae448ab203245d460af374449d",
+      "repetition": 0,
+      "episode_id": "e1e525cc269783ce43f68f6e458c98fadc0b69cff1f5a365c1f80d931a18dba3",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "max_calls": 5
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "provider_tag": "google-ai-studio",
+      "cell_id": "c6128d333bf334ee2765c7c72bcdf24a01e976ae448ab203245d460af374449d",
+      "repetition": 1,
+      "episode_id": "3fdd07d41677da14321590fd9fd7257f4c2c4c2e75785689f052ffa9e15ff7f1",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "max_calls": 5
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "provider_tag": "google-ai-studio",
+      "cell_id": "c6128d333bf334ee2765c7c72bcdf24a01e976ae448ab203245d460af374449d",
+      "repetition": 2,
+      "episode_id": "587125c3f2eb9ae6f1d9f127a25cdd87f5b95b2c0007cecec0da009cdff83da1",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "max_calls": 5
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "provider_tag": "google-ai-studio",
+      "cell_id": "603e75161aa757145137d2f7332f303e86eace4e303aa9dc8f24a1fd1c2f43ab",
+      "repetition": 0,
+      "episode_id": "17b3d1017601d761a10a35b7c077b24ab867c10c0241b17eb8eb2ff9e9422b39",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "max_calls": 5
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "provider_tag": "google-ai-studio",
+      "cell_id": "603e75161aa757145137d2f7332f303e86eace4e303aa9dc8f24a1fd1c2f43ab",
+      "repetition": 1,
+      "episode_id": "f557339883d42dcd0022ab29c48cc1549a495823e9c69cdaacf09ccdf41ee54a",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "max_calls": 5
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "provider_tag": "google-ai-studio",
+      "cell_id": "603e75161aa757145137d2f7332f303e86eace4e303aa9dc8f24a1fd1c2f43ab",
+      "repetition": 2,
+      "episode_id": "cc9fc739e9348690e15ab3f51926d072d294eb23bfa691a4d6c15182fa498cda",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "max_calls": 5
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "provider_tag": "google-ai-studio",
+      "cell_id": "61c18fc6286d9072d4d44285b2aaf223e31524b24294934fa5d354d1af79430a",
+      "repetition": 0,
+      "episode_id": "199531569f391ec429d3939d4c36d62e6b742edceebde832d7656a22a35b8f26",
+      "public_packet_sha256": "296efb3a22d29dd8bf872cf481ccd82aef215e8bacc8543caedd615b214e9867",
+      "max_calls": 5
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "provider_tag": "google-ai-studio",
+      "cell_id": "61c18fc6286d9072d4d44285b2aaf223e31524b24294934fa5d354d1af79430a",
+      "repetition": 1,
+      "episode_id": "e8716f707854ef92c78fda83c96ce385b68beab3b2385117e12abfd0f417be43",
+      "public_packet_sha256": "296efb3a22d29dd8bf872cf481ccd82aef215e8bacc8543caedd615b214e9867",
+      "max_calls": 5
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "provider_tag": "google-ai-studio",
+      "cell_id": "61c18fc6286d9072d4d44285b2aaf223e31524b24294934fa5d354d1af79430a",
+      "repetition": 2,
+      "episode_id": "e752c83939c297d5349edeae6633c7a1e665a09f942247f952237265d3b18ec3",
+      "public_packet_sha256": "296efb3a22d29dd8bf872cf481ccd82aef215e8bacc8543caedd615b214e9867",
+      "max_calls": 5
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "provider_tag": "google-ai-studio",
+      "cell_id": "b70baebd3fefda62fa1ccf62cba31fb0d01ccb9d11893568a2735bf633405937",
+      "repetition": 0,
+      "episode_id": "7e0a399bc7f225a0d7351f4c0440e56964e5fbe7187432bb6c1a2df22f32955a",
+      "public_packet_sha256": "296efb3a22d29dd8bf872cf481ccd82aef215e8bacc8543caedd615b214e9867",
+      "max_calls": 5
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "provider_tag": "google-ai-studio",
+      "cell_id": "b70baebd3fefda62fa1ccf62cba31fb0d01ccb9d11893568a2735bf633405937",
+      "repetition": 1,
+      "episode_id": "35103ab434ee62a2cca64555c8c832eae981417822faf4297af0598a4417fbd9",
+      "public_packet_sha256": "296efb3a22d29dd8bf872cf481ccd82aef215e8bacc8543caedd615b214e9867",
+      "max_calls": 5
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "provider_tag": "google-ai-studio",
+      "cell_id": "b70baebd3fefda62fa1ccf62cba31fb0d01ccb9d11893568a2735bf633405937",
+      "repetition": 2,
+      "episode_id": "254b4062cc90cac87e2accd6f5977561be02e996084071c1d988be0391298d74",
+      "public_packet_sha256": "296efb3a22d29dd8bf872cf481ccd82aef215e8bacc8543caedd615b214e9867",
+      "max_calls": 5
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "provider_tag": "google-ai-studio",
+      "cell_id": "18c9d19456e0f34f171a05b24161beb0806fcd48592007fee49281ebdca8044d",
+      "repetition": 0,
+      "episode_id": "ea41990df58c2dd1d3e1baf7d0c0a668a209346865704c9080d9006864831c6a",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "max_calls": 5
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "provider_tag": "google-ai-studio",
+      "cell_id": "18c9d19456e0f34f171a05b24161beb0806fcd48592007fee49281ebdca8044d",
+      "repetition": 1,
+      "episode_id": "6ca5d7e354bf78e84691d2492d8d49fe63b6449b63ba23d8b390dba7364c4a41",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "max_calls": 5
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "provider_tag": "google-ai-studio",
+      "cell_id": "18c9d19456e0f34f171a05b24161beb0806fcd48592007fee49281ebdca8044d",
+      "repetition": 2,
+      "episode_id": "ba00cc5864344f0ea9099734157a724a26e701d85d98e6c7b8d8cf64cd2f55b4",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "max_calls": 5
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "provider_tag": "google-ai-studio",
+      "cell_id": "2e67681b511c67c4b591b1f0b189ae636863ef8d7c1261e9e16a3a0abe71a06e",
+      "repetition": 0,
+      "episode_id": "9a8ed74acf1aa72f0c1dd4a330134f2ec960af89567bf4b7ec4731043bd03433",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "max_calls": 5
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "provider_tag": "google-ai-studio",
+      "cell_id": "2e67681b511c67c4b591b1f0b189ae636863ef8d7c1261e9e16a3a0abe71a06e",
+      "repetition": 1,
+      "episode_id": "1151389a9f3ab72573f31f106676e310097c69269c840cf43d74b3e048d5939a",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "max_calls": 5
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "provider_tag": "google-ai-studio",
+      "cell_id": "2e67681b511c67c4b591b1f0b189ae636863ef8d7c1261e9e16a3a0abe71a06e",
+      "repetition": 2,
+      "episode_id": "0caec9639eff37fc77915ed2fc0153b2b85eafcd1ceec2010541638a3815ae4b",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "max_calls": 5
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "provider_tag": "google-ai-studio",
+      "cell_id": "e234c9291aa586947aee4721baadc1556c8c9ff2615600052d11d11b24989b11",
+      "repetition": 0,
+      "episode_id": "1182e678e286df9f4f5e210e7238d36fd3574753fa51d55f5dcb5cbe55763df6",
+      "public_packet_sha256": "50bb9543f02453dab90aaf096c9ad02ed8220ddbd881e525fd794ba38e59dd09",
+      "max_calls": 5
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "provider_tag": "google-ai-studio",
+      "cell_id": "e234c9291aa586947aee4721baadc1556c8c9ff2615600052d11d11b24989b11",
+      "repetition": 1,
+      "episode_id": "7f273ca37fa73385b192a8955d272f2ae9c724398aa04adbcfb6fafddf365d40",
+      "public_packet_sha256": "50bb9543f02453dab90aaf096c9ad02ed8220ddbd881e525fd794ba38e59dd09",
+      "max_calls": 5
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "provider_tag": "google-ai-studio",
+      "cell_id": "e234c9291aa586947aee4721baadc1556c8c9ff2615600052d11d11b24989b11",
+      "repetition": 2,
+      "episode_id": "aa04ed90840f4d70d8dbc1d514085070b3be3bf647dfcdf21f3984da9ecdd3e0",
+      "public_packet_sha256": "50bb9543f02453dab90aaf096c9ad02ed8220ddbd881e525fd794ba38e59dd09",
+      "max_calls": 5
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "provider_tag": "google-ai-studio",
+      "cell_id": "73203187f9990981e9c430c3825ca05ccee76210a9c63847c7ff9fe1a073f990",
+      "repetition": 0,
+      "episode_id": "0170fd0688de80994d03003d4103aad320721b41da6851e0e7d45975267916ed",
+      "public_packet_sha256": "50bb9543f02453dab90aaf096c9ad02ed8220ddbd881e525fd794ba38e59dd09",
+      "max_calls": 5
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "provider_tag": "google-ai-studio",
+      "cell_id": "73203187f9990981e9c430c3825ca05ccee76210a9c63847c7ff9fe1a073f990",
+      "repetition": 1,
+      "episode_id": "c3a4979f8691f527fea793e2a12fa4ca85269efdab05c64976c977f77bd35966",
+      "public_packet_sha256": "50bb9543f02453dab90aaf096c9ad02ed8220ddbd881e525fd794ba38e59dd09",
+      "max_calls": 5
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "provider_tag": "google-ai-studio",
+      "cell_id": "73203187f9990981e9c430c3825ca05ccee76210a9c63847c7ff9fe1a073f990",
+      "repetition": 2,
+      "episode_id": "d891b4e185d696bb7c59c44822dadf16c5c41888cd9ee60762095cd9bf2809d7",
+      "public_packet_sha256": "50bb9543f02453dab90aaf096c9ad02ed8220ddbd881e525fd794ba38e59dd09",
+      "max_calls": 5
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "provider_tag": "google-ai-studio",
+      "cell_id": "8747feb36682bd43ba3cba26f0a7c5c4acb4f6bc2e8603f48ed4ae2c401117f8",
+      "repetition": 0,
+      "episode_id": "aab92d31e7767e460e19477c895a2b9c0e256ba95c8aaa84200047f158986bae",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "max_calls": 5
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "provider_tag": "google-ai-studio",
+      "cell_id": "8747feb36682bd43ba3cba26f0a7c5c4acb4f6bc2e8603f48ed4ae2c401117f8",
+      "repetition": 1,
+      "episode_id": "8b8ff074995a65641e9305fb1fee793ee07d31fdeb1116b2cfaf4e31cf846c39",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "max_calls": 5
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "provider_tag": "google-ai-studio",
+      "cell_id": "8747feb36682bd43ba3cba26f0a7c5c4acb4f6bc2e8603f48ed4ae2c401117f8",
+      "repetition": 2,
+      "episode_id": "49b300b0c11304e3579da67f29e85a58ff37859abd8ffe553cc7016b884030d9",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "max_calls": 5
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "provider_tag": "google-ai-studio",
+      "cell_id": "ac78c3eda17c5ea11fe91cf79f8ec0e4e9be7e9e296ecbb4bf2ece97e6ad40ef",
+      "repetition": 0,
+      "episode_id": "7d71cd78280d88c431174ed44764a17b5b7423fce35c4c4ba7a722ac58790704",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "max_calls": 5
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "provider_tag": "google-ai-studio",
+      "cell_id": "ac78c3eda17c5ea11fe91cf79f8ec0e4e9be7e9e296ecbb4bf2ece97e6ad40ef",
+      "repetition": 1,
+      "episode_id": "650eee2171eae81305ec338993eb38acd426862268e919a287b0bf48def92c2f",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "max_calls": 5
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "provider_tag": "google-ai-studio",
+      "cell_id": "ac78c3eda17c5ea11fe91cf79f8ec0e4e9be7e9e296ecbb4bf2ece97e6ad40ef",
+      "repetition": 2,
+      "episode_id": "ac987a2412674c804fd56e3cd39bb22dde44b790f06f6a2a624aae14a4996b5d",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "max_calls": 5
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "provider_tag": "xai",
+      "cell_id": "85e40d2764e9a10a84fd1442914faab73bac0a3ebae2eac839eb471516ec60fb",
+      "repetition": 0,
+      "episode_id": "67e4efb62d2456d3781983dce0d77c6dd462b06f1464c354965567401409a11e",
+      "public_packet_sha256": "0d11bce529aced21a09e5941b10f48bda71f4d70e8093df736e8e68c5453055d",
+      "max_calls": 5
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "provider_tag": "xai",
+      "cell_id": "85e40d2764e9a10a84fd1442914faab73bac0a3ebae2eac839eb471516ec60fb",
+      "repetition": 1,
+      "episode_id": "d05cd93c848330b7c25685db07ff70803d2c5c442c3864a8bf2bd9cfdba2aa88",
+      "public_packet_sha256": "0d11bce529aced21a09e5941b10f48bda71f4d70e8093df736e8e68c5453055d",
+      "max_calls": 5
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "provider_tag": "xai",
+      "cell_id": "85e40d2764e9a10a84fd1442914faab73bac0a3ebae2eac839eb471516ec60fb",
+      "repetition": 2,
+      "episode_id": "c323549596e0c416301db159fcaa36c31adf7d9a5e05e6db5a43b9788eea184c",
+      "public_packet_sha256": "0d11bce529aced21a09e5941b10f48bda71f4d70e8093df736e8e68c5453055d",
+      "max_calls": 5
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "provider_tag": "xai",
+      "cell_id": "533eb677e358cbfda62073f36b10a651fcaf83973e7c75719740a583afc4395f",
+      "repetition": 0,
+      "episode_id": "ce729fe3ce88c537fce4fb3ebdcae87064b5c104f37ad94400efdded2fab024d",
+      "public_packet_sha256": "0d11bce529aced21a09e5941b10f48bda71f4d70e8093df736e8e68c5453055d",
+      "max_calls": 5
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "provider_tag": "xai",
+      "cell_id": "533eb677e358cbfda62073f36b10a651fcaf83973e7c75719740a583afc4395f",
+      "repetition": 1,
+      "episode_id": "6d8b69bd7420a5182d678858808ff1eb74220dddbe5962a75128ebccbe7264bc",
+      "public_packet_sha256": "0d11bce529aced21a09e5941b10f48bda71f4d70e8093df736e8e68c5453055d",
+      "max_calls": 5
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "provider_tag": "xai",
+      "cell_id": "533eb677e358cbfda62073f36b10a651fcaf83973e7c75719740a583afc4395f",
+      "repetition": 2,
+      "episode_id": "020e85157fba6d30066ab8e6b219359ac4099a433b1083fe88dc58a652adf99d",
+      "public_packet_sha256": "0d11bce529aced21a09e5941b10f48bda71f4d70e8093df736e8e68c5453055d",
+      "max_calls": 5
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "provider_tag": "xai",
+      "cell_id": "4a572d1565651ca6940d7b1f44999063677d6e37bbec9efe9ad169c11edbfa6d",
+      "repetition": 0,
+      "episode_id": "70c1351be0d19cfe545e15e2384df9e124ea29df23be7ba47cf2916f45db9061",
+      "public_packet_sha256": "c4b4e7e4aba92fdff0979f4d4d104e32f95f94d91102ec691fe840e07ffb8011",
+      "max_calls": 5
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "provider_tag": "xai",
+      "cell_id": "4a572d1565651ca6940d7b1f44999063677d6e37bbec9efe9ad169c11edbfa6d",
+      "repetition": 1,
+      "episode_id": "71eb86c0d6cf6efbba9c779b4d9076128ebd6b2d1d3e683655e89b5a2b509aae",
+      "public_packet_sha256": "c4b4e7e4aba92fdff0979f4d4d104e32f95f94d91102ec691fe840e07ffb8011",
+      "max_calls": 5
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "provider_tag": "xai",
+      "cell_id": "4a572d1565651ca6940d7b1f44999063677d6e37bbec9efe9ad169c11edbfa6d",
+      "repetition": 2,
+      "episode_id": "e057b6af6bb2fbfef424e77e0997e903b30a019f127569ecaca19a6a9fc3b5ae",
+      "public_packet_sha256": "c4b4e7e4aba92fdff0979f4d4d104e32f95f94d91102ec691fe840e07ffb8011",
+      "max_calls": 5
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "provider_tag": "xai",
+      "cell_id": "2a2154e7e997e768937869dfa3c9b68dcdc118ea097564f0477b4c5fe9707c3f",
+      "repetition": 0,
+      "episode_id": "31e9072be30c90153003ea748028e2021bff3eec237518aec21e4fb321c2d240",
+      "public_packet_sha256": "c4b4e7e4aba92fdff0979f4d4d104e32f95f94d91102ec691fe840e07ffb8011",
+      "max_calls": 5
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "provider_tag": "xai",
+      "cell_id": "2a2154e7e997e768937869dfa3c9b68dcdc118ea097564f0477b4c5fe9707c3f",
+      "repetition": 1,
+      "episode_id": "c221d4bf1486ae6765cc0079ef875e7286f52531436d350480f43bd604d3f106",
+      "public_packet_sha256": "c4b4e7e4aba92fdff0979f4d4d104e32f95f94d91102ec691fe840e07ffb8011",
+      "max_calls": 5
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "provider_tag": "xai",
+      "cell_id": "2a2154e7e997e768937869dfa3c9b68dcdc118ea097564f0477b4c5fe9707c3f",
+      "repetition": 2,
+      "episode_id": "b4bc525e09485122fa03b33e5115105d703d5d14ef51863da35d6186876fbec8",
+      "public_packet_sha256": "c4b4e7e4aba92fdff0979f4d4d104e32f95f94d91102ec691fe840e07ffb8011",
+      "max_calls": 5
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "provider_tag": "xai",
+      "cell_id": "fee08e7f8657d28276581732e853b467a89d26b4cb60be9068ff5f44fbddcb12",
+      "repetition": 0,
+      "episode_id": "4194bc913f52f8e6ac8b273c0477179fd94a7cf33873d54d97e4be6d8fcc6d9c",
+      "public_packet_sha256": "5512800b65dd6ef878ac867289ff8e4e8d395caa9e5a1064b87da0083ddc4cb6",
+      "max_calls": 5
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "provider_tag": "xai",
+      "cell_id": "fee08e7f8657d28276581732e853b467a89d26b4cb60be9068ff5f44fbddcb12",
+      "repetition": 1,
+      "episode_id": "1d0c80b7634d15ef14c9fa18fa099f4450652d95b2e4c2ace064563f7c028a35",
+      "public_packet_sha256": "5512800b65dd6ef878ac867289ff8e4e8d395caa9e5a1064b87da0083ddc4cb6",
+      "max_calls": 5
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "provider_tag": "xai",
+      "cell_id": "fee08e7f8657d28276581732e853b467a89d26b4cb60be9068ff5f44fbddcb12",
+      "repetition": 2,
+      "episode_id": "25877e094fd1491691c48982174094c8b4c81ef1d85de620ed9d3b0f8029f83c",
+      "public_packet_sha256": "5512800b65dd6ef878ac867289ff8e4e8d395caa9e5a1064b87da0083ddc4cb6",
+      "max_calls": 5
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "provider_tag": "xai",
+      "cell_id": "6342816ac0ce97f977fb5ae9d46f0695c14a277df5adcbba76afa83f443d5724",
+      "repetition": 0,
+      "episode_id": "3cfe044ed68a5267c4c0f0afa46877895881c17c52ea8ef4ad0d7da7d18a0516",
+      "public_packet_sha256": "5512800b65dd6ef878ac867289ff8e4e8d395caa9e5a1064b87da0083ddc4cb6",
+      "max_calls": 5
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "provider_tag": "xai",
+      "cell_id": "6342816ac0ce97f977fb5ae9d46f0695c14a277df5adcbba76afa83f443d5724",
+      "repetition": 1,
+      "episode_id": "a0f74bd36fec6c2f641d54d3493190b602a6169afe02def408601705c9f712e1",
+      "public_packet_sha256": "5512800b65dd6ef878ac867289ff8e4e8d395caa9e5a1064b87da0083ddc4cb6",
+      "max_calls": 5
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "provider_tag": "xai",
+      "cell_id": "6342816ac0ce97f977fb5ae9d46f0695c14a277df5adcbba76afa83f443d5724",
+      "repetition": 2,
+      "episode_id": "d73875bcc33c4fce407bcbddfc26d9dc7bb2b4782d1e68c02e125445fed997d4",
+      "public_packet_sha256": "5512800b65dd6ef878ac867289ff8e4e8d395caa9e5a1064b87da0083ddc4cb6",
+      "max_calls": 5
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "provider_tag": "xai",
+      "cell_id": "c6128d333bf334ee2765c7c72bcdf24a01e976ae448ab203245d460af374449d",
+      "repetition": 0,
+      "episode_id": "793ab425a75368a0d71b984bd34d62252caaee48d4e7e40c15a59f21fabcdc65",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "max_calls": 5
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "provider_tag": "xai",
+      "cell_id": "c6128d333bf334ee2765c7c72bcdf24a01e976ae448ab203245d460af374449d",
+      "repetition": 1,
+      "episode_id": "935ccdb83b1d293b602cb2dcae24bb1bd17a0e7940ab650ea9a0b84ed0d0cfbf",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "max_calls": 5
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "provider_tag": "xai",
+      "cell_id": "c6128d333bf334ee2765c7c72bcdf24a01e976ae448ab203245d460af374449d",
+      "repetition": 2,
+      "episode_id": "428a7cff0f28a66d0727e37c6d528db1a197ad1c7e55d4b14a6055c1c33490d1",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "max_calls": 5
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "provider_tag": "xai",
+      "cell_id": "603e75161aa757145137d2f7332f303e86eace4e303aa9dc8f24a1fd1c2f43ab",
+      "repetition": 0,
+      "episode_id": "42d1a2d9b9b0ca91fb3bbb67b28be0e0a79e64d0c8a80455affc937d4bf833c2",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "max_calls": 5
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "provider_tag": "xai",
+      "cell_id": "603e75161aa757145137d2f7332f303e86eace4e303aa9dc8f24a1fd1c2f43ab",
+      "repetition": 1,
+      "episode_id": "55b6596080059be407df46dc14dd20aaefe73d931ae45fcb7e25e57b941b5813",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "max_calls": 5
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "provider_tag": "xai",
+      "cell_id": "603e75161aa757145137d2f7332f303e86eace4e303aa9dc8f24a1fd1c2f43ab",
+      "repetition": 2,
+      "episode_id": "1f3827dddfa5e79eb6fc066be7975431c9161132843c91c19314dd603b53c4f8",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "max_calls": 5
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "provider_tag": "xai",
+      "cell_id": "61c18fc6286d9072d4d44285b2aaf223e31524b24294934fa5d354d1af79430a",
+      "repetition": 0,
+      "episode_id": "e4b24551fc4bb2d003126e9e1b4aee3577c695e39f1236e0880c2623f13a2e52",
+      "public_packet_sha256": "296efb3a22d29dd8bf872cf481ccd82aef215e8bacc8543caedd615b214e9867",
+      "max_calls": 5
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "provider_tag": "xai",
+      "cell_id": "61c18fc6286d9072d4d44285b2aaf223e31524b24294934fa5d354d1af79430a",
+      "repetition": 1,
+      "episode_id": "123089bb38bf099258a4661e9d9afcd6a851fb5ef682d8ffbab4798dab55aed9",
+      "public_packet_sha256": "296efb3a22d29dd8bf872cf481ccd82aef215e8bacc8543caedd615b214e9867",
+      "max_calls": 5
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "provider_tag": "xai",
+      "cell_id": "61c18fc6286d9072d4d44285b2aaf223e31524b24294934fa5d354d1af79430a",
+      "repetition": 2,
+      "episode_id": "2543339a29d9a38f71079b4eaedceba497b55e8379befd312775a99e947b823c",
+      "public_packet_sha256": "296efb3a22d29dd8bf872cf481ccd82aef215e8bacc8543caedd615b214e9867",
+      "max_calls": 5
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "provider_tag": "xai",
+      "cell_id": "b70baebd3fefda62fa1ccf62cba31fb0d01ccb9d11893568a2735bf633405937",
+      "repetition": 0,
+      "episode_id": "b9b282c2d2605706d492a350adbc10786104878fdcd8fa09cb6e64f1a50160e3",
+      "public_packet_sha256": "296efb3a22d29dd8bf872cf481ccd82aef215e8bacc8543caedd615b214e9867",
+      "max_calls": 5
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "provider_tag": "xai",
+      "cell_id": "b70baebd3fefda62fa1ccf62cba31fb0d01ccb9d11893568a2735bf633405937",
+      "repetition": 1,
+      "episode_id": "daa6366def8de5271b83fd268b239d70f7719d5a44234bf2d9f29591bf4bedd7",
+      "public_packet_sha256": "296efb3a22d29dd8bf872cf481ccd82aef215e8bacc8543caedd615b214e9867",
+      "max_calls": 5
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "provider_tag": "xai",
+      "cell_id": "b70baebd3fefda62fa1ccf62cba31fb0d01ccb9d11893568a2735bf633405937",
+      "repetition": 2,
+      "episode_id": "52b40871dff8c8a4c14d4078838888b148b703a49c6652556ff0f94498333eaf",
+      "public_packet_sha256": "296efb3a22d29dd8bf872cf481ccd82aef215e8bacc8543caedd615b214e9867",
+      "max_calls": 5
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "provider_tag": "xai",
+      "cell_id": "18c9d19456e0f34f171a05b24161beb0806fcd48592007fee49281ebdca8044d",
+      "repetition": 0,
+      "episode_id": "6495d8520c352827175b752ddee2fc45c5952ed00f186d6a96a7faf89ebe612b",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "max_calls": 5
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "provider_tag": "xai",
+      "cell_id": "18c9d19456e0f34f171a05b24161beb0806fcd48592007fee49281ebdca8044d",
+      "repetition": 1,
+      "episode_id": "f141970aef3f04a5150e96a7e02f3c8aa0c30c66fbb954945de25a3a464be881",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "max_calls": 5
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "provider_tag": "xai",
+      "cell_id": "18c9d19456e0f34f171a05b24161beb0806fcd48592007fee49281ebdca8044d",
+      "repetition": 2,
+      "episode_id": "51fce9ffc9d43e3c3bbfad1439ba250fd6f52bce88a7f4bf39375ec6f47c0fc6",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "max_calls": 5
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "provider_tag": "xai",
+      "cell_id": "2e67681b511c67c4b591b1f0b189ae636863ef8d7c1261e9e16a3a0abe71a06e",
+      "repetition": 0,
+      "episode_id": "91a59923ea6aa6aa95b31f0a3835303c11792a1c5203013d7dff0abdd4e1d9ec",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "max_calls": 5
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "provider_tag": "xai",
+      "cell_id": "2e67681b511c67c4b591b1f0b189ae636863ef8d7c1261e9e16a3a0abe71a06e",
+      "repetition": 1,
+      "episode_id": "02569b8bae068a16ca29febb70f946cecb61b8d37970506c057ebf4e640336b3",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "max_calls": 5
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "provider_tag": "xai",
+      "cell_id": "2e67681b511c67c4b591b1f0b189ae636863ef8d7c1261e9e16a3a0abe71a06e",
+      "repetition": 2,
+      "episode_id": "f0aefa3bf7e688db5f2139fc2d891895575a0bee7365251374c1d5f42f749114",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "max_calls": 5
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "provider_tag": "xai",
+      "cell_id": "e234c9291aa586947aee4721baadc1556c8c9ff2615600052d11d11b24989b11",
+      "repetition": 0,
+      "episode_id": "8a165c2101eaedd4982ed6a9b29c40883862f1d3b994c8846dbc7fd21e454246",
+      "public_packet_sha256": "50bb9543f02453dab90aaf096c9ad02ed8220ddbd881e525fd794ba38e59dd09",
+      "max_calls": 5
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "provider_tag": "xai",
+      "cell_id": "e234c9291aa586947aee4721baadc1556c8c9ff2615600052d11d11b24989b11",
+      "repetition": 1,
+      "episode_id": "24f3313d5a82f0c49ad808b21b71e8eb2e1f7f9f38a5b714f18b2e5c97364de4",
+      "public_packet_sha256": "50bb9543f02453dab90aaf096c9ad02ed8220ddbd881e525fd794ba38e59dd09",
+      "max_calls": 5
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "provider_tag": "xai",
+      "cell_id": "e234c9291aa586947aee4721baadc1556c8c9ff2615600052d11d11b24989b11",
+      "repetition": 2,
+      "episode_id": "c6bdd147edc571e9990446abe3ddbfe2732f67714adbce82757457fb057f9d8b",
+      "public_packet_sha256": "50bb9543f02453dab90aaf096c9ad02ed8220ddbd881e525fd794ba38e59dd09",
+      "max_calls": 5
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "provider_tag": "xai",
+      "cell_id": "73203187f9990981e9c430c3825ca05ccee76210a9c63847c7ff9fe1a073f990",
+      "repetition": 0,
+      "episode_id": "c47d52bf5d247f82c56aea2a39939a1a1662dba80c5fb77abdae04ce6c979220",
+      "public_packet_sha256": "50bb9543f02453dab90aaf096c9ad02ed8220ddbd881e525fd794ba38e59dd09",
+      "max_calls": 5
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "provider_tag": "xai",
+      "cell_id": "73203187f9990981e9c430c3825ca05ccee76210a9c63847c7ff9fe1a073f990",
+      "repetition": 1,
+      "episode_id": "071264d12d3d73d58d2f5d108caee2960a30129be52a2c7aa524e9c153db255b",
+      "public_packet_sha256": "50bb9543f02453dab90aaf096c9ad02ed8220ddbd881e525fd794ba38e59dd09",
+      "max_calls": 5
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "provider_tag": "xai",
+      "cell_id": "73203187f9990981e9c430c3825ca05ccee76210a9c63847c7ff9fe1a073f990",
+      "repetition": 2,
+      "episode_id": "deecc57c06f3479f82323985223c4d3aa539b296500e57bfc8aea602d50699f1",
+      "public_packet_sha256": "50bb9543f02453dab90aaf096c9ad02ed8220ddbd881e525fd794ba38e59dd09",
+      "max_calls": 5
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "provider_tag": "xai",
+      "cell_id": "8747feb36682bd43ba3cba26f0a7c5c4acb4f6bc2e8603f48ed4ae2c401117f8",
+      "repetition": 0,
+      "episode_id": "5ab9781af1ca01f1361cf7cc7265587a7b5ee27ee23a9d573d5b068093bd18e4",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "max_calls": 5
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "provider_tag": "xai",
+      "cell_id": "8747feb36682bd43ba3cba26f0a7c5c4acb4f6bc2e8603f48ed4ae2c401117f8",
+      "repetition": 1,
+      "episode_id": "1373fc6dff52fb11671cee271c40d982eb742e32a80d6358ef58aeb1612edefc",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "max_calls": 5
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "provider_tag": "xai",
+      "cell_id": "8747feb36682bd43ba3cba26f0a7c5c4acb4f6bc2e8603f48ed4ae2c401117f8",
+      "repetition": 2,
+      "episode_id": "c85084fecd33788367e4590b94bb9cf3851c9ca0723a416b507270810d0cee8e",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "max_calls": 5
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "provider_tag": "xai",
+      "cell_id": "ac78c3eda17c5ea11fe91cf79f8ec0e4e9be7e9e296ecbb4bf2ece97e6ad40ef",
+      "repetition": 0,
+      "episode_id": "98c3b6a35ca932f233496674c038fa8c440131b49360f89570ca2e1acd9b0e78",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "max_calls": 5
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "provider_tag": "xai",
+      "cell_id": "ac78c3eda17c5ea11fe91cf79f8ec0e4e9be7e9e296ecbb4bf2ece97e6ad40ef",
+      "repetition": 1,
+      "episode_id": "288b97884bbca0834f59bf8344406ad9721b99a2f6965ca37b3c2528119c3fec",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "max_calls": 5
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "provider_tag": "xai",
+      "cell_id": "ac78c3eda17c5ea11fe91cf79f8ec0e4e9be7e9e296ecbb4bf2ece97e6ad40ef",
+      "repetition": 2,
+      "episode_id": "83dfd639cd1a9efa7f4dec4f9d07a066311972d11eec592ae0b34f0864f3a988",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "max_calls": 5
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "provider_tag": "phala",
+      "cell_id": "85e40d2764e9a10a84fd1442914faab73bac0a3ebae2eac839eb471516ec60fb",
+      "repetition": 0,
+      "episode_id": "fff6b15a08a1b5ae70f31c4e9ab1a1fda32f8d4848aa5d5a7b551c379d7b7913",
+      "public_packet_sha256": "0d11bce529aced21a09e5941b10f48bda71f4d70e8093df736e8e68c5453055d",
+      "max_calls": 5
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "provider_tag": "phala",
+      "cell_id": "85e40d2764e9a10a84fd1442914faab73bac0a3ebae2eac839eb471516ec60fb",
+      "repetition": 1,
+      "episode_id": "c607cc657fbf1b151b13418bd8be3afa629260dc04f7d3f20236353e32b54dea",
+      "public_packet_sha256": "0d11bce529aced21a09e5941b10f48bda71f4d70e8093df736e8e68c5453055d",
+      "max_calls": 5
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "provider_tag": "phala",
+      "cell_id": "85e40d2764e9a10a84fd1442914faab73bac0a3ebae2eac839eb471516ec60fb",
+      "repetition": 2,
+      "episode_id": "98105c55c94875f5ef66fe53717b40f90afd9f46d887fb9552124f9adad4e399",
+      "public_packet_sha256": "0d11bce529aced21a09e5941b10f48bda71f4d70e8093df736e8e68c5453055d",
+      "max_calls": 5
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "provider_tag": "phala",
+      "cell_id": "533eb677e358cbfda62073f36b10a651fcaf83973e7c75719740a583afc4395f",
+      "repetition": 0,
+      "episode_id": "0f80c8b91889c3ffdc41f6da239e01effb3c76742e19e44d33df8e8e94c6a322",
+      "public_packet_sha256": "0d11bce529aced21a09e5941b10f48bda71f4d70e8093df736e8e68c5453055d",
+      "max_calls": 5
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "provider_tag": "phala",
+      "cell_id": "533eb677e358cbfda62073f36b10a651fcaf83973e7c75719740a583afc4395f",
+      "repetition": 1,
+      "episode_id": "dffe56ef8741ed40a6ea9dac2244dfe7b3f44026c657128962eeb81c448da16e",
+      "public_packet_sha256": "0d11bce529aced21a09e5941b10f48bda71f4d70e8093df736e8e68c5453055d",
+      "max_calls": 5
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "provider_tag": "phala",
+      "cell_id": "533eb677e358cbfda62073f36b10a651fcaf83973e7c75719740a583afc4395f",
+      "repetition": 2,
+      "episode_id": "ab0d719d74b1975341ae1f7251ff3d3eb6dc24bda44ba5f2bb524031ca666611",
+      "public_packet_sha256": "0d11bce529aced21a09e5941b10f48bda71f4d70e8093df736e8e68c5453055d",
+      "max_calls": 5
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "provider_tag": "phala",
+      "cell_id": "4a572d1565651ca6940d7b1f44999063677d6e37bbec9efe9ad169c11edbfa6d",
+      "repetition": 0,
+      "episode_id": "79ac77c312e2be1fcca3a0bd775df29c19b80747369436444a67c16f2cf488ac",
+      "public_packet_sha256": "c4b4e7e4aba92fdff0979f4d4d104e32f95f94d91102ec691fe840e07ffb8011",
+      "max_calls": 5
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "provider_tag": "phala",
+      "cell_id": "4a572d1565651ca6940d7b1f44999063677d6e37bbec9efe9ad169c11edbfa6d",
+      "repetition": 1,
+      "episode_id": "a7c185768797737e31847466b86e130a2195098c071430864a206f141414d28b",
+      "public_packet_sha256": "c4b4e7e4aba92fdff0979f4d4d104e32f95f94d91102ec691fe840e07ffb8011",
+      "max_calls": 5
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "provider_tag": "phala",
+      "cell_id": "4a572d1565651ca6940d7b1f44999063677d6e37bbec9efe9ad169c11edbfa6d",
+      "repetition": 2,
+      "episode_id": "e65074d690471ae73d31a79881c2b92fb7befa4e0b0d303053e7171003b55955",
+      "public_packet_sha256": "c4b4e7e4aba92fdff0979f4d4d104e32f95f94d91102ec691fe840e07ffb8011",
+      "max_calls": 5
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "provider_tag": "phala",
+      "cell_id": "2a2154e7e997e768937869dfa3c9b68dcdc118ea097564f0477b4c5fe9707c3f",
+      "repetition": 0,
+      "episode_id": "9cb5d739dd386ddc76d1b5611a5de398a037d1b537dfc8d09f131fecb1334fd6",
+      "public_packet_sha256": "c4b4e7e4aba92fdff0979f4d4d104e32f95f94d91102ec691fe840e07ffb8011",
+      "max_calls": 5
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "provider_tag": "phala",
+      "cell_id": "2a2154e7e997e768937869dfa3c9b68dcdc118ea097564f0477b4c5fe9707c3f",
+      "repetition": 1,
+      "episode_id": "2bb337eafb7203ea98cbb52f85648743c9a788244d4cd0a072d3d6ee379fd4d0",
+      "public_packet_sha256": "c4b4e7e4aba92fdff0979f4d4d104e32f95f94d91102ec691fe840e07ffb8011",
+      "max_calls": 5
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "provider_tag": "phala",
+      "cell_id": "2a2154e7e997e768937869dfa3c9b68dcdc118ea097564f0477b4c5fe9707c3f",
+      "repetition": 2,
+      "episode_id": "124f5f24783bc939ee4c1e413e99c3a24d82bcf4f623016ca37639378279f56b",
+      "public_packet_sha256": "c4b4e7e4aba92fdff0979f4d4d104e32f95f94d91102ec691fe840e07ffb8011",
+      "max_calls": 5
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "provider_tag": "phala",
+      "cell_id": "fee08e7f8657d28276581732e853b467a89d26b4cb60be9068ff5f44fbddcb12",
+      "repetition": 0,
+      "episode_id": "b4f0166eaa12ba191929c29d5a566b6c6b4e42001516dd658b9faa30a4965128",
+      "public_packet_sha256": "5512800b65dd6ef878ac867289ff8e4e8d395caa9e5a1064b87da0083ddc4cb6",
+      "max_calls": 5
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "provider_tag": "phala",
+      "cell_id": "fee08e7f8657d28276581732e853b467a89d26b4cb60be9068ff5f44fbddcb12",
+      "repetition": 1,
+      "episode_id": "67430f2017bd559a2c4ff380d0df43430bd2fef0123dd77e51d3c4968a43d548",
+      "public_packet_sha256": "5512800b65dd6ef878ac867289ff8e4e8d395caa9e5a1064b87da0083ddc4cb6",
+      "max_calls": 5
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "provider_tag": "phala",
+      "cell_id": "fee08e7f8657d28276581732e853b467a89d26b4cb60be9068ff5f44fbddcb12",
+      "repetition": 2,
+      "episode_id": "365139a983c2c71c8395e8fc8a072b6810b6cd58d9d7ec09e98c69b240e647e7",
+      "public_packet_sha256": "5512800b65dd6ef878ac867289ff8e4e8d395caa9e5a1064b87da0083ddc4cb6",
+      "max_calls": 5
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "provider_tag": "phala",
+      "cell_id": "6342816ac0ce97f977fb5ae9d46f0695c14a277df5adcbba76afa83f443d5724",
+      "repetition": 0,
+      "episode_id": "e143748f9ab7d09337738bab4c1e3fe8a533c0b2ecef736d112db65c7386f87a",
+      "public_packet_sha256": "5512800b65dd6ef878ac867289ff8e4e8d395caa9e5a1064b87da0083ddc4cb6",
+      "max_calls": 5
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "provider_tag": "phala",
+      "cell_id": "6342816ac0ce97f977fb5ae9d46f0695c14a277df5adcbba76afa83f443d5724",
+      "repetition": 1,
+      "episode_id": "af471d09ef3b6d0ff620814708065aa46d0c4bc972382d50df3d1ccd08be77bc",
+      "public_packet_sha256": "5512800b65dd6ef878ac867289ff8e4e8d395caa9e5a1064b87da0083ddc4cb6",
+      "max_calls": 5
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "provider_tag": "phala",
+      "cell_id": "6342816ac0ce97f977fb5ae9d46f0695c14a277df5adcbba76afa83f443d5724",
+      "repetition": 2,
+      "episode_id": "5ab8271ce34cd926e41f6f7ea1dc6896f9d90dc33ae2bede596902708439a5e2",
+      "public_packet_sha256": "5512800b65dd6ef878ac867289ff8e4e8d395caa9e5a1064b87da0083ddc4cb6",
+      "max_calls": 5
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "provider_tag": "phala",
+      "cell_id": "c6128d333bf334ee2765c7c72bcdf24a01e976ae448ab203245d460af374449d",
+      "repetition": 0,
+      "episode_id": "0d55ee0831f8a19b13e5798b21da0941f05dffc613bd3a2ea8c7f70d79de7c36",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "max_calls": 5
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "provider_tag": "phala",
+      "cell_id": "c6128d333bf334ee2765c7c72bcdf24a01e976ae448ab203245d460af374449d",
+      "repetition": 1,
+      "episode_id": "4ea320b3e7775f67a843389feeafe2c2f6fdd6a1d15a740c2cd6c62d62407523",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "max_calls": 5
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "provider_tag": "phala",
+      "cell_id": "c6128d333bf334ee2765c7c72bcdf24a01e976ae448ab203245d460af374449d",
+      "repetition": 2,
+      "episode_id": "5000bf08d5d1d40f1305a4e54a77c7fffb2186343b70e77b776a753f996baaca",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "max_calls": 5
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "provider_tag": "phala",
+      "cell_id": "603e75161aa757145137d2f7332f303e86eace4e303aa9dc8f24a1fd1c2f43ab",
+      "repetition": 0,
+      "episode_id": "a82f60e2d243bb2660dec806588b7eb843bc0dcb23fc2dff9696c156e2b9f711",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "max_calls": 5
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "provider_tag": "phala",
+      "cell_id": "603e75161aa757145137d2f7332f303e86eace4e303aa9dc8f24a1fd1c2f43ab",
+      "repetition": 1,
+      "episode_id": "1ba012f839fdf5b342cb56d87bf2ea87e3d4734852f910996d46dba90643b9f2",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "max_calls": 5
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "provider_tag": "phala",
+      "cell_id": "603e75161aa757145137d2f7332f303e86eace4e303aa9dc8f24a1fd1c2f43ab",
+      "repetition": 2,
+      "episode_id": "624245d5bb4fea499526065d301c859e68725f5c7620862cb47386e6a2a80dc5",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "max_calls": 5
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "provider_tag": "phala",
+      "cell_id": "61c18fc6286d9072d4d44285b2aaf223e31524b24294934fa5d354d1af79430a",
+      "repetition": 0,
+      "episode_id": "dc99310a4f9428c9451ccb92eada7f14bf5daa9866affbb0f4a1bdefbae38394",
+      "public_packet_sha256": "296efb3a22d29dd8bf872cf481ccd82aef215e8bacc8543caedd615b214e9867",
+      "max_calls": 5
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "provider_tag": "phala",
+      "cell_id": "61c18fc6286d9072d4d44285b2aaf223e31524b24294934fa5d354d1af79430a",
+      "repetition": 1,
+      "episode_id": "d6f0ac76e28e43b24f5813914e4795b69530246845025a1c4e291c40c4de5bf2",
+      "public_packet_sha256": "296efb3a22d29dd8bf872cf481ccd82aef215e8bacc8543caedd615b214e9867",
+      "max_calls": 5
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "provider_tag": "phala",
+      "cell_id": "61c18fc6286d9072d4d44285b2aaf223e31524b24294934fa5d354d1af79430a",
+      "repetition": 2,
+      "episode_id": "781f110e2e655a55ebbddc3bd7181101ec0c96393977e55aac86cf29bc0165c7",
+      "public_packet_sha256": "296efb3a22d29dd8bf872cf481ccd82aef215e8bacc8543caedd615b214e9867",
+      "max_calls": 5
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "provider_tag": "phala",
+      "cell_id": "b70baebd3fefda62fa1ccf62cba31fb0d01ccb9d11893568a2735bf633405937",
+      "repetition": 0,
+      "episode_id": "dc54d0e8b73dec67cab332cc32de89e2531d9c8e1716d9049b2e19a62903fa23",
+      "public_packet_sha256": "296efb3a22d29dd8bf872cf481ccd82aef215e8bacc8543caedd615b214e9867",
+      "max_calls": 5
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "provider_tag": "phala",
+      "cell_id": "b70baebd3fefda62fa1ccf62cba31fb0d01ccb9d11893568a2735bf633405937",
+      "repetition": 1,
+      "episode_id": "0bf649e8560c94abf0b2dee0499bb12a780956c3db6d01af37abda7bf23492f5",
+      "public_packet_sha256": "296efb3a22d29dd8bf872cf481ccd82aef215e8bacc8543caedd615b214e9867",
+      "max_calls": 5
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "provider_tag": "phala",
+      "cell_id": "b70baebd3fefda62fa1ccf62cba31fb0d01ccb9d11893568a2735bf633405937",
+      "repetition": 2,
+      "episode_id": "e4427befdfcf15ec0d1808a7f92859b3a6b630792d69d1579f35845a584054e7",
+      "public_packet_sha256": "296efb3a22d29dd8bf872cf481ccd82aef215e8bacc8543caedd615b214e9867",
+      "max_calls": 5
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "provider_tag": "phala",
+      "cell_id": "18c9d19456e0f34f171a05b24161beb0806fcd48592007fee49281ebdca8044d",
+      "repetition": 0,
+      "episode_id": "290b5f8af8ae0690dd61a1401d81b2c0027c1f49299c5e84165d57356f38612c",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "max_calls": 5
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "provider_tag": "phala",
+      "cell_id": "18c9d19456e0f34f171a05b24161beb0806fcd48592007fee49281ebdca8044d",
+      "repetition": 1,
+      "episode_id": "277faeac5b394f10d84970e13431ed1e21cf21ade83fcedb61473f039d5c8d96",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "max_calls": 5
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "provider_tag": "phala",
+      "cell_id": "18c9d19456e0f34f171a05b24161beb0806fcd48592007fee49281ebdca8044d",
+      "repetition": 2,
+      "episode_id": "432e587d496d4cc04f1f243ac059dc0865c4b5dc97e1ac4dbe7848a0cf7846a8",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "max_calls": 5
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "provider_tag": "phala",
+      "cell_id": "2e67681b511c67c4b591b1f0b189ae636863ef8d7c1261e9e16a3a0abe71a06e",
+      "repetition": 0,
+      "episode_id": "1e86471ade692bc16e27ef938225eef26669853599e0e9525dabe7fe456a42b0",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "max_calls": 5
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "provider_tag": "phala",
+      "cell_id": "2e67681b511c67c4b591b1f0b189ae636863ef8d7c1261e9e16a3a0abe71a06e",
+      "repetition": 1,
+      "episode_id": "aeba1bae4a1f2910dffd0ba2341b43d3ec48136b35653208f75d53fde76c2e0e",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "max_calls": 5
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "provider_tag": "phala",
+      "cell_id": "2e67681b511c67c4b591b1f0b189ae636863ef8d7c1261e9e16a3a0abe71a06e",
+      "repetition": 2,
+      "episode_id": "55c0ba9b215db3f4727003fbaffe154cd68d7070e7ce7a4aee01c3b34bf28ca6",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "max_calls": 5
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "provider_tag": "phala",
+      "cell_id": "e234c9291aa586947aee4721baadc1556c8c9ff2615600052d11d11b24989b11",
+      "repetition": 0,
+      "episode_id": "79f83317dadf0680498495df67dd2d2ab837d897f82e329fd403ceb9f0fb4fd1",
+      "public_packet_sha256": "50bb9543f02453dab90aaf096c9ad02ed8220ddbd881e525fd794ba38e59dd09",
+      "max_calls": 5
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "provider_tag": "phala",
+      "cell_id": "e234c9291aa586947aee4721baadc1556c8c9ff2615600052d11d11b24989b11",
+      "repetition": 1,
+      "episode_id": "ca4fe78a7ccfa6a770803364c21bc1b87fc78c15c93bccf3002845c45b2acb3e",
+      "public_packet_sha256": "50bb9543f02453dab90aaf096c9ad02ed8220ddbd881e525fd794ba38e59dd09",
+      "max_calls": 5
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "provider_tag": "phala",
+      "cell_id": "e234c9291aa586947aee4721baadc1556c8c9ff2615600052d11d11b24989b11",
+      "repetition": 2,
+      "episode_id": "aad93f06905a2e9e037425ea4c4561f56c7ba6ceb274dac563bf6bfd06bc03c0",
+      "public_packet_sha256": "50bb9543f02453dab90aaf096c9ad02ed8220ddbd881e525fd794ba38e59dd09",
+      "max_calls": 5
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "provider_tag": "phala",
+      "cell_id": "73203187f9990981e9c430c3825ca05ccee76210a9c63847c7ff9fe1a073f990",
+      "repetition": 0,
+      "episode_id": "3accba74d9b5c56a8d3eb7dc63076b6172475bd9b1824cfe2304008dd0330e5b",
+      "public_packet_sha256": "50bb9543f02453dab90aaf096c9ad02ed8220ddbd881e525fd794ba38e59dd09",
+      "max_calls": 5
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "provider_tag": "phala",
+      "cell_id": "73203187f9990981e9c430c3825ca05ccee76210a9c63847c7ff9fe1a073f990",
+      "repetition": 1,
+      "episode_id": "03953e7417c44da2c8eccdd02f8b1c917cc9e84f801d95f75731692e08905adc",
+      "public_packet_sha256": "50bb9543f02453dab90aaf096c9ad02ed8220ddbd881e525fd794ba38e59dd09",
+      "max_calls": 5
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "provider_tag": "phala",
+      "cell_id": "73203187f9990981e9c430c3825ca05ccee76210a9c63847c7ff9fe1a073f990",
+      "repetition": 2,
+      "episode_id": "165cfbc7bccfb346f1edb3dbc87c9b57e1eb53ba51d06c007696dbf045bb2ff8",
+      "public_packet_sha256": "50bb9543f02453dab90aaf096c9ad02ed8220ddbd881e525fd794ba38e59dd09",
+      "max_calls": 5
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "provider_tag": "phala",
+      "cell_id": "8747feb36682bd43ba3cba26f0a7c5c4acb4f6bc2e8603f48ed4ae2c401117f8",
+      "repetition": 0,
+      "episode_id": "5bb5d1e80ebbb060dcfb3bf7df00d4385dcb35e27ba3c1829d7b8b85673092cc",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "max_calls": 5
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "provider_tag": "phala",
+      "cell_id": "8747feb36682bd43ba3cba26f0a7c5c4acb4f6bc2e8603f48ed4ae2c401117f8",
+      "repetition": 1,
+      "episode_id": "93650943557d5f79e829a617c109b5184b5661f699913e5cec9aa0fcbd2a8b20",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "max_calls": 5
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "provider_tag": "phala",
+      "cell_id": "8747feb36682bd43ba3cba26f0a7c5c4acb4f6bc2e8603f48ed4ae2c401117f8",
+      "repetition": 2,
+      "episode_id": "9d04d18d1b58eee2d04322729c4c9f60aba871768cb6b91d1514addafc8a9f58",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "max_calls": 5
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "provider_tag": "phala",
+      "cell_id": "ac78c3eda17c5ea11fe91cf79f8ec0e4e9be7e9e296ecbb4bf2ece97e6ad40ef",
+      "repetition": 0,
+      "episode_id": "3c4f0f53fe02743d57726eece41a630c22d6e0a3f57cb2c0f030f7b45ee7b4f0",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "max_calls": 5
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "provider_tag": "phala",
+      "cell_id": "ac78c3eda17c5ea11fe91cf79f8ec0e4e9be7e9e296ecbb4bf2ece97e6ad40ef",
+      "repetition": 1,
+      "episode_id": "5cdee68aac48a330aa6e3978363dcc1ae856c031d2d0396085688c8100b51df5",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "max_calls": 5
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "provider_tag": "phala",
+      "cell_id": "ac78c3eda17c5ea11fe91cf79f8ec0e4e9be7e9e296ecbb4bf2ece97e6ad40ef",
+      "repetition": 2,
+      "episode_id": "c2fa1466e6318eb3baac92f6b2c6c921530521fe341ccf40813f70776f0c2897",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "max_calls": 5
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "provider_tag": "novita",
+      "cell_id": "85e40d2764e9a10a84fd1442914faab73bac0a3ebae2eac839eb471516ec60fb",
+      "repetition": 0,
+      "episode_id": "5d35ea788a6251c0cf2919af59674996cae72d88a78bfd08d7687e0bf082253b",
+      "public_packet_sha256": "0d11bce529aced21a09e5941b10f48bda71f4d70e8093df736e8e68c5453055d",
+      "max_calls": 5
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "provider_tag": "novita",
+      "cell_id": "85e40d2764e9a10a84fd1442914faab73bac0a3ebae2eac839eb471516ec60fb",
+      "repetition": 1,
+      "episode_id": "ce22412ece72fbbb3a93ec9d9f48178b4f9a6129ca0d05ab05b93af9d174490b",
+      "public_packet_sha256": "0d11bce529aced21a09e5941b10f48bda71f4d70e8093df736e8e68c5453055d",
+      "max_calls": 5
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "provider_tag": "novita",
+      "cell_id": "85e40d2764e9a10a84fd1442914faab73bac0a3ebae2eac839eb471516ec60fb",
+      "repetition": 2,
+      "episode_id": "b7f0a745d2754df89dbebed6672554d2dcd7a131b236657f17b1b49ec3585f04",
+      "public_packet_sha256": "0d11bce529aced21a09e5941b10f48bda71f4d70e8093df736e8e68c5453055d",
+      "max_calls": 5
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "provider_tag": "novita",
+      "cell_id": "533eb677e358cbfda62073f36b10a651fcaf83973e7c75719740a583afc4395f",
+      "repetition": 0,
+      "episode_id": "64551e2718c700fc55612b5c5f9795021747048accb22b71bac837859b19bc28",
+      "public_packet_sha256": "0d11bce529aced21a09e5941b10f48bda71f4d70e8093df736e8e68c5453055d",
+      "max_calls": 5
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "provider_tag": "novita",
+      "cell_id": "533eb677e358cbfda62073f36b10a651fcaf83973e7c75719740a583afc4395f",
+      "repetition": 1,
+      "episode_id": "133443d2795e38606da59aaafe9526941c8ffb9ea62e1ab5b4def455fc62510a",
+      "public_packet_sha256": "0d11bce529aced21a09e5941b10f48bda71f4d70e8093df736e8e68c5453055d",
+      "max_calls": 5
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "provider_tag": "novita",
+      "cell_id": "533eb677e358cbfda62073f36b10a651fcaf83973e7c75719740a583afc4395f",
+      "repetition": 2,
+      "episode_id": "0e34aaa5153674a906d5e8a01c0f992a4cdfe751f08e7cea0bc9259ef72a24e3",
+      "public_packet_sha256": "0d11bce529aced21a09e5941b10f48bda71f4d70e8093df736e8e68c5453055d",
+      "max_calls": 5
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "provider_tag": "novita",
+      "cell_id": "4a572d1565651ca6940d7b1f44999063677d6e37bbec9efe9ad169c11edbfa6d",
+      "repetition": 0,
+      "episode_id": "1177435063ac50f79b10586106e872255bcdadb99c02f068cbee4669061cfe46",
+      "public_packet_sha256": "c4b4e7e4aba92fdff0979f4d4d104e32f95f94d91102ec691fe840e07ffb8011",
+      "max_calls": 5
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "provider_tag": "novita",
+      "cell_id": "4a572d1565651ca6940d7b1f44999063677d6e37bbec9efe9ad169c11edbfa6d",
+      "repetition": 1,
+      "episode_id": "d6ec8a8b8da1651ce65d4b46e52b587b5ca0ae2c901e29a4b8b367cb31638072",
+      "public_packet_sha256": "c4b4e7e4aba92fdff0979f4d4d104e32f95f94d91102ec691fe840e07ffb8011",
+      "max_calls": 5
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "provider_tag": "novita",
+      "cell_id": "4a572d1565651ca6940d7b1f44999063677d6e37bbec9efe9ad169c11edbfa6d",
+      "repetition": 2,
+      "episode_id": "847959a9fd047d6c23c6aa7c5a323e3e2812562e326d043afad9d6432e116659",
+      "public_packet_sha256": "c4b4e7e4aba92fdff0979f4d4d104e32f95f94d91102ec691fe840e07ffb8011",
+      "max_calls": 5
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "provider_tag": "novita",
+      "cell_id": "2a2154e7e997e768937869dfa3c9b68dcdc118ea097564f0477b4c5fe9707c3f",
+      "repetition": 0,
+      "episode_id": "ec6bb21f58ff66da725faf8ba1e328ab5b59806541e9f8e68b401e048dd106a8",
+      "public_packet_sha256": "c4b4e7e4aba92fdff0979f4d4d104e32f95f94d91102ec691fe840e07ffb8011",
+      "max_calls": 5
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "provider_tag": "novita",
+      "cell_id": "2a2154e7e997e768937869dfa3c9b68dcdc118ea097564f0477b4c5fe9707c3f",
+      "repetition": 1,
+      "episode_id": "adab6b65c77094617144046bcd6c08cd828c85d589f9faab8bd1c5be3ec4641f",
+      "public_packet_sha256": "c4b4e7e4aba92fdff0979f4d4d104e32f95f94d91102ec691fe840e07ffb8011",
+      "max_calls": 5
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "provider_tag": "novita",
+      "cell_id": "2a2154e7e997e768937869dfa3c9b68dcdc118ea097564f0477b4c5fe9707c3f",
+      "repetition": 2,
+      "episode_id": "b0bd28973b9370982a2e9b458430ed0922781e261e0ec5dd2eb5c6e5798dd9f2",
+      "public_packet_sha256": "c4b4e7e4aba92fdff0979f4d4d104e32f95f94d91102ec691fe840e07ffb8011",
+      "max_calls": 5
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "provider_tag": "novita",
+      "cell_id": "fee08e7f8657d28276581732e853b467a89d26b4cb60be9068ff5f44fbddcb12",
+      "repetition": 0,
+      "episode_id": "0e47b49ff40f9ff20928c32807fc1af8d15c95e14656c2f9e60462b80c3dd8cc",
+      "public_packet_sha256": "5512800b65dd6ef878ac867289ff8e4e8d395caa9e5a1064b87da0083ddc4cb6",
+      "max_calls": 5
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "provider_tag": "novita",
+      "cell_id": "fee08e7f8657d28276581732e853b467a89d26b4cb60be9068ff5f44fbddcb12",
+      "repetition": 1,
+      "episode_id": "9b9e3ac83e02cef177ec15f1edcf1dab47146c8f78b82bccd896fe9de0945c12",
+      "public_packet_sha256": "5512800b65dd6ef878ac867289ff8e4e8d395caa9e5a1064b87da0083ddc4cb6",
+      "max_calls": 5
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "provider_tag": "novita",
+      "cell_id": "fee08e7f8657d28276581732e853b467a89d26b4cb60be9068ff5f44fbddcb12",
+      "repetition": 2,
+      "episode_id": "c343b24ad36b54759d34261a37561fe3fa85bab45e5a2f248f282e70191f2b50",
+      "public_packet_sha256": "5512800b65dd6ef878ac867289ff8e4e8d395caa9e5a1064b87da0083ddc4cb6",
+      "max_calls": 5
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "provider_tag": "novita",
+      "cell_id": "6342816ac0ce97f977fb5ae9d46f0695c14a277df5adcbba76afa83f443d5724",
+      "repetition": 0,
+      "episode_id": "2795341bf7e1b4533567906a2c1895601332f9eb9de60583469feff6dd443e04",
+      "public_packet_sha256": "5512800b65dd6ef878ac867289ff8e4e8d395caa9e5a1064b87da0083ddc4cb6",
+      "max_calls": 5
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "provider_tag": "novita",
+      "cell_id": "6342816ac0ce97f977fb5ae9d46f0695c14a277df5adcbba76afa83f443d5724",
+      "repetition": 1,
+      "episode_id": "2582124d61fadafe0ea267ad427b10d36106af293cfb659ab569067510393f4f",
+      "public_packet_sha256": "5512800b65dd6ef878ac867289ff8e4e8d395caa9e5a1064b87da0083ddc4cb6",
+      "max_calls": 5
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "provider_tag": "novita",
+      "cell_id": "6342816ac0ce97f977fb5ae9d46f0695c14a277df5adcbba76afa83f443d5724",
+      "repetition": 2,
+      "episode_id": "442e3cd5001df6dc73695824012b9a6ed78e2ad49326889c2a26b2f1157f5c67",
+      "public_packet_sha256": "5512800b65dd6ef878ac867289ff8e4e8d395caa9e5a1064b87da0083ddc4cb6",
+      "max_calls": 5
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "provider_tag": "novita",
+      "cell_id": "c6128d333bf334ee2765c7c72bcdf24a01e976ae448ab203245d460af374449d",
+      "repetition": 0,
+      "episode_id": "360e1ca1c9f4d29c2617720a3cd159b0e5eae2bbf263aa17dbd485bc31348492",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "max_calls": 5
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "provider_tag": "novita",
+      "cell_id": "c6128d333bf334ee2765c7c72bcdf24a01e976ae448ab203245d460af374449d",
+      "repetition": 1,
+      "episode_id": "23e5b8c84d899413db3134da7a58e92f473b89583be8b15f27fc20aaea54fb48",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "max_calls": 5
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "provider_tag": "novita",
+      "cell_id": "c6128d333bf334ee2765c7c72bcdf24a01e976ae448ab203245d460af374449d",
+      "repetition": 2,
+      "episode_id": "5b35336acb3551eaa2d3ce6587f4f5cd1bbebce9acfb5a8b34644c3701b531b8",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "max_calls": 5
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "provider_tag": "novita",
+      "cell_id": "603e75161aa757145137d2f7332f303e86eace4e303aa9dc8f24a1fd1c2f43ab",
+      "repetition": 0,
+      "episode_id": "51a255b435cc1417de8e252716807bb10a5b7d4c2675b3ed0423eff2d1a1b553",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "max_calls": 5
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "provider_tag": "novita",
+      "cell_id": "603e75161aa757145137d2f7332f303e86eace4e303aa9dc8f24a1fd1c2f43ab",
+      "repetition": 1,
+      "episode_id": "f2451610986d5e0c3a199aa1e327f09afafcc276869bd1b8e3970f999a6922bf",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "max_calls": 5
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "provider_tag": "novita",
+      "cell_id": "603e75161aa757145137d2f7332f303e86eace4e303aa9dc8f24a1fd1c2f43ab",
+      "repetition": 2,
+      "episode_id": "d23cd71a6103f0bbb7cd21b4e5b47729cc1c291b0f2ca3ac1af7b824c74852f1",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "max_calls": 5
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "provider_tag": "novita",
+      "cell_id": "61c18fc6286d9072d4d44285b2aaf223e31524b24294934fa5d354d1af79430a",
+      "repetition": 0,
+      "episode_id": "5c06e3f96f2d91ef602815c0dcaee3e7899e8e4e4be397445a45d0757cf48456",
+      "public_packet_sha256": "296efb3a22d29dd8bf872cf481ccd82aef215e8bacc8543caedd615b214e9867",
+      "max_calls": 5
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "provider_tag": "novita",
+      "cell_id": "61c18fc6286d9072d4d44285b2aaf223e31524b24294934fa5d354d1af79430a",
+      "repetition": 1,
+      "episode_id": "6fccc642547fbf5d3924a4e4991849525241e8cd9cb782b0214e03f984fa8951",
+      "public_packet_sha256": "296efb3a22d29dd8bf872cf481ccd82aef215e8bacc8543caedd615b214e9867",
+      "max_calls": 5
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "provider_tag": "novita",
+      "cell_id": "61c18fc6286d9072d4d44285b2aaf223e31524b24294934fa5d354d1af79430a",
+      "repetition": 2,
+      "episode_id": "1dc094e026e4fae500171d9108b81855c286e0c8a116e3471da789a0cdbb668d",
+      "public_packet_sha256": "296efb3a22d29dd8bf872cf481ccd82aef215e8bacc8543caedd615b214e9867",
+      "max_calls": 5
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "provider_tag": "novita",
+      "cell_id": "b70baebd3fefda62fa1ccf62cba31fb0d01ccb9d11893568a2735bf633405937",
+      "repetition": 0,
+      "episode_id": "9b4cc401417b921a20c746189b4ad5c670dcb8f204b5b004f3cabbca61ce5172",
+      "public_packet_sha256": "296efb3a22d29dd8bf872cf481ccd82aef215e8bacc8543caedd615b214e9867",
+      "max_calls": 5
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "provider_tag": "novita",
+      "cell_id": "b70baebd3fefda62fa1ccf62cba31fb0d01ccb9d11893568a2735bf633405937",
+      "repetition": 1,
+      "episode_id": "574824c9e1f55e2f86c8d2417048522a9bc012078f9eee9019f2a7ca82706077",
+      "public_packet_sha256": "296efb3a22d29dd8bf872cf481ccd82aef215e8bacc8543caedd615b214e9867",
+      "max_calls": 5
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "provider_tag": "novita",
+      "cell_id": "b70baebd3fefda62fa1ccf62cba31fb0d01ccb9d11893568a2735bf633405937",
+      "repetition": 2,
+      "episode_id": "8819a979a0c822ca6667c906cd91de44debd7fa372fce1b9de2a75f992c718b8",
+      "public_packet_sha256": "296efb3a22d29dd8bf872cf481ccd82aef215e8bacc8543caedd615b214e9867",
+      "max_calls": 5
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "provider_tag": "novita",
+      "cell_id": "18c9d19456e0f34f171a05b24161beb0806fcd48592007fee49281ebdca8044d",
+      "repetition": 0,
+      "episode_id": "dab5dfeea118f8cf83cce434288e69acda0aa1aec37923b2d2b25f4c245a8fb0",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "max_calls": 5
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "provider_tag": "novita",
+      "cell_id": "18c9d19456e0f34f171a05b24161beb0806fcd48592007fee49281ebdca8044d",
+      "repetition": 1,
+      "episode_id": "6070523b6a2cc8cf1172c3fb10ceef21452642722873481e73067b4e834bccc2",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "max_calls": 5
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "provider_tag": "novita",
+      "cell_id": "18c9d19456e0f34f171a05b24161beb0806fcd48592007fee49281ebdca8044d",
+      "repetition": 2,
+      "episode_id": "c7c1ea0c35f650873d63a907e80c3d80b2f5380d25ffdedd871864376be9ac08",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "max_calls": 5
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "provider_tag": "novita",
+      "cell_id": "2e67681b511c67c4b591b1f0b189ae636863ef8d7c1261e9e16a3a0abe71a06e",
+      "repetition": 0,
+      "episode_id": "5bc728038d7bda000f29ea612dfe1f2dc9b36780d0adb79941c1240c8e5dd4e4",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "max_calls": 5
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "provider_tag": "novita",
+      "cell_id": "2e67681b511c67c4b591b1f0b189ae636863ef8d7c1261e9e16a3a0abe71a06e",
+      "repetition": 1,
+      "episode_id": "d602fc11bdc393c61c18922b929eab8d12d806a68a6a4ccc5b3742a5cfeaf7c2",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "max_calls": 5
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "provider_tag": "novita",
+      "cell_id": "2e67681b511c67c4b591b1f0b189ae636863ef8d7c1261e9e16a3a0abe71a06e",
+      "repetition": 2,
+      "episode_id": "2b8191d59f8edc71f065e4ca0771d74ed3104c4fb49c3eabfd238a845005d42e",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "max_calls": 5
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "provider_tag": "novita",
+      "cell_id": "e234c9291aa586947aee4721baadc1556c8c9ff2615600052d11d11b24989b11",
+      "repetition": 0,
+      "episode_id": "7a683fb9c2a93b04f1f48718dfa7134f662d963b1c37462e8006cfc3dc93e1de",
+      "public_packet_sha256": "50bb9543f02453dab90aaf096c9ad02ed8220ddbd881e525fd794ba38e59dd09",
+      "max_calls": 5
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "provider_tag": "novita",
+      "cell_id": "e234c9291aa586947aee4721baadc1556c8c9ff2615600052d11d11b24989b11",
+      "repetition": 1,
+      "episode_id": "919f6f03e2ae74ca312425dae074043119fc38c3c6922169b29339e3b36014c8",
+      "public_packet_sha256": "50bb9543f02453dab90aaf096c9ad02ed8220ddbd881e525fd794ba38e59dd09",
+      "max_calls": 5
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "provider_tag": "novita",
+      "cell_id": "e234c9291aa586947aee4721baadc1556c8c9ff2615600052d11d11b24989b11",
+      "repetition": 2,
+      "episode_id": "f15bd26426f92a7f5cbe51d977605ecea931f986c793dbc362ce3c2a77adbf8d",
+      "public_packet_sha256": "50bb9543f02453dab90aaf096c9ad02ed8220ddbd881e525fd794ba38e59dd09",
+      "max_calls": 5
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "provider_tag": "novita",
+      "cell_id": "73203187f9990981e9c430c3825ca05ccee76210a9c63847c7ff9fe1a073f990",
+      "repetition": 0,
+      "episode_id": "c2255b4aa0646cbb4f3f03bddafb1bba0e49de4f6ec791f388b9e2bd2ad61624",
+      "public_packet_sha256": "50bb9543f02453dab90aaf096c9ad02ed8220ddbd881e525fd794ba38e59dd09",
+      "max_calls": 5
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "provider_tag": "novita",
+      "cell_id": "73203187f9990981e9c430c3825ca05ccee76210a9c63847c7ff9fe1a073f990",
+      "repetition": 1,
+      "episode_id": "74e14aaa8758762eb71b4ed0d4535afd398b72275e3b69e5302bfd1414403a48",
+      "public_packet_sha256": "50bb9543f02453dab90aaf096c9ad02ed8220ddbd881e525fd794ba38e59dd09",
+      "max_calls": 5
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "provider_tag": "novita",
+      "cell_id": "73203187f9990981e9c430c3825ca05ccee76210a9c63847c7ff9fe1a073f990",
+      "repetition": 2,
+      "episode_id": "57495309344677b38c36f9c56cddef1a08f26ddacba935ff1ca7e57f65e87eea",
+      "public_packet_sha256": "50bb9543f02453dab90aaf096c9ad02ed8220ddbd881e525fd794ba38e59dd09",
+      "max_calls": 5
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "provider_tag": "novita",
+      "cell_id": "8747feb36682bd43ba3cba26f0a7c5c4acb4f6bc2e8603f48ed4ae2c401117f8",
+      "repetition": 0,
+      "episode_id": "a2f3160e50b576898a05e5920cc28d11e0359aee5147740d17aa76603ab27a74",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "max_calls": 5
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "provider_tag": "novita",
+      "cell_id": "8747feb36682bd43ba3cba26f0a7c5c4acb4f6bc2e8603f48ed4ae2c401117f8",
+      "repetition": 1,
+      "episode_id": "205e69c2169e0cf61d221ade19c043e8676b1b86a8df4efb1101517d8b8faec5",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "max_calls": 5
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "provider_tag": "novita",
+      "cell_id": "8747feb36682bd43ba3cba26f0a7c5c4acb4f6bc2e8603f48ed4ae2c401117f8",
+      "repetition": 2,
+      "episode_id": "32eb827913702fdd0a712d4c047b3726313d1a2a8c4a690bc9afab3500a5d451",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "max_calls": 5
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "provider_tag": "novita",
+      "cell_id": "ac78c3eda17c5ea11fe91cf79f8ec0e4e9be7e9e296ecbb4bf2ece97e6ad40ef",
+      "repetition": 0,
+      "episode_id": "d60687a7ac7e9f8984fbb319b703f9d1b74e15b39f111fb57f99fd4d763d63ae",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "max_calls": 5
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "provider_tag": "novita",
+      "cell_id": "ac78c3eda17c5ea11fe91cf79f8ec0e4e9be7e9e296ecbb4bf2ece97e6ad40ef",
+      "repetition": 1,
+      "episode_id": "9cc92e694864a0dffba524721b4ed5975a2af255cd444e55dbd643890b7e274d",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "max_calls": 5
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "provider_tag": "novita",
+      "cell_id": "ac78c3eda17c5ea11fe91cf79f8ec0e4e9be7e9e296ecbb4bf2ece97e6ad40ef",
+      "repetition": 2,
+      "episode_id": "90f2718c64d770063fa2ec3a235a1b1fc5058faee0d36571e07eef2be6cbd58a",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "max_calls": 5
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "provider_tag": "morph/fp8",
+      "cell_id": "85e40d2764e9a10a84fd1442914faab73bac0a3ebae2eac839eb471516ec60fb",
+      "repetition": 0,
+      "episode_id": "5c6e3044e1289a54ae9fe1020f32e344a3030901f9cadbf0ac7d4b099bf875ee",
+      "public_packet_sha256": "0d11bce529aced21a09e5941b10f48bda71f4d70e8093df736e8e68c5453055d",
+      "max_calls": 5
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "provider_tag": "morph/fp8",
+      "cell_id": "85e40d2764e9a10a84fd1442914faab73bac0a3ebae2eac839eb471516ec60fb",
+      "repetition": 1,
+      "episode_id": "9c9d897b3bc732b97a831a8bc3aa0c5db0211664df0748dfa00af7e1c9218148",
+      "public_packet_sha256": "0d11bce529aced21a09e5941b10f48bda71f4d70e8093df736e8e68c5453055d",
+      "max_calls": 5
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "provider_tag": "morph/fp8",
+      "cell_id": "85e40d2764e9a10a84fd1442914faab73bac0a3ebae2eac839eb471516ec60fb",
+      "repetition": 2,
+      "episode_id": "bd488cfe58496205dbebe19c28df41b7be0426c954cfca9c4ed17948b7aa6cec",
+      "public_packet_sha256": "0d11bce529aced21a09e5941b10f48bda71f4d70e8093df736e8e68c5453055d",
+      "max_calls": 5
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "provider_tag": "morph/fp8",
+      "cell_id": "533eb677e358cbfda62073f36b10a651fcaf83973e7c75719740a583afc4395f",
+      "repetition": 0,
+      "episode_id": "e06604a7f600de1bb749c79d0102faf22329b0087d4a6168ac0418c4f4a526fb",
+      "public_packet_sha256": "0d11bce529aced21a09e5941b10f48bda71f4d70e8093df736e8e68c5453055d",
+      "max_calls": 5
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "provider_tag": "morph/fp8",
+      "cell_id": "533eb677e358cbfda62073f36b10a651fcaf83973e7c75719740a583afc4395f",
+      "repetition": 1,
+      "episode_id": "b3c6ee445e12f723f843656a48ece05dcc52e59d865ebac19e20e24b9cbd63ae",
+      "public_packet_sha256": "0d11bce529aced21a09e5941b10f48bda71f4d70e8093df736e8e68c5453055d",
+      "max_calls": 5
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "provider_tag": "morph/fp8",
+      "cell_id": "533eb677e358cbfda62073f36b10a651fcaf83973e7c75719740a583afc4395f",
+      "repetition": 2,
+      "episode_id": "cc579f92ff34f38a6e8d2037df65b0c505be41a9a6db888d6fa6174e2733a0cb",
+      "public_packet_sha256": "0d11bce529aced21a09e5941b10f48bda71f4d70e8093df736e8e68c5453055d",
+      "max_calls": 5
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "provider_tag": "morph/fp8",
+      "cell_id": "4a572d1565651ca6940d7b1f44999063677d6e37bbec9efe9ad169c11edbfa6d",
+      "repetition": 0,
+      "episode_id": "903026cb908afabdba6a6653cfe7502dc725886039d1bc5c7c7b4c31e6311837",
+      "public_packet_sha256": "c4b4e7e4aba92fdff0979f4d4d104e32f95f94d91102ec691fe840e07ffb8011",
+      "max_calls": 5
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "provider_tag": "morph/fp8",
+      "cell_id": "4a572d1565651ca6940d7b1f44999063677d6e37bbec9efe9ad169c11edbfa6d",
+      "repetition": 1,
+      "episode_id": "3a692070c6edc6f32eed5dc85feadfb3098d294aa95284bca13429da4922a7af",
+      "public_packet_sha256": "c4b4e7e4aba92fdff0979f4d4d104e32f95f94d91102ec691fe840e07ffb8011",
+      "max_calls": 5
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "provider_tag": "morph/fp8",
+      "cell_id": "4a572d1565651ca6940d7b1f44999063677d6e37bbec9efe9ad169c11edbfa6d",
+      "repetition": 2,
+      "episode_id": "f7828450752befafb7e87b7a523343cd4ab50488d3714172a0f179e6e8f16cbe",
+      "public_packet_sha256": "c4b4e7e4aba92fdff0979f4d4d104e32f95f94d91102ec691fe840e07ffb8011",
+      "max_calls": 5
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "provider_tag": "morph/fp8",
+      "cell_id": "2a2154e7e997e768937869dfa3c9b68dcdc118ea097564f0477b4c5fe9707c3f",
+      "repetition": 0,
+      "episode_id": "48766bb69d685ab87ac2b85c092284a7ea4a8b749ff9ac8cb1ecceabab38bc8a",
+      "public_packet_sha256": "c4b4e7e4aba92fdff0979f4d4d104e32f95f94d91102ec691fe840e07ffb8011",
+      "max_calls": 5
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "provider_tag": "morph/fp8",
+      "cell_id": "2a2154e7e997e768937869dfa3c9b68dcdc118ea097564f0477b4c5fe9707c3f",
+      "repetition": 1,
+      "episode_id": "f7f49a34bfab0f265eec060d3b9f2ffeb2104528b77481e121edd7f30cdec745",
+      "public_packet_sha256": "c4b4e7e4aba92fdff0979f4d4d104e32f95f94d91102ec691fe840e07ffb8011",
+      "max_calls": 5
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "provider_tag": "morph/fp8",
+      "cell_id": "2a2154e7e997e768937869dfa3c9b68dcdc118ea097564f0477b4c5fe9707c3f",
+      "repetition": 2,
+      "episode_id": "774f5ade65286db9af4f668424147a8ce15bdd7a49c21a75352401d16cce3793",
+      "public_packet_sha256": "c4b4e7e4aba92fdff0979f4d4d104e32f95f94d91102ec691fe840e07ffb8011",
+      "max_calls": 5
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "provider_tag": "morph/fp8",
+      "cell_id": "fee08e7f8657d28276581732e853b467a89d26b4cb60be9068ff5f44fbddcb12",
+      "repetition": 0,
+      "episode_id": "586f0f0ea9ae3dfdfc4a02941ec340f23d6ab495c781aec8888519bd64a2fb6e",
+      "public_packet_sha256": "5512800b65dd6ef878ac867289ff8e4e8d395caa9e5a1064b87da0083ddc4cb6",
+      "max_calls": 5
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "provider_tag": "morph/fp8",
+      "cell_id": "fee08e7f8657d28276581732e853b467a89d26b4cb60be9068ff5f44fbddcb12",
+      "repetition": 1,
+      "episode_id": "d6730d52f90ee07d8374c21bbff639f6442ca358d1809ca7ef91006887b2a328",
+      "public_packet_sha256": "5512800b65dd6ef878ac867289ff8e4e8d395caa9e5a1064b87da0083ddc4cb6",
+      "max_calls": 5
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "provider_tag": "morph/fp8",
+      "cell_id": "fee08e7f8657d28276581732e853b467a89d26b4cb60be9068ff5f44fbddcb12",
+      "repetition": 2,
+      "episode_id": "62716b246c27a60e0bfc747493d72c1caecbfbca21c81ad4c7240834ba657d2d",
+      "public_packet_sha256": "5512800b65dd6ef878ac867289ff8e4e8d395caa9e5a1064b87da0083ddc4cb6",
+      "max_calls": 5
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "provider_tag": "morph/fp8",
+      "cell_id": "6342816ac0ce97f977fb5ae9d46f0695c14a277df5adcbba76afa83f443d5724",
+      "repetition": 0,
+      "episode_id": "33d01c01f2540980d168333a0a435b7846461140256b021756bc3209d7fc11e2",
+      "public_packet_sha256": "5512800b65dd6ef878ac867289ff8e4e8d395caa9e5a1064b87da0083ddc4cb6",
+      "max_calls": 5
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "provider_tag": "morph/fp8",
+      "cell_id": "6342816ac0ce97f977fb5ae9d46f0695c14a277df5adcbba76afa83f443d5724",
+      "repetition": 1,
+      "episode_id": "6a50197bc95c69f2e3e3f44c5d4dc88ee3c9d504cbe49fc1db4db4caef499b56",
+      "public_packet_sha256": "5512800b65dd6ef878ac867289ff8e4e8d395caa9e5a1064b87da0083ddc4cb6",
+      "max_calls": 5
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "provider_tag": "morph/fp8",
+      "cell_id": "6342816ac0ce97f977fb5ae9d46f0695c14a277df5adcbba76afa83f443d5724",
+      "repetition": 2,
+      "episode_id": "aab1246d118eff07b939e8bdc711cc35a0d56a7f998d19dd08ce64f2dc419ab8",
+      "public_packet_sha256": "5512800b65dd6ef878ac867289ff8e4e8d395caa9e5a1064b87da0083ddc4cb6",
+      "max_calls": 5
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "provider_tag": "morph/fp8",
+      "cell_id": "c6128d333bf334ee2765c7c72bcdf24a01e976ae448ab203245d460af374449d",
+      "repetition": 0,
+      "episode_id": "e4b74bc9191653a96cfd43f3e2545bc49448c70d9e8e5ce2ea76c713331ad6c0",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "max_calls": 5
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "provider_tag": "morph/fp8",
+      "cell_id": "c6128d333bf334ee2765c7c72bcdf24a01e976ae448ab203245d460af374449d",
+      "repetition": 1,
+      "episode_id": "e867ed99bd49336210ea47ab6d7ef83fb1246256b3a774bd958c4427db96f908",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "max_calls": 5
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "provider_tag": "morph/fp8",
+      "cell_id": "c6128d333bf334ee2765c7c72bcdf24a01e976ae448ab203245d460af374449d",
+      "repetition": 2,
+      "episode_id": "d5e25b43d2e2affe7433f3ed7706755c3ed7d1afcaa01d5be94085fb0d63db89",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "max_calls": 5
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "provider_tag": "morph/fp8",
+      "cell_id": "603e75161aa757145137d2f7332f303e86eace4e303aa9dc8f24a1fd1c2f43ab",
+      "repetition": 0,
+      "episode_id": "96d01e989ef91347182c31e6cb2940d669a8c76d5e8df7e59c1db18ff021b0de",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "max_calls": 5
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "provider_tag": "morph/fp8",
+      "cell_id": "603e75161aa757145137d2f7332f303e86eace4e303aa9dc8f24a1fd1c2f43ab",
+      "repetition": 1,
+      "episode_id": "449de34882db2d6f49dacf6cbcafe7a9d808b8b5a6a604f929fd771fb6f49024",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "max_calls": 5
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "provider_tag": "morph/fp8",
+      "cell_id": "603e75161aa757145137d2f7332f303e86eace4e303aa9dc8f24a1fd1c2f43ab",
+      "repetition": 2,
+      "episode_id": "1dcaf4a99cd5b80560b426ef4510a6dcc19b4344dcb466db6ce129a3f1c1fab2",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "max_calls": 5
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "provider_tag": "morph/fp8",
+      "cell_id": "61c18fc6286d9072d4d44285b2aaf223e31524b24294934fa5d354d1af79430a",
+      "repetition": 0,
+      "episode_id": "d35f9c213bccf0c64450181ecb99ab1769b67e63896ea94c8924e2a5a96cbfc8",
+      "public_packet_sha256": "296efb3a22d29dd8bf872cf481ccd82aef215e8bacc8543caedd615b214e9867",
+      "max_calls": 5
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "provider_tag": "morph/fp8",
+      "cell_id": "61c18fc6286d9072d4d44285b2aaf223e31524b24294934fa5d354d1af79430a",
+      "repetition": 1,
+      "episode_id": "0b8f45b85a469e59b01595d992f17c44c2678e1e751bd63966be5cc4ffbbc674",
+      "public_packet_sha256": "296efb3a22d29dd8bf872cf481ccd82aef215e8bacc8543caedd615b214e9867",
+      "max_calls": 5
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "provider_tag": "morph/fp8",
+      "cell_id": "61c18fc6286d9072d4d44285b2aaf223e31524b24294934fa5d354d1af79430a",
+      "repetition": 2,
+      "episode_id": "bc2656e699d75cb3a14a85b93fe27394925c234945b30c78666d4fe8e0620c15",
+      "public_packet_sha256": "296efb3a22d29dd8bf872cf481ccd82aef215e8bacc8543caedd615b214e9867",
+      "max_calls": 5
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "provider_tag": "morph/fp8",
+      "cell_id": "b70baebd3fefda62fa1ccf62cba31fb0d01ccb9d11893568a2735bf633405937",
+      "repetition": 0,
+      "episode_id": "fbceec48d12c8380fdf80736d1be939c386b62358c642a06a8257236e7140277",
+      "public_packet_sha256": "296efb3a22d29dd8bf872cf481ccd82aef215e8bacc8543caedd615b214e9867",
+      "max_calls": 5
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "provider_tag": "morph/fp8",
+      "cell_id": "b70baebd3fefda62fa1ccf62cba31fb0d01ccb9d11893568a2735bf633405937",
+      "repetition": 1,
+      "episode_id": "dafc848e024f4f0d102ce0d9dc38d896565f2186f6ffb28be1c56ef981a90b38",
+      "public_packet_sha256": "296efb3a22d29dd8bf872cf481ccd82aef215e8bacc8543caedd615b214e9867",
+      "max_calls": 5
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "provider_tag": "morph/fp8",
+      "cell_id": "b70baebd3fefda62fa1ccf62cba31fb0d01ccb9d11893568a2735bf633405937",
+      "repetition": 2,
+      "episode_id": "a2257c536b1a1b4fe205e82c246ed3854c291dc221ca29daf839e879295768fe",
+      "public_packet_sha256": "296efb3a22d29dd8bf872cf481ccd82aef215e8bacc8543caedd615b214e9867",
+      "max_calls": 5
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "provider_tag": "morph/fp8",
+      "cell_id": "18c9d19456e0f34f171a05b24161beb0806fcd48592007fee49281ebdca8044d",
+      "repetition": 0,
+      "episode_id": "fbe5c5db34488e3548c5f631776407b77c826bc0fa346a77d107dadba3c1dfaf",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "max_calls": 5
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "provider_tag": "morph/fp8",
+      "cell_id": "18c9d19456e0f34f171a05b24161beb0806fcd48592007fee49281ebdca8044d",
+      "repetition": 1,
+      "episode_id": "71f80784391a7436d5204215c205eaf17911ac52aeff437c8b50df38a653cd44",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "max_calls": 5
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "provider_tag": "morph/fp8",
+      "cell_id": "18c9d19456e0f34f171a05b24161beb0806fcd48592007fee49281ebdca8044d",
+      "repetition": 2,
+      "episode_id": "46c48c27a663ec4c0bca07b9a076ad2e8b9a9bdad59f04ee0a6f5605d70529a1",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "max_calls": 5
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "provider_tag": "morph/fp8",
+      "cell_id": "2e67681b511c67c4b591b1f0b189ae636863ef8d7c1261e9e16a3a0abe71a06e",
+      "repetition": 0,
+      "episode_id": "5caac29bec9c99df03c47027431ce7fef279b954eeb979397d6bd42570db6ef6",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "max_calls": 5
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "provider_tag": "morph/fp8",
+      "cell_id": "2e67681b511c67c4b591b1f0b189ae636863ef8d7c1261e9e16a3a0abe71a06e",
+      "repetition": 1,
+      "episode_id": "ca6000da40081894324527e57a96d5064e1aacdb5f991055ca4cfadaae2bffc4",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "max_calls": 5
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "provider_tag": "morph/fp8",
+      "cell_id": "2e67681b511c67c4b591b1f0b189ae636863ef8d7c1261e9e16a3a0abe71a06e",
+      "repetition": 2,
+      "episode_id": "cc84a1c607baac8696b8c29d4f3f3fe15ccfc6db4aa1f0fb912daba6af470dc2",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "max_calls": 5
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "provider_tag": "morph/fp8",
+      "cell_id": "e234c9291aa586947aee4721baadc1556c8c9ff2615600052d11d11b24989b11",
+      "repetition": 0,
+      "episode_id": "9b8e2a2102e8400c83e67e9780161ec3a7b9977149413f38bb9417a0910c6492",
+      "public_packet_sha256": "50bb9543f02453dab90aaf096c9ad02ed8220ddbd881e525fd794ba38e59dd09",
+      "max_calls": 5
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "provider_tag": "morph/fp8",
+      "cell_id": "e234c9291aa586947aee4721baadc1556c8c9ff2615600052d11d11b24989b11",
+      "repetition": 1,
+      "episode_id": "6669bcef49d59fea581f8fa2174b2f21f48597bc119855fdc78aba2049c87e91",
+      "public_packet_sha256": "50bb9543f02453dab90aaf096c9ad02ed8220ddbd881e525fd794ba38e59dd09",
+      "max_calls": 5
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "provider_tag": "morph/fp8",
+      "cell_id": "e234c9291aa586947aee4721baadc1556c8c9ff2615600052d11d11b24989b11",
+      "repetition": 2,
+      "episode_id": "2a831ef32ac4a600bbcaf8bb364de5d4a4fcb5bc829ba88acb920023ff041722",
+      "public_packet_sha256": "50bb9543f02453dab90aaf096c9ad02ed8220ddbd881e525fd794ba38e59dd09",
+      "max_calls": 5
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "provider_tag": "morph/fp8",
+      "cell_id": "73203187f9990981e9c430c3825ca05ccee76210a9c63847c7ff9fe1a073f990",
+      "repetition": 0,
+      "episode_id": "be575d4029d265d3c0494d3657db64ec4d5620d56b6902d8d6a41bab1ed2522a",
+      "public_packet_sha256": "50bb9543f02453dab90aaf096c9ad02ed8220ddbd881e525fd794ba38e59dd09",
+      "max_calls": 5
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "provider_tag": "morph/fp8",
+      "cell_id": "73203187f9990981e9c430c3825ca05ccee76210a9c63847c7ff9fe1a073f990",
+      "repetition": 1,
+      "episode_id": "fc20ebdd0a92c599428ceee84ab1ee3234387f1962f3724516a1687697a271dc",
+      "public_packet_sha256": "50bb9543f02453dab90aaf096c9ad02ed8220ddbd881e525fd794ba38e59dd09",
+      "max_calls": 5
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "provider_tag": "morph/fp8",
+      "cell_id": "73203187f9990981e9c430c3825ca05ccee76210a9c63847c7ff9fe1a073f990",
+      "repetition": 2,
+      "episode_id": "fcdfd5d3407c54a8a30c0db28f8981e340653bb84bbd97f91bd8e0d8b422bc51",
+      "public_packet_sha256": "50bb9543f02453dab90aaf096c9ad02ed8220ddbd881e525fd794ba38e59dd09",
+      "max_calls": 5
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "provider_tag": "morph/fp8",
+      "cell_id": "8747feb36682bd43ba3cba26f0a7c5c4acb4f6bc2e8603f48ed4ae2c401117f8",
+      "repetition": 0,
+      "episode_id": "437585e94ada040d88383e6cd61bfc0880ac6c911c5e2d4e992eca85c8283a07",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "max_calls": 5
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "provider_tag": "morph/fp8",
+      "cell_id": "8747feb36682bd43ba3cba26f0a7c5c4acb4f6bc2e8603f48ed4ae2c401117f8",
+      "repetition": 1,
+      "episode_id": "23ad62ca13933fb833c7d6d9270afe3f3da1df012131be162a3c2e69d80404fa",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "max_calls": 5
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "provider_tag": "morph/fp8",
+      "cell_id": "8747feb36682bd43ba3cba26f0a7c5c4acb4f6bc2e8603f48ed4ae2c401117f8",
+      "repetition": 2,
+      "episode_id": "c063bbea6db55f031d2016ffe4c90f1e8b8ed6041a8250e8b2bcf5faf2dddb9c",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "max_calls": 5
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "provider_tag": "morph/fp8",
+      "cell_id": "ac78c3eda17c5ea11fe91cf79f8ec0e4e9be7e9e296ecbb4bf2ece97e6ad40ef",
+      "repetition": 0,
+      "episode_id": "93bd126d6b1975633cc1a8225d44991bb6f92451b0d3b32a059a65667be6cb30",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "max_calls": 5
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "provider_tag": "morph/fp8",
+      "cell_id": "ac78c3eda17c5ea11fe91cf79f8ec0e4e9be7e9e296ecbb4bf2ece97e6ad40ef",
+      "repetition": 1,
+      "episode_id": "5fc9f3e06c54e67af4a06f42f591b5ef97410d797ceaf2d6701a203272fef39e",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "max_calls": 5
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "provider_tag": "morph/fp8",
+      "cell_id": "ac78c3eda17c5ea11fe91cf79f8ec0e4e9be7e9e296ecbb4bf2ece97e6ad40ef",
+      "repetition": 2,
+      "episode_id": "00871853bf808ec58d9f8d54ab0c97bb8f4fbdec9f8f0978f0fcb67da6beadb2",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "max_calls": 5
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "provider_tag": "phala",
+      "cell_id": "85e40d2764e9a10a84fd1442914faab73bac0a3ebae2eac839eb471516ec60fb",
+      "repetition": 0,
+      "episode_id": "5cd17555ac689a9ee7f3ae2701bcfc07c894a51275ef245e3c685901500d74a0",
+      "public_packet_sha256": "0d11bce529aced21a09e5941b10f48bda71f4d70e8093df736e8e68c5453055d",
+      "max_calls": 5
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "provider_tag": "phala",
+      "cell_id": "85e40d2764e9a10a84fd1442914faab73bac0a3ebae2eac839eb471516ec60fb",
+      "repetition": 1,
+      "episode_id": "76a8e5cfca7067cdc8eb620ac6e8f8354f4ba51e6c10aa251d9274cfc806aa18",
+      "public_packet_sha256": "0d11bce529aced21a09e5941b10f48bda71f4d70e8093df736e8e68c5453055d",
+      "max_calls": 5
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "provider_tag": "phala",
+      "cell_id": "85e40d2764e9a10a84fd1442914faab73bac0a3ebae2eac839eb471516ec60fb",
+      "repetition": 2,
+      "episode_id": "07be82aaeac2665461751d79a42b5222d93cde6b1c221522f1c049f8ac97bd58",
+      "public_packet_sha256": "0d11bce529aced21a09e5941b10f48bda71f4d70e8093df736e8e68c5453055d",
+      "max_calls": 5
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "provider_tag": "phala",
+      "cell_id": "533eb677e358cbfda62073f36b10a651fcaf83973e7c75719740a583afc4395f",
+      "repetition": 0,
+      "episode_id": "fb9399512136fa7f7bfa6f1572c77918f8718614cbc5494f10c7406350c5a4b0",
+      "public_packet_sha256": "0d11bce529aced21a09e5941b10f48bda71f4d70e8093df736e8e68c5453055d",
+      "max_calls": 5
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "provider_tag": "phala",
+      "cell_id": "533eb677e358cbfda62073f36b10a651fcaf83973e7c75719740a583afc4395f",
+      "repetition": 1,
+      "episode_id": "c133b5df5dee8ce526fc4340858a06f68185a82f00b33ef69e4c02bcb217f059",
+      "public_packet_sha256": "0d11bce529aced21a09e5941b10f48bda71f4d70e8093df736e8e68c5453055d",
+      "max_calls": 5
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "provider_tag": "phala",
+      "cell_id": "533eb677e358cbfda62073f36b10a651fcaf83973e7c75719740a583afc4395f",
+      "repetition": 2,
+      "episode_id": "a268dbc8c81902bc243f10beb5e831ca57a84bec8358ee05aad507d442149be2",
+      "public_packet_sha256": "0d11bce529aced21a09e5941b10f48bda71f4d70e8093df736e8e68c5453055d",
+      "max_calls": 5
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "provider_tag": "phala",
+      "cell_id": "4a572d1565651ca6940d7b1f44999063677d6e37bbec9efe9ad169c11edbfa6d",
+      "repetition": 0,
+      "episode_id": "1aa440e0b3ddce5b757c9fad46500e0286b988568c1104995dd71e1b5184e45c",
+      "public_packet_sha256": "c4b4e7e4aba92fdff0979f4d4d104e32f95f94d91102ec691fe840e07ffb8011",
+      "max_calls": 5
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "provider_tag": "phala",
+      "cell_id": "4a572d1565651ca6940d7b1f44999063677d6e37bbec9efe9ad169c11edbfa6d",
+      "repetition": 1,
+      "episode_id": "38b023274dda77c1d2fb678b3cbdc2afdb8f75b25ce5856c1018e2479b807c61",
+      "public_packet_sha256": "c4b4e7e4aba92fdff0979f4d4d104e32f95f94d91102ec691fe840e07ffb8011",
+      "max_calls": 5
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "provider_tag": "phala",
+      "cell_id": "4a572d1565651ca6940d7b1f44999063677d6e37bbec9efe9ad169c11edbfa6d",
+      "repetition": 2,
+      "episode_id": "37ebdff2ec034964f065d2221ad5c1e2daa923e89ac394b6f3ef9accd295d758",
+      "public_packet_sha256": "c4b4e7e4aba92fdff0979f4d4d104e32f95f94d91102ec691fe840e07ffb8011",
+      "max_calls": 5
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "provider_tag": "phala",
+      "cell_id": "2a2154e7e997e768937869dfa3c9b68dcdc118ea097564f0477b4c5fe9707c3f",
+      "repetition": 0,
+      "episode_id": "6639111f5fa52785157bfa33bacdb2b14ca1a9feb836e03e58d25fc9ac50ae09",
+      "public_packet_sha256": "c4b4e7e4aba92fdff0979f4d4d104e32f95f94d91102ec691fe840e07ffb8011",
+      "max_calls": 5
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "provider_tag": "phala",
+      "cell_id": "2a2154e7e997e768937869dfa3c9b68dcdc118ea097564f0477b4c5fe9707c3f",
+      "repetition": 1,
+      "episode_id": "5d7c935572f6069e29977510e9752341ce49de980f4aa45e5f501e9206127d07",
+      "public_packet_sha256": "c4b4e7e4aba92fdff0979f4d4d104e32f95f94d91102ec691fe840e07ffb8011",
+      "max_calls": 5
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "provider_tag": "phala",
+      "cell_id": "2a2154e7e997e768937869dfa3c9b68dcdc118ea097564f0477b4c5fe9707c3f",
+      "repetition": 2,
+      "episode_id": "b94112ed023c727bca9a15e60c8ca942d109e35209ddec7a1d5c027822c80517",
+      "public_packet_sha256": "c4b4e7e4aba92fdff0979f4d4d104e32f95f94d91102ec691fe840e07ffb8011",
+      "max_calls": 5
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "provider_tag": "phala",
+      "cell_id": "fee08e7f8657d28276581732e853b467a89d26b4cb60be9068ff5f44fbddcb12",
+      "repetition": 0,
+      "episode_id": "2f3d7feb8747194738c89985f5bb5c57b950546b18e470589e2f810a23bfc908",
+      "public_packet_sha256": "5512800b65dd6ef878ac867289ff8e4e8d395caa9e5a1064b87da0083ddc4cb6",
+      "max_calls": 5
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "provider_tag": "phala",
+      "cell_id": "fee08e7f8657d28276581732e853b467a89d26b4cb60be9068ff5f44fbddcb12",
+      "repetition": 1,
+      "episode_id": "2add2870aa08532c4c95cf855831ca52bda37e8d1579b9c017b470f5fcd65bfb",
+      "public_packet_sha256": "5512800b65dd6ef878ac867289ff8e4e8d395caa9e5a1064b87da0083ddc4cb6",
+      "max_calls": 5
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "provider_tag": "phala",
+      "cell_id": "fee08e7f8657d28276581732e853b467a89d26b4cb60be9068ff5f44fbddcb12",
+      "repetition": 2,
+      "episode_id": "276987d64129c19a8e8e3736fb8c86f775d77ef2cfa755a7f4482ee98bbbe560",
+      "public_packet_sha256": "5512800b65dd6ef878ac867289ff8e4e8d395caa9e5a1064b87da0083ddc4cb6",
+      "max_calls": 5
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "provider_tag": "phala",
+      "cell_id": "6342816ac0ce97f977fb5ae9d46f0695c14a277df5adcbba76afa83f443d5724",
+      "repetition": 0,
+      "episode_id": "fb3d1689ac1e20060e8630277c24819c0e77cf97fad00b87ef170da7d31614ed",
+      "public_packet_sha256": "5512800b65dd6ef878ac867289ff8e4e8d395caa9e5a1064b87da0083ddc4cb6",
+      "max_calls": 5
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "provider_tag": "phala",
+      "cell_id": "6342816ac0ce97f977fb5ae9d46f0695c14a277df5adcbba76afa83f443d5724",
+      "repetition": 1,
+      "episode_id": "050a346ba705801afe1b02779ed73a6acbf83bf6d02d7eb3bd69fb84b3acda72",
+      "public_packet_sha256": "5512800b65dd6ef878ac867289ff8e4e8d395caa9e5a1064b87da0083ddc4cb6",
+      "max_calls": 5
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "provider_tag": "phala",
+      "cell_id": "6342816ac0ce97f977fb5ae9d46f0695c14a277df5adcbba76afa83f443d5724",
+      "repetition": 2,
+      "episode_id": "17032e607b0bf7bdae1b357b41e353b724245c50eda6993581553ce7b948e35c",
+      "public_packet_sha256": "5512800b65dd6ef878ac867289ff8e4e8d395caa9e5a1064b87da0083ddc4cb6",
+      "max_calls": 5
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "provider_tag": "phala",
+      "cell_id": "c6128d333bf334ee2765c7c72bcdf24a01e976ae448ab203245d460af374449d",
+      "repetition": 0,
+      "episode_id": "7e0ae9df99d6fefca88116a02248124184f1b79529490247536f945f0c5465c6",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "max_calls": 5
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "provider_tag": "phala",
+      "cell_id": "c6128d333bf334ee2765c7c72bcdf24a01e976ae448ab203245d460af374449d",
+      "repetition": 1,
+      "episode_id": "a7e7891ebb78eff2522fae229add7f9b73020ee72e5bf214b9227e7999afbaad",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "max_calls": 5
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "provider_tag": "phala",
+      "cell_id": "c6128d333bf334ee2765c7c72bcdf24a01e976ae448ab203245d460af374449d",
+      "repetition": 2,
+      "episode_id": "c2ab06524f197bab75099b23fbe4d86f8d94ebdbe1193a1d5f6f2294bd380365",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "max_calls": 5
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "provider_tag": "phala",
+      "cell_id": "603e75161aa757145137d2f7332f303e86eace4e303aa9dc8f24a1fd1c2f43ab",
+      "repetition": 0,
+      "episode_id": "3462e1ab89655d86a45bbcf6eed0ac5102fc58eb9bb135a5a4d51d8c587e0c87",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "max_calls": 5
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "provider_tag": "phala",
+      "cell_id": "603e75161aa757145137d2f7332f303e86eace4e303aa9dc8f24a1fd1c2f43ab",
+      "repetition": 1,
+      "episode_id": "322f51428bea41d122906eef2e100bdb475d6b0b1a8cc45a4808de0978a7bdd1",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "max_calls": 5
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "provider_tag": "phala",
+      "cell_id": "603e75161aa757145137d2f7332f303e86eace4e303aa9dc8f24a1fd1c2f43ab",
+      "repetition": 2,
+      "episode_id": "5fb9080657893f295aa083e6a132c083a346aff4cfea898f1bc6712e1ca311d9",
+      "public_packet_sha256": "9c2e1388aa0aecc588c22be65e0d329b54a59cc4bb7ed93e9f69aa64d4b3600f",
+      "max_calls": 5
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "provider_tag": "phala",
+      "cell_id": "61c18fc6286d9072d4d44285b2aaf223e31524b24294934fa5d354d1af79430a",
+      "repetition": 0,
+      "episode_id": "e0f1e623e42e848d63b506c43b49728e33d8314e58e4ef2d796b7cc380259341",
+      "public_packet_sha256": "296efb3a22d29dd8bf872cf481ccd82aef215e8bacc8543caedd615b214e9867",
+      "max_calls": 5
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "provider_tag": "phala",
+      "cell_id": "61c18fc6286d9072d4d44285b2aaf223e31524b24294934fa5d354d1af79430a",
+      "repetition": 1,
+      "episode_id": "b9aeecbfbd94cd2b3d038dadd2b92f1f43c9eff00f08a4df34917cae3d07affc",
+      "public_packet_sha256": "296efb3a22d29dd8bf872cf481ccd82aef215e8bacc8543caedd615b214e9867",
+      "max_calls": 5
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "provider_tag": "phala",
+      "cell_id": "61c18fc6286d9072d4d44285b2aaf223e31524b24294934fa5d354d1af79430a",
+      "repetition": 2,
+      "episode_id": "2b02a1470c49b1be663911098d74bab65db5f9752aa2863bda46fbda1c630213",
+      "public_packet_sha256": "296efb3a22d29dd8bf872cf481ccd82aef215e8bacc8543caedd615b214e9867",
+      "max_calls": 5
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "provider_tag": "phala",
+      "cell_id": "b70baebd3fefda62fa1ccf62cba31fb0d01ccb9d11893568a2735bf633405937",
+      "repetition": 0,
+      "episode_id": "0dbdcff57de66f2e7736fa6b5d72109aebc6bdc7184b1b890bba1d45313bcdeb",
+      "public_packet_sha256": "296efb3a22d29dd8bf872cf481ccd82aef215e8bacc8543caedd615b214e9867",
+      "max_calls": 5
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "provider_tag": "phala",
+      "cell_id": "b70baebd3fefda62fa1ccf62cba31fb0d01ccb9d11893568a2735bf633405937",
+      "repetition": 1,
+      "episode_id": "8ee94008aa3c998a055727c21d67c45d2d7436ca779e978f07a1c1843b0ba0b8",
+      "public_packet_sha256": "296efb3a22d29dd8bf872cf481ccd82aef215e8bacc8543caedd615b214e9867",
+      "max_calls": 5
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "provider_tag": "phala",
+      "cell_id": "b70baebd3fefda62fa1ccf62cba31fb0d01ccb9d11893568a2735bf633405937",
+      "repetition": 2,
+      "episode_id": "8121916af169e092fae5610e68dc8f3e8368ff41842ba6e620d5c6f9cada4514",
+      "public_packet_sha256": "296efb3a22d29dd8bf872cf481ccd82aef215e8bacc8543caedd615b214e9867",
+      "max_calls": 5
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "provider_tag": "phala",
+      "cell_id": "18c9d19456e0f34f171a05b24161beb0806fcd48592007fee49281ebdca8044d",
+      "repetition": 0,
+      "episode_id": "dff57781f34d27e5871bd6ca3714a130e5e791383269064b1086f02672099011",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "max_calls": 5
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "provider_tag": "phala",
+      "cell_id": "18c9d19456e0f34f171a05b24161beb0806fcd48592007fee49281ebdca8044d",
+      "repetition": 1,
+      "episode_id": "6dce966fb5adbb5d02fcec0fe1a9efd415b6b3ff031f0614139346e954fe880e",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "max_calls": 5
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "provider_tag": "phala",
+      "cell_id": "18c9d19456e0f34f171a05b24161beb0806fcd48592007fee49281ebdca8044d",
+      "repetition": 2,
+      "episode_id": "989a88daa4f8b5d208ca575cbe213d65d7f845f9343b8c129fa8a59038fbaddf",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "max_calls": 5
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "provider_tag": "phala",
+      "cell_id": "2e67681b511c67c4b591b1f0b189ae636863ef8d7c1261e9e16a3a0abe71a06e",
+      "repetition": 0,
+      "episode_id": "c01e0bb764eb1abae0cc2a793fb04376e6b7414e5eb271cbdb38684fd60145af",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "max_calls": 5
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "provider_tag": "phala",
+      "cell_id": "2e67681b511c67c4b591b1f0b189ae636863ef8d7c1261e9e16a3a0abe71a06e",
+      "repetition": 1,
+      "episode_id": "3acde504323dc56fc3a7a9cef32200305580327be5659094a28f046f77ba5e6a",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "max_calls": 5
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "provider_tag": "phala",
+      "cell_id": "2e67681b511c67c4b591b1f0b189ae636863ef8d7c1261e9e16a3a0abe71a06e",
+      "repetition": 2,
+      "episode_id": "df4358d9617291eda6b77fb00b48605b911440aeba4fd44a793b61a75054921e",
+      "public_packet_sha256": "79b9570d2f4d9eac36beea41976069101abfa0ba98e2ffdbd705a16469979379",
+      "max_calls": 5
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "provider_tag": "phala",
+      "cell_id": "e234c9291aa586947aee4721baadc1556c8c9ff2615600052d11d11b24989b11",
+      "repetition": 0,
+      "episode_id": "6bd359e105d7b91f71fbb9f9bd3c19f986e1127a42be989130c50f0770078f4f",
+      "public_packet_sha256": "50bb9543f02453dab90aaf096c9ad02ed8220ddbd881e525fd794ba38e59dd09",
+      "max_calls": 5
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "provider_tag": "phala",
+      "cell_id": "e234c9291aa586947aee4721baadc1556c8c9ff2615600052d11d11b24989b11",
+      "repetition": 1,
+      "episode_id": "32b7164e1548dc5bcb712c945720b6a4c2355434c748cc0dd3583ea3b904e562",
+      "public_packet_sha256": "50bb9543f02453dab90aaf096c9ad02ed8220ddbd881e525fd794ba38e59dd09",
+      "max_calls": 5
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "provider_tag": "phala",
+      "cell_id": "e234c9291aa586947aee4721baadc1556c8c9ff2615600052d11d11b24989b11",
+      "repetition": 2,
+      "episode_id": "e995c4bb0be23fe4ece8917329aa428e02e63e3061ffa277a29311f67e49819d",
+      "public_packet_sha256": "50bb9543f02453dab90aaf096c9ad02ed8220ddbd881e525fd794ba38e59dd09",
+      "max_calls": 5
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "provider_tag": "phala",
+      "cell_id": "73203187f9990981e9c430c3825ca05ccee76210a9c63847c7ff9fe1a073f990",
+      "repetition": 0,
+      "episode_id": "eace411228b8b044319191b44b53133314f6fbf6aa3c4b9c770c2c3a80aa1c69",
+      "public_packet_sha256": "50bb9543f02453dab90aaf096c9ad02ed8220ddbd881e525fd794ba38e59dd09",
+      "max_calls": 5
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "provider_tag": "phala",
+      "cell_id": "73203187f9990981e9c430c3825ca05ccee76210a9c63847c7ff9fe1a073f990",
+      "repetition": 1,
+      "episode_id": "ac16409a3800c87ffbcc619a4a2f169b9e42007888035a8e2442da78901f9dea",
+      "public_packet_sha256": "50bb9543f02453dab90aaf096c9ad02ed8220ddbd881e525fd794ba38e59dd09",
+      "max_calls": 5
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "provider_tag": "phala",
+      "cell_id": "73203187f9990981e9c430c3825ca05ccee76210a9c63847c7ff9fe1a073f990",
+      "repetition": 2,
+      "episode_id": "ed2b1db1b9431283ba881ee56a5e88d01948a4913ab50ac057fe8a66b3986171",
+      "public_packet_sha256": "50bb9543f02453dab90aaf096c9ad02ed8220ddbd881e525fd794ba38e59dd09",
+      "max_calls": 5
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "provider_tag": "phala",
+      "cell_id": "8747feb36682bd43ba3cba26f0a7c5c4acb4f6bc2e8603f48ed4ae2c401117f8",
+      "repetition": 0,
+      "episode_id": "ef5b1b4f750f8d1dc711f91f886d124421569c333c40839ae9b9a27c94834b9d",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "max_calls": 5
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "provider_tag": "phala",
+      "cell_id": "8747feb36682bd43ba3cba26f0a7c5c4acb4f6bc2e8603f48ed4ae2c401117f8",
+      "repetition": 1,
+      "episode_id": "681f4aa68a45af00588251cddaba8048dad68c7e4408a8712acdbcd1eca328bf",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "max_calls": 5
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "provider_tag": "phala",
+      "cell_id": "8747feb36682bd43ba3cba26f0a7c5c4acb4f6bc2e8603f48ed4ae2c401117f8",
+      "repetition": 2,
+      "episode_id": "2d477b18dd3502f6e0a1ff25be118dfc5424291641e27ca66cb01ebdb4ec7d50",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "max_calls": 5
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "provider_tag": "phala",
+      "cell_id": "ac78c3eda17c5ea11fe91cf79f8ec0e4e9be7e9e296ecbb4bf2ece97e6ad40ef",
+      "repetition": 0,
+      "episode_id": "e19333924c750ee40c2a201a12b3c234a14699acdcc4b85d7cca427dae022f35",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "max_calls": 5
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "provider_tag": "phala",
+      "cell_id": "ac78c3eda17c5ea11fe91cf79f8ec0e4e9be7e9e296ecbb4bf2ece97e6ad40ef",
+      "repetition": 1,
+      "episode_id": "09dfd4f738809a2f823578f2a522277b16020d3cd7547ae8be9af024386cb428",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "max_calls": 5
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "provider_tag": "phala",
+      "cell_id": "ac78c3eda17c5ea11fe91cf79f8ec0e4e9be7e9e296ecbb4bf2ece97e6ad40ef",
+      "repetition": 2,
+      "episode_id": "7e53c1ee6240618739badc5d4d0b280b2b3746033cdf80a735527948dcf1dd1c",
+      "public_packet_sha256": "06ba022ee21b140777d373047cf78adbe9841d24ea006971cb943d4b0a247284",
+      "max_calls": 5
+    }
+  ],
+  "episode_count": 384,
+  "max_model_calls": 1920,
+  "repetitions": 3,
+  "route_prices": [
+    {
+      "model": "openai/gpt-6-astra",
+      "provider_tag": "openai",
+      "provider_name": "OpenAI",
+      "episodes": 48,
+      "max_calls": 240,
+      "dated_conditional_usd": "169.728000"
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "provider_tag": "azure/global",
+      "provider_name": "Azure",
+      "episodes": 48,
+      "max_calls": 240,
+      "dated_conditional_usd": "38.860800"
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "provider_tag": "google-ai-studio",
+      "provider_name": "Google AI Studio",
+      "episodes": 48,
+      "max_calls": 240,
+      "dated_conditional_usd": "36.894720"
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "provider_tag": "xai",
+      "provider_name": "xAI",
+      "episodes": 48,
+      "max_calls": 240,
+      "dated_conditional_usd": "30.996480"
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro-0813",
+      "provider_tag": "phala",
+      "provider_name": "Phala",
+      "episodes": 48,
+      "max_calls": 240,
+      "dated_conditional_usd": "11.24605440"
+    },
+    {
+      "model": "qwen/qwen3.8-2.4t-a95b",
+      "provider_tag": "novita",
+      "provider_name": "Novita",
+      "episodes": 48,
+      "max_calls": 240,
+      "dated_conditional_usd": "15.498240"
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "provider_tag": "morph/fp8",
+      "provider_name": "Morph",
+      "episodes": 48,
+      "max_calls": 240,
+      "dated_conditional_usd": "14.164385280"
+    },
+    {
+      "model": "z-ai/glm-5.3",
+      "provider_tag": "phala",
+      "provider_name": "Phala",
+      "episodes": 48,
+      "max_calls": 240,
+      "dated_conditional_usd": "6.62722560"
+    }
+  ],
+  "dated_conditional_usd": "324.015905280",
+  "price_snapshot_utc": "2026-10-03T04:47:24.741205+00:00",
+  "price_assumptions": {
+    "input_tokens_per_turn": 20000,
+    "billed_output_tokens_per_turn": 4096,
+    "turns_per_episode": 8,
+    "cache_discount": 0,
+    "retries": 0,
+    "all_price_overrides_retained": true,
+    "images_search_request_fees": "excluded",
+    "input_byte_gate_is_token_bound": false
+  },
+  "collection_ready": false,
+  "novelty_established": false,
+  "missing_gates": [
+    "exact adapter eligibility",
+    "prefix analysis and collector implementation freeze",
+    "current price recheck and sufficient authorized budget"
+  ],
+  "source_sha256_normalized_lf": {
+    "benchmark/necessity_resource_probe_plan.py": "bd617645da4ef539891365509168991a98e32b33943155ee2024f6729c7da48d",
+    "benchmark/necessity_resource_probe.py": "06e1c9a0941abd85860d36b0585f2cb1771165c39a218ad815dd36b5be887413",
+    "benchmark/necessity_resource_probe_native.py": "ac2184b251796cf12dd39ecd4940b22ce3c4c4875d442bfe1e6d1b4819e3ec4e",
+    "benchmark/necessity_resource_probe_verifier.py": "7d06f9df8de449bdb30c465df8a9e5923490f442f8bb3265a289542339f73f0b",
+    "benchmark/necessity_structural_native.py": "2bfe6f00629e5a7c8542bd6dffb319ca5e1575fd6955743261ae8bc10203ca49",
+    "benchmark/necessity_native.py": "f539b725053c89bdb6999540a0ab761efc3df9bd88433384e051ef4efbc0d363",
+    "benchmark/necessity_events.py": "f0e744967769a55b2cd2843e8c22e52c1a9f991576510f721eb050e83af2e30c",
+    "benchmark/necessity_resource_probe_comparator.py": "717e15a0d4222ebab14df96bf8e7bc45d719d875cbf3b246eaf088792ed66a9a",
+    "benchmark/necessity_oracle.py": "6d8596a8c25949652dc0ed02e4d8729ec80f5a71f55887b15670471f4d7cc0e8",
+    "plans/necessity-resource-probe-analysis-protocol.txt": "93b09fbca6a3c5d7b8b7bb323fba891349253e784b2c9445cc2df574f55cd10d",
+    "plans/necessity-resource-probe-protocol.txt": "ac519031462594de22f5310d6cea21ee9903a92c08d8bcac48a82fb7d48f0b07",
+    "plans/necessity-resource-probe-registration.json": "8b20314db4c5263b44c9af6c726cf9192c7b3223721a6cca2de5668207fa9f75",
+    "plans/necessity-structural-route-plan.json": "cad26152a77442da7a3cc5d47dea4923bf8aa68eda31047be1a57dc79f1a7a98"
+  },
+  "manifest_sha256": "3d61289bce9f6f256051e9e2a31f5e8699312a6316584b4c7ece65d0965471a6"
+}
