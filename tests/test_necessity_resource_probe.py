@@ -6,6 +6,31 @@ from benchmark.necessity_resource_probe_calibration import calibrate,run_policy
 
 
 class ResourceProbeTests(unittest.TestCase):
+    def test_prefix_comparator_partitions_only_delivered_information(self):
+        from benchmark.necessity_resource_probe_comparator import compare
+        report=compare()
+        self.assertEqual(report["independent_folds"],32)
+        for row in report["records"]:
+            c=row["contract"];parts=row["public_observation_partitions"]
+            self.assertEqual(sum(p["prior_mass"] for p in parts),1)
+            if not row["prefix"]:
+                self.assertEqual(len(parts),1)
+                self.assertTrue(row["feasible_zero_primary_and_authority"])
+            elif c["probe_delay"]==1:
+                self.assertEqual(len(parts),2)
+                for p in parts:
+                    self.assertEqual(p["prior_mass"],0.5)
+                    self.assertEqual(p["public_observation"]["evidence"][0]["need"],
+                                     p["comparator"]["world_support"][0]["need"])
+            else:
+                self.assertEqual(len(parts),1)
+                self.assertEqual(parts[0]["public_observation"]["evidence"],[])
+                self.assertEqual(len(parts[0]["comparator"]["world_support"]),2)
+            if row["prefix"]:
+                expected=(c["reserve_capacity"]==2 and
+                          (c["probe_delay"]==1 or c["deadline"]==3))
+                self.assertEqual(row["feasible_zero_primary_and_authority"],expected)
+
     def test_registered_controls_and_hidden_observation(self):
         result=calibrate()
         self.assertEqual(result["independent_folds"],96)
