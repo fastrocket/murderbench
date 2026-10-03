@@ -1,0 +1,610 @@
+{
+  "source": "https://api.github.com/users/fabio-rovai/repos?per_page=100&type=owner",
+  "retrieved_utc": "2026-10-03T05:47:01.071233+00:00",
+  "pagination_link": "<https://api.github.com/user/146086869/repos?per_page=100&type=owner&page=2>; rel=\"next\", <https://api.github.com/user/146086869/repos?per_page=100&type=owner&page=2>; rel=\"last\"",
+  "repositories": [
+    {
+      "name": ".github",
+      "url": "https://github.com/fabio-rovai/.github",
+      "description": "Default community health files for fabio-rovai repositories",
+      "default_branch": "main"
+    },
+    {
+      "name": "ai-management-system-assurance",
+      "url": "https://github.com/fabio-rovai/ai-management-system-assurance",
+      "description": "The ISO/IEC 42001 assurance gap, measured. The only public-domain NIST AI RMF crosswalk to 42001 names zero Annex A controls and targets the draft. Contains no text from any ISO standard.",
+      "default_branch": "main"
+    },
+    {
+      "name": "assurance-laundering",
+      "url": "https://github.com/fabio-rovai/assurance-laundering",
+      "description": "Ontology, SHACL shapes, Lean 4 development and proofs of concept for 'Assurance Laundering: A Cross-Standard Ontology and Machine-Checked Weakest-Link Policy for Verifiable Credentials' (TDI 2026, Alan Turing Institute; IET proceedings)",
+      "default_branch": "main"
+    },
+    {
+      "name": "autogen",
+      "url": "https://github.com/fabio-rovai/autogen",
+      "description": "A programming framework for agentic AI",
+      "default_branch": "main"
+    },
+    {
+      "name": "awesome-knowledge-graph",
+      "url": "https://github.com/fabio-rovai/awesome-knowledge-graph",
+      "description": "A curated list of Knowledge Graph related learning materials, databases, tools and other resources",
+      "default_branch": "master"
+    },
+    {
+      "name": "awesome-knowledge-graphs",
+      "url": "https://github.com/fabio-rovai/awesome-knowledge-graphs",
+      "description": "Graph databases, Knowledge Graphs, SPARQ",
+      "default_branch": "master"
+    },
+    {
+      "name": "awesome-mcp-servers",
+      "url": "https://github.com/fabio-rovai/awesome-mcp-servers",
+      "description": "A collection of MCP servers.",
+      "default_branch": "main"
+    },
+    {
+      "name": "awesome-semantic-web",
+      "url": "https://github.com/fabio-rovai/awesome-semantic-web",
+      "description": "A curated list of various semantic web and linked data resources.",
+      "default_branch": "master"
+    },
+    {
+      "name": "bank-register-ontology",
+      "url": "https://github.com/fabio-rovai/bank-register-ontology",
+      "description": "Open OWL 2 ontology, SKOS registries and SHACL governance for the entity and regulatory-reporting concept fabric of US banking. Built against FDIC BankFind, the GLEIF golden copy and the Federal Reserve MDRM.",
+      "default_branch": "main"
+    },
+    {
+      "name": "biodiversity-register-ontology",
+      "url": "https://github.com/fabio-rovai/biodiversity-register-ontology",
+      "description": "Open OWL 2 + SKOS + SHACL ontology and verified census of biodiversity's identifier and rights layer: BHL, ZooBank and mirrors, NHM Data Portal, with WoRMS and IPNI controls",
+      "default_branch": "main"
+    },
+    {
+      "name": "biosurveillance-ontology",
+      "url": "https://github.com/fabio-rovai/biosurveillance-ontology",
+      "description": "Can a UK food safety alert be joined to anything else in the One Health system? An OWL 2 ontology and a census of all 1,348 FSA open food alerts, 2018-2026.",
+      "default_branch": "main"
+    },
+    {
+      "name": "brain-in-the-fish",
+      "url": "https://github.com/fabio-rovai/brain-in-the-fish",
+      "description": "Score any document. Prove every claim. ",
+      "default_branch": "main"
+    },
+    {
+      "name": "browser-use",
+      "url": "https://github.com/fabio-rovai/browser-use",
+      "description": "\ud83c\udf10 Make websites accessible for AI agents. Automate tasks online with ease.",
+      "default_branch": "main"
+    },
+    {
+      "name": "cargo-semantics",
+      "url": "https://github.com/fabio-rovai/cargo-semantics",
+      "description": "Reproducible audits of the open data standards air and ocean freight run on. IATA ONE Record dropped rdfs:domain from every property in its 2023-12 release.",
+      "default_branch": "main"
+    },
+    {
+      "name": "causal-perception-implementation",
+      "url": "https://github.com/fabio-rovai/causal-perception-implementation",
+      "description": "Machine learning research code for causal perception: comparing competing structural causal models (SCMs) via interventional and counterfactual distributions, applied to fair credit decisions. Open source by Santander AI Lab.",
+      "default_branch": "main"
+    },
+    {
+      "name": "certification-register-ontology",
+      "url": "https://github.com/fabio-rovai/certification-register-ontology",
+      "description": "An ISO/IEC 27001 ontology that contains no ISO text, and a measurement of why certification claims cannot be checked. OWL 2 + SKOS + SHACL, with a shapes layer that mechanically proves no standard text is reproduced.",
+      "default_branch": "main"
+    },
+    {
+      "name": "chain-control-ontology",
+      "url": "https://github.com/fabio-rovai/chain-control-ontology",
+      "description": "Who can change the rules of an on-chain asset, on every chain it lives on, with the evidence for each step and the point where the evidence runs out marked explicitly. OWL 2 + SKOS + SHACL, 6,316-contract cross-chain control census.",
+      "default_branch": "main"
+    },
+    {
+      "name": "colibri",
+      "url": "https://github.com/fabio-rovai/colibri",
+      "description": "Run GLM-5.2 (744B MoE) on a 25GB-RAM consumer machine \u2014 pure C, zero deps, experts streamed from disk. Tiny engine, immense model. \ud83d\udc26",
+      "default_branch": "main"
+    },
+    {
+      "name": "connective-product-cyber-incidents",
+      "url": "https://github.com/fabio-rovai/connective-product-cyber-incidents",
+      "description": "Open, machine-readable dataset of cyber incidents affecting connective products (IoT, OT, computing devices, networking equipment, software/firmware), graded to the UK Government Data Quality Framework. Maintained by The Tesseract Academy.",
+      "default_branch": "main"
+    },
+    {
+      "name": "construction-standards-crosswalks",
+      "url": "https://github.com/fabio-rovai/construction-standards-crosswalks",
+      "description": "Machine-readable crosswalks between IFC4, COBie, Uniclass 2015 and W3C BOT, with SHACL validation, IRI verification and falsifiability metrics",
+      "default_branch": "main"
+    },
+    {
+      "name": "crewAI",
+      "url": "https://github.com/fabio-rovai/crewAI",
+      "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
+      "default_branch": "main"
+    },
+    {
+      "name": "CyberSim-LLM-Driven-Cybersecurity-Simulation-Framework",
+      "url": "https://github.com/fabio-rovai/CyberSim-LLM-Driven-Cybersecurity-Simulation-Framework",
+      "description": null,
+      "default_branch": "main"
+    },
+    {
+      "name": "dati-semantic-assets",
+      "url": "https://github.com/fabio-rovai/dati-semantic-assets",
+      "description": "Repository delle risorse semantiche nazionali italiane",
+      "default_branch": "master"
+    },
+    {
+      "name": "dcat-us-binding",
+      "url": "https://github.com/fabio-rovai/dcat-us-binding",
+      "description": "A generated JSON-LD context and SHACL shapes for DCAT-US 3.0, derived from the published JSON Schema. The US federal metadata profile's 115 published examples expand to zero DCAT triples; the binding that fixes that is already in the schema.",
+      "default_branch": "main"
+    },
+    {
+      "name": "deer-flow",
+      "url": "https://github.com/fabio-rovai/deer-flow",
+      "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+      "default_branch": "main"
+    },
+    {
+      "name": "dkan-portal-profile",
+      "url": "https://github.com/fabio-rovai/dkan-portal-profile",
+      "description": "A complete census of DKAN across the US federal estate. 20,135 hostnames probed, three portals found, all publishing the shipped default catalogue identity http://dkan/data.json. A platform profile that separates platform-default defects from publisher errors.",
+      "default_branch": "main"
+    },
+    {
+      "name": "edinburgh-protocol",
+      "url": "https://github.com/fabio-rovai/edinburgh-protocol",
+      "description": "Scotland's open-source payment commitment infrastructure \u2014 making late payment structurally impossible",
+      "default_branch": "main"
+    },
+    {
+      "name": "enterprise-knowledge-ontology",
+      "url": "https://github.com/fabio-rovai/enterprise-knowledge-ontology",
+      "description": "Open vocabulary, SHACL publish gate and Corpus Readiness Index for organisational knowledge in the age of retrieval. Validated on 54,222 GOV.UK documents.",
+      "default_branch": "main"
+    },
+    {
+      "name": "eo-verifiability-standard",
+      "url": "https://github.com/fabio-rovai/eo-verifiability-standard",
+      "description": "Can a nature-finance unit be verified from space? Machine-checkable standard for locatability, observability and attributability. Finding: 53.8% of registered UK Woodland Carbon Code projects have no published boundary.",
+      "default_branch": "main"
+    },
+    {
+      "name": "fabiorovai.com",
+      "url": "https://github.com/fabio-rovai/fabiorovai.com",
+      "description": null,
+      "default_branch": "main"
+    },
+    {
+      "name": "fair-scientific-data",
+      "url": "https://github.com/fabio-rovai/fair-scientific-data",
+      "description": null,
+      "default_branch": "main"
+    },
+    {
+      "name": "fca-warnings-observatory",
+      "url": "https://github.com/fabio-rovai/fca-warnings-observatory",
+      "description": "The FCA unauthorised-firm warning list reconstructed as a monthly time series (18,224 warnings, 2000-2026)",
+      "default_branch": "main"
+    },
+    {
+      "name": "financebench-verification",
+      "url": "https://github.com/fabio-rovai/financebench-verification",
+      "description": "Verifying financial LLM answers without a gold key: FinanceBench's 2,400 shipped human labels used as free supervision, plus a ground-truth audit that finds a 100x gold mismatch between its two released files",
+      "default_branch": "main"
+    },
+    {
+      "name": "Flowise",
+      "url": "https://github.com/fabio-rovai/Flowise",
+      "description": "Build AI Agents, Visually",
+      "default_branch": "main"
+    },
+    {
+      "name": "gen-fraud-graph",
+      "url": "https://github.com/fabio-rovai/gen-fraud-graph",
+      "description": "Synthetic fraud graph generator for benchmarking graph-based fraud detection models in financial services.",
+      "default_branch": "main"
+    },
+    {
+      "name": "geo-agent-guard",
+      "url": "https://github.com/fabio-rovai/geo-agent-guard",
+      "description": "Can an LLM agent be trusted to call a national geospatial API? Measured against the live Ordnance Survey Data Hub: 0% valid calls unaided, 97.2% behind a closed-world verifier.",
+      "default_branch": "main"
+    },
+    {
+      "name": "hangzhou-tunneling",
+      "url": "https://github.com/fabio-rovai/hangzhou-tunneling",
+      "description": "Qwen-Agent powered document evaluation with brain-in-the-fish verification",
+      "default_branch": "main"
+    },
+    {
+      "name": "health-data-linkage-ontology",
+      "url": "https://github.com/fabio-rovai/health-data-linkage-ontology",
+      "description": "Open OWL 2 + SKOS + SHACL ontology and reproducible census of the UK health data linkage layer: HDR UK Gateway vs NHS England Data Uses Register",
+      "default_branch": "main"
+    },
+    {
+      "name": "health-dataset-catalogue-ontology",
+      "url": "https://github.com/fabio-rovai/health-dataset-catalogue-ontology",
+      "description": "An OWL 2, SKOS and SHACL ontology and a reproducible census of Nordic health dataset descriptions measured against HealthDCAT-AP Release 7. 2,811 health themed descriptions across eleven Nordic national catalogues, none conformant.",
+      "default_branch": "main"
+    },
+    {
+      "name": "ies-hqdm-crosswalk",
+      "url": "https://github.com/fabio-rovai/ies-hqdm-crosswalk",
+      "description": "First public crosswalk between the UK Information Exchange Standard (IES) and HQDM: two 4D upper ontologies. SSSOM + RDF correspondences, a curated divergences record, SHACL validation, and a worked SAPIENT-node safety case grounding autonomy in IES.",
+      "default_branch": "main"
+    },
+    {
+      "name": "ies4-space",
+      "url": "https://github.com/fabio-rovai/ies4-space",
+      "description": "Space-domain extension of the UK government Information Exchange Standard (IES4): ontology, SHACL quality gate, live satellite-catalogue ingestion pipeline",
+      "default_branch": "main"
+    },
+    {
+      "name": "ImpactVault",
+      "url": "https://github.com/fabio-rovai/ImpactVault",
+      "description": null,
+      "default_branch": "main"
+    },
+    {
+      "name": "industrial-ontology-crosswalks",
+      "url": "https://github.com/fabio-rovai/industrial-ontology-crosswalks",
+      "description": "Open crosswalks between four pairs of industrial data standards (ISO 15926-14, IFC4, ISA-95, CFIHOS, OPC UA, SAREF, AAS), and the measurement that explains why such crosswalks fail. Four of seven standards cannot reject any mis-mapping at all.",
+      "default_branch": "main"
+    },
+    {
+      "name": "insurance-register-ontology",
+      "url": "https://github.com/fabio-rovai/insurance-register-ontology",
+      "description": "Open OWL/SKOS/SHACL ontology of the EEA insurance & reinsurance register fabric: EIOPA x GLEIF, 276k triples, computed governance findings",
+      "default_branch": "main"
+    },
+    {
+      "name": "investment-fund-ontology",
+      "url": "https://github.com/fabio-rovai/investment-fund-ontology",
+      "description": "Open OWL 2 ontology + SKOS identifier registry + SHACL governance for investment fund data, built and validated against the full public US fund universe (SEC + GLEIF, 9.1M identifiers checked)",
+      "default_branch": "main"
+    },
+    {
+      "name": "iso17442",
+      "url": "https://github.com/fabio-rovai/iso17442",
+      "description": "ISO 17442 legal entity identifier conformance: a four-state model, a corpus of really-published defects, SHACL forms and a draft FIBO facet",
+      "default_branch": "main"
+    },
+    {
+      "name": "italy-register-ontology",
+      "url": "https://github.com/fabio-rovai/italy-register-ontology",
+      "description": "An open ontology for Italian public registers, tested against IPA, ANAC, OpenCUP and ISTAT",
+      "default_branch": "main"
+    },
+    {
+      "name": "ixbrl-disclosure-benchmark",
+      "url": "https://github.com/fabio-rovai/ixbrl-disclosure-benchmark",
+      "description": "How machine-readable are UK company accounts? Concept-exposure benchmark over Companies House iXBRL filings (OGL v3.0)",
+      "default_branch": "main"
+    },
+    {
+      "name": "jcat",
+      "url": "https://github.com/fabio-rovai/jcat",
+      "description": "Knowledge-graph infrastructure as code: flat term lists into SKOS taxonomies and OWL ontologies. Free forever.",
+      "default_branch": "main"
+    },
+    {
+      "name": "jsonld-escaping-conformance",
+      "url": "https://github.com/fabio-rovai/jsonld-escaping-conformance",
+      "description": "How differently Googlebot and every conformant parser read the same JSON-LD, measured across the Tranco top 10,000",
+      "default_branch": "main"
+    },
+    {
+      "name": "keac-2026",
+      "url": "https://github.com/fabio-rovai/keac-2026",
+      "description": "propose-check-revise: KE Automation Challenge 2026 (CQ2Term, CQ2Onto). An open-weights model proposes an ontology; the open-ontologies engine checks it over MCP and the model revises until the engine stops complaining.",
+      "default_branch": "main"
+    },
+    {
+      "name": "knowledge-graph-learning",
+      "url": "https://github.com/fabio-rovai/knowledge-graph-learning",
+      "description": "A curated list of awesome knowledge graph tutorials, projects and communities.",
+      "default_branch": "master"
+    },
+    {
+      "name": "korea-register-ontology",
+      "url": "https://github.com/fabio-rovai/korea-register-ontology",
+      "description": "How Korean legal entities are identified in the global identifier system. Four incompatible schemes in one field, 19 failing check digits, and an ownership signature that differs sharply from the world.",
+      "default_branch": "main"
+    },
+    {
+      "name": "langgraph",
+      "url": "https://github.com/fabio-rovai/langgraph",
+      "description": "Build resilient language agents as graphs.",
+      "default_branch": "main"
+    },
+    {
+      "name": "learning-standards-ontology",
+      "url": "https://github.com/fabio-rovai/learning-standards-ontology",
+      "description": "Every ASN identifier in US K-12 academic standards is dead: 67,141 dereferenced, zero resolve. An open OWL/SKOS/SHACL ontology for learning standards, plus a measurement of what CEDS, ASN and CASE can actually reject.",
+      "default_branch": "main"
+    },
+    {
+      "name": "lei-rdf",
+      "url": "https://github.com/fabio-rovai/lei-rdf",
+      "description": "RDF LEI Project ",
+      "default_branch": "master"
+    },
+    {
+      "name": "lie-garden",
+      "url": "https://github.com/fabio-rovai/lie-garden",
+      "description": "Deterministic geometric confinement for AI agents \u2014 Lie groups, gauge theory, group-native crypto",
+      "default_branch": "main"
+    },
+    {
+      "name": "llama_index",
+      "url": "https://github.com/fabio-rovai/llama_index",
+      "description": "LlamaIndex is the leading document agent and OCR platform",
+      "default_branch": "main"
+    },
+    {
+      "name": "machinery-semantics",
+      "url": "https://github.com/fabio-rovai/machinery-semantics",
+      "description": "Reproducible audits of the open standards behind EU Machinery Regulation 2023/1230 readiness. MTConnect XSD and JSON Schema disagree on AlarmState across three releases.",
+      "default_branch": "main"
+    },
+    {
+      "name": "mcp-former",
+      "url": "https://github.com/fabio-rovai/mcp-former",
+      "description": "Terraform for legacy software \u2192 AI agents. Wraps existing CLIs/APIs behind a verification gate so LLMs can drive them without footguns.",
+      "default_branch": "main"
+    },
+    {
+      "name": "media-attention-ontology",
+      "url": "https://github.com/fabio-rovai/media-attention-ontology",
+      "description": "Open OWL 2 ontology, SKOS registries and SHACL governance for content identity, distribution and measured attention across screens. Validated against 224,710 EIDR identifier assertions; includes the first SKOS serialisation of the IAB Tech Lab taxonomies.",
+      "default_branch": "main"
+    },
+    {
+      "name": "medicinal-product-register-ontology",
+      "url": "https://github.com/fabio-rovai/medicinal-product-register-ontology",
+      "description": "Open OWL 2 + SKOS + SHACL ontology and reproducible census of medicinal product register joinability: EMA medicines report vs openFDA NDC vs GLEIF",
+      "default_branch": "main"
+    },
+    {
+      "name": "mem0",
+      "url": "https://github.com/fabio-rovai/mem0",
+      "description": "Universal memory layer for AI Agents",
+      "default_branch": "main"
+    },
+    {
+      "name": "mempalace",
+      "url": "https://github.com/fabio-rovai/mempalace",
+      "description": "The highest-scoring AI memory system ever benchmarked. And it's free.",
+      "default_branch": "main"
+    },
+    {
+      "name": "MetaGPT",
+      "url": "https://github.com/fabio-rovai/MetaGPT",
+      "description": "\ud83c\udf1f The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming",
+      "default_branch": "main"
+    },
+    {
+      "name": "MoneyPrinterTurbo",
+      "url": "https://github.com/fabio-rovai/MoneyPrinterTurbo",
+      "description": "\u5229\u7528 AI \u5927\u6a21\u578b\u548c\u81ea\u52a8\u5316\u5de5\u4f5c\u6d41\uff0c\u6839\u636e\u4e3b\u9898\u6216\u5173\u952e\u8bcd\u4e00\u952e\u751f\u6210\u9ad8\u6e05\u77ed\u89c6\u9891\u3002Generate HD short videos from a topic or keyword with an automated AI workflow.",
+      "default_branch": "main"
+    },
+    {
+      "name": "nature-security-risk",
+      "url": "https://github.com/fabio-rovai/nature-security-risk",
+      "description": "An open, machine-readable evidence base and systems ontology for nature-related security risk: operationalising the UK National Security Assessment on biodiversity loss and ecosystem collapse (2026).",
+      "default_branch": "main"
+    },
+    {
+      "name": "neurosymbolic-space-kg",
+      "url": "https://github.com/fabio-rovai/neurosymbolic-space-kg",
+      "description": "Knowledge graph of all catalogued space objects aligned to the SSA Ontology, with extensional falsification of candidate alignments and IADC-lineage rule signals",
+      "default_branch": "main"
+    },
+    {
+      "name": "oascheck",
+      "url": "https://github.com/fabio-rovai/oascheck",
+      "description": "Conformance checks for OpenAPI documents: examples that violate their own schema, code lists bound only in prose, and cross-field rules the schema never encodes.",
+      "default_branch": "main"
+    },
+    {
+      "name": "obsidian-open-ontologies",
+      "url": "https://github.com/fabio-rovai/obsidian-open-ontologies",
+      "description": "Full Open Ontologies engine in Obsidian: reason over, SHACL-check and SPARQL-query your vault as a knowledge graph, and expose it to Claude over MCP",
+      "default_branch": "main"
+    },
+    {
+      "name": "obsidian-releases",
+      "url": "https://github.com/fabio-rovai/obsidian-releases",
+      "description": "Community plugins list, theme list, and releases of Obsidian.",
+      "default_branch": "master"
+    },
+    {
+      "name": "onerecord-domain-extension",
+      "url": "https://github.com/fabio-rovai/onerecord-domain-extension",
+      "description": "rdfs:domain axioms for the IATA ONE Record data model, derived from its own class restrictions. Non-normative, not an IATA product.",
+      "default_branch": "main"
+    },
+    {
+      "name": "ontology-curriculum",
+      "url": "https://github.com/fabio-rovai/ontology-curriculum",
+      "description": "An ontology engineering curriculum published as an ontology: 9 free courses, 147 lessons in OWL 2 and SKOS, each crosswalked to the standards it teaches. SHACL-gated.",
+      "default_branch": "main"
+    },
+    {
+      "name": "ontoverify",
+      "url": "https://github.com/fabio-rovai/ontoverify",
+      "description": "Closed-world + SHACL verification for RDF/Turtle \u2014 catch ontology terms that don't exist (the gate plain open-world SHACL can't provide)",
+      "default_branch": "main"
+    },
+    {
+      "name": "open-data-catalog-ontology",
+      "url": "https://github.com/fabio-rovai/open-data-catalog-ontology",
+      "description": "An assurance layer for open data catalogues. 59 US federal agencies are registered with data.gov under the validation schema that exempts them from the OMB bureau code requirement, including OMB itself. OWL 2 + SKOS + SHACL, every headline computed two independent ways.",
+      "default_branch": "main"
+    },
+    {
+      "name": "open-evaluation-toc",
+      "url": "https://github.com/fabio-rovai/open-evaluation-toc",
+      "description": "Open, machine-checkable Theory of Change + evidence map for victim & witness support, anchored on the MoJ Victims' Funding Strategy outcomes. Typed ToC ontology, SHACL validation, REA evidence schema. Self-initiated demonstrator, CC-BY-4.0.",
+      "default_branch": "main"
+    },
+    {
+      "name": "open-governance",
+      "url": "https://github.com/fabio-rovai/open-governance",
+      "description": null,
+      "default_branch": "main"
+    },
+    {
+      "name": "open-ontologies",
+      "url": "https://github.com/fabio-rovai/open-ontologies",
+      "description": "Plan, apply and roll back changes to a production ontology, with a blast radius report and a proof an auditor can re-check.",
+      "default_branch": "main"
+    },
+    {
+      "name": "opencheir",
+      "url": "https://github.com/fabio-rovai/opencheir",
+      "description": null,
+      "default_branch": "main"
+    },
+    {
+      "name": "opensanctions",
+      "url": "https://github.com/fabio-rovai/opensanctions",
+      "description": "An open database of international sanctions data, persons of interest and politically exposed persons",
+      "default_branch": "main"
+    },
+    {
+      "name": "opensanctions-identifier-assurance",
+      "url": "https://github.com/fabio-rovai/opensanctions-identifier-assurance",
+      "description": "Keyless census of embedded identifiers in the OpenSanctions register (4M entities) validated against each scheme's own rules, plus a red-team of documented entity-resolution pipelines. OWL/SKOS/SHACL assurance.",
+      "default_branch": "main"
+    },
+    {
+      "name": "oxigraph",
+      "url": "https://github.com/fabio-rovai/oxigraph",
+      "description": "SPARQL graph database",
+      "default_branch": "main"
+    },
+    {
+      "name": "payout-assurance-standard",
+      "url": "https://github.com/fabio-rovai/payout-assurance-standard",
+      "description": "Open standard for verifying that parametric climate insurance actually paid what it promised. Ontology + SHACL assurance rules + basis-risk replay. CC BY 4.0.",
+      "default_branch": "main"
+    },
+    {
+      "name": "protein-structure-into-sound",
+      "url": "https://github.com/fabio-rovai/protein-structure-into-sound",
+      "description": null,
+      "default_branch": "main"
+    },
+    {
+      "name": "pydantic-ai",
+      "url": "https://github.com/fabio-rovai/pydantic-ai",
+      "description": "AI Agent Framework, the Pydantic way",
+      "default_branch": "main"
+    },
+    {
+      "name": "qollateral",
+      "url": "https://github.com/fabio-rovai/qollateral",
+      "description": "An open, ontology-grounded quantum optimisation benchmark for treasury and collateral operations. One machine-readable rule book compiles to both CP-SAT and QUBO; every allocation certified twice.",
+      "default_branch": "main"
+    },
+    {
+      "name": "register-integrity-index",
+      "url": "https://github.com/fabio-rovai/register-integrity-index",
+      "description": "A league table scoring public registers on identifier and record governance. Assurance stops at the register boundary.",
+      "default_branch": "main"
+    },
+    {
+      "name": "regulatory-instrument-register",
+      "url": "https://github.com/fabio-rovai/regulatory-instrument-register",
+      "description": "EU law's own structured citation graph records 63% of what the texts actually cite. The gap is concentrated in NIS2 (38%) and the AI Act (52%), in the annex references that define who the law binds.",
+      "default_branch": "main"
+    },
+    {
+      "name": "saturating-scaling-laws",
+      "url": "https://github.com/fabio-rovai/saturating-scaling-laws",
+      "description": "Saturating scaling laws for equational discovery \u2014 harness, sweeps, paper draft",
+      "default_branch": "main"
+    },
+    {
+      "name": "scenario-register-ontology",
+      "url": "https://github.com/fabio-rovai/scenario-register-ontology",
+      "description": "Provenance-carrying model of national road collision registers for automated-driving validation",
+      "default_branch": "main"
+    },
+    {
+      "name": "scholarly-record-ontology",
+      "url": "https://github.com/fabio-rovai/scholarly-record-ontology",
+      "description": "Ontology and open dataset for the integrity status of the scholarly record. Measures how far Retraction Watch, Crossref and OpenAlex disagree about which papers are retracted.",
+      "default_branch": "main"
+    },
+    {
+      "name": "scotland-land-register-ontology",
+      "url": "https://github.com/fabio-rovai/scotland-land-register-ontology",
+      "description": "An open OWL 2, SKOS and SHACL ontology for land register integrity, tested against all 33 Scottish registration counties. The Land Reform (Scotland) Act 2025 regulates land by area; the register publishes none.",
+      "default_branch": "main"
+    },
+    {
+      "name": "securities-register-ontology",
+      "url": "https://github.com/fabio-rovai/securities-register-ontology",
+      "description": null,
+      "default_branch": "main"
+    },
+    {
+      "name": "semantic-asset-register",
+      "url": "https://github.com/fabio-rovai/semantic-asset-register",
+      "description": "A reproducible, evidence-based quality assessment of the vocabularies and ontologies published by US federal agencies. Every check names its authority and declares whether failing it breaks a specification or departs from a convention.",
+      "default_branch": "main"
+    },
+    {
+      "name": "semantic-cacheline",
+      "url": "https://github.com/fabio-rovai/semantic-cacheline",
+      "description": "CUDA research prototype for 128-byte topology-aligned records that co-locate ontology masks, bounded adjacency, and hot FP16 KV micro-tiles.",
+      "default_branch": "main"
+    },
+    {
+      "name": "semantica",
+      "url": "https://github.com/fabio-rovai/semantica",
+      "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
+      "default_branch": "main"
+    },
+    {
+      "name": "semantica-contrib",
+      "url": "https://github.com/fabio-rovai/semantica-contrib",
+      "description": "Verifying the RDF an extraction pipeline emits: the harness, the evidence, and 17 issues filed against Semantica 0.6.5/0.6.6",
+      "default_branch": "main"
+    },
+    {
+      "name": "sociotechnical-matrix-assurance",
+      "url": "https://github.com/fabio-rovai/sociotechnical-matrix-assurance",
+      "description": "Which cells of the Ada Lovelace Institute and NICE sociotechnical evaluation matrix can anyone check, and how often 13 published LLM screening evaluations evidence them. OWL, SHACL, three-way verified.",
+      "default_branch": "main"
+    },
+    {
+      "name": "space-metrics-crosswalk",
+      "url": "https://github.com/fabio-rovai/space-metrics-crosswalk",
+      "description": "Composition checker for space debris environment metrics. Refuses, with a reason, when two indicators cannot validly be combined. Built on QUDT, SOSA/SSN and PROV-O.",
+      "default_branch": "main"
+    },
+    {
+      "name": "space-object-register-ontology",
+      "url": "https://github.com/fabio-rovai/space-object-register-ontology",
+      "description": "An ontology for the integrity of space object catalogues. Identity and disposition as dated claims by a named catalogue, tested against CelesTrak SATCAT and McDowell's GCAT.",
+      "default_branch": "main"
+    }
+  ],
+  "limits": [
+    "Repository listing is discovery metadata, not proof of absent implementation or authorship."
+  ]
+}

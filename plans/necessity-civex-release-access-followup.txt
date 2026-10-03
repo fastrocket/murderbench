@@ -1,0 +1,30 @@
+CIVEX ORIGINAL-RELEASE DISCOVERY FOLLOW-UP
+3 October 2026 UTC. Bounded discovery, not implementation equivalence clearance.
+
+Rechecked primary paper2605.09168v1 and its arXiv abstract record. The inspected
+HTML's GitHub links were arXiv rendering/conversion support links, not an identified
+Causal-ToolBench release. The abstract's general code-discovery widgets likewise
+do not establish a linked original implementation.
+https://arxiv.org/html/2605.09168v1
+https://arxiv.org/abs/2605.09168
+
+Inspected all116 repository names/descriptions returned in the two public GitHub
+API owner-list pages for the previously identified fabio-rovai account. Page2
+had16 entries and no next-page relation. Stored discovery metadata includes
+source URLs, retrieval times, repository URLs and default branches. No original
+CIVeX/Causal-ToolBench release was identified from that listing. Other research
+repositories and the previously audited open-ontologies proxy remain present.
+No third-party implementation was executed or copied into the benchmark.
+
+Evidence: reviews/necessity-prior-art/civex-author-release-discovery.json and
+civex-author-release-discovery-page2.json. Repository discovery metadata is not
+a fixture audit, proof of identity, or proof that no original release exists in
+another account, organization, branch, artifact, private archive or repository
+with an unrelated name. Do not promote search absence into a novelty claim.
+
+Decision: keep the original-implementation comparison as an explicitly unresolved
+access gap. The paper-level resource-probe comparison remains the defensible scope.
+Prepare/release the experiment as a bounded applied extension; do not require an
+unobtainable field-wide absence proof and do not market first-ever results. A
+future original release could establish equivalence and change that assessment.
+No author was contacted, no conditions accepted, and no model requests were made.

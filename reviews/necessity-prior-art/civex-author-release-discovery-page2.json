@@ -1,0 +1,103 @@
+{
+  "source": "https://api.github.com/users/fabio-rovai/repos?per_page=100&type=owner&page=2",
+  "retrieved_utc": "2026-10-03T05:47:16.975942+00:00",
+  "pagination_link": "<https://api.github.com/user/146086869/repos?per_page=100&type=owner&page=1>; rel=\"prev\", <https://api.github.com/user/146086869/repos?per_page=100&type=owner&page=1>; rel=\"first\"",
+  "repositories": [
+    {
+      "name": "specification-conformance-ontology",
+      "url": "https://github.com/fabio-rovai/specification-conformance-ontology",
+      "description": "Does a data exchange specification contradict itself, and does an implementation match the release it claims? Vocabulary, extractor and index.",
+      "default_branch": "main"
+    },
+    {
+      "name": "spectral-library-ontology",
+      "url": "https://github.com/fabio-rovai/spectral-library-ontology",
+      "description": "An OWL 2, SKOS and SHACL ontology for the integrity of public mass spectrometry reference libraries, with a reproducible audit of GNPS2, MassIVE and ReDU",
+      "default_branch": "main"
+    },
+    {
+      "name": "taiwan-register-ontology",
+      "url": "https://github.com/fabio-rovai/taiwan-register-ontology",
+      "description": "Taiwanese Unified Business Numbers resolved against the MOEA register. Nine entities break validators that were never updated for the 2023 check-rule change.",
+      "default_branch": "main"
+    },
+    {
+      "name": "tardygrada",
+      "url": "https://github.com/fabio-rovai/tardygrada",
+      "description": "A verified runtime for trustworthy AI agents: every claim passes an 8-layer verification pipeline before it counts. Deterministic checks, explainable verdicts, no LLM judging an LLM. Pure C, zero dependencies, MCP-native.",
+      "default_branch": "main"
+    },
+    {
+      "name": "trade-remedy-ontology",
+      "url": "https://github.com/fabio-rovai/trade-remedy-ontology",
+      "description": "Open ontology and validation suite for UK trade remedy measures. Full census of the UK Trade Tariff found 13 legal instrument links truncated at 200 characters, all returning 404, affecting 15.7% of live measures. All 13 repaired here.",
+      "default_branch": "main"
+    },
+    {
+      "name": "uk-algorithmic-transparency",
+      "url": "https://github.com/fabio-rovai/uk-algorithmic-transparency",
+      "description": "The full UK Algorithmic Transparency Recording Standard record set as an open corpus (136 records, OGL v3.0)",
+      "default_branch": "main"
+    },
+    {
+      "name": "uk-consultation-corpus",
+      "url": "https://github.com/fabio-rovai/uk-consultation-corpus",
+      "description": "Open corpus of 6,260 UK government consultations with published outcomes, coded by policy area (OGL v3.0)",
+      "default_branch": "main"
+    },
+    {
+      "name": "uk-evaluation-atlas",
+      "url": "https://github.com/fabio-rovai/uk-evaluation-atlas",
+      "description": "Open atlas of 1,770 UK government evaluation publications, classified by type and declared method (OGL v3.0)",
+      "default_branch": "main"
+    },
+    {
+      "name": "uk-local-labour-market",
+      "url": "https://github.com/fabio-rovai/uk-local-labour-market",
+      "description": "Latest monthly claimant count for 374 UK local authorities, from ONS via NOMIS (OGL v3.0)",
+      "default_branch": "main"
+    },
+    {
+      "name": "uk-property-market-indicators",
+      "url": "https://github.com/fabio-rovai/uk-property-market-indicators",
+      "description": "Open LA-level residential property-market indicators from HM Land Registry Price Paid Data (OGL v3.0)",
+      "default_branch": "main"
+    },
+    {
+      "name": "uk-register-ontology",
+      "url": "https://github.com/fabio-rovai/uk-register-ontology",
+      "description": "An open ontology for UK public registers, tested against Companies House, the Charity Commission and the Global LEI System",
+      "default_branch": "main"
+    },
+    {
+      "name": "uk-small-area-health",
+      "url": "https://github.com/fabio-rovai/uk-small-area-health",
+      "description": "Self-reported health, disability and unpaid care per local authority from ONS Census 2021 (OGL v3.0)",
+      "default_branch": "main"
+    },
+    {
+      "name": "vjepa2-mlx",
+      "url": "https://github.com/fabio-rovai/vjepa2-mlx",
+      "description": "Meta's V-JEPA 2 video encoder ported to Apple MLX. Frozen feature extraction on Apple-Silicon GPU, no PyTorch at runtime. Verified against the HF PyTorch reference (cosine 1.0).",
+      "default_branch": "main"
+    },
+    {
+      "name": "waste-vocab-crosswalk",
+      "url": "https://github.com/fabio-rovai/waste-vocab-crosswalk",
+      "description": "How much composition detail UK waste reporting destroys: SKOS vocabularies and SSSOM alignments from a 60-class perception taxonomy to EWC, pEPR, RAM 2027 and Simpler Recycling, with an information-loss metric and a SHACL release gate",
+      "default_branch": "main"
+    },
+    {
+      "name": "worldkernel",
+      "url": "https://github.com/fabio-rovai/worldkernel",
+      "description": "A new kind of world model: the PSD coupling kernel K(T,T') of admissible possible worlds. Diagonal = prediction, off-diagonal = counterfactual coupling. Built in public.",
+      "default_branch": "main"
+    },
+    {
+      "name": "worldproof",
+      "url": "https://github.com/fabio-rovai/worldproof",
+      "description": "Compile ontologies + data into executable world models whose every inference and plan carries a machine-checkable certificate. Industrial-maintenance pilot: IOF x AI4I 2020, measured fidelity, certified inference, verified planning.",
+      "default_branch": "main"
+    }
+  ]
+}
