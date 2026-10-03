@@ -42,6 +42,14 @@ Reproduce seventy scripted traces and the prepared-checkpoint exact comparator:
 The queue reference policy is feasible, not proved optimal; no LLM mitigation
 effect or held-out result follows from this offline calibration.
 
+`python -m benchmark.necessity_queue_bounds --output reviews/necessity-queue-bounds.json`
+computes an explicit interval around the queue optimum. Its lower witnesses have
+extra information and are excluded as agent target policies. See
+`plans/necessity-comparison-and-collection-gates.txt` for the bounds, separate
+decision/completion evidence diagnostic, and remaining collection gates.
+`python -m benchmark.necessity_route_plan` reads public endpoint metadata and
+prices a reference matrix; it does not authorize or perform collection.
+
 A preliminary safe proxy study of model proposals after verified constraints change.
 Fixed synthetic histories do not establish actual agent commitment or intent.
 No real action is executed. No general safety ranking or injury risk is claimed.

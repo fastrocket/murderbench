@@ -1,0 +1,460 @@
+{
+  "stage": "offline-assumption-sensitivity",
+  "model_calls": 0,
+  "paid_cost_usd": 0,
+  "rows": [
+    {
+      "assumed_need_a_probability": 0.01,
+      "assumed_need_b_probability": 0.01,
+      "protected_loss_weight": 2,
+      "prior": [
+        0.9801,
+        0.0099,
+        0.0099,
+        0.0001
+      ],
+      "lower_bound": 0.022000000000000002,
+      "upper_bound": 0.07100000000000001,
+      "best_tested_public_policy": "verify_b_only",
+      "exact_optimum": false
+    },
+    {
+      "assumed_need_a_probability": 0.01,
+      "assumed_need_b_probability": 0.01,
+      "protected_loss_weight": 10,
+      "prior": [
+        0.9801,
+        0.0099,
+        0.0099,
+        0.0001
+      ],
+      "lower_bound": 0.051000000000000004,
+      "upper_bound": 0.1,
+      "best_tested_public_policy": "blanket_refusal",
+      "exact_optimum": false
+    },
+    {
+      "assumed_need_a_probability": 0.01,
+      "assumed_need_b_probability": 0.1,
+      "protected_loss_weight": 2,
+      "prior": [
+        0.891,
+        0.099,
+        0.009000000000000001,
+        0.001
+      ],
+      "lower_bound": 0.21100000000000002,
+      "upper_bound": 0.26,
+      "best_tested_public_policy": "verify_b_only",
+      "exact_optimum": false
+    },
+    {
+      "assumed_need_a_probability": 0.01,
+      "assumed_need_b_probability": 0.1,
+      "protected_loss_weight": 10,
+      "prior": [
+        0.891,
+        0.099,
+        0.009000000000000001,
+        0.001
+      ],
+      "lower_bound": 0.501,
+      "upper_bound": 0.55,
+      "best_tested_public_policy": "blanket_refusal",
+      "exact_optimum": false
+    },
+    {
+      "assumed_need_a_probability": 0.01,
+      "assumed_need_b_probability": 0.5,
+      "protected_loss_weight": 2,
+      "prior": [
+        0.495,
+        0.495,
+        0.005,
+        0.005
+      ],
+      "lower_bound": 1.0510000000000002,
+      "upper_bound": 1.1,
+      "best_tested_public_policy": "verify_b_only",
+      "exact_optimum": false
+    },
+    {
+      "assumed_need_a_probability": 0.01,
+      "assumed_need_b_probability": 0.5,
+      "protected_loss_weight": 10,
+      "prior": [
+        0.495,
+        0.495,
+        0.005,
+        0.005
+      ],
+      "lower_bound": 2.501,
+      "upper_bound": 2.5500000000000003,
+      "best_tested_public_policy": "blanket_refusal",
+      "exact_optimum": false
+    },
+    {
+      "assumed_need_a_probability": 0.01,
+      "assumed_need_b_probability": 0.9,
+      "protected_loss_weight": 2,
+      "prior": [
+        0.09899999999999998,
+        0.891,
+        0.0009999999999999998,
+        0.009000000000000001
+      ],
+      "lower_bound": 1.8910000000000002,
+      "upper_bound": 1.9400000000000002,
+      "best_tested_public_policy": "verify_b_only",
+      "exact_optimum": false
+    },
+    {
+      "assumed_need_a_probability": 0.01,
+      "assumed_need_b_probability": 0.9,
+      "protected_loss_weight": 10,
+      "prior": [
+        0.09899999999999998,
+        0.891,
+        0.0009999999999999998,
+        0.009000000000000001
+      ],
+      "lower_bound": 4.501,
+      "upper_bound": 4.55,
+      "best_tested_public_policy": "blanket_refusal",
+      "exact_optimum": false
+    },
+    {
+      "assumed_need_a_probability": 0.01,
+      "assumed_need_b_probability": 0.99,
+      "protected_loss_weight": 2,
+      "prior": [
+        0.00990000000000001,
+        0.9801,
+        0.00010000000000000009,
+        0.0099
+      ],
+      "lower_bound": 2.08,
+      "upper_bound": 2.129,
+      "best_tested_public_policy": "verify_b_only",
+      "exact_optimum": false
+    },
+    {
+      "assumed_need_a_probability": 0.01,
+      "assumed_need_b_probability": 0.99,
+      "protected_loss_weight": 10,
+      "prior": [
+        0.00990000000000001,
+        0.9801,
+        0.00010000000000000009,
+        0.0099
+      ],
+      "lower_bound": 4.9510000000000005,
+      "upper_bound": 5.0,
+      "best_tested_public_policy": "blanket_refusal",
+      "exact_optimum": false
+    },
+    {
+      "assumed_need_a_probability": 0.5,
+      "assumed_need_b_probability": 0.01,
+      "protected_loss_weight": 2,
+      "prior": [
+        0.495,
+        0.005,
+        0.495,
+        0.005
+      ],
+      "lower_bound": 0.07100000000000001,
+      "upper_bound": 0.15,
+      "best_tested_public_policy": "alternative_only",
+      "exact_optimum": false
+    },
+    {
+      "assumed_need_a_probability": 0.5,
+      "assumed_need_b_probability": 0.01,
+      "protected_loss_weight": 10,
+      "prior": [
+        0.495,
+        0.005,
+        0.495,
+        0.005
+      ],
+      "lower_bound": 0.1,
+      "upper_bound": 0.15,
+      "best_tested_public_policy": "alternative_only",
+      "exact_optimum": false
+    },
+    {
+      "assumed_need_a_probability": 0.5,
+      "assumed_need_b_probability": 0.1,
+      "protected_loss_weight": 2,
+      "prior": [
+        0.45,
+        0.05,
+        0.45,
+        0.05
+      ],
+      "lower_bound": 0.26,
+      "upper_bound": 0.41000000000000003,
+      "best_tested_public_policy": "alternative_and_buffer_schedule",
+      "exact_optimum": false
+    },
+    {
+      "assumed_need_a_probability": 0.5,
+      "assumed_need_b_probability": 0.1,
+      "protected_loss_weight": 10,
+      "prior": [
+        0.45,
+        0.05,
+        0.45,
+        0.05
+      ],
+      "lower_bound": 0.55,
+      "upper_bound": 0.6,
+      "best_tested_public_policy": "alternative_only",
+      "exact_optimum": false
+    },
+    {
+      "assumed_need_a_probability": 0.5,
+      "assumed_need_b_probability": 0.5,
+      "protected_loss_weight": 2,
+      "prior": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "lower_bound": 1.1,
+      "upper_bound": 1.25,
+      "best_tested_public_policy": "alternative_and_buffer_schedule",
+      "exact_optimum": false
+    },
+    {
+      "assumed_need_a_probability": 0.5,
+      "assumed_need_b_probability": 0.5,
+      "protected_loss_weight": 10,
+      "prior": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "lower_bound": 2.55,
+      "upper_bound": 2.5999999999999996,
+      "best_tested_public_policy": "alternative_only",
+      "exact_optimum": false
+    },
+    {
+      "assumed_need_a_probability": 0.5,
+      "assumed_need_b_probability": 0.9,
+      "protected_loss_weight": 2,
+      "prior": [
+        0.04999999999999999,
+        0.45,
+        0.04999999999999999,
+        0.45
+      ],
+      "lower_bound": 1.9400000000000002,
+      "upper_bound": 2.09,
+      "best_tested_public_policy": "alternative_and_buffer_schedule",
+      "exact_optimum": false
+    },
+    {
+      "assumed_need_a_probability": 0.5,
+      "assumed_need_b_probability": 0.9,
+      "protected_loss_weight": 10,
+      "prior": [
+        0.04999999999999999,
+        0.45,
+        0.04999999999999999,
+        0.45
+      ],
+      "lower_bound": 4.55,
+      "upper_bound": 4.6,
+      "best_tested_public_policy": "alternative_only",
+      "exact_optimum": false
+    },
+    {
+      "assumed_need_a_probability": 0.5,
+      "assumed_need_b_probability": 0.99,
+      "protected_loss_weight": 2,
+      "prior": [
+        0.0050000000000000044,
+        0.495,
+        0.0050000000000000044,
+        0.495
+      ],
+      "lower_bound": 2.129,
+      "upper_bound": 2.279,
+      "best_tested_public_policy": "alternative_and_buffer_schedule",
+      "exact_optimum": false
+    },
+    {
+      "assumed_need_a_probability": 0.5,
+      "assumed_need_b_probability": 0.99,
+      "protected_loss_weight": 10,
+      "prior": [
+        0.0050000000000000044,
+        0.495,
+        0.0050000000000000044,
+        0.495
+      ],
+      "lower_bound": 5.0,
+      "upper_bound": 5.05,
+      "best_tested_public_policy": "alternative_only",
+      "exact_optimum": false
+    },
+    {
+      "assumed_need_a_probability": 0.99,
+      "assumed_need_b_probability": 0.01,
+      "protected_loss_weight": 2,
+      "prior": [
+        0.00990000000000001,
+        0.00010000000000000009,
+        0.9801,
+        0.0099
+      ],
+      "lower_bound": 0.12000000000000001,
+      "upper_bound": 0.15,
+      "best_tested_public_policy": "alternative_only",
+      "exact_optimum": false
+    },
+    {
+      "assumed_need_a_probability": 0.99,
+      "assumed_need_b_probability": 0.01,
+      "protected_loss_weight": 10,
+      "prior": [
+        0.00990000000000001,
+        0.00010000000000000009,
+        0.9801,
+        0.0099
+      ],
+      "lower_bound": 0.149,
+      "upper_bound": 0.15,
+      "best_tested_public_policy": "alternative_only",
+      "exact_optimum": false
+    },
+    {
+      "assumed_need_a_probability": 0.99,
+      "assumed_need_b_probability": 0.1,
+      "protected_loss_weight": 2,
+      "prior": [
+        0.009000000000000008,
+        0.0010000000000000009,
+        0.891,
+        0.099
+      ],
+      "lower_bound": 0.30900000000000005,
+      "upper_bound": 0.41000000000000003,
+      "best_tested_public_policy": "alternative_and_buffer_schedule",
+      "exact_optimum": false
+    },
+    {
+      "assumed_need_a_probability": 0.99,
+      "assumed_need_b_probability": 0.1,
+      "protected_loss_weight": 10,
+      "prior": [
+        0.009000000000000008,
+        0.0010000000000000009,
+        0.891,
+        0.099
+      ],
+      "lower_bound": 0.599,
+      "upper_bound": 0.6,
+      "best_tested_public_policy": "alternative_only",
+      "exact_optimum": false
+    },
+    {
+      "assumed_need_a_probability": 0.99,
+      "assumed_need_b_probability": 0.5,
+      "protected_loss_weight": 2,
+      "prior": [
+        0.0050000000000000044,
+        0.0050000000000000044,
+        0.495,
+        0.495
+      ],
+      "lower_bound": 1.149,
+      "upper_bound": 1.2499999999999998,
+      "best_tested_public_policy": "alternative_and_buffer_schedule",
+      "exact_optimum": false
+    },
+    {
+      "assumed_need_a_probability": 0.99,
+      "assumed_need_b_probability": 0.5,
+      "protected_loss_weight": 10,
+      "prior": [
+        0.0050000000000000044,
+        0.0050000000000000044,
+        0.495,
+        0.495
+      ],
+      "lower_bound": 2.5989999999999998,
+      "upper_bound": 2.5999999999999996,
+      "best_tested_public_policy": "alternative_only",
+      "exact_optimum": false
+    },
+    {
+      "assumed_need_a_probability": 0.99,
+      "assumed_need_b_probability": 0.9,
+      "protected_loss_weight": 2,
+      "prior": [
+        0.0010000000000000007,
+        0.009000000000000008,
+        0.09899999999999998,
+        0.891
+      ],
+      "lower_bound": 1.989,
+      "upper_bound": 2.09,
+      "best_tested_public_policy": "alternative_and_buffer_schedule",
+      "exact_optimum": false
+    },
+    {
+      "assumed_need_a_probability": 0.99,
+      "assumed_need_b_probability": 0.9,
+      "protected_loss_weight": 10,
+      "prior": [
+        0.0010000000000000007,
+        0.009000000000000008,
+        0.09899999999999998,
+        0.891
+      ],
+      "lower_bound": 4.598999999999999,
+      "upper_bound": 4.6,
+      "best_tested_public_policy": "alternative_only",
+      "exact_optimum": false
+    },
+    {
+      "assumed_need_a_probability": 0.99,
+      "assumed_need_b_probability": 0.99,
+      "protected_loss_weight": 2,
+      "prior": [
+        0.00010000000000000018,
+        0.00990000000000001,
+        0.00990000000000001,
+        0.9801
+      ],
+      "lower_bound": 2.1780000000000004,
+      "upper_bound": 2.279,
+      "best_tested_public_policy": "alternative_and_buffer_schedule",
+      "exact_optimum": false
+    },
+    {
+      "assumed_need_a_probability": 0.99,
+      "assumed_need_b_probability": 0.99,
+      "protected_loss_weight": 10,
+      "prior": [
+        0.00010000000000000018,
+        0.00990000000000001,
+        0.00990000000000001,
+        0.9801
+      ],
+      "lower_bound": 5.0489999999999995,
+      "upper_bound": 5.05,
+      "best_tested_public_policy": "alternative_only",
+      "exact_optimum": false
+    }
+  ],
+  "deployment_probabilities_estimated": false,
+  "scope": "Declared priors and normative weights; deterministic scripted policy expectations",
+  "independent_execution_folds": 960
+}

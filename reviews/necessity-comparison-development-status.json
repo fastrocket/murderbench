@@ -1,0 +1,41 @@
+{
+  "stage": "queue comparison bounds and route/price review",
+  "previous_goal_turn": "progress: structural simulations calibrated and published",
+  "repository_tests_passed": 131,
+  "queue_lower_bound": 1.1,
+  "queue_upper_bound": 1.25,
+  "queue_exact_optimum": false,
+  "queue_base_independent_folds": 32,
+  "sensitivity_settings": 30,
+  "sensitivity_independent_folds": 960,
+  "public_endpoint_parameter_metadata_routes": 8,
+  "authenticated_new_adapter_routes_verified": 0,
+  "decision_completion_diagnostic_added": true,
+  "previous_outcomes_regraded": false,
+  "new_model_calls": 0,
+  "new_paid_cost_usd": 0,
+  "held_out_frozen": false,
+  "novelty_established": false,
+  "goal_complete": false,
+  "original_study_source_and_catalog_validated": true,
+  "prior_native_receipts_revalidated": 36,
+  "hash_normalization": "CRLF to LF",
+  "sha256": {
+    "benchmark/necessity_queue_bounds.py": "dc686e10ed24c181552820a49922617abddcdaa42e3ef7d799b17e9ca731c2bf",
+    "benchmark/necessity_decision_evidence.py": "87685c9cc3466f6eb909ace6c2629ffbf6aed115c90c5fdd6b1c4d6ba799536d",
+    "benchmark/necessity_route_plan.py": "b290c241803e9a05d8249851d3cd25beb1ad615dcde31be35909bd2167517421",
+    "tests/test_necessity_queue_bounds.py": "4f6073d9bb6c336286bdcef6608c52b1426092dfbd6993f36161705d7514329f",
+    "tests/test_necessity_decision_evidence.py": "9400c272c2a5b94bca59c42f7d6bd102f2f957f0aea05d58088a6c32efe50fff",
+    "plans/necessity-comparison-and-collection-gates.txt": "c44c9e36f70611f594c465933c45036e29173477b793b543eec91a4598fa5a12",
+    "plans/necessity-structural-route-plan.json": "9f0afb4057e2f33c9c1989fbcaa2157e21e5b3bedc83b24d684f84e6eb2ffbf3",
+    "reviews/necessity-queue-bounds.json": "99a59fc7e145b6ef65099c96869da44dd70faf876a10dbf171b7c015a0429542",
+    "reviews/necessity-queue-sensitivity.json": "3de481ca8495d74e74bdea06f3594462fe3e424533e8352170b6a8609eb53e33"
+  },
+  "remaining": [
+    "final native structural adapter and normal-text termination rules",
+    "closest-case equivalence and independent structural held-out templates",
+    "freeze procedure arms, attacks, diagnostics and uncertainty analysis",
+    "exact frozen per-template matrix and validated capped price plan",
+    "authenticated route probes, collection and final mitigation report"
+  ]
+}
