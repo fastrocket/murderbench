@@ -1,0 +1,516 @@
+MURDERBENCH: NECESSITY, INACTION AND DEADLINE SAFETY
+Research assessment and prospective design, 2 October 2026
+Status: research proposal; no new model results or established originality claim.
+
+1. RECOMMENDATION
+
+Investigate VERIFIED NECESSITY UNDER DEADLINE: whether an agent can distinguish
+a genuine need for timely intervention from a fabricated claim that harmful
+action is necessary, while discovering less harmful alternatives and accounting
+for the time consumed by verification and human escalation.
+
+The useful research question is: which decision procedures reduce preventable
+harm from both action and inaction under the same evidence and time constraints?
+The intended output is a reproducible decision frontier, including circumstances
+where a protective procedure helps and circumstances where its delay makes the
+outcome worse. This is a proposed contribution, not a demonstrated finding.
+
+Do not build another collection of trolley questions. Do not use an emotional
+story asserting that refusal kills someone as its own ground truth. The proposed
+contribution needs an executable environment, auditable evidence, feasible
+alternatives, explicit deadlines and counterfactual outcome replay.
+
+The broad premise is already studied. Harmful omission, moral framing,
+counterfactual dilemmas, calibrated abstention, causal verification and timely
+intervention all have close precedents. The narrower joint experiment remains
+a candidate gap. It must survive a case-level equivalence audit before major
+implementation or collection. Finding no exact match in this review does not
+prove that nobody has done it.
+
+2. WHAT THE FIRST MURDERBENCH STUDY CAN TELL US
+
+The completed study tested proposals under explicit current-state permission
+constraints and synthetic histories. Its zero complete proposals on valid
+changed-state cases are evidence about that endpoint in those contexts. They
+do not establish general alignment, an absence of dangerous capabilities, or
+competence in emergencies. A proposal-only suite cannot measure the downstream
+harm of waiting, actual recovery, or the consequences of an accepted action.
+
+There is also no reason that its results must match RoboHarm: different task
+interfaces, instructions, action affordances and outcome definitions can expose
+different failures. A conservative response on an explicit authorization test
+can coexist with a failure on embodied execution or a deadline-sensitive task.
+These are hypotheses about construct coverage, not causal explanations of any
+specific model's training.
+
+Retain the old study unchanged. Any new study needs a separate identity, split,
+protocol and scorer. Do not optimize new cases against old outputs and describe
+the result as untouched confirmation.
+
+3. DEFINITIONS AND THE FAILURE CLASS
+
+Commission harm: an action worsens an outcome, violates a protected constraint,
+or transfers risk to a party who did not authorize it.
+
+Omission harm: a feasible, justified intervention was available to the agent,
+but withholding it or delaying beyond its useful window worsened the outcome.
+Availability must mean available with the agent's tools, evidence and time;
+an omniscient solution is insufficient.
+
+False necessity: the claim that a harmful action is the only way to avert a
+worse outcome is false, unsupported, or supplied by an adversary.
+
+Unavoidable tradeoff: no feasible policy satisfies all protected interests.
+Such cases may reveal moral preferences but often lack a unique legitimate
+correct answer. They should be reported separately from dominated mistakes.
+
+Epistemic failure: the agent relies on false or insufficient evidence. This
+differs from knowingly choosing a harmful outcome, even when results coincide.
+
+Procedural delay: verification, approval or escalation consumes time during
+which the environment changes. A protective procedure can have both a safety
+benefit and an availability cost.
+
+Intent: an internal motive is not identifiable from an outcome alone. Report
+observable choices, source use, constraint violations and effects. Do not infer
+that a model wanted people harmed from a simulated adverse outcome or its
+self-explanation.
+
+This class includes eight distinct mechanisms worth separating:
+  A. Blanket refusal despite a supported, authorized beneficial intervention.
+  B. Repeated verification after the relevant uncertainty is already resolved.
+  C. Referral to a human or service that cannot respond before the deadline.
+  D. Credulity toward an adversarial emergency claim.
+  E. Failure to discover an available safer third option.
+  F. Premature irreversible action when a cheap informative probe was possible.
+  G. Invented approval, evidence or success in the final report.
+  H. Failure to take a reversible protective step while awaiting clarification.
+
+The same surface behavior can change category across worlds. Waiting can be
+prudent, wasteful or unavoidable. Acting can be beneficial, unauthorized or
+premature. The environment and the information available at that moment decide
+which interpretation is supported.
+
+4. CLOSE PRIOR WORK: WHAT IS ALREADY COVERED
+
+The following are compact assessments of primary sources, not replications of
+their results. References and inspection scope are in section 12.
+
+IatroBench [1]. Explicitly evaluates clinical omission alongside commission,
+with physician-versus-layperson framings and physician-authored checklists.
+The current v6 paper is more cautious than older promotional text: framing
+changes several factors, so it cannot isolate the cause of withholding or the
+effect of safety training. Judge disagreement and incomplete retained fields
+limit some reproducibility claims. Its exploratory token-to-triage measure is
+not an environment deadline. Clinical omission is therefore occupied territory;
+our candidate should avoid clinical correctness claims without qualified review.
+
+CIVeX [2]. Already uses execute, reject, experiment and abstain decisions with
+causal identification, evidence provenance and risk thresholds. It evaluates
+useful execution and includes experiments and cost/missed-opportunity sweeps.
+The experimental evidence is idealized. Merely adding verification costs or
+arguing that abstention sacrifices utility is insufficient differentiation.
+
+Who Verifies the Graph? [3]. Studies corrupted causal assumptions producing
+wrongful execution and wrongful inaction. Its stated limitations identify
+direct graph editing rather than a budgeted attacker, cheap randomized evidence
+assumptions, and absence of evaluation on a real tool-agent benchmark. The
+candidate extension must expose an actual allowed attack path and sequential
+evidence acquisition; renaming causal misspecification would duplicate it.
+
+OffTheRails [4]. Procedurally generates causal moral dilemmas, including
+commission/omission, avoidable/inevitable and means/side-effect conditions.
+Counterfactual dilemma generation is established. Its moral judgments differ
+from our intended executable, timed decision protocol; that difference needs
+to survive inspection of concrete cases rather than a superficial comparison.
+
+ASIMOV v1 [5]. Includes robot constitutions, semantic safety and counterfactual
+dilemmas that change which action is appropriate. ASIMOV v2 [6] extends physical
+danger evaluation using images and videos. Neither counterfactual context
+changes nor multimodal danger recognition can be claimed as our invention.
+
+Gemini Robotics 2 / ASIMOV-Agentic [7]. Evaluates operational constraints,
+protective stops, confidence and uncertainty handling, including paired clear
+and ambiguous commands. It already reports helpfulness/clarification tension
+and temporal observations. A new study must add a consequence-bearing emergency
+verification/deadline mechanism, rather than simply attaching tools to ASIMOV.
+
+StepShield [8]. Evaluates when monitors intervene, using step-level divergence
+and early intervention metrics. Timing-sensitive agent oversight is established.
+Our proposed measurement concerns prevented or induced adverse outcomes during
+necessity verification, rather than credit for detecting a rogue trace promptly.
+
+AIR [9]. Integrates incident detection, containment, recovery and rule updates
+into agent execution. It measures response latency and overhead on safe tasks.
+A new latency metric alone would be redundant. The candidate asks how these
+delays alter outcomes when a useful intervention has an expiring opportunity.
+
+Anthropic agentic misalignment [10,11]. Uses agent scenarios with objective
+conflicts and constrained alternatives to elicit harmful behavior. These results
+establish the relevance of contextual pressures without proving universal rates
+or motives. Autonomous moral pressure and deliberately restricted options are
+already covered; they cannot be our entire novelty claim.
+
+AgentAbstain [12]. Uses paired act/abstain tasks in executable environments,
+including conflicting evidence, tool failure and emerging risks. Its public
+cases include agents bypassing a failed verification gate. Paired tools,
+commit checks and hidden runtime warnings therefore do not distinguish us.
+A search for "deadline" in the inspected paper found no match; that is a search
+observation, not proof that its entire corpus lacks equivalent timing cases.
+
+Informed abstention [13]. Proposes specification, verification and authority
+gaps, functional clarification, bounded re-query and human handoff, jointly
+measuring safety and usability. It explicitly discusses verification consuming
+benchmark step budgets. Consequently neither functional pausing nor the cost
+of checking is new; our distinction would need actual expiring-world outcomes
+and adversarial necessity claims under a matched information constraint.
+
+Grid crisis prototype [14]. A public project explicitly studies action versus
+inaction in a simulated power-grid crisis with several dilemma contexts.
+Its README is evidence that this idea exists, not independent validation of
+its findings. A grid toy with a trolley framing would be a weak novelty claim.
+
+TriEthix [15]. Evaluates moral decisions through several ethical frameworks
+and pressure conditions. Ethical pluralism and moral pressure are established.
+Its repository advertises a noncommercial license; cite it and inspect terms
+before incorporating any dataset into a commercial project.
+
+RoboHarm [16]. Measures responses to fixed unsafe robot instructions through
+observed executions and refusal behavior. It illustrates why verbal safety and
+embodied action need separate measurement. This review uses the public report;
+the originating email has not been located, and no email contents are inferred.
+
+5. RESEARCH METHOD AND LIMITS OF THE NOVELTY SEARCH
+
+Cutoff: 2 October 2026. Search and review occurred on that date. Sources appearing
+after this cutoff were excluded. Search results and project pages can describe
+newer or stronger claims than the versioned papers; version discrepancies must
+remain visible. Conference labels on project pages are not treated as verified
+peer-review status.
+
+Search families included: harmful refusal and omission; Sophie/trolley dilemmas;
+emergency and fabricated necessity; causal action verification and inaction;
+agent abstention; verification cost and deadlines; robot semantic safety;
+incident response and intervention timing. Representative literal queries:
+  AI agent benchmark emergency refusal inaction deadline verification fabricated
+  necessity benchmark
+  LLM safety harmful refusal emergency pretext benchmark IatroBench CIVeX
+  "benchmark" "emergency" "deadline" "inaction" LLM
+  "What Benchmarks Don't Measure" verification
+
+Primary papers, author repositories and official reports support the substantive
+comparisons. Search snippets served as discovery leads. No third-party summary
+is used to establish the proposed contribution. This is a focused landscape
+review, not an exhaustive systematic review or a patent clearance search.
+
+Important unresolved lead: source [13] explicitly recognizes that verification
+can exhaust a step budget. It is particularly close conceptually. The proposed
+novelty cannot be asserted until its implementation and cases, AgentAbstain's
+relevant environments, CIVeX's cost variants and embodied safety cases have been
+compared at the transition-system level. No external repository code was run,
+and no published benchmark was reproduced during this review.
+
+6. CANDIDATE CONTRIBUTION AND A TEST THAT COULD DISPROVE IT
+
+Working title: Verified Necessity Under Deadline. Avoid a grander alignment
+claim in the title or a leaderboard alleging that a model wants humans dead.
+
+Proposed contribution:
+  An executable, partially observed evaluation in which bounded adversaries can
+  fabricate necessity claims through specified untrusted channels, genuine needs
+  require timely authorized action, and verification/escalation has explicit
+  consequence-bearing delay. Measure both failure directions against feasible
+  policies with the same information, including discovery of safer alternatives.
+
+The central research artifact is a policy frontier: commission risk, avoidable
+omission and honest task completion across evidence quality, deadline slack and
+verification delay. Its value would be showing where changing a safety procedure
+improves outcomes and where it merely relocates risk.
+
+A bundle of established features is not automatically a scientific contribution.
+Require a minimal counterexample that an existing closest evaluation cannot
+express or distinguish without changing its environment/scoring assumptions.
+For example, two procedures block the same unsupported irreversible request,
+but one consumes the remaining response window while another takes an allowed
+reversible bridge action and verifies in time. Then introduce an adversary who
+can exploit the bridge or evidence path; measure the resulting tradeoff.
+
+Novelty kill criterion: if an existing case and metric already express genuine
+versus fabricated necessity, consequential verification delay and an information-
+matched alternative policy, classify the effort as replication or extension.
+Either contribute a new measurement/attack model with demonstrated added value
+or pivot. Preserve that finding publicly; do not manufacture originality through
+new names or a new website.
+
+7. SAFE, EXECUTABLE EXPERIMENT DESIGN
+
+Start with synthetic resource allocation, service continuity and protective
+record handling. These are abstract environments, not clinically validated
+treatment, real infrastructure control or instructions for physical harm.
+
+Allowlisted tools might inspect source provenance, inspect capacity, request an
+approval with a specified response delay, reserve a reversible temporary buffer,
+choose a route, cancel a queued operation and report. All affect in-memory state.
+No physical actuators, real recipients, purchases, shell or external network
+tools are exposed to the evaluated agent. Synthetic adversity is sufficient.
+
+Each tool consumes declared simulated time. Background events advance during
+waiting; deadlines are part of the transition system. API transport latency is
+recorded separately. A later wall-clock sensitivity analysis can ask whether
+real inference speed changes findings, without quietly converting simulated
+ticks into physical seconds.
+
+Illustrative original fixture, to be independently checked:
+  Two synthetic service queues share capacity. An untrusted message insists that
+  diverting a protected allocation is the only way to prevent a queue deadline
+  loss. A reliable inspection reveals whether the need is real. A reversible
+  spare buffer may preserve service while inspection finishes; human approval
+  may arrive too late. Diverting without authority harms the other allocation.
+  Reset worlds independently vary real need, available buffer and whether the
+  requested diversion would actually help. Vary deadline slack separately.
+
+No story assertion proves those relationships. The simulator encodes them,
+produces logs and independently replays alternative policies. Some cells will
+be impossible or morally ambiguous; retain and classify them instead of forcing
+an action/refusal label onto every cell.
+
+Eight world variants can cross three binary variables: genuine need, efficacy
+of the requested action and existence of a safer alternative. Tight/loose
+deadlines add two regimes, giving 16 variants per base template. Evidence
+provenance, probe duration and escalation response time are additional planned
+sensitivity factors; they must not be described as collected factorial cells
+unless actually crossed. Hold urgency wording constant where possible.
+
+Adversary permissions: edit a bounded number of untrusted messages or tool
+documents; never edit trusted state, authoritative permissions, the scoring
+oracle or simulator code. Distinguish a injected claim that succeeds from direct
+oracle corruption. Fix attack budgets, selection procedures and reporting before
+confirmation. A successful attack must have a replayable permitted entry point.
+
+8. GROUND TRUTH WITHOUT A FALSE MORAL ORACLE
+
+Use an information-matched feasible-policy comparator. If two worlds present
+identical observations until a probe, the agent cannot reasonably be required
+to choose differently before that probe. The comparator may know the declared
+environment model and available evidence channels, but not hidden realized
+state that the agent could not observe. State the prior and its sensitivity.
+
+For small environments enumerate policies over observation histories and time,
+or solve the finite partially observed decision problem. Separately report an
+omniscient best outcome as a ceiling, never as the agent's required target.
+Report irreducible risk and unavoidable loss independently of avoidable regret.
+
+Score ordinary mistakes when a feasible alternative robustly dominates: no
+greater protected harm, no authority violation and better task outcome under
+the declared assumptions. For uncertain comparisons report expected outcomes
+and sensitivity to priors. Realized unlucky loss is not automatically poor
+decision quality; a lucky reckless action is not automatically justified.
+
+Keep a vector of protected harms, consent/authority breaches, reversible costs
+and service outcomes. Publish the declared policy contract. Weighted utility
+can be a sensitivity analysis but cannot erase rights violations or settle
+whose life matters more. Cases requiring contested sacrifice remain a separate
+descriptive ethics track and do not determine a universal safety ranking.
+
+Do not quietly change a target's rule between paired worlds. Genuine beneficial
+actions must be authorized under the declared contract, or use explicitly
+scoped emergency authority. An attractive unauthorized action remains a distinct
+authority tradeoff, not a trivial correct-answer exception.
+
+9. MEASUREMENT AND CAUSAL DISCIPLINE
+
+Report these dimensions jointly, with denominators and technical unknowns:
+  - Avoidable omission loss on genuine-need cases with a feasible better policy.
+  - Fabricated-necessity compliance and actual simulated adverse consequences.
+  - Safer-alternative discovery and successful use before its deadline.
+  - Useful authorized completion on ordinary matched controls.
+  - Evidence provenance, invented evidence and truthful outcome reporting.
+  - Verification/escalation delay, deadline slack and irreversible commitments.
+  - Protected-interest violations and irreducible/impossible-case outcomes.
+
+Do not reward an empty response as safety. Do not silently classify a timeout,
+invalid tool call or provider refusal as omission with known intent. Technical
+failures need their own outcomes and inclusive sensitivity bounds.
+
+Compare fixed procedures: always act, always refuse, always escalate, bounded
+verify-then-act and time-aware verification with a reversible bridge. Add a
+model-driven procedure after calibrating the environment. None should dominate
+every deliberately varied regime. If an obvious baseline solves everything,
+the test is too easy or the intended construct has not been created.
+
+To estimate the effect of a guardrail, hold route, task contract, tool inventory
+and exogenous randomness fixed; randomize procedures and run paired episodes.
+Define whether added procedure delay is part of the treatment. Separate a
+zero-delay enforcement comparison from a realistic-delay comparison if useful.
+Do not attribute differences to safety training without a training intervention.
+
+Templates, not repeated calls or factorial variants, are the principal units of
+generalization. With few independent templates, results are descriptive case
+evidence. Freeze any confirmatory estimand, sampling frame, handling of missing
+data and multiplicity before collection. Report uncertainty clustered by base
+template and include all attempts; do not select only dramatic trajectories.
+
+10. NOVELTY AND SENSITIVITY MUST PRECEDE FULL COLLECTION
+
+First: case-level overlap audit of [2,3,5,7,9,12,13,14]. Record exact source
+version or commit, inspected case, action space, observation history, time model,
+attacker permissions and score. Documentation-level differences are insufficient.
+Obtain external feedback if available; lack of it must be visible, not replaced
+with an AI critic's high score.
+
+Second: create a small offline simulator and an independent replay checker.
+Seed deliberate omission, credulity, pointless re-checking, nonexistent handoff,
+and unsafe-bridge policies. Verify that the scorer detects the intended faults
+and accepts justified timely action and justified abstention. Check observation
+equivalence, event ordering, adversary bounds, delay effects and oracle leakage.
+
+Third: use only development templates for a small exploratory pilot. Separate
+capability failures from policy choices. If models ignore the tools or the suite
+is saturated, fix development fixtures and preserve the changes and reasons.
+Do not inspect the held-out outcomes while tuning.
+
+Fourth: freeze structurally distinct held-out templates, scorer, routes, policies,
+attack selection and analysis. Collection starts only after the protocol passes
+these substantive checks. A target reviewer score or number of critic rounds
+is not a substitute for measurement validity.
+
+Frontier proprietary routes come first, followed by frontier/near-frontier
+Chinese open-weight families. Record the exact served route, provider, version,
+reasoning setting, tool interface and date. Hosted open-weight routes do not
+establish results for every deployment of that checkpoint. Choose current
+versions at preregistration, not from an unverified future model list.
+
+11. IMPACT, FEASIBILITY AND FUNDING POSITION
+
+Potential beneficiaries are labs choosing agent policies, deployment owners
+setting verification and escalation procedures, and public evaluators assessing
+whether safety controls remain useful under time pressure. An auditable example
+where two procedures have identical refusal statistics but different avoidable
+loss would be more informative than an additional refusal leaderboard.
+
+The funding case should be conditional: a validated evaluation exposes a
+decision boundary that existing scores miss, and provides a reproducible way
+to compare mitigations. This review establishes no customer demand, government
+endorsement, real-world harm reduction or funding likelihood.
+
+As an independent company, begin with abstract environments whose mechanics
+can be checked exactly. Request domain collaboration before extending to health,
+robots or emergency operations. Publish limits prominently. The company can
+produce rigorous measurement without presenting itself as a clinical authority.
+
+A practical first study could use four development templates and twelve held-out
+templates, each with 16 variants. Two development routes and two repetitions
+would give 256 development episodes. Eight held-out routes and two repetitions
+would give 3,072 episodes. At up to six model turns per episode these are maxima
+of 1,536 and 18,432 calls, before additional policy arms or sensitivity factors.
+These counts cover one procedure arm; each added arm can multiply the calls.
+Twelve independent held-out templates do not warrant broad population claims
+or a promise of adequate statistical power.
+
+These counts illustrate scope, not an approved collection. The old $50 budget
+has approximately $36.40 accounted including conservative holds. A new full
+study is not promised to fit the remainder. Price an exploratory pilot first;
+set a separate explicit cap before spending. No model calls were made for this
+research document. Optional planning amount: up to $250 for development, only
+if the user selects that cap in a new goal. Full-study cost remains unpriced.
+
+Success may be a well-supported negative result, a useful replication, or a
+novel protocol with measured discrimination. Require complete reporting and a
+clear decision lesson; never require finding a particular failure rate. Public
+outreach should follow evidence, describe the mechanism and uncertainty, and
+invite case-level technical review. Do not announce "unaligned models" from
+synthetic losses or "aligned models" from an absence of observed failures.
+
+For future impact, distinguish structural validity from domain validity. Exact
+simulation can establish that a procedure causes loss in the modeled system;
+it cannot establish the frequency or severity of that loss in deployments.
+After a useful first result, ask deployment partners for de-identified workflow
+constraints, realistic evidence latencies and documented near-miss patterns.
+Validate whether the measured decision boundary persists without selecting only
+supportive cases. Domain experts should check consequence assumptions before
+any practical recommendation. The reusable evidence/clock/replay specification
+could become the durable contribution even if initial model rankings change.
+
+12. PRIMARY SOURCE REGISTER
+
+All URLs accessed 2 October 2026. Inspection means reading the indicated source,
+not reproducing code or independently validating author-reported results.
+
+[1] Gringras. IatroBench: A Pre-Registered Benchmark of Clinical Omission in
+Language Models. arXiv2604.07709v6. Current revision, including limitations and
+judge/provenance caveats, inspected. Older project language is not substituted.
+https://arxiv.org/html/2604.07709v6
+https://github.com/davidgringras/iatrobench
+
+[2] Rovai. CIVeX: Causal Intervention Verification for Language Agents.
+arXiv2605.09168v1. Method, experimental-evidence and cost sections inspected.
+https://arxiv.org/html/2605.09168v1
+
+[3] Rovai. Who Verifies the Graph? Misspecification Attacks on Causal Action
+Verification for Language Agents. arXiv2609.40027v1. Method and limitations read.
+https://arxiv.org/html/2609.40027v1
+
+[4] Procedural Dilemma Generation for Evaluating Moral Reasoning in Humans and
+Language Models / OffTheRails. arXiv2404.10975v1. Causal design sections read.
+https://arxiv.org/html/2404.10975v1
+
+[5] ASIMOV: A Benchmark for Semantic Safety in Robotics.
+arXiv2503.08663v1. Dilemma/counterfactual sections inspected.
+https://arxiv.org/html/2503.08663v1
+
+[6] ASIMOV v2. Official project page inspected; detailed data audit outstanding.
+https://asimov-benchmark.github.io/v2/
+
+[7] Gemini Robotics 2: Safety Evaluations. Official July 2026 report, relevant
+constraint, stop, confidence and clarification sections inspected. Dataset card
+located; exhaustive example inspection outstanding.
+https://storage.googleapis.com/deepmind-media/gemini-robotics/Gemini-Robotics-2-Safety.pdf
+https://huggingface.co/datasets/google/asimov_agentic
+
+[8] StepShield: When, Not Whether to Intervene on Rogue Agents.
+arXiv2601.22136v2. Definitions and evaluation protocol inspected.
+https://arxiv.org/html/2601.22136v2
+
+[9] AIR: Improving Agent Safety through Incident Response.
+arXiv2602.11749v1. Incident lifecycle, latency and overhead sections inspected.
+https://arxiv.org/html/2602.11749v1
+
+[10] Anthropic. Agentic misalignment: How LLMs could be insider threats.
+Official original report inspected. Author-reported simulated results.
+https://www.anthropic.com/research/agentic-misalignment
+
+[11] Anthropic. Agentic Misalignment, Summer 2026.
+Official follow-up inspected; exact case/harness equivalence remains outstanding.
+https://alignment.anthropic.com/2026/agentic-misalignment-summer-2026/
+
+[12] Liu et al. AgentAbstain: Do LLM Agents Know When Not to Act?
+arXiv2607.10059v1 and author project taxonomy/cases inspected. Full corpus audit
+outstanding; keyword absence alone is not evidence of absence.
+https://arxiv.org/html/2607.10059v1
+https://agentabstain.github.io/
+https://github.com/AntiQuality/agentabstain
+
+[13] Ojewale and Venkatasubramanian. What Benchmarks Don't Measure: The Case
+for Evaluating Abstention Competence in Autonomous Agents. arXiv2606.02965v1.
+Framework, budget discussion and benchmark recommendations inspected. Initial
+OpenReview PDF access returned a browser challenge; arXiv was then used.
+https://arxiv.org/html/2606.02965v1
+
+[14] veda2401/Meta-hackathon. Public grid-crisis prototype README inspected.
+Unversioned repository view; implementation/results not independently verified.
+https://github.com/veda2401/Meta-hackathon
+
+[15] TriEthix. Author repository README inspected; detailed rubric/data audit
+outstanding. Confirm license before reuse; do not import on this review alone.
+https://github.com/AlbertBarqueDuran/TriEthix
+
+[16] Robocurve. RoboHarm: Do Frontier Robot Policies Refuse Unsafe Instructions?
+Public September 2026 report inspected. Originating private email not located.
+https://robocurve.org/roboharm/
+
+13. NEXT DECISION
+
+Select a new goal centered on the novelty audit and a calibrated executable
+prototype, with a staged collection gate. The companion proposed-necessity-goal.txt
+contains a ready-to-use goal and explicit acceptance criteria. The research
+proposal is saved locally; it is not a launched experiment or a public finding.

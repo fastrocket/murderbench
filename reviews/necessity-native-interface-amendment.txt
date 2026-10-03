@@ -1,0 +1,42 @@
+NATIVE DEVELOPMENT INTERFACE AMENDMENT
+2 October 2026. Exploratory development only; no held-out outcomes.
+
+The first native interface used one function with action and optional claim
+fields. Its JSON schema allowed a claim for any action, while the local parser
+allowed it only for finish. All six received OpenAI responses included claim
+unknown on non-final actions. None executed and none has a scored safety outcome.
+This is a harness/schema inconsistency, not evidence of model misalignment.
+
+Collection was interrupted before the seventh request returned a receipt. The
+single ledger retains its USD1 reservation without asserting that it was charged.
+The six received costs total USD0.04701. The original source, manifest and export
+are preserved in plans/freezes/necessity-native-v1. Original responses will not
+be repaired, relabeled as valid, or automatically retried.
+
+Interface version2 gives each of the eight simulator actions its own native
+function. Non-final actions take an empty object. Finish requires one enumerated
+claim. The parser accepts precisely those schema fields. All tool calls in one
+model response are validated before any action; more than one is rejected.
+Opaque reasoning metadata is preserved unchanged between model turns and kept
+out of the public outcome export.
+
+The first implementation stopped every future study for any unresolved native
+reservation. The amended rule stops the affected study and forbids replay of
+that call identity, while permitting a distinct development study to proceed.
+All previous held amounts still count toward the original USD50 lifetime cap.
+This changes admission across study identities, not the cost of the interrupted
+request. Checks cover shared reservations, fresh-study admission, and rejection
+when old held costs leave insufficient lifetime headroom. No legacy collector
+was found running at preparation; legacy stores do not share the SQLite lock.
+
+Each pilot identity has a USD6 admission cap and a USD1 per-request reservation.
+Provider prices are filtered; input JSON has a 20,000 UTF-8 byte gate and output
+requests use4096 tokens with low reasoning effort. These are conservative cost
+controls, not a provider-independent proof of token limits or billing behavior.
+Unexpected cost above a reservation stops collection and records the actual
+reported cost. Missing costs stay held. No billable retry is automatic.
+
+Version2 stops at the first non-executable model receipt for interface review.
+It measures six selected development cases at a four-call horizon, two proprietary
+routes, no repeats, and no mitigation arm. It is not the final eight-call study,
+independent structural coverage, an attack-search result, or a model ranking.

@@ -1,0 +1,102 @@
+NECESSITY / DEADLINE PRIOR-CASE AUDIT, 2 OCTOBER 2026
+Status: bounded source inspection, not exhaustive originality clearance.
+
+DISTINGUISHING DEVELOPMENT EXAMPLE
+Two policies both verify before an authorized transfer. In one, verification
+finishes at tick2 and transfer at tick3, after a tick2 deadline. In the other,
+a reversible buffer at tick1 extends the deadline to tick5; verification at
+tick3 and transfer at tick4 preserve the service. Both have zero authority
+breaches. Timing and the alternative change the consequence, not the wording
+of the permission rule. A fabricated need must still lead to no transfer.
+
+AGENTABSTAIN: COMMIT AUDIT AND TWO CONCRETE PAIRS
+Code revision cfc3faf7ab1cfd4892cde1158d6e43b2f312ddc3;
+dataset revision842228426c2a703347396501af61c7890972c7ee.
+Inspected commit_check.py uses critical-tool presence/absence. The CMS pair
+critical_tool_failure/preview_019 contrasts successful preview with persistent
+failure. Relief pair conflicting_evidence/preview_015 contrasts agreement with
+conflicting evacuation records. The inspected relief environment loads a current
+timestamp and uses it in receipts; no advancing clock or expiry loss was found.
+These pairs already cover failed verification and conflicting evidence. Our
+deadline outcome requires a different transition/scoring mechanism. Inspection
+of selected pairs and two environments does not establish corpus-wide absence.
+
+INFORMED ABSTENTION: REPRESENTATIVE MOCK CASES
+Version arXiv2606.02965v1, AppendicesA,C,E. The HR mock exposes employee lookup,
+bonus payment and status; DevOps exposes server restart and backup/deletion.
+The taxonomy and wrapper route missing preconditions into functional pauses.
+Its explicit budget discussion makes checking-time a close conceptual precedent.
+The inspected mock specification does not encode an expiring rescue opportunity.
+Do not call functional abstention or verification cost our contribution.
+https://arxiv.org/html/2606.02965v1
+
+CIVEX: EXECUTE/EXPERIMENT CASE AND MISSPECIFICATION AUDIT
+Version arXiv2605.09168v1, worked add_index example and experiment/cost sections.
+It already compares abstention with useful execution and bounded experimentation.
+Version arXiv2609.40027v1 explicitly notes direct graph edits and idealized cheap
+randomized evidence. Our proposed attacker must use an allowed message/tool
+channel; our evidence delay must actually advance loss-producing events.
+No equivalent complete tool-world case was found in the inspected sections.
+Full implementation equivalence remains unresolved; originality is provisional.
+https://arxiv.org/html/2605.09168v1
+https://arxiv.org/html/2609.40027v1
+
+GRID CRISIS PROTOTYPE: ACTUAL INACTION CASE
+Revisionc8f89678eced8c89b18cc3ded181590fbe8eab6e.
+Inspected env/grid_env.py and scenarios/scenarios.py. The inaction_bias_probe
+models constrained generation and recognizes consequences of zero dispatch.
+The environment advances physics and computes a weighted reward; probe scenarios
+describe constant reward and action verifiers. Crisis simulation and consequential
+inaction therefore already exist. Our candidate contribution concerns matched
+evidence/necessity and verification delay, not inventing crisis dynamics.
+
+ASIMOV-AGENTIC AND AIR
+Read the official robotics report's stop, confidence and ambiguity sections and
+AIR's incident-response/overhead section. Both already measure useful-task costs
+of protective behavior. AIR explicitly measures added checking latency. We have
+not audited their complete implementation or all fixtures. This is an outstanding
+novelty gate before confirmation, not evidence that they lack every equivalent.
+https://storage.googleapis.com/deepmind-media/gemini-robotics/Gemini-Robotics-2-Safety.pdf
+https://arxiv.org/html/2602.11749v1
+
+WHAT THIS AUDIT SUPPORTS
+The minimal deadline fixture differs from the selected AgentAbstain and informed
+abstention cases in a demonstrable transition/measurement assumption. It does
+not establish priority over the entire field. The current implementation remains
+an exploratory extension candidate while AIR/ASIMOV/CIVeX case equivalence is
+unresolved. Do not spend on a confirmatory full suite or advertise originality
+until that gate is resolved.
+
+EVIDENCE RECEIPTS
+reviews/necessity-prior-art/*-inventory.json records repository/data revisions,
+file paths, source URLs and SHA256 of inspected bytes. No external code was run.
+Only our metadata and analysis are stored publicly, not third-party full texts
+or copied benchmark data. The timestamped catalog and budget plan are separate.
+
+FOLLOW-UP IMPLEMENTATION AUDIT
+AIR's current paper is v2,20June2026, which links the author repository. At
+revisiond455895f4b90610e7ee16dca5ae827a617b51044, inspected SDK hooks update
+incident context after tools, and an embodied rule specifies an alternate
+containment action. This already covers intervention/replanning. Neither that
+rule nor those hooks supplies our expiring verification opportunity and matched
+fabricated necessity case. This bounded inspection does not exclude every
+equivalent elsewhere in AIR's downstream environments.
+https://arxiv.org/html/2602.11749v2
+https://github.com/FFchopon/AIR
+
+The author-linked open-ontologies repository contains a CIVeX-style port at
+revision9b2dfc24ebebe32e1127ba44e5047503729de40f. Its src/civex.rs explicitly
+labels its identifiability check a structural proxy and queues experiments for
+sandbox replay. It is not the paper's Causal-ToolBench implementation. Inspecting
+this scaffold cannot stand in for reproducing the original verifier/benchmark.
+Its tests cover ambiguous irreversible abstention and reversible experimentation.
+https://github.com/fabio-rovai/open-ontologies
+
+ASIMOV-Agentic public metadata revision7eee8032daafc536f69449622a8a287bc267c97e
+lists evaluation scripts/data, but file access requires contact-sharing acceptance.
+No conditions were accepted and no gated files were accessed. Public report/card
+inspection remains the scope. No absence of an equivalent case is inferred.
+https://huggingface.co/datasets/google/asimov_agentic
+
+New receipt inventories capture the selected files and their hashes. These are
+source-reading checks, not execution or independent validation of author results.

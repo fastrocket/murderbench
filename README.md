@@ -22,6 +22,18 @@ four-call configurations with
 This is an offline development check; native collection and the broader
 eight-call protocol remain unvalidated.
 
+A native development pilot has now completed twelve selected episodes on two
+proprietary routes. Its four-call horizon is separate from the planned final
+study. Read `reviews/necessity-native-development-report.txt` and the disclosed
+schema amendment before interpreting the traces. The first interface's unknown
+records and both source identities are preserved in `plans/freezes/necessity-native-v1/`
+and `plans/freezes/necessity-native-v2/`. Neither is a held-out freeze.
+`python -m benchmark.necessity_native_analysis` validates native receipt provenance
+against the private ledger and independently folds the public outcome traces.
+It makes no model calls. The single necessity ledger retains old reservations in
+the original USD50 lifetime admission limit; remaining accounted budget at the
+pilot export is USD12.1911319624, not an authorization for a larger collection.
+
 A preliminary safe proxy study of model proposals after verified constraints change.
 Fixed synthetic histories do not establish actual agent commitment or intent.
 No real action is executed. No general safety ranking or injury risk is claimed.
@@ -33,8 +45,7 @@ Prior-case overlap and unproven novelty are documented in `plans/overlap-audit.t
 Run offline checks: `python -m unittest discover -s tests`.
 The public repository also runs these checks, freeze validation, and the static
 site build in GitHub Actions without model credentials or billable requests.
-Build the site: `python build_site.py` (nine pages before a real results export,
-ten pages after it).
+Build the site: `python build_site.py` (eleven pages with both current reports).
 
 Frozen candidate configuration: `plans/full-manifest.json`.
 Public catalog: `plans/full-catalog.json`. Prospective native-interface eligibility:

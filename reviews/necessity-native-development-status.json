@@ -1,0 +1,40 @@
+{
+  "stage": "native exploratory development",
+  "previous_goal_turn": "progress: exact asynchronous comparator committed and checked",
+  "repository_tests_passed": 107,
+  "completed_v2_episodes": 12,
+  "v2_native_receipts_checked": 36,
+  "independent_v2_fold_matches": 12,
+  "v1_received_interface_unknowns": 6,
+  "v1_unresolved_requests": 1,
+  "budget": {
+    "legacy_accounted_usd": "36.4007675376",
+    "necessity_accounted_usd": "1.4081005",
+    "necessity_unresolved_holds_usd": "1.00",
+    "necessity_reconciled_cost_usd": "0.4081005",
+    "lifetime_accounted_usd": "37.8088680376",
+    "remaining_accounted_usd": "12.1911319624"
+  },
+  "held_out_frozen": false,
+  "novelty_established": false,
+  "goal_complete": false,
+  "hash_normalization": "CRLF to LF",
+  "sha256": {
+    "benchmark/necessity_native.py": "f539b725053c89bdb6999540a0ab761efc3df9bd88433384e051ef4efbc0d363",
+    "benchmark/necessity_native_pilot.py": "0fc2c7b06b5d5b0fb93f95649e1cf7bc0071414711e4fab199ef820b64858cde",
+    "benchmark/necessity_native_analysis.py": "86f71bef3dedcd6ef4cb9fe8ed4eed3364591b1ff101cac7efc61d82bb7b8d7a",
+    "tests/test_necessity_native.py": "2e63e3235779909ef76d7671cb607785e70e6cee3a94698310561524c61fed5f",
+    "plans/necessity-native-development.json": "8b00efbd66352c8eac14c11d4803c880544cdd19056d777932953f1471b403aa",
+    "reviews/necessity-native-development-analysis.json": "b1ed96e8dd9705ae007e81e0912281985fd5e59f322a55e0b907337b4ec7c0e3",
+    "reviews/necessity-native-development-results.json": "316db4fbaf4603ec59e036d101d53cb28b35f7aee650d8144e3a84cf06637af8",
+    "reviews/necessity-native-development-report.txt": "a689bfb5a44df3dfc5a32019bd3688d489fb9b54780bd4fa2ff6200d58e1effd"
+  },
+  "remaining": [
+    "broader structural environments and explicit stale-evidence checkpoint",
+    "closest-case equivalence and domain validity review",
+    "final-horizon comparator calibration",
+    "mitigation arms and Chinese open-weight eligibility",
+    "freeze held-out templates and exact priced matrix",
+    "budget-approved full collection and final reproducible report"
+  ]
+}
