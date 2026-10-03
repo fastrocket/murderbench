@@ -1,0 +1,32 @@
+RECEIPT-CONDITIONED FIRST-LOSS ANALYSIS
+Prospective implementation amendment; no model observations used.
+
+necessity_resource_probe_analysis.diagnose accepts a complete terminal event trace,
+not a world label. Independent replay first requires compatibility with at least
+one declared support world. For each prefix, it replays the exact selected actions
+in both worlds and retains only worlds whose full public receipts match the given
+history. Undelivered reports cannot shrink support. Delivered need evidence can.
+
+The finite comparator starts from that conditioned support, with the same remaining
+action cap, capacity, evidence, deadline and authority. It exports a witness policy
+and minimum expected primary-plus-authority loss. The first feasible-to-infeasible
+transition is reported by event sequence. Costs and false claims remain separate
+outcome-vector fields; this diagnostic does not override them. It gives no result
+on inconsistent traces or solver exhaustion.
+
+A realized later negative report can restore feasibility after a consuming probe
+removed the all-world guarantee. The first loss remains recorded; this is not a
+claim that every realized run failed. Public histories, not evaluator knowledge,
+determine the support at each step. Conditioning uses a disclosed equal initial
+prior; zero feasibility requires both constraints in every remaining positive-
+probability support world, while nonzero scalar minima depend on that prior.
+
+Tests identify consumption at event1 while both worlds remain indistinguishable,
+retain feasibility for certificate-conditional controls, distinguish a deadline2
+obstruction from its deadline3 repair, and reject altered or nonterminal traces.
+This checks encoded mechanics, not deployment validity or scientific priority.
+
+The existing collection manifest and frozen sources are unchanged. The companion
+source-amendment JSON binds this analysis implementation and note to that parent
+before any resource-probe model query. A collector, exact-interface eligibility,
+fresh pricing and sufficient authorized budget remain outstanding.
