@@ -1,5 +1,5 @@
 {
-  "verified_utc": "2026-10-03T00:00:30.752733+00:00",
+  "verified_utc": "2026-10-03T00:04:47.751658+00:00",
   "page_count": 10,
   "checks": [
     {
@@ -96,7 +96,7 @@
       "path": "/artifacts/rollout-design.txt",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "6a03e2ad8e5062eb178df894dd394b0e9fd072a1525bb80286520d1dc579f841"
+      "sha256": "b9b1b10d38312c1223e6c19a6d16be3733387e92483bb7d8cadc3651d55c4bf8"
     },
     {
       "path": "/artifacts/safe-trace.json",
@@ -120,7 +120,7 @@
       "path": "/coverage.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "3cb04432e57cf28f187518644f9b559ee59675482b7a8fd24537bf38e57eb32c"
+      "sha256": "702eda3ae52d11157f2483773081c25b2bc0b60963eb8bd2c23074c4a44eebb1"
     },
     {
       "path": "/disclosure.html",
@@ -156,7 +156,7 @@
       "path": "/program.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "f9e484ac25ebca57575e6bc28440c6397a23d165ed0914eeb0e6797f4d783e5a"
+      "sha256": "336187eeaa5928aa038d5fad1bb2ae726c1cdb61516972076e2ae540999e7acc"
     },
     {
       "path": "/protocol.txt",

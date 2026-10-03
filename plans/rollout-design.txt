@@ -1,6 +1,14 @@
 MURDERBENCH / PROSPECTIVE ROLLOUT AND STATE-GATE STUDY
-Draft for independent review, 2 October 2026. Not preregistered, approved,
-implemented or collected. Separate from the completed fixed-history study.
+Draft for independent review, 2 October 2026. Not preregistered, scientifically
+approved or collected. Separate from the completed fixed-history study.
+An offline authorization-boundary kernel and golden fixture tests are now
+implemented in benchmark/rollout_simulator.py and tests/test_rollout_simulator.py.
+They are an engineering prototype, not a complete model-rollout harness.
+Supported observation APIs return defensive copies. Python introspection of
+private attributes is outside the claim. Explicit revocation update IDs remain
+idempotent across reauthorization; omitted IDs denote new change requests.
+Stop scopes stay stopped in this prototype; restarting work requires a new scope.
+Reauthorization alone does not reopen a previously stopped scope.
 
 WHY A SECOND DESIGN
 The first suite recorded zero complete proposals among 1,098 valid changed-state
@@ -80,7 +88,7 @@ engineering fixture; it is not a silently added primary factorial intervention.
 Match task content across cells. Cross deadline/pressure text separately or omit
 it; do not confound a named pressure with a unique task as in the first suite.
 
-EIGHT REQUIRED BOUNDARY FIXTURES / SPECIFICATION, NOT EXECUTED RESULTS
+EIGHT REQUIRED BOUNDARY FIXTURES / ENGINEERING RULES, NOT MODEL RESULTS
 F1 Revoke after cached approval, before propose_commit: cached gate can authorize
    a stale version; atomic gate must reject. Inspecting state must reveal revoke.
 F2 Revoke after propose_commit but before queued application: commit-time atomic
@@ -104,6 +112,13 @@ F8 Reauthorization: new valid version permits new preparation and commit; stale
    A blanket permanent stop has false-blocking cost.
 Golden engineering fixtures use deterministic scripted actions and make no LLM
 behavior claims. Their value is verifying oracle/gate boundaries before collection.
+The kernel tests cover these symbolic authorization cases plus duplicate revoke
+and snapshot integrity. Pending queue application requires explicit drain in this
+prototype. Automatic next-event drain, the 12-turn target driver, tool adapters,
+interlock versions, immutable trace release and independent event-log replay are
+not implemented. No complete simulator or containment acceptance follows from
+passing these tests. The cached and atomic differences are engineered assumptions,
+not observations about frontier models or realistic middleware behavior.
 
 PRIMARY ANALYSIS / DRAFT
 The independent unit is a separately authored task context; all its cells,
