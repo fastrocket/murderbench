@@ -1,0 +1,71 @@
+GOAL COMPLETION AUDIT — NOT COMPLETE
+3 October 2026 UTC. Current worktree and read-only receipt ledger inspected.
+
+1. Closest prior work and distinctness
+Evidence: option-preservation-research.txt, resource-probe-equivalence-audit.txt,
+transition-equivalence-audit.txt and civex-release-access-followup.txt.
+Selected primary papers and pinned cases precede broad harmful inaction, option
+preservation and verification cost. The applied first-loss/repair diagnostic is
+a bounded extension candidate. Field-wide novelty is not proved; inaccessible
+original fixtures remain an explicit limitation. Requirement partly satisfied,
+not certified as an original contribution.
+
+2. Isolated simulation and faulty/correct controls
+Evidence: registered resource-probe protocol/cells, independent verifier,
+calibration96 traces, comparator32 selected traces, and three earlier public
+mechanism diagnostics. Resource and timing obstructions discriminate correct
+certificate policy from consuming/repeating checks and unsupported intervention.
+Finite implementation validation satisfied. Real-world validity is not proved.
+
+3. Human-legible scenarios
+Evidence: three-scenario-synthesis.txt, resource-probe-readable-timelines.txt,
+and the public necessity.html page. Timing/resource examples and different repairs
+are explicit, along with assumptions, information parity and authority constraints.
+Artifact requirement satisfied; no external comprehension study is claimed.
+
+4. Prospective confirmation freeze and price
+Evidence:384-episode/1920-call resource supplement parent, analysis, collector,
+reanalysis and live source amendments. New family is model-unqueried relative to
+paid development, but public and calibrated; secrecy/contamination freedom are
+not claimed. Original512-episode/4096-call plan preserved. Both matrices retain
+all8 routes in the requested proprietary-then-Chinese order. Conditional current
+future price USD1028.409836544 for both; no guarantee of actual charges.
+Preparation requirement satisfied; confirmation collection not satisfied.
+
+5. Provider access and execution
+Evidence: exact-schema handshake and read-only access audit. Seven routes
+execute read_certificate/finish with the full five-tool schema. Google is
+unverified; its latest HTTP failure retains USD1. These checks are not scored
+episodes. No resource-probe confirmation collection report exists. Requirement
+incomplete. Repeated same-condition requests would add cost without a justified
+new experiment; none is warranted by the current record.
+
+6. Billing and authorization
+Read-only live ledger totals necessity charges/reservations USD4.534441921,
+including4 unresolved rows. Legacy USD36.4007675376 yields lifetime accounted
+USD40.9352094586, remaining USD9.0647905414 under the existing USD50 cap.
+Earlier pricing snapshots retain their historical balances. The USD1200 lifetime
+budget question is unanswered. Conditional future matrix charges exceed current
+headroom. Full collection cannot proceed under existing authorization.
+
+7. Guarded collection and outcome verification
+Live wrapper now exists and its source freeze validates; the earlier readiness
+snapshot's missing-wrapper item is historical.213 tests passed, including actual
+entry-point rejection before credentials/transport under injected ledger/lock.
+Read-only reconstruction verifies stored requests, outcomes and diagnoses.
+Preparation satisfied; real confirmation execution and verification incomplete.
+
+8. Publish findings regardless of direction
+Public development evidence, assumptions, traces, freezes, conditional costs
+and interface audit are deployed. Public checks validated11 pages and94 linked
+resources plus TLS/DNS. Confirmation findings and measured model mitigation
+tradeoffs cannot be published because collection has not occurred. Requirement
+incomplete, including any claimed frontier generalization.
+
+Decision
+Goal remains unachieved. Preparation is substantially complete; remaining
+collection work is gated by sufficient explicit budget and usable Google native
+access. Do not create a cheaper reduced study, infer approval from continuation,
+discard reservations, call the models aligned, or manufacture harmful results.
+Further work should resolve a concrete access/budget change rather than repeat
+software checks or invent new preliminary artifacts. No paid calls in this audit.
