@@ -4,3 +4,8 @@
 *.html text eol=lf
 *.css text eol=lf
 *.md text eol=lf
+# These development identities were hashed as collected bytes. Preserve them.
+plans/necessity-native-development.json -text
+plans/freezes/necessity-native-v1/manifest.json -text
+plans/freezes/necessity-native-v2/manifest.json -text
+site/artifacts/necessity-native-development.json -text
