@@ -1,6 +1,6 @@
 {
-  "verified_utc": "2026-10-04T00:25:31.737477+00:00",
-  "page_count": 12,
+  "verified_utc": "2026-10-04T08:07:54.239953+00:00",
+  "page_count": 13,
   "checks": [
     {
       "path": "/",
@@ -513,6 +513,78 @@
       "sha256": "da82a04b0bf05237e4d31bd255e6cff9d736208a37b6de525e183d56250d89f6"
     },
     {
+      "path": "/artifacts/recovery-contribution-decision.txt",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "045a2d7d6c5aa6ec80adbedd6daa80500595195910099e893e3ae44ea4a4d76b"
+    },
+    {
+      "path": "/artifacts/recovery-evaluation-design.txt",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "3d72873d7d53d27b38b50ca34440ba567a52f895d626678e5bbb2bcf3954db30"
+    },
+    {
+      "path": "/artifacts/recovery-research-audit.txt",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "f2328ec6d15bedbe87ddbef7af7dd3c926f2ce80b1d7e88e2b8a14cf7d7dcb1e"
+    },
+    {
+      "path": "/artifacts/recovery-source-audit.json",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "693a340a176cc8256b8aff51aecc26b4011e7a758dfcdc31bc46df1b9f3cdd23"
+    },
+    {
+      "path": "/artifacts/recovery-vault-audit.json",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "21e1ea36c234872a413cb053c9f71a1ca9cd9a77af6d4e041b6c6e8ba29e67d5"
+    },
+    {
+      "path": "/artifacts/recovery-vault-registration-v2.json",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "c9b70fa82fcc017bdfa2a26d4418a46eb6f2f5d1d51c021bf065a6dcc286e5ee"
+    },
+    {
+      "path": "/artifacts/recovery-vault-registration.json",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "1c34b6217d9c968c9dac557944894bbc6563380b748b2b4ad1f84290b98b510f"
+    },
+    {
+      "path": "/artifacts/recovery-vault-release.json",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "b4ac51d52a49ab40e12127faf7df75e92db236b32557d3bbcfb7b07ce7ce7a29"
+    },
+    {
+      "path": "/artifacts/recovery-vault-reproduction-v2.json",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "8ba926e9416318ed4854009753d2a9788bd951d309b25a7d690c82631bfae00c"
+    },
+    {
+      "path": "/artifacts/recovery-vault-reproduction.json",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "8078846937d263e356508b408d090cf4a8169e175d26df34c3fa6ebd90f31553"
+    },
+    {
+      "path": "/artifacts/recovery-vault-verification-v2.json",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "eccce42cbd4df450ad5d13b335bf2343ba5c15a1a7b502d7e390463b22ea9594"
+    },
+    {
+      "path": "/artifacts/recovery-vault-verification.json",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "386fad2229f41c699041b39219cf4526e9f513290772d8852b101a008ba12e8c"
+    },
+    {
       "path": "/artifacts/results.json",
       "status": 200,
       "local_bytes_match": true,
@@ -552,7 +624,7 @@
       "path": "/coverage.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "14dd30aee15097b4dd6bf0be34ccd1a5b78a677c549ef59f123ba65caf855969"
+      "sha256": "90b057b1cfa95b36e03da1a0ed05a0dc359f7362c455b4292425861d0fac2f74"
     },
     {
       "path": "/disclosure.html",
@@ -576,7 +648,7 @@
       "path": "/matched-pilot.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "98bc7eba12c8733c5590be3d68f161c5f12d3db6e1d5d9f7fec947e57d006281"
+      "sha256": "16883df797aab74f324bbe5b14db26f5198aa5cc22b6bb531ff59ee4bc8a2d2c"
     },
     {
       "path": "/methodology.html",
@@ -600,7 +672,7 @@
       "path": "/program.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "a361b64824190f9e345125e301051ef8c70099aab9ed20bc84cdab6660752968"
+      "sha256": "17fc8a0623a1332e81ce76ef2b36ed2ca222585dce5a1a1c559910dcc2cd669b"
     },
     {
       "path": "/protocol.txt",
@@ -609,10 +681,16 @@
       "sha256": "6b1a203557fde6f9d91445b9f094478864c491d871a35a3ef00ee7e57f122258"
     },
     {
+      "path": "/remediation-recovery.html",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "ec0484d926350fa605f00a56aca928f5fb14ca34c628529d3f53f1ed4fa5de42"
+    },
+    {
       "path": "/research.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "820e3f233bf177c15c2350b460e63468562dbd21ffa373dcaf33bad5477b2ceb"
+      "sha256": "b8075b2cd38a06a404b23e0db1b0326fab1255b1b94834170bbcc57afc18831a"
     },
     {
       "path": "/results.html",
@@ -630,7 +708,7 @@
       "path": "/sitemap.xml",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "19f1d96645e640cb13897bb2af771ce0d8891de8c79106517857e40308778a14"
+      "sha256": "8f3dd06520cf92dfa04643dc1ca48e931e0798ce7e6366e8a51b5cc5480740c3"
     },
     {
       "path": "/style.css",

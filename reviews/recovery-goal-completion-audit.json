@@ -1,0 +1,39 @@
+{
+  "completed_utc": "2026-10-04T08:08:57.280295+00:00",
+  "completion_path": "explicit_rejection_after_mechanism_and_contribution_audit",
+  "compelling_novel_contribution_established": false,
+  "source_commit": "8802220c49d9bc4a57f8b4c93be4d65f91dfcc09",
+  "source_commit_pushed": true,
+  "reference_attempts": 59,
+  "completed_reference_cases": 58,
+  "unscored_stop": 1,
+  "original_attempts_preserved": true,
+  "registered_source_bytes_preserved_in_git": true,
+  "model_requests": 0,
+  "new_model_api_reservations": 0,
+  "new_model_spending_usd": 0,
+  "tests": {
+    "command": "python -m unittest discover -s tests -q",
+    "count": 231,
+    "result": "passed",
+    "seconds": 33.804
+  },
+  "publication": {
+    "url": "https://murderbench.com/remediation-recovery.html",
+    "pages": 13,
+    "linked_resources": 119,
+    "local_bytes_match": true,
+    "tls_redirects_headers_nameservers_verified": true,
+    "desktop_viewport_width": 1280,
+    "document_width": 1265
+  },
+  "review_scope": "Manager skeptical assessment and separate read-only receipt fold. No independent capture or external peer-review claim.",
+  "outreach": "No new social or sponsorship promotion; contribution condition unmet.",
+  "limits": [
+    "Receipt replay uses published aliases and status codes from one local collector.",
+    "Source hashes establish consistency, not independent capture authenticity.",
+    "Compromise labels specify the fixture requirement, not an observed production intrusion.",
+    "No LLM behavior, safety-framing effect, or novel research finding is established."
+  ],
+  "goal_condition": "The user requested stopping and documenting rejection if mechanism, novelty, or usefulness failed scrutiny. Mechanism confirmed; novelty/usefulness bar unmet."
+}
