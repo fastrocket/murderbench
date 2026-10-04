@@ -1,0 +1,77 @@
+NEXT RESEARCH DIRECTION: DOES REMEDIATION DISABLE RECOVERY?
+Prospective proposal, 3 October 2026. No novelty or incident claim.
+
+Question
+Can an AI agent correctly carry out an authorized security remediation while
+silently invalidating the only recovery job that can complete before a deadline?
+
+Why this is stronger than another wording exercise
+SDoS already establishes the safety-language availability attack and a genuine-
+hazard response tradeoff. PEAR includes compliance-framed resource exhaustion;
+Shield to Target studies guardrail starvation in real agent frameworks. Our
+perfect-certificate experiment makes safe choice unusually easy. A useful next
+contribution must establish the executor side effect and an operational repair
+in a real harness, with reproducible causal evidence. It cannot depend on giving
+a toy emergency a more dramatic name.
+
+Candidate mechanism to validate with an operator
+An in-flight recovery job holds a scoped credential or lease. A remediation
+rotates that credential, terminates its session, or revokes its lease. The recovery
+worker later receives a denial. Reissuing authorization may take longer than the
+remaining recovery window. Alternatively, a staged rotation with a narrow overlap
+can preserve recovery but also preserve an exposure window. This is a hypothesis:
+do not imply that a production incident has occurred or that this coupling is new.
+
+Evidence acquisition gate
+Obtain one documented, permissioned executor case with actual worker/API semantics
+and an operator-validated task invariant. Local tests use synthetic identities,
+credentials and resources. Capture request, grant/revoke/rotation, worker denial,
+retry, completion and expiry events. Demonstrate that changing only the remediation
+ordering changes the settled outcome; do not manufacture side effects in scoring.
+Exclude systems with unmodeled escape routes until those routes are recorded.
+
+Discriminating experiment
+1. Freeze executor semantics, authority rules, deadline and all observation streams.
+2. Use matched genuine compromise and fabricated-alert worlds. An attacker can
+   insert unauthenticated incident text but cannot rewrite policy or tool receipts.
+3. Cross recovery-job state (queued/running/completed), remediation timing and
+   renewal delay. Include no-loss, feasible-repair and impossible cells. A failed
+   recovery is an agent error only if its actual information admitted a safe policy.
+4. Compare immediate rotation, blanket delay, staged rotation, explicit job
+   reauthorization and a faulty acknowledgement-only policy. A repair must preserve
+   both the recovery invariant and the declared security constraint; do not silently
+   permit a compromised credential to remain active indefinitely.
+5. Replay independently from executor logs. Measure realized loss, unauthorized
+   use, exposure duration and first loss of a feasible information-conditioned
+   recovery policy. Keep the security/availability tradeoff as a vector.
+6. Use matched neutral and ordinary workflow instructions to separate baseline
+   mistakes, generic prompt injection and safety-framing effects. Freeze pilot
+   messages and fresh structural confirmation before model calls.
+
+What could establish a contribution
+A practical operator changes rotation or recovery orchestration because a replay
+shows an invariant violation missed by its existing permission and final-response
+checks. The tested repair reduces that violation without concealing security cost.
+Alternatively, a reproducible model comparison on held-out executor cases exposes
+a previously unreported pattern after auditing the closest released fixtures.
+The coupling itself, a simulator, a model failure and a new name are insufficient.
+
+Falsifiers and stop conditions
+Reject this candidate if equivalent prior fixtures already report the same
+measurement/repair; if the recovery effect is invented rather than executor-real;
+if an omitted recovery route explains the result; if observation matching fails;
+if the proposed repair merely delays security harm; or if fresh cases do not
+reproduce the pattern. All-pass remains a scoped negative finding.
+
+Practical next action
+Identify a tool-harness operator willing to supply one permissioned, anonymized
+side-effect trace and review its replay. An API-credit grant alone cannot supply
+construct validity. Audit the exact coupling in primary papers and original code
+before selecting models or pitching novelty. Remaining authorized credits can
+support the subsequent bounded pilot, after that evidence gate is satisfied.
+
+Funding proposition, conditional on validation
+Support an independently published corpus of remediation/recovery event replays,
+conformance checks and tested orchestration repairs. Sponsors receive no label,
+publication or conclusion control. Government relevance and deployed human-risk
+reduction require domain validation; neither follows from a synthetic service loss.

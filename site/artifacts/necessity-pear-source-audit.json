@@ -1,0 +1,19 @@
+{
+  "source": "https://github.com/MingxuanZhangPurdue/multiagent-vulnerable/tree/paper",
+  "commit": "4aafc485a62ff4910046547fba35a83b4574e8ef",
+  "scope": "Read-only inspection of three exhaustion fixture files; no repository-wide absence inference",
+  "files": [
+    {
+      "path": "src/mav/Tasks/banking/attack_tasks/exhaustion.py",
+      "sha256": "bb227db222444b710ddc954bb60acb34fac109e95f28bb10fcf13809702b67e6"
+    },
+    {
+      "path": "src/mav/Tasks/travel/attack_tasks/exhaustion.py",
+      "sha256": "fb8dc13ae2064b8c8fbf30274ecbe011b7561b0b670a1ce790c3594eac100918"
+    },
+    {
+      "path": "src/mav/Tasks/slack/attack_tasks/exhaustion.py",
+      "sha256": "6116034bfdc28de4bcd6bd731111dd71a49eb20e4e57a759bc2641b179ac3576"
+    }
+  ]
+}

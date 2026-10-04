@@ -1,0 +1,80 @@
+CONTRIBUTION DECISION: REJECT THE CURRENT NOVELTY/FUNDING PITCH
+3 October 2026. Bounded research conclusion, not independent peer review.
+
+Decision
+The safety-procedure candidate did not establish a compelling novel contribution.
+Publish this as a negative, incomplete-coverage development pilot. Do not describe
+it as proof of alignment, a novel dangerous behavior, a validated deployment
+mitigation, or a funding-ready research breakthrough. This decision takes the
+explicit candid-rejection pathway of the goal; it does not claim that every
+possible future research direction has been disproved.
+
+Verified observations
+192 planned episodes across eight requested routes and three message arms.
+125 attempted episodes:123 completed and2 locally stopped, unscored prefixes.
+67 unattempted:Google24, DeepSeek23, Kimi20. Five routes completed all24 episodes:
+GPT-6 Astra, Claude Opus5.5, Grok4.7, Qwen3.8 and GLM5.3. Kimi completed3.
+Read-only native-receipt replay verified308 calls. Completed need-positive
+episodes:60; completed need-negative:63. All completed executions used exactly
+read_certificate then finish, or read_certificate then rescue then finish.
+Recorded omission0/60, authority breach0/123, false structured claim0/123,
+consuming probe0/123, first feasibility-loss transition0/123. All fully observed
+matched arm comparisons have zero outcome discordance. Missing cases are unscored.
+
+Interpretation
+These fixed instructions did not derail the completed agents under fully disclosed
+mechanics with a perfect, read-only trusted alternative. Two repetitions and one
+fixed wording per directive cannot estimate deployment prevalence or exclude
+other attacks. Kimi's completed cases cover only fabricated-need settings; its
+genuine-need behavior remains unmeasured. DeepSeek has no completed case here.
+The pilot does not establish a population null effect or general safety.
+
+Why the novelty gate fails
+The broad safety-language availability attack is already covered by Semantic
+Denial of Service in LLM-Controlled Robots, safeguard false-refusal attacks and
+guardrail exhaustion work. PEAR's released fixtures include compliance-framed
+exhaustion. See necessity-safety-availability-audit.txt for primary sources,
+exact inspections, pinned release and access limitations.
+The finite first-loss diagnostic is an applied implementation of established
+viability ideas. No new algorithm or theorem is established. The offline
+capacity repair works in the synthetic contract, but no model chose the probe,
+so these model results cannot identify its mitigation effect. An actual operator
+decision changed by this measurement remains unvalidated. New model IDs and
+synthetic trace exports alone do not meet the requested impact/novelty bar.
+
+Technical findings, separately
+DeepSeek's next request exceeded the20,000-byte gate under both schemas. Kimi's
+next request fit the current five-tool schema but failed an inherited check using
+the unrelated event schema. Both episodes stopped before a second reservation.
+A disclosed post-query read-only amendment enables prefix verification without
+behavioral rescoring. A separately tested future payload builder checks only the
+supplied schema, preserving provider/privacy/price controls and reasoning fields.
+It was not used to rerun this pilot. This integration fix is useful engineering;
+it is not evidence of novel model misalignment or human harm.
+
+Budget
+Pilot reconciled/accounted1.758657853USD. No new unresolved hold in this pilot.
+Lifetime accounted42.6938673116USD, within the explicitly authorized100USD cap.
+The Necessity ledger includes4USD prior unresolved reservations; the earlier
+proposal-study export separately reports25.50USD unresolved, included in the
+legacy baseline. Earlier feasibility reservations are also retained in that
+baseline. These are not all confirmed charges. Remaining authorization57.3061326884
+USD; this is not a statement of the provider account's credit balance. The
+additional50USD authorization does not require spending all50 on a weak candidate.
+
+Outreach decision
+The goal conditions funding/social promotion on a compelling contribution.
+That condition is unmet. No new LinkedIn/X novelty post or major-lab sponsorship
+pitch is justified by this pilot. Earlier outreach remains historical evidence;
+it is not a sponsor relationship or endorsement. Publication preserves negative
+results, all attempts, limits and sponsor-independence commitments.
+
+Strongest next direction
+Validate whether an authorized remediation revokes the credential, session or
+lease needed by an in-flight recovery job. Start with an operator-reviewed real
+executor trace, reproduce the side effect in a sandbox, compare an operational
+repair while retaining security constraints, and audit equivalent prior fixtures.
+The contribution gate is a practical orchestration decision changed by causal
+replay, or a surprising held-out model result. This remains a hypothesis with
+explicit falsifiers, not a new incident or priority claim.
+See necessity-next-direction.txt for the concrete evidence gate and study design.

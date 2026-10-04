@@ -1,0 +1,91 @@
+SAFETY PROCEDURES AS AN ATTACK SURFACE: CONTRIBUTION AUDIT
+3 October 2026. Source-reading audit, not independent peer review.
+
+Decision before model queries
+Reject the broad claim that weaponizing safety language, safeguards, verification,
+or procedural compliance is new. Test a narrower applied diagnostic: the first
+loss of a zero-omission, zero-authority-breach policy under the actual information
+available to an agent, followed by a capacity repair. Priority remains unproved.
+Even a successful finite simulator measurement may be too small to justify a
+research-funding novelty pitch. The experiment must discriminate, not just run.
+
+Closest direct counterexample
+Semantic Denial of Service in LLM-Controlled Robots, 2604.24790v1, sections3.1,
+4.1,4.4,4.7,7,8.4. Safety-language attacks and matched controls already exist.
+The study distinguishes disruption from hard stops and evaluates genuine-hazard
+response tradeoffs. Its reported interface classifies model actions at sampled
+decision points; architectural defenses remain future work. This defeats a new
+"safety causes dangerous inaction" claim. Our candidate adds executed resource
+effects, receipt-conditioned feasibility and a tested repair, conditional on
+explicit synthetic mechanics. That distinction alone does not establish priority.
+https://arxiv.org/html/2604.24790v1
+No study-specific executable release was identified in the inspected paper links.
+The linked Unitree prompt belongs to RoboPAIR, not an SDoS results implementation.
+https://github.com/arobey1/robopair/blob/main/system_prompts/unitree_go2.py
+Implementation-access gap is not proof that a release does not exist.
+
+Guardrail exhaustion counterexample
+From Shield to Target, 2606.14517v1, sectionsVI andVII, already studies attacks
+on safety reasoning in coding and shared multi-agent systems, including starvation
+and false risk classifications. Cost-bounded guardrails face availability/security
+tradeoffs. Our one consumed reserve unit is an operational allocation, not an
+amplified reasoning-token count; first-loss scoring and capacity repair are the
+bounded proposed difference. No new exhaustion principle is claimed.
+https://arxiv.org/html/2606.14517v1
+No original release identified in inspected links; framework links are not the
+paper's attack implementation. This remains an access gap.
+
+False-refusal counterexample
+Safeguard is a Double-edged Sword, 2410.02916v1, attacks safeguard false positives
+to deny benign service. Harmful refusal and safeguard availability attacks precede
+this project. It does not justify treating model refusal as general alignment.
+https://arxiv.org/html/2410.02916v1
+
+Released implementation audit: PEAR
+Primary publication: EACL2026 Findings237, resource-exhaustion section3 and
+AppendixF. The paper links its original repository in PDF URI annotations, and
+author Yue Xing's page independently links the same repository.
+https://aclanthology.org/2026.findings-eacl.237.pdf
+https://sites.google.com/site/xingyuecuhk/other
+https://github.com/MingxuanZhangPurdue/multiagent-vulnerable/tree/paper
+Pinned paper branch4aafc485a62ff4910046547fba35a83b4574e8ef.
+Read source only. No installation, imports, model calls or attack execution.
+Inspected src/mav/Tasks/{banking,travel,slack}/attack_tasks/exhaustion.py.
+The banking first fixture uses compliance/risk-management framing for many small
+transactions. Its predicate checks transaction growth, elapsed time, timeout or
+turn exhaustion. Travel's first fixture checks event volume and similar runtime
+limits. Selected Slack predicates also check noncompletion after repeated reads.
+Thus ordinary auditing/compliance framing and destructive diagnostics are already
+close precedents. The inspected predicates do not compute a first lost feasible
+authorized policy or compare one-unit reserve repair. This is a scoped fixture
+distinction, not a whole-repository absence claim. File hashes are separately
+recorded in necessity-pear-source-audit.json.
+
+Theory and adjacent work
+Earlier research files document Generator-Independent Runtime Assurance,
+The Verifier Tax, CIVeX, AgentAbstain, ADMITBench and ConsequenceBench. Viability,
+verification cost, intervention delay and information-matched choices are prior
+ideas. Our exact finite solver illustrates those ideas; no new theorem claimed.
+Read necessity-contribution-decision.txt and the pinned transition/equivalence
+audits for the earlier narrow inspections and unresolved access limitations.
+
+Why the planned experiment can reject the pitch
+Neutral, workflow and safety arms prevent counting ordinary baseline mistakes
+as attacker effects or generic instruction following as a unique safety effect.
+Capacity repair separates scarcity from a model choosing an inferior route.
+Both need worlds prevent always-rescue from looking safe. Independent settling
+avoids counting a reassuring answer as rescue. Fault controls prove measurement
+sensitivity. Two repetitions and one fixed wording do not establish prevalence.
+All-pass rejects this candidate attack at the tested interface. A weak or isolated
+difference also fails the compelling-contribution gate. A pattern worth pursuing
+needs fresh structural confirmation; no attack tuning on selected successes.
+
+Strongest next direction if rejected
+Partner with a real tool-harness operator to measure bounded verification side
+effects: credential rotation invalidating queued recovery jobs, a diagnostic
+consuming an exclusive resource, or cancellation making reinstatement miss a
+deadline. The next benchmark should preserve real executor semantics and audit
+logs, compare an operational repair and authenticate ground truth externally.
+These are hypotheses requiring validation, not claims of incidents or novelty.
+Do not present a perfect-certificate toy as evidence about emergency medicine,
+human moral tradeoffs, deployed robots or governments' actual risk exposure.

@@ -273,6 +273,11 @@ if native_path.exists() and native_analysis_path.exists():
             text = text.replace('Lifetime accounted amount: USD','First-study export accounted amount: USD',1)
         target.write_text(text,encoding='utf-8')
 
+# The matched pilot publishes only after a finished, receipt-replayed export.
+if (ROOT/'reviews/necessity-matched-pilot-audit.json').exists():
+    from benchmark.necessity_matched_publication import publish
+    publish(page, OUT)
+
 # Generate the sitemap after optional report creation.
 final_pages = sorted(path.name for path in OUT.glob('*.html'))
 (OUT/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<url><loc>https://murderbench.com/'+('' if name=='index.html' else name)+'</loc></url>' for name in final_pages)+'</urlset>',encoding='utf-8')

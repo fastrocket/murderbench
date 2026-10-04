@@ -1,12 +1,12 @@
 {
-  "verified_utc": "2026-10-03T05:44:42.702163+00:00",
-  "page_count": 11,
+  "verified_utc": "2026-10-04T00:25:31.737477+00:00",
+  "page_count": 12,
   "checks": [
     {
       "path": "/",
       "status": 200,
       "local_bytes_match": null,
-      "sha256": "1e74334b89a1a49fa4fd056350005ee820ffe96df1ff77fc74090dc8adb8e79f"
+      "sha256": "e208441cdc8fc4d28433005ec5dda8e27aee74228244fb05f22226131a2ce479"
     },
     {
       "path": "/about.html",
@@ -129,6 +129,60 @@
       "sha256": "633c10710b6d9b9dcac05a332260b0112d528a2ab1a8a1409a13f3ad15f90f3e"
     },
     {
+      "path": "/artifacts/necessity-matched-bytegate-diagnostic.json",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "da38783a963c9a5b7db61d0b3024270e45bdbfba3b3bd4c7ad6975daaa7ff958"
+    },
+    {
+      "path": "/artifacts/necessity-matched-pilot-audit.json",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "3aa678817aa0146d8f37fed7ee3727d5bba9d9eedd0cebe73c7e041068145d1f"
+    },
+    {
+      "path": "/artifacts/necessity-matched-pilot-calibration.json",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "67504e87e24399889368b2706dd123ddf56addd0244b2a72479634f3d497ae38"
+    },
+    {
+      "path": "/artifacts/necessity-matched-pilot-decision.txt",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "2f7a9e03bbf51e75c7e5a3c305425e204b3437625a2c3f01aa519c70a0d8fae8"
+    },
+    {
+      "path": "/artifacts/necessity-matched-pilot-graph.svg",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "7fb3fa411c44b9c3c91442644e0b2ac9330419680405b520259c48e4463aa74a"
+    },
+    {
+      "path": "/artifacts/necessity-matched-pilot-manifest.json",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "3583a673f65ec7bdc77ed45a5c4f5f82ba2bd05dfb64e82c5b90440a1cc10273"
+    },
+    {
+      "path": "/artifacts/necessity-matched-pilot-protocol.txt",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "91266c34e8e7e4e63ebc3c8a54a121529d1bb6145a325673718c5d9508e5c402"
+    },
+    {
+      "path": "/artifacts/necessity-matched-pilot.json",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "8ef63478adae2c2f228106ea2494e18fe4cdb3e60c9f9c3cbb1a732059b08a1d"
+    },
+    {
+      "path": "/artifacts/necessity-matched-reanalysis-amendment.json",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "c9cd1e91a8cd65a0b4b7b1aa626d1d2d3ea552f7549201d0c268188471a4dec6"
+    },
+    {
       "path": "/artifacts/necessity-model-provenance.txt",
       "status": 200,
       "local_bytes_match": true,
@@ -181,6 +235,12 @@
       "status": 200,
       "local_bytes_match": true,
       "sha256": "bbfd27a1d6d17977247d0cc96743ee9927989081f158a2559d980877b91d9bb2"
+    },
+    {
+      "path": "/artifacts/necessity-next-direction.txt",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "cd9e88cd53d24c61b7154a3fa77393ad1d8a002f3cde1ee7429162cf170d3000"
     },
     {
       "path": "/artifacts/necessity-option-witness-findings.txt",
@@ -339,6 +399,12 @@
       "sha256": "34ca5ec2f27c6018c75d1ad1b9b2755076918c5b645b408acdd30a74e56fe3e5"
     },
     {
+      "path": "/artifacts/necessity-safety-availability-audit.txt",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "f62607742ede140472660ffd56f6368b2bdda3b2e396f30933000f752f4fec03"
+    },
+    {
       "path": "/artifacts/necessity-structural-calibration.json",
       "status": 200,
       "local_bytes_match": true,
@@ -486,7 +552,7 @@
       "path": "/coverage.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "7d0969275143accdaa98e479bccf37958a0af102108b21562f29771ab8f63a7a"
+      "sha256": "14dd30aee15097b4dd6bf0be34ccd1a5b78a677c549ef59f123ba65caf855969"
     },
     {
       "path": "/disclosure.html",
@@ -504,7 +570,13 @@
       "path": "/index.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "1e74334b89a1a49fa4fd056350005ee820ffe96df1ff77fc74090dc8adb8e79f"
+      "sha256": "e208441cdc8fc4d28433005ec5dda8e27aee74228244fb05f22226131a2ce479"
+    },
+    {
+      "path": "/matched-pilot.html",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "98bc7eba12c8733c5590be3d68f161c5f12d3db6e1d5d9f7fec947e57d006281"
     },
     {
       "path": "/methodology.html",
@@ -516,7 +588,7 @@
       "path": "/necessity.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "dd6e882c9466c753c9d6535fdc97324233a8245e2a282a735fdf6433eecd36e0"
+      "sha256": "9f86b591aadb5fdf4284469ba65ad93a3d0a39480de5310d3a5c863954adc640"
     },
     {
       "path": "/privacy.html",
@@ -528,7 +600,7 @@
       "path": "/program.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "f967915cd65ad764d6add6ab33c6d8be25f83e04f95cd92d5b6f4d4627e274ba"
+      "sha256": "a361b64824190f9e345125e301051ef8c70099aab9ed20bc84cdab6660752968"
     },
     {
       "path": "/protocol.txt",
@@ -540,13 +612,13 @@
       "path": "/research.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "b74522e305c5124ac8f2d1cc66525e387f87ef75d52b1fcef040b764bd7640e0"
+      "sha256": "820e3f233bf177c15c2350b460e63468562dbd21ffa373dcaf33bad5477b2ceb"
     },
     {
       "path": "/results.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "fa0acdcf3d5f9290fbc2678ce333232f598ad2bf7c49ff4b6836502ba9a93668"
+      "sha256": "2b5b3be81198f68a23cb2b475c0314d655afc0b6c3dd5fc7e1097024b0aefba7"
     },
     {
       "path": "/robots.txt",
@@ -558,13 +630,13 @@
       "path": "/sitemap.xml",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "a37924bd2280eac1f57ef843e210e28265336b53f869d9434df60e2ae958c88a"
+      "sha256": "19f1d96645e640cb13897bb2af771ce0d8891de8c79106517857e40308778a14"
     },
     {
       "path": "/style.css",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "c50b0e301160a46bb073f7880f349e9ac64c2dfa7da43babf18089a94d5352de"
+      "sha256": "05b2a47c094d3340cd72017c45d0c485c764b01f1ed2ed48feb7d8f77598ecd4"
     }
   ],
   "redirects": [
