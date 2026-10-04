@@ -278,6 +278,10 @@ if (ROOT/'reviews/necessity-matched-pilot-audit.json').exists():
     from benchmark.necessity_matched_publication import publish
     publish(page, OUT)
 
+if (ROOT/'reviews/recovery-vault-audit.json').exists():
+    from benchmark.recovery_publication import publish as publish_recovery
+    publish_recovery(page, OUT)
+
 # Generate the sitemap after optional report creation.
 final_pages = sorted(path.name for path in OUT.glob('*.html'))
 (OUT/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<url><loc>https://murderbench.com/'+('' if name=='index.html' else name)+'</loc></url>' for name in final_pages)+'</urlset>',encoding='utf-8')

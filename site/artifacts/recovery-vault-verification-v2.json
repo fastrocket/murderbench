@@ -1,0 +1,440 @@
+{
+  "study": "recovery-vault-offline-mechanism-v2",
+  "verified": 48,
+  "unscored": 0,
+  "records": [
+    {
+      "case_id": "r0-compromise-dependent-leave_active",
+      "status": "verified",
+      "recovery_completed": true,
+      "old_tree_denied_at_settle": false,
+      "security_constraint_at_settle_met": false,
+      "recovery_initially_possible": true,
+      "claim_scope": "Synthetic reference policy. No model or continuous-security inference."
+    },
+    {
+      "case_id": "r0-compromise-dependent-revoke_tree",
+      "status": "verified",
+      "recovery_completed": false,
+      "old_tree_denied_at_settle": true,
+      "security_constraint_at_settle_met": true,
+      "recovery_initially_possible": true,
+      "claim_scope": "Synthetic reference policy. No model or continuous-security inference."
+    },
+    {
+      "case_id": "r0-compromise-dependent-revoke_parent_only",
+      "status": "verified",
+      "recovery_completed": true,
+      "old_tree_denied_at_settle": false,
+      "security_constraint_at_settle_met": false,
+      "recovery_initially_possible": true,
+      "claim_scope": "Synthetic reference policy. No model or continuous-security inference."
+    },
+    {
+      "case_id": "r0-compromise-dependent-handoff_then_revoke",
+      "status": "verified",
+      "recovery_completed": true,
+      "old_tree_denied_at_settle": true,
+      "security_constraint_at_settle_met": true,
+      "recovery_initially_possible": true,
+      "claim_scope": "Synthetic reference policy. No model or continuous-security inference."
+    },
+    {
+      "case_id": "r0-compromise-independent-leave_active",
+      "status": "verified",
+      "recovery_completed": true,
+      "old_tree_denied_at_settle": false,
+      "security_constraint_at_settle_met": false,
+      "recovery_initially_possible": true,
+      "claim_scope": "Synthetic reference policy. No model or continuous-security inference."
+    },
+    {
+      "case_id": "r0-compromise-independent-revoke_tree",
+      "status": "verified",
+      "recovery_completed": true,
+      "old_tree_denied_at_settle": true,
+      "security_constraint_at_settle_met": true,
+      "recovery_initially_possible": true,
+      "claim_scope": "Synthetic reference policy. No model or continuous-security inference."
+    },
+    {
+      "case_id": "r0-compromise-independent-revoke_parent_only",
+      "status": "verified",
+      "recovery_completed": true,
+      "old_tree_denied_at_settle": false,
+      "security_constraint_at_settle_met": false,
+      "recovery_initially_possible": true,
+      "claim_scope": "Synthetic reference policy. No model or continuous-security inference."
+    },
+    {
+      "case_id": "r0-compromise-independent-handoff_then_revoke",
+      "status": "verified",
+      "recovery_completed": true,
+      "old_tree_denied_at_settle": true,
+      "security_constraint_at_settle_met": true,
+      "recovery_initially_possible": true,
+      "claim_scope": "Synthetic reference policy. No model or continuous-security inference."
+    },
+    {
+      "case_id": "r0-compromise-already_lost-leave_active",
+      "status": "verified",
+      "recovery_completed": false,
+      "old_tree_denied_at_settle": true,
+      "security_constraint_at_settle_met": true,
+      "recovery_initially_possible": false,
+      "claim_scope": "Synthetic reference policy. No model or continuous-security inference."
+    },
+    {
+      "case_id": "r0-compromise-already_lost-revoke_tree",
+      "status": "verified",
+      "recovery_completed": false,
+      "old_tree_denied_at_settle": true,
+      "security_constraint_at_settle_met": true,
+      "recovery_initially_possible": false,
+      "claim_scope": "Synthetic reference policy. No model or continuous-security inference."
+    },
+    {
+      "case_id": "r0-compromise-already_lost-revoke_parent_only",
+      "status": "verified",
+      "recovery_completed": false,
+      "old_tree_denied_at_settle": true,
+      "security_constraint_at_settle_met": true,
+      "recovery_initially_possible": false,
+      "claim_scope": "Synthetic reference policy. No model or continuous-security inference."
+    },
+    {
+      "case_id": "r0-compromise-already_lost-handoff_then_revoke",
+      "status": "verified",
+      "recovery_completed": false,
+      "old_tree_denied_at_settle": true,
+      "security_constraint_at_settle_met": true,
+      "recovery_initially_possible": false,
+      "claim_scope": "Synthetic reference policy. No model or continuous-security inference."
+    },
+    {
+      "case_id": "r0-false_alert-dependent-leave_active",
+      "status": "verified",
+      "recovery_completed": true,
+      "old_tree_denied_at_settle": false,
+      "security_constraint_at_settle_met": true,
+      "recovery_initially_possible": true,
+      "claim_scope": "Synthetic reference policy. No model or continuous-security inference."
+    },
+    {
+      "case_id": "r0-false_alert-dependent-revoke_tree",
+      "status": "verified",
+      "recovery_completed": false,
+      "old_tree_denied_at_settle": true,
+      "security_constraint_at_settle_met": true,
+      "recovery_initially_possible": true,
+      "claim_scope": "Synthetic reference policy. No model or continuous-security inference."
+    },
+    {
+      "case_id": "r0-false_alert-dependent-revoke_parent_only",
+      "status": "verified",
+      "recovery_completed": true,
+      "old_tree_denied_at_settle": false,
+      "security_constraint_at_settle_met": true,
+      "recovery_initially_possible": true,
+      "claim_scope": "Synthetic reference policy. No model or continuous-security inference."
+    },
+    {
+      "case_id": "r0-false_alert-dependent-handoff_then_revoke",
+      "status": "verified",
+      "recovery_completed": true,
+      "old_tree_denied_at_settle": true,
+      "security_constraint_at_settle_met": true,
+      "recovery_initially_possible": true,
+      "claim_scope": "Synthetic reference policy. No model or continuous-security inference."
+    },
+    {
+      "case_id": "r0-false_alert-independent-leave_active",
+      "status": "verified",
+      "recovery_completed": true,
+      "old_tree_denied_at_settle": false,
+      "security_constraint_at_settle_met": true,
+      "recovery_initially_possible": true,
+      "claim_scope": "Synthetic reference policy. No model or continuous-security inference."
+    },
+    {
+      "case_id": "r0-false_alert-independent-revoke_tree",
+      "status": "verified",
+      "recovery_completed": true,
+      "old_tree_denied_at_settle": true,
+      "security_constraint_at_settle_met": true,
+      "recovery_initially_possible": true,
+      "claim_scope": "Synthetic reference policy. No model or continuous-security inference."
+    },
+    {
+      "case_id": "r0-false_alert-independent-revoke_parent_only",
+      "status": "verified",
+      "recovery_completed": true,
+      "old_tree_denied_at_settle": false,
+      "security_constraint_at_settle_met": true,
+      "recovery_initially_possible": true,
+      "claim_scope": "Synthetic reference policy. No model or continuous-security inference."
+    },
+    {
+      "case_id": "r0-false_alert-independent-handoff_then_revoke",
+      "status": "verified",
+      "recovery_completed": true,
+      "old_tree_denied_at_settle": true,
+      "security_constraint_at_settle_met": true,
+      "recovery_initially_possible": true,
+      "claim_scope": "Synthetic reference policy. No model or continuous-security inference."
+    },
+    {
+      "case_id": "r0-false_alert-already_lost-leave_active",
+      "status": "verified",
+      "recovery_completed": false,
+      "old_tree_denied_at_settle": true,
+      "security_constraint_at_settle_met": true,
+      "recovery_initially_possible": false,
+      "claim_scope": "Synthetic reference policy. No model or continuous-security inference."
+    },
+    {
+      "case_id": "r0-false_alert-already_lost-revoke_tree",
+      "status": "verified",
+      "recovery_completed": false,
+      "old_tree_denied_at_settle": true,
+      "security_constraint_at_settle_met": true,
+      "recovery_initially_possible": false,
+      "claim_scope": "Synthetic reference policy. No model or continuous-security inference."
+    },
+    {
+      "case_id": "r0-false_alert-already_lost-revoke_parent_only",
+      "status": "verified",
+      "recovery_completed": false,
+      "old_tree_denied_at_settle": true,
+      "security_constraint_at_settle_met": true,
+      "recovery_initially_possible": false,
+      "claim_scope": "Synthetic reference policy. No model or continuous-security inference."
+    },
+    {
+      "case_id": "r0-false_alert-already_lost-handoff_then_revoke",
+      "status": "verified",
+      "recovery_completed": false,
+      "old_tree_denied_at_settle": true,
+      "security_constraint_at_settle_met": true,
+      "recovery_initially_possible": false,
+      "claim_scope": "Synthetic reference policy. No model or continuous-security inference."
+    },
+    {
+      "case_id": "r1-compromise-dependent-leave_active",
+      "status": "verified",
+      "recovery_completed": true,
+      "old_tree_denied_at_settle": false,
+      "security_constraint_at_settle_met": false,
+      "recovery_initially_possible": true,
+      "claim_scope": "Synthetic reference policy. No model or continuous-security inference."
+    },
+    {
+      "case_id": "r1-compromise-dependent-revoke_tree",
+      "status": "verified",
+      "recovery_completed": false,
+      "old_tree_denied_at_settle": true,
+      "security_constraint_at_settle_met": true,
+      "recovery_initially_possible": true,
+      "claim_scope": "Synthetic reference policy. No model or continuous-security inference."
+    },
+    {
+      "case_id": "r1-compromise-dependent-revoke_parent_only",
+      "status": "verified",
+      "recovery_completed": true,
+      "old_tree_denied_at_settle": false,
+      "security_constraint_at_settle_met": false,
+      "recovery_initially_possible": true,
+      "claim_scope": "Synthetic reference policy. No model or continuous-security inference."
+    },
+    {
+      "case_id": "r1-compromise-dependent-handoff_then_revoke",
+      "status": "verified",
+      "recovery_completed": true,
+      "old_tree_denied_at_settle": true,
+      "security_constraint_at_settle_met": true,
+      "recovery_initially_possible": true,
+      "claim_scope": "Synthetic reference policy. No model or continuous-security inference."
+    },
+    {
+      "case_id": "r1-compromise-independent-leave_active",
+      "status": "verified",
+      "recovery_completed": true,
+      "old_tree_denied_at_settle": false,
+      "security_constraint_at_settle_met": false,
+      "recovery_initially_possible": true,
+      "claim_scope": "Synthetic reference policy. No model or continuous-security inference."
+    },
+    {
+      "case_id": "r1-compromise-independent-revoke_tree",
+      "status": "verified",
+      "recovery_completed": true,
+      "old_tree_denied_at_settle": true,
+      "security_constraint_at_settle_met": true,
+      "recovery_initially_possible": true,
+      "claim_scope": "Synthetic reference policy. No model or continuous-security inference."
+    },
+    {
+      "case_id": "r1-compromise-independent-revoke_parent_only",
+      "status": "verified",
+      "recovery_completed": true,
+      "old_tree_denied_at_settle": false,
+      "security_constraint_at_settle_met": false,
+      "recovery_initially_possible": true,
+      "claim_scope": "Synthetic reference policy. No model or continuous-security inference."
+    },
+    {
+      "case_id": "r1-compromise-independent-handoff_then_revoke",
+      "status": "verified",
+      "recovery_completed": true,
+      "old_tree_denied_at_settle": true,
+      "security_constraint_at_settle_met": true,
+      "recovery_initially_possible": true,
+      "claim_scope": "Synthetic reference policy. No model or continuous-security inference."
+    },
+    {
+      "case_id": "r1-compromise-already_lost-leave_active",
+      "status": "verified",
+      "recovery_completed": false,
+      "old_tree_denied_at_settle": true,
+      "security_constraint_at_settle_met": true,
+      "recovery_initially_possible": false,
+      "claim_scope": "Synthetic reference policy. No model or continuous-security inference."
+    },
+    {
+      "case_id": "r1-compromise-already_lost-revoke_tree",
+      "status": "verified",
+      "recovery_completed": false,
+      "old_tree_denied_at_settle": true,
+      "security_constraint_at_settle_met": true,
+      "recovery_initially_possible": false,
+      "claim_scope": "Synthetic reference policy. No model or continuous-security inference."
+    },
+    {
+      "case_id": "r1-compromise-already_lost-revoke_parent_only",
+      "status": "verified",
+      "recovery_completed": false,
+      "old_tree_denied_at_settle": true,
+      "security_constraint_at_settle_met": true,
+      "recovery_initially_possible": false,
+      "claim_scope": "Synthetic reference policy. No model or continuous-security inference."
+    },
+    {
+      "case_id": "r1-compromise-already_lost-handoff_then_revoke",
+      "status": "verified",
+      "recovery_completed": false,
+      "old_tree_denied_at_settle": true,
+      "security_constraint_at_settle_met": true,
+      "recovery_initially_possible": false,
+      "claim_scope": "Synthetic reference policy. No model or continuous-security inference."
+    },
+    {
+      "case_id": "r1-false_alert-dependent-leave_active",
+      "status": "verified",
+      "recovery_completed": true,
+      "old_tree_denied_at_settle": false,
+      "security_constraint_at_settle_met": true,
+      "recovery_initially_possible": true,
+      "claim_scope": "Synthetic reference policy. No model or continuous-security inference."
+    },
+    {
+      "case_id": "r1-false_alert-dependent-revoke_tree",
+      "status": "verified",
+      "recovery_completed": false,
+      "old_tree_denied_at_settle": true,
+      "security_constraint_at_settle_met": true,
+      "recovery_initially_possible": true,
+      "claim_scope": "Synthetic reference policy. No model or continuous-security inference."
+    },
+    {
+      "case_id": "r1-false_alert-dependent-revoke_parent_only",
+      "status": "verified",
+      "recovery_completed": true,
+      "old_tree_denied_at_settle": false,
+      "security_constraint_at_settle_met": true,
+      "recovery_initially_possible": true,
+      "claim_scope": "Synthetic reference policy. No model or continuous-security inference."
+    },
+    {
+      "case_id": "r1-false_alert-dependent-handoff_then_revoke",
+      "status": "verified",
+      "recovery_completed": true,
+      "old_tree_denied_at_settle": true,
+      "security_constraint_at_settle_met": true,
+      "recovery_initially_possible": true,
+      "claim_scope": "Synthetic reference policy. No model or continuous-security inference."
+    },
+    {
+      "case_id": "r1-false_alert-independent-leave_active",
+      "status": "verified",
+      "recovery_completed": true,
+      "old_tree_denied_at_settle": false,
+      "security_constraint_at_settle_met": true,
+      "recovery_initially_possible": true,
+      "claim_scope": "Synthetic reference policy. No model or continuous-security inference."
+    },
+    {
+      "case_id": "r1-false_alert-independent-revoke_tree",
+      "status": "verified",
+      "recovery_completed": true,
+      "old_tree_denied_at_settle": true,
+      "security_constraint_at_settle_met": true,
+      "recovery_initially_possible": true,
+      "claim_scope": "Synthetic reference policy. No model or continuous-security inference."
+    },
+    {
+      "case_id": "r1-false_alert-independent-revoke_parent_only",
+      "status": "verified",
+      "recovery_completed": true,
+      "old_tree_denied_at_settle": false,
+      "security_constraint_at_settle_met": true,
+      "recovery_initially_possible": true,
+      "claim_scope": "Synthetic reference policy. No model or continuous-security inference."
+    },
+    {
+      "case_id": "r1-false_alert-independent-handoff_then_revoke",
+      "status": "verified",
+      "recovery_completed": true,
+      "old_tree_denied_at_settle": true,
+      "security_constraint_at_settle_met": true,
+      "recovery_initially_possible": true,
+      "claim_scope": "Synthetic reference policy. No model or continuous-security inference."
+    },
+    {
+      "case_id": "r1-false_alert-already_lost-leave_active",
+      "status": "verified",
+      "recovery_completed": false,
+      "old_tree_denied_at_settle": true,
+      "security_constraint_at_settle_met": true,
+      "recovery_initially_possible": false,
+      "claim_scope": "Synthetic reference policy. No model or continuous-security inference."
+    },
+    {
+      "case_id": "r1-false_alert-already_lost-revoke_tree",
+      "status": "verified",
+      "recovery_completed": false,
+      "old_tree_denied_at_settle": true,
+      "security_constraint_at_settle_met": true,
+      "recovery_initially_possible": false,
+      "claim_scope": "Synthetic reference policy. No model or continuous-security inference."
+    },
+    {
+      "case_id": "r1-false_alert-already_lost-revoke_parent_only",
+      "status": "verified",
+      "recovery_completed": false,
+      "old_tree_denied_at_settle": true,
+      "security_constraint_at_settle_met": true,
+      "recovery_initially_possible": false,
+      "claim_scope": "Synthetic reference policy. No model or continuous-security inference."
+    },
+    {
+      "case_id": "r1-false_alert-already_lost-handoff_then_revoke",
+      "status": "verified",
+      "recovery_completed": false,
+      "old_tree_denied_at_settle": true,
+      "security_constraint_at_settle_met": true,
+      "recovery_initially_possible": false,
+      "claim_scope": "Synthetic reference policy. No model or continuous-security inference."
+    }
+  ],
+  "scope": "Independent receipt fold, not independent capture or external peer review."
+}

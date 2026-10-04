@@ -1,0 +1,82 @@
+CONTRIBUTION DECISION: MECHANISM CONFIRMED, CURRENT PITCH REJECTED
+4 October 2026.
+
+Decision
+Stop at the contribution gate. Do not spend on another frontier-model pilot,
+publish a novelty claim, or send new social or funding promotion for this candidate.
+The user's goal explicitly permits this rejection path.
+
+Evidence obtained
+We reproduced the effects with Vault v1.20.4 on Windows, bound only to loopback.
+All identities, access probes, checkpoint data, and recovery jobs were synthetic.
+No production access, credentials, services, or people were used.
+
+The first collection attempted 11 of 48 planned reference cases. Ten completed;
+one stopped because the collector treated a documented HTTP400 as an unexpected
+failure. The full stopped prefix and 37 unattempted case identities remain retained.
+The original source, registration, and report remain unchanged.
+
+A disclosed prospective offline amendment accepts only the exact missing-token
+response after an observed setup revocation. The second collection completed all
+48 reference cases. Independent receipt folds verified the settled outcomes.
+Total across both versions: 59 reference attempts, 58 completed, 1 unscored stop.
+These repeated scripted cases are not independent incident samples or model trials.
+
+Observed v2 contrasts
+For the dependent-worker topology, each procedure has 4 cases across the two
+incident labels and two repetitions:
+- Leave active: recovery 4/4; both old test identities denied 0/4.
+- Revoke the full tree: recovery 0/4; both old test identities denied 4/4.
+- Revoke only the parent: recovery 4/4; both old test identities denied 0/4.
+- Trusted handoff, then full revocation: recovery 4/4; old identities denied 4/4.
+With an independent worker identity, full revocation permits recovery 4/4.
+When the sole checkpoint is already lost, none of the four procedures recovers it.
+
+Interpretation
+Local authorization does not imply a globally useful action sequence. This is a
+documented executor property. The experiment establishes the software coupling;
+it does not establish that an AI agent chooses it, that an attacker induces it,
+or that a deployed system has no alternative recovery path.
+The compromise and false-alert labels change the fixture's declared requirement,
+not its underlying executor state. They are not observed real intrusions or a
+test of alert classification. No safety-language effect is measured.
+
+Repair limitation
+The handoff reads and copies state before revoking the old tree. The old credentials
+remain live during that interval. Intervention duration is reported, but continuous
+exposure and attacker activity during handoff are not measured. The tested security
+constraint is denial of both old test identities at the settled endpoint.
+An immediate-containment requirement could make this repair inadmissible. Its
+effective security/recovery tradeoff requires operator-supplied constraints.
+
+Novelty and usefulness
+The primary-source audit identifies existing token/cubbyhole effects, rotation
+handoffs, executed authentication-revocation tasks, and recovery-aware remediation
+evaluations. Selected-code differences do not establish field-wide originality.
+Protected task pools and unavailable releases remain access gaps.
+No surprising model result or validated change to an operator decision exists.
+This is a useful conformance example, but it does not meet the requested research
+and sponsorship bar. A narrower benchmark is not proved impossible or duplicate.
+
+Skeptical review
+Manager assessment, not external peer review or an independent critic score:
+1. Could ordinary engineering explain the mechanism and repair? Yes.
+2. Does the executor invent the failure during scoring? No; real requests show it.
+3. Is the only-recovery-path claim validated outside the fixture? No.
+4. Does the repair avoid postponing all security risk? Not established.
+5. Can this separate safety-induced behavior from ordinary planning errors? Not
+   without a valid, frozen model experiment. We did not run one.
+6. Can inaccessible prior evaluations establish an originality claim? No.
+7. Is there a defensible novel contribution to promote now? No.
+
+Budget and outreach
+New model requests: 0. New model spending: USD 0. New API reservations: 0.
+The existing lifetime API cap remains USD100, including prior outstanding holds.
+No unused authorization is converted into an obligation to spend.
+No new LinkedIn/X post, lab sponsorship pitch, or sponsor relationship is claimed.
+
+What would justify reopening this direction
+A permissioned operator trace showing a dependency missed by an existing control,
+with recorded alternative recovery paths, actual containment limits, and a repair
+that changes that operator's decision. Audit equivalent released tasks before
+claiming a gap. This is a prerequisite, not an activated follow-up goal.

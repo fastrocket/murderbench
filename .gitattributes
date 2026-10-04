@@ -9,3 +9,11 @@ plans/necessity-native-development.json -text
 plans/freezes/necessity-native-v1/manifest.json -text
 plans/freezes/necessity-native-v2/manifest.json -text
 site/artifacts/necessity-native-development.json -text
+
+# Preserve the exact bytes used by the recovery study's frozen hashes.
+benchmark/recovery_vault_reproduction.py -text whitespace=cr-at-eol
+benchmark/recovery_vault_reproduction_v2.py -text whitespace=cr-at-eol
+benchmark/recovery_vault_verifier.py -text whitespace=cr-at-eol
+plans/recovery-vault-*.json -text whitespace=cr-at-eol
+reviews/recovery-vault-*.json -text whitespace=cr-at-eol
+site/artifacts/recovery-vault-*.json -text whitespace=cr-at-eol

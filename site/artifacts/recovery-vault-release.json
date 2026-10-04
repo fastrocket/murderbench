@@ -1,0 +1,11 @@
+{
+  "version": "1.20.4",
+  "platform": "windows_amd64",
+  "download": "https://releases.hashicorp.com/vault/1.20.4/vault_1.20.4_windows_amd64.zip",
+  "checksum_url": "https://releases.hashicorp.com/vault/1.20.4/vault_1.20.4_SHA256SUMS",
+  "archive_sha256": "fcb09399aeb1e853d8d22a62043925644be07c39d50f05d55051f13430fcefeb",
+  "executable_sha256": "10155411fc31ad0143fc2472cd9c151d65203e4eb3d3dc0205a905285769f851",
+  "checksum_verified": true,
+  "source_commit": "55bd8f18c6c84aa89fdede4850a622c57f03bd7e",
+  "note": "Pinned reproduction version, not a latest-version claim. Official TLS download and checksum comparison; no independent signature verification."
+}

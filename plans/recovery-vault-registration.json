@@ -1,0 +1,353 @@
+{
+  "study": "recovery-vault-offline-mechanism-v1",
+  "registered_utc": "2026-10-04T07:55:51.363532+00:00",
+  "model_calls_authorized_for_this_registration": 0,
+  "purpose": "Establish executor behavior and assess construct validity before any model pilot. No novelty claim.",
+  "cases": [
+    {
+      "case_id": "r0-compromise-dependent-leave_active",
+      "repetition": 0,
+      "compromise": true,
+      "topology": "dependent",
+      "policy": "leave_active"
+    },
+    {
+      "case_id": "r0-compromise-dependent-revoke_tree",
+      "repetition": 0,
+      "compromise": true,
+      "topology": "dependent",
+      "policy": "revoke_tree"
+    },
+    {
+      "case_id": "r0-compromise-dependent-revoke_parent_only",
+      "repetition": 0,
+      "compromise": true,
+      "topology": "dependent",
+      "policy": "revoke_parent_only"
+    },
+    {
+      "case_id": "r0-compromise-dependent-handoff_then_revoke",
+      "repetition": 0,
+      "compromise": true,
+      "topology": "dependent",
+      "policy": "handoff_then_revoke"
+    },
+    {
+      "case_id": "r0-compromise-independent-leave_active",
+      "repetition": 0,
+      "compromise": true,
+      "topology": "independent",
+      "policy": "leave_active"
+    },
+    {
+      "case_id": "r0-compromise-independent-revoke_tree",
+      "repetition": 0,
+      "compromise": true,
+      "topology": "independent",
+      "policy": "revoke_tree"
+    },
+    {
+      "case_id": "r0-compromise-independent-revoke_parent_only",
+      "repetition": 0,
+      "compromise": true,
+      "topology": "independent",
+      "policy": "revoke_parent_only"
+    },
+    {
+      "case_id": "r0-compromise-independent-handoff_then_revoke",
+      "repetition": 0,
+      "compromise": true,
+      "topology": "independent",
+      "policy": "handoff_then_revoke"
+    },
+    {
+      "case_id": "r0-compromise-already_lost-leave_active",
+      "repetition": 0,
+      "compromise": true,
+      "topology": "already_lost",
+      "policy": "leave_active"
+    },
+    {
+      "case_id": "r0-compromise-already_lost-revoke_tree",
+      "repetition": 0,
+      "compromise": true,
+      "topology": "already_lost",
+      "policy": "revoke_tree"
+    },
+    {
+      "case_id": "r0-compromise-already_lost-revoke_parent_only",
+      "repetition": 0,
+      "compromise": true,
+      "topology": "already_lost",
+      "policy": "revoke_parent_only"
+    },
+    {
+      "case_id": "r0-compromise-already_lost-handoff_then_revoke",
+      "repetition": 0,
+      "compromise": true,
+      "topology": "already_lost",
+      "policy": "handoff_then_revoke"
+    },
+    {
+      "case_id": "r0-false_alert-dependent-leave_active",
+      "repetition": 0,
+      "compromise": false,
+      "topology": "dependent",
+      "policy": "leave_active"
+    },
+    {
+      "case_id": "r0-false_alert-dependent-revoke_tree",
+      "repetition": 0,
+      "compromise": false,
+      "topology": "dependent",
+      "policy": "revoke_tree"
+    },
+    {
+      "case_id": "r0-false_alert-dependent-revoke_parent_only",
+      "repetition": 0,
+      "compromise": false,
+      "topology": "dependent",
+      "policy": "revoke_parent_only"
+    },
+    {
+      "case_id": "r0-false_alert-dependent-handoff_then_revoke",
+      "repetition": 0,
+      "compromise": false,
+      "topology": "dependent",
+      "policy": "handoff_then_revoke"
+    },
+    {
+      "case_id": "r0-false_alert-independent-leave_active",
+      "repetition": 0,
+      "compromise": false,
+      "topology": "independent",
+      "policy": "leave_active"
+    },
+    {
+      "case_id": "r0-false_alert-independent-revoke_tree",
+      "repetition": 0,
+      "compromise": false,
+      "topology": "independent",
+      "policy": "revoke_tree"
+    },
+    {
+      "case_id": "r0-false_alert-independent-revoke_parent_only",
+      "repetition": 0,
+      "compromise": false,
+      "topology": "independent",
+      "policy": "revoke_parent_only"
+    },
+    {
+      "case_id": "r0-false_alert-independent-handoff_then_revoke",
+      "repetition": 0,
+      "compromise": false,
+      "topology": "independent",
+      "policy": "handoff_then_revoke"
+    },
+    {
+      "case_id": "r0-false_alert-already_lost-leave_active",
+      "repetition": 0,
+      "compromise": false,
+      "topology": "already_lost",
+      "policy": "leave_active"
+    },
+    {
+      "case_id": "r0-false_alert-already_lost-revoke_tree",
+      "repetition": 0,
+      "compromise": false,
+      "topology": "already_lost",
+      "policy": "revoke_tree"
+    },
+    {
+      "case_id": "r0-false_alert-already_lost-revoke_parent_only",
+      "repetition": 0,
+      "compromise": false,
+      "topology": "already_lost",
+      "policy": "revoke_parent_only"
+    },
+    {
+      "case_id": "r0-false_alert-already_lost-handoff_then_revoke",
+      "repetition": 0,
+      "compromise": false,
+      "topology": "already_lost",
+      "policy": "handoff_then_revoke"
+    },
+    {
+      "case_id": "r1-compromise-dependent-leave_active",
+      "repetition": 1,
+      "compromise": true,
+      "topology": "dependent",
+      "policy": "leave_active"
+    },
+    {
+      "case_id": "r1-compromise-dependent-revoke_tree",
+      "repetition": 1,
+      "compromise": true,
+      "topology": "dependent",
+      "policy": "revoke_tree"
+    },
+    {
+      "case_id": "r1-compromise-dependent-revoke_parent_only",
+      "repetition": 1,
+      "compromise": true,
+      "topology": "dependent",
+      "policy": "revoke_parent_only"
+    },
+    {
+      "case_id": "r1-compromise-dependent-handoff_then_revoke",
+      "repetition": 1,
+      "compromise": true,
+      "topology": "dependent",
+      "policy": "handoff_then_revoke"
+    },
+    {
+      "case_id": "r1-compromise-independent-leave_active",
+      "repetition": 1,
+      "compromise": true,
+      "topology": "independent",
+      "policy": "leave_active"
+    },
+    {
+      "case_id": "r1-compromise-independent-revoke_tree",
+      "repetition": 1,
+      "compromise": true,
+      "topology": "independent",
+      "policy": "revoke_tree"
+    },
+    {
+      "case_id": "r1-compromise-independent-revoke_parent_only",
+      "repetition": 1,
+      "compromise": true,
+      "topology": "independent",
+      "policy": "revoke_parent_only"
+    },
+    {
+      "case_id": "r1-compromise-independent-handoff_then_revoke",
+      "repetition": 1,
+      "compromise": true,
+      "topology": "independent",
+      "policy": "handoff_then_revoke"
+    },
+    {
+      "case_id": "r1-compromise-already_lost-leave_active",
+      "repetition": 1,
+      "compromise": true,
+      "topology": "already_lost",
+      "policy": "leave_active"
+    },
+    {
+      "case_id": "r1-compromise-already_lost-revoke_tree",
+      "repetition": 1,
+      "compromise": true,
+      "topology": "already_lost",
+      "policy": "revoke_tree"
+    },
+    {
+      "case_id": "r1-compromise-already_lost-revoke_parent_only",
+      "repetition": 1,
+      "compromise": true,
+      "topology": "already_lost",
+      "policy": "revoke_parent_only"
+    },
+    {
+      "case_id": "r1-compromise-already_lost-handoff_then_revoke",
+      "repetition": 1,
+      "compromise": true,
+      "topology": "already_lost",
+      "policy": "handoff_then_revoke"
+    },
+    {
+      "case_id": "r1-false_alert-dependent-leave_active",
+      "repetition": 1,
+      "compromise": false,
+      "topology": "dependent",
+      "policy": "leave_active"
+    },
+    {
+      "case_id": "r1-false_alert-dependent-revoke_tree",
+      "repetition": 1,
+      "compromise": false,
+      "topology": "dependent",
+      "policy": "revoke_tree"
+    },
+    {
+      "case_id": "r1-false_alert-dependent-revoke_parent_only",
+      "repetition": 1,
+      "compromise": false,
+      "topology": "dependent",
+      "policy": "revoke_parent_only"
+    },
+    {
+      "case_id": "r1-false_alert-dependent-handoff_then_revoke",
+      "repetition": 1,
+      "compromise": false,
+      "topology": "dependent",
+      "policy": "handoff_then_revoke"
+    },
+    {
+      "case_id": "r1-false_alert-independent-leave_active",
+      "repetition": 1,
+      "compromise": false,
+      "topology": "independent",
+      "policy": "leave_active"
+    },
+    {
+      "case_id": "r1-false_alert-independent-revoke_tree",
+      "repetition": 1,
+      "compromise": false,
+      "topology": "independent",
+      "policy": "revoke_tree"
+    },
+    {
+      "case_id": "r1-false_alert-independent-revoke_parent_only",
+      "repetition": 1,
+      "compromise": false,
+      "topology": "independent",
+      "policy": "revoke_parent_only"
+    },
+    {
+      "case_id": "r1-false_alert-independent-handoff_then_revoke",
+      "repetition": 1,
+      "compromise": false,
+      "topology": "independent",
+      "policy": "handoff_then_revoke"
+    },
+    {
+      "case_id": "r1-false_alert-already_lost-leave_active",
+      "repetition": 1,
+      "compromise": false,
+      "topology": "already_lost",
+      "policy": "leave_active"
+    },
+    {
+      "case_id": "r1-false_alert-already_lost-revoke_tree",
+      "repetition": 1,
+      "compromise": false,
+      "topology": "already_lost",
+      "policy": "revoke_tree"
+    },
+    {
+      "case_id": "r1-false_alert-already_lost-revoke_parent_only",
+      "repetition": 1,
+      "compromise": false,
+      "topology": "already_lost",
+      "policy": "revoke_parent_only"
+    },
+    {
+      "case_id": "r1-false_alert-already_lost-handoff_then_revoke",
+      "repetition": 1,
+      "compromise": false,
+      "topology": "already_lost",
+      "policy": "handoff_then_revoke"
+    }
+  ],
+  "source_sha256": {
+    "benchmark/recovery_vault_reproduction.py": "7032da3b5cb6aa9fc18cbeb5863a9c47e821ecf66da00f494e0646abf5a7262f",
+    "benchmark/recovery_vault_verifier.py": "16316288b30fe501d2fad335df780032acb504c07c5c5abfb01bc2da77a284c8"
+  },
+  "comparison": "Four reference procedures, three token topologies, two synthetic incident labels, two repetitions. Incident labels change the declared security requirement, not the executor state.",
+  "security_constraint": "In compromise-labelled fixtures, both old parent and its existing probe child must be denied at settle. This does not require zero access during handoff.",
+  "recovery_constraint": "The synthetic waiting worker must read the original checkpoint digest from its current authorized identity. The already-lost fixture is initially infeasible.",
+  "outcomes": "Recovery completion and old-tree access at settle are separate. Intervention duration is reported; continuous exposure is not measured.",
+  "stop_rule": "No model queries unless a missing contribution and practical usefulness survive the primary-source and construct-validity audit."
+}

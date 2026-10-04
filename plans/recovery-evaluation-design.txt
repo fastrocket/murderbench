@@ -1,0 +1,88 @@
+EVALUATION DESIGN AND REPRODUCTION NOTES
+4 October 2026. Offline executor calibration only. Model collection not activated.
+
+Executed control matrix
+Four deterministic procedures: leave active; revoke tree; revoke parent only;
+trusted checkpoint handoff followed by tree revocation.
+Three dependency states: child token; independently issued token; checkpoint
+already lost through a setup revocation. Two declared incident labels and two
+repetitions produce 48 cases. The labels set the final-state security requirement.
+They do not simulate an intrusion detector or vary the runtime evidence.
+
+Primitive execution
+A real Vault process stores a random synthetic checkpoint in the worker's
+per-token cubbyhole. A worker thread waits while the reference procedure executes.
+The resumed worker reads its checkpoint through Vault's actual HTTP API.
+An admin request cannot read that worker's cubbyhole merely by using the same path.
+Security probes test the parent and an existing child against a synthetic KV item.
+The handoff uses a trusted admin to issue an independent replacement identity and
+copy the checkpoint before full revocation. It does not expose credentials to an
+LLM. Cubbyhole contents are represented by digests in the public event records.
+
+Source and binary integrity
+Original collector and verifier hashes are frozen in recovery-vault-registration.json.
+The v2 registration preserves those hashes and adds the amended collector hash.
+The amendment changes only handling of a documented missing-token error and
+separate report/registration identities. It does not alter the case matrix.
+The original stopped attempt remains unscored.
+The executor is the official Vault 1.20.4 windows_amd64 release.
+Archive SHA256: fcb09399aeb1e853d8d22a62043925644be07c39d50f05d55051f13430fcefeb
+Executable SHA256: 10155411fc31ad0143fc2472cd9c151d65203e4eb3d3dc0205a905285769f851
+Source commit: 55bd8f18c6c84aa89fdede4850a622c57f03bd7e
+https://releases.hashicorp.com/vault/1.20.4/vault_1.20.4_windows_amd64.zip
+https://releases.hashicorp.com/vault/1.20.4/vault_1.20.4_SHA256SUMS
+The downloaded checksum matched. We did not independently verify a signature.
+
+Replay and audit
+recovery_vault_verifier.py folds token parentage, revocations, checkpoint writes,
+checkpoint reads, and security probes from primitive receipts. It does not call
+the collector's outcome function. Independent capture is not claimed.
+recovery_vault_audit.py verifies the ordered registered cases, source hashes,
+retained first collection, and unchanged saved verification exports.
+Tests alter outcome claims, parentage, checkpoint digests, incident labels,
+required probes, and executor status codes to check rejection of inconsistent data.
+Hashes establish consistency with the local capture, not third-party authenticity.
+
+Read-only reproduction of the published audit
+python -m benchmark.recovery_vault_audit
+python -m unittest tests.test_recovery_vault_audit -q
+These commands require no Vault process, credentials, network, or model provider.
+
+Optional fresh executor reproduction
+Use a separate disposable checkout. Remove only its copied reproduction reports
+before running; keep the published checkout and evidence unchanged.
+Place the verified binary and release metadata in private/recovery-vault-runtime/.
+The release metadata is published in recovery-vault-release.json.
+Run the v1 and v2 modules separately, then their read-only verifications and audit.
+Both collectors refuse to replace an existing output. The server binds 127.0.0.1,
+uses in-memory dev storage and synthetic tokens, and terminates in a finally block.
+Pinned sources currently support the published Windows executor. Other platforms
+would require a disclosed runtime record and independent verification.
+
+Requirements for any future model experiment
+1. Obtain a permissioned executor trace and operator-reviewed recovery invariant.
+   List backup, retry, reissue, and alternative executor paths. Exclude cases whose
+   apparent irreversibility depends on an omitted valid path.
+2. State the containment requirement explicitly. Distinguish immediate containment,
+   bounded overlap, and endpoint denial. Measure exposure without hiding it in an
+   aggregate safety score. Match a genuine compromised credential with a false alert.
+3. Record the agent's actual information. A failure is avoidable only if a permitted
+   policy exists under that information and the applicable containment constraint.
+   Include cases that are initially impossible. Evaluate honest reporting separately.
+4. Use neutral, ordinary-workflow, and security-framed instructions. Give all arms
+   the same trusted evidence and executor mechanics. Untrusted alert text cannot
+   alter authority, worker state, trusted receipts, or scoring rules.
+5. Freeze prompts, order, routes, native interfaces, tool schemas, output limits,
+   accounting, exclusion rules, and analysis before querying. Use correct and faulty
+   controls. Reserve fresh structural confirmation cases before viewing outputs.
+6. Compare staged handoff, independent job authorization, immediate revocation, and
+   blanket delay. Report recovery, unauthorized access, exposure, and reporting
+   separately. A useful repair must meet the operator's actual security requirement.
+7. Proprietary frontier routes precede Chinese frontier/near-frontier hosted open
+   weights. Report provider and harness settings. Keep all requests and unresolved
+   reservations inside the existing USD100 lifetime accounting cap.
+8. Publish every attempt and technical failure. Replicate candidate patterns on the
+   reserved cases. Do not infer intent, general alignment, prevalence, or human harm.
+
+This document is a design constraint list, not a preregistered model experiment.
+The contribution gate failed. No future model collection is authorized by this file.

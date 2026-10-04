@@ -1,0 +1,150 @@
+SECURITY REMEDIATION AND RECOVERY: CONTRIBUTION AUDIT
+4 October 2026. Primary-source and selected-code inspection.
+
+Decision
+The executor mechanism is real. The current candidate does not establish a
+compelling novel evaluation, unexpected model result, or validated operational
+improvement. Stop before model collection and sponsorship promotion.
+This is a bounded rejection. It does not prove that every narrower future study
+has already been published.
+
+Research question
+Can an authorized security action remove the credential or stored state needed
+by the only remaining recovery job? The distinction is between permission for
+an individual operation and the consequences of the operation sequence.
+
+Primary sources and precise overlap
+
+1. Vault token hierarchy documentation
+https://developer.hashicorp.com/vault/docs/concepts/tokens
+Parent revocation cascades to descendants. Orphan identities avoid that dependency.
+This defeats a claim that the revocation coupling or independent identity repair
+is a new mechanism. It does not establish how an LLM chooses an operation sequence.
+
+2. Vault cubbyhole documentation and original explanation
+https://developer.hashicorp.com/vault/docs/secrets/cubbyhole
+https://www.hashicorp.com/de/blog/cubbyhole-authentication-principles
+The per-token storage expires with its token. This behavior predates this project
+by years. Our checkpoint use is a synthetic application of that documented
+primitive. It is not evidence that operators store their only durable backup there.
+
+3. Vault released implementation and tests
+https://github.com/hashicorp/vault/tree/55bd8f18c6c84aa89fdede4850a622c57f03bd7e
+Pinned release v1.20.4, commit 55bd8f18c6c84aa89fdede4850a622c57f03bd7e.
+Inspected token_store.go revocation handlers and recursive deletion paths;
+logical_cubbyhole.go revoke uses storage-view deletion. Existing tests include
+TestTokenStore_CubbyholeDeletion and orphan-revocation tests. These are direct
+software precedents for the primitive effects. We did not execute these tests.
+We executed the corresponding pinned Windows binary locally instead.
+
+4. AIOpsLab paper and released tasks
+https://www.microsoft.com/en-us/research/wp-content/uploads/2024/10/AIOpsLab-6705feab5dcdb.pdf
+https://github.com/microsoft/AIOpsLab/tree/ccf08d0d1d5fa5b30f120e2e8549662d44411b35
+The paper illustrates revocation during service execution. Selected released
+MongoDB tasks remove permissions, restore permissions, and check workload health.
+This already covers executed authentication disruption and recovery evaluation.
+Those selected tasks inject the fault externally. They do not establish an
+equivalent agent-selected, authorized-remediation sequence in our inspection.
+Do not convert this scoped difference into a repository-wide absence claim.
+
+5. ITBench paper and selected released scenarios
+https://arxiv.org/html/2502.05352v1
+https://github.com/itbench-hub/ITBench/tree/80afad29f43e84ddacc0bbbb53020f36a6b24bec
+ITBench covers operational incident recovery and security/compliance tasks.
+We indexed 146 selected scenario and verification files at the pinned commit.
+Credential-related hits include corrupted Kubernetes secrets, changed Valkey
+passwords, and tests for revoking agent access. We read those relevant hits.
+This is not a complete audit of all agents, scenarios, trajectories, or releases.
+
+6. GuardedAct
+https://arxiv.org/pdf/2609.11264
+The paper evaluates remediation collateral damage and gates actions using sandbox
+effects and recoverability. These concepts already overlap our proposed practical
+repair evaluation. We found no original executable release in the inspected paper
+links and search results. That is an access limitation, not proof of no release.
+
+7. ColdStart, author-published methodology
+https://www.deaimer.com/benchmarks/coldstart
+The methodology covers functional recovery, security, state preservation, strict
+verification, reference solutions, controls, and trajectory audits. Its protected
+task pool was not accessible. We cannot assert that it lacks this exact coupling.
+The webpage is a methodology statement, not independently reproduced results.
+
+8. SecRespond and original released prompts
+https://arxiv.org/html/2607.26791v1
+https://github.com/Alibaba-NLP/qqr/tree/a329e57e86cd29c27d4cadc48f1a9659415e6ebf/data/secrespond
+The inspected Linux prompt uses a read-only forensic snapshot and requests reports
+and a remediation plan. The selected checklist includes credential rotation.
+Our local worker executes side effects. That distinction is real, but an executed
+fixture alone does not establish a novel evaluation contribution.
+
+9. TaskBound threat model and prospective benchmark
+https://arxiv.org/html/2607.18485v1
+The paper separates authenticated, permitted commands from task-authorized behavior.
+TaskBound is described as a developing benchmark. This defeats a broad claim that
+valid credentials or local permissions were previously assumed sufficient safety.
+It is not evidence of an equivalent completed credential-recovery experiment.
+
+10. Active-session credential rotation guidance
+https://app.armalo.ai/learn/credential-rotation-active-agent-sessions
+The vendor guide already discusses pending callbacks, checkpoints, draining,
+credential overlap, and handoff. These are practical mitigation precedents.
+This tutorial does not independently validate the effectiveness of our fixture
+or the behavior of frontier models.
+
+11. Remediation Labs taxonomy
+https://remediation.opsmx.com/benchmarks
+The author page describes remediation evaluation across enterprise domains.
+It marks identity/secrets and runtime benchmarks as planned. No equivalent
+public fixture was inspected. Planned coverage is neither a published result
+nor evidence that the domain is untouched.
+
+12. Cloudflare's incident report
+https://blog.cloudflare.com/cloudflare-incident-march-21-2025/
+The report links a 2025 R2 outage to credential deployment in the wrong environment
+followed by removal of the old credentials. Its repair process adds confirmation
+of the credential actually used by the consumer. This is a relevant operational
+ordering precedent. It is not an AI incident or our Vault checkpoint mechanism.
+
+Relation to the previous MurderBench audit
+Semantic denial of service, compliance-framed resource exhaustion, and guardrail
+starvation already cover broad safety-procedure exploitation. See the preserved
+necessity-safety-availability-audit.txt. This study does not revive a rejected
+"safety causes harm" priority claim under a different application name.
+
+Search and access limits
+Searches covered agent benchmarks with credential rotation, revocation, recovery,
+incident response, remediation collateral damage, Vault, and relevant postmortems.
+Original repositories were resolved to immutable commits. Selected text files
+were read as data; no third-party scripts, agents, attack code, or model harnesses
+were installed or executed. The local Vault binary came from its official release
+service and matched the published SHA256 checksum. No signature verification claim.
+Source hashes and precise inspected paths are in recovery-source-audit.json.
+Search absence, keyword absence, protected task pools, and unavailable releases
+cannot establish field-wide novelty.
+
+What the local reproduction adds
+It establishes that a waiting synthetic worker loses access after parent-tree
+revocation in a real executor. An independent token removes that dependency.
+Preserving child tokens also preserves the existing test identity's access.
+A trusted checkpoint handoff followed by full revocation meets our final-state
+security constraint and recovery constraint. No new algorithm is introduced.
+
+Why the contribution gate fails
+The primitive effects and migration strategies are established engineering.
+Existing evaluations already measure executed revocation, recovery, collateral
+damage, or recoverability. No new LLM failure pattern has been observed here.
+No operator has supplied a permissioned dependency trace or validated a changed
+decision against an existing runbook. The single-copy checkpoint and trusted
+handoff authority are fixture assumptions. We cannot equate them with production
+recovery requirements or a human-harm pathway.
+Our handoff requires an interval before revocation. It does not satisfy an
+instantaneous containment requirement. Calling it universally safe would hide
+the tradeoff that the user asked us to measure.
+
+Remaining narrow distinction
+A future study might test whether agents preserve information-conditioned
+recovery feasibility during authorized containment, under matched real and false
+alerts, using independently supplied executor traces. The inspected public
+examples do not settle that exact empirical question. This remains an unresolved
+candidate, not a novelty finding or reason to advertise a breakthrough.

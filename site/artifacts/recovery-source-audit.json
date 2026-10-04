@@ -1,0 +1,1280 @@
+{
+  "inspected_utc": "2026-10-04T07:55:51.363532+00:00",
+  "files": [
+    {
+      "repo": "Alibaba-NLP/qqr",
+      "commit": "a329e57e86cd29c27d4cadc48f1a9659415e6ebf",
+      "path": "data/secrespond/README.md",
+      "url": "https://raw.githubusercontent.com/Alibaba-NLP/qqr/a329e57e86cd29c27d4cadc48f1a9659415e6ebf/data/secrespond/README.md",
+      "bytes": 19411,
+      "sha256": "fd5d2234e04a70c43b4738e54fa24d20557a622d121b51d393b61144cd69fb6d"
+    },
+    {
+      "repo": "Alibaba-NLP/qqr",
+      "commit": "a329e57e86cd29c27d4cadc48f1a9659415e6ebf",
+      "path": "data/secrespond/task-prompts/linux.md",
+      "url": "https://raw.githubusercontent.com/Alibaba-NLP/qqr/a329e57e86cd29c27d4cadc48f1a9659415e6ebf/data/secrespond/task-prompts/linux.md",
+      "bytes": 1414,
+      "sha256": "cce532037ae06db65270e233cfd42d8fd0bb560e050a110242337b7fd473abc1"
+    },
+    {
+      "repo": "Alibaba-NLP/qqr",
+      "commit": "a329e57e86cd29c27d4cadc48f1a9659415e6ebf",
+      "path": "data/secrespond/evaluation/prompt.md",
+      "url": "https://raw.githubusercontent.com/Alibaba-NLP/qqr/a329e57e86cd29c27d4cadc48f1a9659415e6ebf/data/secrespond/evaluation/prompt.md",
+      "bytes": 2270,
+      "sha256": "ef611bd23d4e5b0471833455895cd80679ca656eddf163e3390e11c45173e5ee"
+    },
+    {
+      "repo": "Alibaba-NLP/qqr",
+      "commit": "a329e57e86cd29c27d4cadc48f1a9659415e6ebf",
+      "path": "data/secrespond/ranges/ssh-miner/checklist.en.md",
+      "url": "https://raw.githubusercontent.com/Alibaba-NLP/qqr/a329e57e86cd29c27d4cadc48f1a9659415e6ebf/data/secrespond/ranges/ssh-miner/checklist.en.md",
+      "bytes": 15359,
+      "sha256": "be3aac9092ffab3915c7572465ede08cff80c8c80bb09983c56c734a66e4303f"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/README.md",
+      "bytes": 9620,
+      "sha256": "5ad388d1cec81dfdae6c2fc2f44e9a8533685e684249eb517b8ec95f93d473d6"
+    },
+    {
+      "repo": "microsoft/AIOpsLab",
+      "commit": "ccf08d0d1d5fa5b30f120e2e8549662d44411b35",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/microsoft/AIOpsLab/ccf08d0d1d5fa5b30f120e2e8549662d44411b35/README.md",
+      "bytes": 22640,
+      "sha256": "02a7d09401d464e432e73101420c8cabd0fa4a6dd8544cca380522af8a83717a"
+    },
+    {
+      "repo": "microsoft/AIOpsLab",
+      "commit": "ccf08d0d1d5fa5b30f120e2e8549662d44411b35",
+      "path": "aiopslab/orchestrator/problems/revoke_auth/revoke_auth.py",
+      "url": "https://raw.githubusercontent.com/microsoft/AIOpsLab/ccf08d0d1d5fa5b30f120e2e8549662d44411b35/aiopslab/orchestrator/problems/revoke_auth/revoke_auth.py",
+      "bytes": 7337,
+      "sha256": "f2e47891c5275804cc6e07548a88a42323c67c198c347c81f70d19b0247fe3c2"
+    },
+    {
+      "repo": "microsoft/AIOpsLab",
+      "commit": "ccf08d0d1d5fa5b30f120e2e8549662d44411b35",
+      "path": "aiopslab/orchestrator/problems/revoke_auth/helpers.py",
+      "url": "https://raw.githubusercontent.com/microsoft/AIOpsLab/ccf08d0d1d5fa5b30f120e2e8549662d44411b35/aiopslab/orchestrator/problems/revoke_auth/helpers.py",
+      "bytes": 363,
+      "sha256": "5ca430924bdfb2abb9d14f3723480cbe13e210b7c152003751cae4eeaf57e356"
+    },
+    {
+      "repo": "microsoft/AIOpsLab",
+      "commit": "ccf08d0d1d5fa5b30f120e2e8549662d44411b35",
+      "path": "aiopslab/generators/fault/script/revoke-admin-geo-mongo.sh",
+      "url": "https://raw.githubusercontent.com/microsoft/AIOpsLab/ccf08d0d1d5fa5b30f120e2e8549662d44411b35/aiopslab/generators/fault/script/revoke-admin-geo-mongo.sh",
+      "bytes": 447,
+      "sha256": "b0089bb28a45189060e4b68b884c3e53abc0b56d79cf5e2bb547dd2116215807"
+    },
+    {
+      "repo": "microsoft/AIOpsLab",
+      "commit": "ccf08d0d1d5fa5b30f120e2e8549662d44411b35",
+      "path": "aiopslab/generators/fault/script/revoke-mitigate-admin-geo-mongo.sh",
+      "url": "https://raw.githubusercontent.com/microsoft/AIOpsLab/ccf08d0d1d5fa5b30f120e2e8549662d44411b35/aiopslab/generators/fault/script/revoke-mitigate-admin-geo-mongo.sh",
+      "bytes": 545,
+      "sha256": "7882360b5abfbca53af784571094eac9f8d69696ae4bf7f8e35c30eceb325f24"
+    },
+    {
+      "repo": "hashicorp/vault",
+      "commit": "55bd8f18c6c84aa89fdede4850a622c57f03bd7e",
+      "path": "vault/token_store.go",
+      "url": "https://raw.githubusercontent.com/hashicorp/vault/55bd8f18c6c84aa89fdede4850a622c57f03bd7e/vault/token_store.go",
+      "bytes": 137655,
+      "sha256": "2671bf07a5bd97b4ebb40e3b25d25fd19fe1f45c7d58207621f1bac0161be754"
+    },
+    {
+      "repo": "hashicorp/vault",
+      "commit": "55bd8f18c6c84aa89fdede4850a622c57f03bd7e",
+      "path": "vault/logical_cubbyhole.go",
+      "url": "https://raw.githubusercontent.com/hashicorp/vault/55bd8f18c6c84aa89fdede4850a622c57f03bd7e/vault/logical_cubbyhole.go",
+      "bytes": 8400,
+      "sha256": "7ebab3c8d0bd2836f0383b8b5fa54cefc483b4a054fd0abbc1e522f22920e293"
+    },
+    {
+      "repo": "hashicorp/vault",
+      "commit": "55bd8f18c6c84aa89fdede4850a622c57f03bd7e",
+      "path": "vault/token_store_test.go",
+      "url": "https://raw.githubusercontent.com/hashicorp/vault/55bd8f18c6c84aa89fdede4850a622c57f03bd7e/vault/token_store_test.go",
+      "bytes": 179717,
+      "sha256": "434e8a86cbcc1c3c7d3ff2268947e9c88b952225e95a818f46741ad4e2548d58"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/1/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/1/scenario.yaml",
+      "bytes": 933,
+      "sha256": "b8f6492758d6b5522c12e0e4ead425a60020c3f2dc531eaf1825d4f96a99b523"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/10/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/10/scenario.yaml",
+      "bytes": 979,
+      "sha256": "1a597e818066cd4d45e1f30d40e2837b9687f773c66648ed2c94a0a09e563bae"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/102/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/102/scenario.yaml",
+      "bytes": 404,
+      "sha256": "e3b81a25039ef764f8c546f198eec257022533a90ba0f8af030bd7a58c0c97d0"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/105/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/105/scenario.yaml",
+      "bytes": 471,
+      "sha256": "61a893014ee3acde069d8137bc639ca23f5afedbd1dd56120bcba5cfbc2c1095"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/11/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/11/scenario.yaml",
+      "bytes": 916,
+      "sha256": "4f79cfaf446febc1095164c16c06ee3b602b7d41805eec781d6edabc9d46c61a"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/114/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/114/scenario.yaml",
+      "bytes": 397,
+      "sha256": "2465a4c1da1036963d632e35ba3405d87b6a43c2ba9f3f6b4d2d75775228359d"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/116/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/116/scenario.yaml",
+      "bytes": 402,
+      "sha256": "69cb0be446f56b9e12752311aa888ea9c01d0ef1bfbae75e6e4b825475e69b28"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/12/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/12/scenario.yaml",
+      "bytes": 1420,
+      "sha256": "33e0160a759fd66c20fc0d72ad6e90fdb5a18de70dc98784b735d380c3a2f3da"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/13/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/13/scenario.yaml",
+      "bytes": 1178,
+      "sha256": "b067d6199a844ac9468a32efd2fe7d569beacffb461c015165ea59755ccad7d1"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/14/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/14/scenario.yaml",
+      "bytes": 1376,
+      "sha256": "c69895915504b238f27e1f9fdb9b6e3139ab2785d2399a6a201eb6aefdc86bf2"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/15/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/15/scenario.yaml",
+      "bytes": 1380,
+      "sha256": "fb330d0214e54c145e17795f66f3f41e3fe8ec26b8d7501817eb49bb6c653556"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/16/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/16/scenario.yaml",
+      "bytes": 539,
+      "sha256": "289e2bc133eb1d88f7a2cd228706d5e32cec20d04ae7ec32aad38a3bffb2662e"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/17/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/17/scenario.yaml",
+      "bytes": 753,
+      "sha256": "36c4a5a8d5e1ead0fd57a1274f14349f863eb54b5d34197ae264f4e53c4c4413"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/18/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/18/scenario.yaml",
+      "bytes": 708,
+      "sha256": "99b8a702730456461f62f025f6b2c356184d3b16cdd95c58556cff1745cde07e"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/19/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/19/scenario.yaml",
+      "bytes": 933,
+      "sha256": "8ca38c7aacf13a74e3dcd5b15b9758f36adb1b9c495d92d069a19fe2abcbd6d9"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/2/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/2/scenario.yaml",
+      "bytes": 908,
+      "sha256": "f44002c3a04d8154b27d62b58b2ad1ce15e121a32c02516f2bf421ed1bd1e6a7"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/20/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/20/scenario.yaml",
+      "bytes": 473,
+      "sha256": "e31a2c6a4871917169658f770823cd17158203f4fa0f2428740fb408bce1da81"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/21/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/21/scenario.yaml",
+      "bytes": 783,
+      "sha256": "76daf328b535f4aae46f8e86547625210b9f1debc5b051b5ab8e864de9bf220b"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/22/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/22/scenario.yaml",
+      "bytes": 770,
+      "sha256": "f7f54ba69f750d0b653b9a4302adcced47024465a246cbee8dd83a87120261c5"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/23/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/23/scenario.yaml",
+      "bytes": 472,
+      "sha256": "9a45b78c07ebe1af323a515b913596e7dea385be0eb176dc0afbc7b631dc583d"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/24/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/24/scenario.yaml",
+      "bytes": 539,
+      "sha256": "2579ba93f437cf2cdf41d8e4aa50f57cc5716605134dde13f44816265f7d639c"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/25/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/25/scenario.yaml",
+      "bytes": 788,
+      "sha256": "32ad3923dccdc1219c3d1d59ef56bc79d7469b1d56329cb6b117b049e0ba0c5f"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/26/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/26/scenario.yaml",
+      "bytes": 918,
+      "sha256": "e50323e7a5e027116ea059e41e8048372274c6bbc59b70e3e678d7f4b8019cb8"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/27/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/27/scenario.yaml",
+      "bytes": 796,
+      "sha256": "f67c5ef6f6db20bc0211a8f2e85ff468e275553afe77f59d743a17e81f41560d"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/29/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/29/scenario.yaml",
+      "bytes": 797,
+      "sha256": "8f8ca63d372f25a77108c4b93144573d2e94e2a7dde2ea0ce6c1fc3c22b6e370"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/3/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/3/scenario.yaml",
+      "bytes": 904,
+      "sha256": "e63fc63786f4d389df2b9132adec12e858272e9555dbd0819b00728f37949bd5"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/30/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/30/scenario.yaml",
+      "bytes": 420,
+      "sha256": "ffdf791eb7e544e3115482088c1fa9d707e549e53d0d576e7779d660a24c7870"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/31/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/31/scenario.yaml",
+      "bytes": 408,
+      "sha256": "65caf63a48b9793c0243ef6184e61706da115cc2ea20fb75e485138c516a29cf"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/33/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/33/scenario.yaml",
+      "bytes": 604,
+      "sha256": "43b1ccee0d1fb4ce6157cad1042e23a9c1a8381d574dd3952f5ec01da2e219fe"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/34/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/34/scenario.yaml",
+      "bytes": 450,
+      "sha256": "89fdd7a443a6a1846bb34477b85a9213f76a92183dd29f723e6210fb1e8b6c10"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/35/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/35/scenario.yaml",
+      "bytes": 694,
+      "sha256": "30ac24c005bab298323155e121c85b795d5d4f7246da28f7e87b7d0786e9f6f7"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/36/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/36/scenario.yaml",
+      "bytes": 389,
+      "sha256": "272f36d60f5af4aec0c7f5d9779dc4561a9102e8e9e131d73593cec6284f09cb"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/37/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/37/scenario.yaml",
+      "bytes": 266,
+      "sha256": "bc90eb8c90fdc1241c1aff10cced087c969656ed4b7eeee6331fe7821d3e8ec9"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/38/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/38/scenario.yaml",
+      "bytes": 950,
+      "sha256": "c66d98338e86d138cd5ca365a1d0189e2f606953c4af0513011991aa3d1222ef"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/39/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/39/scenario.yaml",
+      "bytes": 402,
+      "sha256": "9ea80ecc78c2739928bbc9e000460d40326ce08aa69406bd4cfc4fda4d18a0a6"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/4/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/4/scenario.yaml",
+      "bytes": 929,
+      "sha256": "cd56be03c3ff07cc3a049557cf8d59c658ff2e5e233e9e626d626a9287bdd112"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/40/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/40/scenario.yaml",
+      "bytes": 447,
+      "sha256": "aa91288893b6426b5c332f36c2f485584720d9b0d363886710f4846734985a9f"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/41/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/41/scenario.yaml",
+      "bytes": 1038,
+      "sha256": "9a65362931531d378c35a1bccff48d3e6daf76ad023b19d017da12645e232180"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/42/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/42/scenario.yaml",
+      "bytes": 417,
+      "sha256": "7483f097cfef13087e9770ff837d7f3af6114d49f0e544a798fb898a05c03821"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/43/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/43/scenario.yaml",
+      "bytes": 426,
+      "sha256": "09ef51377194043b9cc203f1a303e8cf5b9ef391bc24ec883f67c25f919487ab"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/44/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/44/scenario.yaml",
+      "bytes": 427,
+      "sha256": "786174c985cff36877d478ea0aeff89846b2da40ac553aea7a12bcb7427ae5da"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/45/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/45/scenario.yaml",
+      "bytes": 411,
+      "sha256": "121209d32f5498960d3de72b9b1a352e8f1499b6742b38b434fd15dbb3cfe421"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/46/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/46/scenario.yaml",
+      "bytes": 468,
+      "sha256": "99e4cb93882bc22f21088ce9d8c7954de0917583b701ad8f869f668545e02690"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/47/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/47/scenario.yaml",
+      "bytes": 470,
+      "sha256": "a1a034463aacebaa6fed09e908aa46f178a8862f9c41fed8fcd0c16b2c2a71de"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/48/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/48/scenario.yaml",
+      "bytes": 375,
+      "sha256": "085b6ab74e946392137bf47ca850290a1974a3237550e6c0bee3f2de08d502ab"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/49/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/49/scenario.yaml",
+      "bytes": 471,
+      "sha256": "54ffa2e8c274f111f42c469834384f100fb6da49ddf06704353552e27495f0fb"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/5/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/5/scenario.yaml",
+      "bytes": 904,
+      "sha256": "4543e012c06079e2701d46f33f90d9b80da72ba3696b0ecd7c2ba74b5860273e"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/50/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/50/scenario.yaml",
+      "bytes": 417,
+      "sha256": "89992f4a4fcd18b6ffcbef1cdb7ea72b8aba0c038ed38a3aef14ba4eb63c31da"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/51/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/51/scenario.yaml",
+      "bytes": 443,
+      "sha256": "c0bd5e7affab4b31a3b56b14691140146f59ae647c41a5e075c44a4c0c898576"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/52/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/52/scenario.yaml",
+      "bytes": 1213,
+      "sha256": "ea33ffb63f7008aaefa48213093009065c58d624b0ed181a516865bdacf62b76"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/53/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/53/scenario.yaml",
+      "bytes": 459,
+      "sha256": "91578d90eaef4e81b9f8b9eab16b37c20cf8ffcc46ff788532751e69672f1473"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/54/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/54/scenario.yaml",
+      "bytes": 773,
+      "sha256": "3896f0bdfb00a81bad88e38f0264fa8045578543874f4f283a5fa4ad104e53db"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/55/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/55/scenario.yaml",
+      "bytes": 771,
+      "sha256": "b967bf208643fa8451b9987463052075a492a4e3cf05fd12bdf99b4aba2c96db"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/56/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/56/scenario.yaml",
+      "bytes": 709,
+      "sha256": "b1e032b7706b2bcdf3811d5f9c65b99fb4de44ad99c28456d7ac57df7f394a44"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/57/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/57/scenario.yaml",
+      "bytes": 708,
+      "sha256": "a564eed3635709c837ddf007b0957efc36460668fb0e4c8bac220baf246d0e36"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/58/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/58/scenario.yaml",
+      "bytes": 408,
+      "sha256": "9cb8fb1c779af6c2f1c325c838c11ae7716177316c970a23d0c77e6cd2c83a27"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/59/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/59/scenario.yaml",
+      "bytes": 451,
+      "sha256": "4820612590266920816a3904167da74e44c17a769bac29bd44455f2163882c05"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/6/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/6/scenario.yaml",
+      "bytes": 905,
+      "sha256": "64f10b9757d5cfc2348eeeda8c611ec0cf3fb16635f227c846c722da1ec637aa"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/60/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/60/scenario.yaml",
+      "bytes": 971,
+      "sha256": "1db06a155931de11fcd2befaab0b8bb1b6ad500525dd99c972909bfcc5f1ca03"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/61/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/61/scenario.yaml",
+      "bytes": 1013,
+      "sha256": "e39673fc783fe994947e95ff9fd9405e9f6298e326ef549a0fbc251214ad903b"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/62/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/62/scenario.yaml",
+      "bytes": 1619,
+      "sha256": "90813e7ee586d14b3d078cc31226a73ae0b69f1d88983d590f4f8917de101778"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/63/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/63/scenario.yaml",
+      "bytes": 647,
+      "sha256": "b0f1feecc5602ab611c04b4ca89a1f4e07d0faa2125119bef5965107a82e5aae"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/7/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/7/scenario.yaml",
+      "bytes": 914,
+      "sha256": "94f70d558098c1823c9a38f03062ce1878f0bfd6418a03d4dcf9ac7c88a31fe6"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/8/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/8/scenario.yaml",
+      "bytes": 918,
+      "sha256": "9f3fea8cb7291ce1e5491b0a0dc41f6350654eabf3d030989628b52b8d820d75"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/80/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/80/scenario.yaml",
+      "bytes": 1190,
+      "sha256": "5199f9dc3dc76e1a9afe591590a737593cdf7669afb84a990506031fc26af2cb"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/81/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/81/scenario.yaml",
+      "bytes": 1183,
+      "sha256": "43f13b55b8f1ab07d83b80d9e38b3c8a9515eed3d93c1c533b7e91c96ed221f7"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/83/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/83/scenario.yaml",
+      "bytes": 1207,
+      "sha256": "11117f4ba410b80c02b1c89af7e5aa269b29ac3114aa2ebb063c9b8f252bada7"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "archive/scenarios/91/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/archive/scenarios/91/scenario.yaml",
+      "bytes": 1190,
+      "sha256": "ed154e7ff4a16e3188a8a8c748ad1e31d04de12f45e0eefcde479b7c91cbf0b2"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "clusters/kind/molecule/external_load_balancers/verify.yml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/clusters/kind/molecule/external_load_balancers/verify.yml",
+      "bytes": 2677,
+      "sha256": "016924ea12dd45d6fedf3a64cbb6ce271e27120d37000a2317281e1b4c984af8"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "clusters/minikube/molecule/external_load_balancers/verify.yml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/clusters/minikube/molecule/external_load_balancers/verify.yml",
+      "bytes": 2677,
+      "sha256": "016924ea12dd45d6fedf3a64cbb6ce271e27120d37000a2317281e1b4c984af8"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "library/scenarios/102/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/library/scenarios/102/scenario.yaml",
+      "bytes": 398,
+      "sha256": "2f783a349eba1a3d32f569ad5e7e7da1c67616334fa3a44b8df2ee459bbdd082"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "library/scenarios/105/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/library/scenarios/105/scenario.yaml",
+      "bytes": 418,
+      "sha256": "df08186275f5ab1f961c7a23ecc1e711145dde98157cacfcebd62dd66ac2c129"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "library/scenarios/114/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/library/scenarios/114/scenario.yaml",
+      "bytes": 391,
+      "sha256": "2f7c76e5a713b9bc255f72fe90edec21a4fa3879659893f24a34444fe21e32ce"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "library/scenarios/116/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/library/scenarios/116/scenario.yaml",
+      "bytes": 396,
+      "sha256": "d8697e31cb85495e054ddc1b8b7744abf66e7d91958a191ce1bc9bdcc68c3d68"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "library/scenarios/16/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/library/scenarios/16/scenario.yaml",
+      "bytes": 425,
+      "sha256": "b0a4d2e21f464a9c28a140a52039a633c6bad145a8458143a316b79749bacb57"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "library/scenarios/20/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/library/scenarios/20/scenario.yaml",
+      "bytes": 420,
+      "sha256": "80a98be10f4b6f5283486c0d51e986761e58778a55baeafbea5dba73bf20a250"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "library/scenarios/23/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/library/scenarios/23/scenario.yaml",
+      "bytes": 426,
+      "sha256": "972c1c1b8bd587ffebfdf682fb241656c75db96d5edf88771e96a2acd1742db3"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "library/scenarios/24/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/library/scenarios/24/scenario.yaml",
+      "bytes": 425,
+      "sha256": "5d80b23e789b9e9ca1f48cad1f6c3a821c9eb1c5751df1f2216d0a7f16ae97cf"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "library/scenarios/30/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/library/scenarios/30/scenario.yaml",
+      "bytes": 391,
+      "sha256": "ce387e1f36686e3c62cc5ae83585337297b661cb6f04f2a9b5fb33e1aff3dd5c"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "library/scenarios/31/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/library/scenarios/31/scenario.yaml",
+      "bytes": 402,
+      "sha256": "dccbb7eaf26521fac73ac82c728ae389c1f602564a51ce70f18036c3d27ea91f"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "library/scenarios/33/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/library/scenarios/33/scenario.yaml",
+      "bytes": 611,
+      "sha256": "42b55c711e3c35598ee7293f04fa2ed3bcd8169c395e890cdf671572141e0776"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "library/scenarios/34/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/library/scenarios/34/scenario.yaml",
+      "bytes": 401,
+      "sha256": "ed46c1d22f0ddde80e7d9125d2eb3aa515949aa3b1acd17ac477d5e5b06b6e60"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "library/scenarios/36/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/library/scenarios/36/scenario.yaml",
+      "bytes": 383,
+      "sha256": "3f51539291ceb4b4b3da8fc8dea454fae828de2f75e88280d5334b231a978b6b"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "library/scenarios/37/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/library/scenarios/37/scenario.yaml",
+      "bytes": 173,
+      "sha256": "5f26fe3ea88e530e1dbd5f6b24b22e8216d03d9fe73bff555ec130969b640ffc"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "library/scenarios/38/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/library/scenarios/38/scenario.yaml",
+      "bytes": 898,
+      "sha256": "415fc4ca006f80a744ea1b6fd43c06b412d48d1b95f8f0f662760d835dd140cc"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "library/scenarios/39/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/library/scenarios/39/scenario.yaml",
+      "bytes": 396,
+      "sha256": "48720c79b406ba2a6c20353ca0170df2336b88251bad783c280c23192168cd89"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "library/scenarios/40/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/library/scenarios/40/scenario.yaml",
+      "bytes": 398,
+      "sha256": "b80503204f394beb746d96f648b841f2c3f8f1c2c85f8db3a88d983eb04a5a38"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "library/scenarios/42/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/library/scenarios/42/scenario.yaml",
+      "bytes": 411,
+      "sha256": "32b595a50f9b893a70b88ee961c545220e6bc7bd92985b009d5cfe35c48cfb02"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "library/scenarios/43/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/library/scenarios/43/scenario.yaml",
+      "bytes": 420,
+      "sha256": "21fe7a0760d92aac386ef5bf214a4fbce843cd79fd7b6b1dc362f36d186f03bc"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "library/scenarios/44/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/library/scenarios/44/scenario.yaml",
+      "bytes": 421,
+      "sha256": "17725d393b0be3b1ca87f7906e196ff6c01c7dcaa1d021234a528eb29ea3ecea"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "library/scenarios/45/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/library/scenarios/45/scenario.yaml",
+      "bytes": 405,
+      "sha256": "a8dce28678131760c51110d0bfa6f67a77dedb866fdfe9922e00a6177f9cd3e8"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "library/scenarios/46/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/library/scenarios/46/scenario.yaml",
+      "bytes": 420,
+      "sha256": "eddf791daf2a2af7944d57b2ae49e2b2b978333673e6b682ac1b1b948b8d8f82"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "library/scenarios/47/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/library/scenarios/47/scenario.yaml",
+      "bytes": 433,
+      "sha256": "69977af91e3729c67a24726b201c4172504128e9ca114347aa7c0a6add946737"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "library/scenarios/48/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/library/scenarios/48/scenario.yaml",
+      "bytes": 365,
+      "sha256": "a2f379f1eb328bae53c60a83eaf559835e121227127cd8842daa8df12e40e6bd"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "library/scenarios/49/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/library/scenarios/49/scenario.yaml",
+      "bytes": 425,
+      "sha256": "0cac0ded44c9b81491e4d391158c0aad8d5ff0ed7f33ca38b3948212f7e59f9e"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "library/scenarios/50/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/library/scenarios/50/scenario.yaml",
+      "bytes": 411,
+      "sha256": "ee1be7eb680cd5e506bc9d4dfdf93077cc0b539335bb8ee5515f079a36bebbc6"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "library/scenarios/53/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/library/scenarios/53/scenario.yaml",
+      "bytes": 414,
+      "sha256": "b055026d8cd357412320e7c5d28c2e181dc04afa050db9bbd7092110eebc56e0"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "library/scenarios/56/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/library/scenarios/56/scenario.yaml",
+      "bytes": 630,
+      "sha256": "96ffac39b67045d2c49350e368acdba06995201d7fdec7197cd85d494fd376e2"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "library/scenarios/57/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/library/scenarios/57/scenario.yaml",
+      "bytes": 636,
+      "sha256": "c32d2011cdfe42552965e71a64a2276c814c93c508ff7c44ed93e6262f14150b"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "library/scenarios/58/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/library/scenarios/58/scenario.yaml",
+      "bytes": 402,
+      "sha256": "182d5492c7d1ac6b9aaf1c0b2a8be52128ca3b45af931d6ac77835487ed2d2ed"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "library/scenarios/59/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/library/scenarios/59/scenario.yaml",
+      "bytes": 415,
+      "sha256": "bfa20d2d395470e33475d320be019de05136e62bae5e64f6672cf3257e8470b7"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "library/scenarios/60/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/library/scenarios/60/scenario.yaml",
+      "bytes": 884,
+      "sha256": "8a7147e84815862844289dc31905ae0e6263e489bb713ea7da0d8ceb29cbf37f"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "library/scenarios/63/scenario.yaml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/library/scenarios/63/scenario.yaml",
+      "bytes": 615,
+      "sha256": "6cec1f40c988eed324bdd503a0fa21fd42718de2f002cc7590e5af20a2290457"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "scenarios/ciso/1.gen-cis-b-k8s-kyverno/evaluation/main.py",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/scenarios/ciso/1.gen-cis-b-k8s-kyverno/evaluation/main.py",
+      "bytes": 4112,
+      "sha256": "5115ff1ef754067f9da8ce3cf59f30cb49466f0eb9ca96900fd00a60e98f6889"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "scenarios/ciso/1.gen-cis-b-k8s-kyverno/playbooks/evaluate.yml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/scenarios/ciso/1.gen-cis-b-k8s-kyverno/playbooks/evaluate.yml",
+      "bytes": 2506,
+      "sha256": "5962b7f48f96b495308dd1dc0036815acbec949776bcb99347da192ad2588d9a"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "scenarios/ciso/2.gen-cis-b-k8s-kubectl-opa/playbooks/evaluate.yml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/scenarios/ciso/2.gen-cis-b-k8s-kubectl-opa/playbooks/evaluate.yml",
+      "bytes": 3112,
+      "sha256": "25eda137d39c7358de555b0130a315a79eb92cac625c8908b7ed0cd70b334c1b"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "scenarios/ciso/3.gen-cis-b-rhel9-ansible-opa/playbooks/evaluate.yml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/scenarios/ciso/3.gen-cis-b-rhel9-ansible-opa/playbooks/evaluate.yml",
+      "bytes": 3286,
+      "sha256": "bdf037ac5d0111b8f0213e03c75b4943866529468265203f0da2016cf85ef768"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "scenarios/ciso/4.upd-cis-b-k8s-kyverno/evaluation.py",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/scenarios/ciso/4.upd-cis-b-k8s-kyverno/evaluation.py",
+      "bytes": 7845,
+      "sha256": "fde9a5c2d6e1c0e01b2118ff44b147736dce5561455ed033a2968e94ce054bf2"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "scenarios/ciso/4.upd-cis-b-k8s-kyverno/playbooks/evaluate.yml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/scenarios/ciso/4.upd-cis-b-k8s-kyverno/playbooks/evaluate.yml",
+      "bytes": 2923,
+      "sha256": "d87c91f0cde94e32fefefb633e1e65b401458d6657bbc0534a8a724b4d5f7979"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "scenarios/sre/project/roles/agent/molecule/grant_access/verify.yml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/scenarios/sre/project/roles/agent/molecule/grant_access/verify.yml",
+      "bytes": 7282,
+      "sha256": "e95f54b87c5e3393e0e5d7604e64cdfbe12d8c1684789e41d6e38daaf516a654"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "scenarios/sre/project/roles/agent/molecule/revoke_access/verify.yml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/scenarios/sre/project/roles/agent/molecule/revoke_access/verify.yml",
+      "bytes": 2749,
+      "sha256": "cbce22382442e2582de647bc142001adbb04df6a700ca57eaefd6f3863faf3d3"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "scenarios/sre/project/roles/awx/molecule/configure/verify.yml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/scenarios/sre/project/roles/awx/molecule/configure/verify.yml",
+      "bytes": 4792,
+      "sha256": "623cc1ddff7e25db4d95d7779d76916806be3da9b80d2a78227ee7a8ad18b0c2"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "scenarios/sre/project/roles/faults/molecule/degraded_etcd_database_storage/verify.yml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/scenarios/sre/project/roles/faults/molecule/degraded_etcd_database_storage/verify.yml",
+      "bytes": 705,
+      "sha256": "21c43ffe763fd835cbc81113729dd6f55605b04d34e6cb4e83b0570e98f8364f"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "scenarios/sre/project/roles/faults/molecule/inject_cordoned_kubernetes_worker_node/verify.yml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/scenarios/sre/project/roles/faults/molecule/inject_cordoned_kubernetes_worker_node/verify.yml",
+      "bytes": 1964,
+      "sha256": "c74418d0768e769867d9783659c4abf56ae5b1d18e25b6d4d5721ecff05a918d"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "scenarios/sre/project/roles/faults/molecule/inject_corrupted_kubernetes_secret_credentials/verify.yml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/scenarios/sre/project/roles/faults/molecule/inject_corrupted_kubernetes_secret_credentials/verify.yml",
+      "bytes": 798,
+      "sha256": "6787baa62dfda1f1114bd00de117e7463b92de3bb912e0cc66ab27ba57eaa061"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "scenarios/sre/project/roles/faults/molecule/inject_crashing_kubernetes_workload_init_container/verify.yml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/scenarios/sre/project/roles/faults/molecule/inject_crashing_kubernetes_workload_init_container/verify.yml",
+      "bytes": 2096,
+      "sha256": "cbaf7cd09de313b364db9bb1e8d2a17516977c40637ff6b994054ec39e314c14"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "scenarios/sre/project/roles/faults/molecule/inject_deleted_kubernetes_service/verify.yml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/scenarios/sre/project/roles/faults/molecule/inject_deleted_kubernetes_service/verify.yml",
+      "bytes": 1855,
+      "sha256": "018ccff2d90d5f539e595ec8149030b510de3fb393fbe7ad4e86b605ec46b0da"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "scenarios/sre/project/roles/faults/molecule/inject_disabled_istio_ambient_mode_kubernetes_namespace/verify.yml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/scenarios/sre/project/roles/faults/molecule/inject_disabled_istio_ambient_mode_kubernetes_namespace/verify.yml",
+      "bytes": 643,
+      "sha256": "82d09ee165d127d995e07de4eac1571988c5537438bc25e67de9539d926d2a80"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "scenarios/sre/project/roles/faults/molecule/inject_failing_name_resolution_kubernetes_workload_dns_policy/verify.yml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/scenarios/sre/project/roles/faults/molecule/inject_failing_name_resolution_kubernetes_workload_dns_policy/verify.yml",
+      "bytes": 685,
+      "sha256": "fc4ecb5916c39e94d06f398213944c2e8407b8d5fb5f1ea1c3714cc2575c73bc"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "scenarios/sre/project/roles/faults/molecule/inject_hanging_kubernetes_workload_init_container/verify.yml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/scenarios/sre/project/roles/faults/molecule/inject_hanging_kubernetes_workload_init_container/verify.yml",
+      "bytes": 1518,
+      "sha256": "aa34a0317408fd8eaa78735062870bf980d70b685893ea00fe3e3645ba26cba6"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "scenarios/sre/project/roles/faults/molecule/inject_ingress_port_blocking_network_policy/verify.yml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/scenarios/sre/project/roles/faults/molecule/inject_ingress_port_blocking_network_policy/verify.yml",
+      "bytes": 1588,
+      "sha256": "be7e205dbdff331add91f610669befd9497ae3534518ac9efaf4f496edcae988"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "scenarios/sre/project/roles/faults/molecule/inject_insufficient_kubernetes_resource_quota/verify.yml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/scenarios/sre/project/roles/faults/molecule/inject_insufficient_kubernetes_resource_quota/verify.yml",
+      "bytes": 1609,
+      "sha256": "551e4bb38e8d12acb81f1c8ef5c86b7c55f452332d28755d33d12ce05627cc55"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "scenarios/sre/project/roles/faults/molecule/inject_insufficient_kubernetes_workload_container_resources/verify.yml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/scenarios/sre/project/roles/faults/molecule/inject_insufficient_kubernetes_workload_container_resources/verify.yml",
+      "bytes": 1074,
+      "sha256": "2088cec91f515027faa856e7da25336eaf5d5c668020db5a64434974534fe69b"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "scenarios/sre/project/roles/faults/molecule/inject_invalid_kubernetes_service_selector/verify.yml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/scenarios/sre/project/roles/faults/molecule/inject_invalid_kubernetes_service_selector/verify.yml",
+      "bytes": 1944,
+      "sha256": "89b8aa83dc8bff46eeb09af83af0221ff3930820d9df94420e5ed8c6b6a091a4"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "scenarios/sre/project/roles/faults/molecule/inject_invalid_kubernetes_workload_container_command/verify.yml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/scenarios/sre/project/roles/faults/molecule/inject_invalid_kubernetes_workload_container_command/verify.yml",
+      "bytes": 724,
+      "sha256": "add43a73fa8795801865deb3daf3922d1fa93804117aeda61fe1fb3d30ea1f89"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "scenarios/sre/project/roles/faults/molecule/inject_kubernetes_api_server_request_surge/verify.yml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/scenarios/sre/project/roles/faults/molecule/inject_kubernetes_api_server_request_surge/verify.yml",
+      "bytes": 2914,
+      "sha256": "def480862eb08b36c3620c1eca031d1bbe6b75a7067f98b344dfb8d28a7a26bc"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "scenarios/sre/project/roles/faults/molecule/inject_misconfigured_kubernetes_horizontal_pod_autoscaler/verify.yml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/scenarios/sre/project/roles/faults/molecule/inject_misconfigured_kubernetes_horizontal_pod_autoscaler/verify.yml",
+      "bytes": 1892,
+      "sha256": "a4a706c669b8d18a6719fe5b151d67baf6d205e5cbfd32b11dac87fae1a45d41"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "scenarios/sre/project/roles/faults/molecule/inject_misconfigured_kubernetes_workload_container_readiness_probe/verify.yml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/scenarios/sre/project/roles/faults/molecule/inject_misconfigured_kubernetes_workload_container_readiness_probe/verify.yml",
+      "bytes": 1310,
+      "sha256": "ee4d1b2ec44d08c7711d20e5f34b1118006f71fe55a213808b4c6dcb3abe02e4"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "scenarios/sre/project/roles/faults/molecule/inject_modified_kubernetes_workload_container_environment_variable/verify.yml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/scenarios/sre/project/roles/faults/molecule/inject_modified_kubernetes_workload_container_environment_variable/verify.yml",
+      "bytes": 1026,
+      "sha256": "f3a13197e5e2de3fd30923156858a7e39fbd724f63b2c16fb4d677361ec1fb7f"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "scenarios/sre/project/roles/faults/molecule/inject_modified_target_port_kubernetes_service/verify.yml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/scenarios/sre/project/roles/faults/molecule/inject_modified_target_port_kubernetes_service/verify.yml",
+      "bytes": 680,
+      "sha256": "7812cee2e9bb9b35ec67f0ef1896e5cf842281eb7dca92863fa4ff04f8938d62"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "scenarios/sre/project/roles/faults/molecule/inject_nonexistent_kubernetes_workload_container_image/verify.yml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/scenarios/sre/project/roles/faults/molecule/inject_nonexistent_kubernetes_workload_container_image/verify.yml",
+      "bytes": 742,
+      "sha256": "dfcce5a9aaae7d1caed70ba1b38b7365ee15f2ed9856b82f8c61044b43b95ada"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "scenarios/sre/project/roles/faults/molecule/inject_nonexistent_kubernetes_workload_node/verify.yml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/scenarios/sre/project/roles/faults/molecule/inject_nonexistent_kubernetes_workload_node/verify.yml",
+      "bytes": 1581,
+      "sha256": "e26d5d403d3bda14ceeef62371d15f8f66acb7699a67113c45a237589af8d2a2"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "scenarios/sre/project/roles/faults/molecule/inject_nonexistent_kubernetes_workload_persistent_volume_claim/verify.yml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/scenarios/sre/project/roles/faults/molecule/inject_nonexistent_kubernetes_workload_persistent_volume_claim/verify.yml",
+      "bytes": 2174,
+      "sha256": "70fb61c14164dee01c74204d1f2174a1f4f91ae9496c9c37d65943862b16dd1e"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "scenarios/sre/project/roles/faults/molecule/inject_opentelemetry_demo_feature_flag/verify.yml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/scenarios/sre/project/roles/faults/molecule/inject_opentelemetry_demo_feature_flag/verify.yml",
+      "bytes": 1501,
+      "sha256": "eee179aa26381c872b822247d2642bcc99671791d99b9a1636534e88df5e27a2"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "scenarios/sre/project/roles/faults/molecule/inject_priority_kubernetes_workload_priority_preemption/verify.yml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/scenarios/sre/project/roles/faults/molecule/inject_priority_kubernetes_workload_priority_preemption/verify.yml",
+      "bytes": 3278,
+      "sha256": "55071b36433eb4ef72715cec4f5e10daab57f152923662693d28a09903599351"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "scenarios/sre/project/roles/faults/molecule/inject_scaled_to_zero_kubernetes_workload/verify.yml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/scenarios/sre/project/roles/faults/molecule/inject_scaled_to_zero_kubernetes_workload/verify.yml",
+      "bytes": 979,
+      "sha256": "3d3d8658bf69c1bf31211a7f28bdec726f6fc673cc49fa2ea9db30a2455de35c"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "scenarios/sre/project/roles/faults/molecule/inject_strict_mutual_tls_istio_service_mesh_enforcement/verify.yml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/scenarios/sre/project/roles/faults/molecule/inject_strict_mutual_tls_istio_service_mesh_enforcement/verify.yml",
+      "bytes": 2052,
+      "sha256": "b1f2628f503d81fa7a11e9daf5b3ebce9a1cf0b8a9684f8843aa44fd4a79c031"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "scenarios/sre/project/roles/faults/molecule/inject_traffic_denying_istio_gateway_authorization_policy/verify.yml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/scenarios/sre/project/roles/faults/molecule/inject_traffic_denying_istio_gateway_authorization_policy/verify.yml",
+      "bytes": 2172,
+      "sha256": "09f7f58da0fed80c63d9b68e71382de0bd6d42cfa818b604f8c8ce0df7eba8b0"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "scenarios/sre/project/roles/faults/molecule/inject_unschedulable_kubernetes_workload_pod_anti_affinity_rule/verify.yml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/scenarios/sre/project/roles/faults/molecule/inject_unschedulable_kubernetes_workload_pod_anti_affinity_rule/verify.yml",
+      "bytes": 1627,
+      "sha256": "e279ea9fea221337b764c03e5b9eba800bb4d7fdf468cfe624eedbc6d2e37ee7"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "scenarios/sre/project/roles/faults/molecule/inject_unsupported_architecture_kubernetes_workload_container_image/verify.yml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/scenarios/sre/project/roles/faults/molecule/inject_unsupported_architecture_kubernetes_workload_container_image/verify.yml",
+      "bytes": 1650,
+      "sha256": "a4a71488013f84a31a220c1a07b3c7c39f0b0573ce1b19d92793c78bb1e44ec2"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "scenarios/sre/project/roles/faults/molecule/inject_valkey_workload_changed_password/verify.yml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/scenarios/sre/project/roles/faults/molecule/inject_valkey_workload_changed_password/verify.yml",
+      "bytes": 2407,
+      "sha256": "ca3b69f46710cc1fc1939deceeb975502e46264335cb13fd2b86dd5ad92e929c"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "scenarios/sre/project/roles/faults/molecule/inject_valkey_workload_out_of_memory/verify.yml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/scenarios/sre/project/roles/faults/molecule/inject_valkey_workload_out_of_memory/verify.yml",
+      "bytes": 2345,
+      "sha256": "5a377b785a663c711a4b19ec10ed0fe8892cc76ecdd81b6919c6d355f5f30d14"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "scenarios/sre/project/roles/waiters/molecule/wait_delete_workload_pods/verify.yml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/scenarios/sre/project/roles/waiters/molecule/wait_delete_workload_pods/verify.yml",
+      "bytes": 6613,
+      "sha256": "4fc42028eafa51d830d23410c1bf8fc8c1cf22d82e596348b625e0dd75a16758"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "scenarios/sre/project/roles/waiters/molecule/wait_restart_kubernetes_workload/verify.yml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/scenarios/sre/project/roles/waiters/molecule/wait_restart_kubernetes_workload/verify.yml",
+      "bytes": 1263,
+      "sha256": "3b9c5fbadb8a81411811982c9ce2d72c70095cce4084a7ad51433848fee4cecf"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "scenarios/sre/project/roles/waiters/molecule/wait_scale_kubernetes_workload/verify.yml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/scenarios/sre/project/roles/waiters/molecule/wait_scale_kubernetes_workload/verify.yml",
+      "bytes": 850,
+      "sha256": "d94220eb8bbd0b999b822d19bd918595c8cffcb07507a1ff598f47c78a0043ab"
+    },
+    {
+      "repo": "itbench-hub/ITBench",
+      "commit": "80afad29f43e84ddacc0bbbb53020f36a6b24bec",
+      "path": "scenarios/sre/project/roles/waiters/molecule/wait_unassign_kubernetes_workload_container_resource_limits/verify.yml",
+      "url": "https://raw.githubusercontent.com/itbench-hub/ITBench/80afad29f43e84ddacc0bbbb53020f36a6b24bec/scenarios/sre/project/roles/waiters/molecule/wait_unassign_kubernetes_workload_container_resource_limits/verify.yml",
+      "bytes": 715,
+      "sha256": "158ce925b58a947e1ad3d9877f31a118b49be028c1843dc3b6b065392fd9bfed"
+    }
+  ],
+  "scope": "Selected pinned files only. No repository-wide absence claim. Third-party code was read, never imported or executed.",
+  "itbench_scope": "Indexed146 selected scenario and verification files; inspected the credential-related hits. No complete repository or protected-task audit.",
+  "source_count": 159
+}

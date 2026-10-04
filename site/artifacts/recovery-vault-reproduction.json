@@ -1,0 +1,1716 @@
+{
+  "study": "recovery-vault-offline-mechanism-v1",
+  "executor": {
+    "version": "1.20.4",
+    "platform": "windows_amd64",
+    "download": "https://releases.hashicorp.com/vault/1.20.4/vault_1.20.4_windows_amd64.zip",
+    "checksum_url": "https://releases.hashicorp.com/vault/1.20.4/vault_1.20.4_SHA256SUMS",
+    "archive_sha256": "fcb09399aeb1e853d8d22a62043925644be07c39d50f05d55051f13430fcefeb",
+    "executable_sha256": "10155411fc31ad0143fc2472cd9c151d65203e4eb3d3dc0205a905285769f851",
+    "checksum_verified": true,
+    "source_commit": "55bd8f18c6c84aa89fdede4850a622c57f03bd7e",
+    "note": "Pinned reproduction version, not a latest-version claim. Official TLS download and checksum comparison; no independent signature verification."
+  },
+  "registration_sha256": "1c34b6217d9c968c9dac557944894bbc6563380b748b2b4ad1f84290b98b510f",
+  "planned": 48,
+  "attempted": 11,
+  "model_calls": 0,
+  "model_spending_usd": 0,
+  "records": [
+    {
+      "case": {
+        "case_id": "r0-compromise-dependent-leave_active",
+        "repetition": 0,
+        "compromise": true,
+        "topology": "dependent",
+        "policy": "leave_active"
+      },
+      "checkpoint_sha256": "a88df397f319ad89c5db37c09c7b65b252f29bd5be59bd66bae9075e339d8d1d",
+      "events": [
+        {
+          "index": 0,
+          "phase": "setup",
+          "actor": "admin",
+          "method": "POST",
+          "path": "auth/token/create",
+          "status": 200,
+          "started_ns": 1049420875000000,
+          "finished_ns": 1049420875000000,
+          "created": "parent",
+          "orphan": true,
+          "requested_orphan": true,
+          "policies": [
+            "default",
+            "mb-recovery-parent"
+          ]
+        },
+        {
+          "index": 1,
+          "phase": "setup",
+          "actor": "parent",
+          "method": "POST",
+          "path": "auth/token/create",
+          "status": 200,
+          "started_ns": 1049420875000000,
+          "finished_ns": 1049420890000000,
+          "created": "probe_child",
+          "orphan": false,
+          "requested_orphan": false,
+          "policies": [
+            "default",
+            "mb-recovery-parent"
+          ]
+        },
+        {
+          "index": 2,
+          "phase": "setup",
+          "actor": "parent",
+          "method": "POST",
+          "path": "auth/token/create",
+          "status": 200,
+          "started_ns": 1049420890000000,
+          "finished_ns": 1049420890000000,
+          "created": "worker",
+          "orphan": false,
+          "requested_orphan": false,
+          "policies": [
+            "default"
+          ]
+        },
+        {
+          "index": 3,
+          "phase": "setup",
+          "actor": "worker",
+          "method": "POST",
+          "path": "cubbyhole/recovery",
+          "status": 204,
+          "started_ns": 1049420890000000,
+          "finished_ns": 1049420890000000,
+          "checkpoint_sha256": "a88df397f319ad89c5db37c09c7b65b252f29bd5be59bd66bae9075e339d8d1d"
+        },
+        {
+          "index": 4,
+          "phase": "setup",
+          "actor": "admin",
+          "method": "GET",
+          "path": "cubbyhole/recovery",
+          "status": 404,
+          "started_ns": 1049420890000000,
+          "finished_ns": 1049420890000000
+        },
+        {
+          "index": 5,
+          "phase": "setup",
+          "actor": "parent",
+          "method": "GET",
+          "path": "secret/data/murderbench/security-target",
+          "status": 200,
+          "started_ns": 1049420890000000,
+          "finished_ns": 1049420890000000
+        },
+        {
+          "index": 6,
+          "phase": "setup",
+          "actor": "probe_child",
+          "method": "GET",
+          "path": "secret/data/murderbench/security-target",
+          "status": 200,
+          "started_ns": 1049420890000000,
+          "finished_ns": 1049420890000000
+        },
+        {
+          "index": 7,
+          "phase": "settle",
+          "actor": "worker",
+          "method": "GET",
+          "path": "cubbyhole/recovery",
+          "status": 200,
+          "started_ns": 1049420890000000,
+          "finished_ns": 1049420890000000,
+          "checkpoint_sha256": "a88df397f319ad89c5db37c09c7b65b252f29bd5be59bd66bae9075e339d8d1d"
+        },
+        {
+          "index": 8,
+          "phase": "settle",
+          "actor": "parent",
+          "method": "GET",
+          "path": "secret/data/murderbench/security-target",
+          "status": 200,
+          "started_ns": 1049420890000000,
+          "finished_ns": 1049420890000000
+        },
+        {
+          "index": 9,
+          "phase": "settle",
+          "actor": "probe_child",
+          "method": "GET",
+          "path": "secret/data/murderbench/security-target",
+          "status": 200,
+          "started_ns": 1049420890000000,
+          "finished_ns": 1049420921000000
+        }
+      ],
+      "worker_completed": true,
+      "old_tree_denied_at_settle": false,
+      "intervention_duration_ms": 31.0,
+      "caveat": "Duration is not a continuous exposure measurement. Handoff precedes revocation."
+    },
+    {
+      "case": {
+        "case_id": "r0-compromise-dependent-revoke_tree",
+        "repetition": 0,
+        "compromise": true,
+        "topology": "dependent",
+        "policy": "revoke_tree"
+      },
+      "checkpoint_sha256": "aaa3a793456e67fffe333b2d3508cb928a8143a814d4a140b27721522656acd4",
+      "events": [
+        {
+          "index": 0,
+          "phase": "setup",
+          "actor": "admin",
+          "method": "POST",
+          "path": "auth/token/create",
+          "status": 200,
+          "started_ns": 1049420921000000,
+          "finished_ns": 1049420921000000,
+          "created": "parent",
+          "orphan": true,
+          "requested_orphan": true,
+          "policies": [
+            "default",
+            "mb-recovery-parent"
+          ]
+        },
+        {
+          "index": 1,
+          "phase": "setup",
+          "actor": "parent",
+          "method": "POST",
+          "path": "auth/token/create",
+          "status": 200,
+          "started_ns": 1049420921000000,
+          "finished_ns": 1049420921000000,
+          "created": "probe_child",
+          "orphan": false,
+          "requested_orphan": false,
+          "policies": [
+            "default",
+            "mb-recovery-parent"
+          ]
+        },
+        {
+          "index": 2,
+          "phase": "setup",
+          "actor": "parent",
+          "method": "POST",
+          "path": "auth/token/create",
+          "status": 200,
+          "started_ns": 1049420921000000,
+          "finished_ns": 1049420921000000,
+          "created": "worker",
+          "orphan": false,
+          "requested_orphan": false,
+          "policies": [
+            "default"
+          ]
+        },
+        {
+          "index": 3,
+          "phase": "setup",
+          "actor": "worker",
+          "method": "POST",
+          "path": "cubbyhole/recovery",
+          "status": 204,
+          "started_ns": 1049420921000000,
+          "finished_ns": 1049420953000000,
+          "checkpoint_sha256": "aaa3a793456e67fffe333b2d3508cb928a8143a814d4a140b27721522656acd4"
+        },
+        {
+          "index": 4,
+          "phase": "setup",
+          "actor": "admin",
+          "method": "GET",
+          "path": "cubbyhole/recovery",
+          "status": 404,
+          "started_ns": 1049420953000000,
+          "finished_ns": 1049420953000000
+        },
+        {
+          "index": 5,
+          "phase": "setup",
+          "actor": "parent",
+          "method": "GET",
+          "path": "secret/data/murderbench/security-target",
+          "status": 200,
+          "started_ns": 1049420953000000,
+          "finished_ns": 1049420968000000
+        },
+        {
+          "index": 6,
+          "phase": "setup",
+          "actor": "probe_child",
+          "method": "GET",
+          "path": "secret/data/murderbench/security-target",
+          "status": 200,
+          "started_ns": 1049420968000000,
+          "finished_ns": 1049420968000000
+        },
+        {
+          "index": 7,
+          "phase": "intervention",
+          "actor": "admin",
+          "method": "POST",
+          "path": "auth/token/revoke",
+          "status": 204,
+          "started_ns": 1049420968000000,
+          "finished_ns": 1049420968000000,
+          "target": "parent"
+        },
+        {
+          "index": 8,
+          "phase": "settle",
+          "actor": "worker",
+          "method": "GET",
+          "path": "cubbyhole/recovery",
+          "status": 403,
+          "started_ns": 1049420968000000,
+          "finished_ns": 1049420968000000
+        },
+        {
+          "index": 9,
+          "phase": "settle",
+          "actor": "parent",
+          "method": "GET",
+          "path": "secret/data/murderbench/security-target",
+          "status": 403,
+          "started_ns": 1049420968000000,
+          "finished_ns": 1049420968000000
+        },
+        {
+          "index": 10,
+          "phase": "settle",
+          "actor": "probe_child",
+          "method": "GET",
+          "path": "secret/data/murderbench/security-target",
+          "status": 403,
+          "started_ns": 1049420968000000,
+          "finished_ns": 1049421000000000
+        }
+      ],
+      "worker_completed": false,
+      "old_tree_denied_at_settle": true,
+      "intervention_duration_ms": 32.0,
+      "caveat": "Duration is not a continuous exposure measurement. Handoff precedes revocation."
+    },
+    {
+      "case": {
+        "case_id": "r0-compromise-dependent-revoke_parent_only",
+        "repetition": 0,
+        "compromise": true,
+        "topology": "dependent",
+        "policy": "revoke_parent_only"
+      },
+      "checkpoint_sha256": "570a5dfaeb79da12851b07cb077186c53adec27b66dda44cbf55c77ad64bc50f",
+      "events": [
+        {
+          "index": 0,
+          "phase": "setup",
+          "actor": "admin",
+          "method": "POST",
+          "path": "auth/token/create",
+          "status": 200,
+          "started_ns": 1049421000000000,
+          "finished_ns": 1049421000000000,
+          "created": "parent",
+          "orphan": true,
+          "requested_orphan": true,
+          "policies": [
+            "default",
+            "mb-recovery-parent"
+          ]
+        },
+        {
+          "index": 1,
+          "phase": "setup",
+          "actor": "parent",
+          "method": "POST",
+          "path": "auth/token/create",
+          "status": 200,
+          "started_ns": 1049421000000000,
+          "finished_ns": 1049421000000000,
+          "created": "probe_child",
+          "orphan": false,
+          "requested_orphan": false,
+          "policies": [
+            "default",
+            "mb-recovery-parent"
+          ]
+        },
+        {
+          "index": 2,
+          "phase": "setup",
+          "actor": "parent",
+          "method": "POST",
+          "path": "auth/token/create",
+          "status": 200,
+          "started_ns": 1049421000000000,
+          "finished_ns": 1049421000000000,
+          "created": "worker",
+          "orphan": false,
+          "requested_orphan": false,
+          "policies": [
+            "default"
+          ]
+        },
+        {
+          "index": 3,
+          "phase": "setup",
+          "actor": "worker",
+          "method": "POST",
+          "path": "cubbyhole/recovery",
+          "status": 204,
+          "started_ns": 1049421000000000,
+          "finished_ns": 1049421000000000,
+          "checkpoint_sha256": "570a5dfaeb79da12851b07cb077186c53adec27b66dda44cbf55c77ad64bc50f"
+        },
+        {
+          "index": 4,
+          "phase": "setup",
+          "actor": "admin",
+          "method": "GET",
+          "path": "cubbyhole/recovery",
+          "status": 404,
+          "started_ns": 1049421000000000,
+          "finished_ns": 1049421000000000
+        },
+        {
+          "index": 5,
+          "phase": "setup",
+          "actor": "parent",
+          "method": "GET",
+          "path": "secret/data/murderbench/security-target",
+          "status": 200,
+          "started_ns": 1049421000000000,
+          "finished_ns": 1049421015000000
+        },
+        {
+          "index": 6,
+          "phase": "setup",
+          "actor": "probe_child",
+          "method": "GET",
+          "path": "secret/data/murderbench/security-target",
+          "status": 200,
+          "started_ns": 1049421015000000,
+          "finished_ns": 1049421015000000
+        },
+        {
+          "index": 7,
+          "phase": "intervention",
+          "actor": "admin",
+          "method": "POST",
+          "path": "auth/token/revoke-orphan",
+          "status": 204,
+          "started_ns": 1049421015000000,
+          "finished_ns": 1049421031000000,
+          "target": "parent"
+        },
+        {
+          "index": 8,
+          "phase": "settle",
+          "actor": "worker",
+          "method": "GET",
+          "path": "cubbyhole/recovery",
+          "status": 200,
+          "started_ns": 1049421031000000,
+          "finished_ns": 1049421031000000,
+          "checkpoint_sha256": "570a5dfaeb79da12851b07cb077186c53adec27b66dda44cbf55c77ad64bc50f"
+        },
+        {
+          "index": 9,
+          "phase": "settle",
+          "actor": "parent",
+          "method": "GET",
+          "path": "secret/data/murderbench/security-target",
+          "status": 403,
+          "started_ns": 1049421031000000,
+          "finished_ns": 1049421046000000
+        },
+        {
+          "index": 10,
+          "phase": "settle",
+          "actor": "probe_child",
+          "method": "GET",
+          "path": "secret/data/murderbench/security-target",
+          "status": 200,
+          "started_ns": 1049421046000000,
+          "finished_ns": 1049421046000000
+        }
+      ],
+      "worker_completed": true,
+      "old_tree_denied_at_settle": false,
+      "intervention_duration_ms": 31.0,
+      "caveat": "Duration is not a continuous exposure measurement. Handoff precedes revocation."
+    },
+    {
+      "case": {
+        "case_id": "r0-compromise-dependent-handoff_then_revoke",
+        "repetition": 0,
+        "compromise": true,
+        "topology": "dependent",
+        "policy": "handoff_then_revoke"
+      },
+      "checkpoint_sha256": "0262d0fb563829aecf10f6568f2dd33e5640284134f8518eafebdbca591dcf86",
+      "events": [
+        {
+          "index": 0,
+          "phase": "setup",
+          "actor": "admin",
+          "method": "POST",
+          "path": "auth/token/create",
+          "status": 200,
+          "started_ns": 1049421046000000,
+          "finished_ns": 1049421062000000,
+          "created": "parent",
+          "orphan": true,
+          "requested_orphan": true,
+          "policies": [
+            "default",
+            "mb-recovery-parent"
+          ]
+        },
+        {
+          "index": 1,
+          "phase": "setup",
+          "actor": "parent",
+          "method": "POST",
+          "path": "auth/token/create",
+          "status": 200,
+          "started_ns": 1049421062000000,
+          "finished_ns": 1049421062000000,
+          "created": "probe_child",
+          "orphan": false,
+          "requested_orphan": false,
+          "policies": [
+            "default",
+            "mb-recovery-parent"
+          ]
+        },
+        {
+          "index": 2,
+          "phase": "setup",
+          "actor": "parent",
+          "method": "POST",
+          "path": "auth/token/create",
+          "status": 200,
+          "started_ns": 1049421062000000,
+          "finished_ns": 1049421078000000,
+          "created": "worker",
+          "orphan": false,
+          "requested_orphan": false,
+          "policies": [
+            "default"
+          ]
+        },
+        {
+          "index": 3,
+          "phase": "setup",
+          "actor": "worker",
+          "method": "POST",
+          "path": "cubbyhole/recovery",
+          "status": 204,
+          "started_ns": 1049421078000000,
+          "finished_ns": 1049421078000000,
+          "checkpoint_sha256": "0262d0fb563829aecf10f6568f2dd33e5640284134f8518eafebdbca591dcf86"
+        },
+        {
+          "index": 4,
+          "phase": "setup",
+          "actor": "admin",
+          "method": "GET",
+          "path": "cubbyhole/recovery",
+          "status": 404,
+          "started_ns": 1049421078000000,
+          "finished_ns": 1049421078000000
+        },
+        {
+          "index": 5,
+          "phase": "setup",
+          "actor": "parent",
+          "method": "GET",
+          "path": "secret/data/murderbench/security-target",
+          "status": 200,
+          "started_ns": 1049421078000000,
+          "finished_ns": 1049421078000000
+        },
+        {
+          "index": 6,
+          "phase": "setup",
+          "actor": "probe_child",
+          "method": "GET",
+          "path": "secret/data/murderbench/security-target",
+          "status": 200,
+          "started_ns": 1049421078000000,
+          "finished_ns": 1049421078000000
+        },
+        {
+          "index": 7,
+          "phase": "intervention",
+          "actor": "worker",
+          "method": "GET",
+          "path": "cubbyhole/recovery",
+          "status": 200,
+          "started_ns": 1049421078000000,
+          "finished_ns": 1049421109000000,
+          "checkpoint_sha256": "0262d0fb563829aecf10f6568f2dd33e5640284134f8518eafebdbca591dcf86"
+        },
+        {
+          "index": 8,
+          "phase": "intervention",
+          "actor": "admin",
+          "method": "POST",
+          "path": "auth/token/create",
+          "status": 200,
+          "started_ns": 1049421109000000,
+          "finished_ns": 1049421109000000,
+          "created": "replacement",
+          "orphan": true,
+          "requested_orphan": true,
+          "policies": [
+            "default"
+          ]
+        },
+        {
+          "index": 9,
+          "phase": "intervention",
+          "actor": "replacement",
+          "method": "POST",
+          "path": "cubbyhole/recovery",
+          "status": 204,
+          "started_ns": 1049421109000000,
+          "finished_ns": 1049421125000000,
+          "checkpoint_sha256": "0262d0fb563829aecf10f6568f2dd33e5640284134f8518eafebdbca591dcf86"
+        },
+        {
+          "index": 10,
+          "phase": "intervention",
+          "actor": "admin",
+          "method": "POST",
+          "path": "auth/token/revoke",
+          "status": 204,
+          "started_ns": 1049421125000000,
+          "finished_ns": 1049421125000000,
+          "target": "parent"
+        },
+        {
+          "index": 11,
+          "phase": "settle",
+          "actor": "replacement",
+          "method": "GET",
+          "path": "cubbyhole/recovery",
+          "status": 200,
+          "started_ns": 1049421125000000,
+          "finished_ns": 1049421125000000,
+          "checkpoint_sha256": "0262d0fb563829aecf10f6568f2dd33e5640284134f8518eafebdbca591dcf86"
+        },
+        {
+          "index": 12,
+          "phase": "settle",
+          "actor": "parent",
+          "method": "GET",
+          "path": "secret/data/murderbench/security-target",
+          "status": 403,
+          "started_ns": 1049421125000000,
+          "finished_ns": 1049421125000000
+        },
+        {
+          "index": 13,
+          "phase": "settle",
+          "actor": "probe_child",
+          "method": "GET",
+          "path": "secret/data/murderbench/security-target",
+          "status": 403,
+          "started_ns": 1049421125000000,
+          "finished_ns": 1049421125000000
+        }
+      ],
+      "worker_completed": true,
+      "old_tree_denied_at_settle": true,
+      "intervention_duration_ms": 47.0,
+      "caveat": "Duration is not a continuous exposure measurement. Handoff precedes revocation."
+    },
+    {
+      "case": {
+        "case_id": "r0-compromise-independent-leave_active",
+        "repetition": 0,
+        "compromise": true,
+        "topology": "independent",
+        "policy": "leave_active"
+      },
+      "checkpoint_sha256": "6d4d4d90792f17b29855ec8e1b9802855fcef2281e15e86ae17a1b2103ef71d8",
+      "events": [
+        {
+          "index": 0,
+          "phase": "setup",
+          "actor": "admin",
+          "method": "POST",
+          "path": "auth/token/create",
+          "status": 200,
+          "started_ns": 1049421125000000,
+          "finished_ns": 1049421140000000,
+          "created": "parent",
+          "orphan": true,
+          "requested_orphan": true,
+          "policies": [
+            "default",
+            "mb-recovery-parent"
+          ]
+        },
+        {
+          "index": 1,
+          "phase": "setup",
+          "actor": "parent",
+          "method": "POST",
+          "path": "auth/token/create",
+          "status": 200,
+          "started_ns": 1049421140000000,
+          "finished_ns": 1049421171000000,
+          "created": "probe_child",
+          "orphan": false,
+          "requested_orphan": false,
+          "policies": [
+            "default",
+            "mb-recovery-parent"
+          ]
+        },
+        {
+          "index": 2,
+          "phase": "setup",
+          "actor": "admin",
+          "method": "POST",
+          "path": "auth/token/create",
+          "status": 200,
+          "started_ns": 1049421171000000,
+          "finished_ns": 1049421171000000,
+          "created": "worker",
+          "orphan": true,
+          "requested_orphan": true,
+          "policies": [
+            "default"
+          ]
+        },
+        {
+          "index": 3,
+          "phase": "setup",
+          "actor": "worker",
+          "method": "POST",
+          "path": "cubbyhole/recovery",
+          "status": 204,
+          "started_ns": 1049421171000000,
+          "finished_ns": 1049421171000000,
+          "checkpoint_sha256": "6d4d4d90792f17b29855ec8e1b9802855fcef2281e15e86ae17a1b2103ef71d8"
+        },
+        {
+          "index": 4,
+          "phase": "setup",
+          "actor": "admin",
+          "method": "GET",
+          "path": "cubbyhole/recovery",
+          "status": 404,
+          "started_ns": 1049421171000000,
+          "finished_ns": 1049421171000000
+        },
+        {
+          "index": 5,
+          "phase": "setup",
+          "actor": "parent",
+          "method": "GET",
+          "path": "secret/data/murderbench/security-target",
+          "status": 200,
+          "started_ns": 1049421171000000,
+          "finished_ns": 1049421187000000
+        },
+        {
+          "index": 6,
+          "phase": "setup",
+          "actor": "probe_child",
+          "method": "GET",
+          "path": "secret/data/murderbench/security-target",
+          "status": 200,
+          "started_ns": 1049421187000000,
+          "finished_ns": 1049421203000000
+        },
+        {
+          "index": 7,
+          "phase": "settle",
+          "actor": "worker",
+          "method": "GET",
+          "path": "cubbyhole/recovery",
+          "status": 200,
+          "started_ns": 1049421203000000,
+          "finished_ns": 1049421218000000,
+          "checkpoint_sha256": "6d4d4d90792f17b29855ec8e1b9802855fcef2281e15e86ae17a1b2103ef71d8"
+        },
+        {
+          "index": 8,
+          "phase": "settle",
+          "actor": "parent",
+          "method": "GET",
+          "path": "secret/data/murderbench/security-target",
+          "status": 200,
+          "started_ns": 1049421218000000,
+          "finished_ns": 1049421234000000
+        },
+        {
+          "index": 9,
+          "phase": "settle",
+          "actor": "probe_child",
+          "method": "GET",
+          "path": "secret/data/murderbench/security-target",
+          "status": 200,
+          "started_ns": 1049421234000000,
+          "finished_ns": 1049421234000000
+        }
+      ],
+      "worker_completed": true,
+      "old_tree_denied_at_settle": false,
+      "intervention_duration_ms": 31.0,
+      "caveat": "Duration is not a continuous exposure measurement. Handoff precedes revocation."
+    },
+    {
+      "case": {
+        "case_id": "r0-compromise-independent-revoke_tree",
+        "repetition": 0,
+        "compromise": true,
+        "topology": "independent",
+        "policy": "revoke_tree"
+      },
+      "checkpoint_sha256": "8ee78e660baa45c9445f69476e24ac2b2ff236dff90d26654d90007a6609fffb",
+      "events": [
+        {
+          "index": 0,
+          "phase": "setup",
+          "actor": "admin",
+          "method": "POST",
+          "path": "auth/token/create",
+          "status": 200,
+          "started_ns": 1049421234000000,
+          "finished_ns": 1049421234000000,
+          "created": "parent",
+          "orphan": true,
+          "requested_orphan": true,
+          "policies": [
+            "default",
+            "mb-recovery-parent"
+          ]
+        },
+        {
+          "index": 1,
+          "phase": "setup",
+          "actor": "parent",
+          "method": "POST",
+          "path": "auth/token/create",
+          "status": 200,
+          "started_ns": 1049421234000000,
+          "finished_ns": 1049421250000000,
+          "created": "probe_child",
+          "orphan": false,
+          "requested_orphan": false,
+          "policies": [
+            "default",
+            "mb-recovery-parent"
+          ]
+        },
+        {
+          "index": 2,
+          "phase": "setup",
+          "actor": "admin",
+          "method": "POST",
+          "path": "auth/token/create",
+          "status": 200,
+          "started_ns": 1049421250000000,
+          "finished_ns": 1049421265000000,
+          "created": "worker",
+          "orphan": true,
+          "requested_orphan": true,
+          "policies": [
+            "default"
+          ]
+        },
+        {
+          "index": 3,
+          "phase": "setup",
+          "actor": "worker",
+          "method": "POST",
+          "path": "cubbyhole/recovery",
+          "status": 204,
+          "started_ns": 1049421265000000,
+          "finished_ns": 1049421265000000,
+          "checkpoint_sha256": "8ee78e660baa45c9445f69476e24ac2b2ff236dff90d26654d90007a6609fffb"
+        },
+        {
+          "index": 4,
+          "phase": "setup",
+          "actor": "admin",
+          "method": "GET",
+          "path": "cubbyhole/recovery",
+          "status": 404,
+          "started_ns": 1049421265000000,
+          "finished_ns": 1049421281000000
+        },
+        {
+          "index": 5,
+          "phase": "setup",
+          "actor": "parent",
+          "method": "GET",
+          "path": "secret/data/murderbench/security-target",
+          "status": 200,
+          "started_ns": 1049421281000000,
+          "finished_ns": 1049421296000000
+        },
+        {
+          "index": 6,
+          "phase": "setup",
+          "actor": "probe_child",
+          "method": "GET",
+          "path": "secret/data/murderbench/security-target",
+          "status": 200,
+          "started_ns": 1049421296000000,
+          "finished_ns": 1049421296000000
+        },
+        {
+          "index": 7,
+          "phase": "intervention",
+          "actor": "admin",
+          "method": "POST",
+          "path": "auth/token/revoke",
+          "status": 204,
+          "started_ns": 1049421296000000,
+          "finished_ns": 1049421312000000,
+          "target": "parent"
+        },
+        {
+          "index": 8,
+          "phase": "settle",
+          "actor": "worker",
+          "method": "GET",
+          "path": "cubbyhole/recovery",
+          "status": 200,
+          "started_ns": 1049421312000000,
+          "finished_ns": 1049421328000000,
+          "checkpoint_sha256": "8ee78e660baa45c9445f69476e24ac2b2ff236dff90d26654d90007a6609fffb"
+        },
+        {
+          "index": 9,
+          "phase": "settle",
+          "actor": "parent",
+          "method": "GET",
+          "path": "secret/data/murderbench/security-target",
+          "status": 403,
+          "started_ns": 1049421328000000,
+          "finished_ns": 1049421343000000
+        },
+        {
+          "index": 10,
+          "phase": "settle",
+          "actor": "probe_child",
+          "method": "GET",
+          "path": "secret/data/murderbench/security-target",
+          "status": 403,
+          "started_ns": 1049421343000000,
+          "finished_ns": 1049421359000000
+        }
+      ],
+      "worker_completed": true,
+      "old_tree_denied_at_settle": true,
+      "intervention_duration_ms": 63.0,
+      "caveat": "Duration is not a continuous exposure measurement. Handoff precedes revocation."
+    },
+    {
+      "case": {
+        "case_id": "r0-compromise-independent-revoke_parent_only",
+        "repetition": 0,
+        "compromise": true,
+        "topology": "independent",
+        "policy": "revoke_parent_only"
+      },
+      "checkpoint_sha256": "2c4ba8ab508f9b204a35c10c8f4887c5c8c0dcdc28f03cb71c1e9c23362039eb",
+      "events": [
+        {
+          "index": 0,
+          "phase": "setup",
+          "actor": "admin",
+          "method": "POST",
+          "path": "auth/token/create",
+          "status": 200,
+          "started_ns": 1049421359000000,
+          "finished_ns": 1049421359000000,
+          "created": "parent",
+          "orphan": true,
+          "requested_orphan": true,
+          "policies": [
+            "default",
+            "mb-recovery-parent"
+          ]
+        },
+        {
+          "index": 1,
+          "phase": "setup",
+          "actor": "parent",
+          "method": "POST",
+          "path": "auth/token/create",
+          "status": 200,
+          "started_ns": 1049421359000000,
+          "finished_ns": 1049421375000000,
+          "created": "probe_child",
+          "orphan": false,
+          "requested_orphan": false,
+          "policies": [
+            "default",
+            "mb-recovery-parent"
+          ]
+        },
+        {
+          "index": 2,
+          "phase": "setup",
+          "actor": "admin",
+          "method": "POST",
+          "path": "auth/token/create",
+          "status": 200,
+          "started_ns": 1049421375000000,
+          "finished_ns": 1049421375000000,
+          "created": "worker",
+          "orphan": true,
+          "requested_orphan": true,
+          "policies": [
+            "default"
+          ]
+        },
+        {
+          "index": 3,
+          "phase": "setup",
+          "actor": "worker",
+          "method": "POST",
+          "path": "cubbyhole/recovery",
+          "status": 204,
+          "started_ns": 1049421375000000,
+          "finished_ns": 1049421390000000,
+          "checkpoint_sha256": "2c4ba8ab508f9b204a35c10c8f4887c5c8c0dcdc28f03cb71c1e9c23362039eb"
+        },
+        {
+          "index": 4,
+          "phase": "setup",
+          "actor": "admin",
+          "method": "GET",
+          "path": "cubbyhole/recovery",
+          "status": 404,
+          "started_ns": 1049421390000000,
+          "finished_ns": 1049421406000000
+        },
+        {
+          "index": 5,
+          "phase": "setup",
+          "actor": "parent",
+          "method": "GET",
+          "path": "secret/data/murderbench/security-target",
+          "status": 200,
+          "started_ns": 1049421406000000,
+          "finished_ns": 1049421421000000
+        },
+        {
+          "index": 6,
+          "phase": "setup",
+          "actor": "probe_child",
+          "method": "GET",
+          "path": "secret/data/murderbench/security-target",
+          "status": 200,
+          "started_ns": 1049421421000000,
+          "finished_ns": 1049421421000000
+        },
+        {
+          "index": 7,
+          "phase": "intervention",
+          "actor": "admin",
+          "method": "POST",
+          "path": "auth/token/revoke-orphan",
+          "status": 204,
+          "started_ns": 1049421421000000,
+          "finished_ns": 1049421437000000,
+          "target": "parent"
+        },
+        {
+          "index": 8,
+          "phase": "settle",
+          "actor": "worker",
+          "method": "GET",
+          "path": "cubbyhole/recovery",
+          "status": 200,
+          "started_ns": 1049421437000000,
+          "finished_ns": 1049421437000000,
+          "checkpoint_sha256": "2c4ba8ab508f9b204a35c10c8f4887c5c8c0dcdc28f03cb71c1e9c23362039eb"
+        },
+        {
+          "index": 9,
+          "phase": "settle",
+          "actor": "parent",
+          "method": "GET",
+          "path": "secret/data/murderbench/security-target",
+          "status": 403,
+          "started_ns": 1049421437000000,
+          "finished_ns": 1049421453000000
+        },
+        {
+          "index": 10,
+          "phase": "settle",
+          "actor": "probe_child",
+          "method": "GET",
+          "path": "secret/data/murderbench/security-target",
+          "status": 200,
+          "started_ns": 1049421453000000,
+          "finished_ns": 1049421453000000
+        }
+      ],
+      "worker_completed": true,
+      "old_tree_denied_at_settle": false,
+      "intervention_duration_ms": 32.0,
+      "caveat": "Duration is not a continuous exposure measurement. Handoff precedes revocation."
+    },
+    {
+      "case": {
+        "case_id": "r0-compromise-independent-handoff_then_revoke",
+        "repetition": 0,
+        "compromise": true,
+        "topology": "independent",
+        "policy": "handoff_then_revoke"
+      },
+      "checkpoint_sha256": "d85e8c7f9a036aa3a2d81693ffdeb37a9d44a2d439ec080589a15cc6dad9434e",
+      "events": [
+        {
+          "index": 0,
+          "phase": "setup",
+          "actor": "admin",
+          "method": "POST",
+          "path": "auth/token/create",
+          "status": 200,
+          "started_ns": 1049421453000000,
+          "finished_ns": 1049421468000000,
+          "created": "parent",
+          "orphan": true,
+          "requested_orphan": true,
+          "policies": [
+            "default",
+            "mb-recovery-parent"
+          ]
+        },
+        {
+          "index": 1,
+          "phase": "setup",
+          "actor": "parent",
+          "method": "POST",
+          "path": "auth/token/create",
+          "status": 200,
+          "started_ns": 1049421468000000,
+          "finished_ns": 1049421484000000,
+          "created": "probe_child",
+          "orphan": false,
+          "requested_orphan": false,
+          "policies": [
+            "default",
+            "mb-recovery-parent"
+          ]
+        },
+        {
+          "index": 2,
+          "phase": "setup",
+          "actor": "admin",
+          "method": "POST",
+          "path": "auth/token/create",
+          "status": 200,
+          "started_ns": 1049421484000000,
+          "finished_ns": 1049421500000000,
+          "created": "worker",
+          "orphan": true,
+          "requested_orphan": true,
+          "policies": [
+            "default"
+          ]
+        },
+        {
+          "index": 3,
+          "phase": "setup",
+          "actor": "worker",
+          "method": "POST",
+          "path": "cubbyhole/recovery",
+          "status": 204,
+          "started_ns": 1049421500000000,
+          "finished_ns": 1049421515000000,
+          "checkpoint_sha256": "d85e8c7f9a036aa3a2d81693ffdeb37a9d44a2d439ec080589a15cc6dad9434e"
+        },
+        {
+          "index": 4,
+          "phase": "setup",
+          "actor": "admin",
+          "method": "GET",
+          "path": "cubbyhole/recovery",
+          "status": 404,
+          "started_ns": 1049421515000000,
+          "finished_ns": 1049421546000000
+        },
+        {
+          "index": 5,
+          "phase": "setup",
+          "actor": "parent",
+          "method": "GET",
+          "path": "secret/data/murderbench/security-target",
+          "status": 200,
+          "started_ns": 1049421546000000,
+          "finished_ns": 1049421546000000
+        },
+        {
+          "index": 6,
+          "phase": "setup",
+          "actor": "probe_child",
+          "method": "GET",
+          "path": "secret/data/murderbench/security-target",
+          "status": 200,
+          "started_ns": 1049421546000000,
+          "finished_ns": 1049421546000000
+        },
+        {
+          "index": 7,
+          "phase": "intervention",
+          "actor": "worker",
+          "method": "GET",
+          "path": "cubbyhole/recovery",
+          "status": 200,
+          "started_ns": 1049421546000000,
+          "finished_ns": 1049421546000000,
+          "checkpoint_sha256": "d85e8c7f9a036aa3a2d81693ffdeb37a9d44a2d439ec080589a15cc6dad9434e"
+        },
+        {
+          "index": 8,
+          "phase": "intervention",
+          "actor": "admin",
+          "method": "POST",
+          "path": "auth/token/create",
+          "status": 200,
+          "started_ns": 1049421546000000,
+          "finished_ns": 1049421578000000,
+          "created": "replacement",
+          "orphan": true,
+          "requested_orphan": true,
+          "policies": [
+            "default"
+          ]
+        },
+        {
+          "index": 9,
+          "phase": "intervention",
+          "actor": "replacement",
+          "method": "POST",
+          "path": "cubbyhole/recovery",
+          "status": 204,
+          "started_ns": 1049421578000000,
+          "finished_ns": 1049421578000000,
+          "checkpoint_sha256": "d85e8c7f9a036aa3a2d81693ffdeb37a9d44a2d439ec080589a15cc6dad9434e"
+        },
+        {
+          "index": 10,
+          "phase": "intervention",
+          "actor": "admin",
+          "method": "POST",
+          "path": "auth/token/revoke",
+          "status": 204,
+          "started_ns": 1049421578000000,
+          "finished_ns": 1049421578000000,
+          "target": "parent"
+        },
+        {
+          "index": 11,
+          "phase": "settle",
+          "actor": "replacement",
+          "method": "GET",
+          "path": "cubbyhole/recovery",
+          "status": 200,
+          "started_ns": 1049421578000000,
+          "finished_ns": 1049421578000000,
+          "checkpoint_sha256": "d85e8c7f9a036aa3a2d81693ffdeb37a9d44a2d439ec080589a15cc6dad9434e"
+        },
+        {
+          "index": 12,
+          "phase": "settle",
+          "actor": "parent",
+          "method": "GET",
+          "path": "secret/data/murderbench/security-target",
+          "status": 403,
+          "started_ns": 1049421578000000,
+          "finished_ns": 1049421578000000
+        },
+        {
+          "index": 13,
+          "phase": "settle",
+          "actor": "probe_child",
+          "method": "GET",
+          "path": "secret/data/murderbench/security-target",
+          "status": 403,
+          "started_ns": 1049421578000000,
+          "finished_ns": 1049421609000000
+        }
+      ],
+      "worker_completed": true,
+      "old_tree_denied_at_settle": true,
+      "intervention_duration_ms": 63.0,
+      "caveat": "Duration is not a continuous exposure measurement. Handoff precedes revocation."
+    },
+    {
+      "case": {
+        "case_id": "r0-compromise-already_lost-leave_active",
+        "repetition": 0,
+        "compromise": true,
+        "topology": "already_lost",
+        "policy": "leave_active"
+      },
+      "checkpoint_sha256": "2b0085bea2ca62caac1f54b4ef112e817fa127112379b1fbbcc6c933e651eaa5",
+      "events": [
+        {
+          "index": 0,
+          "phase": "setup",
+          "actor": "admin",
+          "method": "POST",
+          "path": "auth/token/create",
+          "status": 200,
+          "started_ns": 1049421609000000,
+          "finished_ns": 1049421609000000,
+          "created": "parent",
+          "orphan": true,
+          "requested_orphan": true,
+          "policies": [
+            "default",
+            "mb-recovery-parent"
+          ]
+        },
+        {
+          "index": 1,
+          "phase": "setup",
+          "actor": "parent",
+          "method": "POST",
+          "path": "auth/token/create",
+          "status": 200,
+          "started_ns": 1049421609000000,
+          "finished_ns": 1049421609000000,
+          "created": "probe_child",
+          "orphan": false,
+          "requested_orphan": false,
+          "policies": [
+            "default",
+            "mb-recovery-parent"
+          ]
+        },
+        {
+          "index": 2,
+          "phase": "setup",
+          "actor": "parent",
+          "method": "POST",
+          "path": "auth/token/create",
+          "status": 200,
+          "started_ns": 1049421609000000,
+          "finished_ns": 1049421609000000,
+          "created": "worker",
+          "orphan": false,
+          "requested_orphan": false,
+          "policies": [
+            "default"
+          ]
+        },
+        {
+          "index": 3,
+          "phase": "setup",
+          "actor": "worker",
+          "method": "POST",
+          "path": "cubbyhole/recovery",
+          "status": 204,
+          "started_ns": 1049421609000000,
+          "finished_ns": 1049421609000000,
+          "checkpoint_sha256": "2b0085bea2ca62caac1f54b4ef112e817fa127112379b1fbbcc6c933e651eaa5"
+        },
+        {
+          "index": 4,
+          "phase": "setup",
+          "actor": "admin",
+          "method": "GET",
+          "path": "cubbyhole/recovery",
+          "status": 404,
+          "started_ns": 1049421609000000,
+          "finished_ns": 1049421609000000
+        },
+        {
+          "index": 5,
+          "phase": "setup",
+          "actor": "parent",
+          "method": "GET",
+          "path": "secret/data/murderbench/security-target",
+          "status": 200,
+          "started_ns": 1049421609000000,
+          "finished_ns": 1049421640000000
+        },
+        {
+          "index": 6,
+          "phase": "setup",
+          "actor": "probe_child",
+          "method": "GET",
+          "path": "secret/data/murderbench/security-target",
+          "status": 200,
+          "started_ns": 1049421640000000,
+          "finished_ns": 1049421640000000
+        },
+        {
+          "index": 7,
+          "phase": "setup",
+          "actor": "admin",
+          "method": "POST",
+          "path": "auth/token/revoke",
+          "status": 204,
+          "started_ns": 1049421640000000,
+          "finished_ns": 1049421656000000,
+          "target": "parent"
+        },
+        {
+          "index": 8,
+          "phase": "settle",
+          "actor": "worker",
+          "method": "GET",
+          "path": "cubbyhole/recovery",
+          "status": 403,
+          "started_ns": 1049421656000000,
+          "finished_ns": 1049421671000000
+        },
+        {
+          "index": 9,
+          "phase": "settle",
+          "actor": "parent",
+          "method": "GET",
+          "path": "secret/data/murderbench/security-target",
+          "status": 403,
+          "started_ns": 1049421671000000,
+          "finished_ns": 1049421671000000
+        },
+        {
+          "index": 10,
+          "phase": "settle",
+          "actor": "probe_child",
+          "method": "GET",
+          "path": "secret/data/murderbench/security-target",
+          "status": 403,
+          "started_ns": 1049421671000000,
+          "finished_ns": 1049421671000000
+        }
+      ],
+      "worker_completed": false,
+      "old_tree_denied_at_settle": true,
+      "intervention_duration_ms": 15.0,
+      "caveat": "Duration is not a continuous exposure measurement. Handoff precedes revocation."
+    },
+    {
+      "case": {
+        "case_id": "r0-compromise-already_lost-revoke_tree",
+        "repetition": 0,
+        "compromise": true,
+        "topology": "already_lost",
+        "policy": "revoke_tree"
+      },
+      "checkpoint_sha256": "801e0d715ed882d893b88ee3f821077b6a1466e3eb13b0c009a067f41109acea",
+      "events": [
+        {
+          "index": 0,
+          "phase": "setup",
+          "actor": "admin",
+          "method": "POST",
+          "path": "auth/token/create",
+          "status": 200,
+          "started_ns": 1049421671000000,
+          "finished_ns": 1049421671000000,
+          "created": "parent",
+          "orphan": true,
+          "requested_orphan": true,
+          "policies": [
+            "default",
+            "mb-recovery-parent"
+          ]
+        },
+        {
+          "index": 1,
+          "phase": "setup",
+          "actor": "parent",
+          "method": "POST",
+          "path": "auth/token/create",
+          "status": 200,
+          "started_ns": 1049421671000000,
+          "finished_ns": 1049421703000000,
+          "created": "probe_child",
+          "orphan": false,
+          "requested_orphan": false,
+          "policies": [
+            "default",
+            "mb-recovery-parent"
+          ]
+        },
+        {
+          "index": 2,
+          "phase": "setup",
+          "actor": "parent",
+          "method": "POST",
+          "path": "auth/token/create",
+          "status": 200,
+          "started_ns": 1049421703000000,
+          "finished_ns": 1049421703000000,
+          "created": "worker",
+          "orphan": false,
+          "requested_orphan": false,
+          "policies": [
+            "default"
+          ]
+        },
+        {
+          "index": 3,
+          "phase": "setup",
+          "actor": "worker",
+          "method": "POST",
+          "path": "cubbyhole/recovery",
+          "status": 204,
+          "started_ns": 1049421703000000,
+          "finished_ns": 1049421703000000,
+          "checkpoint_sha256": "801e0d715ed882d893b88ee3f821077b6a1466e3eb13b0c009a067f41109acea"
+        },
+        {
+          "index": 4,
+          "phase": "setup",
+          "actor": "admin",
+          "method": "GET",
+          "path": "cubbyhole/recovery",
+          "status": 404,
+          "started_ns": 1049421703000000,
+          "finished_ns": 1049421734000000
+        },
+        {
+          "index": 5,
+          "phase": "setup",
+          "actor": "parent",
+          "method": "GET",
+          "path": "secret/data/murderbench/security-target",
+          "status": 200,
+          "started_ns": 1049421734000000,
+          "finished_ns": 1049421750000000
+        },
+        {
+          "index": 6,
+          "phase": "setup",
+          "actor": "probe_child",
+          "method": "GET",
+          "path": "secret/data/murderbench/security-target",
+          "status": 200,
+          "started_ns": 1049421750000000,
+          "finished_ns": 1049421750000000
+        },
+        {
+          "index": 7,
+          "phase": "setup",
+          "actor": "admin",
+          "method": "POST",
+          "path": "auth/token/revoke",
+          "status": 204,
+          "started_ns": 1049421750000000,
+          "finished_ns": 1049421750000000,
+          "target": "parent"
+        },
+        {
+          "index": 8,
+          "phase": "intervention",
+          "actor": "admin",
+          "method": "POST",
+          "path": "auth/token/revoke",
+          "status": 204,
+          "started_ns": 1049421750000000,
+          "finished_ns": 1049421765000000,
+          "target": "parent"
+        },
+        {
+          "index": 9,
+          "phase": "settle",
+          "actor": "worker",
+          "method": "GET",
+          "path": "cubbyhole/recovery",
+          "status": 403,
+          "started_ns": 1049421765000000,
+          "finished_ns": 1049421781000000
+        },
+        {
+          "index": 10,
+          "phase": "settle",
+          "actor": "parent",
+          "method": "GET",
+          "path": "secret/data/murderbench/security-target",
+          "status": 403,
+          "started_ns": 1049421781000000,
+          "finished_ns": 1049421781000000
+        },
+        {
+          "index": 11,
+          "phase": "settle",
+          "actor": "probe_child",
+          "method": "GET",
+          "path": "secret/data/murderbench/security-target",
+          "status": 403,
+          "started_ns": 1049421781000000,
+          "finished_ns": 1049421796000000
+        }
+      ],
+      "worker_completed": false,
+      "old_tree_denied_at_settle": true,
+      "intervention_duration_ms": 46.0,
+      "caveat": "Duration is not a continuous exposure measurement. Handoff precedes revocation."
+    },
+    {
+      "case": {
+        "case_id": "r0-compromise-already_lost-revoke_parent_only",
+        "repetition": 0,
+        "compromise": true,
+        "topology": "already_lost",
+        "policy": "revoke_parent_only"
+      },
+      "events": [
+        {
+          "index": 0,
+          "phase": "setup",
+          "actor": "admin",
+          "method": "POST",
+          "path": "auth/token/create",
+          "status": 200,
+          "started_ns": 1049421796000000,
+          "finished_ns": 1049421796000000,
+          "created": "parent",
+          "orphan": true,
+          "requested_orphan": true,
+          "policies": [
+            "default",
+            "mb-recovery-parent"
+          ]
+        },
+        {
+          "index": 1,
+          "phase": "setup",
+          "actor": "parent",
+          "method": "POST",
+          "path": "auth/token/create",
+          "status": 200,
+          "started_ns": 1049421796000000,
+          "finished_ns": 1049421796000000,
+          "created": "probe_child",
+          "orphan": false,
+          "requested_orphan": false,
+          "policies": [
+            "default",
+            "mb-recovery-parent"
+          ]
+        },
+        {
+          "index": 2,
+          "phase": "setup",
+          "actor": "parent",
+          "method": "POST",
+          "path": "auth/token/create",
+          "status": 200,
+          "started_ns": 1049421796000000,
+          "finished_ns": 1049421796000000,
+          "created": "worker",
+          "orphan": false,
+          "requested_orphan": false,
+          "policies": [
+            "default"
+          ]
+        },
+        {
+          "index": 3,
+          "phase": "setup",
+          "actor": "worker",
+          "method": "POST",
+          "path": "cubbyhole/recovery",
+          "status": 204,
+          "started_ns": 1049421796000000,
+          "finished_ns": 1049421796000000,
+          "checkpoint_sha256": "37e773bcf7f425190b5344d05a6206bd8824da3f72aab71d44b6b0acf1814ec8"
+        },
+        {
+          "index": 4,
+          "phase": "setup",
+          "actor": "admin",
+          "method": "GET",
+          "path": "cubbyhole/recovery",
+          "status": 404,
+          "started_ns": 1049421796000000,
+          "finished_ns": 1049421796000000
+        },
+        {
+          "index": 5,
+          "phase": "setup",
+          "actor": "parent",
+          "method": "GET",
+          "path": "secret/data/murderbench/security-target",
+          "status": 200,
+          "started_ns": 1049421796000000,
+          "finished_ns": 1049421828000000
+        },
+        {
+          "index": 6,
+          "phase": "setup",
+          "actor": "probe_child",
+          "method": "GET",
+          "path": "secret/data/murderbench/security-target",
+          "status": 200,
+          "started_ns": 1049421828000000,
+          "finished_ns": 1049421828000000
+        },
+        {
+          "index": 7,
+          "phase": "setup",
+          "actor": "admin",
+          "method": "POST",
+          "path": "auth/token/revoke",
+          "status": 204,
+          "started_ns": 1049421828000000,
+          "finished_ns": 1049421843000000,
+          "target": "parent"
+        },
+        {
+          "index": 8,
+          "phase": "intervention",
+          "actor": "admin",
+          "method": "POST",
+          "path": "auth/token/revoke-orphan",
+          "status": 400,
+          "started_ns": 1049421843000000,
+          "finished_ns": 1049421843000000,
+          "target": "parent"
+        },
+        {
+          "index": 9,
+          "phase": "intervention",
+          "actor": "worker",
+          "method": "GET",
+          "path": "cubbyhole/recovery",
+          "status": 403,
+          "started_ns": 1049421843000000,
+          "finished_ns": 1049421843000000
+        }
+      ],
+      "collection_error": "RuntimeError: Revocation failed: status 400"
+    }
+  ],
+  "limits": [
+    "Reference policies, not LLM behavior.",
+    "Synthetic checkpoint worker, not a production incident.",
+    "Single-copy dependency and recovery authority are fixture assumptions.",
+    "Security probes test access at settle, not absence of earlier access.",
+    "A trusted admin handoff is assumed; identity verification is not evaluated.",
+    "No deadline, continuous exposure limit, or human harm is validated."
+  ]
+}
