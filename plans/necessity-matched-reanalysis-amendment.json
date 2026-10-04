@@ -1,0 +1,13 @@
+{
+  "stage": "post_query_read_only_reanalysis_amendment",
+  "parent_study_id": "1861420353a38a236e63da38d444635b47cf64751fd2391112ef5f55470d6cc2",
+  "reason": "DeepSeek retained reasoning exceeded the frozen input byte gate after one action, before a second reservation.",
+  "change": "Accept this reproducible local pre-request RuntimeError as an unscored collection stop; replay all stored prefix receipts.",
+  "matrix_requests_scoring_changed": false,
+  "not_preregistered": true,
+  "source_sha256": {
+    "benchmark/necessity_matched_reanalysis_v2.py": "ae84fbd9640d0ae8592ee44f2f09496f67186ecd19a79099c2c597ec77b0d5b8",
+    "tests/test_necessity_matched_reanalysis_v2.py": "91c8e62d5268c6fcb141909d207d251b6f88e2ddd4191d54e3f4c503da654c61"
+  },
+  "amendment_sha256": "29ab1469e45e2b507ab9003e1983c97c025c57e61b9d60f6aefd1d63d4b2d715"
+}
