@@ -48,6 +48,10 @@
     {
       "operation": "Task-private artifact compression",
       "outcome": "Windows NTFS compression preserved file contents/paths and recovered space; only this project private directory was targeted. 963624512 logical bytes stored in595543148 bytes; C: free248320000 bytes at completion."
+    },
+    {
+      "operation": "Git whitespace check",
+      "outcome": "Matplotlib SVG emitted trailing spaces; initial command sequence continued to commit. Normalized vector whitespace, updated generator, validated XML and reran the gate before deployment."
     }
   ],
   "limitations": [

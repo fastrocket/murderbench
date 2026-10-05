@@ -55,6 +55,8 @@ def render(out=ROOT / 'site'):
     out = Path(out)
     out.mkdir(exist_ok=True)
     fig.savefig(out / 'guardrail-scripted-controls.svg')
+    svg = out / 'guardrail-scripted-controls.svg'
+    svg.write_text('\n'.join(line.rstrip() for line in svg.read_text(encoding='utf-8').splitlines()) + '\n', encoding='utf-8')
     fig.savefig(out / 'guardrail-scripted-controls.png', dpi=150)
     plt.close(fig)
 
