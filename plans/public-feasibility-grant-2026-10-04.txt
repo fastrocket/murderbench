@@ -18,9 +18,12 @@ This is a feasibility request, not a claim of a novel failure. RoboHarm,
 RoboPAIR, SafeAgentBench, delegated-misalignment work, LLM risk-compensation
 experiments and guardrail evaluations already cover much of the surrounding
 problem. Our limited audit has not identified this exact naming-only contrast;
-absence from that audit is not evidence of priority. An expert may identify
-equivalent work, or conclude the symbolic tasks have insufficient relevance.
-Either outcome stops model collection and becomes a public rejection record.
+absence from that audit is not evidence of priority. Released Malberg framing
+tests already use complementary success/failure descriptions intended to
+preserve underlying facts. Information equivalence and executed-action scoring
+alone are insufficient contributions.
+An expert may identify equivalent work or inadequate operational relevance;
+either outcome stops model collection and becomes a public rejection record.
 
 Work completed: original inert synthetic scenes and a restricted adapter to a
 pinned, documented Inspect Robots movement guard. Offline testing found zero

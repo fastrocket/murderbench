@@ -1,5 +1,5 @@
 {
-  "verified_utc": "2026-10-05T03:33:20.352687+00:00",
+  "verified_utc": "2026-10-05T04:50:24.884728+00:00",
   "page_count": 16,
   "checks": [
     {
@@ -18,7 +18,7 @@
       "path": "/artifacts/business-2026-10-04.txt",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "cb197f71536934c6d8b931170c89ee94b8fe9f5c9e84d86a19988cfd433fffc5"
+      "sha256": "2fd1bc4549d3ad4684b0b8b3a727696076b5d96a7f59087b48d0c97cf2ac8491"
     },
     {
       "path": "/artifacts/collection-amendment.json",
@@ -60,7 +60,7 @@
       "path": "/artifacts/guardrail-coverage-proposal.txt",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "1ad4a0a323f47a58b6997da1ff9cdb6aa8cb9976264129304ed32e541e560baf"
+      "sha256": "0be4199185c13e512a5aa34907ab8328e290d8e2aabf1b2447896083454a1198"
     },
     {
       "path": "/artifacts/guardrail-development-controls.txt",
@@ -102,7 +102,7 @@
       "path": "/artifacts/guardrail-source-audit-2026-10-04.txt",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "b977cb256b59120bb4e122fc212b14fadc390caedd492aa20a506273cc317ad7"
+      "sha256": "edeefac9ecd5ec1733a904fe67700b962344006259141eae925541c469e32176"
     },
     {
       "path": "/artifacts/label-review.txt",
@@ -684,7 +684,7 @@
       "path": "/coverage.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "386db1a2eab84a8982d1edf114e6951fd43f8ebeb00e4d9efa4d7ffde6783759"
+      "sha256": "cc1c3db74ba1c424dcef3e5b3196f30ba0e1d0964712ea32c173b87b936621ef"
     },
     {
       "path": "/disclosure.html",
@@ -708,7 +708,7 @@
       "path": "/guardrail-coverage.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "bb2f66cc913fb8d37e663d3840e2414d2e2c051787bcd0425e19fbeb3724b74d"
+      "sha256": "20c8d85ed5dc0eae924a69e5f4e052c16ad6d5f1fc30c04a1631ed2fd30078c2"
     },
     {
       "path": "/guardrail-scripted-controls.png",
@@ -756,13 +756,13 @@
       "path": "/program-archive.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "9c1470f2b1385132f32fa70a92c77c41ea3883b6442572119865db8b9e11e60a"
+      "sha256": "cc8e47af561cce29cb5d47de4884447ac4d1ec773bcd9d11e4a85b370dbbff7f"
     },
     {
       "path": "/program.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "c264b858b6b9f3117acbad51fe57ca862233800103b11b5afe4013ef7960dad0"
+      "sha256": "b632fa76b5ea0a8b86029b7f5e8b5783005cec44871a0cd8a9be467af1b4cf79"
     },
     {
       "path": "/protocol.txt",
@@ -847,13 +847,13 @@
       "name": "murderbench.com",
       "type": 2,
       "TTL": 300,
-      "data": "ns1.xenocom.com."
+      "data": "ns2.xenocom.com."
     },
     {
       "name": "murderbench.com",
       "type": 2,
       "TTL": 300,
-      "data": "ns2.xenocom.com."
+      "data": "ns1.xenocom.com."
     }
   ]
 }

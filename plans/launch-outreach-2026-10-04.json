@@ -4,6 +4,26 @@
   "claims": "Proposed causal contrast and review request; no novel finding, lab relationship, secured reviewer or award.",
   "emails": [
     {
+      "route": "malberg-closest-work-review",
+      "to": "simon.malberg@tum.de",
+      "subject": "Closest-work question before collection: guard naming / executed effects",
+      "recorded_utc": "2026-10-05 04:30:57 UTC",
+      "delivery": "Gmail returned SENT",
+      "reply_status": "No response or review commitment recorded",
+      "source": "https://soc.cit.tum.de/persons/simon-malberg/",
+      "claims": "Released framing overlap acknowledged; asks whether comparison is established and useful for deployment. No novel model finding, endorsement or funding request."
+    },
+    {
+      "route": "frontier-model-forum-aisf",
+      "to": "info@frontiermodelforum.org",
+      "subject": "AISF fit / reviewer-routing question: partial guard coverage study",
+      "recorded_utc": "2026-10-05 04:24:38 UTC",
+      "delivery": "Gmail returned SENT",
+      "reply_status": "No substantive reply recorded",
+      "source": "https://www.frontiermodelforum.org/contact/",
+      "claims": "Fit/reviewer-routing inquiry for a contingent feasibility proposal; no grant application, reviewer agreement or award."
+    },
+    {
       "route": "openrouter",
       "to": "support@openrouter.ai",
       "cc": "linh@ngo.net",
@@ -153,7 +173,8 @@
       "date": "2026-10-04",
       "claims": "Research proposal, no measured effect, requests critique and support",
       "graphic": "Proposed experiment design in link preview; no rates represented",
-      "clarification": "Edited and verified after refresh: precise per-step movement limits; risk-compensation prior work acknowledged. Public source audit records the wording correction."
+      "clarification": "Edited and verified after refresh: precise per-step movement limits; risk-compensation prior work acknowledged. Public source audit records the wording correction.",
+      "observed_reach": "Read-only inspection on2026-10-04 showed6 impressions for this specific post and no visible method comments. Not qualified customer demand, independent review or evidence of viral reach; unrelated sidebar totals excluded."
     },
     {
       "channel": "X",

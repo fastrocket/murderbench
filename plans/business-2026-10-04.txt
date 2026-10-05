@@ -62,7 +62,8 @@ Read-only reconciliation on 2026-10-04: legacy accounted 36.4007675376;
 native ledger 6.293099774; total 42.6938673116; remaining 57.3061326884.
 Accounted liability includes reservations; it is not all confirmed API spend.
 Awarded credits, if any, must be separately logged and must not silently expand
-cash spending authority. No new model charges have been made for this plan.
+model API authorization. Credit-funded usage also counts toward the lifetime
+cap. No new model charges have been made for this plan.
 
 SUCCESS METRICS
 Evidence: independently replayed controls; fresh-case repair effect and cost to

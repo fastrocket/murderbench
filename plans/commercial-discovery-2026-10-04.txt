@@ -97,4 +97,34 @@ Demand, external critique and eligibility remain unproven. Record actual
 responses and objections before changing the offer or counting conversions.
 Research collection still requires construct/overlap review, a complete frozen
 protocol and provider clearance. These outreach requests do not remove the gates.
-Cash API cap remains USD100 including outstanding reservations. No new queries.
+Model API cap remains USD100 including outstanding reservations and credit-funded
+usage. No new queries.
+
+LANGFUSE / CLICKHOUSE: A CONCRETE PARTNER PATH, PREREQUISITES UNRESOLVED
+https://langfuse.com/partners
+https://clickhouse.com/partners/become-partner
+Langfuse now routes partner participation through ClickHouse House Mates.
+The published path includes evaluation strategy, datasets and experiments, but
+requires hands-on delivery evidence; learning material alone is no endorsement.
+No Langfuse integration, course completion, customer reference or certified
+ClickHouse expertise is claimed by MurderBench.
+
+The official partner form was inspected, not filled/submitted. Required facts
+include company size, cloud preference, ClickHouse experience, certification
+count, existing opportunity and authorized agreement-signatory details. These
+cannot be inferred from the public company page or a founder's profile. The
+general contact route at https://clickhouse.com/company/contact?loc=footer was
+also inspected; it requires a phone number not provided or present on the
+operator's primary public page. No dummy number or guessed email was used.
+No partner agreement, data access, trial, cloud account or purchase was accepted.
+This is a possible services channel, not a qualified buyer, referral or award.
+
+PUBLICITY / REVIEW READOUT
+The specific LinkedIn proposal page displayed6 impressions at this check and
+no visible method comments. Impressions may include our own visits; the profile
+sidebar's aggregate impressions are not this post's reach. No qualified inbound
+lead, artifact reuse or novel result is established. A repeat post was not made
+within the same hour. The business-mailbox check found automatic support
+receipts, with no substantive reply to the recent outreach. The closest-work
+author was contacted for a reason to reject or materially improve the candidate,
+not for an endorsement. See guardrail-source-audit-2026-10-04.txt.

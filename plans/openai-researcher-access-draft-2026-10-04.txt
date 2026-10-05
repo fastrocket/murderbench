@@ -26,6 +26,11 @@ We do not claim a novel model failure. RoboHarm, RoboPAIR, SafeAgentBench,
 delegated-misalignment studies, LLM risk-compensation experiments and guardrail
 evaluations cover substantial surrounding ground. Our limited audit has not
 identified the exact naming-only comparison; that is not proof of priority.
+The released Malberg framing tests already use complementary success/failure
+descriptions intended to preserve underlying facts. Information equivalence and
+action scoring alone do not establish a contribution; the study must change a
+concrete guard deployment
+decision beyond that established framing result.
 Independent human review of overlap, task relevance and construct validity is
 pending. Equivalent prior work or inadequate operational relevance would stop
 collection and be published as a rejection.

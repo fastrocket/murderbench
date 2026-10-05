@@ -3,6 +3,12 @@ Static release procedure / 2026-10-04
 Copy only the reviewed site/ directory to an isolated /tmp/murderbench-* staging
 directory on uncen.ai. Never include private/, environment files or API ledgers.
 Verify the staged index and artifact list before copying to /var/www/murderbench.
+Inspect ownership of existing destination files as well as the root directory.
+Some earlier artifacts can be root-owned even when the directory belongs to
+linh. Use the existing authorized noninteractive sudo access for the bounded
+copy and permission normalization when required. A permission-denied copy can
+leave a mixed release; complete the copy and verify public byte identity before
+calling it a successful deployment.
 
 Windows scp may create staging directories with mode 0700. A cp -a operation
 preserves that mode and can prevent the www-data FastAPI service from traversing

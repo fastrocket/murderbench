@@ -9,6 +9,26 @@
   "stage": "proposal and targeted outreach; no awards",
   "routes": [
     {
+      "id": "malberg-closest-work-review",
+      "kind": "primary-author method critique / overlap review",
+      "source": "https://aclanthology.org/2025.nlp4dh-1.50/",
+      "implementation": "https://github.com/simonmalberg/cognitive-biases-in-llms",
+      "contact": "simon.malberg@tum.de",
+      "contact_source": "https://soc.cit.tum.de/persons/simon-malberg/",
+      "verified": "2026-10-04",
+      "status": "method inquiry sent; no reply or review commitment",
+      "caveat": "Released framing tests already use complementary success/failure descriptions intended to preserve underlying facts; generated opposite metrics were not independently validated here. A guard naming contrast and executed-action scoring alone do not establish novelty or usefulness. No funding request or endorsement."
+    },
+    {
+      "id": "langfuse-housemates",
+      "kind": "conditional technical delivery / commercial partner route",
+      "source": "https://langfuse.com/partners",
+      "application_source": "https://clickhouse.com/partners/become-partner",
+      "verified": "2026-10-04",
+      "status": "form inspected; not filled or submitted",
+      "caveat": "Requires company size, experience, certifications, cloud preference and authorized agreement signatory facts not verified. No integration, certification, customer reference, partnership or grant claimed. Separate partner agreement follows review. General contact form also requires an unprovided business phone."
+    },
+    {
       "id": "frontier-model-forum-aisf",
       "kind": "narrowly scoped frontier safety funding / method routing",
       "source": "https://www.frontiermodelforum.org/ai-safety-fund/",
@@ -269,6 +289,13 @@
     }
   ],
   "submissions": [
+    {
+      "route": "malberg-closest-work-review",
+      "date": "2026-10-04",
+      "recorded_utc": "2026-10-05 04:30:57 UTC",
+      "type": "closest-work / method critique inquiry email",
+      "outcome": "Gmail returned SENT; no response, endorsement, review commitment or novel model finding"
+    },
     {
       "route": "frontier-model-forum-aisf",
       "date": "2026-10-04",

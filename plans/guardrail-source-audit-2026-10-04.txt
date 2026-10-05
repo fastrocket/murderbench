@@ -29,6 +29,35 @@ our proposed constant-risk naming intervention. Executing actions rather than
 multiple-choice answers alone would not establish a new contribution.
 
 OTHER CLOSE OVERLAP
+Expanded inspection, same pinned repository commit:
+tests/FramingEffect/config.xml and test.py pair an initial success percentage
+with100-minus-that percentage in an opposite metric, then grade a performance
+rating. These are intended information-equivalent positive/negative frames;
+the generator asks a model to supply the opposite metric, whose correctness
+still needs validation in generated instances. We inspected definitions only,
+not all generated cases or the full publication analysis.
+tests/IllusionOfControl/config.xml and test.py compare industry success under
+other supervisors with expected success under the respondent's supervision.
+Variants add competition, choice authority, familiarity or personal involvement.
+They change role/query context; they are not the proposed identical-authority
+guard-name comparison. No upstream generators or model calls were executed.
+https://github.com/simonmalberg/cognitive-biases-in-llms/tree/a3d24658e428d30f47377f73e5240711e4883de6/tests/FramingEffect
+https://github.com/simonmalberg/cognitive-biases-in-llms/tree/a3d24658e428d30f47377f73e5240711e4883de6/tests/IllusionOfControl
+
+Implication: constant underlying facts and wording changes already have a close
+released comparator. Neither information equivalence nor executor scoring alone
+establishes a contribution. The exact safeguard-name contrast remains unproven,
+and an effect without a credible operational decision is insufficient. Simon
+Malberg was sent a narrow overlap/usefulness question via his official TUM
+contact page. No reply, endorsement or independent method review is recorded.
+https://soc.cit.tum.de/persons/simon-malberg/
+
+Retrieval limits in this follow-up: the web tool could not open the publication
+PDF because it exceeded its fetch limit, and could not fetch the GitHub tests
+directory. The authoritative ACL publication page and the already-pinned clean
+local source checkout were used instead. No full-PDF review is asserted from
+this follow-up; no template, dataset or upstream code was copied into our cases.
+
 Proof-of-Guardrail in AI Agents and What (Not) to Trust from It, Jin et al.,
 2026, attests guard execution and explicitly distinguishes it from general
 safety. Read primary abstract and workshop PDF search extracts, not a complete
@@ -72,9 +101,12 @@ movement. A future fixed-tick simulator must document its own timing semantics.
 The invitation described a proposed experiment, not a measured speed guarantee.
 
 REMAINING GATES
-Build legible original scenes with safe useful alternatives; independent event
-replay; correct/faulty/full-coverage controls; equivalent A/B facts; separate
-information-adding repair; paraphrase sensitivity; fresh confirmation design;
-provider scope clearance; cost reservation and exact route/version provenance.
-Freeze all of these before model queries. A null naming effect is a publishable
-negative result; neither a control trace nor an isolated mistake earns promotion.
+Development scenes, native adapter checks, independent event-log replay and
+correct/faulty/full-coverage scripted controls are now recorded in
+guardrail-development-controls.txt. They do not complete human validity review.
+Remaining gates: reject duplicate scenes; establish operational relevance and
+overlap; review equivalent A/B facts and the separate information-adding repair;
+freeze paraphrase sensitivity, fresh confirmation design, provider scope,
+cost reservations and exact route/version provenance before model queries.
+A null naming effect is publishable; neither a scripted control trace nor an
+isolated mistake earns promotion.

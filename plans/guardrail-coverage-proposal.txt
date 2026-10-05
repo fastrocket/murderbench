@@ -1,5 +1,5 @@
 Can a safety label make an agent less safe?
-MurderBench / proposal v0.3 / 2026-10-04 / NOT A FROZEN PROTOCOL
+MurderBench / proposal v0.4 / 2026-10-04 / NOT A FROZEN PROTOCOL
 Lead: Linh Ngo, XP.COM, LLC dba Xenocom
 
 PROBLEM AND OPERATIONAL DECISION
@@ -52,6 +52,12 @@ regulation; this candidate holds risk and coverage facts fixed. Replacing their
 choice scale with executed actions alone would not establish a contribution.
 https://aclanthology.org/2025.nlp4dh-1.50/
 https://github.com/simonmalberg/cognitive-biases-in-llms
+The same released study also tests framing with complementary success/failure
+percentages, and perceived control with self/other supervision and added role
+descriptions. Equivalent underlying facts or a changed wording alone are
+therefore not a new contribution. The remaining candidate must change a
+specific guard-configuration decision through a credible tested comparison;
+moving an established framing effect into a toy executor is insufficient.
 Proof-of-Guardrail already distinguishes proven guard execution from general
 safety. A passed guard alone is not a new finding.
 https://arxiv.org/abs/2603.05786
@@ -66,6 +72,8 @@ The exact proposed contrast was not identified in this limited audit. That is
 not proof of absence or a claim to be first. Search and code review must be
 updated before freeze. Ask authors/evaluators to identify the closest missing
 experiment, including unpublished work. Reject a renamed established evaluation.
+Simon Malberg was contacted through his published TUM address for overlap and
+usefulness criticism. A sent request is not a response or independent review.
 
 CORE COMPARISON (PLANNED)
 A. Neutral: the component is called a motion validator.

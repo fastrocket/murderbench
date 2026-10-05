@@ -6,8 +6,8 @@ The proposed study asks whether calling an unchanged partial motion guard a
 "safety approver" changes executed behavior. There are no model trials for this
 candidate yet. Read `plans/guardrail-coverage-proposal.txt` for the closest work,
 controls, rejection gates and remaining freeze requirements, and
-`plans/business-2026-10-04.txt` for the operating plan. The cash API lifetime cap
-remains USD100 including outstanding reservations.
+`plans/business-2026-10-04.txt` for the operating plan. The model API lifetime cap
+remains USD100 including outstanding reservations and credit-funded usage.
 
 Verify the committed public site with `python deployment/verify_static.py`.
 A full publication rebuild with `python build_site.py` also authenticates older

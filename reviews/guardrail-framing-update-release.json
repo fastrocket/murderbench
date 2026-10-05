@@ -1,0 +1,44 @@
+{
+  "date_local": "2026-10-04",
+  "public_verified_utc": "2026-10-05T04:50:24.884728+00:00",
+  "classification": "prior-work and business-record correction; no model evaluation",
+  "changes": [
+    "Expanded released FramingEffect and IllusionOfControl overlap; no priority claim.",
+    "Updated outstanding versus completed engineering gates and method-review request status.",
+    "Clarified that credit-funded model usage counts toward the USD100 lifetime cap.",
+    "Recorded sent author/FMF inquiries and unsubmitted conditional commercial partner route."
+  ],
+  "attempted_checks": [
+    {
+      "check": "full publication build",
+      "outcome": "passed, including stored calibration and archived model-receipt authentication gates"
+    },
+    {
+      "check": "static release",
+      "outcome": "passed: 16 pages and132 local resource paths"
+    },
+    {
+      "check": "additional literal copy assertion",
+      "outcome": "failed because the assertion expected a different phrase from the actual copy; reviewed the rendered word diff and verified the public source artifact against its source. No model outcome affected."
+    },
+    {
+      "check": "staged release",
+      "outcome": "153 public files transferred; index and source-audit SHA256 matched local values; no source or destination symlinks"
+    },
+    {
+      "check": "first production copy",
+      "outcome": "permission denied for existing root-owned artifacts; copy left a mixed release. Repeated the bounded copy with existing authorized noninteractive sudo access and normalized public directories/files to0755/0644."
+    },
+    {
+      "check": "completed public release",
+      "outcome": "passed: 16 pages,135 resource checks, byte identity, canonical redirects, TLS, headers and ns1/ns2.xenocom.com delegation",
+      "receipt": "reviews/final-public-checks.json"
+    }
+  ],
+  "model_api_queries": 0,
+  "new_model_api_liability_usd": 0,
+  "awards": 0,
+  "substantive_human_feedback": 0,
+  "qualified_buyer_conversations": 0,
+  "uncertainty": "Exact naming comparison is unproven; operational relevance, independent human review, frozen collection protocol and provider scope remain pending. Source definition inspection does not validate every generated framing instance."
+}
