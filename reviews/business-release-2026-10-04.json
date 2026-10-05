@@ -11,7 +11,7 @@
   "frozen_source_validation": "original source/catalog and recovery registrations passed",
   "public_verification": {
     "pages": 16,
-    "resources": 125,
+    "resources": 127,
     "redirects": "passed",
     "tls": "passed",
     "headers": "passed",
@@ -41,5 +41,11 @@
     "model_queries": 0,
     "claim": "Known coverage boundary only; full replay/evaluation still pending"
   },
-  "closest_work_update": "Released RiskCompensation implementation inspected; broad novelty rejected, exact constant-fact naming contrast remains provisional."
+  "closest_work_update": "Released RiskCompensation implementation inspected; broad novelty rejected, exact constant-fact naming contrast remains provisional.",
+  "ci_confirmation": {
+    "commit": "4de68e36754839ad6810efdb780601c0f3e2fe28",
+    "status": "success",
+    "tests_passed": 232,
+    "run": "https://github.com/fastrocket/murderbench/actions/runs/37257349567"
+  }
 }

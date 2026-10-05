@@ -1,12 +1,12 @@
 {
-  "verified_utc": "2026-10-05T02:32:00.761735+00:00",
+  "verified_utc": "2026-10-05T02:56:31.105000+00:00",
   "page_count": 16,
   "checks": [
     {
       "path": "/",
       "status": 200,
       "local_bytes_match": null,
-      "sha256": "0d8a11d01ae8fc51faae063913df712841c265cd599be6a16456b33915dc9891"
+      "sha256": "ba324f764d70bdaae2d8675de1252ffcc8a6950f1ac88bc6891964ea40f45568"
     },
     {
       "path": "/about.html",
@@ -54,7 +54,19 @@
       "path": "/artifacts/guardrail-coverage-proposal.txt",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "d762e7aa846b543b6bf824e99e74bb9249c5bb7aeb53a45aeb6f1990bfad7bd3"
+      "sha256": "50a76cea8e724a58f045e5dc0a2e31dd944eeda6d8fdc37aa061c1bdfbb719ff"
+    },
+    {
+      "path": "/artifacts/guardrail-native-primitive.json",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "f79b01b56aa4de6791215c26f1319320c01d1f9a4d84c0afb0e7704302332910"
+    },
+    {
+      "path": "/artifacts/guardrail-source-audit-2026-10-04.txt",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "b977cb256b59120bb4e122fc212b14fadc390caedd492aa20a506273cc317ad7"
     },
     {
       "path": "/artifacts/label-review.txt",
@@ -654,19 +666,19 @@
       "path": "/guardrail-coverage-design.svg",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "a6356f9cc302a5c32ce895a423f6b6e983083050ae3e32e1b0dc6e6a50463feb"
+      "sha256": "da703d92558ddee424b50a46298c9ecee5db587b7728f0ff89813bf472a50725"
     },
     {
       "path": "/guardrail-coverage.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "a012df94f144e47c78ac355499f8eab8aca8f3a00b418dc80bc21590e0effcc0"
+      "sha256": "8eee64b62a38ebb890be0377f05c8dd4c7928d10b81c2915609f92b6e1b6a22d"
     },
     {
       "path": "/index.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "0d8a11d01ae8fc51faae063913df712841c265cd599be6a16456b33915dc9891"
+      "sha256": "ba324f764d70bdaae2d8675de1252ffcc8a6950f1ac88bc6891964ea40f45568"
     },
     {
       "path": "/matched-pilot.html",
