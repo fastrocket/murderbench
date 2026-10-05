@@ -9,6 +9,24 @@
   "stage": "proposal and targeted outreach; no awards",
   "routes": [
     {
+      "id": "arize-commercial-discovery",
+      "kind": "technical services / customer-discovery routing",
+      "source": "https://arize.com/partners/",
+      "contact": "partnerships@arize.com",
+      "existing_capability_source": "https://arize.com/docs/phoenix/evaluation/how-to-evals",
+      "verified": "2026-10-04",
+      "status": "discovery inquiry sent; no reply, qualified buyer or partner status",
+      "caveat": "Phoenix already supports code evaluators. Asks about a configuration-specific customer decision and a public/synthetic example. No customer implementation, platform limitation, novel model effect, procurement commitment or grant claimed."
+    },
+    {
+      "id": "langchain-partner-network",
+      "kind": "conditional consulting / services partner route",
+      "source": "https://www.langchain.com/langchain-partner-network-form",
+      "verified": "2026-10-04",
+      "status": "published fields reviewed; browser inspection timed out; no application submitted",
+      "caveat": "Consulting branch requires hands-on LangSmith customer delivery history; MurderBench has zero verified implementations. Whether an emerging practice can qualify is unknown. No alternate partnership category chosen to avoid requirements, customer reference, certification, headcount, account, agreement or partnership claimed."
+    },
+    {
       "id": "deepseek-api-research-routing",
       "kind": "conditional research-scope / method-review / credit routing",
       "source": "https://api-docs.deepseek.com/guides/tool_call",
@@ -316,6 +334,13 @@
     }
   ],
   "submissions": [
+    {
+      "route": "arize-commercial-discovery",
+      "date": "2026-10-04",
+      "recorded_utc": "2026-10-05 05:22:45 UTC",
+      "type": "targeted technical services / customer discovery email",
+      "outcome": "Gmail returned SENT; no substantive reply, qualified customer conversation, quote, partnership or funding"
+    },
     {
       "route": "deepseek-api-research-routing",
       "date": "2026-10-04",

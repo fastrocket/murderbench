@@ -4,6 +4,16 @@
   "claims": "Proposed causal contrast and review request; no novel finding, lab relationship, secured reviewer or award.",
   "emails": [
     {
+      "route": "arize-commercial-discovery",
+      "to": "partnerships@arize.com",
+      "subject": "MurderBench: customer discovery for guard configuration evaluations",
+      "recorded_utc": "2026-10-05 05:22:45 UTC",
+      "delivery": "Gmail returned SENT",
+      "reply_status": "No reply or buyer qualification recorded",
+      "source": "https://arize.com/partners/",
+      "claims": "One-workflow guard configuration decision; existing Phoenix code evaluators acknowledged; AI-assisted prototype and pending human review/freeze disclosed. No Arize implementation, customer data request, partner status or novel finding claimed."
+    },
+    {
       "route": "deepseek-api-research-routing",
       "to": "api-service@deepseek.com",
       "subject": "MurderBench: review / credit routing for an isolated agent-guard study",

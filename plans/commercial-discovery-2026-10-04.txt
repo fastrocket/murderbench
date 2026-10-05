@@ -1,6 +1,6 @@
 MurderBench commercial discovery / October 4, 2026 (Mountain time)
 Lead: Linh Ngo. Operator: XP.COM, LLC dba Xenocom.
-Status: two targeted emails sent and one form submission confirmed. No customer,
+Status: three targeted emails sent and one form submission confirmed. No customer,
 qualified conversation, credit award, endorsement, contract or revenue yet.
 
 THE OFFER TO VALIDATE
@@ -128,3 +128,49 @@ within the same hour. The business-mailbox check found automatic support
 receipts, with no substantive reply to the recent outreach. The closest-work
 author was contacted for a reason to reject or materially improve the candidate,
 not for an endorsement. See guardrail-source-audit-2026-10-04.txt.
+
+ARIZE / LANGCHAIN SERVICES DISCOVERY
+Arize's official https://arize.com/partners/ publishes partnerships@arize.com
+and a global services network. Phoenix already supports deterministic code
+evaluators: https://arize.com/docs/phoenix/evaluation/how-to-evals .
+That capability is acknowledged; no scoring/platform gap or special integration
+is asserted. A proposed configuration-specific execution comparison could be
+complementary only if a real owner identifies an unresolved operational decision.
+
+One email sent under Linh Ngo's name at 2026-10-05 05:22:45 UTC, subject:
+MurderBench: customer discovery for guard configuration evaluations
+It requests a 20-minute discovery conversation and a public/synthetic example,
+not private customer data. The AI-assisted demonstration has no model results
+for this study; human method review and protocol freeze remain pending. Zero
+verified Arize customer implementations and no partner status are disclosed.
+Exact draft and Gmail SENT receipt are stored privately. An exact-recipient,
+MurderBench-subject SENT search found no prior message before the single send.
+No reply, qualified conversation, quote, customer, agreement or funding yet.
+
+LangChain's official form at
+https://www.langchain.com/langchain-partner-network-form
+was read through the web tool. Consulting/SIs asks for hands-on LangSmith
+customer implementation count and SaaS/self-hosted delivery history. MurderBench
+has zero verified implementations. Whether the network accepts an emerging
+practice is unconfirmed; this is not a qualified service partner or buyer.
+The alternate ISV branch was not chosen to avoid the experience requirement.
+No customer case study, certification or headcount was invented.
+
+Browser attempts failed before field entry or submission: a batched session-name,
+new-tab and navigation operation timed out/reset; recovery found no LangChain
+application tab. A separate new-tab operation then succeeded, but its navigation
+timed out/reset. A subsequent Chrome-binding recovery also timed out/reset.
+No form values, Submit click, login, account creation, CAPTCHA or terms acceptance.
+Published form source includes success/error text; neither is a live submission
+receipt. The application is held, not submitted or declared ineligible. Existing
+pending applications' live handoff marks could not be renewed in this failed
+browser session; their saved drafts and unresolved user questions remain.
+
+Apollo's free organization lookup identified Arize AI/arize.com and
+LangChain/langchain.com as company candidates. It does not establish an individual
+decision owner, customer demand or partnership. People-search metadata was
+inspected, but its credit cost was not established, so no people search,
+enrichment, email/phone unlock, CRM mutation or paid action was performed.
+
+This update adds no model calls, spending, reservations or collection permission.
+The existing USD100 lifetime API cap and research gates remain in effect.
