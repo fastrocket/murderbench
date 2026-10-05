@@ -9,3 +9,4 @@
 .fine{overflow-wrap:anywhere}
 .matched-figure{margin:0}
 .matched-figure img{display:block;width:100%;max-width:1100px;height:auto}
+.reading figure{margin:30px 0}.reading figure img{display:block;width:100%;height:auto}.reading figcaption{font-size:12px;line-height:1.6;color:var(--muted);margin-top:12px}

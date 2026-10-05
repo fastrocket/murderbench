@@ -92,18 +92,27 @@
     },
     {
       "id": "xai",
-      "kind": "collaboration channel discovery",
-      "source": "https://x.ai/safety",
-      "status": "funding route not identified",
+      "kind": "API credits / evaluation partnership routing",
+      "source": "https://docs.x.ai/developers/faq/general",
+      "status": "verified general route; tailored inquiry prepared",
       "verified": "2026-10-04",
-      "caveat": "safety@x.ai is for harmful behavior reports; no new finding justifies a bug report or funding assumption"
+      "caveat": "Official general/custom-pricing contact, not a confirmed grant program or funding team; ask for routing. No safety report or sponsorship entitlement.",
+      "contact": "sales@x.ai"
     },
     {
       "id": "paid-evaluation-buyers",
       "kind": "commercial pilot",
       "source": "https://murderbench.com/services.html",
-      "status": "offer preparation",
+      "status": "public service offer; buyer validation not established",
       "caveat": "No buyers, contracts or revenue yet; qualify a concrete workflow and decision before quoting"
+    },
+    {
+      "id": "google-gemini-academic",
+      "kind": "academic API credits",
+      "source": "https://ai.google.dev/gemini-api/docs/gemini-for-research",
+      "verified": "2026-10-04",
+      "status": "hold: required academic affiliation not established",
+      "caveat": "Published eligibility requires academic institution/research-organization affiliation. Do not claim academic status for XP.COM, LLC; a genuine qualified replication collaboration could be explored."
     }
   ],
   "submissions": [

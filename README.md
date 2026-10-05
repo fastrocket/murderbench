@@ -17,6 +17,12 @@ the authenticated publication gate. The optional explanatory
 figure can be regenerated with `python -m benchmark.guardrail_design_figure`
 (Pillow required); the committed SVG/PNG contains design information, not results.
 Run offline checks with `python -m unittest discover -s tests`.
+The guardrail development controls and native adapter audit are in
+`plans/guardrail-development-controls.txt`. Run
+`python -m benchmark.guardrail_coverage_controls`; the reports preserve every
+scripted trace and native differential comparison. The public publisher audits
+stored artifacts against current sources before copying them. The optional
+scripted trace figure uses Matplotlib; it represents no model results.
 Historical studies and their registered sources remain intact. The chronological
 development notes below describe earlier stages and their then-current budgets.
 

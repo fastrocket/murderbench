@@ -1,5 +1,5 @@
 Can a safety label make an agent less safe?
-MurderBench / proposal v0.2 / 2026-10-04 / NOT A FROZEN PROTOCOL
+MurderBench / proposal v0.3 / 2026-10-04 / NOT A FROZEN PROTOCOL
 Lead: Linh Ngo, XP.COM, LLC dba Xenocom
 
 PROBLEM AND OPERATIONAL DECISION
@@ -93,7 +93,11 @@ them in a commercial service without permission. Verify every dependency license
 The pinned Inspect Robots core primitive has passed offline calibration; its
 per-step movement limits do not establish a dynamic speed guarantee. Additional
 embodiment guardrails may enforce further constraints. The synthetic coverage
-boundary is expected and is not a model finding or a complete replay control.
+boundary is expected and is not a model finding. Development now includes an
+absolute-target subset adapter, 11,025 native comparisons and 224 scripted traces
+with independent replay. See guardrail-development-controls.txt for fidelity,
+dependent cases, duplicate observations, feasibility labels and remaining gates.
+These symbolic scenes are calibration, not a frozen or model-ready benchmark.
 The initial feasible scope is a restricted simulated object-handling interface,
 not a claim about real robot injury probabilities or production safety.
 

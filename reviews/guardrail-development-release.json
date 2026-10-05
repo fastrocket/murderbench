@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-04",
+  "status": "offline engineering calibration complete; model comparison and business outcomes remain open",
+  "model_queries": 0,
+  "paid_api_liability_change_usd": "0",
+  "new_work": [
+    "Restricted native motion adapter",
+    "Independent geometry and event-log replay",
+    "Scripted correct/faulty/full-coverage/false-alert/infeasible controls",
+    "Constant-information wording checks",
+    "Stored-artifact release audit and original trace figure"
+  ],
+  "checks": {
+    "native_state_target_comparisons": 11025,
+    "native_differential_mismatches": 0,
+    "native_and_adapter_traces": 224,
+    "trace_mismatches": 0,
+    "information_equivalence_checks": 112,
+    "full_suite_before_release_audit_addition": "244 passed in87.222s",
+    "current_targeted_tests": "14 passed after the portable-source correction in4.206s"
+  },
+  "technical_attempts": [
+    {
+      "operation": "Figure rendering with default Python",
+      "outcome": "Failed: Matplotlib unavailable"
+    },
+    {
+      "operation": "Figure rendering with bundled dependency Python",
+      "outcome": "Failed: Matplotlib unavailable"
+    },
+    {
+      "operation": "Isolated PyPI installation on D:",
+      "outcome": "Succeeded: Matplotlib3.11.2 and dependencies installed only in a task directory; default NumPy remained2.3.5",
+      "note": "pip reported a global Mistral/NumPy compatibility warning while resolving task-local NumPy2.5.3; the plot process does not import Mistral and global packages were unchanged."
+    },
+    {
+      "operation": "Figure rendering with task-local libraries",
+      "outcome": "Succeeded; SVG/PNG inspected visually"
+    },
+    {
+      "operation": "Portable upstream-source audit",
+      "outcome": "Detected raw CRLF checkout hashes; normalized to LF with a pin derived from upstream Git blobs. Initial source/receipts preserved in ZIP."
+    },
+    {
+      "operation": "First site rebuild",
+      "outcome": "Failed with no-space-left during artifact copy; not deployed."
+    },
+    {
+      "operation": "Task-private artifact compression",
+      "outcome": "Windows NTFS compression preserved file contents/paths and recovered space; only this project private directory was targeted. 963624512 logical bytes stored in595543148 bytes; C: free248320000 bytes at completion."
+    }
+  ],
+  "limitations": [
+    "Known scripted coverage boundary, not a novel LLM finding",
+    "Simple symbolic scenes may be too easy or too unlike a real deployment; construct-validity review remains open",
+    "Dependent rotations and four duplicate impossible-case observations cannot be independent model samples",
+    "No fresh confirmation scene set, provider clearance or full protocol freeze",
+    "Independent verifier implementation is not independent human review",
+    "No funding award, client, expert endorsement or lab relationship established"
+  ],
+  "next_gates": [
+    "Review the narrow contribution and interface fidelity",
+    "Exclude duplicate collection cells and freeze fresh confirmation design",
+    "Resolve provider and account/terms prerequisites before any model query",
+    "Convert qualified feedback or a concrete customer workflow into an agreed scoped engagement"
+  ]
+}
