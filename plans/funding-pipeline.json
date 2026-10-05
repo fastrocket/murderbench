@@ -9,6 +9,34 @@
   "stage": "proposal and targeted outreach; no awards",
   "routes": [
     {
+      "id": "e2b-credits",
+      "kind": "sandbox infrastructure credits / reviewer routing",
+      "source": "https://e2b.dev/research",
+      "alternate_source": "https://e2b.dev/startups",
+      "contact": "hello@e2b.dev",
+      "contact_source": "https://e2b.dev/contact",
+      "verified": "2026-10-04",
+      "status": "commercial entity eligibility inquiry sent; no application or award",
+      "caveat": "Research affiliation, first-time use and startup age/funding eligibility not established. New initiative within an existing LLC does not establish qualification. Listed USD20k credits are E2B infrastructure, not model API credits or cash."
+    },
+    {
+      "id": "composio-partnerships",
+      "kind": "technical collaboration / possible paid evaluation discovery",
+      "source": "https://composio.dev/partnerships",
+      "contact": "partnerships@composio.dev",
+      "verified": "2026-10-04",
+      "status": "targeted inquiry sent; demand and fit unvalidated",
+      "caveat": "Partner route verified; no expressed interest, qualified buyer, evaluation budget or agreement."
+    },
+    {
+      "id": "arcade-discovery",
+      "kind": "technical collaboration / possible paid evaluation discovery",
+      "source": "https://www.arcade.dev/contact/",
+      "verified": "2026-10-04",
+      "status": "form submission visibly confirmed; demand and fit unvalidated",
+      "caveat": "Acknowledged existing execution hooks/policy integration. No vulnerability, buyer interest, evaluation budget or agreement."
+    },
+    {
       "id": "anthropic-researcher-access",
       "kind": "API credits",
       "source": "https://support.claude.com/en/articles/9125743-what-is-the-external-researcher-access-program",
@@ -94,9 +122,10 @@
       "id": "xai",
       "kind": "API credits / evaluation partnership routing",
       "source": "https://docs.x.ai/developers/faq/general",
-      "status": "tailored routing/credits inquiry sent; awaiting response",
+      "status": "email received automatic unmonitored-mailbox reply; official form prepared, awaiting required headcount",
       "verified": "2026-10-04",
-      "caveat": "Official general/custom-pricing contact, not a confirmed grant program or funding team; ask for routing. No safety report or sponsorship entitlement.",
+      "caveat": "Published developer FAQ lists the mailbox, but its automatic reply says it is unmonitored. No human review, grant program or funding team confirmed; request through official contact form. No sponsorship entitlement.",
+      "replacement_route": "https://x.ai/contact-sales",
       "contact": "sales@x.ai"
     },
     {
@@ -117,11 +146,32 @@
   ],
   "submissions": [
     {
+      "route": "composio-partnerships",
+      "date": "2026-10-04",
+      "recorded_utc": "2026-10-05 03:40:37 UTC",
+      "type": "targeted technical/commercial discovery email",
+      "outcome": "Gmail returned SENT; no qualified conversation or agreement"
+    },
+    {
+      "route": "e2b-credits",
+      "date": "2026-10-04",
+      "recorded_utc": "2026-10-05 03:40:40 UTC",
+      "type": "commercial eligibility/reviewer-routing inquiry email",
+      "outcome": "Gmail returned SENT; no application, approval or award"
+    },
+    {
+      "route": "arcade-discovery",
+      "date": "2026-10-04",
+      "type": "targeted technical/commercial discovery form",
+      "outcome": "Visible Thank you / message-received confirmation",
+      "confirmation_url": "https://www.arcade.dev/thank-you/?id=contact-sales"
+    },
+    {
       "route": "xai",
       "date": "2026-10-04",
       "recorded_utc": "2026-10-05 03:33:47 UTC",
       "type": "credits/reviewer/partnership routing inquiry email",
-      "outcome": "Gmail returned SENT; no award or substantive feedback recorded"
+      "outcome": "Gmail returned SENT; automatic response says mailbox is unmonitored and requests are not reviewed. Official replacement form not yet submitted. No award or substantive feedback."
     },
     {
       "route": "anthropic-evaluations",
