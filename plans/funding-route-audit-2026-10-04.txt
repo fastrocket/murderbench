@@ -79,6 +79,38 @@ frontier models and has no declared FOSS licence. Do not advertise a historical
 USD100k opportunity as an available award or claim that we qualify.
 
 FOLLOW-UP AND EVIDENCE
+Additional primary checks:
+
+FRONTIER MODEL FORUM / AISF: INQUIRY, NO OPEN CALL ESTABLISHED
+https://www.frontiermodelforum.org/ai-safety-fund/
+https://www.frontiermodelforum.org/contact/
+The current managing organization describes two completed grant rounds and
+remaining support for narrowly scoped urgent research bottlenecks. A targeted
+fit/reviewer-routing question was sent through the official contact. No
+commercial qualification, exact topic fit, grant application or award is
+claimed. The legacy https://aisfund.org/funding-opportunities/ page still marks
+its2025 agent-evaluation/synthetic-content calls closed; its old transition
+language is superseded about management by the current FMF page. The old RFP
+question form was not used as a current grant application.
+
+GOOGLE DEEPMIND MULTI-AGENT2026: CLOSED AND CURRENT STUDY OUT OF SCOPE
+https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/
+The primary announcement gives August8,2026 as its application deadline.
+Its scope is interacting populations and collective effects. Our guard is a
+deterministic executor guard, not another agent. Do not relabel the present
+single-agent naming comparison as multi-agent research to create funding fit.
+No application or new current call is established by this announcement.
+
+MISTRAL: PROJECT ROUTING FOUND; LEGAL SUBMISSION GATE; NO CREDIT PROGRAMME
+https://mistral.ai/contact/
+https://mistral.ai/news/shieldstral/
+The official project-routing form explicitly agrees to Terms of Service on
+submission. It was read only, not filled/submitted or accepted. No dedicated
+research-credit/grant opportunity was established in the narrow source check.
+Shieldstral's released policy-adaptive content moderation is adjacent context,
+not our deterministic executor guard, a novel finding or a known vulnerability.
+Press and vulnerability inboxes were not repurposed as funding channels.
+
 No substantive reviewer response, eligible-buyer conversation, funding award or
 model credit award has resulted from this audit. One tailored follow-up after
 7-10 business days, then stop unless invited. An automatic email receipt is

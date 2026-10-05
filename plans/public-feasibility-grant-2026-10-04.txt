@@ -67,10 +67,11 @@ Planning budget: engineering USD4,000; independent review USD1,000; compute
 USD500; replication USD750; report/artifacts USD750; contingency USD500.
 These are estimates, not quotes, contracted people or spending commitments.
 Compute funding would need a separately approved envelope. The existing USD100
-lifetime cash API cap remains, including outstanding reservations: accounted
+lifetime model API cap remains, including outstanding reservations: accounted
 liability USD42.6938673116, remaining USD57.3061326884 at reconciliation on
 2026-10-04. Initial screening is limited to USD10 new liability within that cap.
-Neither an application nor an awarded credit expands cash authorization.
+Credit-funded model usage also counts toward this cap. Neither an application
+nor an award expands model API authorization.
 
 MurderBench is a new initiative of an existing commercial LLC, not a university,
 nonprofit, separately registered DBA or accredited lab. The public-benefit case

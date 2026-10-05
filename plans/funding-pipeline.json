@@ -9,6 +9,42 @@
   "stage": "proposal and targeted outreach; no awards",
   "routes": [
     {
+      "id": "frontier-model-forum-aisf",
+      "kind": "narrowly scoped frontier safety funding / method routing",
+      "source": "https://www.frontiermodelforum.org/ai-safety-fund/",
+      "contact": "info@frontiermodelforum.org",
+      "contact_source": "https://www.frontiermodelforum.org/contact/",
+      "verified": "2026-10-04",
+      "status": "fit/reviewer-routing inquiry sent; no grant application or award",
+      "caveat": "Current FMF page says remaining AISF funds support urgent narrowly scoped bottlenecks. It does not advertise an open application call. Commercial eligibility, exact topic fit and reviewer interest unconfirmed."
+    },
+    {
+      "id": "google-deepmind-multiagent-2026",
+      "kind": "closed funding call / topic-fit rejection",
+      "source": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
+      "verified": "2026-10-04",
+      "status": "closed August8,2026; no application",
+      "caveat": "Focuses interacting agent populations. Current guard is a deterministic non-agent guard; do not rename single-agent study as multi-agent research. No current replacement call established."
+    },
+    {
+      "id": "aisf-legacy-open-call",
+      "kind": "closed historical funding call",
+      "source": "https://aisfund.org/funding-opportunities/",
+      "alternate_source": "https://www.frontiermodelforum.org/ai-safety-fund/",
+      "verified": "2026-10-04",
+      "status": "legacy2025 calls closed; current management checked through FMF",
+      "caveat": "Old site contains transition and pending2025 decisions. Current FMF page is newer about management and two completed rounds; no legacy application submitted."
+    },
+    {
+      "id": "mistral-project-routing",
+      "kind": "conditional technical/research contact",
+      "source": "https://mistral.ai/contact/",
+      "technical_source": "https://mistral.ai/news/shieldstral/",
+      "verified": "2026-10-04",
+      "status": "read only; form not filled or submitted",
+      "caveat": "Official project-routing form explicitly accepts Terms of Service on submission. No dedicated research-credit/grant programme established. Shieldstral is content moderation, distinct from the current deterministic executor coverage study; no vulnerability or novel result asserted."
+    },
+    {
       "id": "together-research-credits",
       "kind": "model API credits",
       "source": "https://www.together.ai/research-credits-program-request",
@@ -139,13 +175,17 @@
       "id": "openai-researcher-access",
       "kind": "API credits",
       "source": "https://help.openai.com/en/articles/10139500-researcher-access-program-faq",
-      "status": "eligibility/routing inquiry sent; no application submitted",
+      "status": "eligibility inquiry sent; proposal prepared; new applicant registration pending CAPTCHA and legal acceptance; no application",
       "verified": "2026-10-04",
       "amount": "Up to USD1000 credits",
-      "caveat": "Active academic/other research organization or research nonprofit affiliation required; independent commercial initiative eligibility unconfirmed",
+      "caveat": "Academic/other research-organization affiliation required. Commercial LLC and new initiative disclosed; eligibility unconfirmed. Account creation explicitly accepts terms and requires CAPTCHA; confirmation pending. Credits would remain subject to existing USD100 lifetime API cap.",
       "timing": "Quarterly reviews; next listed month December",
       "contact": "democratic_process_grant_questions@openai.com",
-      "contact_source": "Official grant portal Help menu; administrator contact, not a verified specialist researcher inbox"
+      "contact_source": "Official grant portal Help menu; administrator contact, not a verified specialist researcher inbox",
+      "portal": "https://openai.smapply.org/prog/openai_researcher_access_program/",
+      "proposed_requested_usd": 50,
+      "draft": "plans/openai-researcher-access-draft-2026-10-04.txt",
+      "authentication": "Google sign-in reached new SurveyMonkey Apply registration. Name/profile/email scope only; account not created. Optional OpenAI API email blank; actual application fields unseen."
     },
     {
       "id": "ea-transformative-ai",
@@ -173,10 +213,10 @@
       "kind": "research permission and possible credits",
       "source": "https://openrouter.ai/terms/",
       "contact": "support@openrouter.ai",
-      "status": "account verification sent for existing ticket116675; awaiting written scope/permission and possible credits",
+      "status": "verification sent; automatic new ticket116688 received; scope/permission and credits unconfirmed",
       "verified": "2026-10-04",
       "caveat": "Prior written approval required for covered red teaming; request scope clarification and await approval before any covered queries. No published research credit entitlement identified.",
-      "verification": "Authenticated account identity differs from business connector mailbox. Message sent from registered Gmail account; received business Cc independently confirmed sender and recipients. No credentials or account changes."
+      "verification": "Authenticated account identity differs from business connector mailbox. Message sent from registered Gmail account; received business Cc independently confirmed sender and recipients. No credentials or account changes. Automatic receipt for ticket116688 references116675; ticket association is unconfirmed. Do not repeat verification based on generic autoresponse."
     },
     {
       "id": "robocurve",
@@ -229,6 +269,13 @@
     }
   ],
   "submissions": [
+    {
+      "route": "frontier-model-forum-aisf",
+      "date": "2026-10-04",
+      "recorded_utc": "2026-10-05 04:24:38 UTC",
+      "type": "funding-fit / reviewer-routing inquiry email",
+      "outcome": "Gmail returned SENT; no grant application, fit confirmation, reviewer agreement or award"
+    },
     {
       "route": "together-research-credits",
       "date": "2026-10-04",

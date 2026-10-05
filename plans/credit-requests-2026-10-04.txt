@@ -91,3 +91,49 @@ already-sent research/eligibility inquiry remains a question, not qualification.
 OUTCOME
 No substantive external method feedback, customer validation, award or new model
 result was obtained in these actions. No model API liability was added.
+
+OPENAI: PROPOSAL PREPARED; APPLICANT REGISTRATION PENDING
+Official programme route:
+https://openai.com/form/researcher-access-program/
+https://openai.smapply.org/prog/openai_researcher_access_program/
+Eligibility source:
+https://help.openai.com/en/articles/10139500-researcher-access-program-faq
+The FAQ includes active affiliation with an academic or other research
+organization, and research nonprofits. It does not establish eligibility for
+our commercial LLC/new initiative. The prior eligibility inquiry remains
+unanswered. The current draft proposes USD50 for a bounded pilot and explicitly
+discloses the operator, no academic/nonprofit status, substantial prior art,
+pending human review, missing software licence and no model result.
+See openai-researcher-access-draft-2026-10-04.txt; this is a draft, not an app.
+
+A normal Google sign-in shared name/profile/email only and reached a new
+SurveyMonkey Apply account-registration screen. First/last name are prefilled
+as Linh/Ngo. The optional OpenAI API account email is blank because it was not
+verified. Registration explicitly accepts linked account terms/privacy policy
+and includes a CAPTCHA. Neither account creation, CAPTCHA, legal acceptance nor
+the application has been completed. Actual application fields/certifications
+remain unseen. A confirmation was requested at this exact gate; none has been
+recorded. No password, key, billing or API account settings were changed.
+
+OPENROUTER: AUTOMATIC RECEIPT FOR VERIFICATION
+A new automatic email at2026-10-05T04:09:08Z created ticket116688, referencing
+the existing116675 in its subject. It repeats the generic verification notice
+and backlog text. The verification message had already been sent from the
+registered account. This is not a substantive request to send again, evidence
+of completed ticket association, written scope permission or credit approval.
+No repeat message was sent in response to the template.
+
+FRONTIER MODEL FORUM: FUNDING-FIT / REVIEWER ROUTING INQUIRY SENT
+Current funding source: https://www.frontiermodelforum.org/ai-safety-fund/
+Official contact: https://www.frontiermodelforum.org/contact/
+The current FMF page describes direct management of the AISF and two completed
+grant rounds. Remaining funds support narrowly scoped urgent research
+bottlenecks. It does not advertise an open call. One targeted inquiry to the
+official contact asked about commercial eligibility, topic fit and method
+reviewer routing. It disclosed no model findings, no independent human review,
+substantial overlap, AI assistance and unresolved licensing. The USD7,500
+four-week figure was identified as a contingent feasibility planning ask.
+Gmail returned SENT; exact text and receipt are private. This is no formal
+grant application, confirmed fit, reviewer commitment or award.
+
+No new model API charge or reservation resulted from these additional actions.

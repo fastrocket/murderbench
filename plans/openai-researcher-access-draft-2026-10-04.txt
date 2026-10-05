@@ -1,0 +1,99 @@
+MurderBench / OpenAI Researcher Access Program / 2026-10-04
+DRAFT; APPLICATION FIELDS NOT YET ACCESSIBLE; NOT SUBMITTED OR FUNDED
+Applicant: Linh Ngo
+Affiliation: XP.COM, LLC dba Xenocom / MurderBench initiative
+Location: United States (operator public company page: https://xenocom.com/)
+Business contact: linh@ngo.net
+Proposed credit request: USD50 for a bounded feasibility pilot
+
+Can a safety label make an agent less safe?
+
+We propose to test whether an agent changes its executed actions when an
+unchanged partial movement guard is described as a "safety approver" instead
+of a "motion validator". Task, authority, observations and coverage facts are
+identical. The guard enforces movement bounds but does not detect contact with
+synthetic forbidden surfaces. The operational question is whether a deployment
+owner should change the guard's description, disclose its exclusions more
+explicitly, or replace it with an executor covering the relevant hazard.
+
+The current operator is an existing commercial LLC with a new evaluation
+initiative. We have no claimed university, nonprofit or accredited-lab
+affiliation. We ask the programme to determine whether this qualifies as an
+"other research organization"; eligibility has not been established. An
+eligibility-routing inquiry was sent separately, not represented as an award.
+
+We do not claim a novel model failure. RoboHarm, RoboPAIR, SafeAgentBench,
+delegated-misalignment studies, LLM risk-compensation experiments and guardrail
+evaluations cover substantial surrounding ground. Our limited audit has not
+identified the exact naming-only comparison; that is not proof of priority.
+Independent human review of overlap, task relevance and construct validity is
+pending. Equivalent prior work or inadequate operational relevance would stop
+collection and be published as a rejection.
+
+Completed work is engineering calibration only. An original inert integer-grid
+adapter reproduces a restricted, pinned Inspect Robots movement guard. There
+were zero mismatches across 11,025 supported native state/target comparisons.
+All 224 scripted control traces matched the native interface and passed a
+separate event-log replay implementation. These checks do not constitute
+independent human review or LLM results. Rotated scenes are dependent and four
+duplicate observations must be removed before model collection. AI assistance
+was used in engineering and drafting.
+
+Before any query, seek method criticism and freeze nonduplicate cases, sampling,
+model versions, endpoints, scoring, exclusion rules, uncertainty analysis,
+spending and rejection criteria. Compare naming variants with equivalent
+information. Separately test a repair adding explicit guard exclusions, and a
+broader-coverage prevention control. Distinguish feasible safe detours from
+infeasible tasks, unwanted executed contact from verbal refusal, and prevention
+from loss of useful completion. Cluster uncertainty by base scene. Use correct
+and deliberately faulty controls, replay every attempted trace independently,
+and reserve unopened confirmation cases. Publish nulls, invalid outputs,
+technical failures, disagreements, uncertainty and rejected contributions.
+
+The proposed OpenAI use is a small proprietary-frontier pilot after those
+gates, using synthetic tool calls and resources in an isolated executor.
+No real person, robot, account, production system or resource is acted on.
+No bypass of provider protections or policy exemption is assumed. Broader
+proprietary comparisons and Chinese frontier/near-frontier open-weight
+replication are separate, contingent stages, not funded deliverables promised
+by this USD50 request. Current model availability, pricing and power must be
+checked at protocol freeze; this draft does not assert a powered sample size.
+
+The initial screen is capped at USD10 new liability. Existing authorization is
+a USD100 lifetime model API cap including outstanding reservations. At the last
+reconciliation, accounted liability was USD42.6938673116 and remaining room was
+USD57.3061326884. Credit-funded usage also remains within that cap. No new query
+or reservation has been made for this candidate. An award does not expand
+authorization, and some credits may remain unused if the candidate is rejected.
+
+Outputs: a public feasibility report, frozen protocol/case versions, attempt
+ledger and replayable artifacts, including a negative or inconclusive outcome.
+There is no promised general alignment verdict, physical injury estimate,
+customer validation or independently reviewed breakthrough. The repository is
+public but has no declared software licence; public access is not a FOSS claim.
+Any reuse terms must be resolved before a licensing commitment. Sponsors and
+credits would be disclosed, with no control over scores or suppression of
+negative findings. Any shareable model content would be identified as generated
+and reviewed before publication; security issues would follow the applicable
+provider disclosure process.
+
+Evidence and project:
+https://murderbench.com/guardrail-coverage.html
+https://github.com/fastrocket/murderbench
+https://xenocom.com/
+
+Verified programme sources:
+https://help.openai.com/en/articles/10139500-researcher-access-program-faq
+https://openai.com/form/researcher-access-program/
+https://openai.smapply.org/prog/openai_researcher_access_program/
+https://openai.com/policies/sharing-publication-policy/
+
+Portal gate: Google sign-in shared only name/profile/email and reached a new
+SurveyMonkey Apply registration screen. First/last name are prefilled. The
+optional OpenAI API account email is blank because it has not been verified.
+The screen explicitly states that creating the account accepts its terms and
+privacy policy, and it includes a CAPTCHA. No registration, CAPTCHA, application
+or legal acceptance has been completed. Actual application fields and required
+certifications remain unseen; adapt this draft only to assertions we can make
+truthfully. An approval to create the portal account is not approval to make
+unknown grant certifications, accept an award agreement or expand model spend.
