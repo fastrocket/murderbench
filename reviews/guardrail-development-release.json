@@ -17,7 +17,11 @@
     "trace_mismatches": 0,
     "information_equivalence_checks": 112,
     "full_suite_before_release_audit_addition": "244 passed in87.222s",
-    "current_targeted_tests": "14 passed after the portable-source correction in4.206s"
+    "current_targeted_tests": "14 passed after the portable-source correction in4.206s",
+    "clean_linux_ci": "246 passed in29.192s; frozen source/catalog and 16 pages/132 local resource paths also passed",
+    "clean_linux_ci_url": "https://github.com/fastrocket/murderbench/actions/runs/37259726844",
+    "tested_commit": "b89c165c63d2a07e1a46ee5197a547940caae2e6",
+    "public_release": "16 pages/135 local resources verified at2026-10-05T03:33:20.352687+00:00; byte identity, redirects, TLS, headers and ns1/ns2.xenocom.com delegation passed"
   },
   "technical_attempts": [
     {
@@ -52,6 +56,18 @@
     {
       "operation": "Git whitespace check",
       "outcome": "Matplotlib SVG emitted trailing spaces; initial command sequence continued to commit. Normalized vector whitespace, updated generator, validated XML and reran the gate before deployment."
+    },
+    {
+      "operation": "Static deployment and public verification",
+      "outcome": "Succeeded after rebuilding: only site files uploaded, directories0755/files0644; all135 linked public resources verified."
+    },
+    {
+      "operation": "Release-record JSON validation",
+      "outcome": "The first Windows validation command used the default cp1252 encoding and failed on Unicode quotation marks; explicit UTF-8 parsing then passed for all four records."
+    },
+    {
+      "operation": "xAI inquiry",
+      "outcome": "Authenticated Gmail returned SENT for the official general sales route; requested credits/reviewer/partnership routing with no measured LLM-effect or novelty claim. No award or substantive feedback."
     }
   ],
   "limitations": [

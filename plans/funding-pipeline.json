@@ -94,7 +94,7 @@
       "id": "xai",
       "kind": "API credits / evaluation partnership routing",
       "source": "https://docs.x.ai/developers/faq/general",
-      "status": "verified general route; tailored inquiry prepared",
+      "status": "tailored routing/credits inquiry sent; awaiting response",
       "verified": "2026-10-04",
       "caveat": "Official general/custom-pricing contact, not a confirmed grant program or funding team; ask for routing. No safety report or sponsorship entitlement.",
       "contact": "sales@x.ai"
@@ -116,6 +116,13 @@
     }
   ],
   "submissions": [
+    {
+      "route": "xai",
+      "date": "2026-10-04",
+      "recorded_utc": "2026-10-05 03:33:47 UTC",
+      "type": "credits/reviewer/partnership routing inquiry email",
+      "outcome": "Gmail returned SENT; no award or substantive feedback recorded"
+    },
     {
       "route": "anthropic-evaluations",
       "date": "2026-10-04",

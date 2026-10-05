@@ -4,6 +4,16 @@
   "claims": "Proposed causal contrast and review request; no novel finding, lab relationship, secured reviewer or award.",
   "emails": [
     {
+      "route": "xai",
+      "to": "sales@x.ai",
+      "subject": "Routing request: independent Grok evaluation / research credits",
+      "recorded_utc": "2026-10-05 03:33:47 UTC",
+      "delivery": "Gmail returned SENT",
+      "reply_status": "No substantive reply recorded",
+      "source": "Official xAI developer FAQ general/custom-pricing contact",
+      "caveat": "General routing request, not an established funding channel, award or lab relationship. Scripted calibration and outstanding construct/overlap review disclosed."
+    },
+    {
       "route": "anthropic-evaluations",
       "to": "eval-initiative@anthropic.com",
       "subject": "MurderBench: scoped guardrail-coverage evaluation \u2014 feedback / support inquiry",

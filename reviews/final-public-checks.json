@@ -1,5 +1,5 @@
 {
-  "verified_utc": "2026-10-05T02:56:31.105000+00:00",
+  "verified_utc": "2026-10-05T03:33:20.352687+00:00",
   "page_count": 16,
   "checks": [
     {
@@ -51,16 +51,52 @@
       "sha256": "5b5479fe071e70f22d272a27880b1ac74d25c9ab71d4ebc92f40b81a64f5ae57"
     },
     {
+      "path": "/artifacts/guardrail-coverage-controls.json",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "a2a105bc0c16f782df53ee28a6954b0e2b2a2139dd1a3262b8daa950462e2421"
+    },
+    {
       "path": "/artifacts/guardrail-coverage-proposal.txt",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "50a76cea8e724a58f045e5dc0a2e31dd944eeda6d8fdc37aa061c1bdfbb719ff"
+      "sha256": "1ad4a0a323f47a58b6997da1ff9cdb6aa8cb9976264129304ed32e541e560baf"
+    },
+    {
+      "path": "/artifacts/guardrail-development-controls.txt",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "f4befb74e05408afc53a6ba8ec3773c7dd555ee3cebc060ade1975b90b0064b8"
+    },
+    {
+      "path": "/artifacts/guardrail-development-initial.zip",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "550ce7f16216ceb347dcace21b9557b7a9447bed8e1765b1255722078b04dcaf"
+    },
+    {
+      "path": "/artifacts/guardrail-native-differential.json",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "0796a3325fb4d7cbda572c57e00f601d6593a1b11d09146ad9c16ee5b7fb6b5d"
     },
     {
       "path": "/artifacts/guardrail-native-primitive.json",
       "status": 200,
       "local_bytes_match": true,
       "sha256": "f79b01b56aa4de6791215c26f1319320c01d1f9a4d84c0afb0e7704302332910"
+    },
+    {
+      "path": "/artifacts/guardrail-native-source-pin.json",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "7e639add2f4ba3768f4414dbe541df1880a4ac935ba99e983777f5091dffb4b0"
+    },
+    {
+      "path": "/artifacts/guardrail-plot-requirements.txt",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "71888b86a015b1ea085dc4150397998e3b42065e697bcfa6e1dd661c99e7d36e"
     },
     {
       "path": "/artifacts/guardrail-source-audit-2026-10-04.txt",
@@ -648,7 +684,7 @@
       "path": "/coverage.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "2fd18ef0b955906579130a1bf9ad97e076f2d57ea4fd45138f1bc39186e2c06b"
+      "sha256": "386db1a2eab84a8982d1edf114e6951fd43f8ebeb00e4d9efa4d7ffde6783759"
     },
     {
       "path": "/disclosure.html",
@@ -672,7 +708,19 @@
       "path": "/guardrail-coverage.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "8eee64b62a38ebb890be0377f05c8dd4c7928d10b81c2915609f92b6e1b6a22d"
+      "sha256": "bb2f66cc913fb8d37e663d3840e2414d2e2c051787bcd0425e19fbeb3724b74d"
+    },
+    {
+      "path": "/guardrail-scripted-controls.png",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "7d70684fa2fd1d6f9f8138777c5bed711f34f19f8e0a42348bc93eafce682bf1"
+    },
+    {
+      "path": "/guardrail-scripted-controls.svg",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "1790bd284d0fb8124b4ca0da7f9ba4a52c5bd0d92dbc94200b9c6c4d73be4687"
     },
     {
       "path": "/index.html",
@@ -708,7 +756,7 @@
       "path": "/program-archive.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "b6c84794e1c3d4f0c54dee1c5f2277e280aadd1f74c1028d4d18c37d681e9c6f"
+      "sha256": "9c1470f2b1385132f32fa70a92c77c41ea3883b6442572119865db8b9e11e60a"
     },
     {
       "path": "/program.html",
@@ -762,7 +810,7 @@
       "path": "/style.css",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "05b2a47c094d3340cd72017c45d0c485c764b01f1ed2ed48feb7d8f77598ecd4"
+      "sha256": "845fb14e04081cb3c7e4dabff393b285dab33cb272bfabd1f25acec1849b3b9c"
     }
   ],
   "redirects": [
@@ -799,13 +847,13 @@
       "name": "murderbench.com",
       "type": 2,
       "TTL": 300,
-      "data": "ns2.xenocom.com."
+      "data": "ns1.xenocom.com."
     },
     {
       "name": "murderbench.com",
       "type": 2,
       "TTL": 300,
-      "data": "ns1.xenocom.com."
+      "data": "ns2.xenocom.com."
     }
   ]
 }
