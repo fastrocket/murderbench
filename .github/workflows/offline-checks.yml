@@ -34,7 +34,8 @@ jobs:
         with:
           python-version: '3.12'
       - name: Install optional local evaluator SDK
-        run: python -m pip --isolated install --index-url https://pypi.org/simple --no-cache-dir --only-binary=:all: -r plans/guardrail-phoenix-requirements.txt
+        run: |
+          python -m pip --isolated install --index-url https://pypi.org/simple --no-cache-dir --only-binary=:all: -r plans/guardrail-phoenix-requirements.txt
       - name: Check native evaluator contract and missingness
         run: python -m unittest tests.test_guardrail_phoenix.NativePhoenixTests -v
       - name: Replay all scripted controls through the native SDK

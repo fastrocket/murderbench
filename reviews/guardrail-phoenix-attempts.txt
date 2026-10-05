@@ -45,6 +45,14 @@ ATTEMPTS, INCLUDING FAILURES
     label and reported six false fingerprint mismatches. Correcting the checker
     to the manifest's actual CRLF-to-LF rule produced17 matching fingerprints,
     exit0. No scoped file was changed and no licence was granted.
+11. First published CI run for7207547 failed before starting jobs:
+    https://github.com/fastrocket/murderbench/actions/runs/37271927467
+    GitHub annotated YAML line37 as invalid. The unquoted pip argument
+    --only-binary=:all: contains a colon followed by a space in a plain YAML
+    value. The install command was changed to a block scalar; adapter code and
+    saved scores are unchanged. The jobs connector returned an empty jobs list
+    and CLI log lookup reported log not found. The primary run-page annotation
+    established the workflow parse failure; no SDK test ran in that attempt.
 
 OBSERVED SCRIPTED COUNTS
 224 verified traces;672 native metric calls;24 executed-contact traces;
