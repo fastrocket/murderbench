@@ -9,6 +9,17 @@
   "stage": "proposal and targeted outreach; no awards",
   "routes": [
     {
+      "id": "bluedot-rapid-review",
+      "kind": "project-review grant fit / human reviewer routing",
+      "source": "https://bluedot.org/grants/rapid",
+      "contact_source": "https://blog.bluedot.org/p/ai-safety-needs-startups",
+      "contact": "team@bluedot.org",
+      "verified": "2026-10-05",
+      "requested_usd": 1000,
+      "status": "fit inquiry sent and readback verified; no formal application or reply",
+      "caveat": "Capped USD1000 independent methods-review fit inquiry; unquoted estimate, no reviewer booked or formal grant application. Existing commercial operator, AI assistance, zero study model trials / human reviews / qualified conversations, framing overlap and pending owner reuse licence disclosed. No expanded API cap, career commitment, partnership, award or novelty claim. Chrome tab creation and inventory timed out; no application fields or agreement inspected. Current programme eligibility remains unconfirmed."
+    },
+    {
       "id": "realharm-author-review",
       "kind": "primary-author construct / operational-utility review",
       "source": "https://aclanthology.org/2025.llmsec-1.7.pdf",
@@ -375,6 +386,13 @@
   ],
   "submissions": [
     {
+      "route": "bluedot-rapid-review",
+      "date": "2026-10-05",
+      "recorded_utc": "2026-10-05T06:57:08Z",
+      "type": "grant-fit / independent-review routing inquiry",
+      "outcome": "Gmail SENT and exact From/To/Subject/body readback; no formal grant application, eligibility confirmation, substantive response, reviewer commitment or award"
+    },
+    {
       "route": "realharm-author-review",
       "date": "2026-10-05",
       "recorded_utc": "2026-10-05T06:36:20Z",
@@ -521,5 +539,6 @@
   "substantive_feedback": [],
   "research_audit": "plans/funding-route-audit-2026-10-04.txt",
   "latest_credit_audit": "plans/credit-requests-2026-10-04.txt",
-  "latest_market_review_audit": "plans/guardrail-market-and-review-audit-2026-10-05.txt"
+  "latest_market_review_audit": "plans/guardrail-market-and-review-audit-2026-10-05.txt",
+  "latest_current_call_audit": "plans/funding-current-call-audit-2026-10-05.txt"
 }

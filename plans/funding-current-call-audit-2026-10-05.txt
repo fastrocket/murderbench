@@ -1,0 +1,105 @@
+CURRENT CALLS / HUMAN-REVIEW FUNDING AUDIT
+October5,2026 UTC
+Applicant: Linh Ngo; XP.COM, LLC dba Xenocom; MurderBench initiative
+
+DECISION
+Pursue a bounded human-review phase before collecting model evidence. A methods
+review should address closest-work overlap, causal validity, fresh confirmation
+cases and an actual guard-configuration decision. Rejection is a useful outcome.
+The prototype is AI-assisted; scripted development controls do not establish
+novelty, a model effect, customer demand or catastrophic-risk reduction.
+
+BLUEDOT RAPID GRANTS: FIT INQUIRY SENT; NOT AN APPLICATION
+Current primary programme: https://bluedot.org/grants/rapid
+Primary contact source: https://blog.bluedot.org/p/ai-safety-needs-startups
+Current page covers project experiments and research resources, with restrictions
+on purpose and payments. It does not confirm that this operator/project qualifies.
+The March6,2026 article explicitly invites safety-startup idea discussion at
+team@bluedot.org. The main contact page returned a loading shell in the web tool.
+Older indexed programme text has different ceilings, eligibility and reporting
+language; it is not used as the current application contract or a promised award.
+
+Chrome creation of the programme tab timed out and reset the browser kernel.
+A subsequent inventory read also timed out and reset it. No application fields,
+account creation, CAPTCHA, terms acceptance, grant claim or form submission were
+completed or verified. No repeated browser retry or alternate submission API.
+
+Exact subject:
+Rapid Grants fit: independent review before an agent-guard experiment
+Recipient: team@bluedot.org
+Authenticated sender: Linh Ngo <linh@ngo.net>
+Actual sent timestamp, verified from the readback: 2026-10-05T06:57:08Z
+Gmail SENT and correct From/To/Subject/body were independently read back.
+Private exact draft, receipt and readback retained. SENT is not recipient receipt,
+interest, qualification or funding. No response or reviewer commitment recorded.
+
+The inquiry asks whether a capped USD1,000 methods-review phase could be funded
+within an existing commercial operator. This is an unquoted planning estimate,
+not a booked reviewer, agreed fee, expanded USD7,500 project budget or grant
+application. It requests current application routing and reviewer introductions.
+Zero study model trials, substantive human reviews and qualified customer
+conversations are disclosed, as are established framing overlap, AI assistance
+and pending owner reuse-licence decision. Sponsorship disclosure and independent
+negative reporting are explicit. No grant enlarges the USD100 lifetime API cap.
+One tailored follow-up after7-10 business days, then stop unless invited.
+
+COEFFICIENT TECHNICAL SAFETY RFP: CLOSED, NOT CURRENT ROLLING INTAKE
+https://coefficientgiving.org/funds/navigating-transformative-ai/request-for-proposals-technical-ai-safety-research/
+The full primary page says applications closed April15,2025, with a later
+July15 grace period. Its rolling-review FAQ is historical context; the search
+excerpt is insufficient evidence for a current2026 call. No EOI or inquiry sent.
+Current application index: https://coefficientgiving.org/apply-for-funding/
+
+TAILWIND: NOT PURSUED UNDER CURRENT PROJECT / OPERATOR
+https://coefficientgiving.org/tailwind/faqs/
+Requires a direct catastrophic-AI-risk case; filters submissions identified as
+AI-generated. For-profit funding expects a public-benefit corporation rather
+than our currently described LLC. A new team inside an existing organization
+can be discussed, but that does not remove these requirements. We do not relabel
+this feasibility study, disguise AI assistance, claim a PBC or commit Linh to a
+multi-year career change. No expression of interest or application submitted.
+
+CAPACITY BUILDING: DIFFERENT PURPOSE
+https://coefficientgiving.org/funds/navigating-transformative-ai/funding-for-work-that-builds-capacity-to-address-risks-from-transformative-ai/
+The open programme principally funds capacity building, not direct technical
+research. Our current project does not become a training/community programme
+merely to qualify. No application or invented educational cohort.
+
+CAREER TRANSITION ROUTING
+https://coefficientgiving.org/funds/global-catastrophic-risks-opportunities/career-development-and-transition-funding/
+September4,2026 update transfers new applications to BlueDot. The old inbox is
+for existing grantees. We pursue project review, not an unsupported commitment
+by Linh to leave existing work or undertake a funded career transition.
+
+OTHER CLOSED MAJOR-LAB CALLS: NO APPLICATIONS
+https://openai.com/index/introducing-openai-safety-fellowship/
+Fellowship applications closed May3,2026. No closed-program routing inbox used
+as a substitute for the existing Researcher Access application.
+https://www.anthropic.com/news/wellbeing-research-grants/
+Initial applications closed September21,2026; October5 is an invited-stage date.
+The current motion-guard study is not a clinical wellbeing project.
+https://openai.com/index/economic-research-exchange-request-for-proposals/
+Applications closed July5,2026; no economic-impact claim made for this study.
+
+CONTRIBUTOR ROUTES: NOT IMMEDIATE PAID EVALUATION WORK
+https://www.tbench.ai/news/tb3-contribution-call
+The3.0 call has an end-of-May merge window and offers accepted-task recognition.
+Its phrase about compensated computer work describes task realism, not a
+contributor payment. No paid bounty or current intake verified.
+https://www.tbench.ai/news/tbsci-contribution-call
+Science contributions require authentic scientific workflows and domain review.
+No such supplied workflow, natural-science expertise or contributor compensation
+is established by our integer-grid development controls. No proposal or PR.
+https://lightning.ai/oss-program
+Primary indexed text describes an initially unpaid tier; paid part-time work is
+invitation-only after sustained contribution. Direct fetch returned a JavaScript
+shell. No immediate paid role, invitation, completed contribution or application.
+
+STATUS / LIMITS
+This audit adds one actual targeted email attempt. Awards, substantive human
+reviews, qualified customer conversations and paid pilots remain zero.
+No model query, charge, reservation, social result claim, production change,
+licence grant, account creation or legally binding agreement. The USD100 lifetime
+API cap includes existing reservations and credit-funded model use. Existing
+pending application facts and owner decisions remain unresolved.
+These new files are outside the finite17-file pending licence proposal.
