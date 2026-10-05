@@ -23,6 +23,14 @@ The guardrail development controls and native adapter audit are in
 scripted trace and native differential comparison. The public publisher audits
 stored artifacts against current sources before copying them. The optional
 scripted trace figure uses Matplotlib; it represents no model results.
+An optional local Phoenix code-evaluator bridge is documented in
+`plans/guardrail-phoenix-interface.txt`. Its standard-library metrics independently
+replay a receipt against a separately bound case; missing or invalid receipts
+remain unscorable for contact and completion, and infeasible tasks are excluded
+from the feasible-completion metric. Install the optional pinned SDK in an
+isolated environment, then run `python -m benchmark.guardrail_phoenix_demo`.
+This is a scripted interoperability example, without a hosted dashboard,
+customer implementation, model finding or partner endorsement.
 Historical studies and their registered sources remain intact. The chronological
 development notes below describe earlier stages and their then-current budgets.
 

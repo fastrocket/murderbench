@@ -1,0 +1,71 @@
+PHOENIX INTEROPERABILITY ATTEMPTS / ACCEPTANCE, OCTOBER 5, 2026 UTC
+Operator: XP.COM, LLC dba Xenocom; Linh Ngo
+Scope: scripted development controls; no model study or customer implementation
+
+DEPENDENCY / SOURCE
+Installed arize-phoenix-evals 3.9.0 and resolved dependencies in a separate
+task-only Python 3.12 Windows environment. Installation completed with exit0.
+The published SDK wheel digest matched the successful pip installation report;
+see plans/guardrail-phoenix-sdk-pin.json. Vendor code remains Elastic-2.0.
+No vendor source is copied or relicensed. No production installation or account.
+
+ATTEMPTS, INCLUDING FAILURES
+1. Portable focused tests:12 tests,11 passed,1 optional native SDK skip, exit0.
+2. First SDK-environment focused run: the11 portable tests printed ok, then
+   the native test started; process ended with exit1 and no captured Python
+   traceback or final unittest summary. Native compatibility was not accepted.
+   The cause is unestablished; do not relabel it a model failure or claim a fix.
+3. Full standard-library repository suite:258 tests in521.680s, OK,1 optional
+   native SDK skip, terminal exit0. Legacy transport messages are mocked tests,
+   not actual provider requests.
+4. Focused SDK import probe with faulthandler and separate stdout/stderr capture:
+   child exit0. This establishes import success, not all SDK feature behavior.
+5. Captured native-contract retry:1 test in77.005s, OK, child exit0. The test
+   covers correct/faulty controls, guard-held failure versus task repair,
+   infeasible completion, missing terminal events and an explicit None receipt.
+   Socket connection attempts are forbidden in the test. Original failure stays
+   unexplained despite this passing retry.
+6. Full native demo completed at2026-10-05T06:12:21.617501+00:00, child exit0,
+   with empty captured stderr. All224 scripted traces yielded672 native metric
+   results matching the portable evaluator. Zero connection attempts detected
+   by the three demonstration tripwires; zero model queries.
+7. First one-off saved-artifact cross-check command failed with a Python string
+   quoting SyntaxError. This diagnostic command did not change adapter code or
+   stored results. A literal file-backed checker corrected the diagnostic.
+8. File-backed manager cross-check first completed at
+   2026-10-05T06:13:59.260845+00:00 with exit0. All224 native receipt hashes,
+   metric values and replayed metadata matched the existing stored control
+   event logs. Current adapter/executor/verifier source hashes and SDK install
+   digest matched. The final acceptance-report fingerprint normalizes CRLF to LF
+   for portable Git checkouts; its last check time is stored in the JSON.
+   See guardrail-phoenix-acceptance.json.
+9. Existing frozen source/catalog validation passed with exit0. Committed site
+   verification passed with exit0:16 pages and132 local resource paths.
+10. A private licence-proposal diagnostic initially used the wrong normalization
+    label and reported six false fingerprint mismatches. Correcting the checker
+    to the manifest's actual CRLF-to-LF rule produced17 matching fingerprints,
+    exit0. No scoped file was changed and no licence was granted.
+
+OBSERVED SCRIPTED COUNTS
+224 verified traces;672 native metric calls;24 executed-contact traces;
+136 feasible safe completions;48 infeasible completion values explicitly None.
+These totals include deliberately faulty policies and duplicate development
+cases. They are not model failure rates, independent samples or a harm forecast.
+All native scores and hashes are retained in guardrail-phoenix-evals.json; the
+underlying exact event logs remain in guardrail-coverage-controls.json.
+
+ACCEPTANCE / LIMITS
+Accepted as an optional local SDK interoperability example. The portable core
+retains a standard-library-only path. A separate GitHub Actions job installs the
+optional SDK, checks the native contract and runs all scripted controls; its
+current-run status must be read separately, not inferred from local success.
+Future transitive versions are not fully frozen; each run records what it used.
+Connection tripwires cover the tested Python path, not every SDK capability.
+No hosted dashboard, authenticated provider execution, customer workflow,
+Arize partnership, independent human review or novel research finding is tested.
+
+No new outreach, API charges or reservations, licence grant, funding agreement
+or production change in this implementation. The pending scoped owner licence
+proposal excludes these new files and vendor dependencies. Human method review,
+fresh cases, protocol freeze and provider clearance remain collection gates.
+No funding award, substantive human review or qualified buyer is established.

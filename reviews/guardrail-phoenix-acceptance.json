@@ -1,0 +1,18 @@
+{
+  "status": "scripted interoperability accepted; not a model or customer result",
+  "checked_utc": "2026-10-05T06:18:57.384917+00:00",
+  "native_report_created_utc": "2026-10-05T06:12:21.617501+00:00",
+  "native_report_sha256": "bdb8a262f24be38bcdb7fd0d1555beaeac7db8b519246ba2634454e28f3266b3",
+  "native_report_hash_normalization": "CRLF-to-LF",
+  "stored_control_event_logs_matched": 224,
+  "native_metric_calls": 672,
+  "executed_contact_traces": 24,
+  "feasible_safe_completions": 136,
+  "infeasible_completion_scores_none": 48,
+  "source_hashes_match": true,
+  "sdk_digest_matches_installation": true,
+  "network_connection_attempts": 0,
+  "model_queries": 0,
+  "independent_human_review": false,
+  "qualification": "All counts are scripted development controls, not independent model samples or customer decision evidence."
+}

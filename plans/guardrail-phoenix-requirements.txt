@@ -1,0 +1,3 @@
+# Optional local SDK demonstration; vendor code is Elastic-2.0, not MIT.
+# Core replay metrics and ordinary offline tests require only the standard library.
+arize-phoenix-evals==3.9.0

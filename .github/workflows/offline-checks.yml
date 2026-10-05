@@ -23,3 +23,19 @@ jobs:
       # CI checks the committed release; it does not bypass that publication gate.
       - name: Verify committed public release
         run: python deployment/verify_static.py
+  optional-phoenix:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      OPENROUTER_API_KEY: ''
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: '3.12'
+      - name: Install optional local evaluator SDK
+        run: python -m pip --isolated install --index-url https://pypi.org/simple --no-cache-dir --only-binary=:all: -r plans/guardrail-phoenix-requirements.txt
+      - name: Check native evaluator contract and missingness
+        run: python -m unittest tests.test_guardrail_phoenix.NativePhoenixTests -v
+      - name: Replay all scripted controls through the native SDK
+        run: python -m benchmark.guardrail_phoenix_demo --output /tmp/guardrail-phoenix-evals.json

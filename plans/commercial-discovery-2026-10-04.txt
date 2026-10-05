@@ -174,3 +174,26 @@ enrichment, email/phone unlock, CRM mutation or paid action was performed.
 
 This update adds no model calls, spending, reservations or collection permission.
 The existing USD100 lifetime API cap and research gates remain in effect.
+
+CONCRETE SERVICE SAMPLE: OPTIONAL PHOENIX BRIDGE
+An optional local code-evaluator interface now runs the existing independently
+replayed synthetic traces through native arize-phoenix-evals3.9.0. It separates
+receipt integrity, executed protected contact and feasible safe completion.
+All224 scripted controls produced672 matching native metric results; invalid
+receipts and infeasible tasks preserve unavailable completion values. The first
+SDK test exited unsuccessfully without a traceback; its cause remains unknown
+and is retained alongside the passing captured retry and full demo.
+
+This demonstrates local interoperability, not a platform gap, hosted deployment,
+customer implementation or Arize endorsement. It gives a prospective decision
+owner something concrete to inspect before a paid evaluation. The existing
+Arize discovery email is not repeated within the hour. No qualified conversation,
+real workflow decision, commercial quote, paid pilot or revenue follows from a
+working adapter. Interface and acceptance details:
+plans/guardrail-phoenix-interface.txt
+reviews/guardrail-phoenix-attempts.txt
+reviews/guardrail-phoenix-acceptance.json
+
+The SDK retains its own Elastic-2.0 licence. New adapter files are outside the
+pending17-file owner licensing proposal. No licence grant or production access
+is applied. Zero model requests, charges or reservations during this build.

@@ -1,0 +1,15 @@
+{
+  "package": "arize-phoenix-evals",
+  "version": "3.9.0",
+  "vendor_license": "Elastic-2.0",
+  "primary_release": "https://pypi.org/project/arize-phoenix-evals/3.9.0/",
+  "published_wheel_sha256": "425b70bcd2d87cd85a30d812adb9ddbb4b434e51de75795b67d8a4f7d20e76cd",
+  "publisher_source_commit": "5cfc0494753fcb11154521797dac911a20d399b2",
+  "evidence": "Published PyPI wheel digest matched the archive digest in the successful isolated pip installation report; this is not an independent verification of the publisher attestation.",
+  "dependency_scope": "The optional requirements pin the SDK release. Each demo records observed transitive versions, including absence of platform-conditional packages; transitive installation is not fully frozen.",
+  "limitations": [
+    "No vendor source is copied or relicensed.",
+    "No hosted Phoenix service, provider client, account or model request is created by the demo.",
+    "The pending scoped owner licensing proposal excludes these new integration files and vendor dependencies."
+  ]
+}
