@@ -2,8 +2,9 @@ Funding route audit / 2026-10-04 / Linh Ngo
 Applicant: XP.COM, LLC dba Xenocom; MurderBench initiative
 
 These are funding-fit checks, not awards, partnerships or endorsements. The
-public-benefit feasibility ask is USD7,500; the original model API cash cap
-remains USD100 including reservations. No model calls were made in this audit.
+public-benefit feasibility ask is USD7,500; the model API lifetime cap remains
+USD100 including reservations and credit-funded usage. No model calls were made
+in this audit.
 
 MANIFUND: VERIFIED INQUIRY ROUTE
 Primary sources:

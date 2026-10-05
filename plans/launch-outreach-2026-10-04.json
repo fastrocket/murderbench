@@ -4,6 +4,16 @@
   "claims": "Proposed causal contrast and review request; no novel finding, lab relationship, secured reviewer or award.",
   "emails": [
     {
+      "route": "deepseek-api-research-routing",
+      "to": "api-service@deepseek.com",
+      "subject": "MurderBench: review / credit routing for an isolated agent-guard study",
+      "recorded_utc": "2026-10-05 05:02:00 UTC",
+      "delivery": "Gmail returned SENT",
+      "reply_status": "No substantive reply recorded",
+      "source": "https://api-docs.deepseek.com/guides/tool_call",
+      "claims": "Conditional USD25 credit / review / scope routing request after proprietary screening and freeze. Existing commercial operator, offline-only controls, substantial framing overlap and AI assistance disclosed; no finding or award."
+    },
+    {
       "route": "malberg-closest-work-review",
       "to": "simon.malberg@tum.de",
       "subject": "Closest-work question before collection: guard naming / executed effects",

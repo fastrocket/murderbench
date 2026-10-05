@@ -9,6 +9,33 @@
   "stage": "proposal and targeted outreach; no awards",
   "routes": [
     {
+      "id": "deepseek-api-research-routing",
+      "kind": "conditional research-scope / method-review / credit routing",
+      "source": "https://api-docs.deepseek.com/guides/tool_call",
+      "contact": "api-service@deepseek.com",
+      "verified": "2026-10-04",
+      "status": "inquiry sent; no scope permission, review commitment or award",
+      "requested_usd": 25,
+      "caveat": "Published API contact, not an established grant programme. Requests routing for inert synthetic guard study; no DeepSeek model/Harness trial or novel model finding. Replication follows proprietary-priority screening and remaining collection gates; credit usage counts toward lifetime API cap."
+    },
+    {
+      "id": "zai-startup-credits",
+      "kind": "conditional startup model-credit programme",
+      "source": "https://startup.z.ai/",
+      "verified": "2026-10-04",
+      "status": "public programme inspected; application fields unseen behind login; not submitted",
+      "caveat": "Existing account and eligibility for new initiative inside older operator unverified. No login, registration, terms acceptance, company facts or credit entitlement claimed."
+    },
+    {
+      "id": "moonshot-api-routing",
+      "kind": "conditional model-provider technical routing",
+      "source": "https://platform.kimi.ai/",
+      "contact_source": "https://www.kimi.com/en/help/new-user-guide/contact-feedback",
+      "verified": "2026-10-04",
+      "status": "platform verified; email recipient not read reliably; no inquiry",
+      "caveat": "Email link failed in web tool; browser focus/state read timed out despite navigation completing. No guessed recipient or dedicated funding programme; media, security and investor channels not repurposed."
+    },
+    {
       "id": "malberg-closest-work-review",
       "kind": "primary-author method critique / overlap review",
       "source": "https://aclanthology.org/2025.nlp4dh-1.50/",
@@ -289,6 +316,14 @@
     }
   ],
   "submissions": [
+    {
+      "route": "deepseek-api-research-routing",
+      "date": "2026-10-04",
+      "recorded_utc": "2026-10-05 05:02:00 UTC",
+      "type": "research-scope / method-review / credit-routing email",
+      "requested_usd": 25,
+      "outcome": "Gmail returned SENT; no formal application, scope permission, review commitment, substantive feedback or award"
+    },
     {
       "route": "malberg-closest-work-review",
       "date": "2026-10-04",
