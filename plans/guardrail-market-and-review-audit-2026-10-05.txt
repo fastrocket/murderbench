@@ -1,0 +1,101 @@
+EXECUTION-BASED EVALUATION: REVIEW / MARKET AUDIT
+Operator: XP.COM, LLC dba Xenocom; Linh Ngo
+October5,2026 UTC; no new model calls or spending
+
+REALHARM: ESTABLISHED SAFETY / UTILITY WORK
+Primary paper: https://aclanthology.org/2025.llmsec-1.7.pdf
+RealHarm evaluates documented text conversations and rewritten safe counterparts.
+Its false-positive controls already address the cost of overblocking. For some
+message-level moderators, safe examples score agent messages whereas unsafe
+examples score both roles. Our comparison must specify identical observation
+and intervention rules rather than import those rates as a matched causal test.
+The paper limits generalization from public incidents and its small sample, and
+explicitly anticipates agentic extensions. None of this establishes an empty
+research area or a first-of-kind claim for MurderBench.
+
+Released source inspected at commit:
+a6eb13e5921e684421479260cef930bb17008928
+https://github.com/Giskard-AI/realharm/tree/a6eb13e5921e684421479260cef930bb17008928
+README.md and scripts/run_benchmark.py were read, not installed or executed.
+The inspected driver passes conversations to moderators and stores classification
+labels/categories. This is a different measurement from replaying executed
+state changes; the distinction alone is not a contribution. This was a bounded
+source audit, not exhaustive examination of all moderator implementations.
+No source, dataset examples or prompts were incorporated into MurderBench.
+
+NEXT DECISION
+Before collection, ask whether the unchanged-guard name contrast would change
+a real configuration decision or simply reproduce established framing effects.
+An author pointer or rejection can rule out wasted model spending. The customer
+path needs a real owner and unresolved workflow decision, not a generic need for
+AI safety. Human critique, fresh cases, provider clearance and freeze remain
+pending. All current guard-study evidence is scripted development controls.
+
+REALHARM AUTHOR REQUEST: SENT, NOT REVIEWED
+Recipient pierre@giskard.ai is published on the primary paper's first page.
+Subject: RealHarm follow-on question: executed effects and guard configuration
+Gmail SENT confirmed, then independently read back correct From/To/Subject:
+Linh Ngo <linh@ngo.net>; sent2026-10-05T06:36:20Z.
+The request acknowledges existing benign controls and framing overlap; asks for
+a closest-work pointer or rejection and a concrete guard decision. AI assistance,
+scripted-only evidence and pending review/fresh cases/freeze are explicit.
+It claims neither novelty nor a Giskard relationship or endorsement.
+Private exact draft, SENT receipt and readback are retained. No reply or reviewer
+commitment is recorded. No simultaneous duplicate request to a second coauthor.
+
+PATRONUS COMMERCIAL DISCOVERY: SENT, NO QUALIFIED BUYER
+Primary recipient source:
+https://www.patronus.ai/blog/patronus-evaluators
+Existing-capability source:
+https://docs.patronus.ai/docs/evaluators/concepts
+The official article publishes contact@patronus.ai. The indexed primary docs
+describe custom function/class/external evaluators; no platform gap is asserted.
+A direct follow-up docs fetch returned401 Unauthorized. The live official page
+https://www.patronus.ai/landing also displays Bring Your Own Evaluator. This
+corroborates the broad capability, not a currently tested Patronus SDK contract.
+No login, account or SDK installation was used to work around the fetch failure.
+Subject: MurderBench: discovery for guard-configuration evaluation services
+Gmail SENT confirmed, then independently read back correct From/To/Subject:
+Linh Ngo <linh@ngo.net>; sent2026-10-05T06:36:28Z.
+Asks for20-minute discovery using a public/synthetic workflow, with a decision
+owner, acceptance criterion and timeline before a scoped quote. Zero verified
+customer implementations, AI assistance and current research gates are disclosed.
+The tested sample is the optional Phoenix bridge, not a Patronus integration.
+Exact private draft, receipt and readback are retained. No customer data,
+procurement commitment, agreement, partner status, quote, demand or funding.
+
+DUPLICATE / SENDER CHECK
+Before either send, a SENT search for the exact new recipients found no prior
+message; the authenticated connector profile identified Linh Ngo/linh@ngo.net.
+Both new message headers were read after sending. Acceptance into Gmail SENT is
+not proof of recipient receipt, interest, delivery to a human or an agreement.
+One tailored follow-up after7-10 business days, then stop unless invited.
+
+BROWSERBASE: CONTACT FOUND; INTEGRATION APPLICATION NOT SUBMITTED
+https://www.browserbase.com/partner
+The partner page publishes support@browserbase.com for questions and requires
+public introduction/quickstart draft links plus integration code. We have a
+Phoenix development example, not a Browserbase integration. No draft falsely
+claims the latter. The form also explicitly consents to processing under Terms
+and Privacy Policy. No fields, account, terms acceptance, submission or email.
+This is a conditional integration route, not an identified buyer or sponsor.
+
+DAYTONA: INFRASTRUCTURE CREDITS FOUND; ELIGIBILITY UNESTABLISHED
+https://www.daytona.io/startups
+The current page advertises up toUSD100,000 in infrastructure credits; the older
+confirmation page advertises a different ceiling. Neither is an award to us.
+The form asks founding date, funds raised, employees, referral, deck, story and
+use case, plus explicit programme terms acceptance. The older legal operator
+does not become a newly founded startup because MurderBench is a new initiative.
+Those eligibility facts and owner acceptance are unverified; no application,
+account, entitlement, purchase or terms acceptance. These are infrastructure
+credits, not a change to the USD100 lifetime model API authorization.
+
+BUSINESS / RESEARCH STATUS
+Two new targeted emails are actual attempts, not outcomes. Five qualified
+conversations and one paid pilot remain goals; actual qualified conversations,
+paid engagements, awards and substantive human reviews remain zero. No new
+social post promotes the scripted controls as model findings. The original
+USD100 cap includes reservations and credit-funded model usage. This update
+adds no model query, charge, reservation, production change or public licence.
+New audit files remain outside the pending finite17-file owner licence proposal.

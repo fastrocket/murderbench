@@ -1,5 +1,5 @@
 {
-  "updated_date": "2026-10-04",
+  "updated_date": "2026-10-05",
   "applicant": {
     "name": "Linh Ngo",
     "operator": "XP.COM, LLC dba Xenocom",
@@ -8,6 +8,43 @@
   },
   "stage": "proposal and targeted outreach; no awards",
   "routes": [
+    {
+      "id": "realharm-author-review",
+      "kind": "primary-author construct / operational-utility review",
+      "source": "https://aclanthology.org/2025.llmsec-1.7.pdf",
+      "implementation": "https://github.com/Giskard-AI/realharm/tree/a6eb13e5921e684421479260cef930bb17008928",
+      "contact": "pierre@giskard.ai",
+      "verified": "2026-10-05",
+      "status": "critique request sent and headers verified; no response or reviewer commitment",
+      "caveat": "Established unsafe/safe guardrail controls acknowledged. Requests a closest-work pointer or rejection and concrete deployment relevance. No first-of-kind claim, paper/code reuse, model study, endorsement or funding request."
+    },
+    {
+      "id": "patronus-commercial-discovery",
+      "kind": "technical services / customer-discovery routing",
+      "source": "https://www.patronus.ai/blog/patronus-evaluators",
+      "existing_capability_source": "https://docs.patronus.ai/docs/evaluators/concepts",
+      "contact": "contact@patronus.ai",
+      "verified": "2026-10-05",
+      "status": "discovery inquiry sent and headers verified; no reply or qualified buyer",
+      "caveat": "Official article and landing page corroborate custom evaluators; indexed docs describe additional types but direct follow-up fetch returned401. No Patronus SDK contract tested. Requests one public/synthetic workflow and guard decision. Zero verified customer implementations disclosed; sample is Phoenix. No quote, model result, partner status, procurement commitment or agreement."
+    },
+    {
+      "id": "browserbase-integration-routing",
+      "kind": "conditional integration partnership route",
+      "source": "https://www.browserbase.com/partner",
+      "contact": "support@browserbase.com",
+      "verified": "2026-10-05",
+      "status": "published prerequisites read; no email or application",
+      "caveat": "Requires public introduction/quickstart drafts and integration code; no Browserbase integration exists. Form explicitly consents under Terms/Privacy Policy. No fake implementation, account, acceptance, sponsor or qualified buyer."
+    },
+    {
+      "id": "daytona-startup-grid",
+      "kind": "conditional sandbox infrastructure credits",
+      "source": "https://www.daytona.io/startups",
+      "verified": "2026-10-05",
+      "status": "programme fields read; older-operator eligibility and applicant facts unresolved; no application",
+      "caveat": "Current advertised ceiling USD100000 differs from older confirmation page; neither awarded. Founding date, funds raised, employees, deck/referral and programme terms acceptance unresolved. New initiative is not a new legal company; infrastructure credit advertisement does not expand model API cap."
+    },
     {
       "id": "arize-commercial-discovery",
       "kind": "technical services / customer-discovery routing",
@@ -338,6 +375,20 @@
   ],
   "submissions": [
     {
+      "route": "realharm-author-review",
+      "date": "2026-10-05",
+      "recorded_utc": "2026-10-05T06:36:20Z",
+      "type": "primary-author critique / operational-utility inquiry",
+      "outcome": "Gmail SENT and independent correct From/To/Subject readback; no substantive response, reviewer agreement, qualified conversation, partnership, quote or award"
+    },
+    {
+      "route": "patronus-commercial-discovery",
+      "date": "2026-10-05",
+      "recorded_utc": "2026-10-05T06:36:28Z",
+      "type": "targeted services / customer discovery inquiry",
+      "outcome": "Gmail SENT and independent correct From/To/Subject readback; no substantive response, reviewer agreement, qualified conversation, partnership, quote or award"
+    },
+    {
       "route": "foresight-nodes-2026",
       "date": "2026-10-04",
       "recorded_utc": "2026-10-05 05:36:13 UTC",
@@ -469,5 +520,6 @@
   "awards": [],
   "substantive_feedback": [],
   "research_audit": "plans/funding-route-audit-2026-10-04.txt",
-  "latest_credit_audit": "plans/credit-requests-2026-10-04.txt"
+  "latest_credit_audit": "plans/credit-requests-2026-10-04.txt",
+  "latest_market_review_audit": "plans/guardrail-market-and-review-audit-2026-10-05.txt"
 }

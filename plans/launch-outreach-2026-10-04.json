@@ -4,6 +4,26 @@
   "claims": "Proposed causal contrast and review request; no novel finding, lab relationship, secured reviewer or award.",
   "emails": [
     {
+      "route": "realharm-author-review",
+      "to": "pierre@giskard.ai",
+      "subject": "RealHarm follow-on question: executed effects and guard configuration",
+      "recorded_utc": "2026-10-05T06:36:20Z",
+      "delivery": "Gmail SENT; independent From/To/Subject readback verified",
+      "reply_status": "No substantive response or commitment recorded",
+      "source": "https://aclanthology.org/2025.llmsec-1.7.pdf",
+      "claims": "Acknowledges established unsafe/safe controls and framing overlap. AI-assisted scripted-only prototype; asks for closest-work rejection or a real guard decision. No novelty, endorsement or funding claim."
+    },
+    {
+      "route": "patronus-commercial-discovery",
+      "to": "contact@patronus.ai",
+      "subject": "MurderBench: discovery for guard-configuration evaluation services",
+      "recorded_utc": "2026-10-05T06:36:28Z",
+      "delivery": "Gmail SENT; independent From/To/Subject readback verified",
+      "reply_status": "No substantive response or commitment recorded",
+      "source": "https://www.patronus.ai/blog/patronus-evaluators",
+      "claims": "Existing custom evaluators acknowledged; zero verified customer implementations, AI assistance and pending study gates disclosed. Public/synthetic workflow discovery before a quote; sample is Phoenix, not a Patronus integration."
+    },
+    {
       "route": "foresight-nodes-2026",
       "to": "grants@foresight.org",
       "subject": "MurderBench: fit question for independent technical assessment pilot",
