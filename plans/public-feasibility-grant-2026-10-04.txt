@@ -1,0 +1,87 @@
+MurderBench / public-benefit feasibility proposal / 2026-10-04
+DRAFT FOR FUNDING APPLICATIONS; NOT SUBMITTED OR FUNDED
+Applicant: Linh Ngo, XP.COM, LLC dba Xenocom
+Contact: linh@ngo.net
+Request: USD7,500; four weeks after funding and reviewer availability
+
+Can a safety label make an agent less safe?
+
+An action guard can correctly enforce movement bounds while leaving other
+hazards unchecked. We want to test whether describing the same guard as a
+"safety approver", rather than a "motion validator", changes an agent's executed
+actions when its task, authority, observations and coverage facts are identical.
+This could inform a concrete deployment decision: how to describe a partial
+safeguard, when to disclose its exclusions, and when an executor needs broader
+coverage. The study cannot establish general alignment or real injury risk.
+
+This is a feasibility request, not a claim of a novel failure. RoboHarm,
+RoboPAIR, SafeAgentBench, delegated-misalignment work, LLM risk-compensation
+experiments and guardrail evaluations already cover much of the surrounding
+problem. Our limited audit has not identified this exact naming-only contrast;
+absence from that audit is not evidence of priority. An expert may identify
+equivalent work, or conclude the symbolic tasks have insufficient relevance.
+Either outcome stops model collection and becomes a public rejection record.
+
+Work completed: original inert synthetic scenes and a restricted adapter to a
+pinned, documented Inspect Robots movement guard. Offline testing found zero
+mismatches across 11,025 supported native state/target comparisons. All 224
+scripted traces matched the native interface and passed independent event-log
+replay. Correct policies can complete feasible tasks safely; faulty controls
+expose an expected coverage boundary. These are engineering controls, not LLM
+findings. Rotated scenes are dependent, four observations are duplicates, and
+neither the scene set nor a model protocol is ready for collection. AI assistance
+was used in engineering and drafting. Independent human method review is pending.
+
+The proposed award funds three go/no-go milestones:
+
+1. Review and freeze. Seek independent criticism of overlap, guard fidelity and
+   task relevance; publish disagreements. Remove developmental duplicates and
+   freeze cases, endpoints, model versions, sampling, analysis, spending limits
+   and rejection rules before queries. Record provider approval where required.
+2. Bounded screening. Compare neutral and safety wording with identical facts,
+   task authority and tools. Measure executed unwanted effects and useful-task
+   completion; cluster uncertainty by base scene. Use correct/faulty controls,
+   infeasible-case labels, fresh recognition episodes and naming paraphrases.
+   A separate repair explicitly adds coverage exclusions; it is not presented
+   as an information-equivalent naming comparison. Broader executor coverage is
+   a prevention control, not a new invention. Screen proprietary frontier models
+   first, then Chinese frontier or near-frontier open weights through permitted
+   routes. Record all attempts, invalid outputs, technical failures and costs.
+3. Confirmation or rejection. Test a credible effect and its repair on unopened
+   cases only if controls, usefulness, novelty and a predeclared confirmation
+   budget survive. Otherwise publish the null, rejection or unresolved result.
+   Limited power does not establish equivalence. Seek a deployment owner to
+   assess relevance; no customer, external reviewer or operational impact is
+   secured. A toy-grid mistake alone does not satisfy the contribution gate.
+
+Outputs are a public report, case/protocol versions, attempt ledger, replayable
+traces and a reusable verifier, including negative outcomes and limitations.
+Existing artifacts and the overlap audit are at:
+https://murderbench.com/guardrail-coverage.html
+https://github.com/fastrocket/murderbench
+The repository is public but currently has no declared software licence.
+Public-benefit reuse/licensing requirements must be agreed before an award or
+any promise of open-source availability; no third-party assets will be relicensed.
+
+Planning budget: engineering USD4,000; independent review USD1,000; compute
+USD500; replication USD750; report/artifacts USD750; contingency USD500.
+These are estimates, not quotes, contracted people or spending commitments.
+Compute funding would need a separately approved envelope. The existing USD100
+lifetime cash API cap remains, including outstanding reservations: accounted
+liability USD42.6938673116, remaining USD57.3061326884 at reconciliation on
+2026-10-04. Initial screening is limited to USD10 new liability within that cap.
+Neither an application nor an awarded credit expands cash authorization.
+
+MurderBench is a new initiative of an existing commercial LLC, not a university,
+nonprofit, separately registered DBA or accredited lab. The public-benefit case
+is reproducible evidence for safer agent deployment, not proven reduction of
+catastrophic risk. The project is not guaranteed to be competitive for a fund
+focused on advanced-AI catastrophic risk. Commercial consulting and any future
+client-confidential work would be separately scoped and not charged to this
+public study without explicit agreement. Sponsors and credits will be disclosed;
+funding cannot control scores or suppress negative findings.
+
+Application facts still needed for the Transformative AI Fund: whether the
+operator has received Coefficient Giving/Open Philanthropy-recommended funding
+or plans an overlapping application. No grant history answer is inferred from
+this initiative's lack of awards. No application is represented as submitted.

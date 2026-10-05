@@ -9,6 +9,58 @@
   "stage": "proposal and targeted outreach; no awards",
   "routes": [
     {
+      "id": "manifund-public-benefit",
+      "kind": "public-benefit feasibility grant / reviewer routing",
+      "source": "https://manifund.org/about/open-call",
+      "contact": "hi@manifund.org",
+      "contact_source": "https://manifund.org/about/donor-faq",
+      "verified": "2026-10-04",
+      "status": "eligibility/reviewer-routing inquiry sent; no public proposal, application, agreement or award",
+      "caveat": "For-profit fiscal sponsorship is possible subject to charitable and legal review; project eligibility and donor interest unconfirmed. Current software licence unresolved."
+    },
+    {
+      "id": "sentient-foundation-public-goods",
+      "kind": "rolling open AI infrastructure grant",
+      "source": "https://sentient.foundation/grants",
+      "alternate_source": "https://sentient.foundation/product-requests",
+      "contact_source": "https://sentient.foundation/contact",
+      "verified": "2026-10-04",
+      "status": "conditional fit; no contact or application submitted",
+      "caveat": "An essential reusable component is required; repository has no declared licence. Official contact form also requires operator country, not established. No investment terms accepted; event replay is not verifiable inference."
+    },
+    {
+      "id": "nlnet-commons",
+      "kind": "rejected funding route",
+      "source": "https://nlnet.nl/commonsfund/index.html",
+      "verified": "2026-10-04",
+      "status": "closed; final call ended June1,2026",
+      "caveat": "No new applications sought. No application submitted."
+    },
+    {
+      "id": "nlnet-restack",
+      "kind": "rejected funding route",
+      "source": "https://nlnet.nl/restack/",
+      "verified": "2026-10-04",
+      "status": "current AI study excluded; no application",
+      "caveat": "AI excluded except projects already used by over one million active human users and directly relevant to stack. Qualification not established; do not relabel AI evaluation to evade restriction."
+    },
+    {
+      "id": "nlnet-codesupply",
+      "kind": "not pursued: topic-fit rejection",
+      "source": "https://nlnet.nl/codesupply/",
+      "verified": "2026-10-04",
+      "status": "poor fit; no application",
+      "caveat": "Software package metadata/supply-chain goals do not match current action-coverage study. Our fit judgment is not a fund rejection."
+    },
+    {
+      "id": "mozilla-builders",
+      "kind": "unverified current funding route",
+      "source": "https://builders.mozilla.org/programs/",
+      "verified": "2026-10-04",
+      "status": "no current 2026 call established; no application",
+      "caveat": "Inspected page describes Programs2024/local AI. Current study prioritizes proprietary frontier models and has no declared FOSS licence; historical award ceiling is not available funding."
+    },
+    {
       "id": "e2b-credits",
       "kind": "sandbox infrastructure credits / reviewer routing",
       "source": "https://e2b.dev/research",
@@ -72,9 +124,12 @@
       "kind": "early-stage grant",
       "source": "https://funds.effectivealtruism.org/funds/transformative-ai",
       "contact": "transformativeai@effectivealtruismfunds.org",
-      "status": "inquiry sent; awaiting response",
+      "status": "inquiry sent; official application partly started, pending required grant-history answer; not submitted",
       "verified": "2026-10-04",
-      "caveat": "Open to individuals/new organizations; usual grants USD10k-150k; predominantly catastrophic-risk focus. Our narrower operational study needs an honest fit assessment."
+      "caveat": "Open to individuals/new organizations; usual grants USD10k-150k; predominantly catastrophic-risk focus. Our narrower operational study needs an honest fit assessment.",
+      "application_source": "https://av20jp3z.paperform.co/?fund=Transformative+AI+Fund",
+      "next": "Required operator Coefficient Giving/Open Philanthropy funding history and overlapping application plans; user question pending",
+      "draft": "plans/public-feasibility-grant-2026-10-04.txt"
     },
     {
       "id": "far-ai",
@@ -146,6 +201,13 @@
   ],
   "submissions": [
     {
+      "route": "manifund-public-benefit",
+      "date": "2026-10-04",
+      "recorded_utc": "2026-10-05 03:55:22 UTC",
+      "type": "eligibility/reviewer-routing inquiry email",
+      "outcome": "Gmail returned SENT; no application, agreement, award or substantive feedback"
+    },
+    {
       "route": "composio-partnerships",
       "date": "2026-10-04",
       "recorded_utc": "2026-10-05 03:40:37 UTC",
@@ -211,5 +273,6 @@
     }
   ],
   "awards": [],
-  "substantive_feedback": []
+  "substantive_feedback": [],
+  "research_audit": "plans/funding-route-audit-2026-10-04.txt"
 }

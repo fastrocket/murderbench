@@ -4,6 +4,16 @@
   "claims": "Proposed causal contrast and review request; no novel finding, lab relationship, secured reviewer or award.",
   "emails": [
     {
+      "route": "manifund-public-benefit",
+      "to": "hi@manifund.org",
+      "subject": "Public-benefit feasibility proposal: MurderBench / commercial applicant fit",
+      "recorded_utc": "2026-10-05 03:55:22 UTC",
+      "delivery": "Gmail returned SENT",
+      "reply_status": "No substantive reply recorded",
+      "source": "https://manifund.org/about/donor-faq",
+      "claims": "Commercial applicant eligibility / reviewer routing; public feasibility hypothesis, no novel model finding, secured reviewer, funding, declared software licence or grant agreement"
+    },
+    {
       "route": "composio-partnerships",
       "to": "partnerships@composio.dev",
       "subject": "Independent evaluation partner inquiry: agent action coverage",
@@ -102,6 +112,13 @@
       "status": "prepared, not submitted",
       "pending": "Legal acceptance and Claude Console organization ID",
       "amount_requested": "USD1000 API credits"
+    },
+    {
+      "route": "ea-transformative-ai",
+      "source": "https://av20jp3z.paperform.co/?fund=Transformative+AI+Fund",
+      "status": "partially started; not submitted",
+      "pending": "Required operator Coefficient Giving/Open Philanthropy funding history / overlapping application plans; user question pending",
+      "purpose": "USD7,500 public-benefit feasibility proposal; novelty and operational relevance unproven"
     }
   ],
   "social_posts": [

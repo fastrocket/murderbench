@@ -1,0 +1,83 @@
+Funding route audit / 2026-10-04 / Linh Ngo
+Applicant: XP.COM, LLC dba Xenocom; MurderBench initiative
+
+These are funding-fit checks, not awards, partnerships or endorsements. The
+public-benefit feasibility ask is USD7,500; the original model API cash cap
+remains USD100 including reservations. No model calls were made in this audit.
+
+MANIFUND: VERIFIED INQUIRY ROUTE
+Primary sources:
+https://manifund.org/about/open-call
+https://manifund.org/about/donor-faq
+Public-benefit proposals are welcome subject to charitable/legal review; fiscal
+sponsorship may cover for-profit entities. This does not establish our project's
+eligibility or a donor's willingness to fund it. A public proposal and eventual
+grant agreement are separate steps. The official generic question address is
+hi@manifund.org. A tailored eligibility/reviewer-routing email returned SENT at
+2026-10-05 03:55:22 UTC. No account, public proposal or grant agreement was
+created, submitted or accepted. Exact draft and receipt are stored privately.
+
+TRANSFORMATIVE AI FUND: APPLICATION PARTIALLY STARTED
+Primary source: https://funds.effectivealtruism.org/funds/transformative-ai
+Official application:
+https://av20jp3z.paperform.co/?fund=Transformative+AI+Fund
+The live application welcomes uncertain eligibility, gives a brief substantive
+writing guideline, and presents a broad advanced-AI remit with a predominantly
+catastrophic-risk focus. The narrower operational study needs an honest fit
+assessment; no demonstrated catastrophic-risk reduction is claimed. The fund
+and scope confirmation are selected. A required Coefficient Giving/Open
+Philanthropy grant-history/overlapping-application question has no answer. The
+remaining application fields are conditional on that answer. A user question
+is pending; neither history nor absence of history has been inferred. Draft:
+plans/public-feasibility-grant-2026-10-04.txt. The application is not submitted.
+
+SENTIENT FOUNDATION: CONDITIONAL, NO CONTACT OR APPLICATION
+Primary sources:
+https://sentient.foundation/grants
+https://sentient.foundation/product-requests
+https://sentient.foundation/contact
+Official foundation domain linked from the Sentient Labs website:
+https://www.sentient.xyz/
+Rolling public-goods grants and open agent infrastructure are plausible topics.
+At least one essential component must be runnable, inspectable and reusable.
+Our public repository has no declared licence; public source alone is not an
+open-source commitment. No licence has been granted by this audit. The official
+contact form requires Name, Country, Email and Message; Telegram is optional.
+Operator country has not been supplied or established for the form, so no
+fields were filled or submitted. Existing hashes/event replay are not proof of
+model identity or cryptographically verifiable inference. Fit and terms remain
+unresolved; the investment track is not being pursued or accepted.
+
+NLNET COMMONS FUND: CLOSED
+Primary source: https://nlnet.nl/commonsfund/index.html
+The final call closed June1,2026 and no new applications are sought. No
+application was prepared or submitted to the closed programme.
+
+NLNET RESTACK: CURRENT CANDIDATE EXCLUDED
+Primary source: https://nlnet.nl/restack/
+The current call closes November3,2026 at12:00 CET. Its explicit AI exclusion
+has a narrow exception for projects already used by over one million active
+human users and directly relevant to the stack. MurderBench has no evidence
+of that qualification. Do not rename this AI evaluation as generic security
+or reproducibility to evade the criterion. No application was submitted.
+
+NLNET CODESUPPLY: POOR FIT
+Primary source: https://nlnet.nl/codesupply/
+The programme's concrete goal is software-package metadata and supply-chain
+datasets/infrastructure. Our action-coverage study does not establish a
+contribution to that goal. This is a topic-fit judgment, not a fund rejection.
+No application was prepared or submitted.
+
+MOZILLA BUILDERS: CURRENT CALL NOT VERIFIED
+Primary source: https://builders.mozilla.org/programs/
+The inspected page describes Programs2024 and a local-AI accelerator. A current
+2026 call was not established. The current study prioritizes proprietary
+frontier models and has no declared FOSS licence. Do not advertise a historical
+USD100k opportunity as an available award or claim that we qualify.
+
+FOLLOW-UP AND EVIDENCE
+No substantive reviewer response, eligible-buyer conversation, funding award or
+model credit award has resulted from this audit. One tailored follow-up after
+7-10 business days, then stop unless invited. An automatic email receipt is
+not substantive feedback. Funding/account contracts require review and the
+operator's explicit acceptance before any agreement. No agreement was accepted.
