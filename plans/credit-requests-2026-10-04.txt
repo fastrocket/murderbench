@@ -1,0 +1,93 @@
+MurderBench / model credits and verification / 2026-10-04
+Linh Ngo / XP.COM, LLC dba Xenocom
+Status: one credit request submitted, one funding-fit inquiry delivered,
+and provider-requested account verification sent. No awards or permission yet.
+
+TOGETHER AI: USD300 REQUEST SUBMITTED
+Source: https://www.together.ai/research-credits-program-request
+The live page describes an invite-only student programme but also says anyone
+with a research idea may apply. Its educational-institution field is optional.
+The application explicitly disclosed the existing commercial operator, no
+student affiliation and no claimed invitation, and requested an eligibility
+decision. Name/email, project, USD300 and budget-justification fields were filled.
+The final notice only acknowledged eligibility review; no account, purchase,
+grant agreement or Terms of Service were accepted. After one Submit action,
+the native UI displayed: Thank you! We'll be in touch soon.
+Eligibility, available credits and any grant conditions remain unconfirmed.
+Exact text and receipt are preserved privately.
+
+Pricing source: https://www.together.ai/pricing (checked2026-10-04)
+Illustrative capacity calculation, not model selection, power analysis, episode
+count or spend forecast: 50M uncached input +10M billed output tokens on
+DeepSeek V4 Pro0813 at USD1.32/3.96 perM is USD105.60; the same allocation on
+Qwen3.8-2.4T-A95B at USD2.00/6.00 perM is USD160.00. Total USD265.60 leaves
+USD34.40 within the requested ceiling. Output accounting must include billed
+reasoning. Rates, availability, checkpoint/licence provenance and award limits
+need verification before selecting routes. No batch/cache discount is assumed.
+The token figures illustrate capacity; they do not establish need or power.
+Unused support may remain unused if the candidate fails its contribution gate.
+
+Proprietary frontier models retain first priority. Together credits would support
+Chinese open-weight replication after review/freeze and provider clearance where
+required. The initial screening limit remains USD10 new liability within the
+existing USD100 lifetime API cap including outstanding reservations. A larger
+collection, even funded by credits, requires Linh's separate authorization.
+This application incurs no model charge or reservation.
+
+SENTIENT FOUNDATION: ELIGIBILITY / REVIEWER INQUIRY DELIVERED
+Source: https://sentient.foundation/contact
+Programme: https://sentient.foundation/grants
+The country field was resolved using the operator's public company page:
+https://xenocom.com/ (XP.COM, LLC dba Xenocom / Colorado, USA).
+This is a company declaration, not an independent government registration check.
+Name, United States, business email and an exact prepared inquiry were submitted;
+optional Telegram was left blank. The native UI reported contact-form success:
+THANK YOU - WE'LL BE IN TOUCH.
+The inquiry expressly disclosed the repository's missing licence and requested
+fit/reviewer guidance before any reuse commitment or award. It did not present
+a novel model effect, open-source licence, cryptographic model-identity proof,
+secured reviewer or grant. No formal grant application or investment request was
+submitted and no agreement was accepted. The screenshot initially missed the
+receipt because its text was above the viewport; scrolling up exposed the
+actual confirmation without altering the page or submitting again.
+
+OPENROUTER: REQUESTED ACCOUNT VERIFICATION SENT
+Official support route: https://openrouter.ai/support
+Existing ticket:116675. The automated receipt requested contact from the account
+email. A read-only authenticated profile check found that the registered account
+and connected business mailbox use different addresses. No account settings,
+credentials, keys, billing controls or permissions were changed. No API key or
+account-wide usage figures were sent in the verification message or published.
+The registered Gmail account was already signed in in Chrome. A focused composer
+was used to send verification to support, cross-referencing the existing ticket
+and copying the business mailbox. Exact message text and recipient data are
+stored privately. Gmail displayed Message sent; the independently received
+business copy confirmed From, To, Cc and Gmail signatures. Message timestamp:
+2026-10-04T22:08:52-06:00. Requested ticket association has not been confirmed.
+This follows an actual verification request; it is not an unsolicited reminder
+inside the normal7-10 business-day follow-up interval. No approval or credits
+have been granted. Covered model queries remain held pending written scope.
+
+OTHER ROUTES CHECKED
+Together Startup Accelerator: https://www.together.ai/startup-accelerator
+Selection-based; tier depends on funding raised. Operator funding history and
+startup qualification are unverified; no application was submitted. It is
+separate from the research-credit request, not a USD15k award or entitlement.
+
+Foresight Nodes: https://foresight.org/grants/ai-science-safety-nodes-rfp/
+Current deadline October31,2026 at23:59 PDT. For-profit applicants may apply;
+open-source outputs are required and in-person SF/Berlin contribution is strongly
+prioritized. The coordination/accountability focus is adjacent, but this narrow
+study has no established existential-risk reduction, declared output licence,
+qualified Foresight connection or in-person commitment. The usual USD30k-100k
+range is not a reason to inflate the current USD7,500 ask. No application,
+connection, travel commitment or grant is claimed.
+
+E2B startup route: the operator's public company page describes a1999 formation,
+which conflicts with the published under-three-years startup criterion. A new
+initiative within the old operator does not resolve that restriction. The
+already-sent research/eligibility inquiry remains a question, not qualification.
+
+OUTCOME
+No substantive external method feedback, customer validation, award or new model
+result was obtained in these actions. No model API liability was added.

@@ -9,6 +9,32 @@
   "stage": "proposal and targeted outreach; no awards",
   "routes": [
     {
+      "id": "together-research-credits",
+      "kind": "model API credits",
+      "source": "https://www.together.ai/research-credits-program-request",
+      "verified": "2026-10-04",
+      "status": "request submitted; native UI confirmation; eligibility/award unconfirmed",
+      "requested_usd": 300,
+      "caveat": "Page mentions invite-only student programme and anyone with an idea; optional education field left blank. Existing commercial affiliation and absence of invitation explicitly disclosed. Request only, not awarded credits. Any collection beyond lifetime API cap needs separate authorization."
+    },
+    {
+      "id": "together-startup-accelerator",
+      "kind": "conditional platform-credit programme",
+      "source": "https://www.together.ai/startup-accelerator",
+      "verified": "2026-10-04",
+      "status": "not applied; funding history / startup eligibility unverified",
+      "caveat": "Selection-based credit tiers depend on funds raised. Distinct from research-credit request. No tier, funding history, entitlement or award claimed."
+    },
+    {
+      "id": "foresight-nodes-2026",
+      "kind": "conditional open AI grant",
+      "source": "https://foresight.org/grants/ai-science-safety-nodes-rfp/",
+      "verified": "2026-10-04",
+      "status": "conditional fit / prerequisites unresolved; no application",
+      "deadline": "2026-10-31 23:59 PDT",
+      "caveat": "For-profits allowed; open-source funded outputs required and in-person SF/Berlin strongly prioritized. Existential-risk relevance, reuse licence, connection and in-person commitment unestablished. Do not inflate current feasibility ask to meet typical grant range."
+    },
+    {
       "id": "manifund-public-benefit",
       "kind": "public-benefit feasibility grant / reviewer routing",
       "source": "https://manifund.org/about/open-call",
@@ -25,8 +51,9 @@
       "alternate_source": "https://sentient.foundation/product-requests",
       "contact_source": "https://sentient.foundation/contact",
       "verified": "2026-10-04",
-      "status": "conditional fit; no contact or application submitted",
-      "caveat": "An essential reusable component is required; repository has no declared licence. Official contact form also requires operator country, not established. No investment terms accepted; event replay is not verifiable inference."
+      "status": "fit/reviewer-routing inquiry delivered; no formal application, agreement or award",
+      "caveat": "Essential reusable component required; missing software licence disclosed and no commitment made. Country resolved from public company page. Fit, reviewer and grant terms unconfirmed; no investment requested.",
+      "country_source": "https://xenocom.com/"
     },
     {
       "id": "nlnet-commons",
@@ -69,7 +96,8 @@
       "contact_source": "https://e2b.dev/contact",
       "verified": "2026-10-04",
       "status": "commercial entity eligibility inquiry sent; no application or award",
-      "caveat": "Research affiliation, first-time use and startup age/funding eligibility not established. New initiative within an existing LLC does not establish qualification. Listed USD20k credits are E2B infrastructure, not model API credits or cash."
+      "caveat": "Research affiliation and first-time use unestablished. Operator public site describes1999 formation, conflicting with under-three-years startup criterion. New initiative does not establish startup eligibility. Listed credits are E2B infrastructure, not API credits or cash.",
+      "operator_source": "https://xenocom.com/"
     },
     {
       "id": "composio-partnerships",
@@ -145,9 +173,10 @@
       "kind": "research permission and possible credits",
       "source": "https://openrouter.ai/terms/",
       "contact": "support@openrouter.ai",
-      "status": "inquiry sent; awaiting response",
+      "status": "account verification sent for existing ticket116675; awaiting written scope/permission and possible credits",
       "verified": "2026-10-04",
-      "caveat": "Prior written approval required for covered red teaming; request scope clarification and await approval before any covered queries. No published research credit entitlement identified."
+      "caveat": "Prior written approval required for covered red teaming; request scope clarification and await approval before any covered queries. No published research credit entitlement identified.",
+      "verification": "Authenticated account identity differs from business connector mailbox. Message sent from registered Gmail account; received business Cc independently confirmed sender and recipients. No credentials or account changes."
     },
     {
       "id": "robocurve",
@@ -200,6 +229,26 @@
     }
   ],
   "submissions": [
+    {
+      "route": "together-research-credits",
+      "date": "2026-10-04",
+      "type": "research-credit form request",
+      "requested_usd": 300,
+      "outcome": "Visible Thank you / will be in touch confirmation; eligibility and award unconfirmed"
+    },
+    {
+      "route": "sentient-foundation-public-goods",
+      "date": "2026-10-04",
+      "type": "public-goods eligibility/reviewer-routing inquiry form",
+      "outcome": "Native contact form success / visible confirmation; no formal grant application or award"
+    },
+    {
+      "route": "openrouter",
+      "date": "2026-10-04",
+      "message_timestamp": "2026-10-04T22:08:52-06:00",
+      "type": "provider-requested registered-account verification for existing ticket116675",
+      "outcome": "Gmail Message sent plus independently received business Cc with correct sender/To/Cc; requested association, scope permission and credits not confirmed"
+    },
     {
       "route": "manifund-public-benefit",
       "date": "2026-10-04",
@@ -274,5 +323,6 @@
   ],
   "awards": [],
   "substantive_feedback": [],
-  "research_audit": "plans/funding-route-audit-2026-10-04.txt"
+  "research_audit": "plans/funding-route-audit-2026-10-04.txt",
+  "latest_credit_audit": "plans/credit-requests-2026-10-04.txt"
 }

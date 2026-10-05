@@ -4,6 +4,17 @@
   "claims": "Proposed causal contrast and review request; no novel finding, lab relationship, secured reviewer or award.",
   "emails": [
     {
+      "route": "openrouter",
+      "to": "support@openrouter.ai",
+      "cc": "linh@ngo.net",
+      "subject": "Account email verification for ticket #116675",
+      "message_timestamp": "2026-10-04T22:08:52-06:00",
+      "delivery": "Gmail Message sent confirmation and received business Cc independently verified correct registered sender",
+      "reply_status": "Permission, credits and association to existing ticket not confirmed",
+      "source": "Automated verification notice / authenticated account profile",
+      "claims": "Requested identity verification for existing case, not an unsolicited follow-up; no credentials, account changes or new queries"
+    },
+    {
       "route": "manifund-public-benefit",
       "to": "hi@manifund.org",
       "subject": "Public-benefit feasibility proposal: MurderBench / commercial applicant fit",
@@ -86,6 +97,19 @@
     }
   ],
   "forms": [
+    {
+      "route": "together-research-credits",
+      "source": "https://www.together.ai/research-credits-program-request",
+      "status": "submitted; visible Thank you confirmation",
+      "requested_credits_usd": 300,
+      "purpose": "Chinese open-weight replication after proprietary-priority screening; existing commercial applicant expressly disclosed; eligibility/award unconfirmed"
+    },
+    {
+      "route": "sentient-foundation-public-goods",
+      "source": "https://sentient.foundation/contact",
+      "status": "submitted; native success and visible receipt",
+      "purpose": "Public-goods eligibility/reviewer routing; licence unresolved, no formal grant application or award"
+    },
     {
       "route": "arcade-discovery",
       "source": "https://www.arcade.dev/contact/",

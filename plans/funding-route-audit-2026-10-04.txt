@@ -31,7 +31,7 @@ remaining application fields are conditional on that answer. A user question
 is pending; neither history nor absence of history has been inferred. Draft:
 plans/public-feasibility-grant-2026-10-04.txt. The application is not submitted.
 
-SENTIENT FOUNDATION: CONDITIONAL, NO CONTACT OR APPLICATION
+SENTIENT FOUNDATION: CONDITIONAL; FIT INQUIRY DELIVERED, NO APPLICATION
 Primary sources:
 https://sentient.foundation/grants
 https://sentient.foundation/product-requests
@@ -43,10 +43,13 @@ At least one essential component must be runnable, inspectable and reusable.
 Our public repository has no declared licence; public source alone is not an
 open-source commitment. No licence has been granted by this audit. The official
 contact form requires Name, Country, Email and Message; Telegram is optional.
-Operator country has not been supplied or established for the form, so no
-fields were filled or submitted. Existing hashes/event replay are not proof of
-model identity or cryptographically verifiable inference. Fit and terms remain
-unresolved; the investment track is not being pursued or accepted.
+The operator's public company page https://xenocom.com/ identifies Colorado,
+USA, resolving the initial country gap. A fit/reviewer-routing inquiry was
+submitted and the native UI confirmed receipt. It disclosed the missing licence
+and made no reuse commitment. No formal application or agreement was submitted
+or accepted. Existing hashes/event replay are not proof of model identity or
+cryptographically verifiable inference. Fit and terms remain unresolved; the
+investment track is not being pursued or accepted. See credit-requests-2026-10-04.txt.
 
 NLNET COMMONS FUND: CLOSED
 Primary source: https://nlnet.nl/commonsfund/index.html
