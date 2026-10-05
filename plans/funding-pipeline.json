@@ -130,8 +130,11 @@
       "id": "foresight-nodes-2026",
       "kind": "conditional open AI grant",
       "source": "https://foresight.org/grants/ai-science-safety-nodes-rfp/",
+      "focus_source": "https://foresight.org/grants/ai-science-safety-nodes-rfp-coordination-and-accountability/",
+      "contact": "grants@foresight.org",
+      "contact_source": "https://foresight.org/about/",
       "verified": "2026-10-04",
-      "status": "conditional fit / prerequisites unresolved; no application",
+      "status": "fit inquiry sent; prerequisites unresolved; no formal application or award",
       "deadline": "2026-10-31 23:59 PDT",
       "caveat": "For-profits allowed; open-source funded outputs required and in-person SF/Berlin strongly prioritized. Existential-risk relevance, reuse licence, connection and in-person commitment unestablished. Do not inflate current feasibility ask to meet typical grant range."
     },
@@ -334,6 +337,14 @@
     }
   ],
   "submissions": [
+    {
+      "route": "foresight-nodes-2026",
+      "date": "2026-10-04",
+      "recorded_utc": "2026-10-05 05:36:13 UTC",
+      "type": "independent technical assessment funding-fit email",
+      "requested_usd": 7500,
+      "outcome": "Gmail returned SENT; no formal application, eligibility confirmation, reviewer commitment, grant agreement or award"
+    },
     {
       "route": "arize-commercial-discovery",
       "date": "2026-10-04",

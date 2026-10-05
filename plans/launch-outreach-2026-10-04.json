@@ -4,6 +4,16 @@
   "claims": "Proposed causal contrast and review request; no novel finding, lab relationship, secured reviewer or award.",
   "emails": [
     {
+      "route": "foresight-nodes-2026",
+      "to": "grants@foresight.org",
+      "subject": "MurderBench: fit question for independent technical assessment pilot",
+      "recorded_utc": "2026-10-05 05:36:13 UTC",
+      "delivery": "Gmail returned SENT",
+      "reply_status": "No eligibility confirmation, substantive feedback or award recorded",
+      "source": "https://foresight.org/about/",
+      "claims": "Contingent USD7,500 public feasibility fit inquiry, distinct from private customer services. AI assistance, no study model results, established framing overlap and unresolved licensing/in-person commitments disclosed. No application or agreement."
+    },
+    {
       "route": "arize-commercial-discovery",
       "to": "partnerships@arize.com",
       "subject": "MurderBench: customer discovery for guard configuration evaluations",

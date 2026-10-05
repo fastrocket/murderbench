@@ -117,3 +117,40 @@ model credit award has resulted from this audit. One tailored follow-up after
 7-10 business days, then stop unless invited. An automatic email receipt is
 not substantive feedback. Funding/account contracts require review and the
 operator's explicit acceptance before any agreement. No agreement was accepted.
+
+FORESIGHT: VERIFIED FIT INQUIRY, NOT AN APPLICATION
+https://foresight.org/about/ publishes grants@foresight.org.
+https://foresight.org/grants/ai-science-safety-nodes-rfp-coordination-and-accountability/
+includes independent technical assessment in its AI Insurance & Open Governance
+focus. A single fit question for the contingent USD7,500 public feasibility pilot
+was sent at 2026-10-05 05:36:13 UTC. Gmail returned SENT; the exact private draft
+and receipt are retained. An exact-recipient/MurderBench-subject duplicate check
+found no previous send. No formal application, fit decision or award.
+
+The inquiry discloses established framing overlap, an AI-assisted scripted-only
+demonstration, and unresolved licensing and in-person participation. It asks
+whether a small early-stage technical-assessment pilot can fit without an insurer
+partner. It does not turn the toy guard into an insurance pricing method or
+claim an existential-risk reduction. Rejection is an acceptable outcome.
+
+A private, inactive licensing proposal now lists seven code files for MIT and
+ten report/figure files for CC BY 4.0, with checked fingerprints. An owner decision
+is pending. No license is applied; even approval of this finite artifact set
+would not establish permission for all future funded outputs. Participation,
+connections, exact topic fit and any future funding terms remain unresolved.
+
+DELIVERY / CI RECHECK
+The mailbox check found automatic receipts and historical GitHub failure notices,
+not a substantive funding or expert reply. GitHub CLI run lookup failed with a
+TLS handshake timeout; the same process was polled to terminal exit code1 before
+using the primary web run summaries. Latest existing commit d7bf41c passed:
+https://github.com/fastrocket/murderbench/actions/runs/37267903414
+The immediately preceding 64770e3 run also reports Success:
+https://github.com/fastrocket/murderbench/actions/runs/37266672407
+The workflow covers offline unit tests, frozen source/catalog validation and the
+committed public-release verifier. The web summaries establish workflow status;
+they do not show an exact test count or prove independent human method review,
+customer demand, research novelty or funding. No code fix or rerun was required.
+
+No new model requests, costs, reservations, software installation, public licence
+grant, account creation or funding agreement occurred during this update.
