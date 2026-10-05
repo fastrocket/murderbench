@@ -1,0 +1,8 @@
+Can a safety label make an AI agent less safe?
+
+Same guard and coverage facts: “motion validator” vs “safety approver.”
+
+Proposed study; no model trials yet. Seeking critical reviewers, replication and model credits.
+https://murderbench.com/guardrail-coverage.html
+
+Status: NOT PUBLISHED. Chrome X session requires sign-in and legal agreement.

@@ -1,0 +1,81 @@
+{
+  "authorization": "User delegated pursuit of funding, credits, expert feedback and publicity; supplied Linh Ngo and XP.COM, LLC dba Xenocom identity.",
+  "proposal": "https://murderbench.com/guardrail-coverage.html",
+  "claims": "Proposed causal contrast and review request; no novel finding, lab relationship, secured reviewer or award.",
+  "emails": [
+    {
+      "route": "anthropic-evaluations",
+      "to": "eval-initiative@anthropic.com",
+      "subject": "MurderBench: scoped guardrail-coverage evaluation \u2014 feedback / support inquiry",
+      "recorded_utc": "2026-10-05 02:33:07 UTC",
+      "delivery": "Gmail returned SENT",
+      "reply_status": "No substantive reply recorded"
+    },
+    {
+      "route": "far-ai",
+      "to": "hello@far.ai",
+      "subject": "Method-review routing request: agent guard descriptions and actual coverage",
+      "recorded_utc": "2026-10-05 02:33:09 UTC",
+      "delivery": "Gmail returned SENT",
+      "reply_status": "No substantive reply recorded"
+    },
+    {
+      "route": "ea-transformative-ai",
+      "to": "transformativeai@effectivealtruismfunds.org",
+      "subject": "Fit inquiry: bounded agent-safeguard evaluation before a grant application",
+      "recorded_utc": "2026-10-05 02:33:11 UTC",
+      "delivery": "Gmail returned SENT",
+      "reply_status": "No substantive reply recorded"
+    },
+    {
+      "route": "openrouter",
+      "to": "support@openrouter.ai",
+      "subject": "Written research-scope request and possible credits: MurderBench sandbox evaluation",
+      "recorded_utc": "2026-10-05 02:33:13 UTC",
+      "delivery": "Gmail returned SENT",
+      "reply_status": "Automated receipt, ticket116675; generic account-email verification notice and backlog warning; no approval or substantive decision."
+    },
+    {
+      "route": "openai-researcher-access",
+      "to": "democratic_process_grant_questions@openai.com",
+      "subject": "Researcher Access portal eligibility question (administrator link)",
+      "delivery": "Gmail returned SENT",
+      "date": "2026-10-04",
+      "source": "Official Researcher Access portal Help menu contact link",
+      "caveat": "Administrator address is named for a different grant; explicitly requested routing and eligibility clarification."
+    }
+  ],
+  "forms": [
+    {
+      "route": "robocurve",
+      "source": "https://robocurve.org/",
+      "status": "submitted; visible Message sent confirmation",
+      "purpose": "Closest-work and native-guard fidelity feedback",
+      "date": "2026-10-04"
+    },
+    {
+      "route": "anthropic-researcher-access",
+      "status": "prepared, not submitted",
+      "pending": "Legal acceptance and Claude Console organization ID",
+      "amount_requested": "USD1000 API credits"
+    }
+  ],
+  "social_posts": [
+    {
+      "channel": "LinkedIn",
+      "status": "published; visible Post successful confirmation",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7512702254509027328/",
+      "date": "2026-10-04",
+      "claims": "Research proposal, no measured effect, requests critique and support",
+      "graphic": "Proposed experiment design in link preview; no rates represented",
+      "clarification": "Edited and verified after refresh: precise per-step movement limits; risk-compensation prior work acknowledged. Public source audit records the wording correction."
+    },
+    {
+      "channel": "X",
+      "status": "prepared, not published",
+      "pending": "Chrome sign-in and legal agreement",
+      "draft": "plans/guardrail-x-draft-2026-10-04.txt"
+    }
+  ],
+  "follow_up": "One tailored follow-up after7-10 business days if no substantive reply, then stop unless invited."
+}

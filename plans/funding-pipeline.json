@@ -1,0 +1,149 @@
+{
+  "updated_date": "2026-10-04",
+  "applicant": {
+    "name": "Linh Ngo",
+    "operator": "XP.COM, LLC dba Xenocom",
+    "initiative": "MurderBench",
+    "email": "linh@ngo.net"
+  },
+  "stage": "proposal and targeted outreach; no awards",
+  "routes": [
+    {
+      "id": "anthropic-researcher-access",
+      "kind": "API credits",
+      "source": "https://support.claude.com/en/articles/9125743-what-is-the-external-researcher-access-program",
+      "status": "prepared; pending legal acceptance and organization ID",
+      "verified": "2026-10-04",
+      "amount": "Usually USD1000 credits if approved",
+      "timing": "First Monday of each month; next scheduled review 2026-10-05; no approval guarantee",
+      "next": "Inspect application and submit accurate team/topic/account details"
+    },
+    {
+      "id": "anthropic-evaluations",
+      "kind": "evaluation funding and expert feedback",
+      "source": "https://www.anthropic.com/news/a-new-initiative-for-developing-third-party-model-evaluations",
+      "contact": "eval-initiative@anthropic.com",
+      "status": "inquiry sent; awaiting response",
+      "verified": "2026-10-04",
+      "caveat": "Published rolling proposal route dates to 2024; current availability must be confirmed"
+    },
+    {
+      "id": "openai-researcher-access",
+      "kind": "API credits",
+      "source": "https://help.openai.com/en/articles/10139500-researcher-access-program-faq",
+      "status": "eligibility/routing inquiry sent; no application submitted",
+      "verified": "2026-10-04",
+      "amount": "Up to USD1000 credits",
+      "caveat": "Active academic/other research organization or research nonprofit affiliation required; independent commercial initiative eligibility unconfirmed",
+      "timing": "Quarterly reviews; next listed month December",
+      "contact": "democratic_process_grant_questions@openai.com",
+      "contact_source": "Official grant portal Help menu; administrator contact, not a verified specialist researcher inbox"
+    },
+    {
+      "id": "ea-transformative-ai",
+      "kind": "early-stage grant",
+      "source": "https://funds.effectivealtruism.org/funds/transformative-ai",
+      "contact": "transformativeai@effectivealtruismfunds.org",
+      "status": "inquiry sent; awaiting response",
+      "verified": "2026-10-04",
+      "caveat": "Open to individuals/new organizations; usual grants USD10k-150k; predominantly catastrophic-risk focus. Our narrower operational study needs an honest fit assessment."
+    },
+    {
+      "id": "far-ai",
+      "kind": "expert review and possible nomination",
+      "source": "https://www.far.ai/programs",
+      "contact": "hello@far.ai",
+      "status": "inquiry sent; awaiting response",
+      "verified": "2026-10-04",
+      "caveat": "Grantmaking currently accepts expert-nominated researchers only; no nomination or grant application is claimed"
+    },
+    {
+      "id": "openrouter",
+      "kind": "research permission and possible credits",
+      "source": "https://openrouter.ai/terms/",
+      "contact": "support@openrouter.ai",
+      "status": "inquiry sent; awaiting response",
+      "verified": "2026-10-04",
+      "caveat": "Prior written approval required for covered red teaming; request scope clarification and await approval before any covered queries. No published research credit entitlement identified."
+    },
+    {
+      "id": "robocurve",
+      "kind": "closest-work feedback and replication",
+      "source": "https://robocurve.org/",
+      "status": "feedback form submitted; awaiting response",
+      "verified": "2026-10-04",
+      "caveat": "Method feedback request, not a funding program or implied partnership"
+    },
+    {
+      "id": "aisi-alignment-project",
+      "kind": "future funding watch",
+      "source": "https://alignmentproject.aisi.gov.uk/how-to-apply",
+      "status": "closed / no current application",
+      "verified": "2026-10-04",
+      "caveat": "Site says similar 2026 program unlikely; do not present as an open award"
+    },
+    {
+      "id": "longview-digital-minds",
+      "kind": "rejected funding route",
+      "source": "https://www.longview.org/request-for-proposals-research-and-applied-work-on-digital-minds/",
+      "status": "closed and poor topic fit",
+      "verified": "2026-10-04",
+      "caveat": "Deadline July24,2026; digital minds is not this evaluation"
+    },
+    {
+      "id": "xai",
+      "kind": "collaboration channel discovery",
+      "source": "https://x.ai/safety",
+      "status": "funding route not identified",
+      "verified": "2026-10-04",
+      "caveat": "safety@x.ai is for harmful behavior reports; no new finding justifies a bug report or funding assumption"
+    },
+    {
+      "id": "paid-evaluation-buyers",
+      "kind": "commercial pilot",
+      "source": "https://murderbench.com/services.html",
+      "status": "offer preparation",
+      "caveat": "No buyers, contracts or revenue yet; qualify a concrete workflow and decision before quoting"
+    }
+  ],
+  "submissions": [
+    {
+      "route": "anthropic-evaluations",
+      "date": "2026-10-04",
+      "type": "inquiry email",
+      "outcome": "sent; no award or substantive feedback recorded"
+    },
+    {
+      "route": "far-ai",
+      "date": "2026-10-04",
+      "type": "inquiry email",
+      "outcome": "sent; no award or substantive feedback recorded"
+    },
+    {
+      "route": "ea-transformative-ai",
+      "date": "2026-10-04",
+      "type": "inquiry email",
+      "outcome": "sent; no award or substantive feedback recorded"
+    },
+    {
+      "route": "openrouter",
+      "date": "2026-10-04",
+      "type": "inquiry email",
+      "outcome": "sent; no award or substantive feedback recorded"
+    },
+    {
+      "route": "robocurve",
+      "date": "2026-10-04",
+      "type": "method-feedback form",
+      "outcome": "visible Message sent confirmation"
+    },
+    {
+      "route": "openai-researcher-access",
+      "date": "2026-10-04",
+      "type": "eligibility/routing inquiry email",
+      "outcome": "sent; no application or award claimed"
+    }
+  ],
+  "awards": [],
+  "substantive_feedback": []
+}

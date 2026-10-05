@@ -1,0 +1,78 @@
+MurderBench operating plan / 2026-10-04
+
+Operator: XP.COM, LLC dba Xenocom. Lead: Linh Ngo, linh@ngo.net.
+MurderBench is an evaluation initiative of the company; it is not represented
+as a separately registered DBA, university, nonprofit, or accredited lab.
+The operator and name are supplied by Linh Ngo. No new legal filing is assumed.
+
+POSITION
+Independent testing of AI agents at the point where proposed actions become
+executed effects. Sell a concrete engineering decision: keep, change, or replace
+a harness safeguard based on executable evidence and the cost to useful work.
+Do not sell a general safety certification or a sensational model leaderboard.
+
+FIRST RESEARCH CANDIDATE
+Can a safety label make an agent less safe? Test the same policy, tools, scene,
+coverage facts and motion guard under a neutral validator description and a
+safety-approver description. This is a hypothesis, not a demonstrated failure.
+See guardrail-coverage-proposal.txt for overlap, controls and rejection gates.
+
+REVENUE PATH
+1. Offer a bounded agent-harness evaluation for one customer's workflow: define
+   a decision, reproduce controls, compare a current safeguard with one repair,
+   and deliver a replayable report with benign-task performance and limitations.
+2. Agree a written scope, access limits, acceptance criteria and quote before
+   accepting client data or committing to delivery. A discovery conversation is
+   free; no contract, purchase, certification or payment is authorized here.
+3. Test demand with five qualified conversations. Aim for one paid pilot, rather
+   than counting likes as customer validation. Expand to regression testing only
+   after a buyer uses the evidence to make a real operational decision.
+
+FUNDING PATH
+Seek API credits and methodological feedback first. A provisional four-week
+public feasibility award is USD7,500: engineering 4,000; independent review
+1,000; compute 500; replication 750; report/artifacts 750; contingency 500.
+These are planning estimates, not vendor quotes or secured personnel.
+Dates start after funding and reviewer availability, not at cold outreach.
+Deliver a negative result or rejection record if the candidate fails.
+
+INDEPENDENCE
+Disclose every sponsor, model credit award and material relationship. Funders
+may review factual issues and confidential implementation details; they cannot
+choose scores, suppress negative findings, or purchase an endorsement. Agree
+any confidentiality and vulnerability disclosure window before collection.
+The public study uses original synthetic resources and simulated actions.
+
+EXECUTION GATES
+Stage A: published proposal, closest-work audit, verified funding routes,
+         targeted expert and sponsor requests. No model charges required.
+Stage B: pin a real guard implementation/interface, reproduce a documented
+         coverage gap offline, implement independent replay and controls.
+Stage C: obtain critique; record disagreements; freeze cases, prompt contrasts,
+         scoring, sampling, cost envelope and analysis before model queries.
+Stage D: screen with at most USD10 new paid API liability; confirmation proceeds
+         only if both capability controls and novelty/usefulness survive.
+Stage E: fresh confirmation, tested repair, publication of every attempt and
+         null finding. Only then promote an empirical outcome.
+Stages may stop. No expenditure is justified by a desire for viral coverage.
+
+BUDGET
+Existing USD100 lifetime cap remains, including unresolved reservations.
+Read-only reconciliation on 2026-10-04: legacy accounted 36.4007675376;
+native ledger 6.293099774; total 42.6938673116; remaining 57.3061326884.
+Accounted liability includes reservations; it is not all confirmed API spend.
+Awarded credits, if any, must be separately logged and must not silently expand
+cash spending authority. No new model charges have been made for this plan.
+
+SUCCESS METRICS
+Evidence: independently replayed controls; fresh-case repair effect and cost to
+benign completion; one documented operational decision changed by an evaluator.
+Business: substantive expert feedback; credits or a funding award; a qualified
+customer conversation; a paid engagement with defined scope and independence.
+Publicity: qualified inbound requests and artifact reuse, separately from reach.
+No funding, expert endorsement, clients or new results are claimed at launch.
+
+FOLLOW-UP
+One tailored follow-up after 7-10 business days, then stop unless invited.
+Record each actual submission and outcome; do not mark a draft as submitted.
+Closed, mismatched and nomination-only programs remain explicit in the pipeline.

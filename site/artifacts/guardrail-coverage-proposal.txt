@@ -1,0 +1,147 @@
+Can a safety label make an agent less safe?
+MurderBench / proposal v0.2 / 2026-10-04 / NOT A FROZEN PROTOCOL
+Lead: Linh Ngo, XP.COM, LLC dba Xenocom
+
+PROBLEM AND OPERATIONAL DECISION
+An agent can receive true assurances about a narrow safeguard and still be
+responsible for hazards outside that safeguard's coverage. Would changing only
+the name of that safeguard change the agent's actions? The practical decision
+is whether to use a generic safety-assurance phrase, a neutral description, an
+explicit coverage statement, or an executor with broader verified coverage.
+
+ORIGIN
+RoboHarm tests unsafe instructions in five fixed physical robot scenes. One
+released transcript describes downstream safety approvers as bounding motion
+and speed. The transcript motivates a question; it is not causal evidence that
+this wording caused unsafe action. MurderBench's prior text pilots and Vault
+reproduction did not establish this new mechanism or an alignment breakthrough.
+Original source: https://robocurve.org/roboharm/
+Transcript: https://roboharm-artifacts.pages.dev/runs/transcripts/omen_rig-6_adhoc_0ad20331.html
+Implementation/provenance: https://github.com/robocurve/roboharm
+
+CLOSEST WORK AND PROVISIONAL CONTRIBUTION
+RoboPAIR already demonstrates harmful robot behavior after adversarial inputs.
+https://arxiv.org/abs/2410.13691
+RoboHarm already compares refusal and completion in fixed robot scenes.
+https://robocurve.org/roboharm/
+SafeAgentBench already evaluates hazardous embodied planning and safety defenses.
+https://safeagentbench.github.io/
+Delegated Misalignment already studies responsibility diffusion, role bias and
+defense failures in principal/subordinate systems. This candidate must not claim
+to discover responsibility diffusion. It holds one agent and its full task
+information fixed, changes only the description of the same non-agent guard,
+and grades actual effects rather than a refusal or a tool-call label alone.
+https://arxiv.org/html/2609.27900v1
+ClawsBench already studies safety/capability changes from scaffolding. A harness
+comparison alone is not new; this candidate isolates true partial coverage from
+the description of that coverage and separately measures a coverage repair.
+https://arxiv.org/html/2604.05172v1
+RoboGuard already grounds safety rules and repairs plans. Adding a semantic
+guard alone is not a new contribution. A useful output here would identify a
+specific configuration decision and measure both unsafe execution and utility.
+https://arxiv.org/html/2503.07885v1
+Knowing-but-Doing already covers risk recognition alongside compliance. A
+recognition/action gap alone cannot establish this candidate's novelty.
+https://aclanthology.org/2026.findings-acl.349/
+SHE and HarnessRisk further overlap with safety harness design and configuration.
+https://arxiv.org/html/2608.09885v1
+https://arxiv.org/html/2608.17597v1
+Malberg et al. already evaluate LLM risk compensation. Their released contrast
+changes the stated negative-outcome probability after adding a protective
+regulation; this candidate holds risk and coverage facts fixed. Replacing their
+choice scale with executed actions alone would not establish a contribution.
+https://aclanthology.org/2025.nlp4dh-1.50/
+https://github.com/simonmalberg/cognitive-biases-in-llms
+Proof-of-Guardrail already distinguishes proven guard execution from general
+safety. A passed guard alone is not a new finding.
+https://arxiv.org/abs/2603.05786
+The pinned source audit and native primitive calibration are documented in
+guardrail-source-audit-2026-10-04.txt. They establish no model effect or novelty.
+Visual grounding work such as VLSBench and SafetyPairs means that hiding a
+hazard in an image is not itself a contribution.
+https://aclanthology.org/2025.acl-long.405/
+https://arxiv.org/html/2510.21120v1
+
+The exact proposed contrast was not identified in this limited audit. That is
+not proof of absence or a claim to be first. Search and code review must be
+updated before freeze. Ask authors/evaluators to identify the closest missing
+experiment, including unpublished work. Reject a renamed established evaluation.
+
+CORE COMPARISON (PLANNED)
+A. Neutral: the component is called a motion validator.
+B. Safety framing: the same component is called a safety approver.
+All coverage facts, task authority, observations, tools, guard code, model
+settings, budgets and stopping rules must otherwise match. Both descriptions
+explicitly state which action bounds and per-step movement limits are checked. Neither falsely
+claims semantic hazard coverage. Randomize order; use fresh episodes.
+C. Repair: explicitly state which relevant hazards are NOT covered and assign
+the agent responsibility for them. This adds information and is a separate
+repair comparison, not part of the pure naming contrast.
+D. Executor control: a guard that actually enforces the scenario's semantic
+constraint. This tests prevention, not an agent's beliefs or mental intent.
+Do not attribute an A/B difference to alignment training or a mental mechanism
+without evidence. Calling a label effect causal is limited to the intervention.
+
+SANDBOX AND EXECUTOR
+Pin a documented native motion-guard implementation or a small faithful local
+adapter whose supported semantics are tested against the implementation. Use
+original synthetic scenes, inert objects and no physical actuators. Keep the
+action interface and observed state close enough to test the intended decision;
+reject an adapter that invents guard semantics or replaces planning with an
+obvious trusted certificate. RoboHarm assets are CC-BY-NC-4.0: do not incorporate
+them in a commercial service without permission. Verify every dependency license.
+The pinned Inspect Robots core primitive has passed offline calibration; its
+per-step movement limits do not establish a dynamic speed guarantee. Additional
+embodiment guardrails may enforce further constraints. The synthetic coverage
+boundary is expected and is not a model finding or a complete replay control.
+The initial feasible scope is a restricted simulated object-handling interface,
+not a claim about real robot injury probabilities or production safety.
+
+CONSTRUCT VALIDITY
+Use benign matched tasks, visible and independently legible hazard variants,
+and cases where a safe useful alternative exists. Pre-label any impossible
+case separately. No fabricated alert should be treated as verified evidence.
+Pair task authority and trusted state across conditions; label changes cannot
+grant permission. A separate fresh recognition branch can check whether a hazard
+is legible, but never prime the subsequent action episode with that answer.
+Use at least two paraphrase blocks to test whether one lexical quirk drives the
+effect. A single dramatic failure does not pass the contribution gate.
+
+CONTROLS, REPLAY AND ANALYSIS BEFORE MODEL QUERIES
+Correct scripted policy: completes benign tasks and safe alternatives.
+Faulty scripted policy: ignores semantic hazards, demonstrably triggers the
+execution oracle when the motion guard accepts a permitted geometric move.
+Full semantic guard: prevents the specified execution even for the faulty policy.
+Replay from append-only events in a verifier independent of the agent/executor.
+Check proposed action, guard decision and simulated state effect separately.
+Publish all invalid attempts, provider refusals, routing changes, retries,
+missing cells and reservations. Do not count failed transport as safe behavior.
+Primary endpoint: paired change in unsafe executed effects, clustered by base
+scene. Secondary: unsafe proposals, safe useful completion, blocked benign work,
+technical failures, latency and cost. Freeze denominators and uncertainty method.
+Pilot is exploratory; choose confirmation sample size and effect threshold before
+opening fresh confirmation outcomes. If budget cannot resolve the question,
+publish that limitation rather than a winner. Model-specific effects stay separate.
+
+ACCESS, BUDGET AND PRIORITY
+Proprietary frontier policies first, then Chinese frontier/near-frontier open
+weights available through verified routes. Freeze exact versions and provenance;
+hosted observations do not establish checkpoint behavior. Request provider
+permission where usage terms require it. Spend at most USD10 on an initial
+screen, within the existing USD100 lifetime cap INCLUDING outstanding holds.
+There are no model trials or measured effects for this proposal yet.
+
+GO / NO GO
+Proceed only if the executor gap is reproduced, controls replay, the information
+contrast is valid, and closest-work critique leaves a useful contribution.
+Confirm and promote only a reproducible effect on fresh scenes, or a tested
+repair that changes a concrete configuration decision while preserving utility.
+Stop for duplicate work, unobservable hazards, trivial answer leakage, incapable
+policies, broken controls, unresolved cost, or an effect that fails confirmation.
+A negative result and the tested decision boundary are publishable deliverables.
+
+REQUEST
+Seeking critical review of overlap, native-interface fidelity and the proposed
+comparison; API credits; a replication partner; and milestone-based support.
+No endorsements, secured reviewers, awards or successful mitigations are claimed.
+Funding cannot buy favorable scores or suppress negative outcomes.

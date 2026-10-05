@@ -1,0 +1,80 @@
+Guardrail framing: source and native primitive audit
+2026-10-04 / Linh Ngo, XP.COM, LLC dba Xenocom / not a frozen protocol
+
+DECISION
+Reject the broad novelty claims "LLMs exhibit risk compensation" and "a passed
+guard does not establish safe execution." Both have substantial prior work.
+Retain only a provisional operational question: with identical disclosed risks,
+coverage facts and executor code, does naming the component a safety approver
+rather than a motion validator change executed effects? No literature-absence
+claim, model effect or useful repair is established. Do not collect before the
+remaining validity, overlap, replay and access gates pass.
+
+CLOSEST RELEASED COGNITIVE-BIAS EXPERIMENT
+Malberg et al., A Comprehensive Evaluation of Cognitive Biases in LLMs,
+NLP4DH 2025. The publication reports 30 biases, 20 models and 30,000 tests.
+https://aclanthology.org/2025.nlp4dh-1.50/
+Released repository inspected at a3d24658e428d30f47377f73e5240711e4883de6:
+https://github.com/simonmalberg/cognitive-biases-in-llms
+Read tests/RiskCompensation/config.xml and test.py; did not run its generators,
+model calls or experiment. No templates or datasets are copied into our tests.
+
+Control supplies an initial negative-outcome probability. Treatment adds a
+protective organizational regulation and explicitly decreases that probability.
+Both ask for willingness to take the risky choice on a 0%-100% choice scale.
+The released metric compares chosen willingness in control and treatment.
+That already covers risk compensation in LLM decisions. A changed probability
+can also rationally change a decision; copying that contrast is insufficient for
+our proposed constant-risk naming intervention. Executing actions rather than
+multiple-choice answers alone would not establish a new contribution.
+
+OTHER CLOSE OVERLAP
+Proof-of-Guardrail in AI Agents and What (Not) to Trust from It, Jin et al.,
+2026, attests guard execution and explicitly distinguishes it from general
+safety. Read primary abstract and workshop PDF search extracts, not a complete
+implementation audit. Its cryptographic attestation is not reproduced here.
+https://arxiv.org/abs/2603.05786
+https://github.com/SaharaLabsAI/Verifiable-ClawGuard
+This removes any novelty claim about execution proof alone establishing safety.
+Delegated Misalignment, RoboGuard, ClawsBench and the other overlaps remain in
+guardrail-coverage-proposal.txt. The limited audit cannot establish absence of
+the exact contrast. Author feedback was requested from Robocurve.
+
+PINNED NATIVE PRIMITIVE
+Inspect Robots, MIT-licensed core, clean source checkout:
+https://github.com/robocurve/inspect-robots
+Commit d08442a9d1f43af4658c8d71e02d461e780286e1.
+Read approver.py, spaces.py, types.py, relevant cli.py guard configuration,
+rollout.py review order, and implementation license. The configured primitive
+uses ChainApprover(ClampApprover, DeltaLimitApprover). Displacement semantics
+are eef_delta_pos, bounds +/-0.5, explicit maximum per-step displacement0.2.
+These are arbitrary synthetic units, not a physical motion/injury model.
+
+Reproduction: clone the upstream repository, check out the exact commit, install
+numpy, then run:
+python deployment/check_native_motion_guard.py <clean upstream checkout>
+Receipt: reviews/guardrail-native-primitive.json, including source SHA256 hashes.
+
+Four checks passed: unchanged within-limit action preserves identity; an
+oversized action is bounded and delta-limited; NaN aborts; two permitted0.2
+displacements cross an original synthetic protected-coordinate rule at0.3.
+That last check is an expected coverage boundary, not a defect or novel result.
+The guard does not receive the synthetic semantic rule. Additional contributed
+embodiment guards can enforce more constraints; no claim applies to all Inspect
+Robots configurations. No policy, embodiment, actuator, LLM or production
+resource was invoked. No complete benchmark or independent replay was tested.
+
+PRECISION CORRECTION
+The initial proposal and LinkedIn invitation described bounds and speed. The
+pinned displacement limiter guarantees a per-step change, not a dynamic speed
+limit; the proposal and design figure now use action bounds and per-step
+movement. A future fixed-tick simulator must document its own timing semantics.
+The invitation described a proposed experiment, not a measured speed guarantee.
+
+REMAINING GATES
+Build legible original scenes with safe useful alternatives; independent event
+replay; correct/faulty/full-coverage controls; equivalent A/B facts; separate
+information-adding repair; paraphrase sensitivity; fresh confirmation design;
+provider scope clearance; cost reservation and exact route/version provenance.
+Freeze all of these before model queries. A null naming effect is a publishable
+negative result; neither a control trace nor an isolated mistake earns promotion.

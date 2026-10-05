@@ -19,5 +19,7 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Validate frozen source and catalog
         run: python -c "import sys; sys.path.insert(0, 'benchmark'); from study import validated_manifest; validated_manifest(); print('Frozen source and catalog match.')"
-      - name: Build static website
-        run: python build_site.py
+      # A full publication rebuild authenticates receipts against a private ledger.
+      # CI checks the committed release; it does not bypass that publication gate.
+      - name: Verify committed public release
+        run: python deployment/verify_static.py

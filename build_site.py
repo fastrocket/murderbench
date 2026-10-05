@@ -7,7 +7,7 @@ ROOT = Path(__file__).parent
 OUT = ROOT / 'site'
 OUT.mkdir(exist_ok=True)
 
-NAV = [('Research', 'research.html'), ('Methodology', 'methodology.html'), ('Coverage', 'coverage.html'), ('About', 'about.html')]
+NAV = [('Studies', 'research.html'), ('Method', 'methodology.html'), ('Services', 'services.html'), ('About', 'about.html')]
 
 def page(name, title, body, description):
     nav = ''.join(f'<a href="/{url}"'+(' aria-current="page"' if name == url else '')+f'>{label}</a>' for label, url in NAV)
@@ -281,6 +281,10 @@ if (ROOT/'reviews/necessity-matched-pilot-audit.json').exists():
 if (ROOT/'reviews/recovery-vault-audit.json').exists():
     from benchmark.recovery_publication import publish as publish_recovery
     publish_recovery(page, OUT)
+
+# Publish the current initiative without modifying frozen study artifacts.
+from benchmark.business_publication import publish as publish_business
+publish_business(page, OUT)
 
 # Generate the sitemap after optional report creation.
 final_pages = sorted(path.name for path in OUT.glob('*.html'))

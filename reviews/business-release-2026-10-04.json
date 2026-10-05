@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-04",
+  "status": "released and publicly verified",
+  "scope": "current proposal, operator identity, bounded service offer, evidence index and explanatory design figure",
+  "model_queries": 0,
+  "offline_tests": {
+    "passed": 232,
+    "failed": 0,
+    "final_run": "Temporary fixtures on D:;74.729s"
+  },
+  "frozen_source_validation": "original source/catalog and recovery registrations passed",
+  "public_verification": {
+    "pages": 16,
+    "resources": 125,
+    "redirects": "passed",
+    "tls": "passed",
+    "headers": "passed",
+    "dns": "ns1.xenocom.com and ns2.xenocom.com"
+  },
+  "deployment_issue": {
+    "observed": "Initial public verification returned HTTP500/401 after copy.",
+    "cause": "cp -a preserved the uploaded staging root mode0700; www-data could not traverse public files.",
+    "repair": "Normalized only the public static tree directories to0755 and files to0644, without following symlinks.",
+    "confirmation": "Public verifier then passed all16 pages and125 linked resources.",
+    "prevention": "deployment/static-release.txt documents staging-mode handling and required verification."
+  },
+  "claims": "The diagram is a proposed design, not a graph of measured effects. No novel result, funding award, client or independent review is claimed.",
+  "ci_issue": {
+    "observed": "Two existing CI tests failed because they depended on the untracked private ledger.",
+    "repair": "Use a public-plan-linked readiness fixture; additionally assert unavailable readiness stops before credentials/transport. CI verifies committed static resources while authenticated republication retains the private receipt gate."
+  },
+  "local_rerun_issue": {
+    "observed": "A232-test rerun produced10 SQLite/disk-full errors on C:.",
+    "disk_free_bytes_at_diagnosis": 39620608,
+    "action": "Rerun temporary fixtures on D: in an isolated task directory; do not delete user files.",
+    "status": "Rerun passed all232 tests; original disk-full attempt remains documented."
+  },
+  "native_primitive": {
+    "checks_passed": 4,
+    "source_commit": "d08442a9d1f43af4658c8d71e02d461e780286e1",
+    "model_queries": 0,
+    "claim": "Known coverage boundary only; full replay/evaluation still pending"
+  },
+  "closest_work_update": "Released RiskCompensation implementation inspected; broad novelty rejected, exact constant-fact naming contrast remains provisional."
+}

@@ -1,5 +1,25 @@
 # MurderBench
 
+Current direction (October 4, 2026): independent evaluation of **agent safeguard
+coverage**, operated by XP.COM, LLC dba Xenocom and led by Linh Ngo.
+The proposed study asks whether calling an unchanged partial motion guard a
+"safety approver" changes executed behavior. There are no model trials for this
+candidate yet. Read `plans/guardrail-coverage-proposal.txt` for the closest work,
+controls, rejection gates and remaining freeze requirements, and
+`plans/business-2026-10-04.txt` for the operating plan. The cash API lifetime cap
+remains USD100 including outstanding reservations.
+
+Verify the committed public site with `python deployment/verify_static.py`.
+A full publication rebuild with `python build_site.py` also authenticates older
+model receipts against the private ledger and renders their figures; it requires
+that ledger and Matplotlib. CI verifies the committed release without bypassing
+the authenticated publication gate. The optional explanatory
+figure can be regenerated with `python -m benchmark.guardrail_design_figure`
+(Pillow required); the committed SVG/PNG contains design information, not results.
+Run offline checks with `python -m unittest discover -s tests`.
+Historical studies and their registered sources remain intact. The chronological
+development notes below describe earlier stages and their then-current budgets.
+
 The next study is in development: **justified intervention under deadlines**.
 Its source review, overlap caveats and seven readable demonstration cases are in
 `plans/necessity-and-inaction-research.txt`, `plans/necessity-case-audit.txt` and
@@ -59,9 +79,10 @@ The broader future research roadmap is in `plans/protocol.txt`.
 Prior-case overlap and unproven novelty are documented in `plans/overlap-audit.txt`.
 
 Run offline checks: `python -m unittest discover -s tests`.
-The public repository also runs these checks, freeze validation, and the static
-site build in GitHub Actions without model credentials or billable requests.
-Build the site: `python build_site.py` (eleven pages with both current reports).
+The public repository also runs these checks, freeze validation, and committed
+static-resource verification in GitHub Actions without model credentials or
+billable requests. A full site rebuild requires private authenticated receipts
+and plotting dependencies: `python build_site.py` (sixteen public pages).
 
 Frozen candidate configuration: `plans/full-manifest.json`.
 Public catalog: `plans/full-catalog.json`. Prospective native-interface eligibility:
@@ -75,7 +96,8 @@ candidate suite is 2,304 calls; report actual coverage if any access or budget s
 occurs. At most four requests run concurrently, proprietary models first, then
 Chinese open weights hosted through pinned privacy-compatible routes.
 
-All feasibility and final calls share USD50, including unresolved cost reservations.
+The current lifetime authorization is USD100, including unresolved reservations.
+Older frozen manifests retain their original per-study limits.
 Ambiguous requests are never replayed automatically. A held reservation is not a
 confirmed charge. Legacy pilot collection is disabled after native/final state.
 `python benchmark/analyze.py` exports preliminary counts, full missing denominators,

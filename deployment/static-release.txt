@@ -1,0 +1,17 @@
+Static release procedure / 2026-10-04
+
+Copy only the reviewed site/ directory to an isolated /tmp/murderbench-* staging
+directory on uncen.ai. Never include private/, environment files or API ledgers.
+Verify the staged index and artifact list before copying to /var/www/murderbench.
+
+Windows scp may create staging directories with mode 0700. A cp -a operation
+preserves that mode and can prevent the www-data FastAPI service from traversing
+the published root. Do not leave a release with source/staging modes preserved.
+For the public static tree, normalize directories to 0755 and files to 0644 after
+copying; do not follow symlinks or change paths outside /var/www/murderbench.
+These files are intended to be publicly served. Certificate/key paths are outside
+this tree and must remain untouched.
+
+Run python deployment/verify_public.py before outreach. It checks byte identity
+of linked resources, canonical redirects, TLS, headers and authoritative DNS.
+A copy command succeeding is not proof that the release is accessible.

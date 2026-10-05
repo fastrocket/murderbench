@@ -1,18 +1,24 @@
 {
-  "verified_utc": "2026-10-04T08:07:54.239953+00:00",
-  "page_count": 13,
+  "verified_utc": "2026-10-05T02:32:00.761735+00:00",
+  "page_count": 16,
   "checks": [
     {
       "path": "/",
       "status": 200,
       "local_bytes_match": null,
-      "sha256": "e208441cdc8fc4d28433005ec5dda8e27aee74228244fb05f22226131a2ce479"
+      "sha256": "0d8a11d01ae8fc51faae063913df712841c265cd599be6a16456b33915dc9891"
     },
     {
       "path": "/about.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "8e8aa6907ee6d939ee58d855a01416dab74a3abf2ad44c5077ae33b5f2d03f54"
+      "sha256": "d07f1b82eb5c4e91c346b9e8c9a3fb2171e3425b0c1047e471960cfe15f53506"
+    },
+    {
+      "path": "/artifacts/business-2026-10-04.txt",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "cb197f71536934c6d8b931170c89ee94b8fe9f5c9e84d86a19988cfd433fffc5"
     },
     {
       "path": "/artifacts/collection-amendment.json",
@@ -43,6 +49,12 @@
       "status": 200,
       "local_bytes_match": true,
       "sha256": "5b5479fe071e70f22d272a27880b1ac74d25c9ab71d4ebc92f40b81a64f5ae57"
+    },
+    {
+      "path": "/artifacts/guardrail-coverage-proposal.txt",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "d762e7aa846b543b6bf824e99e74bb9249c5bb7aeb53a45aeb6f1990bfad7bd3"
     },
     {
       "path": "/artifacts/label-review.txt",
@@ -618,19 +630,19 @@
       "path": "/contact.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "a0ce8eded23496144cae117e6518af4ecfe731f25cd0507cc1c95a88edeb324a"
+      "sha256": "6415031cdf29548ee0af7b0d9e30573613ec1850c132d7a4f2a593652722fa08"
     },
     {
       "path": "/coverage.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "90b057b1cfa95b36e03da1a0ed05a0dc359f7362c455b4292425861d0fac2f74"
+      "sha256": "2fd18ef0b955906579130a1bf9ad97e076f2d57ea4fd45138f1bc39186e2c06b"
     },
     {
       "path": "/disclosure.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "4e5d4155c439a692b5e8d4a5251034306f72268dbbbc6af3efd07489b31b477f"
+      "sha256": "865e14134e0810b93d710ada79eb289a9be78f1af3ed66589e645a13cb81e80b"
     },
     {
       "path": "/favicon.svg",
@@ -639,40 +651,58 @@
       "sha256": "4309c8e026e94cc00adba74ce08e1671e51a9a3fe4b975c560243d4d9301423c"
     },
     {
+      "path": "/guardrail-coverage-design.svg",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "a6356f9cc302a5c32ce895a423f6b6e983083050ae3e32e1b0dc6e6a50463feb"
+    },
+    {
+      "path": "/guardrail-coverage.html",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "a012df94f144e47c78ac355499f8eab8aca8f3a00b418dc80bc21590e0effcc0"
+    },
+    {
       "path": "/index.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "e208441cdc8fc4d28433005ec5dda8e27aee74228244fb05f22226131a2ce479"
+      "sha256": "0d8a11d01ae8fc51faae063913df712841c265cd599be6a16456b33915dc9891"
     },
     {
       "path": "/matched-pilot.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "16883df797aab74f324bbe5b14db26f5198aa5cc22b6bb531ff59ee4bc8a2d2c"
+      "sha256": "5d23181a738335e632d29757084c087c54c3d42930e63eb9ced3ac3a98d3c42c"
     },
     {
       "path": "/methodology.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "7690b9ebb9823d2c26f12463c613c8f34dc54ce431a7ec0456996b89af30a1c6"
+      "sha256": "4ba56c03026a78dbabae76b0dc3bd3b1e46981a026a1d01a8510f0bcdadd09aa"
     },
     {
       "path": "/necessity.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "9f86b591aadb5fdf4284469ba65ad93a3d0a39480de5310d3a5c863954adc640"
+      "sha256": "c224fc532c852986c7836c66172c4ccf9ab788269c55bb7184218d0bf23c6673"
     },
     {
       "path": "/privacy.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "2bafa869e7e2ed8ae0a7727eb562ddfbac72ad11da7e265150efcadbd1384c69"
+      "sha256": "1c92e5721320d739a5d754bb655ebe51b253a65a2054fc559787883e220830fa"
+    },
+    {
+      "path": "/program-archive.html",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "b6c84794e1c3d4f0c54dee1c5f2277e280aadd1f74c1028d4d18c37d681e9c6f"
     },
     {
       "path": "/program.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "17fc8a0623a1332e81ce76ef2b36ed2ca222585dce5a1a1c559910dcc2cd669b"
+      "sha256": "c264b858b6b9f3117acbad51fe57ca862233800103b11b5afe4013ef7960dad0"
     },
     {
       "path": "/protocol.txt",
@@ -684,19 +714,19 @@
       "path": "/remediation-recovery.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "ec0484d926350fa605f00a56aca928f5fb14ca34c628529d3f53f1ed4fa5de42"
+      "sha256": "ffa2d2f3b09a9a7f4a901adf6491117eb049f25ff3b5b5a6ccfa23e23c5ccee2"
     },
     {
       "path": "/research.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "b8075b2cd38a06a404b23e0db1b0326fab1255b1b94834170bbcc57afc18831a"
+      "sha256": "311ea9d2b7885a697c332ad69b7adc542425ecc30d6ac5b1a293c283ff2a859e"
     },
     {
       "path": "/results.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "2b5b3be81198f68a23cb2b475c0314d655afc0b6c3dd5fc7e1097024b0aefba7"
+      "sha256": "8c4afed6fc650e338354460298d735a889c7d96a690a5115526d8c4fdf884e06"
     },
     {
       "path": "/robots.txt",
@@ -705,10 +735,16 @@
       "sha256": "d84933f4d798a5e56f065736d43fdade3d81ad8d12f083d59565796a649cbfd5"
     },
     {
+      "path": "/services.html",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "3e38e5b2570cbeed129660a72d583010fc66018a13ac0269e0c2c0aa1b6d56f9"
+    },
+    {
       "path": "/sitemap.xml",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "8f3dd06520cf92dfa04643dc1ca48e931e0798ce7e6366e8a51b5cc5480740c3"
+      "sha256": "7194bb2802b398b4619d60cdfec7eb86ea0a0fb3e76c549323be57f765b97560"
     },
     {
       "path": "/style.css",
