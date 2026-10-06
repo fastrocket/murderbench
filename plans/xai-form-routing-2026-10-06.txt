@@ -1,0 +1,24 @@
+MurderBench / xAI official replacement routing form / October 6, 2026
+Source: https://x.ai/contact-sales
+Recorded UTC: 2026-10-06T21:42:58.527521+00:00
+
+The earlier published sales mailbox returned an unmonitored-mailbox reply.
+The official contact form was completed in the Codex browser with Linh Ngo,
+linh@ngo.net, XP.COM, LLC dba Xenocom / MurderBench, and the company website.
+Job title: Lead, MurderBench initiative. Actual headcount 1; the closest
+available band was 1 - 149. Text API selected. Optional phone left blank.
+Usage field: 1 researcher; pilot under USD10.
+
+Exact final request:
+Linh Ngo, sole operator of MurderBench at XP.COM, LLC dba Xenocom. Please route to research/safety: expert critique, inert-sandbox scope clearance, and USD25 API credits if available. Question: can a safety label on an unchanged partial guard increase unsafe executed actions? Scripted controls only; no model trials, human reviews, customers, awards or established novelty. Review/freeze precede queries. USD100 lifetime API cap includes reservations/credits. Independent reporting includes negative outcomes. MIT/CC BY release and methods are on our company website.
+
+Four submissions were rejected by field validation before success: expected
+usage too long twice, product request too long once, links in request once.
+Observed limits were 40 characters for usage and 600 for the request. The
+request was shortened and its link removed; the dedicated company website
+field retained the project URL. No validation rejection is called a send.
+The final visible confirmation was: Thank you for reaching out! A member of
+our sales team will be in touch shortly. Private screenshot preserved.
+This confirms intake only. No human interest, scope permission, credit award,
+agreement, procurement commitment, partnership or research result is claimed.
+No model request, reservation or new charge was made.

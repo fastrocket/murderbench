@@ -136,3 +136,10 @@ Authorized social invitations are recorded separately from drafts in
 `plans/outreach-evidence.json` and `plans/x-outreach-evidence.json`.
 No external scientific reviewer, replication partner, grant or endorsement is
 claimed. Funding figures are preliminary estimates requiring quotes and review.
+
+# Public reuse
+
+The owner-approved [guardrail release licence](LICENSING.md) covers 7 MIT
+source/test files and 10 CC BY 4.0 report/figure files and public report copies.
+Commercial reuse is permitted under those terms. Scope is defined by exact
+files and fingerprints; this is not a repository-wide licence.

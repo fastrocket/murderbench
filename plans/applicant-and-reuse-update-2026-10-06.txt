@@ -1,0 +1,58 @@
+MurderBench / applicant facts and bounded public reuse / October 6, 2026
+
+Owner-provided facts
+Linh Ngo confirms headcount 1: himself. Operator remains XP.COM, LLC dba
+Xenocom. No prior grants or applications before the current project. Current
+inquiries and requests made in this thread remain in the attempts ledger and
+must be disclosed separately where a fund asks about overlapping requests.
+No award, revenue, independent method review or customer commitment is claimed.
+
+Public reuse
+The owner explicitly approved public reuse of this thread's original work.
+The prepared release was activated for its exact 17 verified files: seven
+source/test files under MIT and ten original report/figure files and public
+report copies under CC BY 4.0. The manifest is LICENSES/guardrail-release.json;
+the scope/attribution notice is LICENSES/guardrail-notice.txt. All 17 study
+fingerprints were verified unchanged before activation. Historical licence
+proposals and earlier messages remain preserved; the then-pending state in
+those messages is not rewritten. The rest of the repository, upstream code,
+model outputs and future funded work are not granted a licence by this release.
+No third-party rights are inferred from the owner's approval.
+
+Application status
+The signed-in Chrome inventory exposes the Claude Platform organization page
+and the OpenAI SurveyMonkey Apply registration tab. Attempts to obtain either
+controllable tab timed out before page contents could be read. No organization
+ID was guessed or extracted from account/browser files. A paid chat subscription
+does not establish the API organization required by the researcher form.
+A fallback in the Codex browser reached the official OpenAI program, Apply,
+Register, and the SurveyMonkey Apply signup page. The signup form, registration
+terms, CAPTCHA and Create Account button were visibly inspected and shown to
+the owner. Private screenshots preserve the handoff. The page is left open and
+marked for the owner to complete credential creation and registration. No user
+data was filled; the optional API-account email remains blank. CAPTCHA, account
+creation, legal acceptance and the actual application remain incomplete.
+xAI's official replacement contact form was subsequently completed in Codex
+and visibly confirmed, using headcount 1 and requesting USD25 credits, methods
+critique and inert-sandbox scope routing. Four validation rejections preceded
+success and are preserved in plans/xai-form-routing-2026-10-06.txt. Intake is
+not an award, human review or permission to query.
+The TAIF form was also inspected in Codex. It requires a fund-scope assertion
+before additional fields. The current study's catastrophic-risk relevance is
+unestablished, so the manager left that assertion unchecked. This is a fit
+decision, not a fund rejection. The history answer is recorded in the draft;
+no TAIF application was submitted. No browser error is called a submission.
+
+Inbox check
+A targeted connected business-mailbox check on October 6 found no new substantive
+funding, provider-scope or independent-review response. New OpenAI matches were
+general product announcements; a GitHub match concerned the already documented
+and repaired historical CI configuration error. Automatic receipts are not
+funding, endorsements or human review. No repeat outreach was sent.
+
+Spending and research gates
+No new model request or reservation. The lifetime API cap remains USD100,
+including outstanding reservations and credit-funded use. Last accounted
+liability USD42.6938673116; remaining USD57.3061326884. These are the last ledger
+figures, not new spending verification. Guardrail proposal remains at zero model
+trials, with novelty, external review, fresh cases and protocol freeze unresolved.

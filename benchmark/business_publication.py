@@ -78,3 +78,5 @@ def publish(page, out):
         if target.name in ('index.html', 'guardrail-coverage.html', 'program.html'):
             text = text.replace('<meta property="og:type"', '<meta property="og:image" content="https://murderbench.com/guardrail-coverage-design.png"><meta name="twitter:card" content="summary_large_image"><meta property="og:type"', 1)
         target.write_text(text, encoding='utf-8')
+    from benchmark.guardrail_licensing import publish as publish_licensing
+    publish_licensing(out)

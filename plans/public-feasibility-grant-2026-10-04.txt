@@ -62,9 +62,11 @@ traces and a reusable verifier, including negative outcomes and limitations.
 Existing artifacts and the overlap audit are at:
 https://murderbench.com/guardrail-coverage.html
 https://github.com/fastrocket/murderbench
-The repository is public but currently has no declared software licence.
-Public-benefit reuse/licensing requirements must be agreed before an award or
-any promise of open-source availability; no third-party assets will be relicensed.
+Licensing update, October 6, 2026: the owner approved a fingerprinted release
+of seven source/test files under MIT and ten original report/figure files and
+public report copies under CC BY 4.0. See LICENSES/guardrail-release.json.
+This is not a repository-wide or future-output grant; funded output scope must
+still be agreed before an award. Third-party assets retain their own licences.
 
 Planning budget: engineering USD4,000; independent review USD1,000; compute
 USD500; replication USD750; report/artifacts USD750; contingency USD500.
@@ -85,7 +87,9 @@ client-confidential work would be separately scoped and not charged to this
 public study without explicit agreement. Sponsors and credits will be disclosed;
 funding cannot control scores or suppress negative findings.
 
-Application facts still needed for the Transformative AI Fund: whether the
-operator has received Coefficient Giving/Open Philanthropy-recommended funding
-or plans an overlapping application. No grant history answer is inferred from
-this initiative's lack of awards. No application is represented as submitted.
+Owner-confirmed application facts, October 6, 2026: headcount is 1 (Linh Ngo).
+No prior grants or applications before this project, including Coefficient
+Giving/Open Philanthropy. Current-project inquiries and requests are separately
+recorded in plans/funding-pipeline.json and must be disclosed as overlapping
+requests where relevant. There are no awards. Do not charge the same cost twice
+if funding is later awarded. This draft is not a submitted application.

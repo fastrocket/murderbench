@@ -1,0 +1,26 @@
+Guardrail demonstration: public reuse licence
+Owner approval: October 6, 2026
+
+Only the exact files and fingerprints in guardrail-release.json are covered.
+The seven source/test files labelled MIT are licensed under the accompanying
+standard MIT License. Copyright (c) 2026 XP.COM, LLC.
+
+The ten original report/figure files and public report copies labelled
+CC-BY-4.0 are licensed under Creative Commons Attribution 4.0 International:
+https://creativecommons.org/licenses/by/4.0/
+Legal terms: https://creativecommons.org/licenses/by/4.0/legalcode.en
+Attribution: Linh Ngo / MurderBench, XP.COM, LLC dba Xenocom.
+Original study: https://murderbench.com/guardrail-coverage.html
+Retain applicable attribution and indicate modifications as the licence requires.
+Both licences permit commercial reuse subject to their terms.
+
+The grant covers only the operator's licensable contributions in those files.
+Third-party material retains its own permissions and notices. This is not a
+repository-wide or future-work licence. Older studies, provider model outputs,
+event receipts, source snapshots, ZIP archives, private data, customer material,
+upstream packages, external papers/datasets and fonts are outside this grant.
+No endorsement, trademark or patent permission beyond the applicable licence
+is asserted. The native executor and Phoenix SDK retain their upstream licences.
+
+This release is a proposed evaluation and scripted demonstration. Licensing is
+not independent scientific review, an established novel result or a model finding.

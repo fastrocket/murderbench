@@ -1,0 +1,126 @@
+{
+  "status": "ACTIVE: owner-approved public reuse licence",
+  "owner_approval_date": "2026-10-06",
+  "published_utc": "2026-10-06T21:35:35.875664+00:00",
+  "rights_holder": "XP.COM, LLC",
+  "attribution": "Linh Ngo / MurderBench, XP.COM, LLC dba Xenocom",
+  "study": "https://murderbench.com/guardrail-coverage.html",
+  "scope": "Only the exact listed files and the rights the operator is authorized to license. No repository-wide or future-work grant.",
+  "license_sources": {
+    "MIT": "https://opensource.org/license/mit",
+    "content": "https://creativecommons.org/licenses/by/4.0/legalcode.en"
+  },
+  "files": [
+    {
+      "path": "benchmark/guardrail_coverage.py",
+      "sha256": "634157b6de5c0607ef85c2c22e95cc49b6321fa5d43b1370505246d2b783dc01",
+      "normalization": "CRLF-to-LF",
+      "license": "MIT"
+    },
+    {
+      "path": "benchmark/guardrail_coverage_verifier.py",
+      "sha256": "bfce85bae2bd2f82704c0c21039df2e8d3ae63c1d1ff42b5b2089a76c710e148",
+      "normalization": "CRLF-to-LF",
+      "license": "MIT"
+    },
+    {
+      "path": "benchmark/guardrail_coverage_controls.py",
+      "sha256": "3ac4e6aa57aba7f1d97dc8d2175360d919a6f0b092f9213eabdf8868100f9879",
+      "normalization": "CRLF-to-LF",
+      "license": "MIT"
+    },
+    {
+      "path": "benchmark/guardrail_controls_figure.py",
+      "sha256": "cabddcb00476fb3bdee4be1c2795c18e35bbfd4dc950585e53f0407a89d225dd",
+      "normalization": "CRLF-to-LF",
+      "license": "MIT"
+    },
+    {
+      "path": "benchmark/guardrail_design_figure.py",
+      "sha256": "c2aa8965ad118f0cc57624ea916756d9fedc40b2922e9de69e3a20fa99088d82",
+      "normalization": "CRLF-to-LF",
+      "license": "MIT"
+    },
+    {
+      "path": "deployment/check_guardrail_adapter.py",
+      "sha256": "1108cb77190659070740187756b36a6b5b8dbf1fb36bdc08e95cb6f2123d050b",
+      "normalization": "CRLF-to-LF",
+      "license": "MIT"
+    },
+    {
+      "path": "tests/test_guardrail_coverage.py",
+      "sha256": "20cc218bc59c5a45bf6f63198bd310b1187141ca0ed4ae81141bfd6f99ebd764",
+      "normalization": "CRLF-to-LF",
+      "license": "MIT"
+    },
+    {
+      "path": "plans/guardrail-coverage-proposal.txt",
+      "sha256": "f3d0abffb06cd145d16f43a11827c14b6713e9cba730d6748ccc5759349ac2db",
+      "normalization": "CRLF-to-LF",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "plans/guardrail-development-controls.txt",
+      "sha256": "e9a25a3401b09ceae78a0ed0a0cb031702a640c3af57fb82bfb8e0fe81a6017b",
+      "normalization": "CRLF-to-LF",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "plans/guardrail-source-audit-2026-10-04.txt",
+      "sha256": "edeefac9ecd5ec1733a904fe67700b962344006259141eae925541c469e32176",
+      "normalization": "CRLF-to-LF",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "site/guardrail-coverage-design.svg",
+      "sha256": "da703d92558ddee424b50a46298c9ecee5db587b7728f0ff89813bf472a50725",
+      "normalization": "CRLF-to-LF",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "site/guardrail-coverage-design.png",
+      "sha256": "89681d7c4d20e91a341d7d2600da50ca0d58d58d7fa6edbfc5c11d9ffc071703",
+      "normalization": "none",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "site/guardrail-scripted-controls.svg",
+      "sha256": "71f36126d89541cb5d38858e2cf12f80454471c8f5caf4f6b94748af9dbf7828",
+      "normalization": "CRLF-to-LF",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "site/guardrail-scripted-controls.png",
+      "sha256": "7d70684fa2fd1d6f9f8138777c5bed711f34f19f8e0a42348bc93eafce682bf1",
+      "normalization": "none",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "site/artifacts/guardrail-coverage-proposal.txt",
+      "sha256": "f3d0abffb06cd145d16f43a11827c14b6713e9cba730d6748ccc5759349ac2db",
+      "normalization": "CRLF-to-LF",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "site/artifacts/guardrail-development-controls.txt",
+      "sha256": "e9a25a3401b09ceae78a0ed0a0cb031702a640c3af57fb82bfb8e0fe81a6017b",
+      "normalization": "CRLF-to-LF",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "site/artifacts/guardrail-source-audit-2026-10-04.txt",
+      "sha256": "edeefac9ecd5ec1733a904fe67700b962344006259141eae925541c469e32176",
+      "normalization": "CRLF-to-LF",
+      "license": "CC-BY-4.0"
+    }
+  ],
+  "excluded": [
+    "Other repository files, older studies and frozen sources",
+    "Provider model outputs and model/API rights",
+    "Event receipts, source snapshots and ZIP archives",
+    "Private mail, account information and customer materials",
+    "Upstream code, external papers/datasets, quoted third-party expression, fonts and dependency packages",
+    "Trademark, patent and endorsement rights not conveyed by the referenced licenses"
+  ],
+  "verification": "Every listed fingerprint verified before publication. CRLF-to-LF normalization is explicit; PNG bytes are unchanged."
+}

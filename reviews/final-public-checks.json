@@ -1,5 +1,5 @@
 {
-  "verified_utc": "2026-10-05T04:50:24.884728+00:00",
+  "verified_utc": "2026-10-06T21:38:00.357259+00:00",
   "page_count": 16,
   "checks": [
     {
@@ -51,6 +51,12 @@
       "sha256": "5b5479fe071e70f22d272a27880b1ac74d25c9ab71d4ebc92f40b81a64f5ae57"
     },
     {
+      "path": "/artifacts/guardrail-code-MIT.txt",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "fcd1051a655ce65bccb6a2da9dd3c769257b7613d3fc9050379aa6e9da6e651f"
+    },
+    {
       "path": "/artifacts/guardrail-coverage-controls.json",
       "status": 200,
       "local_bytes_match": true,
@@ -75,6 +81,12 @@
       "sha256": "550ce7f16216ceb347dcace21b9557b7a9447bed8e1765b1255722078b04dcaf"
     },
     {
+      "path": "/artifacts/guardrail-licensing.txt",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "084e1c7ee00e3fe2c8cbf6d61a12a897f9f0ad4bd0be71d0b317cd92120b8fa3"
+    },
+    {
       "path": "/artifacts/guardrail-native-differential.json",
       "status": 200,
       "local_bytes_match": true,
@@ -97,6 +109,12 @@
       "status": 200,
       "local_bytes_match": true,
       "sha256": "71888b86a015b1ea085dc4150397998e3b42065e697bcfa6e1dd661c99e7d36e"
+    },
+    {
+      "path": "/artifacts/guardrail-release-license.json",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "0731c78d3e1b8c885fcdbfd5680270ab383c5edf22cc50d5d32135cfb42f4749"
     },
     {
       "path": "/artifacts/guardrail-source-audit-2026-10-04.txt",
@@ -708,7 +726,7 @@
       "path": "/guardrail-coverage.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "20c8d85ed5dc0eae924a69e5f4e052c16ad6d5f1fc30c04a1631ed2fd30078c2"
+      "sha256": "e2a868326f944ad1a434c8640c5429ead4d2e92a5492c492588caa31c14c7d3f"
     },
     {
       "path": "/guardrail-scripted-controls.png",
@@ -847,13 +865,13 @@
       "name": "murderbench.com",
       "type": 2,
       "TTL": 300,
-      "data": "ns2.xenocom.com."
+      "data": "ns1.xenocom.com."
     },
     {
       "name": "murderbench.com",
       "type": 2,
       "TTL": 300,
-      "data": "ns1.xenocom.com."
+      "data": "ns2.xenocom.com."
     }
   ]
 }

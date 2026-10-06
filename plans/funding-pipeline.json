@@ -1,10 +1,17 @@
 {
-  "updated_date": "2026-10-05",
+  "updated_date": "2026-10-06",
   "applicant": {
     "name": "Linh Ngo",
     "operator": "XP.COM, LLC dba Xenocom",
     "initiative": "MurderBench",
-    "email": "linh@ngo.net"
+    "email": "linh@ngo.net",
+    "headcount": 1,
+    "grant_history": {
+      "confirmed_by_owner": "2026-10-06",
+      "prior_awards": "None",
+      "prior_applications_before_this_project": "None",
+      "current_project_requests": "The attempts ledger contains current inquiries and requests made in this thread; these are disclosed separately and have not produced an award."
+    }
   },
   "stage": "proposal and targeted outreach; no awards",
   "routes": [
@@ -17,7 +24,8 @@
       "verified": "2026-10-05",
       "requested_usd": 1000,
       "status": "fit inquiry sent and readback verified; no formal application or reply",
-      "caveat": "Capped USD1000 independent methods-review fit inquiry; unquoted estimate, no reviewer booked or formal grant application. Existing commercial operator, AI assistance, zero study model trials / human reviews / qualified conversations, framing overlap and pending owner reuse licence disclosed. No expanded API cap, career commitment, partnership, award or novelty claim. Chrome tab creation and inventory timed out; no application fields or agreement inspected. Current programme eligibility remains unconfirmed."
+      "caveat": "Capped USD1000 independent methods-review fit inquiry; unquoted estimate, no reviewer booked or formal grant application. Existing commercial operator, AI assistance, zero study model trials / human reviews / qualified conversations, framing overlap and pending owner reuse licence disclosed. No expanded API cap, career commitment, partnership, award or novelty claim. Chrome tab creation and inventory timed out; no application fields or agreement inspected. Current programme eligibility remains unconfirmed.",
+      "current_reuse_update": "2026-10-06: Owner approved and activated a verified 17-file public reuse release (7 MIT, 10 CC BY 4.0). Earlier inquiries truthfully described the then-unresolved licence. Future funded scope is not yet agreed. No duplicate follow-up sent."
     },
     {
       "id": "realharm-author-review",
@@ -184,7 +192,8 @@
       "verified": "2026-10-04",
       "status": "fit inquiry sent; prerequisites unresolved; no formal application or award",
       "deadline": "2026-10-31 23:59 PDT",
-      "caveat": "For-profits allowed; open-source funded outputs required and in-person SF/Berlin strongly prioritized. Existential-risk relevance, reuse licence, connection and in-person commitment unestablished. Do not inflate current feasibility ask to meet typical grant range."
+      "caveat": "For-profits allowed; open-source funded outputs required and in-person SF/Berlin strongly prioritized. Existential-risk relevance, reuse licence, connection and in-person commitment unestablished. Do not inflate current feasibility ask to meet typical grant range.",
+      "current_reuse_update": "2026-10-06: Owner approved and activated a verified 17-file public reuse release (7 MIT, 10 CC BY 4.0). Earlier inquiries truthfully described the then-unresolved licence. Future funded scope is not yet agreed. No duplicate follow-up sent."
     },
     {
       "id": "manifund-public-benefit",
@@ -194,7 +203,8 @@
       "contact_source": "https://manifund.org/about/donor-faq",
       "verified": "2026-10-04",
       "status": "eligibility/reviewer-routing inquiry sent; no public proposal, application, agreement or award",
-      "caveat": "For-profit fiscal sponsorship is possible subject to charitable and legal review; project eligibility and donor interest unconfirmed. Current software licence unresolved."
+      "caveat": "For-profit fiscal sponsorship is possible subject to charitable and legal review; project eligibility and donor interest unconfirmed. Current software licence unresolved.",
+      "current_reuse_update": "2026-10-06: Owner approved and activated a verified 17-file public reuse release (7 MIT, 10 CC BY 4.0). Earlier inquiries truthfully described the then-unresolved licence. Future funded scope is not yet agreed. No duplicate follow-up sent."
     },
     {
       "id": "sentient-foundation-public-goods",
@@ -205,7 +215,8 @@
       "verified": "2026-10-04",
       "status": "fit/reviewer-routing inquiry delivered; no formal application, agreement or award",
       "caveat": "Essential reusable component required; missing software licence disclosed and no commitment made. Country resolved from public company page. Fit, reviewer and grant terms unconfirmed; no investment requested.",
-      "country_source": "https://xenocom.com/"
+      "country_source": "https://xenocom.com/",
+      "current_reuse_update": "2026-10-06: Owner approved and activated a verified 17-file public reuse release (7 MIT, 10 CC BY 4.0). Earlier inquiries truthfully described the then-unresolved licence. Future funded scope is not yet agreed. No duplicate follow-up sent."
     },
     {
       "id": "nlnet-commons",
@@ -272,11 +283,11 @@
       "id": "anthropic-researcher-access",
       "kind": "API credits",
       "source": "https://support.claude.com/en/articles/9125743-what-is-the-external-researcher-access-program",
-      "status": "prepared; pending legal acceptance and organization ID",
+      "status": "prepared; browser control timed out reading organization page; organization ID and legal acceptance still pending",
       "verified": "2026-10-04",
       "amount": "Usually USD1000 credits if approved",
       "timing": "First Monday of each month; next scheduled review 2026-10-05; no approval guarantee",
-      "next": "Inspect application and submit accurate team/topic/account details"
+      "next": "Find the actual API Console organization in the authorized signed-in browser; do not infer it from a paid Claude plan or create a key/account."
     },
     {
       "id": "anthropic-evaluations",
@@ -291,29 +302,31 @@
       "id": "openai-researcher-access",
       "kind": "API credits",
       "source": "https://help.openai.com/en/articles/10139500-researcher-access-program-faq",
-      "status": "eligibility inquiry sent; proposal prepared; new applicant registration pending CAPTCHA and legal acceptance; no application",
+      "status": "eligibility inquiry sent; proposal prepared; signup/CAPTCHA visibly shown and left open in Codex for owner; no registration or application",
       "verified": "2026-10-04",
       "amount": "Up to USD1000 credits",
-      "caveat": "Academic/other research-organization affiliation required. Commercial LLC and new initiative disclosed; eligibility unconfirmed. Account creation explicitly accepts terms and requires CAPTCHA; confirmation pending. Credits would remain subject to existing USD100 lifetime API cap.",
+      "caveat": "Academic/other research-organization affiliation required; commercial LLC and new initiative disclosed, eligibility unconfirmed. The owner requested the signup/CAPTCHA page; it is visibly open in Codex. Credential creation is left to the owner. No account, registration terms, CAPTCHA or application completed. Credits remain subject to the existing USD100 lifetime API cap.",
       "timing": "Quarterly reviews; next listed month December",
       "contact": "democratic_process_grant_questions@openai.com",
       "contact_source": "Official grant portal Help menu; administrator contact, not a verified specialist researcher inbox",
       "portal": "https://openai.smapply.org/prog/openai_researcher_access_program/",
       "proposed_requested_usd": 50,
       "draft": "plans/openai-researcher-access-draft-2026-10-04.txt",
-      "authentication": "Google sign-in reached new SurveyMonkey Apply registration. Name/profile/email scope only; account not created. Optional OpenAI API email blank; actual application fields unseen."
+      "authentication": "Google sign-in reached new SurveyMonkey Apply registration. Name/profile/email scope only; account not created. Optional OpenAI API email blank; actual application fields unseen.",
+      "next": "Owner completes signup, CAPTCHA and registration terms on the visible SurveyMonkey Apply page. Then inspect actual application fields and adapt the truthful draft. Optional API-account email remains unverified and blank."
     },
     {
       "id": "ea-transformative-ai",
       "kind": "early-stage grant",
       "source": "https://funds.effectivealtruism.org/funds/transformative-ai",
       "contact": "transformativeai@effectivealtruismfunds.org",
-      "status": "inquiry sent; official application partly started, pending required grant-history answer; not submitted",
+      "status": "history confirmed and draft updated; not submitted; newly inspected form requires mandatory fund-scope assertion before more fields",
       "verified": "2026-10-04",
       "caveat": "Open to individuals/new organizations; usual grants USD10k-150k; predominantly catastrophic-risk focus. Our narrower operational study needs an honest fit assessment.",
       "application_source": "https://av20jp3z.paperform.co/?fund=Transformative+AI+Fund",
-      "next": "Required operator Coefficient Giving/Open Philanthropy funding history and overlapping application plans; user question pending",
-      "draft": "plans/public-feasibility-grant-2026-10-04.txt"
+      "next": "Await fund fit/reviewer routing or a defensible catastrophic-risk connection before asserting scope. No duplicate eligibility email or current form submission.",
+      "draft": "plans/public-feasibility-grant-2026-10-04.txt",
+      "scope_gate": "2026-10-06: Required confirmation states the application falls within the fund scope. Current operational guard proposal has unestablished catastrophic-risk relevance; the assertion was left unchecked. This is the manager's conservative fit decision, not a rejection received from the fund."
     },
     {
       "id": "far-ai",
@@ -362,11 +375,14 @@
       "id": "xai",
       "kind": "API credits / evaluation partnership routing",
       "source": "https://docs.x.ai/developers/faq/general",
-      "status": "email received automatic unmonitored-mailbox reply; official form prepared, awaiting required headcount",
+      "status": "official replacement contact form visibly confirmed submitted on 2026-10-06; no substantive reply or credit award",
       "verified": "2026-10-04",
       "caveat": "Published developer FAQ lists the mailbox, but its automatic reply says it is unmonitored. No human review, grant program or funding team confirmed; request through official contact form. No sponsorship entitlement.",
       "replacement_route": "https://x.ai/contact-sales",
-      "contact": "sales@x.ai"
+      "contact": "sales@x.ai",
+      "next": "Await a substantive routing reply; do not repeat the form or assume review, scope clearance, credits or partnership.",
+      "requested_usd": 25,
+      "form_evidence": "plans/xai-form-routing-2026-10-06.txt"
     },
     {
       "id": "paid-evaluation-buyers",
@@ -533,6 +549,14 @@
       "date": "2026-10-04",
       "type": "eligibility/routing inquiry email",
       "outcome": "sent; no application or award claimed"
+    },
+    {
+      "route": "xai",
+      "date": "2026-10-06",
+      "recorded_utc": "2026-10-06T21:42:58.527521+00:00",
+      "type": "official replacement contact form: methods / scope / credit routing",
+      "requested_usd": 25,
+      "outcome": "Visible Thank you for reaching out confirmation, screenshot preserved. Four validation rejections before success (usage length twice, request length once, links in request once). No grant application, review, scope clearance, credit award, purchase, agreement or partnership."
     }
   ],
   "awards": [],
@@ -540,5 +564,13 @@
   "research_audit": "plans/funding-route-audit-2026-10-04.txt",
   "latest_credit_audit": "plans/credit-requests-2026-10-04.txt",
   "latest_market_review_audit": "plans/guardrail-market-and-review-audit-2026-10-05.txt",
-  "latest_current_call_audit": "plans/funding-current-call-audit-2026-10-05.txt"
+  "latest_current_call_audit": "plans/funding-current-call-audit-2026-10-05.txt",
+  "public_reuse": {
+    "owner_approved": "2026-10-06",
+    "manifest": "LICENSES/guardrail-release.json",
+    "mit_source_test_files": 7,
+    "cc_by_4_report_figure_and_copy_files": 10,
+    "scope": "Exact listed original contributions only; not repository-wide, upstream or future-work licensing."
+  },
+  "latest_applicant_update": "plans/applicant-and-reuse-update-2026-10-06.txt"
 }

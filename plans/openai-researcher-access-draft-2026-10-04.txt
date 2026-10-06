@@ -74,9 +74,11 @@ authorization, and some credits may remain unused if the candidate is rejected.
 Outputs: a public feasibility report, frozen protocol/case versions, attempt
 ledger and replayable artifacts, including a negative or inconclusive outcome.
 There is no promised general alignment verdict, physical injury estimate,
-customer validation or independently reviewed breakthrough. The repository is
-public but has no declared software licence; public access is not a FOSS claim.
-Any reuse terms must be resolved before a licensing commitment. Sponsors and
+customer validation or independently reviewed breakthrough. Licensing update,
+October 6, 2026: seven listed source/test files use MIT and ten listed original
+report/figure files and public report copies use CC BY 4.0, with verified
+fingerprints in LICENSES/guardrail-release.json. This is not a repository-wide,
+third-party or future-output grant. Future output scope must be agreed. Sponsors and
 credits would be disclosed, with no control over scores or suppression of
 negative findings. Any shareable model content would be identified as generated
 and reviewed before publication; security issues would follow the applicable
