@@ -1,0 +1,74 @@
+MurderBench / response and account-gate check / October 8, 2026
+
+Scope and evidence
+Checked the authenticated outreach Gmail mailbox in the Codex browser, including
+Spam and Trash, using project terms and known outreach/provider domains after
+October 4. The two searches returned 10 and 5 conversations respectively, with
+no additional result page. Full incoming correspondence and exact thread URLs
+are preserved in ignored private evidence, not copied into the public report.
+The connected Gmail tool currently exposes a different account; its results
+were excluded from the outreach-response conclusion. Chrome was absent from
+the browser inventory. These limitations did not prevent the correct Gmail
+mailbox check through the authenticated Codex browser.
+
+Two business/funding replies verified
+E2B, displayed October 7: support declined the requested reviewer commitment
+and suggested self-service hobby-tier use, with an optional paid upgrade.
+This is not a reviewer engagement, eligibility clearance, credit award or
+partnership. No account or paid plan was created.
+
+EA Funds, displayed October 5: conditional Transformative AI Fund scope guidance
+was received. Work with a substantive connection to advanced/transformative AI
+risk could fit; general reliability or present-day operational safety is less
+likely to fit. The team does not discuss individual proposals before application
+and pointed to published criteria and the application. This is not an eligibility
+decision, independent methods review, award or rejection. The current proposal's
+fit remains unestablished. Assess that connection honestly before asserting scope;
+do not relabel ordinary reliability work to satisfy a funding form.
+
+Correction: the October 5 EA Funds reply was missed by the earlier check recorded
+on October 6. The earlier audit remains preserved; this verified observation
+supersedes its current-response conclusion. Gmail displayed message dates without
+a verified timezone; receipt UTC values have not been invented.
+
+No other substantive project funding, scope or methods-review reply was found
+in these targeted searches. Automated OpenRouter receipts, the unmonitored xAI
+mailbox response, product mail and general account billing notices are not awards.
+No independent scientific reviewer or qualified buyer is confirmed. The xAI
+replacement form was already submitted October 6; it was not repeated. Existing
+7-10 business-day follow-up timing has not elapsed for the October 4-6 outreach.
+
+Social observations
+The current LinkedIn proposal post showed 18 impressions and no visible comments
+on its detail page. A LinkedIn message-content search for MurderBench returned
+no matches. This is bounded observation, not exhaustive proof that no one has
+discussed the proposal. Unrelated sidebar profile/post totals were excluded.
+The October 2 X invitation remains publicly accessible and showed 5 views.
+X was logged out, so replies and direct messages were not fully checked. The
+newer guardrail proposal X draft remains unpublished. No new post or message
+was sent during this check.
+
+Still needed from the owner
+1. Complete the OpenAI Researcher Access SurveyMonkey Apply registration shown
+   in Codex: new password, CAPTCHA and any registration acceptance. The observed
+   form is blank; no account or application is confirmed. If an account was
+   completed elsewhere, use that account rather than creating a duplicate.
+2. Provide a signed-in Claude API Platform session for the main account, or
+   reconnect its signed-in Chrome session. The organization settings page in
+   Codex is logged out. The agent will retrieve the actual organization ID;
+   the owner is not being asked to find it. Do not infer it from a chat plan.
+3. For a complete X reply check or publishing the newer draft, provide a
+   signed-in X session. This is optional for the funding/account work above.
+
+Owner identity, XP.COM, LLC dba Xenocom, headcount 1, no earlier grants or
+applications, and the bounded public-reuse release are already resolved.
+No additional API budget is required for this status check. No new model
+request, reservation, spend, application, agreement or grant award occurred.
+Independent methods review, contribution assessment, fresh confirmation cases
+and protocol freeze remain research tasks for the project, not missing owner facts.
+
+Verification
+Latest GitHub Actions at the pre-check HEAD 71489bb62ec5e6e0aa3939daaa581c35daeab2f1
+were successful, including the optional Phoenix job. No code, study fingerprint,
+live site or model result changed in this check. JSON and diff checks validate
+the updated operational records; they do not constitute scientific validation.

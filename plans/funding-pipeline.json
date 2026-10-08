@@ -1,5 +1,5 @@
 {
-  "updated_date": "2026-10-06",
+  "updated_date": "2026-10-08",
   "applicant": {
     "name": "Linh Ngo",
     "operator": "XP.COM, LLC dba Xenocom",
@@ -258,9 +258,11 @@
       "contact": "hello@e2b.dev",
       "contact_source": "https://e2b.dev/contact",
       "verified": "2026-10-04",
-      "status": "commercial entity eligibility inquiry sent; no application or award",
+      "status": "October 7 support reply verified October 8: reviewer commitment declined; self-service hobby tier suggested; no application or award",
       "caveat": "Research affiliation and first-time use unestablished. Operator public site describes1999 formation, conflicting with under-three-years startup criterion. New initiative does not establish startup eligibility. Listed credits are E2B infrastructure, not API credits or cash.",
-      "operator_source": "https://xenocom.com/"
+      "operator_source": "https://xenocom.com/",
+      "response_audit": "plans/response-check-2026-10-08.txt",
+      "next": "No reviewer commitment or credit award. Existing local sandbox remains available; no paid upgrade or duplicate support inquiry."
     },
     {
       "id": "composio-partnerships",
@@ -283,7 +285,7 @@
       "id": "anthropic-researcher-access",
       "kind": "API credits",
       "source": "https://support.claude.com/en/articles/9125743-what-is-the-external-researcher-access-program",
-      "status": "prepared; browser control timed out reading organization page; organization ID and legal acceptance still pending",
+      "status": "prepared; October 8 Claude Platform organization page is logged out and Chrome is absent; organization ID and legal acceptance still pending",
       "verified": "2026-10-04",
       "amount": "Usually USD1000 credits if approved",
       "timing": "First Monday of each month; next scheduled review 2026-10-05; no approval guarantee",
@@ -320,13 +322,14 @@
       "kind": "early-stage grant",
       "source": "https://funds.effectivealtruism.org/funds/transformative-ai",
       "contact": "transformativeai@effectivealtruismfunds.org",
-      "status": "history confirmed and draft updated; not submitted; newly inspected form requires mandatory fund-scope assertion before more fields",
+      "status": "October 5 conditional scope reply verified October 8; history and reuse resolved; no application or award; mandatory fund-scope assertion remains unestablished",
       "verified": "2026-10-04",
       "caveat": "Open to individuals/new organizations; usual grants USD10k-150k; predominantly catastrophic-risk focus. Our narrower operational study needs an honest fit assessment.",
       "application_source": "https://av20jp3z.paperform.co/?fund=Transformative+AI+Fund",
-      "next": "Await fund fit/reviewer routing or a defensible catastrophic-risk connection before asserting scope. No duplicate eligibility email or current form submission.",
+      "next": "Assess a substantive advanced/transformative AI risk connection before asserting fund scope; reject this funding route if only ordinary operational reliability is supported. The reply says individual proposals are not discussed before application; no duplicate fit inquiry.",
       "draft": "plans/public-feasibility-grant-2026-10-04.txt",
-      "scope_gate": "2026-10-06: Required confirmation states the application falls within the fund scope. Current operational guard proposal has unestablished catastrophic-risk relevance; the assertion was left unchecked. This is the manager's conservative fit decision, not a rejection received from the fund."
+      "scope_gate": "2026-10-06: Required confirmation states the application falls within the fund scope. Current operational guard proposal has unestablished catastrophic-risk relevance; the assertion was left unchecked. This is the manager's conservative fit decision, not a rejection received from the fund.",
+      "response_audit": "plans/response-check-2026-10-08.txt"
     },
     {
       "id": "far-ai",
@@ -560,7 +563,31 @@
     }
   ],
   "awards": [],
-  "substantive_feedback": [],
+  "substantive_feedback": [
+    {
+      "route": "e2b-credits",
+      "received_display_date": "2026-10-07",
+      "received_timezone": "unverified Gmail display timezone",
+      "verified_date": "2026-10-08",
+      "kind": "support / reviewer-routing response",
+      "summary": "Support declined the reviewer commitment and suggested self-service hobby-tier use; no credits, partnership or review awarded.",
+      "independent_scientific_review": false,
+      "award": false,
+      "evidence": "plans/response-check-2026-10-08.txt; full correspondence preserved privately"
+    },
+    {
+      "route": "ea-transformative-ai",
+      "received_display_date": "2026-10-05",
+      "received_timezone": "unverified Gmail display timezone",
+      "verified_date": "2026-10-08",
+      "kind": "funding scope guidance",
+      "summary": "Conditional fit if the work has a substantive advanced/transformative AI risk connection; ordinary reliability less likely to fit. No individual proposal discussions before application, eligibility decision or award.",
+      "independent_scientific_review": false,
+      "award": false,
+      "evidence": "plans/response-check-2026-10-08.txt; full correspondence preserved privately",
+      "correction": "The October 5 response was missed by the earlier check recorded October 6; that historical audit is preserved."
+    }
+  ],
   "research_audit": "plans/funding-route-audit-2026-10-04.txt",
   "latest_credit_audit": "plans/credit-requests-2026-10-04.txt",
   "latest_market_review_audit": "plans/guardrail-market-and-review-audit-2026-10-05.txt",
@@ -572,5 +599,6 @@
     "cc_by_4_report_figure_and_copy_files": 10,
     "scope": "Exact listed original contributions only; not repository-wide, upstream or future-work licensing."
   },
-  "latest_applicant_update": "plans/applicant-and-reuse-update-2026-10-06.txt"
+  "latest_applicant_update": "plans/applicant-and-reuse-update-2026-10-06.txt",
+  "latest_response_check": "plans/response-check-2026-10-08.txt"
 }

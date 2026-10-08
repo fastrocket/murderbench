@@ -120,7 +120,7 @@
       "subject": "MurderBench: commercial benchmark eligibility / sandbox-credit routing",
       "recorded_utc": "2026-10-05 03:40:40 UTC",
       "delivery": "Gmail returned SENT",
-      "reply_status": "No substantive reply recorded",
+      "reply_status": "October 7 support reply verified October 8: reviewer commitment declined; self-service hobby tier suggested; no credits, partnership or review awarded",
       "source": "https://e2b.dev/contact",
       "claims": "Eligibility/reviewer routing; research/startup qualification and credit award not established"
     },
@@ -156,7 +156,7 @@
       "subject": "Fit inquiry: bounded agent-safeguard evaluation before a grant application",
       "recorded_utc": "2026-10-05 02:33:11 UTC",
       "delivery": "Gmail returned SENT",
-      "reply_status": "No substantive reply recorded"
+      "reply_status": "October 5 EA Funds reply verified October 8: conditional advanced/transformative AI risk fit guidance; no preapplication proposal discussions, eligibility decision, independent methods review or award"
     },
     {
       "route": "openrouter",
@@ -200,8 +200,8 @@
     {
       "route": "xai",
       "source": "https://x.ai/contact-sales",
-      "status": "prepared, not submitted",
-      "pending": "Required company headcount; question pending with user",
+      "status": "submitted October 6; visible Thank you confirmation; no substantive reply or credit award",
+      "evidence": "plans/xai-form-routing-2026-10-06.txt",
       "purpose": "Research credits, methodological reviewer or evaluation-partnership routing; no purchase commitment"
     },
     {
@@ -214,14 +214,14 @@
     {
       "route": "anthropic-researcher-access",
       "status": "prepared, not submitted",
-      "pending": "Legal acceptance and Claude Console organization ID",
+      "pending": "Legal acceptance and actual Claude API organization ID; October 8 organization page is logged out and Chrome absent; owner sign-in or reconnect needed, agent will retrieve ID",
       "amount_requested": "USD1000 API credits"
     },
     {
       "route": "ea-transformative-ai",
       "source": "https://av20jp3z.paperform.co/?fund=Transformative+AI+Fund",
       "status": "partially started; not submitted",
-      "pending": "Required operator Coefficient Giving/Open Philanthropy funding history / overlapping application plans; user question pending",
+      "pending": "Owner grant history and reuse resolved October 6. Fund-scope assertion remains unestablished; October 5 conditional scope reply verified October 8 does not establish this proposal's eligibility",
       "purpose": "USD7,500 public-benefit feasibility proposal; novelty and operational relevance unproven"
     }
   ],
@@ -234,14 +234,16 @@
       "claims": "Research proposal, no measured effect, requests critique and support",
       "graphic": "Proposed experiment design in link preview; no rates represented",
       "clarification": "Edited and verified after refresh: precise per-step movement limits; risk-compensation prior work acknowledged. Public source audit records the wording correction.",
-      "observed_reach": "Read-only inspection on2026-10-04 showed6 impressions for this specific post and no visible method comments. Not qualified customer demand, independent review or evidence of viral reach; unrelated sidebar totals excluded."
+      "observed_reach": "Read-only inspection on2026-10-04 showed6 impressions for this specific post and no visible method comments. Not qualified customer demand, independent review or evidence of viral reach; unrelated sidebar totals excluded.",
+      "latest_observation": "October 8: 18 impressions for this specific post, no visible comments; message-content search for MurderBench returned no matches. Bounded observations, not exhaustive response coverage."
     },
     {
       "channel": "X",
       "status": "prepared, not published",
-      "pending": "Chrome sign-in and legal agreement",
+      "pending": "Signed-in X session needed; October 8 public detail is logged out. Any explicit legal acceptance requires owner action-time confirmation",
       "draft": "plans/guardrail-x-draft-2026-10-04.txt"
     }
   ],
-  "follow_up": "One tailored follow-up after7-10 business days if no substantive reply, then stop unless invited."
+  "follow_up": "One tailored follow-up after7-10 business days if no substantive reply, then stop unless invited.",
+  "latest_response_check": "plans/response-check-2026-10-08.txt"
 }
