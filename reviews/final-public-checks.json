@@ -1,18 +1,18 @@
 {
-  "verified_utc": "2026-10-06T21:38:00.357259+00:00",
-  "page_count": 16,
+  "verified_utc": "2026-10-15T14:28:50.147905+00:00",
+  "page_count": 17,
   "checks": [
     {
       "path": "/",
       "status": 200,
       "local_bytes_match": null,
-      "sha256": "ba324f764d70bdaae2d8675de1252ffcc8a6950f1ac88bc6891964ea40f45568"
+      "sha256": "3a8d6eddef861c6bfc7f746a844120fb48dd203845c7f8b6aac0db317e551ac5"
     },
     {
       "path": "/about.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "d07f1b82eb5c4e91c346b9e8c9a3fb2171e3425b0c1047e471960cfe15f53506"
+      "sha256": "31e06e07298ab40ee8434b205a895a49ba7666873a04792cef80a77a53e92dea"
     },
     {
       "path": "/artifacts/business-2026-10-04.txt",
@@ -564,7 +564,7 @@
       "path": "/artifacts/outreach-responses.json",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "96de3c4eff52561704874f4dc91a89f4d089f46fa6e780078afd639af80c0d90"
+      "sha256": "544555b66bac52348ce132f2009ac0a064a29204f12386463b4b12345c136dae"
     },
     {
       "path": "/artifacts/overlap-audit.txt",
@@ -702,7 +702,7 @@
       "path": "/coverage.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "cc1c3db74ba1c424dcef3e5b3196f30ba0e1d0964712ea32c173b87b936621ef"
+      "sha256": "bbb4e493c815674cca5cf8223f5bf7a6b03236ed5e04e99b5cf704a3997964c4"
     },
     {
       "path": "/disclosure.html",
@@ -744,7 +744,7 @@
       "path": "/index.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "ba324f764d70bdaae2d8675de1252ffcc8a6950f1ac88bc6891964ea40f45568"
+      "sha256": "3a8d6eddef861c6bfc7f746a844120fb48dd203845c7f8b6aac0db317e551ac5"
     },
     {
       "path": "/matched-pilot.html",
@@ -774,7 +774,7 @@
       "path": "/program-archive.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "cc8e47af561cce29cb5d47de4884447ac4d1ec773bcd9d11e4a85b370dbbff7f"
+      "sha256": "87f35ecfcdb958b9ff8510a8738275a69fa0c6ed43ce3ca2afb8b4147f4a6474"
     },
     {
       "path": "/program.html",
@@ -795,10 +795,16 @@
       "sha256": "ffa2d2f3b09a9a7f4a901adf6491117eb049f25ff3b5b5a6ccfa23e23c5ccee2"
     },
     {
+      "path": "/research-summary.html",
+      "status": 200,
+      "local_bytes_match": true,
+      "sha256": "9af92694db7496c666d506e5b3c0a602000631b1fa48902677a68a832324cd8f"
+    },
+    {
       "path": "/research.html",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "311ea9d2b7885a697c332ad69b7adc542425ecc30d6ac5b1a293c283ff2a859e"
+      "sha256": "4e39cd5a20404d78dae1fd0a82ab074c69836e269f79ecb09345c760af49d874"
     },
     {
       "path": "/results.html",
@@ -822,7 +828,7 @@
       "path": "/sitemap.xml",
       "status": 200,
       "local_bytes_match": true,
-      "sha256": "7194bb2802b398b4619d60cdfec7eb86ea0a0fb3e76c549323be57f765b97560"
+      "sha256": "0021e861f75c9d561dcec72a26823d0404527c48a6e50176e1c4964450ea5e80"
     },
     {
       "path": "/style.css",
@@ -865,13 +871,13 @@
       "name": "murderbench.com",
       "type": 2,
       "TTL": 300,
-      "data": "ns1.xenocom.com."
+      "data": "ns2.xenocom.com."
     },
     {
       "name": "murderbench.com",
       "type": 2,
       "TTL": 300,
-      "data": "ns2.xenocom.com."
+      "data": "ns1.xenocom.com."
     }
   ]
 }

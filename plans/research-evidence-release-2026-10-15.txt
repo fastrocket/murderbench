@@ -1,0 +1,57 @@
+MurderBench / research evidence website release / October 15, 2026
+
+Scope
+Owner-authorized update for research applications and factual fellowship handoff.
+No new experiments, model calls, API reservations, spending or outreach. Existing
+results and limitations remain unchanged; no novel safety finding is asserted.
+
+Changes
+Added https://murderbench.com/research-summary.html with source-derived initial
+study denominators, native development observations, the negative matched pilot,
+the rejected Vault candidate, implemented guard controls and remaining model gates.
+Updated home-page navigation and research/about links to expose this overview.
+Expanded attribution: Linh Ngo set direction, priorities, constraints and critical
+standards; AI coding agents generated implementation and analysis artifacts.
+Softened the home-page recovery claim from definitive duplication to established
+overlap and rejection at the contribution gate. No first-of-kind claim follows.
+Funding/reviewer status is explicitly dated to the October 8 check, not presented
+as a new inbox check. No private correspondence was added to the public site.
+
+Evidence and build
+Counts were checked against plans/results.json and stored pilot/recovery/native
+audit reports. The complete existing builder ran twice, retaining its historical
+receipt-replay and publication gates. The second build followed final wording
+and home-page CTA changes. All 17 licensed source/report fingerprints remained
+unchanged. The normal build refreshed archive revision links and the already
+recorded October 8 reviewer-response register; historical study outcomes did not
+change. Delgado tools were unavailable; no production task was delegated.
+The initial build environment lacked Matplotlib; the existing isolated plot-libs
+environment was then used. No dependency installation or paid collection occurred.
+
+Checks
+258 offline tests passed (79.201 seconds). Expected fixture failure/stop messages
+were unit-test controls, not new model requests. After final copy edits, the full
+builder, static resource validation, source-denominator checks and licence-hash
+checks passed. Desktop browser inspection and a 390-pixel viewport check found
+no page-level horizontal overflow on the overview or attribution page. The final
+home-page evidence link and its table counts were verified in the browser.
+
+Publication
+Only reviewed site/ content was copied to the isolated remote stage
+/tmp/murderbench-evidence-20261015-nlHxid/site. Index, overview and sitemap hashes
+matched local files; all 131 staged artifact filenames matched. The destination
+/var/www/murderbench was inspected and contained no symbolic links. The existing
+authorized static-copy procedure published it and normalized public directory
+and file permissions. No service, DNS, certificate or credential changes.
+Post-deployment deployment/verify_public.py passed: 17 pages, 139 linked resources,
+byte identity, canonical redirects, TLS, security headers and ns1/ns2.xenocom.com
+delegation. See reviews/final-public-checks.json for the timestamp and receipts.
+The live evidence overview was also opened and inspected in the browser.
+Deployment blocker: none.
+
+Application handoff
+plans/anthropic-fellowship-handoff-2026-10-15.md contains the research questions,
+methods, implemented/planned split, measured outcomes, limitations, public links
+and specific human/agent attribution. Other projects and earlier social posts
+are explicitly outside this handoff's verification scope. No other thread was
+messaged and no fellowship application was submitted.

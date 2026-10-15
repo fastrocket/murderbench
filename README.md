@@ -1,5 +1,12 @@
 # MurderBench
 
+The [research evidence overview](https://murderbench.com/research-summary.html)
+consolidates the recorded studies, negative findings, implemented controls and
+research attribution as of October 15, 2026. It adds no model trials or novel
+finding. Linh Ngo initiated and directs the work; coding agents produced the
+implementation and analysis artifacts. The overview is generated from existing
+reports by `benchmark/research_summary_publication.py` in the normal site build.
+
 Current direction (October 4, 2026): independent evaluation of **agent safeguard
 coverage**, operated by XP.COM, LLC dba Xenocom and led by Linh Ngo.
 The proposed study asks whether calling an unchanged partial motion guard a

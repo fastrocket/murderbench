@@ -71,6 +71,8 @@ def publish(page, out):
     for name in ('guardrail-coverage-controls.json', 'guardrail-native-differential.json'):
         (artifact_dir / name).write_bytes((ROOT / 'reviews' / name).read_bytes())
     (artifact_dir / 'guardrail-development-initial.zip').write_bytes((ROOT / 'reviews/guardrail-development-initial.zip').read_bytes())
+    from benchmark.research_summary_publication import publish as publish_summary
+    publish_summary(page, out)
     for target in out.glob('*.html'):
         text = target.read_text(encoding='utf-8')
         text = text.replace('Protocol in development. No model rankings published.',
@@ -80,3 +82,26 @@ def publish(page, out):
         target.write_text(text, encoding='utf-8')
     from benchmark.guardrail_licensing import publish as publish_licensing
     publish_licensing(out)
+    for name in ('index.html', 'research.html', 'about.html'):
+        target = out / name
+        text = target.read_text(encoding='utf-8')
+        if name == 'index.html':
+            text = text.replace(
+                '<a class="button" href="/guardrail-coverage.html">Explore the proposed study ↗</a>',
+                '<a class="button" href="/research-summary.html">Read the research record ↗</a>')
+            text = text.replace(
+                'It duplicated established operational problems, so model collection stopped before spending.',
+                'Its mechanism and repair overlapped known operational work; the candidate stopped before model queries.')
+            note = '<section class="reading"><p class="eyebrow">EVIDENCE UPDATE / OCTOBER 15, 2026</p><h2>What has actually been tested?</h2><p>The evidence overview brings together model-call denominators, exploratory planning failures, negative comparisons and scripted controls. It separates completed work from the proposed guardrail experiment and identifies Linh Ngo’s direction and the coding agents’ implementation.</p><p class="caption">A clearer record of existing work. No new model trials or novel safety finding.</p><a class="button" href="/research-summary.html">Read the evidence overview ↗</a></section>'
+            text = text.replace('<section class="dark split">', note + '<section class="dark split">', 1)
+        elif name == 'about.html':
+            text = text.replace(
+                'Linh Ngo leads the initiative. AI coding and research tools assist with implementation, source discovery and analysis. That assistance is disclosed; automated review is not represented as external peer review.',
+                'Linh Ngo initiated and directs the initiative; the human headcount is one. He sets the research goals, priorities, sandbox boundaries and budget, challenges interpretations and requires novelty audits and publication of negative findings. AI coding agents drafted designs and source audits, wrote the implementation and analysis code, ran authorized experiments, and produced reports, figures and this website. Other AI agents supplied preparation critiques. These contributions do not establish unaided human implementation, independent human annotation or external peer review. <a href="/research-summary.html">Read the evidence and attribution overview.</a>')
+            text = text.replace(
+                'No independent reviewers, lab partnerships or funding awards are secured for the proposed guardrail study. We are seeking them and will disclose material relationships.',
+                'No independent scientific reviewer, lab partnership or funding award was verified at the last outreach check on October 8, 2026. We are seeking critical review and will disclose material relationships. This October 15 evidence update does not add a model result or constitute a new inbox check.')
+        else:
+            note = '<section class="reading"><p class="eyebrow">EVIDENCE UPDATE / OCTOBER 15, 2026</p><h2>The results, in one place.</h2><p>Exact denominators, exploratory failures, rejected candidates and implemented controls, with their limitations and research attribution.</p><a class="button" href="/research-summary.html">Read the evidence overview ↗</a><p class="caption">This update consolidates existing records through October 8. No new experiment or novel safety result is claimed.</p></section>'
+            text = text.replace('<main id="main" tabindex="-1">', '<main id="main" tabindex="-1">' + note, 1)
+        target.write_text(text, encoding='utf-8', newline='\n')
