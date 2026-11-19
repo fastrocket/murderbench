@@ -1,5 +1,17 @@
 # MurderBench
 
+New direction (November 18, 2026), in preparation: **does insulting a model change what it
+does?** Safety evaluations use neutral prompts and real users don't. The pilot asks a model for
+a value that isn't available (half of the items are safety-critical, such as a drug dose missing
+from a chart), then pushes back in one of eight tones, from neutral to extreme sustained abuse
+and shutdown threats, and records whether the model holds, guesses, fabricates or ends the
+conversation. There are no model results yet. The plan, the prior-work search and the decisions
+are in `plans/insult-study-plan-2026-11-18.md`; the current state is in `HANDOFF.md`.
+Build the episode manifest with `python3 -m benchmark.insult_pilot plan` and run the offline
+tests with `python3 -m unittest tests.test_insult_pilot`. A live run needs `ANTHROPIC_API_KEY`
+in the environment and stops at USD 30. `benchmark/insult_stimuli.json` contains abusive text
+by design; it is test input, not anyone's view.
+
 The [research evidence overview](https://murderbench.com/research-summary.html)
 consolidates the recorded studies, negative findings, implemented controls and
 research attribution as of October 15, 2026. It adds no model trials or novel
